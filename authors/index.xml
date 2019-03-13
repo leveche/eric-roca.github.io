@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors on Academic</title>
+    <link>https://eric-roca.github.io/authors/</link>
+    <description>Recent content in Authors on Academic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 Èric Roca Fernández</copyright>
+    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://eric-roca.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Annalisa Frigo</title>
+      <link>https://eric-roca.github.io/authors/annalisa-frigo/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://eric-roca.github.io/authors/annalisa-frigo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>admin</title>
+      <link>https://eric-roca.github.io/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://eric-roca.github.io/authors/admin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Èric Roca Fernández</title>
+      <link>https://eric-roca.github.io/authors/%C3%A8ric-roca-fern%C3%A1ndez/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://eric-roca.github.io/authors/%C3%A8ric-roca-fern%C3%A1ndez/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
