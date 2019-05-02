@@ -1,318 +1,210 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
-    
-    <url>
-    
-      <loc>https://eric-roca.github.io/talk/2019-01_marseille/</loc>
-      <lastmod>2019-01-01T00:00:00+01:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://eric-roca.github.io/publication_types/3/</loc>
+    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://eric-roca.github.io/talk/2018-12_luxembourg/</loc>
-      <lastmod>2018-12-01T00:00:00+01:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://eric-roca.github.io/</loc>
+    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://eric-roca.github.io/talk/2018-02_palaiseau/</loc>
-      <lastmod>2018-01-01T00:00:00+01:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://eric-roca.github.io/authors/admin/</loc>
+    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://eric-roca.github.io/talk/2017-12_bonn/</loc>
-      <lastmod>2017-11-01T00:00:00+01:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://eric-roca.github.io/authors/</loc>
+    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://eric-roca.github.io/other_research/flfp/</loc>
-      <lastmod>2017-10-01T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://eric-roca.github.io/tags/gender-equality/</loc>
+    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://eric-roca.github.io/talk/2017-09_marseille/</loc>
-      <lastmod>2017-09-01T00:00:00+02:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://eric-roca.github.io/working_papers/inheritance-systems/</loc>
+    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://eric-roca.github.io/talk/2018-09_lyon/</loc>
-      <lastmod>2017-09-01T00:00:00+02:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://eric-roca.github.io/publication_types/</loc>
+    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://eric-roca.github.io/talk/2018-06_milan/</loc>
-      <lastmod>2017-09-01T00:00:00+02:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://eric-roca.github.io/tags/</loc>
+    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://eric-roca.github.io/talk/2018-06_odense/</loc>
-      <lastmod>2017-09-01T00:00:00+02:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://eric-roca.github.io/tags/theoretical-model/</loc>
+    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://eric-roca.github.io/talk/2018-08_cologne/</loc>
-      <lastmod>2017-09-01T00:00:00+02:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://eric-roca.github.io/authors/annalisa-frigo/</loc>
+    <lastmod>2019-01-30T14:30:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://eric-roca.github.io/talk/2017-08_bologna/</loc>
-      <lastmod>2017-08-01T00:00:00+02:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://eric-roca.github.io/talk/</loc>
+    <lastmod>2019-01-30T14:30:00+02:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://eric-roca.github.io/working_papers/beguines/</loc>
-      <lastmod>2017-03-15T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://eric-roca.github.io/talk/2019-01_marseille/</loc>
+    <lastmod>2019-01-30T14:30:00+02:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://eric-roca.github.io/talk/2017-02_providence_2/</loc>
-      <lastmod>2017-02-02T00:00:00+01:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://eric-roca.github.io/talk/2018-12_luxembourg/</loc>
+    <lastmod>2018-12-12T14:40:00+01:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://eric-roca.github.io/talk/2017-02_providence_1/</loc>
-      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://eric-roca.github.io/talk/2018-09_lyon/</loc>
+    <lastmod>2018-09-14T11:00:00+02:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://eric-roca.github.io/other_research/</loc>
-      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://eric-roca.github.io/talk/2018-08_cologne/</loc>
+    <lastmod>2018-08-28T14:15:00+02:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://eric-roca.github.io/working_papers/</loc>
-      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://eric-roca.github.io/talk/2018-06_milan/</loc>
+    <lastmod>2018-06-19T11:30:00+02:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://eric-roca.github.io/talk/2016-12_new-delhi/</loc>
-      <lastmod>2016-11-21T11:15:00+05:30</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://eric-roca.github.io/talk/2018-06_odense/</loc>
+    <lastmod>2018-06-05T10:45:00+02:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://eric-roca.github.io/working_papers/inheritance-systems/</loc>
-      <lastmod>2016-02-01T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://eric-roca.github.io/talk/2018-02_palaiseau/</loc>
+    <lastmod>2018-02-08T13:00:00+02:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://eric-roca.github.io/author/admin/</loc>
-    </url>
-    
+  <url>
+    <loc>https://eric-roca.github.io/talk/2017-12_bonn/</loc>
+    <lastmod>2017-12-13T10:40:00+02:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://eric-roca.github.io/publication_types/4/</loc>
-      <lastmod>2017-03-15T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://eric-roca.github.io/talk/2017-09_marseille/</loc>
+    <lastmod>2017-10-17T17:00:00+02:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://eric-roca.github.io/publication_types/7/</loc>
-      <lastmod>2017-10-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://eric-roca.github.io/publication_types/7/</loc>
+    <lastmod>2017-10-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://eric-roca.github.io/</loc>
-      <lastmod>2016-04-20T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://eric-roca.github.io/tags/empirical-work/</loc>
+    <lastmod>2017-10-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://eric-roca.github.io/authors/annalisa-frigo/</loc>
-      <lastmod>2019-01-01T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://eric-roca.github.io/tags/female-employment/</loc>
+    <lastmod>2017-10-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://eric-roca.github.io/author/</loc>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://eric-roca.github.io/other_research/flfp/</loc>
+    <lastmod>2017-10-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://eric-roca.github.io/authors/</loc>
-      <lastmod>2019-01-01T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://eric-roca.github.io/talk/2017-08_bologna/</loc>
+    <lastmod>2017-08-09T14:30:00+02:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://eric-roca.github.io/categories/</loc>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://eric-roca.github.io/tags/economic-history/</loc>
+    <lastmod>2017-03-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://eric-roca.github.io/tags/economic-history/</loc>
-      <lastmod>2017-03-15T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://eric-roca.github.io/working_papers/beguines/</loc>
+    <lastmod>2017-03-15T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://eric-roca.github.io/tags/empirical-work/</loc>
-      <lastmod>2017-10-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://eric-roca.github.io/talk/2017-02_providence_2/</loc>
+    <lastmod>2017-03-02T09:00:00-05:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://eric-roca.github.io/tags/female-employment/</loc>
-      <lastmod>2017-10-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://eric-roca.github.io/talk/2017-02_providence_1/</loc>
+    <lastmod>2017-02-03T09:00:00-05:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://eric-roca.github.io/tags/gender-equality/</loc>
-      <lastmod>2017-03-15T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://eric-roca.github.io/other_research/</loc>
+    <lastmod>2017-01-01T00:00:00+01:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://eric-roca.github.io/post/</loc>
-    </url>
-    
+  <url>
+    <loc>https://eric-roca.github.io/working_papers/</loc>
+    <lastmod>2017-01-01T00:00:00+01:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://eric-roca.github.io/publication_types/</loc>
-      <lastmod>2017-03-15T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://eric-roca.github.io/talk/2016-12_new-delhi/</loc>
+    <lastmod>2016-11-21T11:15:00+05:30</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://eric-roca.github.io/publication/</loc>
-    </url>
-    
+  <url>
+    <loc>https://eric-roca.github.io/authors/%C3%A8ric-roca-fern%C3%A1ndez/</loc>
+    <lastmod>2016-11-21T11:15:00+05:30</lastmod>
+    <priority>0</priority>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://eric-roca.github.io/talk/</loc>
-      <lastmod>2019-01-01T00:00:00+01:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://eric-roca.github.io/author/admin/</loc>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://eric-roca.github.io/tags/</loc>
-      <lastmod>2017-03-15T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://eric-roca.github.io/author/annalisa-frigo/</loc>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://eric-roca.github.io/tags/theoretical-model/</loc>
-      <lastmod>2017-10-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://eric-roca.github.io/author/</loc>
+    <priority>0</priority>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://eric-roca.github.io/authors/admin/</loc>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://eric-roca.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://eric-roca.github.io/authors/%C3%A8ric-roca-fern%C3%A1ndez/</loc>
-      <lastmod>2019-01-01T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://eric-roca.github.io/post/</loc>
+  </url>
+  
+  <url>
+    <loc>https://eric-roca.github.io/publication/</loc>
+  </url>
   
 </urlset>

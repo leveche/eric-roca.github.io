@@ -1,19 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Academic on Academic</title>
+    <title>Academic</title>
     <link>https://eric-roca.github.io/</link>
-    <description>Recent content in Academic on Academic</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content on Academic</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2019 Èric Roca Fernández</copyright>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/" rel="self" type="application/rss+xml" />
+    <copyright>&amp;copy; {year} Èric Roca Fernández</copyright>
+    <lastBuildDate>Wed, 01 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://eric-roca.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>In the Name of the Father: Inheritance Systems and the Dynamics of State Capacity</title>
+      <link>https://eric-roca.github.io/working_papers/inheritance-systems/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://eric-roca.github.io/working_papers/inheritance-systems/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Roots of Gender Equality: the Persistent Effect of Beguinages on Attitudes toward Women</title>
       <link>https://eric-roca.github.io/talk/2019-01_marseille/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0100</pubDate>
+      <pubDate>Wed, 30 Jan 2019 14:30:00 +0200</pubDate>
       
       <guid>https://eric-roca.github.io/talk/2019-01_marseille/</guid>
       <description></description>
@@ -22,16 +33,52 @@
     <item>
       <title>In the Name of the Father: Inheritance Systems and the Dynamics of State Capacity</title>
       <link>https://eric-roca.github.io/talk/2018-12_luxembourg/</link>
-      <pubDate>Sat, 01 Dec 2018 00:00:00 +0100</pubDate>
+      <pubDate>Wed, 12 Dec 2018 14:40:00 +0100</pubDate>
       
       <guid>https://eric-roca.github.io/talk/2018-12_luxembourg/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>If Children Suffer when Mothers Work, Do They Work Less?</title>
+      <link>https://eric-roca.github.io/talk/2018-09_lyon/</link>
+      <pubDate>Fri, 14 Sep 2018 11:00:00 +0200</pubDate>
+      
+      <guid>https://eric-roca.github.io/talk/2018-09_lyon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Roots of Gender Equality: the Persistent Effect of Beguinages on Attitudes toward Women</title>
+      <link>https://eric-roca.github.io/talk/2018-08_cologne/</link>
+      <pubDate>Tue, 28 Aug 2018 14:15:00 +0200</pubDate>
+      
+      <guid>https://eric-roca.github.io/talk/2018-08_cologne/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Roots of Gender Equality: the Persistent Effect of Beguinages on Attitudes toward Women</title>
+      <link>https://eric-roca.github.io/talk/2018-06_milan/</link>
+      <pubDate>Tue, 19 Jun 2018 11:30:00 +0200</pubDate>
+      
+      <guid>https://eric-roca.github.io/talk/2018-06_milan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Roots of Gender Equality: the Persistent Effect of Beguinages on Attitudes toward Women</title>
+      <link>https://eric-roca.github.io/talk/2018-06_odense/</link>
+      <pubDate>Tue, 05 Jun 2018 10:45:00 +0200</pubDate>
+      
+      <guid>https://eric-roca.github.io/talk/2018-06_odense/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Roots of Gender Equality: the Persistent Effect of Beguinages on Atitudes Toward Women</title>
       <link>https://eric-roca.github.io/talk/2018-02_palaiseau/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0100</pubDate>
+      <pubDate>Thu, 08 Feb 2018 13:00:00 +0200</pubDate>
       
       <guid>https://eric-roca.github.io/talk/2018-02_palaiseau/</guid>
       <description></description>
@@ -40,9 +87,18 @@
     <item>
       <title>Roots of Gender Equality: the Persistent Effect of Beguinages on Atitudes Toward Women</title>
       <link>https://eric-roca.github.io/talk/2017-12_bonn/</link>
-      <pubDate>Wed, 01 Nov 2017 00:00:00 +0100</pubDate>
+      <pubDate>Wed, 13 Dec 2017 10:40:00 +0200</pubDate>
       
       <guid>https://eric-roca.github.io/talk/2017-12_bonn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>&#39;Now She&#39;s Martha, then She&#39;s Mary&#39;: The Influence of Beguinages on Attitudes Toward Women</title>
+      <link>https://eric-roca.github.io/talk/2017-09_marseille/</link>
+      <pubDate>Tue, 17 Oct 2017 17:00:00 +0200</pubDate>
+      
+      <guid>https://eric-roca.github.io/talk/2017-09_marseille/</guid>
       <description></description>
     </item>
     
@@ -57,53 +113,8 @@
     
     <item>
       <title>&#39;Now She&#39;s Martha, then She&#39;s Mary&#39;: The Influence of Beguinages on Attitudes Toward Women</title>
-      <link>https://eric-roca.github.io/talk/2017-09_marseille/</link>
-      <pubDate>Fri, 01 Sep 2017 00:00:00 +0200</pubDate>
-      
-      <guid>https://eric-roca.github.io/talk/2017-09_marseille/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>If Children Suffer when Mothers Work, Do They Work Less?</title>
-      <link>https://eric-roca.github.io/talk/2018-09_lyon/</link>
-      <pubDate>Fri, 01 Sep 2017 00:00:00 +0200</pubDate>
-      
-      <guid>https://eric-roca.github.io/talk/2018-09_lyon/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Roots of Gender Equality: the Persistent Effect of Beguinages on Attitudes toward Women</title>
-      <link>https://eric-roca.github.io/talk/2018-06_milan/</link>
-      <pubDate>Fri, 01 Sep 2017 00:00:00 +0200</pubDate>
-      
-      <guid>https://eric-roca.github.io/talk/2018-06_milan/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Roots of Gender Equality: the Persistent Effect of Beguinages on Attitudes toward Women</title>
-      <link>https://eric-roca.github.io/talk/2018-06_odense/</link>
-      <pubDate>Fri, 01 Sep 2017 00:00:00 +0200</pubDate>
-      
-      <guid>https://eric-roca.github.io/talk/2018-06_odense/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Roots of Gender Equality: the Persistent Effect of Beguinages on Attitudes toward Women</title>
-      <link>https://eric-roca.github.io/talk/2018-08_cologne/</link>
-      <pubDate>Fri, 01 Sep 2017 00:00:00 +0200</pubDate>
-      
-      <guid>https://eric-roca.github.io/talk/2018-08_cologne/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>&#39;Now She&#39;s Martha, then She&#39;s Mary&#39;: The Influence of Beguinages on Attitudes Toward Women</title>
       <link>https://eric-roca.github.io/talk/2017-08_bologna/</link>
-      <pubDate>Tue, 01 Aug 2017 00:00:00 +0200</pubDate>
+      <pubDate>Wed, 09 Aug 2017 14:30:00 +0200</pubDate>
       
       <guid>https://eric-roca.github.io/talk/2017-08_bologna/</guid>
       <description></description>
@@ -121,7 +132,7 @@
     <item>
       <title>Inheritance systems and the dynamics of state capacity in medieval Europe</title>
       <link>https://eric-roca.github.io/talk/2017-02_providence_2/</link>
-      <pubDate>Thu, 02 Feb 2017 00:00:00 +0100</pubDate>
+      <pubDate>Thu, 02 Mar 2017 09:00:00 -0500</pubDate>
       
       <guid>https://eric-roca.github.io/talk/2017-02_providence_2/</guid>
       <description></description>
@@ -130,7 +141,7 @@
     <item>
       <title>&#39;Now She&#39;s Martha, then She&#39;s Mary&#39;: The Influence of Beguinages on Attitudes Toward Women</title>
       <link>https://eric-roca.github.io/talk/2017-02_providence_1/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
+      <pubDate>Fri, 03 Feb 2017 09:00:00 -0500</pubDate>
       
       <guid>https://eric-roca.github.io/talk/2017-02_providence_1/</guid>
       <description></description>

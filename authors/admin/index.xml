@@ -1,15 +1,151 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>admin on Academic</title>
+    <title>Admin on Academic</title>
     <link>https://eric-roca.github.io/authors/admin/</link>
-    <description>Recent content in admin on Academic</description>
+    <description>Recent content in Admin on Academic</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2019 Èric Roca Fernández</copyright>
+    <copyright>&amp;copy; {year} Èric Roca Fernández</copyright>
+    <lastBuildDate>Wed, 01 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://eric-roca.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>In the Name of the Father: Inheritance Systems and the Dynamics of State Capacity</title>
+      <link>https://eric-roca.github.io/working_papers/inheritance-systems/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://eric-roca.github.io/working_papers/inheritance-systems/</guid>
+      <description>&lt;strong&gt;Accepted at &lt;em&gt;Macroeconomic Dynamics&lt;/em&gt;&lt;/strong&gt;. &lt;br&gt; This paper examines how the degree of gender-egalitarianism embedded in inheritance rules impacts state building. Male-biased inheritance rules historically maximise the likelihood of dynastic continuity. However, there is more landmerging under gender-egalitarian rules. We compare both types of inheritance rules, concluding that, contrary to the literature, gender-egalitarian norms promote state capacity in the short run more than gender-biased norms. In the long run results are reversed.</description>
+    </item>
+    
+    <item>
+      <title>Roots of Gender Equality: the Persistent Effect of Beguinages on Attitudes toward Women</title>
+      <link>https://eric-roca.github.io/talk/2019-01_marseille/</link>
+      <pubDate>Wed, 30 Jan 2019 14:30:00 +0200</pubDate>
+      
+      <guid>https://eric-roca.github.io/talk/2019-01_marseille/</guid>
+      <description>This papers shows the long-lasting effects of the beguine movement on gender equality. Beguinages were female-only, semi-religious institutions that appeared in the Low Countries during the Middle Ages. We find that, during the 19th century, female wages and literacy rates were closer to their male counterparts in municipalities that had a beguinage.</description>
+    </item>
+    
+    <item>
+      <title>In the Name of the Father: Inheritance Systems and the Dynamics of State Capacity</title>
+      <link>https://eric-roca.github.io/talk/2018-12_luxembourg/</link>
+      <pubDate>Wed, 12 Dec 2018 14:40:00 +0100</pubDate>
+      
+      <guid>https://eric-roca.github.io/talk/2018-12_luxembourg/</guid>
+      <description>We analyse how inheritance rules affect rulers&amp;rsquo; willingness to invest in state capacity. We find that rules that privelege men over women generate higher levels of state capacity in the long run.</description>
+    </item>
+    
+    <item>
+      <title>If Children Suffer when Mothers Work, Do They Work Less?</title>
+      <link>https://eric-roca.github.io/talk/2018-09_lyon/</link>
+      <pubDate>Fri, 14 Sep 2018 11:00:00 +0200</pubDate>
+      
+      <guid>https://eric-roca.github.io/talk/2018-09_lyon/</guid>
+      <description>This paper proposes child mortality differentials between working and non-working mothers as a determinant of female labour force participation. For sub-Saharan Africa, we find that, indeed, the mortality gradient is taken into account at the family level when deciding woman&amp;rsquo;s involvement in the labour market. The effects appear relevant mostly for well-off families.</description>
+    </item>
+    
+    <item>
+      <title>Roots of Gender Equality: the Persistent Effect of Beguinages on Attitudes toward Women</title>
+      <link>https://eric-roca.github.io/talk/2018-08_cologne/</link>
+      <pubDate>Tue, 28 Aug 2018 14:15:00 +0200</pubDate>
+      
+      <guid>https://eric-roca.github.io/talk/2018-08_cologne/</guid>
+      <description>This papers shows the long-lasting effects of the beguine movement on gender equality. Beguinages were female-only, semi-religious institutions that appeared in the Low Countries during the Middle Ages. We find that, during the 19th century, female wages and literacy rates were closer to their male counterparts in municipalities that had a beguinage.</description>
+    </item>
+    
+    <item>
+      <title>Roots of Gender Equality: the Persistent Effect of Beguinages on Attitudes toward Women</title>
+      <link>https://eric-roca.github.io/talk/2018-06_milan/</link>
+      <pubDate>Tue, 19 Jun 2018 11:30:00 +0200</pubDate>
+      
+      <guid>https://eric-roca.github.io/talk/2018-06_milan/</guid>
+      <description>This papers shows the long lasting effects on gender equality the beguine movement had. Beguinages were female-only, semi-religious institutions that appeared in the Low Countries during the Middle Ages. We find that in Belgian municipalities that had a beguinage, the female-to-male wage ratio and literace rates were more similar during the 19th century.</description>
+    </item>
+    
+    <item>
+      <title>Roots of Gender Equality: the Persistent Effect of Beguinages on Attitudes toward Women</title>
+      <link>https://eric-roca.github.io/talk/2018-06_odense/</link>
+      <pubDate>Tue, 05 Jun 2018 10:45:00 +0200</pubDate>
+      
+      <guid>https://eric-roca.github.io/talk/2018-06_odense/</guid>
+      <description>This papers shows the long lasting effects on gender equality the beguine movement had. Beguinages were female-only, semi-religious institutions that appeared in the Low Countries during the Middle Ages. We find that in Belgian municipalities that had a beguinage, the female-to-male wage ratio and literace rates were more similar during the 19th century.</description>
+    </item>
+    
+    <item>
+      <title>Roots of Gender Equality: the Persistent Effect of Beguinages on Atitudes Toward Women</title>
+      <link>https://eric-roca.github.io/talk/2018-02_palaiseau/</link>
+      <pubDate>Thu, 08 Feb 2018 13:00:00 +0200</pubDate>
+      
+      <guid>https://eric-roca.github.io/talk/2018-02_palaiseau/</guid>
+      <description>This papers shows the long-lasting effects of the beguine movement on gender equality. Beguinages were female-only, semi-religious institutions that appeared in the Low Countries during the Middle Ages. We find that, during the 19th century, female wages and literacy rates were closer to their male counterparts in municipalities that had a beguinage.</description>
+    </item>
+    
+    <item>
+      <title>Roots of Gender Equality: the Persistent Effect of Beguinages on Atitudes Toward Women</title>
+      <link>https://eric-roca.github.io/talk/2017-12_bonn/</link>
+      <pubDate>Wed, 13 Dec 2017 10:40:00 +0200</pubDate>
+      
+      <guid>https://eric-roca.github.io/talk/2017-12_bonn/</guid>
+      <description>This papers shows the long-lasting effects of the beguine movement on gender equality. Beguinages were female-only, semi-religious institutions that appeared in the Low Countries during the Middle Ages. We find that, during the 19th century, female wages and literacy rates were closer to their male counterparts in municipalities that had a beguinage.</description>
+    </item>
+    
+    <item>
+      <title>&#39;Now She&#39;s Martha, then She&#39;s Mary&#39;: The Influence of Beguinages on Attitudes Toward Women</title>
+      <link>https://eric-roca.github.io/talk/2017-09_marseille/</link>
+      <pubDate>Tue, 17 Oct 2017 17:00:00 +0200</pubDate>
+      
+      <guid>https://eric-roca.github.io/talk/2017-09_marseille/</guid>
+      <description>This papers shows the long lasting effects on gender equality the beguine movement had. Beguinages were female-only, semi-religious institutions that appeared in the Low Countries during the Middle Ages. We find that in Belgian municipalities that had a beguinage, the female-to-male wage ratio and literace rates were more similar during the 19th century.</description>
+    </item>
+    
+    <item>
+      <title>If Children Suffer when Mothers Work, Do They Work Less?</title>
+      <link>https://eric-roca.github.io/other_research/flfp/</link>
+      <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://eric-roca.github.io/other_research/flfp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>&#39;Now She&#39;s Martha, then She&#39;s Mary&#39;: The Influence of Beguinages on Attitudes Toward Women</title>
+      <link>https://eric-roca.github.io/talk/2017-08_bologna/</link>
+      <pubDate>Wed, 09 Aug 2017 14:30:00 +0200</pubDate>
+      
+      <guid>https://eric-roca.github.io/talk/2017-08_bologna/</guid>
+      <description>This papers shows the long lasting effects on gender equality the beguine movement had. Beguinages were female-only, semi-religious institutions that appeared in the Low Countries during the Middle Ages. We find that in Belgian municipalities that had a beguinage, the female-to-male wage ratio and literace rates were more similar during the 19th century.</description>
+    </item>
+    
+    <item>
+      <title>Roots of Gender Equality: the Persistent Effect of Beguinages on Attitudes Toward Women</title>
+      <link>https://eric-roca.github.io/working_papers/beguines/</link>
+      <pubDate>Wed, 15 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://eric-roca.github.io/working_papers/beguines/</guid>
+      <description>&lt;strong&gt;Awarded the &amp;lsquo;UWIN Best Paper Award on Gender Economics&amp;rsquo;, 7th edition.&lt;/strong&gt;  &lt;br&gt; &lt;strong&gt;Awarded a &amp;lsquo;Valeria Solesin&amp;rsquo; accessit, 2018 edition.&lt;/strong&gt; &lt;br&gt; This paper is concerned with the historical roots of gender equality. It proposes and empirically assesses a new class of determinants of gender equality: increases in women&amp;rsquo;s bargaining power through reductions in the cost of remaining single. In particular, enlarging women&amp;rsquo;s options besides marriage &amp;mdash;even if only temporarily&amp;mdash; increases their bargaining power with respect to men, leading to a persistent improvement in gender equality. We illustrate this mechanism focusing on the specific Belgian context, and relate gender-equality levels in the 19th century to the presence of medieval, female-only communities called &lt;em&gt;beguinages&lt;/em&gt; that allowed women to remain single amidst a society that advocated the opposite. Combining precise beguinages&amp;rsquo; location with 19th-century census data, we document that beguinages were instrumental in decreasing the gender gap in literacy.</description>
+    </item>
+    
+    <item>
+      <title>Inheritance systems and the dynamics of state capacity in medieval Europe</title>
+      <link>https://eric-roca.github.io/talk/2017-02_providence_2/</link>
+      <pubDate>Thu, 02 Mar 2017 09:00:00 -0500</pubDate>
+      
+      <guid>https://eric-roca.github.io/talk/2017-02_providence_2/</guid>
+      <description>We analyse how inheritance rules affect rulers&amp;rsquo; willingness to invest in state capacity. We find that rules that privelege men over women generate higher levels of state capacity in the long run.</description>
+    </item>
+    
+    <item>
+      <title>&#39;Now She&#39;s Martha, then She&#39;s Mary&#39;: The Influence of Beguinages on Attitudes Toward Women</title>
+      <link>https://eric-roca.github.io/talk/2017-02_providence_1/</link>
+      <pubDate>Fri, 03 Feb 2017 09:00:00 -0500</pubDate>
+      
+      <guid>https://eric-roca.github.io/talk/2017-02_providence_1/</guid>
+      <description>This papers shows the long lasting effects on gender equality the beguine movement had. Beguinages were female-only, semi-religious institutions that appeared in the Low Countries during the Middle Ages. We find that in Belgian municipalities that had a beguinage, the female-to-male wage ratio and literace rates were more similar during the 19th century.</description>
+    </item>
     
     <item>
       <title></title>

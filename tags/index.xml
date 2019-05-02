@@ -6,18 +6,27 @@
     <description>Recent content in Tags on Academic</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2019 Èric Roca Fernández</copyright>
-    <lastBuildDate>Wed, 15 Mar 2017 00:00:00 +0000</lastBuildDate>
+    <copyright>&amp;copy; {year} Èric Roca Fernández</copyright>
+    <lastBuildDate>Wed, 01 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://eric-roca.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Economic History</title>
-      <link>https://eric-roca.github.io/tags/economic-history/</link>
-      <pubDate>Wed, 15 Mar 2017 00:00:00 +0000</pubDate>
+      <title>Gender Equality</title>
+      <link>https://eric-roca.github.io/tags/gender-equality/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://eric-roca.github.io/tags/economic-history/</guid>
+      <guid>https://eric-roca.github.io/tags/gender-equality/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Theoretical Model</title>
+      <link>https://eric-roca.github.io/tags/theoretical-model/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://eric-roca.github.io/tags/theoretical-model/</guid>
       <description></description>
     </item>
     
@@ -40,20 +49,11 @@
     </item>
     
     <item>
-      <title>Gender Equality</title>
-      <link>https://eric-roca.github.io/tags/gender-equality/</link>
+      <title>Economic History</title>
+      <link>https://eric-roca.github.io/tags/economic-history/</link>
       <pubDate>Wed, 15 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://eric-roca.github.io/tags/gender-equality/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Theoretical Model</title>
-      <link>https://eric-roca.github.io/tags/theoretical-model/</link>
-      <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://eric-roca.github.io/tags/theoretical-model/</guid>
+      <guid>https://eric-roca.github.io/tags/economic-history/</guid>
       <description></description>
     </item>
     
