@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Admin on Academic</title>
+    <title>Academic</title>
     <link>https://eric-roca.github.io/authors/admin/</link>
-    <description>Recent content in Admin on Academic</description>
+    <description>Recent content on Academic</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year} Èric Roca Fernández</copyright>
@@ -149,10 +149,10 @@
     
     <item>
       <title></title>
-      <link>https://eric-roca.github.io/author/admin/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <link>https://eric-roca.github.io/authors/admin/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://eric-roca.github.io/author/admin/</guid>
+      <guid>https://eric-roca.github.io/authors/admin/</guid>
       <description>Èric Roca obtained his PhD at Université catholique de Louvain (Belgium) the 6th of September, 2018. His research interests include comparative development and family economics. He is currently a post-doctoral student at AMSE, Aix-Marseille Université.</description>
     </item>
     

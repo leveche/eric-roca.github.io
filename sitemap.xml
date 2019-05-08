@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://eric-roca.github.io/authors/admin/</loc>
+    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://eric-roca.github.io/publication_types/3/</loc>
     <lastmod>2019-05-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -10,12 +15,6 @@
   
   <url>
     <loc>https://eric-roca.github.io/</loc>
-    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://eric-roca.github.io/authors/admin/</loc>
     <lastmod>2019-05-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -58,7 +57,6 @@
   <url>
     <loc>https://eric-roca.github.io/authors/annalisa-frigo/</loc>
     <lastmod>2019-01-30T14:30:00+02:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -178,19 +176,6 @@
   <url>
     <loc>https://eric-roca.github.io/authors/%C3%A8ric-roca-fern%C3%A1ndez/</loc>
     <lastmod>2016-11-21T11:15:00+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://eric-roca.github.io/author/admin/</loc>
-  </url>
-  
-  <url>
-    <loc>https://eric-roca.github.io/author/annalisa-frigo/</loc>
-  </url>
-  
-  <url>
-    <loc>https://eric-roca.github.io/author/</loc>
     <priority>0</priority>
   </url>
   
