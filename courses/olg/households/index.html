@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.4.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Eric Roca Fernandez">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Building the budget constraint Individuals live for two periods. As before, we assume perfect foresight for individuals. Assumption OLG.1 Individuals have perfect foresight.
+When young, they are endowed with one unit of labour that they supply inestastically. Assumption OLG.2 Individuals supply one unit labour inelastically when young. They receive the ongoing wage rate $w_{t}$ and allocate this income between:
+ current consumption $c_{t}$, savings $s_{t}$ that are invested in the firms.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://eric-roca.github.io/courses/olg/households/">
+
+  
+
+
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.9e398b7a64ee2c82769da9724cdbf0cc.css">
+
+  
+
+  
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-109506458-1', 'auto');
+      ga('set', 'anonymizeIp', true);
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="https://www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://eric-roca.github.io/courses/olg/households/">
+
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="Academic">
+  <meta property="og:url" content="https://eric-roca.github.io/courses/olg/households/">
+  <meta property="og:title" content="Households | Academic">
+  <meta property="og:description" content="Building the budget constraint Individuals live for two periods. As before, we assume perfect foresight for individuals. Assumption OLG.1 Individuals have perfect foresight.
+When young, they are endowed with one unit of labour that they supply inestastically. Assumption OLG.2 Individuals supply one unit labour inelastically when young. They receive the ongoing wage rate $w_{t}$ and allocate this income between:
+ current consumption $c_{t}$, savings $s_{t}$ that are invested in the firms."><meta property="og:image" content="https://eric-roca.github.io/img/icon-192.png">
+  <meta property="twitter:image" content="https://eric-roca.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2019-07-11T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2019-07-11T00:00:00&#43;00:00">
+  
+
+  
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#2962ff",
+          "text": "#fff"
+        },
+        "button": {
+          "background": "#fff",
+          "text": "#2962ff"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "https://cookies.insites.com"
+      }
+    })});
+</script>
+
+
+
+  
+
+
+
+
+
+  <title>Households | Academic</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Academic</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav mr-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#working_papers"><span>Working Papers</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talks"><span>Talks</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#references"><span>References</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/files/cv.pdf"><span>CV</span></a>
+        </li>
+
+        
+        
+
+      
+      </ul>
+      <ul class="navbar-nav ml-auto">
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      
+
+
+
+
+
+<form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <span><i class="fas fa-bars"></i></span>
+  </button>
+
+  
+  <input name="q" type="search" class="form-control" placeholder="Search..." autocomplete="off">
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/courses/olg/">OLG model</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/courses/olg/preliminaries/">Preliminaries</a>
+      </li>
+      
+      <li class="active">
+        <a href="/courses/olg/households/">Households</a>
+      </li>
+      
+      <li >
+        <a href="/courses/olg/savings_function/">Savings function</a>
+      </li>
+      
+      <li >
+        <a href="/courses/olg/equilibrium/">Intertemporal equilibrium</a>
+      </li>
+      
+      <li >
+        <a href="/courses/olg/steady_state/">Steady state</a>
+      </li>
+      
+      <li >
+        <a href="/courses/olg/monotonicity_of_the_dynamics/">Monotonicity of the dynamics</a>
+      </li>
+      
+      <li >
+        <a href="/courses/olg/optimality/">Optimality</a>
+      </li>
+      
+      <li >
+        <a href="/courses/olg/planner/">Planner</a>
+      </li>
+      
+      <li >
+        <a href="/courses/olg/government/">Debt and public expenditures</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  
+</nav>
+
+    </div>
+
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">Contents</a></li>
+      </ul>
+
+      <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#building-the-budget-constraint">Building the budget constraint</a>
+<ul>
+<li><a href="#the-intertemporal-budget-constraint">The intertemporal budget constraint</a></li>
+</ul></li>
+<li><a href="#utility-function">Utility function</a></li>
+<li><a href="#the-behaviour-of-individuals">The behaviour of individuals</a>
+<ul>
+<li><a href="#substitution">Substitution</a></li>
+<li><a href="#lagrangian">Lagrangian</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+
+      
+    </div>
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article" itemscope itemtype="http://schema.org/Article">
+
+        <div class="docs-article-container">
+          <h1 itemprop="name">Households</h1>
+
+          <div class="article-style" itemprop="articleBody">
+            
+
+<h2 id="building-the-budget-constraint">Building the budget constraint</h2>
+
+<p>Individuals live for two periods.
+As before, we assume perfect foresight for individuals.
+<strong>Assumption OLG.1</strong> Individuals have perfect foresight.</p>
+
+<p>When <strong>young</strong>, they are endowed with <em>one unit of labour</em> that they <em>supply inestastically.</em>
+<strong>Assumption OLG.2</strong> Individuals supply one unit labour inelastically when young.
+They receive the ongoing wage rate $w_{t}$ and allocate this income between:</p>
+
+<ul>
+<li>current consumption $c_{t}$,</li>
+<li>savings $s_{t}$ that are invested in the firms.</li>
+</ul>
+
+<p>Therefore, the budget constraint of a <em>young</em> individual in period $t$ is:</p>
+
+<p>$$ w_{t} = c_{t} + s_{t}.$$</p>
+
+<p>Once an individual reaches the old age the next period, he consumes his savings (plus the interest rate received), reproduces &mdash;exogenous fertility at rate $n$&mdash; and dies.
+Old people <em>do not care</em> about anything happening after death.
+Therefore, an agent has one unique choice:</p>
+
+<ul>
+<li>consumption when adult, $d_{t+1}.$</li>
+</ul>
+
+<p>And the budget constraint for this period is:<sup class="footnote-ref" id="fnref:1"><a href="#fn:1">1</a></sup></p>
+
+<p>$$(1 - \delta + r_{t+1}) = d_{t+1}.$$</p>
+
+<p>with $\delta \in (0,1)$ being the capital depreciation rate.</p>
+
+<p>Hence, an individual faces two budget constraints.
+However, we can collapse both into a unique <em>intertemporal budget constraint.</em></p>
+
+<h3 id="the-intertemporal-budget-constraint">The intertemporal budget constraint</h3>
+
+<p>In the economy, we have consumption as the numeraire.
+It is more convenient for us to combine the two budget constraints corresponding to young and old ages into one single constraint.
+Starting from</p>
+
+<p>$$\left. \begin{eqnarray}
+w_{t} = c_{t} + s_{t} \\<br />
+d_{t+1} = s_{t}(1 - \delta + r_{t+1}) = s_{t} R_{t+1} \end{eqnarray}
+\right\}.$$</p>
+
+<p>where $R_{t} \equiv 1 - \delta + r_{t+1}$ represents the return on savings, isolate $s_{t} in the second equation and plug it in the first one:</p>
+
+<p>$$ w_{t} = c_{t} + \frac{d_{t+1}}{R_{t+1}}. \tag{1, Int. Budget Const.} \label{eq:budget}$$</p>
+
+<p>This equation, the intertemporal budget constraint, indicates that the total present value of income ($w_{t}$, the only source of income) equals the total present value of expenditures.
+The present value of consumption when old $d_{t+1}$ is discounted using the interest rate $R_{t+1}.$</p>
+
+<p>It is clear that savings, as usual, will be a function of wages $w$ and interests $R.$
+So will consumption at all periods of time.</p>
+
+<h2 id="utility-function">Utility function</h2>
+
+<p>We suppose that the life-cycle utility function is additively separable:</p>
+
+<p>$$U(c,d) = u( c ) + \beta u(d),\, \beta \in(0,1) \tag{2, Utility} \label{eq:utility}$$</p>
+
+<p>where $\beta$ is psychological discount factor.
+We assume that $u( c )$ has the properties</p>
+
+<p><strong>Assumption OLG.3</strong>
+* <strong>OLG.3.1</strong> $u^{\prime}( c ) &gt; 0,$
+* <strong>OLG.3.2</strong> $u^{\prime \prime} ( c ) &lt; 0,$
+* <strong>OLG.3.3</strong> $ \lim_{c \rightarrow 0} u^{\prime}( c) = +\infty.$</p>
+
+<p>The last assumption $\lim_{c \rightarrow 0} u^{\prime}( c ) = +\infty$ implies that an individual will always have a positive consumption &mdash;as long as he has enough income to finance it.</p>
+
+<p>Another important implication of the choice of the utility formulation is that $c$ and $d$ are normal goods: the demand is <em>not decreasing</em> in wealth.
+It follows from additive separability and concavity.
+In the <a href="https://eric-roca.github.io/courses/math_app/non-separable/" target="_blank">Appendix</a> we discuss it more detail for a non-separable utility function.</p>
+
+<h2 id="the-behaviour-of-individuals">The behaviour of individuals</h2>
+
+<p>At time $t$, young individuals receive their wages, consume and save while maximising the utility function.</p>
+
+<p>$$\begin{eqnarray}
+&amp; \max u(c_{t}) + \beta u(d_{t+1}) \\<br />
+&amp; \mathrm{s.t.} \quad w_{t} = c_{t} + s_{t} \\<br />
+&amp; \phantom{s.t.} \quad d_{t+1} = R_{t+1}s_{t} \\<br />
+&amp; \phantom{s.t.} \quad c_{t} \geq 0, d_{t+1} \geq 0.
+\end{eqnarray}$$</p>
+
+<p>We have to possibilities to solve this problem:</p>
+
+<h3 id="substitution">Substitution</h3>
+
+<p>First, we can substitute $c_{t}$ and $d_{t+1}$ in the utility function, leading to:</p>
+
+<p>$$u(w_{t} - s_{t}) + \beta u(R_{t+1}s_{t}).$$</p>
+
+<p>This function is strictly concave with respect to $s_{t}$ because of our assumptions.
+The solution is <em>the savings function</em>:</p>
+
+<p>$$s_{t} = s(w_{t}, R_{t+1}).$$</p>
+
+<p>The solution is interior as a consequence of the assumptions, and it is characterised by the first-order condition:</p>
+
+<p>$$u^{\prime}(w_{t} - s_{t}) = \beta R_{t+1} u^{\prime}(R_{t+1}s_{t}).$$</p>
+
+<h3 id="lagrangian">Lagrangian</h3>
+
+<p>Instead, we can use the intertemporal budget constraint and build the Lagrangian:</p>
+
+<p>$$\mathcal{L} = u(c_{t}) + \beta u(d_{t+1}) + \lambda_{t}(w_{t} - c_{t} - \frac{d_{t+1}}{R_{t+1}}).$$</p>
+
+<p>The first order conditions imply that:</p>
+
+<p>$$u^{\prime}(c_{t}) = \lambda_{t}, \quad \beta u^{\prime}(d_{t+1}) = \frac{\lambda_{t}}{R_{t+1}}$$</p>
+
+<p>Combining both we obtain the Euler equation:</p>
+
+<p>$u^{\prime}(c_{t}) = \beta R_{t+1} u^\prime (d_{t+1}).$$</p>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:1"><p>There plenty of alternative notations for the OLG model.
+One may write $c^{y}_{t}$ and $c^{o}_{t}$ for young and adult consumption.
+Similarly, the subindeces $t, t+1, \ldots$ denote the period of consumption, but we could have denoted the period in which the individual was born.</p>
+ <a class="footnote-return" href="#fnref:1"><sup>^</sup></a></li>
+</ol>
+</div>
+
+          </div>
+
+          
+
+
+
+          
+          <div class="article-widget">
+            
+<div class="post-nav">
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Previous</div>
+    <a href="/courses/olg/preliminaries/" rel="next">Preliminaries</a>
+  </div>
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Next</div>
+    <a href="/courses/olg/savings_function/" rel="prev">Savings function</a>
+  </div>
+  
+</div>
+
+          </div>
+          
+        </div>
+
+        <div class="body-footer">
+          <p>Last updated on Jul 11, 2019</p>
+
+          
+
+
+          
+
+        </div>
+
+      </article>
+
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    &copy; 2019 Èric Roca Fernández &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+  </p>
+</footer>
+
+
+    </main>
+  </div>
+</div>
+
+
+      
+
+    
+    
+    
+    <script src="/js/mathjax-config.js"></script>
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
+      
+    
+
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js" integrity="sha256-pB/deHc9CGfFpJRjC43imB29Rse8tak+5eXqntO94ck=" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+    </script>
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.4e51017b38c7ebaadd7e25fc9503f88c.js"></script>
+
+    
+
+
+
+
+
+
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

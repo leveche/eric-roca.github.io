@@ -1,32 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Theoretical Model on Academic</title>
+    <title>Theoretical Model | Academic</title>
     <link>https://eric-roca.github.io/tags/theoretical-model/</link>
-    <description>Recent content in Theoretical Model on Academic</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; {year} Èric Roca Fernández</copyright>
-    <lastBuildDate>Wed, 01 May 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://eric-roca.github.io/tags/theoretical-model/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://eric-roca.github.io/tags/theoretical-model/index.xml" rel="self" type="application/rss+xml" />
+    <description>Theoretical Model</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Èric Roca Fernández</copyright><lastBuildDate>Fri, 21 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://eric-roca.github.io/img/icon-192.png</url>
+      <title>Theoretical Model</title>
+      <link>https://eric-roca.github.io/tags/theoretical-model/</link>
+    </image>
     
     <item>
       <title>In the Name of the Father: Inheritance Systems and the Dynamics of State Capacity</title>
-      <link>https://eric-roca.github.io/working_papers/inheritance-systems/</link>
-      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://eric-roca.github.io/working_papers/inheritance-systems/</guid>
-      <description>&lt;strong&gt;Accepted at &lt;em&gt;Macroeconomic Dynamics&lt;/em&gt;&lt;/strong&gt;. &lt;br&gt; This paper examines how the degree of gender-egalitarianism embedded in inheritance rules impacts state building. Male-biased inheritance rules historically maximise the likelihood of dynastic continuity. However, there is more land merging under gender-egalitarian rules. We compare both types of inheritance rules, concluding that, contrary to the literature, gender-egalitarian norms promote state capacity in the short run more than gender-biased norms. In the long run results are reversed.</description>
-    </item>
-    
-    <item>
-      <title>If Children Suffer when Mothers Work, Do They Work Less?</title>
-      <link>https://eric-roca.github.io/other_research/flfp/</link>
-      <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://eric-roca.github.io/other_research/flfp/</guid>
+      <link>https://eric-roca.github.io/publication/inheritance-systems/</link>
+      <pubDate>Fri, 21 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>https://eric-roca.github.io/publication/inheritance-systems/</guid>
       <description></description>
     </item>
     

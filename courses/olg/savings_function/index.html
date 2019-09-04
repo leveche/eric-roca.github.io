@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.4.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Eric Roca Fernandez">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="We now study how savings are affected by the remaining variables of the model. Before turning to it, we compute the intertemporal elasticity of substitution on this model, because it turns out to be a crucial element influencing savings. The intertemporal elasticity of substitution is a special case of the elasticity of substitution, that measures how the ratio of future to present consumption changes with the relative price (the interest rate).">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://eric-roca.github.io/courses/olg/savings_function/">
+
+  
+
+
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.9e398b7a64ee2c82769da9724cdbf0cc.css">
+
+  
+
+  
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-109506458-1', 'auto');
+      ga('set', 'anonymizeIp', true);
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="https://www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://eric-roca.github.io/courses/olg/savings_function/">
+
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="Academic">
+  <meta property="og:url" content="https://eric-roca.github.io/courses/olg/savings_function/">
+  <meta property="og:title" content="Savings function | Academic">
+  <meta property="og:description" content="We now study how savings are affected by the remaining variables of the model. Before turning to it, we compute the intertemporal elasticity of substitution on this model, because it turns out to be a crucial element influencing savings. The intertemporal elasticity of substitution is a special case of the elasticity of substitution, that measures how the ratio of future to present consumption changes with the relative price (the interest rate)."><meta property="og:image" content="https://eric-roca.github.io/img/icon-192.png">
+  <meta property="twitter:image" content="https://eric-roca.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2019-07-11T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2019-07-11T00:00:00&#43;00:00">
+  
+
+  
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#2962ff",
+          "text": "#fff"
+        },
+        "button": {
+          "background": "#fff",
+          "text": "#2962ff"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "https://cookies.insites.com"
+      }
+    })});
+</script>
+
+
+
+  
+
+
+
+
+
+  <title>Savings function | Academic</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Academic</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav mr-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#working_papers"><span>Working Papers</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talks"><span>Talks</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#references"><span>References</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/files/cv.pdf"><span>CV</span></a>
+        </li>
+
+        
+        
+
+      
+      </ul>
+      <ul class="navbar-nav ml-auto">
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      
+
+
+
+
+
+<form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <span><i class="fas fa-bars"></i></span>
+  </button>
+
+  
+  <input name="q" type="search" class="form-control" placeholder="Search..." autocomplete="off">
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/courses/olg/">OLG model</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/courses/olg/preliminaries/">Preliminaries</a>
+      </li>
+      
+      <li >
+        <a href="/courses/olg/households/">Households</a>
+      </li>
+      
+      <li class="active">
+        <a href="/courses/olg/savings_function/">Savings function</a>
+      </li>
+      
+      <li >
+        <a href="/courses/olg/equilibrium/">Intertemporal equilibrium</a>
+      </li>
+      
+      <li >
+        <a href="/courses/olg/steady_state/">Steady state</a>
+      </li>
+      
+      <li >
+        <a href="/courses/olg/monotonicity_of_the_dynamics/">Monotonicity of the dynamics</a>
+      </li>
+      
+      <li >
+        <a href="/courses/olg/optimality/">Optimality</a>
+      </li>
+      
+      <li >
+        <a href="/courses/olg/planner/">Planner</a>
+      </li>
+      
+      <li >
+        <a href="/courses/olg/government/">Debt and public expenditures</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  
+</nav>
+
+    </div>
+
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">Contents</a></li>
+      </ul>
+
+      <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#intertemporal-elasticity-of-substitution">Intertemporal elasticity of substitution</a>
+<ul>
+<li><a href="#cies-example">CIES example</a></li>
+</ul></li>
+<li><a href="#the-savings-function">The savings function</a>
+<ul>
+<li><a href="#the-effect-of-wages">The effect of wages</a></li>
+<li><a href="#the-effect-of-the-interest-rate">The effect of the interest rate</a>
+<ul>
+<li><a href="#example-using-a-cies-function">Example using a CIES function</a></li>
+<li><a href="#example-using-a-ces-function">Example using a CES function</a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+
+      
+    </div>
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article" itemscope itemtype="http://schema.org/Article">
+
+        <div class="docs-article-container">
+          <h1 itemprop="name">Savings function</h1>
+
+          <div class="article-style" itemprop="articleBody">
+            
+
+<p>We now study how savings are affected by the remaining variables of the model.
+Before turning to it, we compute the intertemporal elasticity of substitution on this model, because it turns out to be a crucial element influencing savings.
+The <em>intertemporal elasticity of substitution</em> is a special case of the <a href="https://eric-roca.github.io/courses/math_app/elasticity_of_substitution/" target="_blank">elasticity of substitution</a>, that measures how the ratio of future to present consumption changes with the relative price (the interest rate).</p>
+
+<h2 id="intertemporal-elasticity-of-substitution">Intertemporal elasticity of substitution</h2>
+
+<p>From the Euler equation we have $\frac{u^{\prime}(c_{t})}{u^{\prime}(d_{t+1})} = \beta R_{t+1}.$
+Consumption when old $d_{t+1}$ is going to be proportional to consumption when young $c_{t}.$
+Let $d_{t+1} = x_{t+1} c_{t}.$
+In that case,</p>
+
+<p>$$\frac{\partial \left( \frac{d_{t+1}}{c_{t}} \right)}{\partial R_{t+1}} = \frac{ \partial x_{t+1}}{\partial R_{t+1}}.$$</p>
+
+<p>The intertemporal elasticity of substitution is given by:</p>
+
+<p>$$\epsilon_{d_{t+1}, c_{t}} = \frac{ \partial \left( \frac{d_{t+1}}{c_{t}} \right)}{\partial R_{t+1}} \frac{ R_{t+1}}{\left( \frac{d_{t+1}}{c_{t}} \right)}.$$</p>
+
+<p>Using the Euler equation we can compute $\frac{ \partial \left( \frac{d_{t+1}}{c_{t}} \right) }{\partial R_{t+1}}.$
+First, rewrite it as:</p>
+
+<p>$$ G(d_{t+1}, R_{t+1}) = \frac{u^\prime(c_{t})}{u^\prime(d_{t+1})} - \beta R_{t+1} = \frac{u^\prime(c_{t})}{u^\prime(\underbrace{c_{t} x_{t+1}}_{d_{t+1}})} - \beta R_{t+1}= 0.$$</p>
+
+<p>Then,</p>
+
+<p>$$\frac{\partial x_{t+1}}{\partial R_{t+1}} = - \frac{ \frac{ \partial G(c_{t}x_{t+1}, R_{t+1})}{\partial R_{t+1}}}{\frac{G(c_{t}x_{t+1}, R_{t+1})}{\partial x_{t+1}}} = - \frac{\beta }{u^{\prime}(c_{t})(-1)\frac{1}{u^\prime (d_{t+1})^2}u^{\prime \prime}(\underbrace{c_{t}x_{t+1}}_{d_{t+1}}) c_{t}}= \frac{\beta u^\prime(d_{t+1})^2}{u^\prime (c_t) u^{\prime \prime} d(t_{t+1}) c_t}.$$</p>
+
+<p>Therefore, the intertemporal elasticity of substitution becomes:</p>
+
+<p>$$\epsilon_{d_{t+1}, c_{t}} = \frac{ \partial \left( \frac{d_{t+1}}{c_{t}} \right)}{\partial R_{t+1}} \frac{ R_{t+1}}{\left( \frac{d_{t+1}}{c_{t}} \right)} = - \frac{\color{red}{\beta} u^\prime(d_{t+1})^2}{\color{red}{u^{\prime}(c_{t})}u^{\prime \prime}(d_{t+1}) c_{t}} \frac{\color{red}{R_{t+1}}c_{t}}{d_{t+1}}= - \frac{\color{red}{\overbrace{u^{\prime}(d_{t+1})}^{\frac{u^{\prime}(c_{t})}{u^{\prime}(d_{t+1})} = \beta R_{t+1}, \, \mathrm{Euler}}}}{u^{\prime \prime}(d_{t+1})d_{t+1}} = \sigma(d_{t+1}),$$</p>
+
+<p>where $\sigma(d_{t+1})$ is the inverse of the coefficient of relative risk aversion.
+Hence, in this model, the intertemporal elasticity of substitution coincides with the inverse of the coefficient of relative risk aversion.
+<strong>Note:</strong> If you read p. 12 in <em>de la Croix and Michel</em>, they take a different approach and also refuse to use the concept or risk aversion: the model does not feature risk.</p>
+
+<h3 id="cies-example">CIES example</h3>
+
+<p>We illustrate the previous concept using a constant intertemporal elasticity of substitution utility function:</p>
+
+<p>$$u( c ) = \frac{c^{1-\frac{1}{\sigma}}}{1-\frac{1}{\sigma}}.$$</p>
+
+<p>In this case, we have the following Euler condition:</p>
+
+<p>$$u^{\prime}(c_{t}) = \beta R_{t+1} u^{\prime}(d_{t+1}) \implies \frac{d_{t+1}}{c_{t}} = \left( \beta R_{t+1} \right)^\sigma.$$</p>
+
+<p>Therefore, the intertemporal elasticity of substitution is</p>
+
+<p>$$\epsilon_{d_{t+1}, c_{t}} = \frac{ \partial  \frac{d_{t+1}}{c_{t}} }{\partial R_{t+1}} \frac{R_{t+1}}{\color{red}{\frac{d_{t+1}}{c_{t}}}}= \sigma (\beta R_{t+1})^{\sigma-1}\beta R_{t+1} \color{red}{\frac{1}{(\beta R_{t+1})^{\sigma}}} = \sigma. $$</p>
+
+<p>Meanwhile, the coefficient of relative risk aversion</p>
+
+<p>$$RRA( c ) = - \frac{u^{\prime \prime}( c )}{u^{\prime}( c )}c = \frac{1}{\sigma} = \epsilon^{-1}_{d_{t+1},c_{t}}$$</p>
+
+<p>is the inverse of the intertemporal elasticity of substitution.</p>
+
+<h2 id="the-savings-function">The savings function</h2>
+
+<p>The savings function arises from solving:</p>
+
+<p>$$s(w, R) = \arg \max \left[ u(w-s) + \beta u(Rs) \right].$$</p>
+
+<p>Taking the first derivative with respect to $s$ and solving provides an implicit function: the savings function.</p>
+
+<p>$$u^\prime(w-s)(-1) + \beta u^\prime(Rs)R = 0.$$</p>
+
+<p>Denote this function $\phi(s,w,R)$:</p>
+
+<p>$$\phi(s, w, R ) = -u^\prime(w-s)+ \beta R u^\prime(Rs) = 0.$$</p>
+
+<p>Following from the assumption on the utility function, the savings function is continuous and continuously differentiable.</p>
+
+<p>We are interested in determining whether savings increase or decrease with wealth and the interest rate.</p>
+
+<h3 id="the-effect-of-wages">The effect of wages</h3>
+
+<p>We begin by analysing the effect of wages on savings:</p>
+
+<p>$$\frac{\partial s}{\partial w} = - \frac{\frac{\partial \phi(\cdot)}{\partial w}}{\frac{\partial \phi(\cdot)}{\partial s}} = - \frac{ - u^{\prime \prime}(w-s)}{u^{\prime \prime}(w-s)+\beta R^{2} u^{\prime \prime}(Rs)} = \frac{1}{\underbrace{1+\beta R^{2} \underbrace{\frac{u^{\prime \prime}(Rs)}{u^{\prime \prime}(w-s)}}_{&gt;0}}_{&gt;1}} \in (0,1).$$</p>
+
+<p>We thus have that the marginal propensity to save out of income is between 0 and 1:
+$0 &lt; s^{\prime}_{w}  &lt; 1,$
+which reflects the fact that consumption goods are normal goods.</p>
+
+<h3 id="the-effect-of-the-interest-rate">The effect of the interest rate</h3>
+
+<p>Similarly, we compute the derivative of $\frac{\partial s(w,R)}{\partial R}$:</p>
+
+<p>$$\frac{\partial s}{\partial R} = -\frac{ \beta u^{\prime}(d) + \beta R s u^{\prime \prime}(d)}{u^{\prime \prime}( c )+\beta R^{2} u^{\prime \prime}(d)} =- \frac{\beta u^{\prime}(d)\left[1-\frac{1}{\sigma (d)} \right]}{u^{\prime \prime}(c ) + \beta R^{2} u^{\prime \prime}(d)}.$$</p>
+
+<p>Hence,
+$$\frac{\partial s}{\partial R} \gtreqqless 0 \quad \mathrm{if} \quad \sigma (d) \gtreqqless 1.$$</p>
+
+<p>Two effects interact in this derivative:</p>
+
+<ul>
+<li>Wealth effect: if the interest rate rises, we obtain more out of the same savings, hence become wealthier.
+We consume more of all goods &mdash;$c_{t}$ and $d_{t+1}$ are normal goods.</li>
+<li>Substitution effect: it is more profitable to save and consume $d_{t+1},$ inducing savings.</li>
+</ul>
+
+<p>When the inter-temporal elasticity of substitution is lower than 1, the substitution effect is dominated by the income effect.
+In that case, a rise in the rate of return has a negative effect on savings.
+When the inter-temporal elasticity of substitution is higher than 1, the households are ready to exploit the rise in the remuneration of savings by consuming relatively less today.
+The effect of a rise in the rate of return is in this case to boost savings.
+When the inter-temporal elasticity of substitution is equal to 1 (log-utility), the income effect exactly compensates the substitution effect and there is no effect of the rate of return on savings.</p>
+
+<h4 id="example-using-a-cies-function">Example using a CIES function</h4>
+
+<p>Under a CIES utility, we have that:</p>
+
+<p>$$s(w,R) = \frac{1}{1+\beta^{-\sigma}R^{1-\sigma}}w,$$</p>
+
+<p>and
+$$s^{\prime}_w  =\frac{1}{1+\beta^{-\sigma}R^{1-\sigma}} &gt; 0.$$</p>
+
+<p>However, $s^{\prime}_{R} = - \frac{w R^{-\sigma}}{\left(1+\beta^{-\sigma}R^{1-\sigma}\right)^{2}}(1-\sigma)\gtreqqless 0$ depending on $\sigma \lesseqqgtr 1.$</p>
+
+<p><strong>Log-utility:</strong></p>
+
+<p>In the case of logarithmic utility, savings are independent of the interest rate $R$ and are linear in wages.
+Log-utility is a special case of the CIES function when $\sigma=1.$
+In this case, the wealth and substitution effects cancel each other:</p>
+
+<p>$$s(w,R) = \frac{\beta}{1+\beta}w.$$</p>
+
+<h4 id="example-using-a-ces-function">Example using a CES function</h4>
+
+<p><strong>Note:</strong> This is a transformation of the CIES function, so things will look rather similar.</p>
+
+<p>$$U(c,d) = \left[ \alpha c^{\frac{\epsilon-1}{\epsilon}} + (1-\alpha)d^{\epsilon-1}{\epsilon} \right]^{\frac{\epsilon}{\epsilon-1}}.$$</p>
+
+<p>From here, substituting $c=w-s$ and $d=Rs$, and solving for the optimal savings we obtain:</p>
+
+<p>$$\begin{eqnarray}
+&amp; \alpha (w-s)^{-\frac{1}{\epsilon}} = (1-\alpha) R (Rs)^{-\frac{1}{\epsilon}} \\<br />
+&amp; s = \frac{\left[ \frac{\alpha}{1-\alpha} \right]^{-\epsilon} w}{R^{1-\epsilon} + \left[\frac{\alpha}{1-\alpha} \right]^{-\epsilon}} = \frac{w}{1+\left[ \frac{\alpha}{1-\alpha} \right]^{\epsilon} R^{1-\epsilon}}.
+\end{eqnarray}
+$$</p>
+
+<p>Therefore,</p>
+
+<p>$$s^{\prime}_{R} = - \frac{w}{\left(1+\left[ \frac{\alpha}{1-\alpha} \right]^{\epsilon} R^{1-\epsilon}\right)^{2}} \left(\frac{\alpha}{1-\alpha}\right)^\frac{\epsilon}{1-\epsilon}R^{-\epsilon}.$$</p>
+
+<p>Then, when $\epsilon &gt;1$ savings increase with the interest rate: $s^{\prime}_{R} &lt; 0.$
+In that case, <em>the substitution effect dominates</em>.
+<strong>Alternative interpretation:</strong> $\epsilon$ is the elasticity of intertemporal substitutability, hence if it is large, individuals are willing to substitute present consumption for future consumption.
+<strong>Alternative interpretation:</strong> $\frac{1}{\epsilon}$ measures the relative risk aversion.
+Hence, for large $\epsilon$ individuals accept more risk, meaning that they are willing to accept more changes in consumption.
+Smoothing is less important.</p>
+
+<p>Conversely, when $\epsilon &lt;1$, an increase in the interest rate lowers savings: $s^{\prime}_{R} &lt; 0.$
+In that case, the wealth effect dominates.
+$\epsilon &lt; 1$ also means that $c$ and $d$ are intertemporally complementary, and individuals want to consume them in constant proportions.</p>
+
+          </div>
+
+          
+
+
+
+          
+          <div class="article-widget">
+            
+<div class="post-nav">
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Previous</div>
+    <a href="/courses/olg/households/" rel="next">Households</a>
+  </div>
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Next</div>
+    <a href="/courses/olg/equilibrium/" rel="prev">Intertemporal equilibrium</a>
+  </div>
+  
+</div>
+
+          </div>
+          
+        </div>
+
+        <div class="body-footer">
+          <p>Last updated on Jul 11, 2019</p>
+
+          
+
+
+          
+
+        </div>
+
+      </article>
+
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    &copy; 2019 Èric Roca Fernández &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+  </p>
+</footer>
+
+
+    </main>
+  </div>
+</div>
+
+
+      
+
+    
+    
+    
+    <script src="/js/mathjax-config.js"></script>
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
+      
+    
+
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js" integrity="sha256-pB/deHc9CGfFpJRjC43imB29Rse8tak+5eXqntO94ck=" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+    </script>
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.4e51017b38c7ebaadd7e25fc9503f88c.js"></script>
+
+    
+
+
+
+
+
+
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

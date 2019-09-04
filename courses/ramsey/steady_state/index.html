@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.3.1">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Eric Roca Fernandez">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="This note is based on Appendix A.3.2 of de la Croix and Michel: A Theory of Economic Growth.
+Macroeconomic models often have dynamic equations relating different periods of time. These can either in continuous or discrete time. In this note, we focus only on the discrete-time case, but the intuition carries over to the continuous case. When equations are in discrete time, we call time difference equations. The continuous-time equivalent are called differential equations.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="http://localhost:1313/courses/ramsey/steady_state/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.9e398b7a64ee2c82769da9724cdbf0cc.css">
+
+  
+
+  
+
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="http://localhost:1313/courses/ramsey/steady_state/">
+
+  
+  
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="Academic">
+  <meta property="og:url" content="http://localhost:1313/courses/ramsey/steady_state/">
+  <meta property="og:title" content="Difference equations | Academic">
+  <meta property="og:description" content="This note is based on Appendix A.3.2 of de la Croix and Michel: A Theory of Economic Growth.
+Macroeconomic models often have dynamic equations relating different periods of time. These can either in continuous or discrete time. In this note, we focus only on the discrete-time case, but the intuition carries over to the continuous case. When equations are in discrete time, we call time difference equations. The continuous-time equivalent are called differential equations."><meta property="og:image" content="http://localhost:1313/img/icon-192.png">
+  <meta property="twitter:image" content="http://localhost:1313/img/icon-192.png"><meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2019-07-11T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2019-07-11T00:00:00&#43;00:00">
+  
+
+  
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#2962ff",
+          "text": "#fff"
+        },
+        "button": {
+          "background": "#fff",
+          "text": "#2962ff"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "https://cookies.insites.com"
+      }
+    })});
+</script>
+
+
+
+  
+
+
+
+
+
+  <title>Difference equations | Academic</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="70" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Academic</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav mr-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#working_papers"><span>Working Papers</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talks"><span>Talks</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#references"><span>References</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/courses/"><span>Lectures</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/files/cv.pdf"><span>CV</span></a>
+        </li>
+
+        
+        
+
+      
+      </ul>
+      <ul class="navbar-nav ml-auto">
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      
+
+
+
+
+
+<form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <span><i class="fas fa-bars"></i></span>
+  </button>
+
+  
+  <input name="q" type="search" class="form-control" id="search-query" placeholder="Search..." autocomplete="off">
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/courses/ramsey/">Introduction</a>
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/courses/ramsey/the_ramsey_model/">The Ramsey model</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/courses/ramsey/households/">Households</a>
+      </li>
+      
+      <li >
+        <a href="/courses/ramsey/firms/">Firms</a>
+      </li>
+      
+      <li >
+        <a href="/courses/ramsey/intertemporal_equilibrium/">Intertemporal equilibrium</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/courses/ramsey/ramsey_appendix/">Appendix</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/courses/ramsey/transversality_condition/">The Transversality condition</a>
+      </li>
+      
+      <li >
+        <a href="/courses/ramsey/homogenous_functions/">Homogenous functions</a>
+      </li>
+      
+      <li class="active">
+        <a href="/courses/ramsey/steady_state/">Difference equations</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  
+</nav>
+
+    </div>
+
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">Contents</a></li>
+      </ul>
+
+      <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#a-dynamic-equation-one-dimensional-case">A dynamic equation: one-dimensional case</a></li>
+<li><a href="#first-order-difference-equation">First-order difference equation</a>
+<ul>
+<li><a href="#stability-of-a-first-order-difference-equation">Stability of a first-order difference equation</a>
+<ul>
+<li><a href="#hyperbolic-steady-states">Hyperbolic steady states</a></li>
+<li><a href="#first-order-stability">First-order stability</a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+
+      
+    </div>
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article" itemscope itemtype="http://schema.org/Article">
+
+        <div class="docs-article-container">
+          <h1 itemprop="name">Difference equations</h1>
+
+          <div class="article-style" itemprop="articleBody">
+            
+
+<p>This note is based on Appendix A.3.2 of <em>de la Croix and Michel: A Theory of Economic Growth.</em></p>
+
+<p>Macroeconomic models often have dynamic equations relating different periods of time.
+These can either in continuous or discrete time.
+In this note, we focus only on the discrete-time case, but the intuition carries over to the continuous case.
+When equations are in discrete time, we call time <em>difference equations</em>.
+The continuous-time equivalent are called <em>differential equations.</em>
+<strong>Note:</strong> the conditions for stability change between the continuous and discrete-time cases.</p>
+
+<h2 id="a-dynamic-equation-one-dimensional-case">A dynamic equation: one-dimensional case</h2>
+
+<p>A dynamic equation is an equation that relates the state of a variable through time the value the variable took in previous periods.
+The number of lags the equation considers determines its order.
+A difference equation of order $T$ takes the form
+$$x_{t+1} = f(x_{t}, x_{t-1}, \ldots, x_{t-T}).$$</p>
+
+<h2 id="first-order-difference-equation">First-order difference equation</h2>
+
+<p>One of the most common cases that arises in macroeconomic models is the first-order difference equation.
+It relates the present value of a variable to the value it took in the perio immediately before:</p>
+
+<p>$$x_{t+1} = f(x_{t}).$$</p>
+
+<p>We are often interested in the steady state of difference equations.
+The steady state is defined as the set of values $\bar{x}$ (there can be more than one steady state) such that, if reached, the economy remains there.
+Equivalently, once reached, the value of the varable $x$ remains unchanged.
+Mathematically, $\bar{x}$ is a steady state of a first-order difference equation if</p>
+
+<p>$$\bar{x} = f(\bar{x}).$$</p>
+
+<p>Proving that a steady state $\bar{x}$ exists may involve using different techniques.</p>
+
+<p><strong>Example:</strong> Assume that following first-order difference equation:</p>
+
+<p>$$x_{t+1} = x_{t}^{\eta} +\kappa, \kappa&gt;0, \eta \in (0,1).$$</p>
+
+<p>The steady solves: $\bar{x} = \bar{x}^{\eta}+\kappa$.
+We can alternatively try to find a zero to the function $F(\bar{x}) = \bar{x} - \bar{x}^{\eta} - \kappa$.
+Note that $F(0) = -\kappa &lt;0$ and that $\lim_{\bar{x} \rightarrow +\infty} F(\bar{x}) = + \infty.$
+Hence, since it is a continuous function, it must have at least one solution.
+We can further show that it admits one and only one solution.
+This function has a unique minimum:
+$F^{\prime}(\bar{x}) = 1 - \eta \bar{x}^{\eta - 1},$ which implies that the minimum equals $x_{min} = \eta^{frac{1}{1-\eta}}.$
+Hence, the minimum is unique.
+The function starts at a negative value ($F(0) &lt; 0$), then decreaes until it reaches the minimum (check for instance that $lim_{\bar{x} \rightarrow 0^{+}} F^{\prime}(\bar{x}) &lt; 0$) and then continuously increases, eventually becoming positive.</p>
+
+<h3 id="stability-of-a-first-order-difference-equation">Stability of a first-order difference equation</h3>
+
+<p>A steady state solution $\bar{x}$ to $\bar{x} = f(\bar{x})$ which is interior to the domain of $f$ is <em>locally stable</em> if for any initial value $x_{0}$ near enough to $\bar{x}$, the dynamics starting from $x_{0}$ converge to $\bar{x}$.
+In other terms,
+$$\lim_{t \rightarrow +\infty} x_{t} = \bar{x}.$$</p>
+
+<p>To determine whether a steady state is stable we analye whether the function converges towards that steady state.
+We typically use first-order conditions to determine the stability.
+However, these only apply to <strong>hyperbolic</strong> steady states.</p>
+
+<h4 id="hyperbolic-steady-states">Hyperbolic steady states</h4>
+
+<p>Assume that $f$ is differentiable.
+Let $\bar{x}$ be a steady state of $f$.
+If $|f^{\prime}(\bar{x}) = 1|,$ then the steady state is <strong>non-hyperbolic</strong>.
+Conversely, if $|f^{\prime}(\bar{x}) \neq 1|,$ then the steady state <strong>is hyperbolic</strong>.</p>
+
+<h4 id="first-order-stability">First-order stability</h4>
+
+<p>Suppose that $\bar{x}$ is a hyperbolic steady state of $f$.
+Then</p>
+
+<ul>
+<li>if $|f^{\prime}(\bar{x}) &lt; 1|$ then $\bar{x}$ is locally stable,</li>
+<li>if $|f^{\prime}(\bar{x}) &gt; 1|$ then $\bar{x}$ is unstable.</li>
+</ul>
+
+<p>Page 316 of <em>de la Croix and Michel</em> provide the proof.</p>
+
+<p>Intuitively, the condition for stability requires that we approach the steady state slowly.
+In other terms, the curvature of $f$ is smaller than 1.
+Therefore, although $x_{t}$ grows over time, every time the increase in its value becomes smaller, eventually tending towards zero.</p>
+
+<p><strong>Example:</strong> let x_{t} = f(x_{t-1}) = x_{t-1}^{0.5}. This first-order difference equation has a two steady states: $\bar{x}_{1} = 0$ and $\bar{x}_{2} = 1.$
+The first derivative is $f^{\prime} = 0.5 x_{t-1}^{-0.5}.
+Evaluating it at the steady states results in the following:</p>
+
+<p>$$ \lim_{\bar{x} \rightarrow {\bar{x}_{1}}^{+}} |f^{\prime}(\bar{x}_{1})| = + \infty, $$
+$$ |f^{\prime}(\bar{x}_{2})| = 0.5 &lt; 1.$$</p>
+
+<p>Therefore, $\bar{x}_{1}= 0$ is an unstable steady state, while $\bar{x}_{2} = 1$ is stable.
+Below, we plot two trajectories of $x_{t}$ when $x_{t} = x_{t-1}^{0.5}:$ one starting below the steady state $x_{0} &lt; 1$ and the other above.</p>
+
+<p><img src="/static/img/ramsey/Steady_States.png" alt="steady states" /></p>
+
+          </div>
+
+          
+
+
+
+          
+        </div>
+
+        <div class="body-footer">
+          <p>Last updated on Jul 11, 2019</p>
+
+          
+        </div>
+
+      </article>
+
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    &copy; 2019 Èric Roca Fernández &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+  </p>
+</footer>
+
+
+    </main>
+  </div>
+</div>
+
+
+      
+
+    
+    
+    
+    <script src="/js/mathjax-config.js"></script>
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js" integrity="sha256-pB/deHc9CGfFpJRjC43imB29Rse8tak+5eXqntO94ck=" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+    </script>
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.24e4ae3437f67be0520f6066707da44b.js"></script>
+
+    
+
+
+
+
+
+
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script data-no-instant>document.write('<script src="/livereload.js?port=1313&mindelay=10"></' + 'script>')</script></body>
+</html>

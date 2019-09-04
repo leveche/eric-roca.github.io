@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.4.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Eric Roca Fernandez">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="We focus now on how a change in $G_{t}$ affects the behaviour of the economy. We rely on the phase diagram for this analysis: it conveys the message quite efficiently. In what follows, we assume that the economy is at its steady-state level $(\bar{k}^{\mathcal{Gov}}, \bar{c}^{\mathcal{Gov}})$ when the government decides to change $G_t.$ Furthermore, we assume taxes are constant at some level $G_{t} = G_{1} &gt; 0.$
+Unexpected, permanent rise in $G$ Suppose that the government announces a sudden and unexpected increase in $G: G_{2} &gt; G_{1}.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://eric-roca.github.io/courses/ramsey_gov/changing_g/">
+
+  
+
+
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.9e398b7a64ee2c82769da9724cdbf0cc.css">
+
+  
+
+  
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-109506458-1', 'auto');
+      ga('set', 'anonymizeIp', true);
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="https://www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://eric-roca.github.io/courses/ramsey_gov/changing_g/">
+
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="Academic">
+  <meta property="og:url" content="https://eric-roca.github.io/courses/ramsey_gov/changing_g/">
+  <meta property="og:title" content="Changes in $G$ | Academic">
+  <meta property="og:description" content="We focus now on how a change in $G_{t}$ affects the behaviour of the economy. We rely on the phase diagram for this analysis: it conveys the message quite efficiently. In what follows, we assume that the economy is at its steady-state level $(\bar{k}^{\mathcal{Gov}}, \bar{c}^{\mathcal{Gov}})$ when the government decides to change $G_t.$ Furthermore, we assume taxes are constant at some level $G_{t} = G_{1} &gt; 0.$
+Unexpected, permanent rise in $G$ Suppose that the government announces a sudden and unexpected increase in $G: G_{2} &gt; G_{1}."><meta property="og:image" content="https://eric-roca.github.io/img/icon-192.png">
+  <meta property="twitter:image" content="https://eric-roca.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2019-07-11T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2019-07-11T00:00:00&#43;00:00">
+  
+
+  
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#2962ff",
+          "text": "#fff"
+        },
+        "button": {
+          "background": "#fff",
+          "text": "#2962ff"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "https://cookies.insites.com"
+      }
+    })});
+</script>
+
+
+
+  
+
+
+
+
+
+  <title>Changes in $G$ | Academic</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Academic</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav mr-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#working_papers"><span>Working Papers</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talks"><span>Talks</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#references"><span>References</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/files/cv.pdf"><span>CV</span></a>
+        </li>
+
+        
+        
+
+      
+      </ul>
+      <ul class="navbar-nav ml-auto">
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      
+
+
+
+
+
+<form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <span><i class="fas fa-bars"></i></span>
+  </button>
+
+  
+  <input name="q" type="search" class="form-control" placeholder="Search..." autocomplete="off">
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/courses/ramsey_gov/">Introduction</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/courses/ramsey_gov/households/">Households</a>
+      </li>
+      
+      <li >
+        <a href="/courses/ramsey_gov/equilibrium/">Steady state</a>
+      </li>
+      
+      <li class="active">
+        <a href="/courses/ramsey_gov/changing_g/">Changes in $G$</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  
+</nav>
+
+    </div>
+
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">Contents</a></li>
+      </ul>
+
+      <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#un_perm">Unexpected, permanent rise in $G$</a></li>
+<li><a href="#un_temp">Unexpected, temporary rise in $G$</a></li>
+<li><a href="#anticipated-permanent-rise-in-g">Anticipated, permanent rise in $G$</a></li>
+<li><a href="#anticipated-temporary-rise-in-g">Anticipated, temporary rise in $G$</a></li>
+</ul></li>
+</ul>
+</nav>
+
+      
+    </div>
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article" itemscope itemtype="http://schema.org/Article">
+
+        <div class="docs-article-container">
+          <h1 itemprop="name">Changes in $G$</h1>
+
+          <div class="article-style" itemprop="articleBody">
+            
+
+<p>We focus now on how a change in $G_{t}$ affects the behaviour of the economy.
+We rely on the phase diagram for this analysis: it conveys the message quite efficiently.
+In what follows, we assume that the economy is at its steady-state level $(\bar{k}^{\mathcal{Gov}}, \bar{c}^{\mathcal{Gov}})$ when the government decides to change $G_t.$
+Furthermore, we assume taxes are constant at some level $G_{t} = G_{1} &gt; 0.$</p>
+
+<h2 id="un_perm">Unexpected, permanent rise in $G$</h2>
+
+<p>Suppose that the government announces a <em>sudden and unexpected</em> increase in $G: G_{2} &gt; G_{1}.$
+The Ramsey model illustrates the consequences of such a change.</p>
+
+<p>First, we have assumed that the economy was at its steady state.
+The change in $G$, as we discussed before, moves the $k$-locus closer to the horizontal axis.</p>
+
+<p>With the change in $G$, a new steady state emerges.
+The steady-state capital level $\bar{k}^\mathcal{Gov}(G_2) = \bar{k}^\mathcal{Gov}(G_{1})$ remains the same.
+However, households need to adjust their consumption level.
+Otherwise, they would <em>not</em> be on the saddle path, and they would follow a diverging trajectory leading to zero consumption.
+The unique possibility that puts the economy on the new steady state is for consumption to jump directly to it.
+This is, consumption must reduce by the amount $\Delta_{G} = G_{2} - G_{1}.$
+Thus the size of the immediate fall in consumption is equal to the full amount of the increase in government purchases, and the <strong>capital stock and the real interest rate are unaffected</strong>.</p>
+
+<p>A similar policy under the Solow model would have implied a smaller reduction in consumption.
+In Solow, consumption is the fraction $1-s$ of current income.
+The tax decreases current income by $G$, but consumption would only change by $(1-s)G &lt; G.$
+Hence, the remaining part of the increase in $G$ is absorbed by a reduction in investments of the size $sG$: <em>government purchases crowd out investment in the Solow model.</em></p>
+
+<p><img src="/img/ramsey_gov/permanent_increase.png" alt="permanent_increase" /></p>
+
+<h2 id="un_temp">Unexpected, temporary rise in $G$</h2>
+
+<p>Different from before, suppose that the increase in $G$ is only temporary, starting at $t=t_{0}$ and lasting until $t=t_{1}.$
+We still suppose that the increase in taxes is unexpected.
+One possibility is to first jump to the new steady state, remain there while taxes are high, and at time $t=t_{1}$ jump back to the original steady state.
+However, this implies two discontinuities in consumption: the first and second jumps.
+This would imply that marginal utility falls discontinuously and this is not optimal.</p>
+
+<p>There is a second possibility.
+First, decrease consumption by a smaller amount than before: $\Delta_{c} &lt; \Delta_{G}.$
+This implies that the economy is <em>not</em> on the new steady state $(\bar{k}^\mathcal{Gov}(G_2) , \bar{c}^{\mathcal{Gov}}(G_{2}))$, but above it.
+Thus, it is subject to the dynamics implied by the phase diagram: capital decreases and consumption increases.
+The initial jump in consumption must be carefully computed such that, at time $t=t_{1}$, the dynamics implied by $G_{2}$ put the economy on the saddle path of $G_{1}.$
+This is, the economy undergoes a transition such that, at $t=t_{1}$ when taxes and dynamics &mdash;and the phase diagram&mdash; return to the original  configuration, the economy is on its saddle path.</p>
+
+<p><img src="/img/ramsey_gov/temp_increase.png" alt="temporary_increase" /></p>
+
+<p>The figure above depicts in black the original $k$-locus &mdash;for $G=G_{1}$&mdash; and in red the temporary one while with $G=G_{2}.$
+The economy first jumps from the initial steady state $(\bar{k}^{\mathcal{Gov}}(G_{1}), \bar{c}^{\mathcal{Gov}}(G_{1}))$ following the black arrow.
+From then onwards, the dynamics of the red $k$-locus determine the trajectory of the economy.
+In particular, it moves north-west following the orange curve.
+The initial jump is calculated in such a way that at $t=t_{1}$ the economy is on the saddle path corresponding to $G=G_{1}.$
+From there, it simply follow the saddle path towards the steady state $(\bar{k}^{\mathcal{Gov}}(G_{1}), \bar{c}^{\mathcal{Gov}}(G_{1})).$</p>
+
+<p>During the transition, households reduce capital to sustain a higher and increasing level of consumption that would not be possible with $G_{2} &gt; G_{1}.$
+From $t=t_{1}$, consumption continues to grow, but capital start accumulating again.</p>
+
+<p><img src="/img/ramsey_gov/temp_increase_2.png" alt="temporary_increase_2" /></p>
+
+<p>The change in consumption during $t=t_{0}$ is directly proportional to the length of the increase in taxes.
+The longer it is, the closer the economy jumps to the steady state $(\bar{k}^{\mathcal{Gov}}(G_{2}), \bar{c}^{\mathcal{Gov}}(G_{2})).$
+However, it never reaches it: households always decrease their savings, which allows them to later be on the saddle path when taxes go back to $G_{1}.$</p>
+
+<h2 id="anticipated-permanent-rise-in-g">Anticipated, permanent rise in $G$</h2>
+
+<p><strong>Note:</strong> when analysing an <em>anticipated</em> measure, start from the end move backwards.</p>
+
+<p>Suppose that at time $t=t_{0}$ the government announces that at time $t=t_{1}$ taxes will permanently increase.</p>
+
+<p>One possibility is to mimic the <a href="{{ ref &quot;#un_perm&quot; &gt;}}" target="_blank">unanticipated, permanent change</a>: remain at the original steady state $(\bar{k}^\mathcal{Gov}(G_{0}), \bar{c}^\mathcal{Gov}(G_{0}))$ until $t_{1}$, and then jump onto the new steady state.
+However, this represents a large cost in terms of utility: non-smooth changes penalise utility.</p>
+
+<p>Instead, households will slightly decrease consumption at $t_{0}$.
+The dynamics of the $(\bar{k}^\mathcal{Gov}(G_{0}), \bar{c}^\mathcal{Gov}(G_{0}))$ steady state will move the economy south-east: consumption decreases while capital increases.
+The first initial jump at $t_{0}$ must be such that, at $t_{1}$ the economy is on the saddle path corresponding to the new steady state $(\bar{k}^\mathcal{Gov}(G_{1}), \bar{c}^\mathcal{Gov}(G_{1})).$</p>
+
+<p><img src="/img/ramsey_gov/perm_an_increase.png" alt="perm_an" /></p>
+
+<p>Hence, during the transition, consumption continuously falls, but smoothly.
+Capital, instead, first accumulates and decreases from $t_{1}$ onwards.</p>
+
+<p><img src="/img/ramsey_gov/perm_an_increase_2.png" alt="perm_an2" /></p>
+
+<h2 id="anticipated-temporary-rise-in-g">Anticipated, temporary rise in $G$</h2>
+
+<p><strong>Note:</strong> when analysing an <em>anticipated</em> measure, start from the end move backwards.</p>
+
+<p>Finally, suppose that the increase in $G$ is temporary.
+At time $t=t_{0}$ the government announces that at time $t=t_{1}$ taxes will increase from $G_{0}$ to $G_{1}.$
+The new tax regime will apply for some time, until $t=t_{2}$ when taxes will return to their original level $G_{0}.$</p>
+
+<p>In that case households can decide to follow the same strategy as in an <a href="#un_temp" target="_blank">unanticipated, temporary increase</a>.
+However, it entails a relatively large adjustment in terms of consumption at time $t=t_{1}$, when the new policy becomes effective.
+Instead, households can take advantage of the anticipation in the announcement:
+decrease the consumption at the announcement time $t=t_{0}$ by a relatively small amount.
+This places households on the black arrow trajectory, since the economy is still governed by the $(\bar{k}^\mathcal{Gov}(G_{0}), \bar{c}^\mathcal{Gov}(G_{0}))$-locus.
+In that case, though, the change in consumption is such that, when the new tax policy becomes effective, consumption follows the orange arrow.
+Finally, timing is again crucial because at time $t=t_{2}$ the economy must be on the saddle path that corresponds to the initial steady state: $(\bar{k}^\mathcal{Gov}(G_{0}), \bar{c}^\mathcal{Gov}(G_{0})).$</p>
+
+<p><img src="/img/ramsey_gov/temp_an_increase.png" alt="an_temp_inc" /></p>
+
+<p>In that case, between $t_{0}$ and $t_{1}$, households decrease consumption and save.
+Between $t_{1}$ and $t_{2}$ first consumption continues to decrease and so does capital, but eventually consumption rises while capital continues to decrease.
+Finally, from $t_{2}$ onward, both capital and consumption rise along the saddle path.
+Note that, although consumption decreases, it does so continuously except for the initial jump.
+This consumption-smoothing decreases utility less than a discontinuous jumps.</p>
+
+<p><img src="/img/ramsey_gov/temp_an_increase_2.png" alt="an_temp_inc" /></p>
+
+          </div>
+
+          
+
+
+
+          
+          <div class="article-widget">
+            
+<div class="post-nav">
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Previous</div>
+    <a href="/courses/ramsey_gov/equilibrium/" rel="next">Steady state</a>
+  </div>
+  
+  
+</div>
+
+          </div>
+          
+        </div>
+
+        <div class="body-footer">
+          <p>Last updated on Jul 11, 2019</p>
+
+          
+
+
+          
+
+        </div>
+
+      </article>
+
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    &copy; 2019 Èric Roca Fernández &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+  </p>
+</footer>
+
+
+    </main>
+  </div>
+</div>
+
+
+      
+
+    
+    
+    
+    <script src="/js/mathjax-config.js"></script>
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
+      
+    
+
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js" integrity="sha256-pB/deHc9CGfFpJRjC43imB29Rse8tak+5eXqntO94ck=" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+    </script>
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.4e51017b38c7ebaadd7e25fc9503f88c.js"></script>
+
+    
+
+
+
+
+
+
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

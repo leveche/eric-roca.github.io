@@ -1,0 +1,1092 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.4.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Eric Roca Fernandez">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Steady states A steady state of an N-dimensional dynamic system is a configuration of the system variables&rsquo; such that the system remains unchanged over time. This is, upon reaching a steady state, the system remains there forever. Hence, if the system is given by:
+$$\left. \begin{eqnarray} x^{1}_{t&#43;1} &amp; = f_{1}(x^{1}_{t}, \ldots, x^{N}_{t}) \\
+\vdots &amp; \\
+x^{N}_{t&#43;1} &amp; = f_{N}(x^{1}_{t}, \ldots, x^{N}_{t}) \end{eqnarray} \right\}$$
+in a steady state we have that">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://eric-roca.github.io/courses/ramsey/steady_state_ramsey/">
+
+  
+
+
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.9e398b7a64ee2c82769da9724cdbf0cc.css">
+
+  
+
+  
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-109506458-1', 'auto');
+      ga('set', 'anonymizeIp', true);
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="https://www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://eric-roca.github.io/courses/ramsey/steady_state_ramsey/">
+
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="Academic">
+  <meta property="og:url" content="https://eric-roca.github.io/courses/ramsey/steady_state_ramsey/">
+  <meta property="og:title" content="Steady state | Academic">
+  <meta property="og:description" content="Steady states A steady state of an N-dimensional dynamic system is a configuration of the system variables&rsquo; such that the system remains unchanged over time. This is, upon reaching a steady state, the system remains there forever. Hence, if the system is given by:
+$$\left. \begin{eqnarray} x^{1}_{t&#43;1} &amp; = f_{1}(x^{1}_{t}, \ldots, x^{N}_{t}) \\
+\vdots &amp; \\
+x^{N}_{t&#43;1} &amp; = f_{N}(x^{1}_{t}, \ldots, x^{N}_{t}) \end{eqnarray} \right\}$$
+in a steady state we have that"><meta property="og:image" content="https://eric-roca.github.io/img/icon-192.png">
+  <meta property="twitter:image" content="https://eric-roca.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2019-07-11T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2019-07-11T00:00:00&#43;00:00">
+  
+
+  
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#2962ff",
+          "text": "#fff"
+        },
+        "button": {
+          "background": "#fff",
+          "text": "#2962ff"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "https://cookies.insites.com"
+      }
+    })});
+</script>
+
+
+
+  
+
+
+
+
+
+  <title>Steady state | Academic</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Academic</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav mr-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#working_papers"><span>Working Papers</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talks"><span>Talks</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#references"><span>References</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/files/cv.pdf"><span>CV</span></a>
+        </li>
+
+        
+        
+
+      
+      </ul>
+      <ul class="navbar-nav ml-auto">
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      
+
+
+
+
+
+<form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <span><i class="fas fa-bars"></i></span>
+  </button>
+
+  
+  <input name="q" type="search" class="form-control" placeholder="Search..." autocomplete="off">
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/courses/ramsey/">Introduction</a>
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/courses/ramsey/the_ramsey_model/">The Ramsey model</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/courses/ramsey/households/">Households</a>
+      </li>
+      
+      <li >
+        <a href="/courses/ramsey/firms/">Firms</a>
+      </li>
+      
+      <li >
+        <a href="/courses/ramsey/intertemporal_equilibrium/">Intertemporal equilibrium</a>
+      </li>
+      
+      <li class="active">
+        <a href="/courses/ramsey/steady_state_ramsey/">Steady state</a>
+      </li>
+      
+      <li >
+        <a href="/courses/ramsey/phase_diagram/">The phase diagram</a>
+      </li>
+      
+      <li >
+        <a href="/courses/ramsey/ramsey_trajectory/">Trajectory</a>
+      </li>
+      
+      <li >
+        <a href="/courses/ramsey/ramsey_example/">Example</a>
+      </li>
+      
+      <li >
+        <a href="/courses/ramsey/golden_rule/">Golden rule</a>
+      </li>
+      
+      <li >
+        <a href="/courses/ramsey/ramsey_remarks/">Last remarks</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  
+</nav>
+
+    </div>
+
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">Contents</a></li>
+      </ul>
+
+      <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#steady-states">Steady states</a></li>
+<li><a href="#the-steady-state-in-the-ramsey-model">The steady state in the Ramsey model</a>
+<ul>
+<li><a href="#existence-of-the-steady-state">Existence of the steady state</a></li>
+<li><a href="#stability">Stability of the steady state</a>
+<ul>
+<li><a href="#direct-computation-of-the-eigenvalues">Direct computation of the eigenvalues</a></li>
+<li><a href="#use-the-intermediate-value-theorem">Use the intermediate value theorem</a></li>
+<li><a href="#use-eigenvalues-properties">Use eigenvalues&rsquo; properties</a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+
+      
+    </div>
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article" itemscope itemtype="http://schema.org/Article">
+
+        <div class="docs-article-container">
+          <h1 itemprop="name">Steady state</h1>
+
+          <div class="article-style" itemprop="articleBody">
+            
+
+<h2 id="steady-states">Steady states</h2>
+
+<p>A steady state of an N-dimensional dynamic system is a configuration of the system variables&rsquo; such that the system remains unchanged over time.
+This is, upon reaching a steady state, the system remains there forever.
+Hence, if the system is given by:</p>
+
+<p>$$\left.
+\begin{eqnarray}
+x^{1}_{t+1} &amp; = f_{1}(x^{1}_{t}, \ldots, x^{N}_{t}) \\<br />
+\vdots &amp; \\<br />
+x^{N}_{t+1} &amp; = f_{N}(x^{1}_{t}, \ldots, x^{N}_{t})
+\end{eqnarray}
+\right\}$$</p>
+
+<p>in a steady state we have that</p>
+
+<p>$$\left.
+\begin{eqnarray}
+x^{1}_{t+1} &amp; = x^{1}_{t} \\<br />
+\vdots &amp; \\<br />
+x^{N}_{t+1} &amp; = x^{N}_{t}.
+\end{eqnarray}
+\right\}$$</p>
+
+<p>In many cases, a steady state is only reached at the limit when $t \rightarrow +\infty,$ unless we intentionally start the dynamics exactly at the steady state.
+Moreover, the steady state is often approached asymptotically: it is never fully reached, but we get infinitesimally close to it.
+Finally, steady states can be (asymptotically) stable or unstable.
+In the first sort, variables approach the steady-state level.
+In the second, the system <em>diverges</em> from the steady state.</p>
+
+<hr />
+
+<h2 id="the-steady-state-in-the-ramsey-model">The steady state in the Ramsey model</h2>
+
+<p>In our case, denote by $(\bar{k}, \bar{c}) \in \mathbb{R}_{+}^{2}$ the capital and consumption levels at the steady state.
+Then, a steady-state solution satisfies the following system of equations:</p>
+
+<p>$$\left.
+\begin{eqnarray}
+u^{\prime}(\bar{c}) &amp; = \beta (f^{\prime}(\bar{k}) + 1 -\delta) u^{\prime}(\bar{c}), \\<br />
+\bar{k} &amp; = f(\bar{k}) + (1-\delta) \bar{k} - \bar{c}.
+\end{eqnarray}
+\right\} \tag{9, Steady St.} \label{eq:ss}$$</p>
+
+<p>Simplifying we can obtain the following, equivalent expression:</p>
+
+<p>$$\left.
+\begin{eqnarray}
+f^{\prime}(\bar{k})  = \frac{\theta}{\beta}, \\<br />
+\bar{c}  = f(\bar{k}) - \delta \bar{k},
+\end{eqnarray}
+\right\} \tag{9.1, Steady St.} \label{eq:ss2}$$</p>
+
+<p>where $\theta \equiv 1 - \beta(1-\delta) \in (0,1).$</p>
+
+<h3 id="existence-of-the-steady-state">Existence of the steady state</h3>
+
+<p>From the Inada conditions for the production (Assumption R3.6) function we have that</p>
+
+<p>$$0 = \lim_{k \rightarrow +\infty} f^{\prime}(k) &lt; \frac{\theta}{\beta} &lt; \lim_{k \rightarrow 0}f^{\prime}(k) = +\infty.$$</p>
+
+<p>Hence, $f^\prime (k)$ takes values on the interval $(0, +\infty).$
+Since the function $f^\prime$ is continuous, by the intermediate value theorem there exists at least one $k=\bar{k}$ such that $f^\prime{\bar{k}} = \frac{\theta}{\beta}.$</p>
+
+<p>Moreover, from Assumption R3.4 the function $f^\prime (k)$ is monotonically decreasing.
+Therefore, there exists one and only one value $\bar{k} \in (0,+\infty)$ that solves the first equation in \ref{eq:ss2}.
+Also, the second equation in \ref{eq:ss2} uniquely determines the level of consumption given capital.
+Hence, the steady-state consumption level $\bar{c}$ is unique.</p>
+
+<p>We can obtain an overview of the dynamics of the model using the <a href="https://eric-roca.github.io/courses/ramsey/phase_diagram/" target="_blank">phase diagram</a> and derive the exact solution using the method outlined in <a href="https://eric-roca.github.io/courses/ramsey/ramsey_trajectory/" target="_blank">trajectory</a>.</p>
+
+<h3 id="stability">Stability of the steady state</h3>
+
+<p>We are now interested in determining the behaviour of the economy when it starts with some level of capital $k_0$ and consumption $c_0.$
+The economy is represented by a $2 \times 2$ system of first-order difference equations.
+The stability of a steady state depends on the Jacobian matrix&rsquo;s eigenvalues evaluated at the steady state.
+<strong>Note:</strong> the <a href="https://eric-roca.github.io/courses/math_app/steady_state/" target="_blank">Appendix</a> discusses this in more detail.
+In particular, we wonder whether the dynamics are such that they converge towards the steady state or diverge away from it.</p>
+
+<p>The equations that govern the economy are the Euler equation and the law for capital accumulation:</p>
+
+<p>$$\left.
+\begin{eqnarray}
+u^{\prime}(c_{t}) = \beta (f^{\prime}(k_{t+1}) + 1 - \delta) u^{\prime}(c_{t+1}), \\<br />
+k_{t+1} = f(k_{t}) + (1-\delta) k_{t} - c_{t}
+\end{eqnarray}
+\right\}. \tag{8.1 Equilibrium}
+$$</p>
+
+<p>The stability of the steady state first requires computing the Jacobian matrix.
+The Jacobian matrix associated to the system is:</p>
+
+<p>$$\bar{A} = \begin{pmatrix}
+\frac{\partial c_{t+1}}{\partial c_{t}} &amp; \frac{\partial c_{t+1}}{\partial k_{t}} \\<br />
+\frac{\partial k_{t+1}}{\partial c_{t}} &amp; \frac{\partial k_{t+1}}{\partial k_{t}}
+\end{pmatrix}.$$</p>
+
+<p>Notice that $\bar{A}$ represents the approximate linear behaviour of the economy at any given point: $\begin{pmatrix}c_{t+1} \\\ k_{t+1}\end{pmatrix} \approx \begin{pmatrix} c_0 \\\ k_0 \end{pmatrix} + \bar{A} \begin{pmatrix} c_t - c_0 \\\ k_t - k_0 \end{pmatrix}.$</p>
+
+<p>In our case, the Jacobian matrix reads:</p>
+
+<p>$$\bar{A} = \begin{pmatrix}
+\frac{u^{\prime \prime}(c_{t})+\beta f^{\prime \prime}(k_{t+1})u^{\prime}(c_{t+1})}{\beta \left[ f^{\prime}(k_{t+1}) + 1 - \delta \right] u^{\prime \prime}(c_{t+1})} &amp; -\frac{\beta f^{\prime \prime}(k_{t+1}) \left[ f^{\prime}(k_{t}) + 1 - \delta \right] u^{\prime}(c_{t+1})}{\beta \left[ f^{\prime}(k_{t+1}) + 1 - \delta \right] u^{\prime \prime}(c_{t+1})} \\<br />
+-1 &amp; f^{\prime}(k_{t}) + 1 - \delta
+\end{pmatrix}. \tag{10, Jacobian} \label{eq:jacobian}$$</p>
+
+<p>Then, we evaluate \ref{eq:jacobian} at the steady state.
+In particular, we use \ref{eq:ss} characterising the steady state.</p>
+
+<p>$$\color{red}{k_{t+1} = k_{t} = \bar{k},} $$
+$$\color{green}{c_{t+1} = c_{t} = \bar{c},} $$
+$$\color{blue}{1 = \beta \left( f^{\prime}(\bar{k}) + 1 - \delta \right).}  $$</p>
+
+<p>Substituting all $t$ and $t+1$ variables for their steady-state values $\bar{k}$ and $\bar{c}$ yields:</p>
+
+<p>$$\bar{A}\bigr\rvert_{\substack{
+    k_{t} = k_{t+1} = \bar{k} \\<br />
+     c_{t} = c_{t+1} = \bar{c}
+}
+}
+   = \begin{pmatrix}
+\frac{
+    u^{\prime \prime}(\color{green}{\bar{c}})+\beta f^{\prime \prime}(\color{red}{\bar{k}})u^{\prime}(\color{green}{\bar{c})}
+}
+{
+\beta \left[ f^{\prime}(\color{red}{\bar{k}}) + 1 - \delta \right] u^{\prime \prime}(\bar{\color{green}{c}})
+}
+&amp;
+ -\frac{
+\beta f^{\prime \prime}(\bar{k}) \left[ f^{\prime}(\bar{k}) + 1 - \delta \right] u^{\prime}(\bar{\color{green}{c}})
+}
+{
+\beta \left[ f^{\prime}(\bar{k}) + 1 - \delta \right] u^{\prime \prime}(\bar{\color{green}{c}})}
+\\<br />
+-1
+&amp;
+f^{\prime}(\color{red}{\bar{k}}) + 1 - \delta
+\end{pmatrix} = $$</p>
+
+<p>$$\begin{pmatrix}
+\frac{
+    u^{\prime \prime}(\bar{c})+\beta f^{\prime \prime}(\bar{k})u^{\prime}(\bar{c)}
+}
+{
+\color{blue}{\beta \left[ f^{\prime}(\bar{k}) + 1 - \delta \right]} u^{\prime \prime}(\bar{c})
+}
+&amp;
+ -\frac{
+\color{blue}{\beta} f^{\prime \prime}(\bar{k}) \color{blue}{\left[ f^{\prime}(\bar{k}) + 1 - \delta \right]} u^{\prime}(\bar{c})
+}
+{
+\color{blue}{\beta \left[ f^{\prime}(\bar{k}) + 1 - \delta \right]} u^{\prime \prime}(\bar{c})}
+\\<br />
+-1
+&amp;
+\color{blue}{f^{\prime}(\bar{k}) + 1 - \delta}
+\end{pmatrix} = $$</p>
+
+<p>$$\begin{pmatrix}
+\frac{
+    u^{\prime \prime}(\bar{c})+\beta f^{\prime \prime}(\bar{k})u^{\prime}(\bar{c)}
+}
+{
+u^{\prime \prime}(\bar{c})
+}
+&amp;
+ -\frac{
+f^{\prime \prime}(\bar{k}) u^{\prime}(\bar{c})
+}
+{
+u^{\prime \prime}(\bar{c})}
+\\<br />
+-1
+&amp;
+\frac{1}{\beta}
+\end{pmatrix} = $$</p>
+
+<p>$$\begin{pmatrix}
+    1 - \beta f^{\prime \prime}(\bar{k}) \frac{\bar{c}}{\epsilon_{\bar{c}}}
+&amp;
+f^{\prime \prime}(\bar{k}) \frac{\bar{c}}{\epsilon_{\bar{c}}}
+\\<br />
+-1
+&amp;
+\frac{1}{\beta}
+\end{pmatrix}, $$</p>
+
+<p>where $\epsilon_{c} = - \frac{u^{\prime \prime}( c )}{u^{\prime}( c )} c$ represents the degree of relative risk aversion.</p>
+
+<p><strong>Technical note on steady states</strong>
+A steady state can be:</p>
+
+<ul>
+<li>Source: starting from any point, trajectories diverge away from it,</li>
+<li>Sink: starting from any point, trajectories converge towards it,</li>
+<li>Saddle: a unique combination of initial points presents a converging trajectory (saddle path), all other initial conditions imply an diverging trajectory.</li>
+</ul>
+
+<p>As mentioned before, the stability of a steady state depends on the eigenvalues of $\bar{A}$ (eigenvalues are the roots of the characteristic equation).
+Typically, we are only interested in some properties of the eigenvalues.</p>
+
+<p>i<strong>Blanchard-Kahn</strong> characterise the types of steady states in terms of its eigenvalues.
+Denote by $l$ the number of eigenvalues in the unit circle, and denote by $m$ the number of pre-determined state variables:</p>
+
+<ul>
+<li>if $l=m$ (standard case): saddle-path, <em>unique</em> optimal trajectory. The eigenvalues within the unit circle govern the speed of convergence.</li>
+<li>if $l \lt m$: unstable</li>
+<li>if $l \gt m$: multiple optimal trajectories.</li>
+</ul>
+
+<p>We can use different techniques to determine whether the eigenvalues lay in the interval $(-1,1).$</p>
+
+<h4 id="direct-computation-of-the-eigenvalues">Direct computation of the eigenvalues</h4>
+
+<p>The first method we present uses the definition of eigenvalue: the roots of the characteristic equation.
+It requires solving:</p>
+
+<p>$$\begin{vmatrix}
+    1-\beta f^{\prime \prime}(\bar{k})\frac{\bar{c}}{\epsilon_{\bar{c}}} - \lambda &amp; f^{\prime \prime}(\bar{k}) \frac{\bar{c}}{\epsilon_{\bar{c}}} \\<br />
+    -1 &amp; \frac{1}{\beta} - \lambda
+\end{vmatrix} =
+\lambda^{2} + \lambda \left( \beta f^{\prime \prime} (\bar{k}) \frac{\bar{c}}{\epsilon_{\bar{c}}} - 1 - \frac{1}{\beta} \right) + \frac{1}{\beta} = 0.$$</p>
+
+<p>The roots of this equation are:</p>
+
+<p>$$\lambda_{1} = \frac{\overbrace{1+\overbrace{\frac{1}{\beta}}^{&gt;1} - \overbrace{\beta f^{\prime \prime}(\bar{k}) \frac{\bar{c}}{\epsilon_{\bar{c}}}}^{<0} + \sqrt{\left( 1+\frac{1}{\beta} - \beta f^{\prime \prime}(\bar{k})\frac{\bar{c}}{\epsilon\_{\bar{c}}} \right)^2 - \frac{4}{\beta}}}^{>2}}{2} &gt; 1 .$$</p>
+
+<p>For $\lambda_{2}$ we have:</p>
+
+<p>$$\lambda_{2} = \frac{1+\frac{1}{\beta} - \beta f^{\prime \prime}(\bar{k}) \frac{\bar{c}}{\epsilon_{\bar{c}}} - \sqrt{\left( 1+\frac{1}{\beta} - \beta f^{\prime \prime}(\bar{k})\frac{\bar{c}}{\epsilon_{\bar{c}}} \right)^2 - \frac{4}{\beta}}}{2} &gt; 0$$</p>
+
+<p>To simplify notation, let $\phi \equiv 1+\frac{1}{\beta} - \beta f^{\prime \prime}(\bar{k}) \frac{\bar{c}}{\epsilon_{\bar{c}}}$ and $\kappa \equiv \frac{4}{\beta}$.<br/>
+Assume that $\lambda_{2} &gt; 1$, then we must have:</p>
+
+<p>$$\frac{\phi - \sqrt{\phi^{2} - \kappa}}{2} &gt; 1 \implies \kappa &gt; 4\phi - 4.$$
+Substituting:
+$$4 + \frac{4}{\beta} - 4 \beta f^{\prime \prime}(\bar{k})\frac{\bar{c}}{\epsilon_{\bar{c}}} - 4 &lt; \frac{4}{\beta} \implies -4\beta f^{\prime \prime}(\bar{k})\frac{\bar{c}}{\epsilon_{\bar{c}}} &lt; 0.$$
+But this is impossible because $f^{\prime \prime}(\cdot) &lt; 0.$
+Hence, $\lambda_{2} &lt; 1$.</p>
+
+<p>Summarising, the eigenvalues are such that
+$$\lambda_{1} &gt; 1$$
+<center>and</center>
+$$\lambda_{2}\in(0,1)$$
+<center>and the <strong>steady state is a saddle.</strong></center></p>
+
+<h4 id="use-the-intermediate-value-theorem">Use the intermediate value theorem</h4>
+
+<p>The characteristic equation associated with the Jacobian evaluated at the steady state is:</p>
+
+<p>$$G(\lambda) = \lambda^{2} + \lambda \left( \beta f^{\prime \prime} (\bar{k}) \frac{\bar{c}}{\epsilon_{\bar{c}}} - 1 - \frac{1}{\beta} \right) + \frac{1}{\beta} = 0.$$</p>
+
+<p>First, notice that $G(\lambda)$ is a continuous function on $\lambda.$
+We want to assess whether its roots (or at least one root) lay in the interval $(-1,1)$.
+The behaviour of $G(\lambda)$ is as follows:</p>
+
+<p>$$\lim_{\lambda \rightarrow -\infty} G(\lambda) = + \infty$$
+$$\lim_{\lambda \rightarrow +\infty} G(\lambda) = + \infty$$
+$$G(-1) = \frac{2}{\beta} - \beta f^{\prime \prime}(\bar{k})\frac{\bar{c}}{\epsilon_{\bar{c}}} &gt; 0$$
+$$G(0) = \frac{1}{\beta} &gt; 0 $$
+$$G(1) =  \beta f^{\prime \prime}(\bar{k})\frac{\bar{c}}{\epsilon_{\bar{c}}} &lt; 0.$$</p>
+
+<p>Hence, $\exists \lambda_{2} \in (-1,0)$ such that $G(\lambda_{2}) = 0$.
+The second root lies beyond $1.$
+Therefore, $\lambda_{1} &gt; 1, \lambda_{2}\in(0,1)$ and the <strong>steady state is a saddle.</strong></p>
+
+<h4 id="use-eigenvalues-properties">Use eigenvalues&rsquo; properties</h4>
+
+<p>For any matrix, we have the following:</p>
+
+<ul>
+<li>The product of eigenvalues equals the <strong>determinant</strong> of the matrix: $\mathrm{det}(M) = \lambda_{1} \lambda_{2} \ldots \lambda_{N},$</li>
+<li>The sum of eigenvalues equals the <strong>trace</strong> of matrix: $\mathrm{tr}(M) = \lambda_{1} + \lambda_{2} + \ldots + \lambda_{N}.$</li>
+</ul>
+
+<p>In our case:</p>
+
+<p>$$\lambda_{1} \lambda_{2} = \frac{1}{\beta} $$
+$$\lambda_{1} + \lambda_{2} = \underbrace{1+ \frac{1}{\beta} - \beta f^{\prime \prime}(\bar{k})\frac{\bar{c}}{\epsilon_{\bar{c}}}}_{&gt;1}.$$</p>
+
+<p>The first equation implies that either</p>
+
+<ul>
+<li>a) $\lambda_{1} &gt; 0, \lambda_{2} &gt; 0$ or</li>
+<li>b) $\lambda_{1} &lt; 0, \lambda_{2} &lt; 0.$</li>
+</ul>
+
+<p>However, since $\lambda_{1} + \lambda_{2} &gt; 1$ b) is impossible.
+Therefore, $\lambda_{1} &gt; 0, \lambda_{2} &gt; 0.$</p>
+
+<p>Substitute $\lambda_{1} \lambda_{2} = \frac{1}{\beta}$ in the second equation:</p>
+
+<p>$$ \lambda_{1} + \lambda_{2} = 1+ \lambda_{1} \lambda_{2} - \beta f^{\prime \prime}(\bar{k})\frac{\bar{c}}{\epsilon_{\bar{c}}}.$$</p>
+
+<p>Rearranging:
+$$ \lambda_{1} + \lambda_{2} - \lambda_{1} \lambda_{2} =  1+  - \beta f^{\prime \prime}(\bar{k})\frac{\bar{c}}{\epsilon_{\bar{c}}} &gt; 1 \implies \lambda_{1} + \lambda_{2} - \lambda_{1}\lambda_{2} - 1 &gt;0.$$
+Factorisation leads to:
+$$(1 - \lambda_{2})(\lambda_{1} - 1) &gt; 0.$$
+Therefore, because $\lambda_{1},\, \lambda_{2} &gt; 0$ we must have</p>
+
+<p>$$ \lambda_{2} &lt; 1 $$
+$$ \lambda_{1} &gt; 1 $$
+$$ \lambda_{1} &gt; 0, \lambda_{2} &gt; 0$$
+and <strong>the steady state is saddle.</strong></p>
+
+          </div>
+
+          
+
+
+
+          
+          <div class="article-widget">
+            
+<div class="post-nav">
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Previous</div>
+    <a href="/courses/ramsey/the_ramsey_model/" rel="next">The Ramsey model</a>
+  </div>
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Next</div>
+    <a href="/courses/ramsey/phase_diagram/" rel="prev">The phase diagram</a>
+  </div>
+  
+</div>
+
+          </div>
+          
+        </div>
+
+        <div class="body-footer">
+          <p>Last updated on Jul 11, 2019</p>
+
+          
+
+
+          
+
+        </div>
+
+      </article>
+
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    &copy; 2019 Èric Roca Fernández &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+  </p>
+</footer>
+
+
+    </main>
+  </div>
+</div>
+
+
+      
+
+    
+    
+    
+    <script src="/js/mathjax-config.js"></script>
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
+      
+    
+
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js" integrity="sha256-pB/deHc9CGfFpJRjC43imB29Rse8tak+5eXqntO94ck=" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+    </script>
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.4e51017b38c7ebaadd7e25fc9503f88c.js"></script>
+
+    
+
+
+
+
+
+
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

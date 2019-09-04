@@ -1,24 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Èric Roca Fernández on Academic</title>
+    <title>Èric Roca Fernández | Academic</title>
     <link>https://eric-roca.github.io/authors/%C3%A8ric-roca-fern%C3%A1ndez/</link>
-    <description>Recent content in Èric Roca Fernández on Academic</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; {year} Èric Roca Fernández</copyright>
-    <lastBuildDate>Mon, 21 Nov 2016 11:15:00 +0530</lastBuildDate>
-    
-	<atom:link href="https://eric-roca.github.io/authors/%C3%A8ric-roca-fern%C3%A1ndez/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://eric-roca.github.io/authors/%C3%A8ric-roca-fern%C3%A1ndez/index.xml" rel="self" type="application/rss+xml" />
+    <description>Èric Roca Fernández</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Èric Roca Fernández</copyright><lastBuildDate>Mon, 21 Nov 2016 11:15:00 +0530</lastBuildDate>
+    <image>
+      <url>https://eric-roca.github.io/img/icon-192.png</url>
+      <title>Èric Roca Fernández</title>
+      <link>https://eric-roca.github.io/authors/%C3%A8ric-roca-fern%C3%A1ndez/</link>
+    </image>
     
     <item>
       <title>&#39;Now She&#39;s Martha, then She&#39;s Mary&#39;: The Influence of Beguinages on Attitudes Toward Women</title>
       <link>https://eric-roca.github.io/talk/2016-12_new-delhi/</link>
       <pubDate>Mon, 21 Nov 2016 11:15:00 +0530</pubDate>
-      
       <guid>https://eric-roca.github.io/talk/2016-12_new-delhi/</guid>
-      <description>This papers shows the long lasting effects on gender equality the beguine movement had. Beguinages were female-only, semi-religious institutions that appeared in the Low Countries during the Middle Ages. We find that in Belgian municipalities that had a beguinage, the female-to-male wage ratio and literace rates were more similar during the 19th century.</description>
+      <description></description>
     </item>
     
   </channel>

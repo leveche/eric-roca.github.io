@@ -1,22 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Academic</title>
+    <title>Tags | Academic</title>
     <link>https://eric-roca.github.io/tags/</link>
-    <description>Recent content in Tags on Academic</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; {year} Èric Roca Fernández</copyright>
-    <lastBuildDate>Wed, 01 May 2019 00:00:00 +0000</lastBuildDate>
+      <atom:link href="https://eric-roca.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tags</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Èric Roca Fernández</copyright><lastBuildDate>Sun, 01 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://eric-roca.github.io/img/icon-192.png</url>
+      <title>Tags</title>
+      <link>https://eric-roca.github.io/tags/</link>
+    </image>
     
-	<atom:link href="https://eric-roca.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Comparative Development</title>
+      <link>https://eric-roca.github.io/tags/comparative-development/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://eric-roca.github.io/tags/comparative-development/</guid>
+      <description></description>
+    </item>
     
+    <item>
+      <title>Economic History</title>
+      <link>https://eric-roca.github.io/tags/economic-history/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://eric-roca.github.io/tags/economic-history/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Empirical Work</title>
+      <link>https://eric-roca.github.io/tags/empirical-work/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://eric-roca.github.io/tags/empirical-work/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Gender Equality</title>
       <link>https://eric-roca.github.io/tags/gender-equality/</link>
-      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
-      
+      <pubDate>Fri, 21 Jun 2019 00:00:00 +0000</pubDate>
       <guid>https://eric-roca.github.io/tags/gender-equality/</guid>
       <description></description>
     </item>
@@ -24,36 +47,8 @@
     <item>
       <title>Theoretical Model</title>
       <link>https://eric-roca.github.io/tags/theoretical-model/</link>
-      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
-      
+      <pubDate>Fri, 21 Jun 2019 00:00:00 +0000</pubDate>
       <guid>https://eric-roca.github.io/tags/theoretical-model/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Empirical Work</title>
-      <link>https://eric-roca.github.io/tags/empirical-work/</link>
-      <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://eric-roca.github.io/tags/empirical-work/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Female Employment</title>
-      <link>https://eric-roca.github.io/tags/female-employment/</link>
-      <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://eric-roca.github.io/tags/female-employment/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Economic History</title>
-      <link>https://eric-roca.github.io/tags/economic-history/</link>
-      <pubDate>Wed, 15 Mar 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://eric-roca.github.io/tags/economic-history/</guid>
       <description></description>
     </item>
     

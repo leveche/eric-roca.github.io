@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.4.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Eric Roca Fernandez">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="The economy is populated by a large number of identical households. Each household is composed of one individual who lives indefinitely.
+Utility representation Households exhibit the following utility representation: $$U = \sum_{t=0}^{\infty} \beta^{t} u(c_{t}),\quad \beta \in (0,1) \tag{1, Utility}$$
+Assumption R1: The utility function satisfies the following properties:
+ R1.1 $u( c )$ is a continuous function defined over $[0,&#43;\infty)$ R1.2 It has continuous derivatives of any required order defined over $(0,&#43;\infty)$ R1.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://eric-roca.github.io/courses/ramsey/households/">
+
+  
+
+
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.9e398b7a64ee2c82769da9724cdbf0cc.css">
+
+  
+
+  
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-109506458-1', 'auto');
+      ga('set', 'anonymizeIp', true);
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="https://www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://eric-roca.github.io/courses/ramsey/households/">
+
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="Academic">
+  <meta property="og:url" content="https://eric-roca.github.io/courses/ramsey/households/">
+  <meta property="og:title" content="Households | Academic">
+  <meta property="og:description" content="The economy is populated by a large number of identical households. Each household is composed of one individual who lives indefinitely.
+Utility representation Households exhibit the following utility representation: $$U = \sum_{t=0}^{\infty} \beta^{t} u(c_{t}),\quad \beta \in (0,1) \tag{1, Utility}$$
+Assumption R1: The utility function satisfies the following properties:
+ R1.1 $u( c )$ is a continuous function defined over $[0,&#43;\infty)$ R1.2 It has continuous derivatives of any required order defined over $(0,&#43;\infty)$ R1."><meta property="og:image" content="https://eric-roca.github.io/img/icon-192.png">
+  <meta property="twitter:image" content="https://eric-roca.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2019-07-11T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2019-07-11T00:00:00&#43;00:00">
+  
+
+  
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#2962ff",
+          "text": "#fff"
+        },
+        "button": {
+          "background": "#fff",
+          "text": "#2962ff"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "https://cookies.insites.com"
+      }
+    })});
+</script>
+
+
+
+  
+
+
+
+
+
+  <title>Households | Academic</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Academic</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav mr-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#working_papers"><span>Working Papers</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talks"><span>Talks</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#references"><span>References</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/files/cv.pdf"><span>CV</span></a>
+        </li>
+
+        
+        
+
+      
+      </ul>
+      <ul class="navbar-nav ml-auto">
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      
+
+
+
+
+
+<form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <span><i class="fas fa-bars"></i></span>
+  </button>
+
+  
+  <input name="q" type="search" class="form-control" placeholder="Search..." autocomplete="off">
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/courses/ramsey/">Introduction</a>
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/courses/ramsey/the_ramsey_model/">The Ramsey model</a>
+    <ul class="nav docs-sidenav">
+      
+      <li class="active">
+        <a href="/courses/ramsey/households/">Households</a>
+      </li>
+      
+      <li >
+        <a href="/courses/ramsey/firms/">Firms</a>
+      </li>
+      
+      <li >
+        <a href="/courses/ramsey/intertemporal_equilibrium/">Intertemporal equilibrium</a>
+      </li>
+      
+      <li >
+        <a href="/courses/ramsey/steady_state_ramsey/">Steady state</a>
+      </li>
+      
+      <li >
+        <a href="/courses/ramsey/phase_diagram/">The phase diagram</a>
+      </li>
+      
+      <li >
+        <a href="/courses/ramsey/ramsey_trajectory/">Trajectory</a>
+      </li>
+      
+      <li >
+        <a href="/courses/ramsey/ramsey_example/">Example</a>
+      </li>
+      
+      <li >
+        <a href="/courses/ramsey/golden_rule/">Golden rule</a>
+      </li>
+      
+      <li >
+        <a href="/courses/ramsey/ramsey_remarks/">Last remarks</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  
+</nav>
+
+    </div>
+
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">Contents</a></li>
+      </ul>
+
+      <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#utility-representation">Utility representation</a></li>
+<li><a href="#household-s-budget-constraint">Household&rsquo;s budget constraint</a></li>
+<li><a href="#solving-the-household-s-problem">Solving the household&rsquo;s problem</a>
+<ul>
+<li><a href="#the-euler-equation">The Euler equation</a></li>
+<li><a href="#the-transversality-condition">The Transversality Condition</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+
+      
+    </div>
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article" itemscope itemtype="http://schema.org/Article">
+
+        <div class="docs-article-container">
+          <h1 itemprop="name">Households</h1>
+
+          <div class="article-style" itemprop="articleBody">
+            
+
+<p>The economy is populated by a large number of identical households.
+Each household is composed of one individual who lives indefinitely.</p>
+
+<h2 id="utility-representation">Utility representation</h2>
+
+<p>Households  exhibit the following utility representation:
+$$U = \sum_{t=0}^{\infty} \beta^{t} u(c_{t}),\quad \beta \in (0,1) \tag{1, Utility}$$</p>
+
+<p><strong>Assumption R1:</strong>
+The utility function satisfies the following properties:</p>
+
+<ul>
+<li><strong>R1.1</strong> $u( c )$ is a continuous function defined over $[0,+\infty)$</li>
+<li><strong>R1.2</strong> It has continuous derivatives of any required order defined over $(0,+\infty)$</li>
+<li><strong>R1.3</strong> $u^{\prime}( c )&gt;0$ and $u^{\prime \prime}( c )&lt;0$</li>
+<li><strong>R1.4</strong> $u (c )$ satisfies the Inada conditions:
+$$\lim_{c \rightarrow 0}u^{\prime}( c ) = +\infty$$
+$$\lim_{c \rightarrow +\infty}u^{\prime}( c ) = 0$$</li>
+</ul>
+
+<h2 id="household-s-budget-constraint">Household&rsquo;s budget constraint</h2>
+
+<p>At each period,the household receives labour income $(w_t)$ which uses to save $(k_{t+1})$ and consume $(c_t)$.
+For simplicity, savings take the form of capital (instead of assets).
+Households lend capital to firms, obtaining a real interest $r_t$.
+However, capital is subject to a constant depreciation rate $\delta$.</p>
+
+<p>Therefore, each period of time, households face the following budget constraint:</p>
+
+<p>$$c_{t} + k_{t+1} = w_{t} + r_{t} k_{t} + (1-\delta) k_{t}. \tag{2, Budget C.}$$</p>
+
+<p>The left-hand side represents expenditures during period $t$:</p>
+
+<ul>
+<li>Consumption</li>
+<li>Saving</li>
+</ul>
+
+<p>The right-hand side includes all sources of income:</p>
+
+<ul>
+<li>Wages</li>
+<li>Interests</li>
+<li>Remaining capital after depreciation
+
+<ul>
+<li>Effectively, households can <em>eat</em> capital</li>
+</ul></li>
+</ul>
+
+<p><strong>Note:</strong> The budget constraint could have included <em>dividends</em> $d_{t}$ in the right-hand side.
+    However, as we shall see, firms operate in perfect competition, and make zero profits.</p>
+
+<h2 id="solving-the-household-s-problem">Solving the household&rsquo;s problem</h2>
+
+<p>First, we assume that households have <strong>perfect foresight.</strong>
+This means that a household is able to perfectly forecast all the future values of the relevant variables when deciding.
+For instance, at time $t$ the household is able to correctly compute $r_{t+1}$ and $w_{t+1}.$</p>
+
+<p><strong>Assumption R2:</strong> Households have perfect foresight.</p>
+
+<p>We are interested in finding the optimal path consumption and savings path, this is, the one that yields maximum utility.
+Note that the problem is infinite, in the sense that we need to determine $c_{t}$ and $k_{t+1}$ for each and every period of time.
+From the perspective of a household, the intertemporal maximisation problem reads:</p>
+
+<p>$$\begin{eqnarray}
+&amp;\max_{c_{t}, k_{t+1}} \sum_{t=0}^{\infty} \beta^{t} u(c_{t}) \\<br />
+&amp; c_{t} + k_{t+1}  = w_{t} + r_{t} k_{t} + (1- \delta) k_{t}.
+\end{eqnarray}$$</p>
+
+<hr />
+
+<p>First, we write the Langrangian equation corresponding to the problem:</p>
+
+<p>$$\mathcal{L} = \sum_{t=0}^{\infty} \beta^t u(c_{t}) + \sum_{t=0}^{\infty} \lambda_{t}(w_{t} + r_{t}k_{t} + (1-\delta)k_{t} - c_{t} - k_{t+1}).$$</p>
+
+<p><strong>Note:</strong> this Lagrangian has infinite multipliers $\lambda,$ one for each period.</p>
+
+<p>At time $t$, households have <em>two</em> decisions to make:</p>
+
+<ul>
+<li>How much to consume at $t$: $c_{t}$</li>
+<li>How much to save at $t$: $k_{t+1}$</li>
+</ul>
+
+<p>Therefore, we derive the Lagrangian function with respect to $c_{t}$ and $k_{t+1}$.</p>
+
+<p>$$\frac{\partial \mathcal{L}}{\partial c_{t}} = \beta^{t} u^{\prime}(c_{t}) - \lambda_{t}$$
+$$\frac{\partial \mathcal{L}}{\partial k_{t+1}} = - \lambda_{t} + \lambda_{t+1}(r_{t+1}+(1-\delta))$$</p>
+
+<p>Setting both expressions equal to zero to obtain the maximum and combining them yields:</p>
+
+<p>$$u^{\prime}(c_{t}) = \beta u^{\prime}(c_{t+1})(r_{t+1}+1-\delta). \tag{3, Euler Eq.}$$</p>
+
+<p>This condition is called the <strong>Euler equation</strong>.
+It tells us the optimal behaviour of the household.
+Rearranging the expression a little bit, we are left with a clearer expression linking present and future consumption:</p>
+
+<p>$$\frac{u^{\prime}(c_{t})}{u^{\prime}(c_{t+1})} = \beta (r_{t+1} + 1 - \delta). \tag{3.1, Euler eq.}$$</p>
+
+<p>Therefore, if the interest rate is to increase, the household would optimally postpone consumption: this is, decrease $c_{t}$ and increase $c_{t+1}.$
+<strong>Note:</strong> Remember that $u^{\prime \prime} &lt; 0$: marginal utilities are higher the lower consumption is.
+Slightly more complex relationships can arise if population grows or there is technological progress, see Romer, Chapter 2.</p>
+
+<h3 id="the-euler-equation">The Euler equation</h3>
+
+<p>The Euler equation appears often in optimisation problems: either using discrete or continuous time.
+The discrete-time version is relatively easier to interpret and obtain.
+In our case, the Euler equation relates the present and future marginal utilities of consumption.
+Imagine that the household decreased the amount consumed today, $c_{t}$ by an infinitesimally small amount $\Delta_{c_{t}}$.
+This causes a utility loss of $\Delta_{c_{t}} u^{\prime}(c_{t})$.
+Saving $\Delta_{c_{t}}$ until tomorrow and consuming all the proceedings generates a utility gain of $\Delta_{c_{t}}(r_{t+1} + 1 - \delta) u^{\prime}(c_{t+1})$.
+This gain <em>must</em> be, of course, discounted using the rate $\beta$ to compare present-day equivalents.</p>
+
+<p>Since the household is optimising, both the loss and the gain must be equal, otherwise, there would be an alternative consumption level that would maximise utility.
+Hence, putting everything together:
+$\Delta_{c_{t}} u^{\prime}(c_{t}) = \beta \Delta_{c_{t}} (r_{t+1} + 1 - \delta) u^{\prime}(c_{t+1}).$
+Cancel $\Delta_{c_{t}} &gt; 0$ on both sides to obtain the Euler equation.
+Alternatively, we can interpret the Euler equation as stating that it is not optimal to slightly deviate from the optimal path, consuming slightly less for instance, and later returning to the optimal path.
+<strong>Remark:</strong> the scheme we are putting in place here does not modify the intertemporal budget constraint because all the additional proceedings from saving are consumed.</p>
+
+<h3 id="the-transversality-condition">The Transversality Condition</h3>
+
+<p>The Euler equation is <em>not</em> enough to fully determine the optimal sequence of consumption and savings.
+For the moment, trajectories where the capital or consumption grow boundedless are feasible, but these should not be optimal.</p>
+
+<ul>
+<li>First, consider the economy continuously accumulates capital. In that case, consumption must decrease towards zero.
+Since we have assumed that $\lim_{c \rightarrow 0}u^{\prime}( c )=+\infty$ (Inada condition) a small increase in consumption raises utility by a large amount, this is, the marginal utility of consumption is very large.
+Hence, it cannot be optimal to accumulate capital and let consumption go to zero.</li>
+<li>Alternatively, let savings vanish. This case typically implies that $k_{t}$ converges to zero in finite time (this is, for some $t&lt;\infty$). The condition that capital must be positive prevents such cases.</li>
+</ul>
+
+<p><strong>Note:</strong> the preceding points are only descriptive of what the transversality condition implies.</p>
+
+<p>In fact, that transversality condition reads as:</p>
+
+<p>$$\lim_{t \rightarrow \infty} \beta^{t}u^{\prime}(c_{t})k_{t+1} = 0. \tag{4, Trans. Cond.}$$</p>
+
+<p>In general, we will obtain a steady-state equilibrium in which the path of capital and consumption are bounded.
+This is, in the optimal solution, consumption $c_{t} \rightarrow c^{\star}$ and capital $k_{t} \rightarrow k^{\star}$.
+In this case, the fact that $\beta \in (0,1)$ ensures the validity of the transversality condition.</p>
+
+          </div>
+
+          
+
+
+
+          
+          <div class="article-widget">
+            
+<div class="post-nav">
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Previous</div>
+    <a href="/courses/ramsey/firms/" rel="next">Firms</a>
+  </div>
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Next</div>
+    <a href="/courses/ramsey/intertemporal_equilibrium/" rel="prev">Intertemporal equilibrium</a>
+  </div>
+  
+</div>
+
+          </div>
+          
+        </div>
+
+        <div class="body-footer">
+          <p>Last updated on Jul 11, 2019</p>
+
+          
+
+
+          
+
+        </div>
+
+      </article>
+
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    &copy; 2019 Èric Roca Fernández &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+  </p>
+</footer>
+
+
+    </main>
+  </div>
+</div>
+
+
+      
+
+    
+    
+    
+    <script src="/js/mathjax-config.js"></script>
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
+      
+    
+
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js" integrity="sha256-pB/deHc9CGfFpJRjC43imB29Rse8tak+5eXqntO94ck=" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+    </script>
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.4e51017b38c7ebaadd7e25fc9503f88c.js"></script>
+
+    
+
+
+
+
+
+
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

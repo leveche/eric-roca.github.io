@@ -3,64 +3,262 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://eric-roca.github.io/authors/admin/</loc>
-    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+    <loc>https://eric-roca.github.io/courses/ramsey/firms/</loc>
+    <lastmod>2019-07-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://eric-roca.github.io/publication_types/3/</loc>
-    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+    <loc>https://eric-roca.github.io/courses/math_app/homogenous_functions/</loc>
+    <lastmod>2019-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eric-roca.github.io/courses/ramsey/households/</loc>
+    <lastmod>2019-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eric-roca.github.io/courses/ramsey_gov/households/</loc>
+    <lastmod>2019-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eric-roca.github.io/courses/olg/preliminaries/</loc>
+    <lastmod>2019-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eric-roca.github.io/courses/ramsey/</loc>
+    <lastmod>2019-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eric-roca.github.io/courses/math_app/steady_state/</loc>
+    <lastmod>2019-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eric-roca.github.io/courses/ramsey_gov/</loc>
+    <lastmod>2019-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eric-roca.github.io/courses/olg/households/</loc>
+    <lastmod>2019-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eric-roca.github.io/courses/ramsey_gov/equilibrium/</loc>
+    <lastmod>2019-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eric-roca.github.io/courses/ramsey/intertemporal_equilibrium/</loc>
+    <lastmod>2019-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eric-roca.github.io/courses/math_app/</loc>
+    <lastmod>2019-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eric-roca.github.io/courses/olg/savings_function/</loc>
+    <lastmod>2019-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eric-roca.github.io/courses/ramsey/the_ramsey_model/</loc>
+    <lastmod>2019-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eric-roca.github.io/courses/math_app/transversality_condition/</loc>
+    <lastmod>2019-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eric-roca.github.io/courses/ramsey_gov/changing_g/</loc>
+    <lastmod>2019-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eric-roca.github.io/courses/math_app/elasticity_of_substitution/</loc>
+    <lastmod>2019-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eric-roca.github.io/courses/olg/equilibrium/</loc>
+    <lastmod>2019-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eric-roca.github.io/courses/olg/</loc>
+    <lastmod>2019-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eric-roca.github.io/courses/ramsey/steady_state_ramsey/</loc>
+    <lastmod>2019-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eric-roca.github.io/courses/math_app/non-separable/</loc>
+    <lastmod>2019-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eric-roca.github.io/courses/olg/steady_state/</loc>
+    <lastmod>2019-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eric-roca.github.io/courses/ramsey/phase_diagram/</loc>
+    <lastmod>2019-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eric-roca.github.io/courses/olg/monotonicity_of_the_dynamics/</loc>
+    <lastmod>2019-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eric-roca.github.io/courses/ramsey/ramsey_trajectory/</loc>
+    <lastmod>2019-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eric-roca.github.io/courses/ramsey/ramsey_example/</loc>
+    <lastmod>2019-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eric-roca.github.io/courses/olg/optimality/</loc>
+    <lastmod>2019-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eric-roca.github.io/courses/ramsey/golden_rule/</loc>
+    <lastmod>2019-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eric-roca.github.io/courses/olg/planner/</loc>
+    <lastmod>2019-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eric-roca.github.io/courses/olg/government/</loc>
+    <lastmod>2019-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eric-roca.github.io/courses/ramsey/ramsey_remarks/</loc>
+    <lastmod>2019-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eric-roca.github.io/authors/admin/</loc>
+    <lastmod>2019-09-28T09:30:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eric-roca.github.io/authors/anastasia-litina/</loc>
+    <lastmod>2019-09-28T09:30:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eric-roca.github.io/authors/</loc>
+    <lastmod>2019-09-28T09:30:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://eric-roca.github.io/</loc>
-    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+    <lastmod>2019-09-28T09:30:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eric-roca.github.io/talk/</loc>
+    <lastmod>2019-09-28T09:30:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eric-roca.github.io/talk/2019-09_lund/</loc>
+    <lastmod>2019-09-28T09:30:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eric-roca.github.io/publication_types/3/</loc>
+    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://eric-roca.github.io/authors/</loc>
-    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+    <loc>https://eric-roca.github.io/tags/comparative-development/</loc>
+    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://eric-roca.github.io/tags/gender-equality/</loc>
-    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+    <loc>https://eric-roca.github.io/tags/economic-history/</loc>
+    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://eric-roca.github.io/working_papers/inheritance-systems/</loc>
-    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+    <loc>https://eric-roca.github.io/tags/empirical-work/</loc>
+    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://eric-roca.github.io/publication_types/</loc>
-    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://eric-roca.github.io/tags/</loc>
-    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://eric-roca.github.io/working_papers/eclipses/</loc>
+    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eric-roca.github.io/publication_types/2/</loc>
+    <lastmod>2019-06-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://eric-roca.github.io/tags/gender-equality/</loc>
+    <lastmod>2019-06-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://eric-roca.github.io/publication/inheritance-systems/</loc>
+    <lastmod>2019-06-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eric-roca.github.io/publication/</loc>
+    <lastmod>2019-06-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://eric-roca.github.io/tags/theoretical-model/</loc>
-    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://eric-roca.github.io/authors/annalisa-frigo/</loc>
-    <lastmod>2019-01-30T14:30:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://eric-roca.github.io/talk/</loc>
     <lastmod>2019-01-30T14:30:00+02:00</lastmod>
   </url>
   
@@ -110,37 +308,8 @@
   </url>
   
   <url>
-    <loc>https://eric-roca.github.io/publication_types/7/</loc>
-    <lastmod>2017-10-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://eric-roca.github.io/tags/empirical-work/</loc>
-    <lastmod>2017-10-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://eric-roca.github.io/tags/female-employment/</loc>
-    <lastmod>2017-10-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://eric-roca.github.io/other_research/flfp/</loc>
-    <lastmod>2017-10-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://eric-roca.github.io/talk/2017-08_bologna/</loc>
     <lastmod>2017-08-09T14:30:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://eric-roca.github.io/tags/economic-history/</loc>
-    <lastmod>2017-03-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -185,11 +354,11 @@
   </url>
   
   <url>
-    <loc>https://eric-roca.github.io/post/</loc>
+    <loc>https://eric-roca.github.io/courses/</loc>
   </url>
   
   <url>
-    <loc>https://eric-roca.github.io/publication/</loc>
+    <loc>https://eric-roca.github.io/post/</loc>
   </url>
   
 </urlset>

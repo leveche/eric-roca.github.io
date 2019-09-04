@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.4.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Eric Roca Fernandez">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Note: based on Section 2.3 of Romer, Advanced Macroeconomics.
+The Ramsey model is fully described by two dynamic equations:
+$$\left. \begin{eqnarray} u^{\prime}(c_{t}) = \beta(f^{\prime}(k_{t&#43;1}) &#43; 1 - \delta)u^{\prime}(c_{t&#43;1}), \\
+k_{t&#43;1} = f(k_{t} &#43; (1-\delta)k_{t} - c_{t}. \end{eqnarray} \right\} \tag{8.1, Equilibrium} \label{eq:eq} $$
+The phase diagram is a representation on the $(c,k)$ plane of all the stationary points for $c$ and $k.$ This is, we plot all $(c,k)$ combinations such that $c$ is constant, and all the $(c,k)$ combinations such that $k$ is constant.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://eric-roca.github.io/courses/ramsey/phase_diagram/">
+
+  
+
+
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.9e398b7a64ee2c82769da9724cdbf0cc.css">
+
+  
+
+  
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-109506458-1', 'auto');
+      ga('set', 'anonymizeIp', true);
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="https://www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://eric-roca.github.io/courses/ramsey/phase_diagram/">
+
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="Academic">
+  <meta property="og:url" content="https://eric-roca.github.io/courses/ramsey/phase_diagram/">
+  <meta property="og:title" content="The phase diagram | Academic">
+  <meta property="og:description" content="Note: based on Section 2.3 of Romer, Advanced Macroeconomics.
+The Ramsey model is fully described by two dynamic equations:
+$$\left. \begin{eqnarray} u^{\prime}(c_{t}) = \beta(f^{\prime}(k_{t&#43;1}) &#43; 1 - \delta)u^{\prime}(c_{t&#43;1}), \\
+k_{t&#43;1} = f(k_{t} &#43; (1-\delta)k_{t} - c_{t}. \end{eqnarray} \right\} \tag{8.1, Equilibrium} \label{eq:eq} $$
+The phase diagram is a representation on the $(c,k)$ plane of all the stationary points for $c$ and $k.$ This is, we plot all $(c,k)$ combinations such that $c$ is constant, and all the $(c,k)$ combinations such that $k$ is constant."><meta property="og:image" content="https://eric-roca.github.io/img/icon-192.png">
+  <meta property="twitter:image" content="https://eric-roca.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2019-07-11T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2019-07-11T00:00:00&#43;00:00">
+  
+
+  
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#2962ff",
+          "text": "#fff"
+        },
+        "button": {
+          "background": "#fff",
+          "text": "#2962ff"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "https://cookies.insites.com"
+      }
+    })});
+</script>
+
+
+
+  
+
+
+
+
+
+  <title>The phase diagram | Academic</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Academic</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav mr-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#working_papers"><span>Working Papers</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talks"><span>Talks</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#references"><span>References</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/files/cv.pdf"><span>CV</span></a>
+        </li>
+
+        
+        
+
+      
+      </ul>
+      <ul class="navbar-nav ml-auto">
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      
+
+
+
+
+
+<form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <span><i class="fas fa-bars"></i></span>
+  </button>
+
+  
+  <input name="q" type="search" class="form-control" placeholder="Search..." autocomplete="off">
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/courses/ramsey/">Introduction</a>
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/courses/ramsey/the_ramsey_model/">The Ramsey model</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/courses/ramsey/households/">Households</a>
+      </li>
+      
+      <li >
+        <a href="/courses/ramsey/firms/">Firms</a>
+      </li>
+      
+      <li >
+        <a href="/courses/ramsey/intertemporal_equilibrium/">Intertemporal equilibrium</a>
+      </li>
+      
+      <li >
+        <a href="/courses/ramsey/steady_state_ramsey/">Steady state</a>
+      </li>
+      
+      <li class="active">
+        <a href="/courses/ramsey/phase_diagram/">The phase diagram</a>
+      </li>
+      
+      <li >
+        <a href="/courses/ramsey/ramsey_trajectory/">Trajectory</a>
+      </li>
+      
+      <li >
+        <a href="/courses/ramsey/ramsey_example/">Example</a>
+      </li>
+      
+      <li >
+        <a href="/courses/ramsey/golden_rule/">Golden rule</a>
+      </li>
+      
+      <li >
+        <a href="/courses/ramsey/ramsey_remarks/">Last remarks</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  
+</nav>
+
+    </div>
+
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">Contents</a></li>
+      </ul>
+
+      <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#the-dynamics-of-c">The dynamics of $c$</a></li>
+<li><a href="#the-dynamics-of-k">The dynamics of $k$</a></li>
+<li><a href="#the-phase-diagram">The phase diagram</a></li>
+</ul></li>
+</ul>
+</nav>
+
+      
+    </div>
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article" itemscope itemtype="http://schema.org/Article">
+
+        <div class="docs-article-container">
+          <h1 itemprop="name">The phase diagram</h1>
+
+          <div class="article-style" itemprop="articleBody">
+            
+
+<p><strong>Note:</strong> based on Section 2.3 of <em>Romer, Advanced Macroeconomics</em>.</p>
+
+<p>The Ramsey model is fully described by two dynamic equations:</p>
+
+<p>$$\left.
+\begin{eqnarray}
+u^{\prime}(c_{t}) = \beta(f^{\prime}(k_{t+1}) + 1 - \delta)u^{\prime}(c_{t+1}), \\<br />
+k_{t+1} = f(k_{t} + (1-\delta)k_{t} - c_{t}.
+\end{eqnarray}
+\right\} \tag{8.1, Equilibrium} \label{eq:eq}
+$$</p>
+
+<p>The <em>phase diagram</em> is a representation on the $(c,k)$ plane of all the stationary points for $c$ and $k.$
+This is, we plot all $(c,k)$ combinations such that $c$ is constant, and all the $(c,k)$ combinations such that $k$ is constant.
+The set of points $(c,k)$ implying a constant consumption is called the $c$-locus.
+Similarly, we have the $k$-locus.</p>
+
+<p>These loci are curves on the $(c,k)$ plane, and any intersection between them is a steady state because both $c$ and $k$ are simultaneously constant.
+The phase diagram is a useful tool to analyse the behaviour of a dynamic system because it indicates the direction of movement of the variables at any point on the plane.</p>
+
+<h2 id="the-dynamics-of-c">The dynamics of $c$</h2>
+
+<p>The first equation of \ref{eq:eq} describes the dynamics of consumption.</p>
+
+<p>$$u^{\prime}(c_{t}) = \beta ( f{\prime}(k_{t+1}) + 1 - \delta) u^{\prime}(c_{t+1}).$$</p>
+
+<p>Rearranging it we arrive at:</p>
+
+<p>$$\frac{u^{\prime}(c_{t})}{u^{\prime}(c_{t+1})} = \beta ( f^{\prime}(k_{t+1}) + 1 - \delta).$$</p>
+
+<p>In the phase diagram we want to plot combinations of $(c,k)$ such that $c$ is constant.
+A constant consumption implies $c_t = c_{t+1} \implies \frac{u^\prime (c_t)}{u^\prime (c_{t+1})} = 1.$
+Therefore, the $c$-locus is</p>
+
+<p>$$ 1 = \beta ( f^{\prime}(k_{t+1}) + 1 - \delta)$$</p>
+
+<p>and any level of capital satisfying it implies constant consumption.
+This condition depends only on the level of capital.</p>
+
+<p>Denote $k^{\star}$ such level.<br/>
+When $k &lt; k^{\star},\, f^{\prime}(k) &gt; f^{\prime}(k^{\star})$, implying that $u^{\prime}(c_{t}) &gt; u^{\prime}(c_{t+1})$ and hence consumption will raise over time.
+Similarly, if $k &gt; k^{\star}$ implies that consumption falls.
+This information is summarised in the following Figure.</p>
+
+<p><img src="/img/ramsey/dynamics_c.png" alt="dynamics of c" /></p>
+
+<p>The arrows show the direction in which consumption $c$ evolves.
+As discussed before, consumption raises when capital is below $k^{\star}$ and raises when above.
+Note the vertical line: it denotes the level of capital $k^{\star}$ such that $c$ is constant.
+The value $k^{\star}$ can be easily computed: $k^{\star} = {f^{\prime}}^{-1}\left(\frac{1-\beta (1-\delta)}{\beta}\right).$</p>
+
+<h2 id="the-dynamics-of-k">The dynamics of $k$</h2>
+
+<p>We can proceed similarly with the motion of capital.
+The relevant equation in this case is:</p>
+
+<p>$$k_{t+1} = f(k_{t}) + (1- \delta)k_{t} - c_{t}.$$</p>
+
+<p>As before, we are interested by the combinations of $(k,c)$ such that capital remains constant over time.
+In this case, though, and contrasting with the previous, we will obtain that both capital and consumption affect capital levels in the future: production uses current capital, and current consumption depletes current production.
+We can rearrange the previous equation to obtain the following:</p>
+
+<p>$$k_{t+1} - k_{t} = f(k_{t}) - \delta k_{t} - c_{t}.$$
+Setting $k_{t+1} = k_{t} \implies k_{t+1} - k_{t} = 0$ so capital is constant yields:</p>
+
+<p>$$ 0 = f(k_{t}) - \delta k_{t} - c_{t} \implies c_{t} = f(k_{t}) - \delta k_{t}.$$</p>
+
+<p>In the $(k,c)$ space, the equation takes a form similar to a parabola: it combines production &mdash;with decreasing marginal returns&mdash; with a linear depreciation rate.
+In fact, f(k_t)-\delta k_t$ admits one maximum $(f^\prime (k_t) = \delta)$ the <a href="https://eric-roca.github.io/courses/ramsey/golden_rule/" target="_blank">Golden rule</a> we discuss later.
+Since $f^{\prime \prime}(k_t)&lt;0,$ the stationary point is a maximum.</p>
+
+<p>Let&rsquo;s now analyse how capital evolves when consumption is above and below the level that makes it constant.
+From $k_{t+1} - k_{t} = f(k_{t}) - \delta k_{t} - c_{t}$, if consumption is above the level we have that $k_{t+1} - k_{t} &lt; 0,$ meaning that capital decreases over time.
+The opposite applies when consumption is below the level that guarantees a constant level of capital.
+The Figure below summarises these findings:</p>
+
+<p><img src="/img/ramsey/dynamics_g.png" alt="dynamics of g" /></p>
+
+<h2 id="the-phase-diagram">The phase diagram</h2>
+
+<p>We can combine the information above to produce the <em>phase diagram</em>.
+It indicates the motion of variables at different points of the $(k,c)$ space.</p>
+
+<p><img src="/img/ramsey/phase_diagram.png" alt="phase diagram" /></p>
+
+<p>The arrows show the motion of each variable at different combinations of $(k,c).$
+For instance, to the left of the $c$-locus and above the $k0$-locus consumption increases and capital decreases.
+Finally, the point indicating the intersection of both curves is the steady state: all variables remain constant at their values.</p>
+
+          </div>
+
+          
+
+
+
+          
+          <div class="article-widget">
+            
+<div class="post-nav">
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Previous</div>
+    <a href="/courses/ramsey/steady_state_ramsey/" rel="next">Steady state</a>
+  </div>
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Next</div>
+    <a href="/courses/ramsey/ramsey_trajectory/" rel="prev">Additional material -  trajectory</a>
+  </div>
+  
+</div>
+
+          </div>
+          
+        </div>
+
+        <div class="body-footer">
+          <p>Last updated on Jul 11, 2019</p>
+
+          
+
+
+          
+
+        </div>
+
+      </article>
+
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    &copy; 2019 Èric Roca Fernández &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+  </p>
+</footer>
+
+
+    </main>
+  </div>
+</div>
+
+
+      
+
+    
+    
+    
+    <script src="/js/mathjax-config.js"></script>
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
+      
+    
+
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js" integrity="sha256-pB/deHc9CGfFpJRjC43imB29Rse8tak+5eXqntO94ck=" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+    </script>
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.4e51017b38c7ebaadd7e25fc9503f88c.js"></script>
+
+    
+
+
+
+
+
+
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
