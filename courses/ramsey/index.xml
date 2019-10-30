@@ -165,9 +165,7 @@ Rearranging the expression a little bit, we are left with a clearer expression l
 
 &lt;p&gt;$$\frac{u^{\prime}(c_{t})}{u^{\prime}(c_{t+1})} = \beta (r_{t+1} + 1 - \delta). \tag{3.1, Euler eq.}$$&lt;/p&gt;
 
-&lt;p&gt;Therefore, if the interest rate is to increase, the household would optimally postpone consumption: this is, decrease $c_{t}$ and increase $c_{t+1}.$
-&lt;strong&gt;Note:&lt;/strong&gt; Remember that $u^{\prime \prime} &amp;lt; 0$: marginal utilities are higher the lower consumption is.
-Slightly more complex relationships can arise if population grows or there is technological progress, see Romer, Chapter 2.&lt;/p&gt;
+&lt;p&gt;Slightly more complex relationships can arise if population grows or there is technological progress, see Romer, Chapter 2.&lt;/p&gt;
 
 &lt;h3 id=&#34;the-euler-equation&#34;&gt;The Euler equation&lt;/h3&gt;
 
