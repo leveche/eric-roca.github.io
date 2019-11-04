@@ -20,12 +20,12 @@
       <description>&lt;p&gt;We modify household&amp;rsquo;s budget constraint to take into account the taxes they pay.
 It remains exactly the same as &lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/households/&#34; target=&#34;_blank&#34;&gt;before&lt;/a&gt;, except for the fact that less income is available for consumption:&lt;/p&gt;
 
-&lt;p&gt;$$k_{t+1} + c_{t} = w_{t} + r_{t}k_{t} + (1-\delta) k_{t}. \tag{1, Budget Const.} \label{eq:budget}$$&lt;/p&gt;
+&lt;p&gt;$$k_{t+1} + c_{t} = w_{t} + r_{t}k_{t} + (1-\delta) k_{t} - \color{red}{T_{t}}. \tag{1, Budget Const.} \label{eq:budget}$$&lt;/p&gt;
 
 &lt;p&gt;Except for this modification, households still present the same utility formulation and maximise:&lt;/p&gt;
 
 &lt;p&gt;$$\max \sum_{t=0}^{\infty} \beta^{t} u(c_{t})$$
-$$\mathrm{s.t.} \quad k_{t+1} + c_{t} = w_{t} + r_{t} + (1-\delta) k_{t}.$$&lt;/p&gt;
+$$\mathrm{s.t.} \quad k_{t+1} + c_{t} = w_{t} + r_{t} + (1-\delta) k_{t} - \color{red}{T_{t}}.$$&lt;/p&gt;
 
 &lt;p&gt;Building up the Lagrangian &lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/households/#solving-the-household-s-problem&#34; target=&#34;_blank&#34;&gt;(as in the basic case)&lt;/a&gt; leads to the following equation:&lt;/p&gt;
 

@@ -29,9 +29,9 @@
     
   
   <meta name="description" content="We modify household&rsquo;s budget constraint to take into account the taxes they pay. It remains exactly the same as before, except for the fact that less income is available for consumption:
-$$k_{t&#43;1} &#43; c_{t} = w_{t} &#43; r_{t}k_{t} &#43; (1-\delta) k_{t}. \tag{1, Budget Const.} \label{eq:budget}$$
+$$k_{t&#43;1} &#43; c_{t} = w_{t} &#43; r_{t}k_{t} &#43; (1-\delta) k_{t} - \color{red}{T_{t}}. \tag{1, Budget Const.} \label{eq:budget}$$
 Except for this modification, households still present the same utility formulation and maximise:
-$$\max \sum_{t=0}^{\infty} \beta^{t} u(c_{t})$$ $$\mathrm{s.t.} \quad k_{t&#43;1} &#43; c_{t} = w_{t} &#43; r_{t} &#43; (1-\delta) k_{t}.">
+$$\max \sum_{t=0}^{\infty} \beta^{t} u(c_{t})$$ $$\mathrm{s.t.} \quad k_{t&#43;1} &#43; c_{t} = w_{t} &#43; r_{t} &#43; (1-\delta) k_{t} - \color{red}{T_{t}}.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://eric-roca.github.io/courses/ramsey_gov/households/">
@@ -129,9 +129,9 @@ $$\max \sum_{t=0}^{\infty} \beta^{t} u(c_{t})$$ $$\mathrm{s.t.} \quad k_{t&#43;1
   <meta property="og:url" content="https://eric-roca.github.io/courses/ramsey_gov/households/">
   <meta property="og:title" content="Households | Academic">
   <meta property="og:description" content="We modify household&rsquo;s budget constraint to take into account the taxes they pay. It remains exactly the same as before, except for the fact that less income is available for consumption:
-$$k_{t&#43;1} &#43; c_{t} = w_{t} &#43; r_{t}k_{t} &#43; (1-\delta) k_{t}. \tag{1, Budget Const.} \label{eq:budget}$$
+$$k_{t&#43;1} &#43; c_{t} = w_{t} &#43; r_{t}k_{t} &#43; (1-\delta) k_{t} - \color{red}{T_{t}}. \tag{1, Budget Const.} \label{eq:budget}$$
 Except for this modification, households still present the same utility formulation and maximise:
-$$\max \sum_{t=0}^{\infty} \beta^{t} u(c_{t})$$ $$\mathrm{s.t.} \quad k_{t&#43;1} &#43; c_{t} = w_{t} &#43; r_{t} &#43; (1-\delta) k_{t}."><meta property="og:image" content="https://eric-roca.github.io/img/icon-192.png">
+$$\max \sum_{t=0}^{\infty} \beta^{t} u(c_{t})$$ $$\mathrm{s.t.} \quad k_{t&#43;1} &#43; c_{t} = w_{t} &#43; r_{t} &#43; (1-\delta) k_{t} - \color{red}{T_{t}}."><meta property="og:image" content="https://eric-roca.github.io/img/icon-192.png">
   <meta property="twitter:image" content="https://eric-roca.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
   
     
@@ -553,12 +553,12 @@ $$\max \sum_{t=0}^{\infty} \beta^{t} u(c_{t})$$ $$\mathrm{s.t.} \quad k_{t&#43;1
             <p>We modify household&rsquo;s budget constraint to take into account the taxes they pay.
 It remains exactly the same as <a href="https://eric-roca.github.io/courses/ramsey/households/" target="_blank">before</a>, except for the fact that less income is available for consumption:</p>
 
-<p>$$k_{t+1} + c_{t} = w_{t} + r_{t}k_{t} + (1-\delta) k_{t}. \tag{1, Budget Const.} \label{eq:budget}$$</p>
+<p>$$k_{t+1} + c_{t} = w_{t} + r_{t}k_{t} + (1-\delta) k_{t} - \color{red}{T_{t}}. \tag{1, Budget Const.} \label{eq:budget}$$</p>
 
 <p>Except for this modification, households still present the same utility formulation and maximise:</p>
 
 <p>$$\max \sum_{t=0}^{\infty} \beta^{t} u(c_{t})$$
-$$\mathrm{s.t.} \quad k_{t+1} + c_{t} = w_{t} + r_{t} + (1-\delta) k_{t}.$$</p>
+$$\mathrm{s.t.} \quad k_{t+1} + c_{t} = w_{t} + r_{t} + (1-\delta) k_{t} - \color{red}{T_{t}}.$$</p>
 
 <p>Building up the Lagrangian <a href="https://eric-roca.github.io/courses/ramsey/households/#solving-the-household-s-problem" target="_blank">(as in the basic case)</a> leads to the following equation:</p>
 
