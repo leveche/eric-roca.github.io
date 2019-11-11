@@ -528,7 +528,7 @@ The behaviour of $G(\lambda)$ is as follows:&lt;/p&gt;
 
 &lt;p&gt;$$\lim_{\lambda \rightarrow -\infty} G(\lambda) = + \infty$$
 $$\lim_{\lambda \rightarrow +\infty} G(\lambda) = + \infty$$
-$$G(-1) = \frac{2}{\beta} - \beta f^{\prime \prime}(\bar{k})\frac{\bar{c}}{\epsilon_{\bar{c}}} &amp;gt; 0$$
+$$G(-1) = 2 + \frac{2}{\beta} - \beta f^{\prime \prime}(\bar{k})\frac{\bar{c}}{\epsilon_{\bar{c}}} &amp;gt; 0$$
 $$G(0) = \frac{1}{\beta} &amp;gt; 0 $$
 $$G(1) =  \beta f^{\prime \prime}(\bar{k})\frac{\bar{c}}{\epsilon_{\bar{c}}} &amp;lt; 0.$$&lt;/p&gt;
 
