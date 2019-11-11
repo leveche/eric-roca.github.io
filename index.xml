@@ -2546,7 +2546,7 @@ In fact, if that were the case would have been (I change variables to avoid conf
 Then, it is clear that $\phi_{t+1} = a_{1,1} \phi_{t} \implies \phi_{t} = a_{1,1}^{t} \phi_{0}$ and we would find a similar expression for $\omega.$&lt;/p&gt;
 
 &lt;p&gt;$\bar{A}$ is not diagonal, but we can apply a spectral decomposition and obtain an equivalent system governed by a diagonal matrix.
-In particular, we look for an $2 \times 2$ invertible matrix $X$ such that $ X^{-1} \Lambda X = \bar{A}$, where $\Lambda$ is diagonal.
+In particular, we look for an $2 \times 2$ invertible matrix $X$ such that $ X^{-1} \bar{A} X = `Lambda$, where $\Lambda$ is diagonal.
 Then, we apply the following transformation to our system (pre-multiplying by $\color{red}{X^{-1}}$ on both sides and multiplying by $\color{green}{XX^{-1}}$ on the right-hand side).
 $$ \color{red}{X^{-1}} y_{t+1} = \color{red}{X^{-1}} \bar{A} \color{green}{(X X^{-1})} y_{t} = X^{-1} \bar{A} X (X^{-1} y_{t}) =$$
 $$ = \Lambda X^{-1} y_{t}.$$&lt;/p&gt;
