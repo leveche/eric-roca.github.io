@@ -602,7 +602,7 @@ First, we rewrite the first order condition using some substitutions:</p>
 
 <p>Using implicit derivation we have:</p>
 
-<p>$$\frac{\partial c}{\partial w} = - \frac{ -R u_{cd} + R^2 u_{dd}}{-u_{cc} + u_{cd} R + u_{dc} R -u_{dd} R^2} = \frac{R(u_{cd} - R u_{dd})}{-\underbrace{u_{cc}}_{<0} + 2 R u\_{cd} - R^2 \underbrace{u\_{dd}}\_{<0}} >0$$</p>
+<p>$$\frac{\partial c}{\partial w} = - \frac{ -R u_{cd} + R^2 u_{dd}}{-u_{cc} + u_{cd} R + u_{dc} R -u_{dd} R^2} = \frac{R(u_{cd} - R u_{dd})}{-\underbrace{u_{cc}}_{<0} + 2 R u\_{cd} - R^2 \underbrace{u_{dd}}_{<0}} >0$$</p>
 
 <p><center><strong>if and only if</strong></center></p>
 
@@ -620,17 +620,17 @@ First, we rewrite the first order condition using some substitutions:</p>
 
 <p>Hence, we can compute the derivative</p>
 
-<p>$$\frac{\partial d}{\partial w} = - \frac{-u_{cd} + R u_{dd}}{u_{cc} \frac{1}{R} - u_{cd} - u_{cd} + u_{dd} R} = \frac{R (u_{cc} - u_{dd}R}{\underbrace{u_{cc} - 2Ru_{cd} + R^2 u_{dd}}_{<0}} > 0$$</p>
+<p>$$\frac{\partial d}{\partial w} = - \frac{-u_{cc} + R u_{cd}}{u_{cc} \frac{1}{R} - u_{cd} - u_{cd} + u_{dd} R} = \frac{R (R u_{cd} - u_{cc})}{-\underbrace{u_{cc} +2Ru_{cd} - R^2 u_{dd}}_{&gt;0}} &gt; 0$$</p>
 
 <p><center><strong>if and only if</strong></center></p>
 
-<p>$$u_{cc} - R u_{dc} &lt; 0 \implies \frac{u_{dc}}{u_d}-\frac{u_{cc}}{u_c} &gt; 0.$$</p>
+<p>$$R u_{cd} - u_{cc} &gt; 0 \implies \frac{u_{cd}}{u_d}-\frac{u_{cc}}{u_c} &gt; 0.$$</p>
 
 <h2 id="savings-wages-and-interest-rate">Savings, wages and interest rate</h2>
 
 <p>We now show that savings are increasing in wages, and that they may increase or decrease with the interest rate.</p>
 
-<p>First, we compute the relationship between savings and wages using the optimality condition $-u_c(w-s, Rs) + u_d(w-s, Rd)$:</p>
+<p>First, we compute the relationship between savings and wages using the optimality condition $-u_c(w-s, Rs) + u_d(w-s, Rs)$:</p>
 
 <p>$$\frac{\partial s}{\partial w} = - \frac{- u_{cc} + Ru_{cd}}{u_{cc}-u_{cd}R - u_{cd}R + u_{dd}R^2}= \frac{\overbrace{u_{cc}-Ru_{cd}}^{&lt;0,\, \mathrm{normal\, goods}}}{\underbrace{u_{cc}-2u_{cd}R+u_{dd}R^2}_{&lt;0}} \gt 0 $$</p>
 
@@ -640,7 +640,7 @@ First, we rewrite the first order condition using some substitutions:</p>
 
 <p>Hence, the sign of the derivative depends on</p>
 
-<p>$$u_d + s(R u_{dd} - u_{cd}) \gtreqqless 0 \implies 1 + \underbrace{s}_{\frac{d}{R}}\left(R \frac{u_{dd}}{u_{d}} - \frac{u_{cd}}{u_{dd}}\right) \gtreqqless 0 \implies $$
+<p>$$u_d + s(R u_{dd} - u_{cd}) \gtreqqless 0 \implies 1 + \underbrace{s}_{\frac{d}{R}}\left(R \frac{u_{dd}}{u_{d}} - \frac{u_{cd}}{u_{d}}\right) \gtreqqless 0 \implies $$
 $$1 + \underbrace{\frac{u_{dd}}{u_{d}}d}_{-\frac{1}{\sigma}} - \frac{u_{cd}}{u_{d}}\frac{d}{R} \gtreqqless 0.$$</p>
 
 <p>The relationship depends on the intertemporal elasticity of substitution ($\sigma$) and on the degree of complementarity between $c$ and $d$ as captured by $u_{cd}.$</p>

@@ -413,7 +413,7 @@ Hence, we can represent the generations diagrammatically &amp;mdash;in brackets 
 
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt;Adults(t=-1)&lt;/td&gt;
+&lt;td&gt;Old (t=-1)&lt;/td&gt;
 &lt;td&gt;Die&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
@@ -423,7 +423,7 @@ Hence, we can represent the generations diagrammatically &amp;mdash;in brackets 
 
 &lt;tr&gt;
 &lt;td&gt;Young(t=0)&lt;/td&gt;
-&lt;td&gt;Adults(t=1)&lt;/td&gt;
+&lt;td&gt;Old (t=0)&lt;/td&gt;
 &lt;td&gt;Die&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
@@ -433,7 +433,7 @@ Hence, we can represent the generations diagrammatically &amp;mdash;in brackets 
 &lt;tr&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;Young(t=1)&lt;/td&gt;
-&lt;td&gt;Adults(t=1)&lt;/td&gt;
+&lt;td&gt;Old (t=1)&lt;/td&gt;
 &lt;td&gt;Die&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
@@ -443,7 +443,7 @@ Hence, we can represent the generations diagrammatically &amp;mdash;in brackets 
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;Young(t=2)&lt;/td&gt;
-&lt;td&gt;Adults(t=2)&lt;/td&gt;
+&lt;td&gt;Old (t=2)&lt;/td&gt;
 &lt;td&gt;Die&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
@@ -453,7 +453,7 @@ Hence, we can represent the generations diagrammatically &amp;mdash;in brackets 
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;Young(t=3)&lt;/td&gt;
-&lt;td&gt;Adults(t=3)&lt;/td&gt;
+&lt;td&gt;Old (t=3)&lt;/td&gt;
 &lt;td&gt;Die&lt;/td&gt;
 &lt;/tr&gt;
 
@@ -463,7 +463,7 @@ Hence, we can represent the generations diagrammatically &amp;mdash;in brackets 
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;Young(t=4)&lt;/td&gt;
-&lt;td&gt;Adults(t=4)&lt;/td&gt;
+&lt;td&gt;Old (t=4)&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -749,7 +749,7 @@ Therefore, an agent has one unique choice:&lt;/p&gt;
 
 &lt;p&gt;And the budget constraint for this period is:&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
-&lt;p&gt;$$(1 - \delta + r_{t+1}) = d_{t+1}.$$&lt;/p&gt;
+&lt;p&gt;$$s_{t}(1 - \delta + r_{t+1}) = d_{t+1}.$$&lt;/p&gt;
 
 &lt;p&gt;with $\delta \in (0,1)$ being the capital depreciation rate.&lt;/p&gt;
 
@@ -767,7 +767,7 @@ w_{t} = c_{t} + s_{t} \\&lt;br /&gt;
 d_{t+1} = s_{t}(1 - \delta + r_{t+1}) = s_{t} R_{t+1} \end{eqnarray}
 \right\}.$$&lt;/p&gt;
 
-&lt;p&gt;where $R_{t} \equiv 1 - \delta + r_{t+1}$ represents the return on savings, isolate $s_{t} in the second equation and plug it in the first one:&lt;/p&gt;
+&lt;p&gt;where $R_{t} \equiv 1 - \delta + r_{t+1}$ represents the return on savings, isolate $s_{t}$ in the second equation and plug it in the first one:&lt;/p&gt;
 
 &lt;p&gt;$$ w_{t} = c_{t} + \frac{d_{t+1}}{R_{t+1}}. \tag{1, Int. Budget Const.} \label{eq:budget}$$&lt;/p&gt;
 
@@ -783,13 +783,16 @@ So will consumption at all periods of time.&lt;/p&gt;
 
 &lt;p&gt;$$U(c,d) = u( c ) + \beta u(d),\, \beta \in(0,1) \tag{2, Utility} \label{eq:utility}$$&lt;/p&gt;
 
-&lt;p&gt;where $\beta$ is psychological discount factor.
+&lt;p&gt;where $\beta \in (0,1)$ is the psychological discount factor.
 We assume that $u( c )$ has the properties&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Assumption OLG.3&lt;/strong&gt;
-* &lt;strong&gt;OLG.3.1&lt;/strong&gt; $u^{\prime}( c ) &amp;gt; 0,$
-* &lt;strong&gt;OLG.3.2&lt;/strong&gt; $u^{\prime \prime} ( c ) &amp;lt; 0,$
-* &lt;strong&gt;OLG.3.3&lt;/strong&gt; $ \lim_{c \rightarrow 0} u^{\prime}( c) = +\infty.$&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Assumption OLG.3&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;OLG.3.1&lt;/strong&gt; $u^{\prime}( c ) &amp;gt; 0,$&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OLG.3.2&lt;/strong&gt; $u^{\prime \prime} ( c ) &amp;lt; 0,$&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OLG.3.3&lt;/strong&gt; $ \lim_{c \rightarrow 0} u^{\prime}( c) = +\infty.$&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;The last assumption $\lim_{c \rightarrow 0} u^{\prime}( c ) = +\infty$ implies that an individual will always have a positive consumption &amp;mdash;as long as he has enough income to finance it.&lt;/p&gt;
 
@@ -837,7 +840,7 @@ The solution is &lt;em&gt;the savings function&lt;/em&gt;:&lt;/p&gt;
 
 &lt;p&gt;Combining both we obtain the Euler equation:&lt;/p&gt;
 
-&lt;p&gt;$u^{\prime}(c_{t}) = \beta R_{t+1} u^\prime (d_{t+1}).$$&lt;/p&gt;
+&lt;p&gt;$$u^{\prime}(c_{t}) = \beta R_{t+1} u^\prime (d_{t+1}).$$&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34;&gt;
 
 &lt;hr /&gt;
@@ -954,32 +957,36 @@ The &lt;em&gt;intertemporal elasticity of substitution&lt;/em&gt; is a special c
 
 &lt;h2 id=&#34;intertemporal-elasticity-of-substitution&#34;&gt;Intertemporal elasticity of substitution&lt;/h2&gt;
 
-&lt;p&gt;From the Euler equation we have $\frac{u^{\prime}(c_{t})}{u^{\prime}(d_{t+1})} = \beta R_{t+1}.$
-Consumption when old $d_{t+1}$ is going to be proportional to consumption when young $c_{t}.$
-Let $d_{t+1} = x_{t+1} c_{t}.$
-In that case,&lt;/p&gt;
-
-&lt;p&gt;$$\frac{\partial \left( \frac{d_{t+1}}{c_{t}} \right)}{\partial R_{t+1}} = \frac{ \partial x_{t+1}}{\partial R_{t+1}}.$$&lt;/p&gt;
-
-&lt;p&gt;The intertemporal elasticity of substitution is given by:&lt;/p&gt;
+&lt;p&gt;The intertemporal elasticity of substitution is defined as:&lt;/p&gt;
 
 &lt;p&gt;$$\epsilon_{d_{t+1}, c_{t}} = \frac{ \partial \left( \frac{d_{t+1}}{c_{t}} \right)}{\partial R_{t+1}} \frac{ R_{t+1}}{\left( \frac{d_{t+1}}{c_{t}} \right)}.$$&lt;/p&gt;
 
-&lt;p&gt;Using the Euler equation we can compute $\frac{ \partial \left( \frac{d_{t+1}}{c_{t}} \right) }{\partial R_{t+1}}.$
-First, rewrite it as:&lt;/p&gt;
+&lt;p&gt;From the Euler equation we have $\frac{u^{\prime}(c_{t})}{u^{\prime}(d_{t+1})} = \beta R_{t+1}.$
+So, consumption when old $d_{t+1}$ is going to be proportional to consumption when young $c_{t}.$&lt;/p&gt;
 
-&lt;p&gt;$$ G(d_{t+1}, R_{t+1}) = \frac{u^\prime(c_{t})}{u^\prime(d_{t+1})} - \beta R_{t+1} = \frac{u^\prime(c_{t})}{u^\prime(\underbrace{c_{t} x_{t+1}}_{d_{t+1}})} - \beta R_{t+1}= 0.$$&lt;/p&gt;
+&lt;p&gt;Let $d_{t+1} = x_{t+1} c_{t}.$
+Then, the intertemporal elasticity of substitution becomes:&lt;/p&gt;
 
-&lt;p&gt;Then,&lt;/p&gt;
+&lt;p&gt;$$\epsilon_{d_{t+1}, c_{t}} = \frac{ \partial x_{t+1}}{\partial R_{t+1}} \frac{ R_{t+1}}{x_{t+1}}.$$&lt;/p&gt;
 
-&lt;p&gt;$$\frac{\partial x_{t+1}}{\partial R_{t+1}} = - \frac{ \frac{ \partial G(c_{t}x_{t+1}, R_{t+1})}{\partial R_{t+1}}}{\frac{G(c_{t}x_{t+1}, R_{t+1})}{\partial x_{t+1}}} = - \frac{\beta }{u^{\prime}(c_{t})(-1)\frac{1}{u^\prime (d_{t+1})^2}u^{\prime \prime}(\underbrace{c_{t}x_{t+1}}_{d_{t+1}}) c_{t}}= \frac{\beta u^\prime(d_{t+1})^2}{u^\prime (c_t) u^{\prime \prime} d(t_{t+1}) c_t}.$$&lt;/p&gt;
+&lt;p&gt;We can compute it using the Euler equation $u^\prime(c_{t}) = \beta R_{t+1} u^\prime(x_{t+1}c_t).$
+In fact, totally differentiating on both sides yields&lt;/p&gt;
 
-&lt;p&gt;Therefore, the intertemporal elasticity of substitution becomes:&lt;/p&gt;
+&lt;p&gt;$$0 = - \beta u^\prime(x_{t+1}c_t)\mathrm{d}R_{t+1} + \beta R_{t+1}u^{\prime \prime}(x_{t+1}c_t) c \mathrm{d}x_{t+1}.$$&lt;/p&gt;
 
-&lt;p&gt;$$\epsilon_{d_{t+1}, c_{t}} = \frac{ \partial \left( \frac{d_{t+1}}{c_{t}} \right)}{\partial R_{t+1}} \frac{ R_{t+1}}{\left( \frac{d_{t+1}}{c_{t}} \right)} = - \frac{\color{red}{\beta} u^\prime(d_{t+1})^2}{\color{red}{u^{\prime}(c_{t})}u^{\prime \prime}(d_{t+1}) c_{t}} \frac{\color{red}{R_{t+1}}c_{t}}{d_{t+1}}= - \frac{\color{red}{\overbrace{u^{\prime}(d_{t+1})}^{\frac{u^{\prime}(c_{t})}{u^{\prime}(d_{t+1})} = \beta R_{t+1}, \, \mathrm{Euler}}}}{u^{\prime \prime}(d_{t+1})d_{t+1}} = \sigma(d_{t+1}),$$&lt;/p&gt;
+&lt;p&gt;Hence,&lt;/p&gt;
 
-&lt;p&gt;where $\sigma(d_{t+1})$ is the inverse of the coefficient of relative risk aversion.
-Hence, in this model, the intertemporal elasticity of substitution coincides with the inverse of the coefficient of relative risk aversion.
+&lt;p&gt;$$\frac{\mathrm{d}x_{t+1}}{\mathrm{d}R_{t+1}} = - \frac{u^\prime(x_{t+1}c_{t}}{R_{t+1}u^{\prime \prime}(x_{t+1}c_t)c_t} = - \frac{u^\prime (d_{t+1})}{R_{t+1}u^{\prime \prime}(d_{t+1})c_t}.$$&lt;/p&gt;
+
+&lt;p&gt;And the intertemporal elasticity of substitution is then given by:&lt;/p&gt;
+
+&lt;p&gt;$$\epsilon_{d_{t+1}, c_{t}} = \frac{\mathrm{d}x_{t+1}}{\mathrm{d}R_{t+1}}\frac{R_{t+1}}{x_{t+1}} = - \frac{u^\prime (d_{t+1})}{R_{t+1}u^{\prime \prime}(d_{t+1})c_t}\frac{R_{t+1}}{\underbrace{x_{t+1}}_{\frac{d_{t+1}}{c_{t}}}} = - \frac{u^\prime(d_{t+1}}{u^{\prime \prime}(d_{t+1}) d_{t+1}}.$$&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: the intertemporal elasticity of substitution is equal to the inverse of the coefficient of relative risk aversion.
+Risk averse individuals do &lt;em&gt;not&lt;/em&gt; want large changes in consumption, so they have a large risk aversion and are &lt;em&gt;not&lt;/em&gt; willing to trade off future and present consumption.
+Conversely, risk neutral individuals do not mind abrupt changes in consumption, so they are willing to trade off future and present consumption.&lt;/p&gt;
+
+&lt;p&gt;Hence, in this model, the intertemporal elasticity of substitution coincides with the inverse of the coefficient of relative risk aversion.
 &lt;strong&gt;Note:&lt;/strong&gt; If you read p. 12 in &lt;em&gt;de la Croix and Michel&lt;/em&gt;, they take a different approach and also refuse to use the concept or risk aversion: the model does not feature risk.&lt;/p&gt;
 
 &lt;h3 id=&#34;cies-example&#34;&gt;CIES example&lt;/h3&gt;
@@ -1663,20 +1670,45 @@ We revisit this issue &lt;a href=&#34;https://eric-roca.github.io/courses/olg/mo
 &lt;hr /&gt;
 
 &lt;p&gt;We have used the intermediate value theorem to show that solutions exists.
-Therefore, if the dynamics of $k_{t+1}$ are monotonous, the solution is unique.
-Since $H(w,k)$ is overall increasing (goes from negative to positive), we analyse under which conditions $H(w,k)$ is monotonically increasing.&lt;/p&gt;
+Morever, it shows that $\lim_{k\rightarrow 0} \frac{H(w,k)}{k} &amp;lt; 0$ and $\lim_{k \rightarrow +\infty} \frac{H(w,k)}{k} &amp;gt; 0.$
+Therefore, if $H(w,k)$ is monotonically increasing in $k$, then there is one and only one solution to $H(w,k)=0.$
+Hence, we would have a unique solution.
+This means that given a value $k_{t},$ we can find a unique valu $k_{t+1}.$&lt;/p&gt;
 
-&lt;p&gt;For $k_{t+1}$ to be monotonically increasing in $k_t$ we should have $\frac{\partial k_{t+1}}{\partial k_{t}} &amp;gt; 0$.
-From the capital accumulation equation
-$$k_{t+1} = g(k_t, k_{t+1}) = \frac{1}{1+n} s(\omega(k_t), R(k_{t+1})).$$
-we compute the derivative:&lt;/p&gt;
+&lt;p&gt;If we take the derivative of $H(w,k)$ with respect to $k$, we obtain:&lt;/p&gt;
 
-&lt;p&gt;$$\frac{\partial k_{t+1}}{\partial k_t} = - \frac{\frac{\partial g(k_{t}, k_{t+1})}{\partial k_t}}{\frac{\partial g(k_t, k_{t+1})}{\partial k_{t+1}}} = \frac{\overbrace{s^\prime_{\omega} \omega^\prime(k_t)}^{&amp;gt;0}}{1+n-s^\prime_{R} \underbrace{R^\prime(k_{t+1})}_{=f^{\prime \prime} (k_{t+1}) &amp;lt; 0}}.$$&lt;/p&gt;
+&lt;p&gt;$$1+n - s^{\prime}_R f^{\prime \prime}(k).$$&lt;/p&gt;
 
-&lt;p&gt;Since, $R^\prime (k_{t+1}) = -f^{\prime \prime} (k_{t+1}) &amp;lt; 0$, a sufficient condition to have $\frac{\partial k_{t+1}}{\partial k_t}&amp;gt;0$ is
-$$s^\prime_{R} &amp;gt; 0,$$
-this is, savings should increase with the interest rate.
-We already know that this implies an &lt;a href=&#34;https://eric-roca.github.io/courses/olg/savings_function/#intertemporal-elasticity-of-substitution&#34; target=&#34;_blank&#34;&gt;intertemporal elasticity of substitution of at least one.&lt;/a&gt;
+&lt;p&gt;Consequently, in order to have a monotonous function it is sufficient to impose:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Assumption OLG.4&lt;/strong&gt; : $$1+n - s^{\prime}_R f^{\prime \prime}(k) &amp;gt; 0.$$&lt;/p&gt;
+
+&lt;p&gt;And then, $k_{t+1} = g(k_{t}).$&lt;/p&gt;
+
+&lt;p&gt;In particular, this condition indicates that the effect of the interest rate on savings should &lt;em&gt;not&lt;/em&gt; be too negative.&lt;/p&gt;
+
+&lt;p&gt;Moreover, if &lt;strong&gt;OLG.4&lt;/strong&gt; is verified, then $k_{t+1}$ is increasing in $k_{t}.$
+Indeed,&lt;/p&gt;
+
+&lt;p&gt;$$k_{t+1} = g(k_t, k_{t+1}) = \frac{1}{1+n} s(\omega(k_t), R(k_{t+1})).$$&lt;/p&gt;
+
+&lt;p&gt;and&lt;/p&gt;
+
+&lt;p&gt;$$\frac{\partial k_{t+1}}{\partial k_t} = - \frac{\frac{\partial g(k_{t}, k_{t+1})}{\partial k_t}}{\frac{\partial g(k_t, k_{t+1})}{\partial k_{t+1}}} = \frac{\overbrace{s^\prime_{\omega} \omega^\prime(k_t)}^{&amp;gt;0}}{1+n-s^\prime_{R} \underbrace{R^\prime(k_{t+1})}_{=f^{\prime \prime} (k_{t+1}) &amp;lt; 0}} &amp;gt; 0,$$&lt;/p&gt;
+
+&lt;p&gt;and $k_{t+1}$ increases in $k_{t}.$&lt;/p&gt;
+
+&lt;p&gt;Finally, we can use a more restrictive &amp;mdash;but easier to work with&amp;mdash; assumption that ensures a unique solution forthe intertemporal equilibrium.
+Assumption &lt;strong&gt;OLG.4&lt;/strong&gt; states:&lt;/p&gt;
+
+&lt;p&gt;$$1+n - s^{\prime}_R f^{\prime \prime}(k) &amp;gt; 0.$$&lt;/p&gt;
+
+&lt;p&gt;Therefore, it is sufficient to have&lt;/p&gt;
+
+&lt;p&gt;$$s^{\prime}_R \geq 0$$&lt;/p&gt;
+
+&lt;p&gt;meaning that savings increase with the interest rate.
+This behaviour is readily verified when the &lt;a href=&#34;https://eric-roca.github.io/courses/olg/savings_function/#intertemporal-elasticity-of-substitution&#34; target=&#34;_blank&#34;&gt;intertemporal elasticity of substitution of at least one.&lt;/a&gt;
 Then, to have a monotonic dynamics and unique temporal equilibrium it is sufficient to have $\sigma \geq 1.$&lt;/p&gt;
 </description>
     </item>
@@ -2030,7 +2062,7 @@ First, we rewrite the first order condition using some substitutions:&lt;/p&gt;
 
 &lt;p&gt;Using implicit derivation we have:&lt;/p&gt;
 
-&lt;p&gt;$$\frac{\partial c}{\partial w} = - \frac{ -R u_{cd} + R^2 u_{dd}}{-u_{cc} + u_{cd} R + u_{dc} R -u_{dd} R^2} = \frac{R(u_{cd} - R u_{dd})}{-\underbrace{u_{cc}}_{&lt;0} + 2 R u\_{cd} - R^2 \underbrace{u\_{dd}}\_{&lt;0}} &gt;0$$&lt;/p&gt;
+&lt;p&gt;$$\frac{\partial c}{\partial w} = - \frac{ -R u_{cd} + R^2 u_{dd}}{-u_{cc} + u_{cd} R + u_{dc} R -u_{dd} R^2} = \frac{R(u_{cd} - R u_{dd})}{-\underbrace{u_{cc}}_{&lt;0} + 2 R u\_{cd} - R^2 \underbrace{u_{dd}}_{&lt;0}} &gt;0$$&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;&lt;strong&gt;if and only if&lt;/strong&gt;&lt;/center&gt;&lt;/p&gt;
 
@@ -2048,17 +2080,17 @@ First, we rewrite the first order condition using some substitutions:&lt;/p&gt;
 
 &lt;p&gt;Hence, we can compute the derivative&lt;/p&gt;
 
-&lt;p&gt;$$\frac{\partial d}{\partial w} = - \frac{-u_{cd} + R u_{dd}}{u_{cc} \frac{1}{R} - u_{cd} - u_{cd} + u_{dd} R} = \frac{R (u_{cc} - u_{dd}R}{\underbrace{u_{cc} - 2Ru_{cd} + R^2 u_{dd}}_{&lt;0}} &gt; 0$$&lt;/p&gt;
+&lt;p&gt;$$\frac{\partial d}{\partial w} = - \frac{-u_{cc} + R u_{cd}}{u_{cc} \frac{1}{R} - u_{cd} - u_{cd} + u_{dd} R} = \frac{R (R u_{cd} - u_{cc})}{-\underbrace{u_{cc} +2Ru_{cd} - R^2 u_{dd}}_{&amp;gt;0}} &amp;gt; 0$$&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;&lt;strong&gt;if and only if&lt;/strong&gt;&lt;/center&gt;&lt;/p&gt;
 
-&lt;p&gt;$$u_{cc} - R u_{dc} &amp;lt; 0 \implies \frac{u_{dc}}{u_d}-\frac{u_{cc}}{u_c} &amp;gt; 0.$$&lt;/p&gt;
+&lt;p&gt;$$R u_{cd} - u_{cc} &amp;gt; 0 \implies \frac{u_{cd}}{u_d}-\frac{u_{cc}}{u_c} &amp;gt; 0.$$&lt;/p&gt;
 
 &lt;h2 id=&#34;savings-wages-and-interest-rate&#34;&gt;Savings, wages and interest rate&lt;/h2&gt;
 
 &lt;p&gt;We now show that savings are increasing in wages, and that they may increase or decrease with the interest rate.&lt;/p&gt;
 
-&lt;p&gt;First, we compute the relationship between savings and wages using the optimality condition $-u_c(w-s, Rs) + u_d(w-s, Rd)$:&lt;/p&gt;
+&lt;p&gt;First, we compute the relationship between savings and wages using the optimality condition $-u_c(w-s, Rs) + u_d(w-s, Rs)$:&lt;/p&gt;
 
 &lt;p&gt;$$\frac{\partial s}{\partial w} = - \frac{- u_{cc} + Ru_{cd}}{u_{cc}-u_{cd}R - u_{cd}R + u_{dd}R^2}= \frac{\overbrace{u_{cc}-Ru_{cd}}^{&amp;lt;0,\, \mathrm{normal\, goods}}}{\underbrace{u_{cc}-2u_{cd}R+u_{dd}R^2}_{&amp;lt;0}} \gt 0 $$&lt;/p&gt;
 
@@ -2068,7 +2100,7 @@ First, we rewrite the first order condition using some substitutions:&lt;/p&gt;
 
 &lt;p&gt;Hence, the sign of the derivative depends on&lt;/p&gt;
 
-&lt;p&gt;$$u_d + s(R u_{dd} - u_{cd}) \gtreqqless 0 \implies 1 + \underbrace{s}_{\frac{d}{R}}\left(R \frac{u_{dd}}{u_{d}} - \frac{u_{cd}}{u_{dd}}\right) \gtreqqless 0 \implies $$
+&lt;p&gt;$$u_d + s(R u_{dd} - u_{cd}) \gtreqqless 0 \implies 1 + \underbrace{s}_{\frac{d}{R}}\left(R \frac{u_{dd}}{u_{d}} - \frac{u_{cd}}{u_{d}}\right) \gtreqqless 0 \implies $$
 $$1 + \underbrace{\frac{u_{dd}}{u_{d}}d}_{-\frac{1}{\sigma}} - \frac{u_{cd}}{u_{d}}\frac{d}{R} \gtreqqless 0.$$&lt;/p&gt;
 
 &lt;p&gt;The relationship depends on the intertemporal elasticity of substitution ($\sigma$) and on the degree of complementarity between $c$ and $d$ as captured by $u_{cd}.$&lt;/p&gt;
@@ -2086,7 +2118,7 @@ $$1 + \underbrace{\frac{u_{dd}}{u_{d}}d}_{-\frac{1}{\sigma}} - \frac{u_{cd}}{u_{
 As noted when characterising the &lt;a href=&#34;https://eric-roca.github.io/courses/olg/equilibrium/#temporary-equilibrium&#34; target=&#34;_blank&#34;&gt;uniqueness of the temporary equilibrium&lt;/a&gt;, assuming that $\sigma&amp;gt;1$ is a sufficient condition.
 Therefore, the dynamics of capital are given by:&lt;/p&gt;
 
-&lt;p&gt;$$k_{t+1} = \frac{1}{1+n}s(\omega(k_{t}, f^{\prime}(k_{t+1}))).$$&lt;/p&gt;
+&lt;p&gt;$$k_{t+1} = \frac{1}{1+n}s(\omega(k_{t}), f^{\prime}(k_{t+1})).$$&lt;/p&gt;
 
 &lt;p&gt;Hence, $k_{t+1}$ is an implicit function of $k_{t}$:&lt;/p&gt;
 
@@ -2104,7 +2136,7 @@ Therefore, the dynamics of capital are given by:&lt;/p&gt;
 We may call this steady state an &lt;em&gt;autarky steady state.&lt;/em&gt;
 In that case, since $\omega(0)=0$ and we know that individuals save a fraction of their income:&lt;/p&gt;
 
-&lt;p&gt;$$s(\omega(0), R(0)) \leq \omega(0) = 0.$$&lt;/p&gt;
+&lt;p&gt;$$s(\omega(0), R(0)) &amp;lt; \omega(0) = 0.$$&lt;/p&gt;
 
 &lt;p&gt;Hence, given zero capital, savings are equally zero and capital remains there, constituting an steady state.&lt;/p&gt;
 
@@ -2120,7 +2152,7 @@ In intensive form, production equals:&lt;/p&gt;
 Wages are and savings are:&lt;/p&gt;
 
 &lt;p&gt;$$\omega(k_{t}) = (1-\alpha)(\alpha k^\rho + (1-\alpha))^{\frac{1}{\rho}-1}$$
-$$s_{t} = \frac{1}{1+\beta}w_{t}.$$&lt;/p&gt;
+$$s_{t} = \frac{\beta}{1+\beta}w_{t}.$$&lt;/p&gt;
 
 &lt;p&gt;Then, capital accumulation becomes:&lt;/p&gt;
 

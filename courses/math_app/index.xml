@@ -632,7 +632,7 @@ First, we rewrite the first order condition using some substitutions:&lt;/p&gt;
 
 &lt;p&gt;Using implicit derivation we have:&lt;/p&gt;
 
-&lt;p&gt;$$\frac{\partial c}{\partial w} = - \frac{ -R u_{cd} + R^2 u_{dd}}{-u_{cc} + u_{cd} R + u_{dc} R -u_{dd} R^2} = \frac{R(u_{cd} - R u_{dd})}{-\underbrace{u_{cc}}_{&lt;0} + 2 R u\_{cd} - R^2 \underbrace{u\_{dd}}\_{&lt;0}} &gt;0$$&lt;/p&gt;
+&lt;p&gt;$$\frac{\partial c}{\partial w} = - \frac{ -R u_{cd} + R^2 u_{dd}}{-u_{cc} + u_{cd} R + u_{dc} R -u_{dd} R^2} = \frac{R(u_{cd} - R u_{dd})}{-\underbrace{u_{cc}}_{&lt;0} + 2 R u\_{cd} - R^2 \underbrace{u_{dd}}_{&lt;0}} &gt;0$$&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;&lt;strong&gt;if and only if&lt;/strong&gt;&lt;/center&gt;&lt;/p&gt;
 
@@ -650,17 +650,17 @@ First, we rewrite the first order condition using some substitutions:&lt;/p&gt;
 
 &lt;p&gt;Hence, we can compute the derivative&lt;/p&gt;
 
-&lt;p&gt;$$\frac{\partial d}{\partial w} = - \frac{-u_{cd} + R u_{dd}}{u_{cc} \frac{1}{R} - u_{cd} - u_{cd} + u_{dd} R} = \frac{R (u_{cc} - u_{dd}R}{\underbrace{u_{cc} - 2Ru_{cd} + R^2 u_{dd}}_{&lt;0}} &gt; 0$$&lt;/p&gt;
+&lt;p&gt;$$\frac{\partial d}{\partial w} = - \frac{-u_{cc} + R u_{cd}}{u_{cc} \frac{1}{R} - u_{cd} - u_{cd} + u_{dd} R} = \frac{R (R u_{cd} - u_{cc})}{-\underbrace{u_{cc} +2Ru_{cd} - R^2 u_{dd}}_{&amp;gt;0}} &amp;gt; 0$$&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;&lt;strong&gt;if and only if&lt;/strong&gt;&lt;/center&gt;&lt;/p&gt;
 
-&lt;p&gt;$$u_{cc} - R u_{dc} &amp;lt; 0 \implies \frac{u_{dc}}{u_d}-\frac{u_{cc}}{u_c} &amp;gt; 0.$$&lt;/p&gt;
+&lt;p&gt;$$R u_{cd} - u_{cc} &amp;gt; 0 \implies \frac{u_{cd}}{u_d}-\frac{u_{cc}}{u_c} &amp;gt; 0.$$&lt;/p&gt;
 
 &lt;h2 id=&#34;savings-wages-and-interest-rate&#34;&gt;Savings, wages and interest rate&lt;/h2&gt;
 
 &lt;p&gt;We now show that savings are increasing in wages, and that they may increase or decrease with the interest rate.&lt;/p&gt;
 
-&lt;p&gt;First, we compute the relationship between savings and wages using the optimality condition $-u_c(w-s, Rs) + u_d(w-s, Rd)$:&lt;/p&gt;
+&lt;p&gt;First, we compute the relationship between savings and wages using the optimality condition $-u_c(w-s, Rs) + u_d(w-s, Rs)$:&lt;/p&gt;
 
 &lt;p&gt;$$\frac{\partial s}{\partial w} = - \frac{- u_{cc} + Ru_{cd}}{u_{cc}-u_{cd}R - u_{cd}R + u_{dd}R^2}= \frac{\overbrace{u_{cc}-Ru_{cd}}^{&amp;lt;0,\, \mathrm{normal\, goods}}}{\underbrace{u_{cc}-2u_{cd}R+u_{dd}R^2}_{&amp;lt;0}} \gt 0 $$&lt;/p&gt;
 
@@ -670,7 +670,7 @@ First, we rewrite the first order condition using some substitutions:&lt;/p&gt;
 
 &lt;p&gt;Hence, the sign of the derivative depends on&lt;/p&gt;
 
-&lt;p&gt;$$u_d + s(R u_{dd} - u_{cd}) \gtreqqless 0 \implies 1 + \underbrace{s}_{\frac{d}{R}}\left(R \frac{u_{dd}}{u_{d}} - \frac{u_{cd}}{u_{dd}}\right) \gtreqqless 0 \implies $$
+&lt;p&gt;$$u_d + s(R u_{dd} - u_{cd}) \gtreqqless 0 \implies 1 + \underbrace{s}_{\frac{d}{R}}\left(R \frac{u_{dd}}{u_{d}} - \frac{u_{cd}}{u_{d}}\right) \gtreqqless 0 \implies $$
 $$1 + \underbrace{\frac{u_{dd}}{u_{d}}d}_{-\frac{1}{\sigma}} - \frac{u_{cd}}{u_{d}}\frac{d}{R} \gtreqqless 0.$$&lt;/p&gt;
 
 &lt;p&gt;The relationship depends on the intertemporal elasticity of substitution ($\sigma$) and on the degree of complementarity between $c$ and $d$ as captured by $u_{cd}.$&lt;/p&gt;

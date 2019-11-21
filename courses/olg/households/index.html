@@ -619,7 +619,7 @@ Therefore, an agent has one unique choice:</p>
 
 <p>And the budget constraint for this period is:<sup class="footnote-ref" id="fnref:1"><a href="#fn:1">1</a></sup></p>
 
-<p>$$(1 - \delta + r_{t+1}) = d_{t+1}.$$</p>
+<p>$$s_{t}(1 - \delta + r_{t+1}) = d_{t+1}.$$</p>
 
 <p>with $\delta \in (0,1)$ being the capital depreciation rate.</p>
 
@@ -637,7 +637,7 @@ w_{t} = c_{t} + s_{t} \\<br />
 d_{t+1} = s_{t}(1 - \delta + r_{t+1}) = s_{t} R_{t+1} \end{eqnarray}
 \right\}.$$</p>
 
-<p>where $R_{t} \equiv 1 - \delta + r_{t+1}$ represents the return on savings, isolate $s_{t} in the second equation and plug it in the first one:</p>
+<p>where $R_{t} \equiv 1 - \delta + r_{t+1}$ represents the return on savings, isolate $s_{t}$ in the second equation and plug it in the first one:</p>
 
 <p>$$ w_{t} = c_{t} + \frac{d_{t+1}}{R_{t+1}}. \tag{1, Int. Budget Const.} \label{eq:budget}$$</p>
 
@@ -653,13 +653,16 @@ So will consumption at all periods of time.</p>
 
 <p>$$U(c,d) = u( c ) + \beta u(d),\, \beta \in(0,1) \tag{2, Utility} \label{eq:utility}$$</p>
 
-<p>where $\beta$ is psychological discount factor.
+<p>where $\beta \in (0,1)$ is the psychological discount factor.
 We assume that $u( c )$ has the properties</p>
 
-<p><strong>Assumption OLG.3</strong>
-* <strong>OLG.3.1</strong> $u^{\prime}( c ) &gt; 0,$
-* <strong>OLG.3.2</strong> $u^{\prime \prime} ( c ) &lt; 0,$
-* <strong>OLG.3.3</strong> $ \lim_{c \rightarrow 0} u^{\prime}( c) = +\infty.$</p>
+<p><strong>Assumption OLG.3</strong></p>
+
+<ul>
+<li><strong>OLG.3.1</strong> $u^{\prime}( c ) &gt; 0,$</li>
+<li><strong>OLG.3.2</strong> $u^{\prime \prime} ( c ) &lt; 0,$</li>
+<li><strong>OLG.3.3</strong> $ \lim_{c \rightarrow 0} u^{\prime}( c) = +\infty.$</li>
+</ul>
 
 <p>The last assumption $\lim_{c \rightarrow 0} u^{\prime}( c ) = +\infty$ implies that an individual will always have a positive consumption &mdash;as long as he has enough income to finance it.</p>
 
@@ -707,7 +710,7 @@ The solution is <em>the savings function</em>:</p>
 
 <p>Combining both we obtain the Euler equation:</p>
 
-<p>$u^{\prime}(c_{t}) = \beta R_{t+1} u^\prime (d_{t+1}).$$</p>
+<p>$$u^{\prime}(c_{t}) = \beta R_{t+1} u^\prime (d_{t+1}).$$</p>
 <div class="footnotes">
 
 <hr />

@@ -770,20 +770,45 @@ We revisit this issue <a href="https://eric-roca.github.io/courses/olg/monotonic
 <hr />
 
 <p>We have used the intermediate value theorem to show that solutions exists.
-Therefore, if the dynamics of $k_{t+1}$ are monotonous, the solution is unique.
-Since $H(w,k)$ is overall increasing (goes from negative to positive), we analyse under which conditions $H(w,k)$ is monotonically increasing.</p>
+Morever, it shows that $\lim_{k\rightarrow 0} \frac{H(w,k)}{k} &lt; 0$ and $\lim_{k \rightarrow +\infty} \frac{H(w,k)}{k} &gt; 0.$
+Therefore, if $H(w,k)$ is monotonically increasing in $k$, then there is one and only one solution to $H(w,k)=0.$
+Hence, we would have a unique solution.
+This means that given a value $k_{t},$ we can find a unique valu $k_{t+1}.$</p>
 
-<p>For $k_{t+1}$ to be monotonically increasing in $k_t$ we should have $\frac{\partial k_{t+1}}{\partial k_{t}} &gt; 0$.
-From the capital accumulation equation
-$$k_{t+1} = g(k_t, k_{t+1}) = \frac{1}{1+n} s(\omega(k_t), R(k_{t+1})).$$
-we compute the derivative:</p>
+<p>If we take the derivative of $H(w,k)$ with respect to $k$, we obtain:</p>
 
-<p>$$\frac{\partial k_{t+1}}{\partial k_t} = - \frac{\frac{\partial g(k_{t}, k_{t+1})}{\partial k_t}}{\frac{\partial g(k_t, k_{t+1})}{\partial k_{t+1}}} = \frac{\overbrace{s^\prime_{\omega} \omega^\prime(k_t)}^{&gt;0}}{1+n-s^\prime_{R} \underbrace{R^\prime(k_{t+1})}_{=f^{\prime \prime} (k_{t+1}) &lt; 0}}.$$</p>
+<p>$$1+n - s^{\prime}_R f^{\prime \prime}(k).$$</p>
 
-<p>Since, $R^\prime (k_{t+1}) = -f^{\prime \prime} (k_{t+1}) &lt; 0$, a sufficient condition to have $\frac{\partial k_{t+1}}{\partial k_t}&gt;0$ is
-$$s^\prime_{R} &gt; 0,$$
-this is, savings should increase with the interest rate.
-We already know that this implies an <a href="https://eric-roca.github.io/courses/olg/savings_function/#intertemporal-elasticity-of-substitution" target="_blank">intertemporal elasticity of substitution of at least one.</a>
+<p>Consequently, in order to have a monotonous function it is sufficient to impose:</p>
+
+<p><strong>Assumption OLG.4</strong> : $$1+n - s^{\prime}_R f^{\prime \prime}(k) &gt; 0.$$</p>
+
+<p>And then, $k_{t+1} = g(k_{t}).$</p>
+
+<p>In particular, this condition indicates that the effect of the interest rate on savings should <em>not</em> be too negative.</p>
+
+<p>Moreover, if <strong>OLG.4</strong> is verified, then $k_{t+1}$ is increasing in $k_{t}.$
+Indeed,</p>
+
+<p>$$k_{t+1} = g(k_t, k_{t+1}) = \frac{1}{1+n} s(\omega(k_t), R(k_{t+1})).$$</p>
+
+<p>and</p>
+
+<p>$$\frac{\partial k_{t+1}}{\partial k_t} = - \frac{\frac{\partial g(k_{t}, k_{t+1})}{\partial k_t}}{\frac{\partial g(k_t, k_{t+1})}{\partial k_{t+1}}} = \frac{\overbrace{s^\prime_{\omega} \omega^\prime(k_t)}^{&gt;0}}{1+n-s^\prime_{R} \underbrace{R^\prime(k_{t+1})}_{=f^{\prime \prime} (k_{t+1}) &lt; 0}} &gt; 0,$$</p>
+
+<p>and $k_{t+1}$ increases in $k_{t}.$</p>
+
+<p>Finally, we can use a more restrictive &mdash;but easier to work with&mdash; assumption that ensures a unique solution forthe intertemporal equilibrium.
+Assumption <strong>OLG.4</strong> states:</p>
+
+<p>$$1+n - s^{\prime}_R f^{\prime \prime}(k) &gt; 0.$$</p>
+
+<p>Therefore, it is sufficient to have</p>
+
+<p>$$s^{\prime}_R \geq 0$$</p>
+
+<p>meaning that savings increase with the interest rate.
+This behaviour is readily verified when the <a href="https://eric-roca.github.io/courses/olg/savings_function/#intertemporal-elasticity-of-substitution" target="_blank">intertemporal elasticity of substitution of at least one.</a>
 Then, to have a monotonic dynamics and unique temporal equilibrium it is sufficient to have $\sigma \geq 1.$</p>
 
           </div>

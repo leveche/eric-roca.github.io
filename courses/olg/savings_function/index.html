@@ -595,32 +595,36 @@ The <em>intertemporal elasticity of substitution</em> is a special case of the <
 
 <h2 id="intertemporal-elasticity-of-substitution">Intertemporal elasticity of substitution</h2>
 
-<p>From the Euler equation we have $\frac{u^{\prime}(c_{t})}{u^{\prime}(d_{t+1})} = \beta R_{t+1}.$
-Consumption when old $d_{t+1}$ is going to be proportional to consumption when young $c_{t}.$
-Let $d_{t+1} = x_{t+1} c_{t}.$
-In that case,</p>
-
-<p>$$\frac{\partial \left( \frac{d_{t+1}}{c_{t}} \right)}{\partial R_{t+1}} = \frac{ \partial x_{t+1}}{\partial R_{t+1}}.$$</p>
-
-<p>The intertemporal elasticity of substitution is given by:</p>
+<p>The intertemporal elasticity of substitution is defined as:</p>
 
 <p>$$\epsilon_{d_{t+1}, c_{t}} = \frac{ \partial \left( \frac{d_{t+1}}{c_{t}} \right)}{\partial R_{t+1}} \frac{ R_{t+1}}{\left( \frac{d_{t+1}}{c_{t}} \right)}.$$</p>
 
-<p>Using the Euler equation we can compute $\frac{ \partial \left( \frac{d_{t+1}}{c_{t}} \right) }{\partial R_{t+1}}.$
-First, rewrite it as:</p>
+<p>From the Euler equation we have $\frac{u^{\prime}(c_{t})}{u^{\prime}(d_{t+1})} = \beta R_{t+1}.$
+So, consumption when old $d_{t+1}$ is going to be proportional to consumption when young $c_{t}.$</p>
 
-<p>$$ G(d_{t+1}, R_{t+1}) = \frac{u^\prime(c_{t})}{u^\prime(d_{t+1})} - \beta R_{t+1} = \frac{u^\prime(c_{t})}{u^\prime(\underbrace{c_{t} x_{t+1}}_{d_{t+1}})} - \beta R_{t+1}= 0.$$</p>
+<p>Let $d_{t+1} = x_{t+1} c_{t}.$
+Then, the intertemporal elasticity of substitution becomes:</p>
 
-<p>Then,</p>
+<p>$$\epsilon_{d_{t+1}, c_{t}} = \frac{ \partial x_{t+1}}{\partial R_{t+1}} \frac{ R_{t+1}}{x_{t+1}}.$$</p>
 
-<p>$$\frac{\partial x_{t+1}}{\partial R_{t+1}} = - \frac{ \frac{ \partial G(c_{t}x_{t+1}, R_{t+1})}{\partial R_{t+1}}}{\frac{G(c_{t}x_{t+1}, R_{t+1})}{\partial x_{t+1}}} = - \frac{\beta }{u^{\prime}(c_{t})(-1)\frac{1}{u^\prime (d_{t+1})^2}u^{\prime \prime}(\underbrace{c_{t}x_{t+1}}_{d_{t+1}}) c_{t}}= \frac{\beta u^\prime(d_{t+1})^2}{u^\prime (c_t) u^{\prime \prime} d(t_{t+1}) c_t}.$$</p>
+<p>We can compute it using the Euler equation $u^\prime(c_{t}) = \beta R_{t+1} u^\prime(x_{t+1}c_t).$
+In fact, totally differentiating on both sides yields</p>
 
-<p>Therefore, the intertemporal elasticity of substitution becomes:</p>
+<p>$$0 = - \beta u^\prime(x_{t+1}c_t)\mathrm{d}R_{t+1} + \beta R_{t+1}u^{\prime \prime}(x_{t+1}c_t) c \mathrm{d}x_{t+1}.$$</p>
 
-<p>$$\epsilon_{d_{t+1}, c_{t}} = \frac{ \partial \left( \frac{d_{t+1}}{c_{t}} \right)}{\partial R_{t+1}} \frac{ R_{t+1}}{\left( \frac{d_{t+1}}{c_{t}} \right)} = - \frac{\color{red}{\beta} u^\prime(d_{t+1})^2}{\color{red}{u^{\prime}(c_{t})}u^{\prime \prime}(d_{t+1}) c_{t}} \frac{\color{red}{R_{t+1}}c_{t}}{d_{t+1}}= - \frac{\color{red}{\overbrace{u^{\prime}(d_{t+1})}^{\frac{u^{\prime}(c_{t})}{u^{\prime}(d_{t+1})} = \beta R_{t+1}, \, \mathrm{Euler}}}}{u^{\prime \prime}(d_{t+1})d_{t+1}} = \sigma(d_{t+1}),$$</p>
+<p>Hence,</p>
 
-<p>where $\sigma(d_{t+1})$ is the inverse of the coefficient of relative risk aversion.
-Hence, in this model, the intertemporal elasticity of substitution coincides with the inverse of the coefficient of relative risk aversion.
+<p>$$\frac{\mathrm{d}x_{t+1}}{\mathrm{d}R_{t+1}} = - \frac{u^\prime(x_{t+1}c_{t}}{R_{t+1}u^{\prime \prime}(x_{t+1}c_t)c_t} = - \frac{u^\prime (d_{t+1})}{R_{t+1}u^{\prime \prime}(d_{t+1})c_t}.$$</p>
+
+<p>And the intertemporal elasticity of substitution is then given by:</p>
+
+<p>$$\epsilon_{d_{t+1}, c_{t}} = \frac{\mathrm{d}x_{t+1}}{\mathrm{d}R_{t+1}}\frac{R_{t+1}}{x_{t+1}} = - \frac{u^\prime (d_{t+1})}{R_{t+1}u^{\prime \prime}(d_{t+1})c_t}\frac{R_{t+1}}{\underbrace{x_{t+1}}_{\frac{d_{t+1}}{c_{t}}}} = - \frac{u^\prime(d_{t+1}}{u^{\prime \prime}(d_{t+1}) d_{t+1}}.$$</p>
+
+<p><strong>Note</strong>: the intertemporal elasticity of substitution is equal to the inverse of the coefficient of relative risk aversion.
+Risk averse individuals do <em>not</em> want large changes in consumption, so they have a large risk aversion and are <em>not</em> willing to trade off future and present consumption.
+Conversely, risk neutral individuals do not mind abrupt changes in consumption, so they are willing to trade off future and present consumption.</p>
+
+<p>Hence, in this model, the intertemporal elasticity of substitution coincides with the inverse of the coefficient of relative risk aversion.
 <strong>Note:</strong> If you read p. 12 in <em>de la Croix and Michel</em>, they take a different approach and also refuse to use the concept or risk aversion: the model does not feature risk.</p>
 
 <h3 id="cies-example">CIES example</h3>
