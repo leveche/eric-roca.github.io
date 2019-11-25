@@ -745,7 +745,7 @@ This follows from assuming a unique intertemporal equilibrium, &lt;a href=&#34;h
 This extra assumption also implies that the intermporal elasticity of substitution is &lt;em&gt;not too small&lt;/em&gt;.
 In particular, we operationalise (p. 25 in &lt;em&gt;de la Croix and Michel&lt;/em&gt;.) it as:&lt;/p&gt;
 
-&lt;p&gt;$$\forall c&amp;gt;0, \quad u^\prime( c ) + c u^{\prime \prime}( c ) \geq 0 \Leftrightarrow \sigma( c ) &amp;gt; 1.$$&lt;/p&gt;
+&lt;p&gt;$$\forall c&amp;gt;0, \quad u^\prime( c ) + c u^{\prime \prime}( c ) \geq 0 \Leftrightarrow \sigma( c ) \geq 1.$$&lt;/p&gt;
 
 &lt;p&gt;Due to the fact the monotonicity of the dynamics, capital can converge either to $0,\, \bar{k}\in (0,+\infty),\, $ or $+\infty.$&lt;/p&gt;
 
@@ -767,7 +767,7 @@ Then, it must be that for large enough $k,\, g(k) = k_{t+1} &amp;lt; k_{t}$ and 
 In this case, $\bar{k}$ is the largest steady state, and because the dynamics are monotonic, the economy never goes to the other side of the steady state.&lt;/p&gt;
 
 &lt;p&gt;We show next that $\lim_{k \rightarrow +\infty}\frac{g(k)}{k} = 0.$
-We do so by showing that $\lim_{k \rightarrow +\infty} \color{green}{\frac{\omega(w)}{k}} = 0.$&lt;/p&gt;
+We do so by showing that $\lim_{k \rightarrow +\infty} \color{green}{\frac{\omega(k)}{k}} = 0.$&lt;/p&gt;
 
 &lt;p&gt;&lt;details&gt;
 &lt;summary&gt;Detailed explanation&lt;/summary&gt;
@@ -819,7 +819,7 @@ $$u^\prime(w_{t} - s_{t}) = \beta R_{t+1} u^\prime (R_{t+1}s_{t}).$$&lt;/p&gt;
 
 &lt;p&gt;The dynamics are given by the capital accumulation law&lt;/p&gt;
 
-&lt;p&gt;$$k_{t+1} = \frac{1}{1+n}s_{t} = \frac{1}{1+n}\frac{\beta}{1+\beta}w_{t} = \frac{1}{1+n}\frac{\beta}{1+\beta}(1-\alpha)Af(k_{t})^\alpha.$$&lt;/p&gt;
+&lt;p&gt;$$k_{t+1} = \frac{1}{1+n}s_{t} = \frac{1}{1+n}\frac{\beta}{1+\beta}w_{t} = \frac{1}{1+n}\frac{\beta}{1+\beta}(1-\alpha)Ak_{t}^\alpha.$$&lt;/p&gt;
 
 &lt;p&gt;The model with log-utility and Cobb-Douglas production functions has two steady states: zero and a unique positive steady state.
 We can solve for them:&lt;/p&gt;
@@ -883,7 +883,7 @@ In that case, the economy displays a unique steady state, and it is globally sta
 
 &lt;p&gt;If $\rho &amp;lt; 0,$ the function $g(k)$ changes concavity.
 In particular, there exists a level $\hat{k}$ such that:
-$$g^{\prime \prime}kk) &amp;gt; 0\, \mathrm{if} \,  k &amp;lt; \hat{k}.$$
+$$g^{\prime \prime}(k) &amp;gt; 0\, \mathrm{if} \,  k &amp;lt; \hat{k}.$$
 $$g^{\prime \prime}(k) &amp;lt; 0\, \mathrm{if} \, k &amp;gt; \hat{k}.$$
 with
 $$\hat{k} = \left( - \frac{(1-\alpha)(1-\rho)}{\rho \alpha}\right)^\frac{1}{\rho} &amp;gt; 0 \, \mathrm{since}\, \rho &amp;lt;0.$$
@@ -921,64 +921,51 @@ The steady state with $\bar{k}=0$ is a &lt;strong&gt;poverty trap&lt;/strong&gt;
     </item>
     
     <item>
-      <title>Monotonicity of the dynamics</title>
+      <title>Multiple intertemporal equilibria</title>
       <link>https://eric-roca.github.io/courses/olg/monotonicity_of_the_dynamics/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
       <guid>https://eric-roca.github.io/courses/olg/monotonicity_of_the_dynamics/</guid>
       <description>
 
-&lt;p&gt;Under the OLG model, it is possible to have non-monotonic dynamics.
-These arise for some combinations of utility and production functions.&lt;/p&gt;
+&lt;p&gt;In the OLG model, a unique intertemporal equilibrium arises if, for a given $k_t$, the equation&lt;/p&gt;
 
-&lt;h2 id=&#34;condition-for-monotonous-dynamics&#34;&gt;Condition for monotonous dynamics&lt;/h2&gt;
+&lt;p&gt;$$H(k_{t+1}) = k_{t+1} - \frac{1}{1+n}s\left(\omega(k_t), f^\prime(k_{t+1})\right) = 0$$&lt;/p&gt;
 
-&lt;p&gt;The examples we have seen before, log-utility with Cobb-Douglas or CES production functions deliver monotonous dynamics:
-given an initial level of capital $k_0 \geq 0$, the level of capital is always either increasing or decreasing until it reaches its steady state.&lt;/p&gt;
+&lt;p&gt;has a unique solution.
+We know that $\lim_{k\rightarrow 0}H(k) &amp;lt; 0$ and $\lim_{k\ rightarrow +\infty}H(k) &amp;gt; 0,$
+which guarantees the existence of at least one solution.&lt;/p&gt;
 
-&lt;p&gt;In general, dynamics are monotonous if:&lt;/p&gt;
+&lt;p&gt;Hence, if the function $H$ is monotonously increasing, the solution is unique.
+This condition depends on the sign of:&lt;/p&gt;
 
-&lt;p&gt;$$\frac{\partial k_{t+1}}{\partial k_{t}} = g^\prime(k_t) &amp;gt; 0.$$&lt;/p&gt;
-
-&lt;p&gt;Since $g(k_{t}) = \frac{1}{1+n}s(\omega (k_{t}), R(k_{t+1}))$ taking the total derivative on both sides we get&lt;/p&gt;
-
-&lt;p&gt;$$\mathrm{d} k_{t+1} = \frac{1}{1+n}\left( s^\prime_{\omega} \omega^\prime (k_{t}) \mathrm{d}k_t + s^\prime_{R} R^\prime (k_{t+1}) \mathrm{d} k_{t+1} \right).$$&lt;/p&gt;
-
-&lt;p&gt;Rearranging and making clear the all the functional dependencies we get:&lt;/p&gt;
-
-&lt;p&gt;$$\frac{\mathrm{d} k_{t+1}}{\mathrm{d} k_{t}} = \frac{s^\prime_{\omega} \big(\omega (k_{t}), R(k_{t+1})\big) w^\prime (k_{t})}{1+n-s^\prime_{R}\big(\omega (k_{t}, R(k_{t+1})\big) R^\prime (k_{t+1}))}.$$&lt;/p&gt;
-
-&lt;p&gt;We know that $s^\prime_\omega &amp;gt; 0$ (&lt;a href=&#34;https://eric-roca.github.io/courses/olg/savings_function/&#34; target=&#34;_blank&#34;&gt;see&lt;/a&gt; and $\omega^\prime(k_{t}) = - f^{\prime \prime} (k_{t}) k_t &amp;gt; 0$ (these two equations indicate that the higher the wage, the more individuals save and that the wage is increasing in the capital-per-worker ratio).
-Hence, the numerator is always positive.
-Therefore, the sign of derivative of $k_{t+1}$ with respect to $k_{t}$ depends on:&lt;/p&gt;
-
-&lt;p&gt;$$ \frac{\mathrm{d} k_{t+1}}{\mathrm{d} k_{t}} \gtrless 0 \quad  \mathrm{if} \quad s^\prime_{R}(\omega(k_t), R(k_{t+1})) \gtrless \frac{1+n}{R^\prime(k_{t+1})}$$&lt;/p&gt;
-
-&lt;p&gt;where $R^\prime(k_{t+1}) = f^{\prime \prime}(k_{t+1}) &amp;lt; 0.$&lt;/p&gt;
+&lt;p&gt;$$\frac{\partial H(k_{t+1})}{\partial k_{t+1}} = 1 + \frac{1}{1+n}s^{\prime}_{R}f^{\prime \prime}(k_{t+1}).$$&lt;/p&gt;
 
 &lt;p&gt;We have different cases (check &lt;a href=&#34;https://eric-roca.github.io/courses/olg/savings_function/&#34; target=&#34;_blank&#34;&gt;the notes&lt;/a&gt; on the savings function):&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;$s^\prime_{R} = 0$, which happens under log-utility.
-In this case, $s^\prime_{R} = 0 &amp;gt; \frac{1+n}{R^\prime(k_{t+1})}$ and $g(k_t)$ is always increasing.&lt;/p&gt;&lt;/li&gt;
+In this case, $s^\prime_{R} = 0 &amp;gt; \frac{1+n}{R^\prime(k_{t+1})}$ and $H(k_{t+1})$ is always increasing.&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;$s^\prime_{R} &amp;gt;0$, the intertemporal elasticity of substitution is greater than 1 and individuals are willing to trade off higher future consumption against present consumption.
 Savings increase to consume more in the future.
 Then, clearly $s^\prime_{R} &amp;gt; 0 &amp;gt; \frac{1+n}{R^\prime(k_{t+1})}.$&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;$s^\prime_{R} &amp;lt; 0$, we can have a non-monotonous capital path as $k_{t+1}$ can be increasing or decreasing with $k_{t}$ depending on whether $1+n&amp;gt; s^\prime_{R} R^\prime (k_{t+1}).$&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;$s^\prime_{R} &amp;lt; 0$, we can have a non-monotonous capital path as $k_{t+1}$ can be increasing or decreasing with $k_{t}$.&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
+
+&lt;p&gt;Under case 3, the condition is not satisfied, multiple levels of $k_{t+1}$ solve the intertemporal equilibrium.&lt;/p&gt;
 
 &lt;h3 id=&#34;non-monotonous-dynamics&#34;&gt;Non-monotonous dynamics&lt;/h3&gt;
 
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Based on the &lt;a href=&#34;http://web.econ.ku.dk/okocg/MAT-OEK/Mak%C3%98k2/Mak%C3%98k2-2016/Forel%C3%A6sninger/Ch%203-2016-1.pdf&#34; target=&#34;_blank&#34;&gt;lecture notes of Groth, pp. 92&amp;ndash;93&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Under case 3, the function $g(k)$ is backwards bending for some values of $k.$
-This feature implies that there are more than one &lt;em&gt;temporary equilibrium&lt;/em&gt;, check &lt;a href=&#34;https://eric-roca.github.io/courses/olg/equilibrium/#temporary-equilibrium&#34; target=&#34;_blank&#34;&gt;also&lt;/a&gt;.
+This feature implies that there are more than one &lt;em&gt;intemporal equilibrium&lt;/em&gt;, check &lt;a href=&#34;https://eric-roca.github.io/courses/olg/equilibrium/#temporary-equilibrium&#34; target=&#34;_blank&#34;&gt;also&lt;/a&gt;.
 We ruled out such possibility assuming that $\sigma( c ) \geq 1$, this is, we imposed a large enough intertemporal elasticity of substitution.&lt;/p&gt;
 
 &lt;p&gt;If this is not the case and $s^\prime_{R}(\omega(k_t), R(k_{t+1})) &amp;lt; \frac{1+n}{R^\prime(k_{t+1})}$ then there are multiple temporary equilibriums.&lt;/p&gt;
 
-&lt;p&gt;For instance, take an isoelastic utility function $u( c ) = \frac{c^{1-\frac{1}{\sigma}-1}}{1-\frac{1}{\sigma}}$ and a CES production with $A=20, \, \alpha = \frac{1}{2}, \, \beta = 0.3, \, n = 1.097, \, \sigma = 0.1, \, \rho = -2.$
+&lt;p&gt;For instance, take an isoelastic utility function $u( c ) = \frac{c^{1-\frac{1}{\sigma}}-1}{1-\frac{1}{\sigma}}$ and a CES production with $A=20, \, \alpha = \frac{1}{2}, \, \beta = 0.3, \, n = 1.097, \, \sigma = 0.1, \, \rho = -2.$
 First, since $\sigma &amp;lt; 1$, it allows for the possibility of having multiple temporary equilibria.
 Second, we can verify that this is the case.
 For example, if $k_{t} = 1$, then:&lt;/p&gt;
@@ -1017,7 +1004,7 @@ In fact, if we maximise total consumption, the ensuing allocations between young
 First, let $\mathfrak{C}_t$ represent total consumption: $$\mathfrak{C}_t \equiv C_t + D_t.$$
 The economy-wide resource constraint dictates that total production is either consumed or invested:&lt;/p&gt;
 
-&lt;p&gt;$$\mathfrak{C}_t + (1-\delta)K_t + K_{t+1} = F(K_t, N_t).$$&lt;/p&gt;
+&lt;p&gt;$$\mathfrak{C}_t  + K_{t+1} = F(K_t, N_t)+ (1-\delta)K_t.$$&lt;/p&gt;
 
 &lt;p&gt;Alternatively, aggregate consumption per unit of labour is:&lt;/p&gt;
 
@@ -1456,7 +1443,7 @@ where $\xi \equiv \frac{\beta}{(1+n)(1+\beta)}.$&lt;/p&gt;
 &lt;p&gt;Instead of computing the value of capital at the steady state (which we cannot do), we study the function $\phi(b,g,k_t).$&lt;/p&gt;
 
 &lt;p&gt;First, notice that changing $b$ or $g$ displaces $\phi$ downwards, but the displacement is not parallel.
-$$\phi^\prime_b = - \frac{\beta}{(1+n)(1+\beta)}\frac{\alpha k^{\alpha-1}-1-n}{1+n} - \frac{1}{1+n} + \xi &amp;lt; 0$$
+$$\phi^\prime_b = - \frac{\beta}{(1+n)(1+\beta)}\frac{\alpha k^{\alpha-1}}{1+n} - \frac{1}{1+n} + \xi &amp;lt; 0$$
 $$\phi^\prime_g = -\frac{\beta}{(1+n)(1+\beta)} &amp;lt; 0.$$&lt;/p&gt;
 
 &lt;p&gt;However, increasing $g$ always reduces $k_{t+1}$ by the same amount: $g$ moves the curve vertically.

@@ -12,5 +12,172 @@
       <link>https://eric-roca.github.io/courses/</link>
     </image>
     
+    <item>
+      <title>Overview</title>
+      <link>https://eric-roca.github.io/courses/ramsey/</link>
+      <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://eric-roca.github.io/courses/ramsey/</guid>
+      <description>
+
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;The basic Solow model assumed the following:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Constant returns to scale production function&lt;/li&gt;
+&lt;li&gt;Constant population growth $n$&lt;/li&gt;
+&lt;li&gt;Constant technological progress $g$&lt;/li&gt;
+&lt;li&gt;Fixed saving rate $s$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Although it is a useful model, the choice of $s$ is arbitrary and &lt;strong&gt;does not obey any microeconomic foundation&lt;/strong&gt;.
+In particular, microeconomic theory relates present and future consumption decisions through the interest rate.
+The Ramsey model amends this shortcomings and the decisions of all agents are microeconomically founded.
+In particular, we assume:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ramsey assumptions&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Large number of identical firms operating the same technology:
+
+&lt;ul&gt;
+&lt;li&gt;Rent capital and hire labour&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Large number of households:
+
+&lt;ul&gt;
+&lt;li&gt;Consume, supply labour, own and lend capital&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Constant returns to scale production function&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Agents (households) optimally decide consumption and savings, depending on the interest rate.
+Hence, the &lt;strong&gt;saving rate&lt;/strong&gt; is definitely no longer exogenous and &lt;strong&gt;need not be constant&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;In this course we focus on the discrete-time version of the Ramsey model.
+In particular, time takes values $t=0,1,\ldots,+\infty.$&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://doi.org/10.2307/2224098&#34; target=&#34;_blank&#34;&gt;Ramsey (1928)&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&#34;https://doi.org/10.2307/2295827&#34; target=&#34;_blank&#34;&gt;Cass (1965)&lt;/a&gt;&lt;br/&gt;
+Koopmans (1965)&lt;/p&gt;
+
+&lt;p&gt;Romer, Advanced Macroeconomics: Chapter 2&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;Romer derives all the results in continuous time, we use discrete time.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Overview</title>
+      <link>https://eric-roca.github.io/courses/ramsey_gov/</link>
+      <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://eric-roca.github.io/courses/ramsey_gov/</guid>
+      <description>
+
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;We now augment the Ramsey model, incorporating a government.&lt;/p&gt;
+
+&lt;p&gt;It taxes households with a lump-sum tax $T_{t}$ and uses these proceedings to buy goods $G_{t}.$
+&lt;strong&gt;Assumption RG 1&lt;/strong&gt;
+We assume that government purchases &lt;em&gt;do not&lt;/em&gt; affect household&amp;rsquo;s utility from private consumption.
+This can be because:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The government devotes revenue $T_{t}$ to an activity households do not derive utility from&lt;/li&gt;
+&lt;li&gt;Households utility equals the sum of private consumption and goods provided by the government.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Assumption RG 2&lt;/strong&gt;
+Another assumption is that the government uses &lt;em&gt;all&lt;/em&gt; taxes to fund exclusively its purchases $G_{t}.$
+Therefore, the government &lt;em&gt;does not&lt;/em&gt; save: no public investment.&lt;/p&gt;
+
+&lt;p&gt;Finally, the government runs a balanced budget in each and every period: $G_{t} = T_{t}.$i&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;This extension &lt;em&gt;does not&lt;/em&gt; modify the behaviour of firms.
+In fact, taxes affect only households through their budget constraint.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;Romer, in &lt;em&gt;Advanced Macroeconomics&lt;/em&gt; chapter 11 shows that in the Ramsey model the choice between taxes and deficit does not impact the relevant variables.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mathematical appendix</title>
+      <link>https://eric-roca.github.io/courses/math_app/</link>
+      <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://eric-roca.github.io/courses/math_app/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Overlapping generations model</title>
+      <link>https://eric-roca.github.io/courses/olg/</link>
+      <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://eric-roca.github.io/courses/olg/</guid>
+      <description>
+
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;Based on &lt;em&gt;de la Croix and Michel&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;We have studied the Ramsey model, which predicts that the path derived from the competitive equilibrium is optimal.
+One of the main features of this model is that agents have an infinite horizon: they live forever and optimise considering an infinite horizon.&lt;/p&gt;
+
+&lt;p&gt;The overlapping generations model changes this hypothesis and focuses on the life-cycle: agents make decisions regarding how to consume, and how much to save for retirement.
+This is, the OLG model model assumes that agents work until some age, and then retire.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;
+A focus of the OLG model is the intergenerational redistribution, allowing to study:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;social security,&lt;/li&gt;
+&lt;li&gt;education policies and&lt;/li&gt;
+&lt;li&gt;public debt.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The main departure with respect to the Ramsey model is that in OLG, agents are heterogeneous.
+Individuals live for two periods of time, and then die.
+In the first period, they are young and work.
+When old, they retire and live from savings.
+Hence, at any point in time, &lt;em&gt;two types of agents with &lt;strong&gt;different&lt;/strong&gt; budget constraints exist&lt;/em&gt;: young and adults.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;As we shall see, in this model the competitive path &lt;em&gt;may not be optimal.&lt;/em&gt;
+Consequently, there may be instances in which the utility of all individuals can be increased.
+Therefore, the OLG model opens the door to government intervention, to reallocate consumption and savings efficiently.
+The OLG framework also permits the existence of bubbles and fluctuations.&lt;/p&gt;
+
+&lt;p&gt;A basic reference for this model is &lt;a href=&#34;https://www.jstor.org/stable/1809231?seq=1#page_scan_tab_contents&#34; target=&#34;_blank&#34;&gt;Diamond, (1965).&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;The Ramsey model can be seen as an extension to the OLG model when agents are altruistic enough.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+
+&lt;li id=&#34;fn:2&#34;&gt;&lt;p&gt;Other set-ups are possible within the LG framework.
+These can include more periods, individuals may accumulate human capital when young, etc.&lt;/p&gt;
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:2&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

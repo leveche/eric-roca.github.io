@@ -28,9 +28,10 @@
   
     
   
-  <meta name="description" content="Under the OLG model, it is possible to have non-monotonic dynamics. These arise for some combinations of utility and production functions.
-Condition for monotonous dynamics The examples we have seen before, log-utility with Cobb-Douglas or CES production functions deliver monotonous dynamics: given an initial level of capital $k_0 \geq 0$, the level of capital is always either increasing or decreasing until it reaches its steady state.
-In general, dynamics are monotonous if:">
+  <meta name="description" content="In the OLG model, a unique intertemporal equilibrium arises if, for a given $k_t$, the equation
+$$H(k_{t&#43;1}) = k_{t&#43;1} - \frac{1}{1&#43;n}s\left(\omega(k_t), f^\prime(k_{t&#43;1})\right) = 0$$
+has a unique solution. We know that $\lim_{k\rightarrow 0}H(k) &lt; 0$ and $\lim_{k\ rightarrow &#43;\infty}H(k) &gt; 0,$ which guarantees the existence of at least one solution.
+Hence, if the function $H$ is monotonously increasing, the solution is unique. This condition depends on the sign of:">
 
   
   <link rel="alternate" hreflang="en-us" href="https://eric-roca.github.io/courses/olg/monotonicity_of_the_dynamics/">
@@ -126,10 +127,11 @@ In general, dynamics are monotonous if:">
   
   <meta property="og:site_name" content="Academic">
   <meta property="og:url" content="https://eric-roca.github.io/courses/olg/monotonicity_of_the_dynamics/">
-  <meta property="og:title" content="Monotonicity of the dynamics | Academic">
-  <meta property="og:description" content="Under the OLG model, it is possible to have non-monotonic dynamics. These arise for some combinations of utility and production functions.
-Condition for monotonous dynamics The examples we have seen before, log-utility with Cobb-Douglas or CES production functions deliver monotonous dynamics: given an initial level of capital $k_0 \geq 0$, the level of capital is always either increasing or decreasing until it reaches its steady state.
-In general, dynamics are monotonous if:"><meta property="og:image" content="https://eric-roca.github.io/img/icon-192.png">
+  <meta property="og:title" content="Multiple intertemporal equilibria | Academic">
+  <meta property="og:description" content="In the OLG model, a unique intertemporal equilibrium arises if, for a given $k_t$, the equation
+$$H(k_{t&#43;1}) = k_{t&#43;1} - \frac{1}{1&#43;n}s\left(\omega(k_t), f^\prime(k_{t&#43;1})\right) = 0$$
+has a unique solution. We know that $\lim_{k\rightarrow 0}H(k) &lt; 0$ and $\lim_{k\ rightarrow &#43;\infty}H(k) &gt; 0,$ which guarantees the existence of at least one solution.
+Hence, if the function $H$ is monotonously increasing, the solution is unique. This condition depends on the sign of:"><meta property="og:image" content="https://eric-roca.github.io/img/icon-192.png">
   <meta property="twitter:image" content="https://eric-roca.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
   
     
@@ -173,7 +175,7 @@ In general, dynamics are monotonous if:"><meta property="og:image" content="http
 
 
 
-  <title>Monotonicity of the dynamics | Academic</title>
+  <title>Multiple intertemporal equilibria | Academic</title>
 
 </head>
 
@@ -527,7 +529,7 @@ In general, dynamics are monotonous if:"><meta property="og:image" content="http
       </li>
       
       <li class="active">
-        <a href="/courses/olg/monotonicity_of_the_dynamics/">Monotonicity of the dynamics</a>
+        <a href="/courses/olg/monotonicity_of_the_dynamics/">Multiple intertemporal equilibria</a>
       </li>
       
       <li >
@@ -562,7 +564,7 @@ In general, dynamics are monotonous if:"><meta property="og:image" content="http
 <ul>
 <li>
 <ul>
-<li><a href="#condition-for-monotonous-dynamics">Condition for monotonous dynamics</a>
+<li>
 <ul>
 <li><a href="#non-monotonous-dynamics">Non-monotonous dynamics</a></li>
 </ul></li>
@@ -579,63 +581,50 @@ In general, dynamics are monotonous if:"><meta property="og:image" content="http
       <article class="article" itemscope itemtype="http://schema.org/Article">
 
         <div class="docs-article-container">
-          <h1 itemprop="name">Monotonicity of the dynamics</h1>
+          <h1 itemprop="name">Multiple intertemporal equilibria</h1>
 
           <div class="article-style" itemprop="articleBody">
             
 
-<p>Under the OLG model, it is possible to have non-monotonic dynamics.
-These arise for some combinations of utility and production functions.</p>
+<p>In the OLG model, a unique intertemporal equilibrium arises if, for a given $k_t$, the equation</p>
 
-<h2 id="condition-for-monotonous-dynamics">Condition for monotonous dynamics</h2>
+<p>$$H(k_{t+1}) = k_{t+1} - \frac{1}{1+n}s\left(\omega(k_t), f^\prime(k_{t+1})\right) = 0$$</p>
 
-<p>The examples we have seen before, log-utility with Cobb-Douglas or CES production functions deliver monotonous dynamics:
-given an initial level of capital $k_0 \geq 0$, the level of capital is always either increasing or decreasing until it reaches its steady state.</p>
+<p>has a unique solution.
+We know that $\lim_{k\rightarrow 0}H(k) &lt; 0$ and $\lim_{k\ rightarrow +\infty}H(k) &gt; 0,$
+which guarantees the existence of at least one solution.</p>
 
-<p>In general, dynamics are monotonous if:</p>
+<p>Hence, if the function $H$ is monotonously increasing, the solution is unique.
+This condition depends on the sign of:</p>
 
-<p>$$\frac{\partial k_{t+1}}{\partial k_{t}} = g^\prime(k_t) &gt; 0.$$</p>
-
-<p>Since $g(k_{t}) = \frac{1}{1+n}s(\omega (k_{t}), R(k_{t+1}))$ taking the total derivative on both sides we get</p>
-
-<p>$$\mathrm{d} k_{t+1} = \frac{1}{1+n}\left( s^\prime_{\omega} \omega^\prime (k_{t}) \mathrm{d}k_t + s^\prime_{R} R^\prime (k_{t+1}) \mathrm{d} k_{t+1} \right).$$</p>
-
-<p>Rearranging and making clear the all the functional dependencies we get:</p>
-
-<p>$$\frac{\mathrm{d} k_{t+1}}{\mathrm{d} k_{t}} = \frac{s^\prime_{\omega} \big(\omega (k_{t}), R(k_{t+1})\big) w^\prime (k_{t})}{1+n-s^\prime_{R}\big(\omega (k_{t}, R(k_{t+1})\big) R^\prime (k_{t+1}))}.$$</p>
-
-<p>We know that $s^\prime_\omega &gt; 0$ (<a href="https://eric-roca.github.io/courses/olg/savings_function/" target="_blank">see</a> and $\omega^\prime(k_{t}) = - f^{\prime \prime} (k_{t}) k_t &gt; 0$ (these two equations indicate that the higher the wage, the more individuals save and that the wage is increasing in the capital-per-worker ratio).
-Hence, the numerator is always positive.
-Therefore, the sign of derivative of $k_{t+1}$ with respect to $k_{t}$ depends on:</p>
-
-<p>$$ \frac{\mathrm{d} k_{t+1}}{\mathrm{d} k_{t}} \gtrless 0 \quad  \mathrm{if} \quad s^\prime_{R}(\omega(k_t), R(k_{t+1})) \gtrless \frac{1+n}{R^\prime(k_{t+1})}$$</p>
-
-<p>where $R^\prime(k_{t+1}) = f^{\prime \prime}(k_{t+1}) &lt; 0.$</p>
+<p>$$\frac{\partial H(k_{t+1})}{\partial k_{t+1}} = 1 + \frac{1}{1+n}s^{\prime}_{R}f^{\prime \prime}(k_{t+1}).$$</p>
 
 <p>We have different cases (check <a href="https://eric-roca.github.io/courses/olg/savings_function/" target="_blank">the notes</a> on the savings function):</p>
 
 <ol>
 <li><p>$s^\prime_{R} = 0$, which happens under log-utility.
-In this case, $s^\prime_{R} = 0 &gt; \frac{1+n}{R^\prime(k_{t+1})}$ and $g(k_t)$ is always increasing.</p></li>
+In this case, $s^\prime_{R} = 0 &gt; \frac{1+n}{R^\prime(k_{t+1})}$ and $H(k_{t+1})$ is always increasing.</p></li>
 
 <li><p>$s^\prime_{R} &gt;0$, the intertemporal elasticity of substitution is greater than 1 and individuals are willing to trade off higher future consumption against present consumption.
 Savings increase to consume more in the future.
 Then, clearly $s^\prime_{R} &gt; 0 &gt; \frac{1+n}{R^\prime(k_{t+1})}.$</p></li>
 
-<li><p>$s^\prime_{R} &lt; 0$, we can have a non-monotonous capital path as $k_{t+1}$ can be increasing or decreasing with $k_{t}$ depending on whether $1+n&gt; s^\prime_{R} R^\prime (k_{t+1}).$</p></li>
+<li><p>$s^\prime_{R} &lt; 0$, we can have a non-monotonous capital path as $k_{t+1}$ can be increasing or decreasing with $k_{t}$.</p></li>
 </ol>
+
+<p>Under case 3, the condition is not satisfied, multiple levels of $k_{t+1}$ solve the intertemporal equilibrium.</p>
 
 <h3 id="non-monotonous-dynamics">Non-monotonous dynamics</h3>
 
 <p><strong>Note:</strong> Based on the <a href="http://web.econ.ku.dk/okocg/MAT-OEK/Mak%C3%98k2/Mak%C3%98k2-2016/Forel%C3%A6sninger/Ch%203-2016-1.pdf" target="_blank">lecture notes of Groth, pp. 92&ndash;93</a></p>
 
 <p>Under case 3, the function $g(k)$ is backwards bending for some values of $k.$
-This feature implies that there are more than one <em>temporary equilibrium</em>, check <a href="https://eric-roca.github.io/courses/olg/equilibrium/#temporary-equilibrium" target="_blank">also</a>.
+This feature implies that there are more than one <em>intemporal equilibrium</em>, check <a href="https://eric-roca.github.io/courses/olg/equilibrium/#temporary-equilibrium" target="_blank">also</a>.
 We ruled out such possibility assuming that $\sigma( c ) \geq 1$, this is, we imposed a large enough intertemporal elasticity of substitution.</p>
 
 <p>If this is not the case and $s^\prime_{R}(\omega(k_t), R(k_{t+1})) &lt; \frac{1+n}{R^\prime(k_{t+1})}$ then there are multiple temporary equilibriums.</p>
 
-<p>For instance, take an isoelastic utility function $u( c ) = \frac{c^{1-\frac{1}{\sigma}-1}}{1-\frac{1}{\sigma}}$ and a CES production with $A=20, \, \alpha = \frac{1}{2}, \, \beta = 0.3, \, n = 1.097, \, \sigma = 0.1, \, \rho = -2.$
+<p>For instance, take an isoelastic utility function $u( c ) = \frac{c^{1-\frac{1}{\sigma}}-1}{1-\frac{1}{\sigma}}$ and a CES production with $A=20, \, \alpha = \frac{1}{2}, \, \beta = 0.3, \, n = 1.097, \, \sigma = 0.1, \, \rho = -2.$
 First, since $\sigma &lt; 1$, it allows for the possibility of having multiple temporary equilibria.
 Second, we can verify that this is the case.
 For example, if $k_{t} = 1$, then:</p>
@@ -815,7 +804,7 @@ Consequently, in all these cases we also have that $\frac{\mathrm{d}k_{t+1}}{\ma
     
     
     
-    <script src="/js/academic.min.4e51017b38c7ebaadd7e25fc9503f88c.js"></script>
+    <script src="/js/academic.min.16bbb3750feb7244c9bc409a5a4fe678.js"></script>
 
     
 
