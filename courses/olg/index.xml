@@ -895,7 +895,12 @@ Moreover, $g(0)=0$ so $\bar{k}=0$ can be a steady state.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;If $k_{t+1} &amp;lt; k_{t} \implies \frac{\omega(k)}{k} &amp;lt; (1+n)\frac{1+\beta}{\beta}$ then the trajectory of $k_{t+1}$ is always below $k$.
 Then, there is one unique steady state: $\bar{k}=0.$
-The economy converges towards this unique steady state.&lt;/p&gt;&lt;/li&gt;
+The economy converges towards this unique steady state.
+We can derive the condition above from:
+$\begin{align}
+    k_{t+1} &amp;lt; k_{t} &amp;amp; \implies \frac{1}{1+n}s\left(\omega(k_{t}),R_{t+1}\right) &amp;lt; k_{t}  \implies \\&lt;br /&gt;
+    \frac{1}{1+n}\frac{\beta}{1+\beta}w_t &amp;lt; k_{t} &amp;amp; \implies \frac{w_{t}}{k_{t}} &amp;lt; (1+n)\frac{1+\beta}{\beta}.
+    \end{align}$&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;If there is some $k_{t+1} &amp;gt; k_{t} \implies \frac{\omega(k)}{k} &amp;gt; (1+n)\frac{1+\beta}{\beta}$ then there are two positive steady states $\bar{k}_{a} &amp;lt; \bar{k}_{b}$ plus the zero steady state $\bar{k}=0.$&lt;/p&gt;
 
