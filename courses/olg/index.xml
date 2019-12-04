@@ -1324,14 +1324,16 @@ Therefore, the &lt;em&gt;deficit&lt;/em&gt; at time $t$ is given by:&lt;/p&gt;
 
 &lt;p&gt;$$\mathcal{d}_t \equiv g - \tau_t = b\left(1-\frac{R_t}{1+n}\right) = b\left(\frac{n+\delta - r_t}{1+n}\right),$$&lt;/p&gt;
 
-&lt;p&gt;where we have used $R_t = 1 + r_t - \delta.$&lt;/p&gt;
+&lt;p&gt;where we have used $R_t = 1 + r_t - \delta$ together with the budet constraint of the government evaluated when $g_{t}=g$ and $b_{t}=b:$&lt;/p&gt;
+
+&lt;p&gt;$$g + \frac{b}{1+n}R_{t} = \tau_{t} + b \implies g - \tau_{t} = b\left(1-\frac{R_{t}}{1+n}\right).$$&lt;/p&gt;
 
 &lt;p&gt;If $n + \delta &amp;gt; r_t$, then the government can be perpetually indebted while running a public deficit $g-\tau_t.$
 Otherwise, if $n + \delta &amp;lt; r_t$, the government needs to run a budget surplus: $\tau_t &amp;gt; g.$&lt;/p&gt;
 
 &lt;p&gt;Replacing the new government budget $g - \tau_t = b\left(\frac{n+\delta - r_t}{1+n}\right)$ in the equation for capital dynamics we obtain:&lt;/p&gt;
 
-&lt;p&gt;$$k_{t+1} = \frac{1}{1+n}s\left(\omega(k_t)-b\frac{r(\color{red}{k_t})-\delta - n}{1+n}-g, R(\color{green}{k_{t+1}})\right)- b.$$&lt;/p&gt;
+&lt;p&gt;$$k_{t+1} = \frac{1}{1+n}s\left(\omega(k_t)-b\frac{r(\color{red}{k_t})-\delta - n}{1+n}-g, R(\color{green}{k_{t+1}})\right)- \frac{b}{1+n}.$$&lt;/p&gt;
 
 &lt;p&gt;In this case, the &lt;em&gt;policy parameters&lt;/em&gt; $g, b$ affect the evolution of the capital stock.
 Notice also that if $b=g=0$ we recover the original version of the OLG model.&lt;/p&gt;
@@ -1380,7 +1382,7 @@ Hence, we assume that:&lt;/p&gt;
 
 &lt;p&gt;We can now study how the fiscal policy variables $b$ and $g$ affect the steady-state level of capital.&lt;/p&gt;
 
-&lt;p&gt;$$\bar{k}=\frac{1}{1+n}s\left(w(\bar{k})-b\frac{r(\bar{k})-n-\delta}{1+n}-g, R(\bar{k})\right)-b.$$&lt;/p&gt;
+&lt;p&gt;$$\bar{k}=\frac{1}{1+n}s\left(w(\bar{k})-b\frac{r(\bar{k})-n-\delta}{1+n}-g, R(\bar{k})\right)-\frac{b}{1+n}.$$&lt;/p&gt;
 
 &lt;p&gt;$$\frac{\partial \bar{k}}{\partial b} = - \frac{s^\prime_{\omega}\left(\frac{r(\bar{k}) -n - \delta}{1+n}\right)+1}{\underbrace{1+n-s^\prime_\omega \left(\omega^\prime(\bar{k})-b\frac{r^\prime(\bar{k})}{1+n}\right)-s^\prime_R R^\prime(\bar{k})}_{&amp;gt;0\, \mathrm{because\, of\, stability}}}.
 $$&lt;/p&gt;
