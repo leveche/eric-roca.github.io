@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Comparative Development | Èric Roca Fernández</title>
+    <link>https://eric-roca.github.io/tag/comparative-development/</link>
+      <atom:link href="https://eric-roca.github.io/tag/comparative-development/index.xml" rel="self" type="application/rss+xml" />
+    <description>Comparative Development</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Èric Roca Fernández</copyright><lastBuildDate>Sun, 01 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://eric-roca.github.io/img/eric.jpg</url>
+      <title>Comparative Development</title>
+      <link>https://eric-roca.github.io/tag/comparative-development/</link>
+    </image>
+    
+    <item>
+      <title>The Terror of History: Solar Eclipses and the Origins of Critical Thinking and Complexity</title>
+      <link>https://eric-roca.github.io/working_papers/eclipses/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://eric-roca.github.io/working_papers/eclipses/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

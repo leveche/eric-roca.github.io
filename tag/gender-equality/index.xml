@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gender Equality | Èric Roca Fernández</title>
+    <link>https://eric-roca.github.io/tag/gender-equality/</link>
+      <atom:link href="https://eric-roca.github.io/tag/gender-equality/index.xml" rel="self" type="application/rss+xml" />
+    <description>Gender Equality</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Èric Roca Fernández</copyright><lastBuildDate>Fri, 21 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://eric-roca.github.io/img/eric.jpg</url>
+      <title>Gender Equality</title>
+      <link>https://eric-roca.github.io/tag/gender-equality/</link>
+    </image>
+    
+    <item>
+      <title>In the Name of the Father: Inheritance Systems and the Dynamics of State Capacity</title>
+      <link>https://eric-roca.github.io/publication/inheritance-systems/</link>
+      <pubDate>Fri, 21 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>https://eric-roca.github.io/publication/inheritance-systems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Roots of Gender Equality: the Persistent Effect of Beguinages on Attitudes Toward Women</title>
+      <link>https://eric-roca.github.io/working_papers/beguines/</link>
+      <pubDate>Wed, 15 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>https://eric-roca.github.io/working_papers/beguines/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

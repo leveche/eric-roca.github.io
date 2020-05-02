@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories | Academic</title>
+    <title>Categories | Èric Roca Fernández</title>
     <link>https://eric-roca.github.io/categories/</link>
       <atom:link href="https://eric-roca.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Èric Roca Fernández</copyright>
     <image>
-      <url>https://eric-roca.github.io/img/icon-192.png</url>
+      <url>https://eric-roca.github.io/img/eric.jpg</url>
       <title>Categories</title>
       <link>https://eric-roca.github.io/categories/</link>
     </image>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Other Research | Academic</title>
+    <title>Other Research | Èric Roca Fernández</title>
     <link>https://eric-roca.github.io/other_research/</link>
       <atom:link href="https://eric-roca.github.io/other_research/index.xml" rel="self" type="application/rss+xml" />
     <description>Other Research</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Èric Roca Fernández</copyright><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0100</lastBuildDate>
     <image>
-      <url>https://eric-roca.github.io/img/icon-192.png</url>
+      <url>https://eric-roca.github.io/img/eric.jpg</url>
       <title>Other Research</title>
       <link>https://eric-roca.github.io/other_research/</link>
     </image>

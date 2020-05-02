@@ -1,12 +1,11 @@
-<!DOCTYPE html>
-<html lang="en-us">
+<!DOCTYPE html><html lang="en-us" >
 
 <head>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 4.4.0">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
 
   
 
@@ -21,25 +20,20 @@
   
   
 
-  <meta name="author" content="Eric Roca Fernandez">
+  <meta name="author" content="Èric Roca Fernández">
 
   
   
   
     
   
-  <meta name="description" content="The trajectory around the steady state For the moment, we have established that the model converges towards a unique steady state following a saddle path. Note: This means that there is only one combination of initial capital and consumption, $(k_{0}, c_{0})$, such that the economy converges towards it. Any other initial value consumption at $t=0$ (capital is pre-determined and thus we cannot change it) has a diverging trajectory.
-We now compute the exact behaviour of $(k_{t}, c_{t})$ around the steady state.">
+  <meta name="description" content="The trajectory around the steady state For the moment, we have established that the model converges towards a unique steady state following a saddle path. Note: This means that there is only one combination of initial capital and consumption, $(k_{0}, c_{0})$, such that the economy converges towards it.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://eric-roca.github.io/courses/ramsey/ramsey_trajectory/">
 
   
 
-
-
-
-  
 
   
   
@@ -50,11 +44,17 @@ We now compute the exact behaviour of $(k_{t}, c_{t})$ around the steady state."
   
   
   
+  <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
   
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
 
     
     
@@ -64,52 +64,199 @@ We now compute the exact behaviour of $(k_{t}, c_{t})$ around the steady state."
     
       
       
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
       
     
 
     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
 
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
     
 
   
 
   
   
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono&display=swap">
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
   
 
   
   
   
-  <link rel="stylesheet" href="/css/academic.min.9e398b7a64ee2c82769da9724cdbf0cc.css">
+  
+  <link rel="stylesheet" href="/css/academic.css">
 
   
 
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109506458-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-109506458-1', { 'anonymize_ip': true });
+
   
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
-    <script>
-      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-      ga('create', 'UA-109506458-1', 'auto');
-      ga('set', 'anonymizeIp', true);
-      ga('require', 'eventTracker');
-      ga('require', 'outboundLinkTracker');
-      ga('require', 'urlChangeTracker');
-      ga('send', 'pageview');
-    </script>
-    <script async src="https://www.google-analytics.com/analytics.js"></script>
-    
-    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
-    
+
+
   
   
 
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/img/icon-32.png">
-  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
   <link rel="canonical" href="https://eric-roca.github.io/courses/ramsey/ramsey_trajectory/">
 
@@ -117,18 +264,22 @@ We now compute the exact behaviour of $(k_{t}, c_{t})$ around the steady state."
   
   
   
+  
+  
+  
     
-    
   
   
-  <meta property="twitter:card" content="summary">
+  <meta property="twitter:card" content="summary_large_image">
   
-  <meta property="og:site_name" content="Academic">
+  <meta property="twitter:site" content="@eric_roca_fdz">
+  <meta property="twitter:creator" content="@eric_roca_fdz">
+  
+  <meta property="og:site_name" content="Èric Roca Fernández">
   <meta property="og:url" content="https://eric-roca.github.io/courses/ramsey/ramsey_trajectory/">
-  <meta property="og:title" content="Additional material -  trajectory | Academic">
-  <meta property="og:description" content="The trajectory around the steady state For the moment, we have established that the model converges towards a unique steady state following a saddle path. Note: This means that there is only one combination of initial capital and consumption, $(k_{0}, c_{0})$, such that the economy converges towards it. Any other initial value consumption at $t=0$ (capital is pre-determined and thus we cannot change it) has a diverging trajectory.
-We now compute the exact behaviour of $(k_{t}, c_{t})$ around the steady state."><meta property="og:image" content="https://eric-roca.github.io/img/icon-192.png">
-  <meta property="twitter:image" content="https://eric-roca.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
+  <meta property="og:title" content="Additional material -  trajectory | Èric Roca Fernández">
+  <meta property="og:description" content="The trajectory around the steady state For the moment, we have established that the model converges towards a unique steady state following a saddle path. Note: This means that there is only one combination of initial capital and consumption, $(k_{0}, c_{0})$, such that the economy converges towards it."><meta property="og:image" content="https://eric-roca.github.io/img/eric.jpg">
+  <meta property="twitter:image" content="https://eric-roca.github.io/img/eric.jpg"><meta property="og:locale" content="en-us">
   
     
       <meta property="article:published_time" content="2019-07-11T00:00:00&#43;00:00">
@@ -138,9 +289,20 @@ We now compute the exact behaviour of $(k_{t}, c_{t})$ around the steady state."
 
   
 
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
-<script>
+
+
+  
+
+
+  
+  
+  
+  
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" integrity="sha256-5VhCqFam2Cn+yjw61zbBNrbHVJ6SRydPeKopYlngbiQ=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" integrity="sha256-zQ0LblD/Af8vOppw18+2anxsuaz3pWYyVWi+bTvTH8Q=" crossorigin="anonymous">
+  
+  <script>
   window.addEventListener("load", function(){
     window.cookieconsent.initialise({
       "palette": {
@@ -158,10 +320,10 @@ We now compute the exact behaviour of $(k_{t}, c_{t})$ around the steady state."
         "message": "This website uses cookies to ensure you get the best experience on our website.",
         "dismiss": "Got it!",
         "link": "Learn more",
-        "href": "https://cookies.insites.com"
+        "href": "https://www.cookiesandyou.com"
       }
     })});
-</script>
+  </script>
 
 
 
@@ -171,7 +333,7 @@ We now compute the exact behaviour of $(k_{t}, c_{t})$ around the steady state."
 
 
 
-  <title>Additional material -  trajectory | Academic</title>
+  <title>Additional material -  trajectory | Èric Roca Fernández</title>
 
 </head>
 
@@ -210,24 +372,41 @@ We now compute the exact behaviour of $(k_{t}, c_{t})$ around the steady state."
 
 
   
-<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
     
-      <a class="navbar-brand" href="/">Academic</a>
-      
-      <button type="button" class="navbar-toggler" data-toggle="collapse"
-              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-        <span><i class="fas fa-bars"></i></span>
-      </button>
-      
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Èric Roca Fernández</a>
+    </div>
+    
 
     
-    <div class="collapse navbar-collapse" id="navbar">
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Èric Roca Fernández</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
 
       
-      
-      <ul class="navbar-nav mr-auto">
+      <ul class="navbar-nav d-md-inline-flex">
         
 
         
@@ -449,29 +628,41 @@ We now compute the exact behaviour of $(k_{t}, c_{t})$ around the steady state."
         
 
       
+
+        
       </ul>
-      <ul class="navbar-nav ml-auto">
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
       
 
-        
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link js-theme-selector" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-palette" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
 
-        
-        <li class="nav-item">
-          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
-        </li>
-        
+      
 
-        
+    </ul>
 
-        
-        <li class="nav-item">
-          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
-        </li>
-        
-
-      </ul>
-
-    </div>
   </div>
 </nav>
 
@@ -487,6 +678,13 @@ We now compute the exact behaviour of $(k_{t}, c_{t})$ around the steady state."
 
 
 
+  
+    
+  
+
+
+
+
 <form class="docs-search d-flex align-items-center">
   <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
     <span><i class="fas fa-bars"></i></span>
@@ -498,6 +696,10 @@ We now compute the exact behaviour of $(k_{t}, c_{t})$ around the steady state."
 </form>
 
 <nav class="collapse docs-links" id="docs-nav">
+  
+
+  
+  
   
   
   <div class="docs-toc-item">
@@ -562,24 +764,15 @@ We now compute the exact behaviour of $(k_{t}, c_{t})$ around the steady state."
       </ul>
 
       <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#the-trajectory-around-the-steady-state">The trajectory around the steady state</a>
-<ul>
-<li><a href="#the-approximation-around-the-steady-state">The approximation around the steady state</a></li>
-<li><a href="#diagonalising-the-matrix-eigenvalues-and-eigenvectors">Diagonalising the matrix: eigenvalues and eigenvectors</a>
-<ul>
-<li><a href="#the-matrix-lambda">The matrix $\Lambda$</a></li>
-<li><a href="#the-matrix-x">The matrix $X$</a></li>
-</ul></li>
-<li><a href="#solving-the-system">Solving the system</a>
-<ul>
-<li><a href="#closing-the-model-with-initial-values">Closing the model with initial values</a></li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul>
+  <ul>
+    <li><a href="#the-trajectory-around-the-steady-state">The trajectory around the steady state</a>
+      <ul>
+        <li><a href="#the-approximation-around-the-steady-state">The approximation around the steady state</a></li>
+        <li><a href="#diagonalising-the-matrix-eigenvalues-and-eigenvectors">Diagonalising the matrix: eigenvalues and eigenvectors</a></li>
+        <li><a href="#solving-the-system">Solving the system</a></li>
+      </ul>
+    </li>
+  </ul>
 </nav>
 
       
@@ -588,30 +781,23 @@ We now compute the exact behaviour of $(k_{t}, c_{t})$ around the steady state."
 
     <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
 
-      <article class="article" itemscope itemtype="http://schema.org/Article">
+      <article class="article">
 
         <div class="docs-article-container">
-          <h1 itemprop="name">Additional material -  trajectory</h1>
+          <h1>Additional material -  trajectory</h1>
 
-          <div class="article-style" itemprop="articleBody">
-            
-
-<h2 id="the-trajectory-around-the-steady-state">The trajectory around the steady state</h2>
-
+          <div class="article-style">
+            <h2 id="the-trajectory-around-the-steady-state">The trajectory around the steady state</h2>
 <p>For the moment, we have established that the model converges towards a unique steady state following a saddle path.
 <strong>Note:</strong> This means that there is only one combination of initial capital and consumption, $(k_{0}, c_{0})$, such that the economy converges towards it.
 Any other initial value consumption at $t=0$ (capital is pre-determined and thus we <em>cannot</em> change it) has a diverging trajectory.</p>
-
 <p>We now compute the exact behaviour of $(k_{t}, c_{t})$ around the steady state.</p>
-
 <p>The model is highly non-linear, so we study a simpler linearised version around the steady state.
-First, let&rsquo;s approximate the dynamics of capital and consumption <a href="https://eric-roca.github.io/courses/math_app/steady_state/#Approximation" target="_blank">around the steady state.</a></p>
-
+First, let&rsquo;s approximate the dynamics of capital and consumption 
+<a href="https://eric-roca.github.io/courses/math_app/steady_state/#Approximation">around the steady state.</a></p>
 <h3 id="the-approximation-around-the-steady-state">The approximation around the steady state</h3>
-
 <p>The behaviour of the dynamical system around the steady state can be approximated using a first-order Taylor expansion around it.
 In that sense:</p>
-
 <p>$$\begin{pmatrix}
 c_{t+1} - \bar{c} \\\ k_{t+1} - \bar{k}
 \end{pmatrix}
@@ -620,106 +806,72 @@ c_{t+1} - \bar{c} \\\ k_{t+1} - \bar{k}
 \begin{pmatrix}
 c_{t} - \bar{c} \\\ k_{t} - \bar{k}
 \end{pmatrix}.$$</p>
-
 <p>Next, we solve this equation of difference equations, this is, we obtain $c_t = \mathcal{C}(c_0, k_0, t), k_t = \mathcal{K}(c_0, k_0, t).$</p>
-
 <h3 id="diagonalising-the-matrix-eigenvalues-and-eigenvectors">Diagonalising the matrix: eigenvalues and eigenvectors</h3>
-
-<p><strong>Note:</strong> based on the notes by <a href="http://www.princeton.edu/~moll/ECO503Web/Lecture4_ECO503.pdf" target="_blank">Benjamin Moll</a>.</p>
-
+<p><strong>Note:</strong> based on the notes by 
+<a href="http://www.princeton.edu/~moll/ECO503Web/Lecture4_ECO503.pdf" target="_blank" rel="noopener">Benjamin Moll</a>.</p>
 <p>To simplify notation, let $y_{t} = \begin{pmatrix} c_{t} - \bar{c} \\\ k_{t} -\bar{k} \end{pmatrix}.$
 Hence, our problem becomes:
 $$y_{t+1} = \bar{A} y_{t}.$$</p>
-
 <p>It $\bar{A}$ were a diagonal matrix, the solution to the system would be straightforward.
 In fact, if that were the case would have been (I change variables to avoid confusion):</p>
-
 <p>$$\begin{pmatrix} \phi_{t+1} \\ \omega_{t+1} \end{pmatrix} = \begin{pmatrix} a_{1,1} &amp; 0 \\\ 0 &amp; a_{2,2} \end{pmatrix} \begin{pmatrix} \phi_{t} \\\ \omega_{t} \end{pmatrix}.$$
 Then, it is clear that $\phi_{t+1} = a_{1,1} \phi_{t} \implies \phi_{t} = a_{1,1}^{t} \phi_{0}$ and we would find a similar expression for $\omega.$</p>
-
 <p>$\bar{A}$ is not diagonal, but we can apply a spectral decomposition and obtain an equivalent system governed by a diagonal matrix.
 In particular, we look for an $2 \times 2$ invertible matrix $X$ such that $ X^{-1} \bar{A} X = `Lambda$, where $\Lambda$ is diagonal.
 Then, we apply the following transformation to our system (pre-multiplying by $\color{red}{X^{-1}}$ on both sides and multiplying by $\color{green}{XX^{-1}}$ on the right-hand side).
 $$ \color{red}{X^{-1}} y_{t+1} = \color{red}{X^{-1}} \bar{A} \color{green}{(X X^{-1})} y_{t} = X^{-1} \bar{A} X (X^{-1} y_{t}) =$$
 $$ = \Lambda X^{-1} y_{t}.$$</p>
-
 <p>Denote $z \equiv X^{-1} y$.
 Thus, the system becomes:</p>
-
 <p>$$z_{t+1} = \Lambda z_{t}.$$
 Since $\Lambda$ is diagonal, the solutions are of the form:
 $$z_{t} = \Lambda^{t} z_{0}.$$
 <strong>Note:</strong> in general, the power of a matrix is complex.
 However, for a <em>diagonal matrix</em> it is simply the power of each component.</p>
-
 <p>Once we have the solution for the transformed system we must undo the transformation: in fact, we do not care abut the evolution of $z$.
 This step involves using that $X^{-1} y = z \implies y = X z$.</p>
-
 <h4 id="the-matrix-lambda">The matrix $\Lambda$</h4>
-
 <p>In a spectral decomposition, the diagonal matrix $\Lambda$ consists of the matrix whose entries are its eigenvalues.
 Thus (we have a $2 \times 2$ system),
 $$\Lambda = \begin{pmatrix}
-    \lambda_{1} &amp; 0  \\<br />
-    0 &amp; \lambda_{2}
+\lambda_{1} &amp; 0  \\\<br>
+0 &amp; \lambda_{2}
 \end{pmatrix}.$$</p>
-
 <h4 id="the-matrix-x">The matrix $X$</h4>
-
 <p>The matrix $X$ has as columns the eigenvectors of $\bar{A}.$
 There is one eigenvector associated to each eigenvalue.
 <strong>Note:</strong> it is important to correctly relate each eigenvector to its eigenvalue.</p>
-
 <p>To find an eigenvector associated with $\lambda_{1}$ (<em>there are infinitely many possible eigenvectors, we only want one</em>) we solve the following system:</p>
-
 <p>$$\bar{A} \begin{pmatrix} v_{1} \\\ v_{2} \end{pmatrix} = \lambda_{1} \begin{pmatrix} v_{1} \\\ v_{2} \end{pmatrix} \quad \mathrm{or} \quad (\bar{A} - \lambda_{1} \mathbb{I})
 \begin{pmatrix} v_{1} \\\ v_{2} \end{pmatrix} = \begin{pmatrix} 0 \\\ 0 \end{pmatrix}.$$</p>
-
 <p>The matrix $X$ then becomes:</p>
-
 <p>$$X = \begin{pmatrix} v_{1,1} &amp; v_{2,1} \\\ 1 &amp; 1 \end{pmatrix}.$$</p>
-
 <h3 id="solving-the-system">Solving the system</h3>
-
 <p>We begin with the solution for the transformed variable $z.$
 We already know its takes the form:</p>
-
 <p>$$z_{t} = \Lambda^{t} z_{0} \quad \mathrm{or} \quad \begin{pmatrix} z_{t}^{1} \\\ z_{t}^{2} \end{pmatrix} = \begin{pmatrix} \lambda_{1}^{t} &amp; 0 \\\ 0 &amp; \lambda_{2}^{t} \end{pmatrix} \begin{pmatrix} v_{0}^{1} \\\ v_{0}^{2} \end{pmatrix}.$$</p>
-
 <p>Next, we reverse the transformation, this is, we obtain the dynamics of $y: y_{t} = X z_{t}.$
 Therefore, we obtain:</p>
-
 <p>$$y_{t} = X z_{t} = X \Lambda^{t} z_{0} = \begin{pmatrix} v_{1,1} &amp; v_{2,1} \\\ v_{1,2} &amp; v_{2,2} \end{pmatrix} \begin{pmatrix} \lambda_{1}^{t} &amp; 0 \\\ 0 &amp; \lambda_{2}^{t} \end{pmatrix} \begin{pmatrix} z_{0}^{1} \\\ z_{0}^{2} \end{pmatrix}.$$</p>
-
 <p>Alternatively, multiplying the matrices and recalling that $y_{t}=\begin{pmatrix} c_{t} - \bar{c} \\\ k_{t} - \bar{k} \end{pmatrix}$ :</p>
-
 <p>$$\begin{pmatrix} c_{t} - \bar{c} \\\ k_{t} - \bar{k} \end{pmatrix} = z_{0}^{1} \lambda_{1}^{t} \begin{pmatrix} v_{1,1} \\\ v_{1,2} \end{pmatrix} + z_{0}^{2} \lambda_{2}^{t} \begin{pmatrix} v_{2,1} \\\ v_{2,2} \end{pmatrix}.$$</p>
-
 <p>The eigenvalues appear clearly in the solution.
 <strong>Remember</strong> that we know that one eigenvalue is bigger than one, while the second lies within the unit circle.
 Without lose of generality, assume that $\lambda_{1} \in (-1,1)$ and $\lambda_{2} &gt; 1.$
 According to the solution before, this implies an explosive behaviour: $\lambda_{2} &gt; 1 \implies \lim_{t \rightarrow +\infty} \lambda_{2}^{t} = +\infty.$
 To have a well-behaved dynamics we must impose $z_{0}^{2} = 0$, which eliminates the explosive behaviour.</p>
-
 <p>After imposing $z_{0}^{2} = 0$ the system becomes:</p>
-
 <p>$$\begin{pmatrix} c_{t} - \bar{c} \\\ k_{t} - \bar{k} \end{pmatrix} = z_{0}^{1} \lambda_{1}^{t} \begin{pmatrix} v_{1,1} \\\ v_{1,2} \end{pmatrix}.$$</p>
-
 <h4 id="closing-the-model-with-initial-values">Closing the model with initial values</h4>
-
 <p>We know that the economy begins with a level of capital $k_{t=0} = k_{0} &gt; 0.$
 Substituting $t=0$ in the equation above, and focusing on capital, we obtain:</p>
-
 <p>$$k_{0} - \bar{k} = z_{0}^{1} v_{1,2} \implies \color{red}{z_{0}^{1} = \frac{k_{0} - \bar{k}}{v_{1,2}}}.$$
 Therefore, we can substitute the value for $z_{0}^{1}$ to obtain the dynamics of capital:</p>
-
 <p>$$k_{t} - \bar{k} = \color{red}{z_{0}^{1}} \lambda_{1}^{t} v_{1,2} = \left(k_{0} - \bar{k} \right) \lambda^{t}.$$</p>
-
 <p>Similarly, we have that for consumption:</p>
-
 <p>$$c_{t} - \bar{c} = \color{red}{z_{0}^{1}} \lambda_{1}^{t} v_{1,1} = \frac{v_{1,1}}{v_{1,2}} \lambda_{1}^{t} (k_{0} - \bar{k}).$$
 Finally, the initial value of consumption $c_{0}$ that puts the economy in the saddle path is obtained by setting $t=0$ in the previous equation:</p>
-
 <p>$$c_{0} - \bar{c} = \frac{v_{1,1}}{v_{1,2}} (k_{0} - \bar{k}).$$</p>
 
           </div>
@@ -754,9 +906,11 @@ Finally, the initial value of consumption $c_{0}$ that puts the economy in the s
         </div>
 
         <div class="body-footer">
-          <p>Last updated on Jul 11, 2019</p>
+          <p>Last updated on 11, Jul 2019</p>
 
           
+
+
 
 
           
@@ -769,7 +923,7 @@ Finally, the initial value of consumption $c_{0}$ that puts the economy in the s
   
 
   <p class="powered-by">
-    &copy; 2020 Èric Roca Fernández &middot; 
+    © 2020 Èric Roca Fernández &middot; 
 
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
@@ -790,48 +944,47 @@ Finally, the initial value of consumption $c_{0}$ that puts the economy in the s
     
     
     
-    <script src="/js/mathjax-config.js"></script>
-    
-
-    
-    
-    
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
 
       
 
       
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
         
       
 
-      
-      
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
-      
     
 
     
     
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
 
     
     
-    <script>hljs.initHighlightingOnLoad();</script>
+    <script>const isSiteThemeDark = false;</script>
     
 
+    
+    
+    
+    
     
     
     <script>
-      const search_index_filename = "/index.json";
-      const i18n = {
-        'placeholder': "Search...",
-        'results': "results found",
-        'no_results': "No results found"
-      };
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
       const content_type = {
         'post': "Posts",
         'project': "Projects",
@@ -878,6 +1031,9 @@ Finally, the initial value of consumption $c_{0}$ that puts the economy in the s
 
     
     
+
+    
+    
     
     
     
@@ -890,7 +1046,7 @@ Finally, the initial value of consumption $c_{0}$ that puts the economy in the s
     
     
     
-    <script src="/js/academic.min.16bbb3750feb7244c9bc409a5a4fe678.js"></script>
+    <script src="/js/academic.min.37431be2d92d7fb0160054761ab79602.js"></script>
 
     
 
@@ -899,6 +1055,7 @@ Finally, the initial value of consumption $c_{0}$ that puts the economy in the s
 
 
 
+  
   
 
   

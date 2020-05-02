@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Èric Roca Fernández</title>
+    <link>https://eric-roca.github.io/author/eric-roca-fernandez/</link>
+      <atom:link href="https://eric-roca.github.io/author/eric-roca-fernandez/index.xml" rel="self" type="application/rss+xml" />
+    <description>Èric Roca Fernández</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Èric Roca Fernández</copyright><lastBuildDate>Mon, 21 Nov 2016 11:15:00 +0530</lastBuildDate>
+    <image>
+      <url>https://eric-roca.github.io/img/eric.jpg</url>
+      <title>Èric Roca Fernández</title>
+      <link>https://eric-roca.github.io/author/eric-roca-fernandez/</link>
+    </image>
+    
+    <item>
+      <title>&#39;Now She&#39;s Martha, then She&#39;s Mary&#39;: The Influence of Beguinages on Attitudes Toward Women</title>
+      <link>https://eric-roca.github.io/talk/2016-12_new-delhi/</link>
+      <pubDate>Mon, 21 Nov 2016 11:15:00 +0530</pubDate>
+      <guid>https://eric-roca.github.io/talk/2016-12_new-delhi/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

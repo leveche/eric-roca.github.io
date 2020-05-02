@@ -1,12 +1,11 @@
-<!DOCTYPE html>
-<html lang="en-us">
+<!DOCTYPE html><html lang="en-us" >
 
 <head>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 4.4.0">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
 
   
 
@@ -21,7 +20,7 @@
   
   
 
-  <meta name="author" content="Eric Roca Fernandez">
+  <meta name="author" content="Èric Roca Fernández">
 
   
   
@@ -30,19 +29,14 @@
   
   <meta name="description" content="Note: based on Section 2.3 of Romer, Advanced Macroeconomics.
 The Ramsey model is fully described by two dynamic equations:
-$$\left. \begin{eqnarray} u^{\prime}(c_{t}) = \beta(f^{\prime}(k_{t&#43;1}) &#43; 1 - \delta)u^{\prime}(c_{t&#43;1}), \\
-k_{t&#43;1} = f(k_{t} &#43; (1-\delta)k_{t} - c_{t}. \end{eqnarray} \right\} \tag{8.1, Equilibrium} \label{eq:eq} $$
-The phase diagram is a representation on the $(c,k)$ plane of all the stationary points for $c$ and $k.$ This is, we plot all $(c,k)$ combinations such that $c$ is constant, and all the $(c,k)$ combinations such that $k$ is constant.">
+$$\left. \begin{eqnarray} u^{\prime}(c_{t}) = \beta(f^{\prime}(k_{t&#43;1}) &#43; 1 - \delta)u^{\prime}(c_{t&#43;1}), \\\
+k_{t&#43;1} = f(k_{t} &#43; (1-\delta)k_{t} - c_{t}.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://eric-roca.github.io/courses/ramsey/phase_diagram/">
 
   
 
-
-
-
-  
 
   
   
@@ -53,11 +47,17 @@ The phase diagram is a representation on the $(c,k)$ plane of all the stationary
   
   
   
+  <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
   
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
 
     
     
@@ -67,52 +67,199 @@ The phase diagram is a representation on the $(c,k)$ plane of all the stationary
     
       
       
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
       
     
 
     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
 
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
     
 
   
 
   
   
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono&display=swap">
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
   
 
   
   
   
-  <link rel="stylesheet" href="/css/academic.min.9e398b7a64ee2c82769da9724cdbf0cc.css">
+  
+  <link rel="stylesheet" href="/css/academic.css">
 
   
 
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109506458-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-109506458-1', { 'anonymize_ip': true });
+
   
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
-    <script>
-      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-      ga('create', 'UA-109506458-1', 'auto');
-      ga('set', 'anonymizeIp', true);
-      ga('require', 'eventTracker');
-      ga('require', 'outboundLinkTracker');
-      ga('require', 'urlChangeTracker');
-      ga('send', 'pageview');
-    </script>
-    <script async src="https://www.google-analytics.com/analytics.js"></script>
-    
-    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
-    
+
+
   
   
 
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/img/icon-32.png">
-  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
   <link rel="canonical" href="https://eric-roca.github.io/courses/ramsey/phase_diagram/">
 
@@ -120,21 +267,25 @@ The phase diagram is a representation on the $(c,k)$ plane of all the stationary
   
   
   
+  
+  
+  
     
-    
   
   
-  <meta property="twitter:card" content="summary">
+  <meta property="twitter:card" content="summary_large_image">
   
-  <meta property="og:site_name" content="Academic">
+  <meta property="twitter:site" content="@eric_roca_fdz">
+  <meta property="twitter:creator" content="@eric_roca_fdz">
+  
+  <meta property="og:site_name" content="Èric Roca Fernández">
   <meta property="og:url" content="https://eric-roca.github.io/courses/ramsey/phase_diagram/">
-  <meta property="og:title" content="The phase diagram | Academic">
+  <meta property="og:title" content="The phase diagram | Èric Roca Fernández">
   <meta property="og:description" content="Note: based on Section 2.3 of Romer, Advanced Macroeconomics.
 The Ramsey model is fully described by two dynamic equations:
-$$\left. \begin{eqnarray} u^{\prime}(c_{t}) = \beta(f^{\prime}(k_{t&#43;1}) &#43; 1 - \delta)u^{\prime}(c_{t&#43;1}), \\
-k_{t&#43;1} = f(k_{t} &#43; (1-\delta)k_{t} - c_{t}. \end{eqnarray} \right\} \tag{8.1, Equilibrium} \label{eq:eq} $$
-The phase diagram is a representation on the $(c,k)$ plane of all the stationary points for $c$ and $k.$ This is, we plot all $(c,k)$ combinations such that $c$ is constant, and all the $(c,k)$ combinations such that $k$ is constant."><meta property="og:image" content="https://eric-roca.github.io/img/icon-192.png">
-  <meta property="twitter:image" content="https://eric-roca.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
+$$\left. \begin{eqnarray} u^{\prime}(c_{t}) = \beta(f^{\prime}(k_{t&#43;1}) &#43; 1 - \delta)u^{\prime}(c_{t&#43;1}), \\\
+k_{t&#43;1} = f(k_{t} &#43; (1-\delta)k_{t} - c_{t}."><meta property="og:image" content="https://eric-roca.github.io/img/eric.jpg">
+  <meta property="twitter:image" content="https://eric-roca.github.io/img/eric.jpg"><meta property="og:locale" content="en-us">
   
     
       <meta property="article:published_time" content="2019-07-11T00:00:00&#43;00:00">
@@ -144,9 +295,20 @@ The phase diagram is a representation on the $(c,k)$ plane of all the stationary
 
   
 
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
-<script>
+
+
+  
+
+
+  
+  
+  
+  
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" integrity="sha256-5VhCqFam2Cn+yjw61zbBNrbHVJ6SRydPeKopYlngbiQ=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" integrity="sha256-zQ0LblD/Af8vOppw18+2anxsuaz3pWYyVWi+bTvTH8Q=" crossorigin="anonymous">
+  
+  <script>
   window.addEventListener("load", function(){
     window.cookieconsent.initialise({
       "palette": {
@@ -164,10 +326,10 @@ The phase diagram is a representation on the $(c,k)$ plane of all the stationary
         "message": "This website uses cookies to ensure you get the best experience on our website.",
         "dismiss": "Got it!",
         "link": "Learn more",
-        "href": "https://cookies.insites.com"
+        "href": "https://www.cookiesandyou.com"
       }
     })});
-</script>
+  </script>
 
 
 
@@ -177,7 +339,7 @@ The phase diagram is a representation on the $(c,k)$ plane of all the stationary
 
 
 
-  <title>The phase diagram | Academic</title>
+  <title>The phase diagram | Èric Roca Fernández</title>
 
 </head>
 
@@ -216,24 +378,41 @@ The phase diagram is a representation on the $(c,k)$ plane of all the stationary
 
 
   
-<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
     
-      <a class="navbar-brand" href="/">Academic</a>
-      
-      <button type="button" class="navbar-toggler" data-toggle="collapse"
-              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-        <span><i class="fas fa-bars"></i></span>
-      </button>
-      
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Èric Roca Fernández</a>
+    </div>
+    
 
     
-    <div class="collapse navbar-collapse" id="navbar">
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Èric Roca Fernández</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
 
       
-      
-      <ul class="navbar-nav mr-auto">
+      <ul class="navbar-nav d-md-inline-flex">
         
 
         
@@ -455,29 +634,41 @@ The phase diagram is a representation on the $(c,k)$ plane of all the stationary
         
 
       
+
+        
       </ul>
-      <ul class="navbar-nav ml-auto">
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
       
 
-        
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link js-theme-selector" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-palette" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
 
-        
-        <li class="nav-item">
-          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
-        </li>
-        
+      
 
-        
+    </ul>
 
-        
-        <li class="nav-item">
-          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
-        </li>
-        
-
-      </ul>
-
-    </div>
   </div>
 </nav>
 
@@ -493,6 +684,13 @@ The phase diagram is a representation on the $(c,k)$ plane of all the stationary
 
 
 
+  
+    
+  
+
+
+
+
 <form class="docs-search d-flex align-items-center">
   <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
     <span><i class="fas fa-bars"></i></span>
@@ -504,6 +702,10 @@ The phase diagram is a representation on the $(c,k)$ plane of all the stationary
 </form>
 
 <nav class="collapse docs-links" id="docs-nav">
+  
+
+  
+  
   
   
   <div class="docs-toc-item">
@@ -568,14 +770,11 @@ The phase diagram is a representation on the $(c,k)$ plane of all the stationary
       </ul>
 
       <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#the-dynamics-of-c">The dynamics of $c$</a></li>
-<li><a href="#the-dynamics-of-k">The dynamics of $k$</a></li>
-<li><a href="#the-phase-diagram">The phase diagram</a></li>
-</ul></li>
-</ul>
+  <ul>
+    <li><a href="#the-dynamics-of-c">The dynamics of $c$</a></li>
+    <li><a href="#the-dynamics-of-k">The dynamics of $k$</a></li>
+    <li><a href="#the-phase-diagram">The phase diagram</a></li>
+  </ul>
 </nav>
 
       
@@ -584,99 +783,70 @@ The phase diagram is a representation on the $(c,k)$ plane of all the stationary
 
     <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
 
-      <article class="article" itemscope itemtype="http://schema.org/Article">
+      <article class="article">
 
         <div class="docs-article-container">
-          <h1 itemprop="name">The phase diagram</h1>
+          <h1>The phase diagram</h1>
 
-          <div class="article-style" itemprop="articleBody">
-            
-
-<p><strong>Note:</strong> based on Section 2.3 of <em>Romer, Advanced Macroeconomics</em>.</p>
-
+          <div class="article-style">
+            <p><strong>Note:</strong> based on Section 2.3 of <em>Romer, Advanced Macroeconomics</em>.</p>
 <p>The Ramsey model is fully described by two dynamic equations:</p>
-
 <p>$$\left.
 \begin{eqnarray}
-u^{\prime}(c_{t}) = \beta(f^{\prime}(k_{t+1}) + 1 - \delta)u^{\prime}(c_{t+1}), \\<br />
+u^{\prime}(c_{t}) = \beta(f^{\prime}(k_{t+1}) + 1 - \delta)u^{\prime}(c_{t+1}), \\\<br>
 k_{t+1} = f(k_{t} + (1-\delta)k_{t} - c_{t}.
 \end{eqnarray}
 \right\} \tag{8.1, Equilibrium} \label{eq:eq}
 $$</p>
-
 <p>The <em>phase diagram</em> is a representation on the $(c,k)$ plane of all the stationary points for $c$ and $k.$
 This is, we plot all $(c,k)$ combinations such that $c$ is constant, and all the $(c,k)$ combinations such that $k$ is constant.
 The set of points $(c,k)$ implying a constant consumption is called the $c$-locus.
 Similarly, we have the $k$-locus.</p>
-
 <p>These loci are curves on the $(c,k)$ plane, and any intersection between them is a steady state because both $c$ and $k$ are simultaneously constant.
 The phase diagram is a useful tool to analyse the behaviour of a dynamic system because it indicates the direction of movement of the variables at any point on the plane.</p>
-
 <h2 id="the-dynamics-of-c">The dynamics of $c$</h2>
-
 <p>The first equation of \ref{eq:eq} describes the dynamics of consumption.</p>
-
 <p>$$u^{\prime}(c_{t}) = \beta ( f{\prime}(k_{t+1}) + 1 - \delta) u^{\prime}(c_{t+1}).$$</p>
-
 <p>Rearranging it we arrive at:</p>
-
 <p>$$\frac{u^{\prime}(c_{t})}{u^{\prime}(c_{t+1})} = \beta ( f^{\prime}(k_{t+1}) + 1 - \delta).$$</p>
-
 <p>In the phase diagram we want to plot combinations of $(c,k)$ such that $c$ is constant.
 A constant consumption implies $c_t = c_{t+1} \implies \frac{u^\prime (c_t)}{u^\prime (c_{t+1})} = 1.$
 Therefore, the $c$-locus is</p>
-
 <p>$$ 1 = \beta ( f^{\prime}(k_{t+1}) + 1 - \delta)$$</p>
-
 <p>and any level of capital satisfying it implies constant consumption.
 This condition depends only on the level of capital.</p>
-
 <p>Denote $k^{\star}$ such level.<br/>
-When $k &lt; k^{\star},\, f^{\prime}(k) &gt; f^{\prime}(k^{\star})$, implying that $u^{\prime}(c_{t}) &gt; u^{\prime}(c_{t+1})$ and hence consumption will raise over time.
+When $k &lt; k^{\star},, f^{\prime}(k) &gt; f^{\prime}(k^{\star})$, implying that $u^{\prime}(c_{t}) &gt; u^{\prime}(c_{t+1})$ and hence consumption will raise over time.
 Similarly, if $k &gt; k^{\star}$ implies that consumption falls.
 This information is summarised in the following Figure.</p>
-
-<p><img src="/img/ramsey/dynamics_c.png" alt="dynamics of c" /></p>
-
+<p><img src="/img/ramsey/dynamics_c.png" alt="dynamics of c"></p>
 <p>The arrows show the direction in which consumption $c$ evolves.
 As discussed before, consumption raises when capital is below $k^{\star}$ and raises when above.
 Note the vertical line: it denotes the level of capital $k^{\star}$ such that $c$ is constant.
 The value $k^{\star}$ can be easily computed: $k^{\star} = {f^{\prime}}^{-1}\left(\frac{1-\beta (1-\delta)}{\beta}\right).$</p>
-
 <h2 id="the-dynamics-of-k">The dynamics of $k$</h2>
-
 <p>We can proceed similarly with the motion of capital.
 The relevant equation in this case is:</p>
-
 <p>$$k_{t+1} = f(k_{t}) + (1- \delta)k_{t} - c_{t}.$$</p>
-
 <p>As before, we are interested by the combinations of $(k,c)$ such that capital remains constant over time.
 In this case, though, and contrasting with the previous, we will obtain that both capital and consumption affect capital levels in the future: production uses current capital, and current consumption depletes current production.
 We can rearrange the previous equation to obtain the following:</p>
-
 <p>$$k_{t+1} - k_{t} = f(k_{t}) - \delta k_{t} - c_{t}.$$
 Setting $k_{t+1} = k_{t} \implies k_{t+1} - k_{t} = 0$ so capital is constant yields:</p>
-
 <p>$$ 0 = f(k_{t}) - \delta k_{t} - c_{t} \implies c_{t} = f(k_{t}) - \delta k_{t}.$$</p>
-
 <p>In the $(k,c)$ space, the equation takes a form similar to a parabola: it combines production &mdash;with decreasing marginal returns&mdash; with a linear depreciation rate.
-In fact, f(k_t)-\delta k_t$ admits one maximum $(f^\prime (k_t) = \delta)$ the <a href="https://eric-roca.github.io/courses/ramsey/golden_rule/" target="_blank">Golden rule</a> we discuss later.
+In fact, f(k_t)-\delta k_t$ admits one maximum $(f^\prime (k_t) = \delta)$ the 
+<a href="https://eric-roca.github.io/courses/ramsey/golden_rule/">Golden rule</a> we discuss later.
 Since $f^{\prime \prime}(k_t)&lt;0,$ the stationary point is a maximum.</p>
-
 <p>Let&rsquo;s now analyse how capital evolves when consumption is above and below the level that makes it constant.
 From $k_{t+1} - k_{t} = f(k_{t}) - \delta k_{t} - c_{t}$, if consumption is above the level we have that $k_{t+1} - k_{t} &lt; 0,$ meaning that capital decreases over time.
 The opposite applies when consumption is below the level that guarantees a constant level of capital.
 The Figure below summarises these findings:</p>
-
-<p><img src="/img/ramsey/dynamics_g.png" alt="dynamics of g" /></p>
-
+<p><img src="/img/ramsey/dynamics_g.png" alt="dynamics of g"></p>
 <h2 id="the-phase-diagram">The phase diagram</h2>
-
 <p>We can combine the information above to produce the <em>phase diagram</em>.
 It indicates the motion of variables at different points of the $(k,c)$ space.</p>
-
-<p><img src="/img/ramsey/phase_diagram.png" alt="phase diagram" /></p>
-
+<p><img src="/img/ramsey/phase_diagram.png" alt="phase diagram"></p>
 <p>The arrows show the motion of each variable at different combinations of $(k,c).$
 For instance, to the left of the $c$-locus and above the $k0$-locus consumption increases and capital decreases.
 Finally, the point indicating the intersection of both curves is the steady state: all variables remain constant at their values.</p>
@@ -713,9 +883,11 @@ Finally, the point indicating the intersection of both curves is the steady stat
         </div>
 
         <div class="body-footer">
-          <p>Last updated on Jul 11, 2019</p>
+          <p>Last updated on 11, Jul 2019</p>
 
           
+
+
 
 
           
@@ -728,7 +900,7 @@ Finally, the point indicating the intersection of both curves is the steady stat
   
 
   <p class="powered-by">
-    &copy; 2020 Èric Roca Fernández &middot; 
+    © 2020 Èric Roca Fernández &middot; 
 
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
@@ -749,48 +921,47 @@ Finally, the point indicating the intersection of both curves is the steady stat
     
     
     
-    <script src="/js/mathjax-config.js"></script>
-    
-
-    
-    
-    
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
 
       
 
       
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
         
       
 
-      
-      
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
-      
     
 
     
     
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
 
     
     
-    <script>hljs.initHighlightingOnLoad();</script>
+    <script>const isSiteThemeDark = false;</script>
     
 
+    
+    
+    
+    
     
     
     <script>
-      const search_index_filename = "/index.json";
-      const i18n = {
-        'placeholder': "Search...",
-        'results': "results found",
-        'no_results': "No results found"
-      };
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
       const content_type = {
         'post': "Posts",
         'project': "Projects",
@@ -837,6 +1008,9 @@ Finally, the point indicating the intersection of both curves is the steady stat
 
     
     
+
+    
+    
     
     
     
@@ -849,7 +1023,7 @@ Finally, the point indicating the intersection of both curves is the steady stat
     
     
     
-    <script src="/js/academic.min.16bbb3750feb7244c9bc409a5a4fe678.js"></script>
+    <script src="/js/academic.min.37431be2d92d7fb0160054761ab79602.js"></script>
 
     
 
@@ -858,6 +1032,7 @@ Finally, the point indicating the intersection of both curves is the steady stat
 
 
 
+  
   
 
   

@@ -1,49 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors | Academic</title>
+    <title>Authors | Èric Roca Fernández</title>
     <link>https://eric-roca.github.io/authors/</link>
       <atom:link href="https://eric-roca.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Èric Roca Fernández</copyright><lastBuildDate>Mon, 09 Dec 2019 17:30:00 +0100</lastBuildDate>
     <image>
-      <url>https://eric-roca.github.io/img/icon-192.png</url>
+      <url>https://eric-roca.github.io/img/eric.jpg</url>
       <title>Authors</title>
       <link>https://eric-roca.github.io/authors/</link>
     </image>
-    
-    <item>
-      <title></title>
-      <link>https://eric-roca.github.io/authors/admin/</link>
-      <pubDate>Mon, 09 Dec 2019 17:30:00 +0100</pubDate>
-      <guid>https://eric-roca.github.io/authors/admin/</guid>
-      <description>&lt;p&gt;Èric Roca obtained his PhD at Université catholique de Louvain (Belgium) the 6th of September, 2018. His research interests include comparative development and family economics. He is currently a post-doctoral student at AMSE, Aix-Marseille Université.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://eric-roca.github.io/authors/annalisa-frigo/</link>
-      <pubDate>Mon, 09 Dec 2019 17:30:00 +0100</pubDate>
-      <guid>https://eric-roca.github.io/authors/annalisa-frigo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://eric-roca.github.io/authors/anastasia-litina/</link>
-      <pubDate>Sat, 28 Sep 2019 09:30:00 +0200</pubDate>
-      <guid>https://eric-roca.github.io/authors/anastasia-litina/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Èric Roca Fernández</title>
-      <link>https://eric-roca.github.io/authors/%C3%A8ric-roca-fern%C3%A1ndez/</link>
-      <pubDate>Mon, 21 Nov 2016 11:15:00 +0530</pubDate>
-      <guid>https://eric-roca.github.io/authors/%C3%A8ric-roca-fern%C3%A1ndez/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>

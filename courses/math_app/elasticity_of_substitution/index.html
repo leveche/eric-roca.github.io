@@ -1,12 +1,11 @@
-<!DOCTYPE html>
-<html lang="en-us">
+<!DOCTYPE html><html lang="en-us" >
 
 <head>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 4.4.0">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
 
   
 
@@ -21,25 +20,20 @@
   
   
 
-  <meta name="author" content="Eric Roca Fernandez">
+  <meta name="author" content="Èric Roca Fernández">
 
   
   
   
     
   
-  <meta name="description" content="The elasticity of substitution between two inputs of a production function (or two goods in a utility function) measures the percentage change in the ratio of the two inputs relative to the percentage change in their prices.
-The elasticity of substitution represents the curvature of the isoquant, this is, the degree of substitutability between inputs. Mathematically, for inputs $x_{1}$ and $x_{2}$ and a production function $f(x_{1}, x_{2}),$ it is defined as:">
+  <meta name="description" content="The elasticity of substitution between two inputs of a production function (or two goods in a utility function) measures the percentage change in the ratio of the two inputs relative to the percentage change in their prices.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://eric-roca.github.io/courses/math_app/elasticity_of_substitution/">
 
   
 
-
-
-
-  
 
   
   
@@ -50,11 +44,17 @@ The elasticity of substitution represents the curvature of the isoquant, this is
   
   
   
+  <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
   
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
 
     
     
@@ -64,52 +64,199 @@ The elasticity of substitution represents the curvature of the isoquant, this is
     
       
       
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
       
     
 
     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
 
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
     
 
   
 
   
   
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono&display=swap">
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
   
 
   
   
   
-  <link rel="stylesheet" href="/css/academic.min.9e398b7a64ee2c82769da9724cdbf0cc.css">
+  
+  <link rel="stylesheet" href="/css/academic.css">
 
   
 
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109506458-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-109506458-1', { 'anonymize_ip': true });
+
   
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
-    <script>
-      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-      ga('create', 'UA-109506458-1', 'auto');
-      ga('set', 'anonymizeIp', true);
-      ga('require', 'eventTracker');
-      ga('require', 'outboundLinkTracker');
-      ga('require', 'urlChangeTracker');
-      ga('send', 'pageview');
-    </script>
-    <script async src="https://www.google-analytics.com/analytics.js"></script>
-    
-    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
-    
+
+
   
   
 
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/img/icon-32.png">
-  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
   <link rel="canonical" href="https://eric-roca.github.io/courses/math_app/elasticity_of_substitution/">
 
@@ -117,18 +264,22 @@ The elasticity of substitution represents the curvature of the isoquant, this is
   
   
   
+  
+  
+  
     
-    
   
   
-  <meta property="twitter:card" content="summary">
+  <meta property="twitter:card" content="summary_large_image">
   
-  <meta property="og:site_name" content="Academic">
+  <meta property="twitter:site" content="@eric_roca_fdz">
+  <meta property="twitter:creator" content="@eric_roca_fdz">
+  
+  <meta property="og:site_name" content="Èric Roca Fernández">
   <meta property="og:url" content="https://eric-roca.github.io/courses/math_app/elasticity_of_substitution/">
-  <meta property="og:title" content="Elasticity of substitution | Academic">
-  <meta property="og:description" content="The elasticity of substitution between two inputs of a production function (or two goods in a utility function) measures the percentage change in the ratio of the two inputs relative to the percentage change in their prices.
-The elasticity of substitution represents the curvature of the isoquant, this is, the degree of substitutability between inputs. Mathematically, for inputs $x_{1}$ and $x_{2}$ and a production function $f(x_{1}, x_{2}),$ it is defined as:"><meta property="og:image" content="https://eric-roca.github.io/img/icon-192.png">
-  <meta property="twitter:image" content="https://eric-roca.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
+  <meta property="og:title" content="Elasticity of substitution | Èric Roca Fernández">
+  <meta property="og:description" content="The elasticity of substitution between two inputs of a production function (or two goods in a utility function) measures the percentage change in the ratio of the two inputs relative to the percentage change in their prices."><meta property="og:image" content="https://eric-roca.github.io/img/eric.jpg">
+  <meta property="twitter:image" content="https://eric-roca.github.io/img/eric.jpg"><meta property="og:locale" content="en-us">
   
     
       <meta property="article:published_time" content="2019-07-11T00:00:00&#43;00:00">
@@ -138,9 +289,20 @@ The elasticity of substitution represents the curvature of the isoquant, this is
 
   
 
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
-<script>
+
+
+  
+
+
+  
+  
+  
+  
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" integrity="sha256-5VhCqFam2Cn+yjw61zbBNrbHVJ6SRydPeKopYlngbiQ=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" integrity="sha256-zQ0LblD/Af8vOppw18+2anxsuaz3pWYyVWi+bTvTH8Q=" crossorigin="anonymous">
+  
+  <script>
   window.addEventListener("load", function(){
     window.cookieconsent.initialise({
       "palette": {
@@ -158,10 +320,10 @@ The elasticity of substitution represents the curvature of the isoquant, this is
         "message": "This website uses cookies to ensure you get the best experience on our website.",
         "dismiss": "Got it!",
         "link": "Learn more",
-        "href": "https://cookies.insites.com"
+        "href": "https://www.cookiesandyou.com"
       }
     })});
-</script>
+  </script>
 
 
 
@@ -171,7 +333,7 @@ The elasticity of substitution represents the curvature of the isoquant, this is
 
 
 
-  <title>Elasticity of substitution | Academic</title>
+  <title>Elasticity of substitution | Èric Roca Fernández</title>
 
 </head>
 
@@ -210,24 +372,41 @@ The elasticity of substitution represents the curvature of the isoquant, this is
 
 
   
-<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
     
-      <a class="navbar-brand" href="/">Academic</a>
-      
-      <button type="button" class="navbar-toggler" data-toggle="collapse"
-              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-        <span><i class="fas fa-bars"></i></span>
-      </button>
-      
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Èric Roca Fernández</a>
+    </div>
+    
 
     
-    <div class="collapse navbar-collapse" id="navbar">
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Èric Roca Fernández</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
 
       
-      
-      <ul class="navbar-nav mr-auto">
+      <ul class="navbar-nav d-md-inline-flex">
         
 
         
@@ -449,29 +628,41 @@ The elasticity of substitution represents the curvature of the isoquant, this is
         
 
       
+
+        
       </ul>
-      <ul class="navbar-nav ml-auto">
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
       
 
-        
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link js-theme-selector" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-palette" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
 
-        
-        <li class="nav-item">
-          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
-        </li>
-        
+      
 
-        
+    </ul>
 
-        
-        <li class="nav-item">
-          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
-        </li>
-        
-
-      </ul>
-
-    </div>
   </div>
 </nav>
 
@@ -487,6 +678,13 @@ The elasticity of substitution represents the curvature of the isoquant, this is
 
 
 
+  
+    
+  
+
+
+
+
 <form class="docs-search d-flex align-items-center">
   <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
     <span><i class="fas fa-bars"></i></span>
@@ -498,6 +696,10 @@ The elasticity of substitution represents the curvature of the isoquant, this is
 </form>
 
 <nav class="collapse docs-links" id="docs-nav">
+  
+
+  
+  
   
   
   <div class="docs-toc-item">
@@ -541,13 +743,10 @@ The elasticity of substitution represents the curvature of the isoquant, this is
       </ul>
 
       <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#cobb-douglas-example">Cobb-Douglas example</a></li>
-<li><a href="#ces-function">CES function</a></li>
-</ul></li>
-</ul>
+  <ul>
+    <li><a href="#cobb-douglas-example">Cobb-Douglas example</a></li>
+    <li><a href="#ces-function">CES function</a></li>
+  </ul>
 </nav>
 
       
@@ -556,71 +755,56 @@ The elasticity of substitution represents the curvature of the isoquant, this is
 
     <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
 
-      <article class="article" itemscope itemtype="http://schema.org/Article">
+      <article class="article">
 
         <div class="docs-article-container">
-          <h1 itemprop="name">Elasticity of substitution</h1>
+          <h1>Elasticity of substitution</h1>
 
-          <div class="article-style" itemprop="articleBody">
-            
-
-<p>The elasticity of substitution between two inputs of a production function (or two goods in a utility function) measures <em>the percentage change in the ratio of the two inputs relative to the percentage change in their prices</em>.</p>
-
+          <div class="article-style">
+            <p>The elasticity of substitution between two inputs of a production function (or two goods in a utility function) measures <em>the percentage change in the ratio of the two inputs relative to the percentage change in their prices</em>.</p>
 <p>The elasticity of substitution represents the curvature of the isoquant, this is, the degree of substitutability between inputs.
 Mathematically, for inputs $x_{1}$ and $x_{2}$ and a production function $f(x_{1}, x_{2}),$ it is defined as:</p>
-
 <p>$$\sigma_{1,2} = - \frac{\partial \frac{x_{1}}{x_{2}}}{\partial \frac{p_{1}}{p_{2}}} \frac{\frac{p_{1}}{p_{2}}}{\frac{x_{1}}{x_{2}}}.$$</p>
-
 <p>Assuming perfect competition, factor prices equal their margial product: $p_{1} = \frac{\partial f(x_{1},x_{2})}{\partial x_{1}}.$
 Hence:</p>
-
 <p>$$\sigma_{1,2} =
 \color{orange}{\boldsymbol{-}} \frac{ \partial \frac{x_{1}}{x_{2}}}
-    {\partial \frac{ \frac{\partial f(x_{1},x_{2})}{\partial x_{1}}}{\frac{ \partial f(x_{1},x_{2})}{\partial x_{2}}}}<br />
+{\partial \frac{ \frac{\partial f(x_{1},x_{2})}{\partial x_{1}}}{\frac{ \partial f(x_{1},x_{2})}{\partial x_{2}}}}<br>
 \frac{ \frac{ \frac{ \partial f(x_{1},x_{2})}{\partial x_{1}}}{ \frac{ \partial f(x_{1},x_{2})}{\partial x_{2}}}}
-    { \frac{x_{1}}{x_{2}}} =
+{ \frac{x_{1}}{x_{2}}} =
 \color{orange}{\boldsymbol{-}} \frac{ \partial \ln \left( \frac{x_1}{x_2} \right)}
-    {\partial \ln \left( \frac{ \frac{\partial f(x_1,x_2)}{\color{red}{\partial x_1}}}{\frac{ \partial f(x_1, x_2)}{\color{green}{\partial x_2}}} \right)} =
- \frac{ \partial \ln \left( \frac{x_1}{x_2} \right)}
-    {\partial \ln \left( \frac{ \frac{\partial f(x_1,x_2)}{ \color{green}{\partial x_2}}}{\frac{ \partial f(x_1, x_2)}{\color{red}{\partial x_1}}} \right)}
+{\partial \ln \left( \frac{ \frac{\partial f(x_1,x_2)}{\color{red}{\partial x_1}}}{\frac{ \partial f(x_1, x_2)}{\color{green}{\partial x_2}}} \right)} =
+\frac{ \partial \ln \left( \frac{x_1}{x_2} \right)}
+{\partial \ln \left( \frac{ \frac{\partial f(x_1,x_2)}{ \color{green}{\partial x_2}}}{\frac{ \partial f(x_1, x_2)}{\color{red}{\partial x_1}}} \right)}
 $$</p>
-
 <h2 id="cobb-douglas-example">Cobb-Douglas example</h2>
-
 <p>Cobb-Douglas production functions have an elasticity of substitution equal to one.</p>
-
 <p>$$\begin{eqnarray}
-&amp; F(K,L)= A K^\alpha L^{1-\alpha}, \\<br />
-&amp; w = A(1-\alpha) K^\alpha L^{-\alpha}, \\<br />
+&amp; F(K,L)= A K^\alpha L^{1-\alpha}, \\\<br>
+&amp; w = A(1-\alpha) K^\alpha L^{-\alpha}, \\\<br>
 &amp; r = A \alpha K^{\alpha-1} L^{1-\alpha}.\end{eqnarray}$$
 Hence:
 $$\frac{w}{r} = \frac{1-\alpha}{\alpha} \frac{K}{L}.$$
 Therefore, we can compute $\sigma_{K,L}$ as</p>
-
 <p>$$\frac{ \partial \ln \left(\frac{K}{L}\right)}{\partial \ln \left(\frac{w}{r}\right)} =
-    \frac{\color{red}{\partial \left( \frac{K}{L} \right)}}{\color{green}{\frac{K}{L}}} \frac{\frac{w}{r}}{\color{red}{\partial \frac{w}{r}}} =
-    \color{red}{\underbrace{\frac{\alpha}{1-\alpha}}_{\frac{\partial \left( \frac{K}{L} \right)}{\partial \frac{w}{r}}}}  \color{green}{\underbrace{\frac{1-\alpha}{\alpha}\frac{K}{L}}_{\left(\frac{w}{r}\right)}}\frac{L}{K}=1$$</p>
-
+\frac{\color{red}{\partial \left( \frac{K}{L} \right)}}{\color{green}{\frac{K}{L}}} \frac{\frac{w}{r}}{\color{red}{\partial \frac{w}{r}}} =
+\color{red}{\underbrace{\frac{\alpha}{1-\alpha}}_{\frac{\partial \left( \frac{K}{L} \right)}{\partial \frac{w}{r}}}}  \color{green}{\underbrace{\frac{1-\alpha}{\alpha}\frac{K}{L}}_{\left(\frac{w}{r}\right)}}\frac{L}{K}=1$$</p>
 <h2 id="ces-function">CES function</h2>
-
 <p>In the case of a CES function, the elasticity of substitution equals $\frac{1}{1-\rho}.$</p>
-
 <p>$$\begin{eqnarray}
-&amp; F(K,L)= A \left( \alpha K^{\rho} + (1-\alpha) L^{\rho} \right)^\frac{\nu}{\rho}, \rho \leq 1 \\<br />
+&amp; F(K,L)= A \left( \alpha K^{\rho} + (1-\alpha) L^{\rho} \right)^\frac{\nu}{\rho}, \rho \leq 1 \\\<br>
 &amp; w = A \frac{\nu}{\rho}\left( \alpha K^{\rho} + (1-\alpha) L^{\rho}\right)^{\frac{\nu}{\rho}-1} ( 1- \alpha) \rho L^{\rho-1}, \\\
 &amp; r = A \frac{\nu}{\rho}\left( \alpha K^{\rho} + (1-\alpha) L^{\rho} \right)^{\frac{\nu}{\rho}-1}\alpha \rho K^{\rho-1}.\end{eqnarray}$$
 Hence:
 $$\frac{w}{r} = \frac{1-\alpha}{\alpha} \left(\frac{K}{L} \right)^{1-\rho}.$$</p>
-
-<p>The parameter $\nu$ indicates the degree of <a href="https://eric-roca.github.io/courses/math_app/homogenous_functions/" target="_blank">homogeneity of the function.</a></p>
-
+<p>The parameter $\nu$ indicates the degree of 
+<a href="https://eric-roca.github.io/courses/math_app/homogenous_functions/">homogeneity of the function.</a></p>
 <p>The elasticity of substitution equals:</p>
-
 <p>$$\frac{ \partial \ln \left(\frac{K}{L}\right)}{\partial \ln \left( \frac{w}{r} \right)} =
-    \frac{ \partial \frac{K}{L}}{\frac{K}{L}}\frac{\frac{w}{r}}{\partial \frac{w}{r}} =
-    \frac{\alpha}{1-\alpha}\frac{1}{1-\rho}\left(\frac{w}{r}\frac{\alpha}{1-\alpha}\right)^{\frac{1}{1-\rho}-1}
-    \frac{1-\alpha}{\alpha}\left(\frac{K}{L}\right)^{1-\rho}\frac{L}{K} =
-    \frac{1}{1-\rho}.$$</p>
+\frac{ \partial \frac{K}{L}}{\frac{K}{L}}\frac{\frac{w}{r}}{\partial \frac{w}{r}} =
+\frac{\alpha}{1-\alpha}\frac{1}{1-\rho}\left(\frac{w}{r}\frac{\alpha}{1-\alpha}\right)^{\frac{1}{1-\rho}-1}
+\frac{1-\alpha}{\alpha}\left(\frac{K}{L}\right)^{1-\rho}\frac{L}{K} =
+\frac{1}{1-\rho}.$$</p>
 
           </div>
 
@@ -654,9 +838,11 @@ $$\frac{w}{r} = \frac{1-\alpha}{\alpha} \left(\frac{K}{L} \right)^{1-\rho}.$$</p
         </div>
 
         <div class="body-footer">
-          <p>Last updated on Jul 11, 2019</p>
+          <p>Last updated on 11, Jul 2019</p>
 
           
+
+
 
 
           
@@ -669,7 +855,7 @@ $$\frac{w}{r} = \frac{1-\alpha}{\alpha} \left(\frac{K}{L} \right)^{1-\rho}.$$</p
   
 
   <p class="powered-by">
-    &copy; 2020 Èric Roca Fernández &middot; 
+    © 2020 Èric Roca Fernández &middot; 
 
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
@@ -690,48 +876,47 @@ $$\frac{w}{r} = \frac{1-\alpha}{\alpha} \left(\frac{K}{L} \right)^{1-\rho}.$$</p
     
     
     
-    <script src="/js/mathjax-config.js"></script>
-    
-
-    
-    
-    
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
 
       
 
       
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
         
       
 
-      
-      
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
-      
     
 
     
     
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
 
     
     
-    <script>hljs.initHighlightingOnLoad();</script>
+    <script>const isSiteThemeDark = false;</script>
     
 
+    
+    
+    
+    
     
     
     <script>
-      const search_index_filename = "/index.json";
-      const i18n = {
-        'placeholder': "Search...",
-        'results': "results found",
-        'no_results': "No results found"
-      };
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
       const content_type = {
         'post': "Posts",
         'project': "Projects",
@@ -778,6 +963,9 @@ $$\frac{w}{r} = \frac{1-\alpha}{\alpha} \left(\frac{K}{L} \right)^{1-\rho}.$$</p
 
     
     
+
+    
+    
     
     
     
@@ -790,7 +978,7 @@ $$\frac{w}{r} = \frac{1-\alpha}{\alpha} \left(\frac{K}{L} \right)^{1-\rho}.$$</p
     
     
     
-    <script src="/js/academic.min.16bbb3750feb7244c9bc409a5a4fe678.js"></script>
+    <script src="/js/academic.min.37431be2d92d7fb0160054761ab79602.js"></script>
 
     
 
@@ -799,6 +987,7 @@ $$\frac{w}{r} = \frac{1-\alpha}{\alpha} \left(\frac{K}{L} \right)^{1-\rho}.$$</p
 
 
 
+  
   
 
   

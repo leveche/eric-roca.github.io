@@ -1,12 +1,11 @@
-<!DOCTYPE html>
-<html lang="en-us">
+<!DOCTYPE html><html lang="en-us" >
 
 <head>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 4.4.0">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
 
   
 
@@ -21,7 +20,7 @@
   
   
 
-  <meta name="author" content="Eric Roca Fernandez">
+  <meta name="author" content="Èric Roca Fernández">
 
   
   
@@ -36,10 +35,6 @@
   
 
 
-
-
-  
-
   
   
   
@@ -49,11 +44,17 @@
   
   
   
+  <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
   
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
 
     
     
@@ -63,54 +64,203 @@
     
       
       
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
       
     
 
     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
 
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
     
 
   
 
   
   
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono&display=swap">
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
   
 
   
   
   
-  <link rel="stylesheet" href="/css/academic.min.9e398b7a64ee2c82769da9724cdbf0cc.css">
+  
+  <link rel="stylesheet" href="/css/academic.css">
 
   
 
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109506458-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-109506458-1', { 'anonymize_ip': true });
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+
   
   
-    <script>
-      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-      ga('create', 'UA-109506458-1', 'auto');
-      ga('set', 'anonymizeIp', true);
-      ga('require', 'eventTracker');
-      ga('require', 'outboundLinkTracker');
-      ga('require', 'urlChangeTracker');
-      ga('send', 'pageview');
-    </script>
-    <script async src="https://www.google-analytics.com/analytics.js"></script>
-    
-    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
-    
-  
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   
 
   
-  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Academic">
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Èric Roca Fernández">
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/img/icon-32.png">
-  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
   <link rel="canonical" href="https://eric-roca.github.io/">
 
@@ -118,26 +268,54 @@
   
   
   
+  
+  
+  
     
-    
   
   
-  <meta property="twitter:card" content="summary">
+  <meta property="twitter:card" content="summary_large_image">
   
-  <meta property="og:site_name" content="Academic">
+  <meta property="twitter:site" content="@eric_roca_fdz">
+  <meta property="twitter:creator" content="@eric_roca_fdz">
+  
+  <meta property="og:site_name" content="Èric Roca Fernández">
   <meta property="og:url" content="https://eric-roca.github.io/">
-  <meta property="og:title" content="Academic">
-  <meta property="og:description" content="Post-Doctoral Researcher"><meta property="og:image" content="https://eric-roca.github.io/img/icon-192.png">
-  <meta property="twitter:image" content="https://eric-roca.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
+  <meta property="og:title" content="Èric Roca Fernández">
+  <meta property="og:description" content="Post-Doctoral Researcher"><meta property="og:image" content="https://eric-roca.github.io/img/eric.jpg">
+  <meta property="twitter:image" content="https://eric-roca.github.io/img/eric.jpg"><meta property="og:locale" content="en-us">
   
     <meta property="og:updated_time" content="2019-12-09T17:30:00&#43;01:00">
   
 
   
 
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
-<script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://eric-roca.github.io/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  },
+  "url": "https://eric-roca.github.io/"
+}
+</script>
+
+
+  
+
+
+  
+  
+  
+  
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" integrity="sha256-5VhCqFam2Cn+yjw61zbBNrbHVJ6SRydPeKopYlngbiQ=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" integrity="sha256-zQ0LblD/Af8vOppw18+2anxsuaz3pWYyVWi+bTvTH8Q=" crossorigin="anonymous">
+  
+  <script>
   window.addEventListener("load", function(){
     window.cookieconsent.initialise({
       "palette": {
@@ -155,10 +333,10 @@
         "message": "This website uses cookies to ensure you get the best experience on our website.",
         "dismiss": "Got it!",
         "link": "Learn more",
-        "href": "https://cookies.insites.com"
+        "href": "https://www.cookiesandyou.com"
       }
     })});
-</script>
+  </script>
 
 
 
@@ -168,7 +346,7 @@
 
 
 
-  <title>Academic</title>
+  <title>Èric Roca Fernández</title>
 
 </head>
 
@@ -207,24 +385,41 @@
 
 
   
-<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
     
-      <a class="navbar-brand" href="/">Academic</a>
-      
-      <button type="button" class="navbar-toggler" data-toggle="collapse"
-              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-        <span><i class="fas fa-bars"></i></span>
-      </button>
-      
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Èric Roca Fernández</a>
+    </div>
+    
 
     
-    <div class="collapse navbar-collapse" id="navbar">
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Èric Roca Fernández</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
 
       
-      
-      <ul class="navbar-nav mr-auto">
+      <ul class="navbar-nav d-md-inline-flex">
         
 
         
@@ -446,29 +641,41 @@
         
 
       
+
+        
       </ul>
-      <ul class="navbar-nav ml-auto">
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
       
 
-        
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link js-theme-selector" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-palette" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
 
-        
-        <li class="nav-item">
-          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
-        </li>
-        
+      
 
-        
+    </ul>
 
-        
-        <li class="nav-item">
-          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
-        </li>
-        
-
-      </ul>
-
-    </div>
   </div>
 </nav>
 
@@ -478,15 +685,23 @@
 
 
 
+
+
+
+
+
+
+
 <span class="js-widget-page d-none"></span>
 
 
 
 
+
   
-
-
-
+  
+  
+  
 
 
 
@@ -538,29 +753,28 @@
 
 
 
-<div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref="person-email person-address">
+
+<div class="row">
   <div class="col-12 col-lg-4">
     <div id="profile">
 
       
       
-      <img class="portrait" src="/authors/admin/avatar_huccc3fdf4ada0c5c97aef412c0f48ca36_353531_250x250_fill_q90_lanczos_center.jpg" itemprop="image" alt="Avatar">
+      <img class="avatar avatar-circle" src="/author/eric-roca-fernandez/avatar_huccc3fdf4ada0c5c97aef412c0f48ca36_353531_270x270_fill_q90_lanczos_center.jpg" alt="Èric Roca Fernández">
       
 
       <div class="portrait-title">
-        <h2 itemprop="name">Eric Roca Fernandez</h2>
-        <h3 itemprop="jobTitle">Post-Doctoral Researcher</h3>
+        <h2>Èric Roca Fernández</h2>
+        <h3>Post-Doctoral Researcher</h3>
 
         
-        <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
-          <a href="https://www.amse-aixmarseille.fr/" target="_blank" itemprop="url" rel="noopener">
-          <span itemprop="name">AMSE, Aix-Marseille Université</span>
+        <h3>
+          <a href="https://www.amse-aixmarseille.fr/" target="_blank" rel="noopener">
+          <span>AMSE, Aix-Marseille Université</span>
           </a>
         </h3>
         
       </div>
-
-      <link itemprop="url" href="">
 
       <ul class="network-icon" aria-hidden="true">
         
@@ -574,8 +788,25 @@
         
         
         <li>
-          <a itemprop="sameAs" href="mailto:eric.roca-fernandez@univ-amu.fr" >
+          <a href="mailto:eric.roca-fernandez@univ-amu.fr" >
             <i class="fas fa-envelope big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://twitter.com/eric_roca_fdz" target="_blank" rel="noopener">
+            <i class="fab fa-twitter big-icon"></i>
           </a>
         </li>
         
@@ -589,7 +820,7 @@
           
         
         <li>
-          <a itemprop="sameAs" href="https://scholar.google.co.uk/citations?user=_nSUyvgAAAAJ" target="_blank" rel="noopener">
+          <a href="https://scholar.google.co.uk/citations?user=_nSUyvgAAAAJ" target="_blank" rel="noopener">
             <i class="ai ai-google-scholar big-icon"></i>
           </a>
         </li>
@@ -606,7 +837,7 @@
           
         
         <li>
-          <a itemprop="sameAs" href="https://github.com/eric-roca" target="_blank" rel="noopener">
+          <a href="https://github.com/eric-roca" target="_blank" rel="noopener">
             <i class="fab fa-github big-icon"></i>
           </a>
         </li>
@@ -621,7 +852,7 @@
           
         
         <li>
-          <a itemprop="sameAs" href="/files/cv.pdf" >
+          <a href="/files/cv.pdf" >
             <i class="ai ai-cv big-icon"></i>
           </a>
         </li>
@@ -630,7 +861,7 @@
 
     </div>
   </div>
-  <div class="col-12 col-lg-8" itemprop="description">
+  <div class="col-12 col-lg-8">
 
     
     <h1>Biography</h1>
@@ -753,6 +984,14 @@
 
 
 
+
+
+
+
+
+  
+
+
 <div class="row">
   <div class="col-12 col-lg-4 section-heading">
     <h1>Publications</h1>
@@ -770,8 +1009,6 @@
 
 
 
-
-  
   
 
 
@@ -781,15 +1018,11 @@
   
 
 
-<div class="card-simple" itemscope itemtype="http://schema.org/ScholarlyArticle">
+<div class="card-simple">
 
   
     
 
-
-
-<meta content="2019-06-21 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-<meta content="2019-06-21 00:00:00 &#43;0000 UTC" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -800,10 +1033,8 @@
   <div>
     
 
-
-
-  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Eric Roca Fernandez</a></span>
-
+  
+  <span><a href="/author/eric-roca-fernandez/">Èric Roca Fernández</a></span>
   </div>
   
   
@@ -814,7 +1045,7 @@
     
       
     
-    <time>June 2019</time>
+    June 2019
   </span>
   
 
@@ -836,8 +1067,6 @@
   
   
 
-  
-
 </div>
 
   
@@ -847,16 +1076,16 @@
   
   
   <a href="/publication/inheritance-systems/">
-      <img src="/publication/inheritance-systems/featured_hua7c784ebecc07e9af77e5c1cc00aae38_237190_918x517_fill_q90_lanczos_center.jpg" class="article-banner" itemprop="image" alt="">
+      <img src="/publication/inheritance-systems/featured_hua7c784ebecc07e9af77e5c1cc00aae38_237190_918x517_fill_q90_lanczos_center.jpg" class="article-banner" alt="">
   </a>
   
 
-  <h3 class="article-title mb-1 mt-3" itemprop="name">
-    <a href="/publication/inheritance-systems/" itemprop="url">In the Name of the Father: Inheritance Systems and the Dynamics of State Capacity</a>
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/publication/inheritance-systems/">In the Name of the Father: Inheritance Systems and the Dynamics of State Capacity</a>
   </h3>
 
   
-  <div class="article-style" itemprop="articleBody">
+  <div class="article-style">
     <p><strong>In <em>Macroeconomic Dynamics</em></strong>. <br> This paper examines how the degree of gender-egalitarianism embedded in inheritance rules impacts state building. Male-biased inheritance rules historically maximise the likelihood of dynastic continuity. However, there is more land merging under gender-egalitarian rules. We compare both types of inheritance rules, concluding that, contrary to the literature, gender-egalitarian norms promote state capacity in the short run more than gender-biased norms. In the long run results are reversed.</p>
   </div>
   
@@ -925,6 +1154,8 @@
 
       
     
+
+  
 
   </div>
 </div>
@@ -997,6 +1228,7 @@
 
 
 
+
   
 
 
@@ -1027,19 +1259,14 @@
 
 
 
-
   
 
 
-<div class="card-simple" itemscope itemtype="http://schema.org/CreativeWork">
+<div class="card-simple">
 
   
     
 
-
-
-<meta content="2019-09-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-<meta content="2019-09-01 00:00:00 &#43;0000 UTC" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -1050,10 +1277,8 @@
   <div>
     
 
-
-
-  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/anastasia-litina/">Anastasia Litina</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Eric Roca Fernandez</a></span>
-
+  
+  <span>Anastasia Litina</span>, <span><a href="/author/eric-roca-fernandez/">Èric Roca Fernández</a></span>
   </div>
   
   
@@ -1064,7 +1289,7 @@
     
       
     
-    <time>Sep 1, 2019</time>
+    1, Sep 2019
   </span>
   
 
@@ -1079,8 +1304,6 @@
   
   
 
-  
-
 </div>
 
   
@@ -1090,16 +1313,16 @@
   
   
   <a href="/working_papers/eclipses/">
-      <img src="/working_papers/eclipses/featured_hu423bfafe8b4f9fc61e2a310e59225533_669014_918x517_fill_q90_lanczos_smart1.jpg" class="article-banner" itemprop="image" alt="">
+      <img src="/working_papers/eclipses/featured_hu423bfafe8b4f9fc61e2a310e59225533_669014_918x517_fill_q90_lanczos_smart1.jpg" class="article-banner" alt="">
   </a>
   
 
-  <h3 class="article-title mb-1 mt-3" itemprop="name">
-    <a href="/working_papers/eclipses/" itemprop="url">The Terror of History: Solar Eclipses and the Origins of Critical Thinking and Complexity</a>
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/working_papers/eclipses/">The Terror of History: Solar Eclipses and the Origins of Critical Thinking and Complexity</a>
   </h3>
 
   
-  <div class="article-style" itemprop="articleBody">
+  <div class="article-style">
     <p>Our research advances the hypothesis that more frequent occurrence of solar eclipses is associated with higher complexity in pre-modern societies. To empirically test our hypothesis we exploit variations in the exposure to solar eclipses in a set of 1267 ethnic groups derived from Murdock’s Ethnographic Atlas. Variation in the exposure to total eclipses is exogenous, as eclipses are randomly and sparsely distributed all over the globe, while unlike other natural phenomena, solar eclipses are not associated with any capital destruction. We proxy for social complexity using several different measures: i) the presence of high gods; ii) jurisdictional hierarchy beyond local community; iii) level of political integration; iv) existence of strategy games; and v) class stratification. Our results are robust to a wide range of geographical and ethnic group controls as well as to a horce-race regression between solar and lunar eclipses. As a potential mechanism we hypothesize that solar ecplipses and the fear instilled by them is associated with higher levels of critical thinking, in an attempt to comprehend and eventually control the natural environment. This allows, in turn, better and more complex strategies to use the resources and to cope with changes.</p>
   </div>
   
@@ -1121,19 +1344,14 @@
 
 
 
-
   
 
 
-<div class="card-simple" itemscope itemtype="http://schema.org/CreativeWork">
+<div class="card-simple">
 
   
     
 
-
-
-<meta content="2017-03-15 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-<meta content="2017-03-15 00:00:00 &#43;0000 UTC" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -1144,10 +1362,8 @@
   <div>
     
 
-
-
-  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/annalisa-frigo/">Annalisa Frigo</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Eric Roca Fernandez</a></span>
-
+  
+  <span>Annalisa Frigo</span>, <span><a href="/author/eric-roca-fernandez/">Èric Roca Fernández</a></span>
   </div>
   
   
@@ -1158,7 +1374,7 @@
     
       
     
-    <time>Mar 15, 2017</time>
+    15, Mar 2017
   </span>
   
 
@@ -1173,8 +1389,6 @@
   
   
 
-  
-
 </div>
 
   
@@ -1184,17 +1398,17 @@
   
   
   <a href="/working_papers/beguines/">
-      <img src="/working_papers/beguines/featured_hu1f21ca580bb32aeae0a23e0262546a5e_120562_918x517_fill_q90_lanczos_smart1.jpg" class="article-banner" itemprop="image" alt="">
+      <img src="/working_papers/beguines/featured_hu1f21ca580bb32aeae0a23e0262546a5e_120562_918x517_fill_q90_lanczos_smart1.jpg" class="article-banner" alt="">
   </a>
   
 
-  <h3 class="article-title mb-1 mt-3" itemprop="name">
-    <a href="/working_papers/beguines/" itemprop="url">Roots of Gender Equality: the Persistent Effect of Beguinages on Attitudes Toward Women</a>
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/working_papers/beguines/">Roots of Gender Equality: the Persistent Effect of Beguinages on Attitudes Toward Women</a>
   </h3>
 
   
-  <div class="article-style" itemprop="articleBody">
-    <p><strong>Awarded the &lsquo;UWIN Best Paper Award on Gender Economics&rsquo;, 7th edition.</strong>  <br> <strong>Awarded a &lsquo;Valeria Solesin&rsquo; accessit, 2018 edition.</strong><br><strong>Revise &amp; Resubmit at <em>Journal of Economic Growth</em></strong> <br> This paper is concerned with the historical roots of gender equality. It proposes and empirically assesses a new class of determinants of gender equality: increases in women&rsquo;s bargaining power through reductions in the cost of remaining single. In particular, enlarging women&rsquo;s options besides marriage &mdash;even if only temporarily&mdash; increases their bargaining power with respect to men, leading to a persistent improvement in gender equality. We illustrate this mechanism focusing on the specific Belgian context, and relate gender-equality levels in the 19th century to the presence of medieval, female-only communities called <em>beguinages</em> that allowed women to remain single amidst a society that advocated the opposite. Combining precise beguinages&rsquo; location with 19th-century census data, we document that beguinages were instrumental in decreasing the gender gap in literacy.</p>
+  <div class="article-style">
+    <p><strong>Awarded the &lsquo;UWIN Best Paper Award on Gender Economics&rsquo;, 7th edition.</strong>  <br> <strong>Awarded a &lsquo;Valeria Solesin&rsquo; accessit, 2018 edition.<strong><br></strong>Revise &amp; Resubmit at <em>Journal of Economic Growth</em></strong> <br> This paper is concerned with the historical roots of gender equality. It proposes and empirically assesses a new class of determinants of gender equality: increases in women&rsquo;s bargaining power through reductions in the cost of remaining single. In particular, enlarging women&rsquo;s options besides marriage —even if only temporarily— increases their bargaining power with respect to men, leading to a persistent improvement in gender equality. We illustrate this mechanism focusing on the specific Belgian context, and relate gender-equality levels in the 19th century to the presence of medieval, female-only communities called <em>beguinages</em> that allowed women to remain single amidst a society that advocated the opposite. Combining precise beguinages&rsquo; location with 19th-century census data, we document that beguinages were instrumental in decreasing the gender gap in literacy.</p>
   </div>
   
 
@@ -1278,6 +1492,7 @@
 
 
 
+
   
 
 
@@ -1307,9 +1522,6 @@
 
 
 
-
-
-  
   
   
 
@@ -1320,16 +1532,16 @@
   
 
 
-<div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+<div class="media stream-item">
   <div class="media-body">
 
-    <h3 class="article-title mb-0 mt-0" itemprop="name">
-      <a href="/talk/2019-12_luxembourg/"  itemprop="url">Roots of Gender Equality: the Persistent Effect of Beguinages on Attitudes toward Women</a>
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/talk/2019-12_luxembourg/" >Roots of Gender Equality: the Persistent Effect of Beguinages on Attitudes toward Women</a>
     </h3>
 
     
-    <div class="article-style" itemprop="articleBody">
-      This papers shows the long-lasting effects of the beguine movement on gender equality. Beguinages were female-only, semi-religious …
+    <div class="article-style">
+      This papers shows the long-lasting effects of the beguine movement on gender equality. Beguinages were female-only, semi-religious institutions that appeared in the Low Countries during the Middle Ages. We find that, during the 19th century, female wages and literacy rates were closer to their male counterparts in municipalities that had a beguinage.
     </div>
     
 
@@ -1337,24 +1549,22 @@
 
       
       <div>
-        <span itemprop="startDate">
-          Dec 9, 2019 5:30 PM &mdash; 6:00 PM
+        <span>
+          9, Dec 2019 5:30 PM &mdash; 6:00 PM
         </span>
         
         <span class="middot-divider"></span>
-        <span itemprop="location">29, Avenue JF Kennedy, 1359, Luxembourg</span>
+        <span>29, Avenue JF Kennedy, 1359, Luxembourg</span>
         
       </div>
       
 
       
-      <div itemprop="author">
+      <div>
         
 
-
-
-  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/annalisa-frigo/">Annalisa Frigo</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Eric Roca Fernandez</a></span>
-
+  
+  <span>Annalisa Frigo</span>, <span><a href="/author/eric-roca-fernandez/">Èric Roca Fernández</a></span>
       </div>
       
     </div>
@@ -1426,9 +1636,6 @@
 
 
 
-
-
-  
   
   
 
@@ -1439,16 +1646,16 @@
   
 
 
-<div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+<div class="media stream-item">
   <div class="media-body">
 
-    <h3 class="article-title mb-0 mt-0" itemprop="name">
-      <a href="/talk/2019-09_lund/"  itemprop="url">The Terror of History: Solar Eclipses and the Origins of Critical Thinking and Complexity</a>
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/talk/2019-09_lund/" >The Terror of History: Solar Eclipses and the Origins of Critical Thinking and Complexity</a>
     </h3>
 
     
-    <div class="article-style" itemprop="articleBody">
-      Our research advances the hypothesis that more frequent occurrence of solar eclipses is associated with higher complexity in pre-modern …
+    <div class="article-style">
+      Our research advances the hypothesis that more frequent occurrence of solar eclipses is associated with higher complexity in pre-modern societies. To empirically test our hypothesis we exploit variations in the exposure to solar eclipses in a set of 1267 ethnic groups derived from Murdock’s Ethnographic Atlas. Variation in the exposure to total eclipses is exogenous, as eclipses are randomly and sparsely distributed all over the globe, while unlike other natural phenomena, solar eclipses are not associated with any capital destruction. We proxy for social complexity using several different measures: i) the presence of high gods; ii) jurisdictional hierarchy beyond local community; iii) level of political integration; iv) existence of strategy games; and v) class stratification. Our results are robust to a wide range of geographical and ethnic group controls as well as to a horce-race regression between solar and lunar eclipses. As a potential mechanism we hypothesize that solar ecplipses and the fear instilled by them is associated with higher levels of critical thinking, in an attempt to comprehend and eventually control the natural environment. This allows, in turn, better and more complex strategies to use the resources and to cope with changes.
     </div>
     
 
@@ -1456,24 +1663,22 @@
 
       
       <div>
-        <span itemprop="startDate">
-          Sep 28, 2019 9:30 AM &mdash; 10:00 AM
+        <span>
+          28, Sep 2019 9:30 AM &mdash; 10:00 AM
         </span>
         
         <span class="middot-divider"></span>
-        <span itemprop="location">AF Borgen AB, Sandgatan 2, 22350, Lund</span>
+        <span>AF Borgen AB, Sandgatan 2, 22350, Lund</span>
         
       </div>
       
 
       
-      <div itemprop="author">
+      <div>
         
 
-
-
-  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/anastasia-litina/">Anastasia Litina</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Eric Roca Fernandez</a></span>
-
+  
+  <span>Anastasia Litina</span>, <span><a href="/author/eric-roca-fernandez/">Èric Roca Fernández</a></span>
       </div>
       
     </div>
@@ -1539,9 +1744,6 @@
 
 
 
-
-
-  
   
   
 
@@ -1552,16 +1754,16 @@
   
 
 
-<div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+<div class="media stream-item">
   <div class="media-body">
 
-    <h3 class="article-title mb-0 mt-0" itemprop="name">
-      <a href="/talk/2019-01_marseille/"  itemprop="url">Roots of Gender Equality: the Persistent Effect of Beguinages on Attitudes toward Women</a>
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/talk/2019-01_marseille/" >Roots of Gender Equality: the Persistent Effect of Beguinages on Attitudes toward Women</a>
     </h3>
 
     
-    <div class="article-style" itemprop="articleBody">
-      This papers shows the long-lasting effects of the beguine movement on gender equality. Beguinages were female-only, semi-religious …
+    <div class="article-style">
+      This papers shows the long-lasting effects of the beguine movement on gender equality. Beguinages were female-only, semi-religious institutions that appeared in the Low Countries during the Middle Ages. We find that, during the 19th century, female wages and literacy rates were closer to their male counterparts in municipalities that had a beguinage.
     </div>
     
 
@@ -1569,24 +1771,22 @@
 
       
       <div>
-        <span itemprop="startDate">
-          Jan 30, 2019 2:30 PM &mdash; 4:00 PM
+        <span>
+          30, Jan 2019 2:30 PM &mdash; 4:00 PM
         </span>
         
         <span class="middot-divider"></span>
-        <span itemprop="location">5-9 boulevard Maurice Bourdet, 13001, Marseille</span>
+        <span>5-9 boulevard Maurice Bourdet, 13001, Marseille</span>
         
       </div>
       
 
       
-      <div itemprop="author">
+      <div>
         
 
-
-
-  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/annalisa-frigo/">Annalisa Frigo</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Eric Roca Fernandez</a></span>
-
+  
+  <span>Annalisa Frigo</span>, <span><a href="/author/eric-roca-fernandez/">Èric Roca Fernández</a></span>
       </div>
       
     </div>
@@ -1709,22 +1909,23 @@
       <p><strong>Fabio Mariani</strong><br>
 <em>Associate Professor</em><br>
 IRES/IMMAQ, Université catholique de Louvain<br>
-<a href="mailto:fabio.mariani@uclouvain.be" target="_blank">fabio.mariani@uclouvain.be</a></p>
 
+<a href="mailto:fabio.mariani@uclouvain.be">fabio.mariani@uclouvain.be</a></p>
 <p><strong>Luca Pensieroso</strong><br>
 <em>Associate Professor</em><br>
 IRES/IMMAQ, Université catholique de Louvain<br>
-<a href="mailto:luca.pensieroso@uclouvain.be" target="_blank">luca.pensieroso@uclouvain.be</a></p>
 
+<a href="mailto:luca.pensieroso@uclouvain.be">luca.pensieroso@uclouvain.be</a></p>
 <p><strong>David de la Croix</strong><br>
 <em>Professor of Economics</em><br>
 IRES/IMMAQ, Université catholique de Louvain<br>
-<a href="mailto:david.delacroix@uclouvain.be" target="_blank">david.delacroix@uclouvain.be</a></p>
 
+<a href="mailto:david.delacroix@uclouvain.be">david.delacroix@uclouvain.be</a></p>
 <p><strong>Oded Galor</strong><br>
 <em>Herbert H. Goldberger Professor of Economics</em><br>
 Brown University<br>
-<a href="mailto:Oded_Galor@brown.edu" target="_blank">Oded_Galor@brown.edu</a></p>
+
+<a href="mailto:Oded_Galor@brown.edu">Oded_Galor@brown.edu</a></p>
 
     </div>
   
@@ -1798,33 +1999,34 @@ Brown University<br>
       
       
       
+      
 
       <div class="tag-cloud">
         
           
           
           
-          <a href="/tags/comparative-development/" style="font-size:0.8rem">Comparative Development</a>
+          <a href="/tag/comparative-development/" style="font-size:0.8rem">Comparative Development</a>
         
           
           
           
-          <a href="/tags/economic-history/" style="font-size:2.5rem">Economic History</a>
+          <a href="/tag/economic-history/" style="font-size:1.8725805810714777rem">Economic History</a>
         
           
           
           
-          <a href="/tags/empirical-work/" style="font-size:2.5rem">Empirical Work</a>
+          <a href="/tag/empirical-work/" style="font-size:1.8725805810714777rem">Empirical Work</a>
         
           
           
           
-          <a href="/tags/gender-equality/" style="font-size:2.5rem">Gender Equality</a>
+          <a href="/tag/gender-equality/" style="font-size:1.8725805810714777rem">Gender Equality</a>
         
           
           
           
-          <a href="/tags/theoretical-model/" style="font-size:0.8rem">Theoretical Model</a>
+          <a href="/tag/theoretical-model/" style="font-size:0.8rem">Theoretical Model</a>
         
       </div>
     
@@ -1872,6 +2074,7 @@ Brown University<br>
 
 
 
+
 <div class="row contact-widget">
   <div class="col-12 col-lg-4 section-heading">
     <h1>Contact</h1>
@@ -1882,21 +2085,30 @@ Brown University<br>
 
     
 
-    <ul class="fa-ul" itemscope>
+    <ul class="fa-ul">
 
       
       <li>
         <i class="fa-li fas fa-envelope fa-2x" aria-hidden="true"></i>
-        <span id="person-email" itemprop="email"><a href="mailto:eric.roca-fernandez@univ-amu.fr">eric.roca-fernandez@univ-amu.fr</a></span>
+        <span id="person-email"><a href="mailto:eric.roca-fernandez@univ-amu.fr">eric.roca-fernandez@univ-amu.fr</a></span>
       </li>
       
 
+      
+
+      
+      
+        
+        <li>
+          <i class="fa-li fas fa-map-marker fa-2x" aria-hidden="true"></i>
+          <span id="person-address">5-9 Boulevard Maurice Bourdet<br>13001 Marseille</span>
+        </li>
       
 
       
       <li>
-        <i class="fa-li fas fa-map-marker fa-2x" aria-hidden="true"></i>
-        <span id="person-address" itemprop="address">5-9 Boulevard Maurice Bourdet, 13001, Marseille, France</span>
+        <i class="fa-li fas fa-compass fa-2x" aria-hidden="true"></i>
+        <span>Enter the building and take the stairs to Office 227 on Floor 2</span>
       </li>
       
 
@@ -1906,9 +2118,35 @@ Brown University<br>
 
       
       
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <i class="fa-li fab fa-twitter fa-2x" aria-hidden="true"></i>
+        <a href="https://twitter.com/eric_roca_fdz" target="_blank" rel="noopener">Eric Roca</a>
+      </li>
+      
 
     </ul>
 
+    
+    <div class="d-none">
+      <input id="map-provider" value="2">
+      <input id="map-lat" value="43.302417">
+      <input id="map-lng" value="5.379405">
+      <input id="map-dir" value="5-9 Boulevard Maurice Bourdet13001 Marseille">
+      <input id="map-zoom" value="15">
+      <input id="map-api-key" value="">
+    </div>
+    <div id="map"></div>
     
 
   </div>
@@ -1924,48 +2162,47 @@ Brown University<br>
     
     
     
-    <script src="/js/mathjax-config.js"></script>
-    
-
-    
-    
-    
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
 
       
 
       
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
         
       
 
-      
-      
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
-      
     
 
     
     
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
 
     
     
-    <script>hljs.initHighlightingOnLoad();</script>
+    <script>const isSiteThemeDark = false;</script>
     
 
+    
+    
+    
+    
     
     
     <script>
-      const search_index_filename = "/index.json";
-      const i18n = {
-        'placeholder': "Search...",
-        'results': "results found",
-        'no_results': "No results found"
-      };
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
       const content_type = {
         'post': "Posts",
         'project': "Projects",
@@ -2004,6 +2241,21 @@ Brown University<br>
 
     
     
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
+    
+
+    
+    
 
     
     
@@ -2019,7 +2271,7 @@ Brown University<br>
     
     
     
-    <script src="/js/academic.min.16bbb3750feb7244c9bc409a5a4fe678.js"></script>
+    <script src="/js/academic.min.37431be2d92d7fb0160054761ab79602.js"></script>
 
     
 
@@ -2029,12 +2281,13 @@ Brown University<br>
 
 
   
+  
   <div class="container">
     <footer class="site-footer">
   
 
   <p class="powered-by">
-    &copy; 2020 Èric Roca Fernández &middot; 
+    © 2020 Èric Roca Fernández &middot; 
 
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
@@ -2042,7 +2295,7 @@ Brown University<br>
 
     
     <span class="float-right" aria-hidden="true">
-      <a href="#" id="back_to_top">
+      <a href="#" class="back-to-top">
         <span class="button_icon">
           <i class="fas fa-chevron-up fa-2x"></i>
         </span>

@@ -158,12 +158,7 @@
   </url>
   
   <url>
-    <loc>https://eric-roca.github.io/authors/admin/</loc>
-    <lastmod>2019-12-09T17:30:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://eric-roca.github.io/authors/annalisa-frigo/</loc>
+    <loc>https://eric-roca.github.io/author/annalisa-frigo/</loc>
     <lastmod>2019-12-09T17:30:00+01:00</lastmod>
   </url>
   
@@ -188,7 +183,12 @@
   </url>
   
   <url>
-    <loc>https://eric-roca.github.io/authors/anastasia-litina/</loc>
+    <loc>https://eric-roca.github.io/author/eric-roca-fernandez/</loc>
+    <lastmod>2019-12-09T17:30:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eric-roca.github.io/author/anastasia-litina/</loc>
     <lastmod>2019-09-28T09:30:00+02:00</lastmod>
   </url>
   
@@ -198,22 +198,22 @@
   </url>
   
   <url>
-    <loc>https://eric-roca.github.io/publication_types/3/</loc>
+    <loc>https://eric-roca.github.io/publication-type/3/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://eric-roca.github.io/tags/comparative-development/</loc>
+    <loc>https://eric-roca.github.io/tag/comparative-development/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://eric-roca.github.io/tags/economic-history/</loc>
+    <loc>https://eric-roca.github.io/tag/economic-history/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://eric-roca.github.io/tags/empirical-work/</loc>
+    <loc>https://eric-roca.github.io/tag/empirical-work/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -233,12 +233,17 @@
   </url>
   
   <url>
-    <loc>https://eric-roca.github.io/publication_types/2/</loc>
+    <loc>https://eric-roca.github.io/courses/</loc>
+    <lastmod>2019-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eric-roca.github.io/publication-type/2/</loc>
     <lastmod>2019-06-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://eric-roca.github.io/tags/gender-equality/</loc>
+    <loc>https://eric-roca.github.io/tag/gender-equality/</loc>
     <lastmod>2019-06-21T00:00:00+00:00</lastmod>
   </url>
   
@@ -253,7 +258,7 @@
   </url>
   
   <url>
-    <loc>https://eric-roca.github.io/tags/theoretical-model/</loc>
+    <loc>https://eric-roca.github.io/tag/theoretical-model/</loc>
     <lastmod>2019-06-21T00:00:00+00:00</lastmod>
   </url>
   
@@ -338,16 +343,12 @@
   </url>
   
   <url>
-    <loc>https://eric-roca.github.io/authors/%C3%A8ric-roca-fern%C3%A1ndez/</loc>
+    <loc>https://eric-roca.github.io/author/eric-roca-fernandez/</loc>
     <lastmod>2016-11-21T11:15:00+05:30</lastmod>
   </url>
   
   <url>
     <loc>https://eric-roca.github.io/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://eric-roca.github.io/courses/</loc>
   </url>
   
   <url>
