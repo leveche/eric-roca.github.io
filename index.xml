@@ -5,7 +5,7 @@
     <link>https://eric-roca.github.io/</link>
       <atom:link href="https://eric-roca.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Courses</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Èric Roca Fernández</copyright><lastBuildDate>Mon, 09 Dec 2019 17:30:00 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Èric Roca Fernández</copyright><lastBuildDate>Tue, 29 Sep 2020 13:45:00 +0200</lastBuildDate>
     <image>
       <url>https://eric-roca.github.io/img/eric.jpg</url>
       <title>Courses</title>
@@ -2542,6 +2542,14 @@ Because $\bar{k}$ is the optimal level of $k$ for the economy to converge to, it
 According to our computation, the Golden-rule level of capital is only attained if $\beta = 1.$
 This implies that present and future consumption are valued the same, which complements the discussion above.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>The Terror of History: Solar Eclipses and the Origins of Critical Thinking and Complexity</title>
+      <link>https://eric-roca.github.io/talk/2020-09_berlin/</link>
+      <pubDate>Tue, 29 Sep 2020 13:45:00 +0200</pubDate>
+      <guid>https://eric-roca.github.io/talk/2020-09_berlin/</guid>
+      <description></description>
     </item>
     
     <item>
