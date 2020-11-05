@@ -806,18 +806,19 @@ Similarly, we have the $k$-locus.</p>
 The phase diagram is a useful tool to analyse the behaviour of a dynamic system because it indicates the direction of movement of the variables at any point on the plane.</p>
 <h2 id="the-dynamics-of-c">The dynamics of $c$</h2>
 <p>The first equation of \ref{eq:eq} describes the dynamics of consumption.</p>
-<p>$$u^{\prime}(c_{t}) = \beta ( f{\prime}(k_{t+1}) + 1 - \delta) u^{\prime}(c_{t+1}).$$</p>
+<p>$$u^{\prime}(c_{t}) = \beta ( f^{\prime}(k_{t+1}) + 1 - \delta) u^{\prime}(c_{t+1}).$$</p>
 <p>Rearranging it we arrive at:</p>
 <p>$$\frac{u^{\prime}(c_{t})}{u^{\prime}(c_{t+1})} = \beta ( f^{\prime}(k_{t+1}) + 1 - \delta).$$</p>
 <p>In the phase diagram we want to plot combinations of $(c,k)$ such that $c$ is constant.
-A constant consumption implies $c_t = c_{t+1} \implies \frac{u^\prime (c_t)}{u^\prime (c_{t+1})} = 1.$
+Constant consumption implies $c_t = c_{t+1} \implies \frac{u^\prime (c_t)}{u^\prime (c_{t+1})} = 1.$
 Therefore, the $c$-locus is</p>
 <p>$$ 1 = \beta ( f^{\prime}(k_{t+1}) + 1 - \delta)$$</p>
 <p>and any level of capital satisfying it implies constant consumption.
 This condition depends only on the level of capital.</p>
-<p>Denote $k^{\star}$ such level.<br/>
-When $k &lt; k^{\star},, f^{\prime}(k) &gt; f^{\prime}(k^{\star})$, implying that $u^{\prime}(c_{t}) &gt; u^{\prime}(c_{t+1})$ and hence consumption will raise over time.
+<p>Denote such level $k^{\star}$.<br/>
+When $k &lt; k^{\star}, f^{\prime}(k) &gt; f^{\prime}(k^{\star})$, implying that $u^{\prime}(c_{t}) &gt; u^{\prime}(c_{t+1})$ and hence consumption will raise over time.
 Similarly, if $k &gt; k^{\star}$ implies that consumption falls.
+<strong>Note</strong>: remember that we are looking at $f^{\prime}(k)$ and $u^{\prime}(c)$, not $k$ and $c.$
 This information is summarised in the following Figure.</p>
 <p><img src="/img/ramsey/dynamics_c.png" alt="dynamics of c"></p>
 <p>The arrows show the direction in which consumption $c$ evolves.
@@ -828,7 +829,7 @@ The value $k^{\star}$ can be easily computed: $k^{\star} = {f^{\prime}}^{-1}\lef
 <p>We can proceed similarly with the motion of capital.
 The relevant equation in this case is:</p>
 <p>$$k_{t+1} = f(k_{t}) + (1- \delta)k_{t} - c_{t}.$$</p>
-<p>As before, we are interested by the combinations of $(k,c)$ such that capital remains constant over time.
+<p>As before, we are interested in the combinations of $(k,c)$ such that capital remains constant over time.
 In this case, though, and contrasting with the previous, we will obtain that both capital and consumption affect capital levels in the future: production uses current capital, and current consumption depletes current production.
 We can rearrange the previous equation to obtain the following:</p>
 <p>$$k_{t+1} - k_{t} = f(k_{t}) - \delta k_{t} - c_{t}.$$

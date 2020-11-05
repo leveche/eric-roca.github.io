@@ -22,7 +22,7 @@
 &lt;p&gt;A function of N variables $f(x_{1}, \ldots, x_{N})$ defined for all non-negative values $(x_{1}, \ldots, x_{N})$ is &lt;strong&gt;homogeneous of degree $p$&lt;/strong&gt; if:&lt;/p&gt;
 &lt;p&gt;$$f(\lambda x_{1}, \ldots, \lambda x_{N}) = \lambda^{p} f(x_{1}, \ldots, x_{N}) \forall \lambda &amp;gt; 0.$$&lt;/p&gt;
 &lt;p&gt;Hence, if we scale all the components $x_{1}, \ldots, x_{N}$ of the function by the same amount $\lambda$, the result that we obtain is equal to the one before scaling times $\lambda^{p}.$
-Productions functions are often homogeneous of degree one: if all inputs are doubled, the output doubles as well.&lt;/p&gt;
+Production functions are often homogeneous of degree one: if all inputs are doubled, the output doubles as well.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Example: A Cobb-Douglass production function&lt;/strong&gt;
 A Cobb-Douglass production function is of degree one.
 To see this, take its typical form:&lt;/p&gt;
@@ -31,18 +31,18 @@ To see this, take its typical form:&lt;/p&gt;
 Indeed, $f(\lambda x, \lambda y) = (\lambda x)^{\alpha} (\lambda y)^{1-\alpha} = \lambda x^{\alpha} y^{1-\alpha} = \lambda f(x,y).$&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Example: A CES production function&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;A CES production function takes the form $f(x,y) = \left(\alpha x^{\eta} + (1-\alpha) y ^{\eta}\right)^{\frac{\zeta}{\eta}},, \eta \leq 1.$
-Such type of function is homogeneous of degree $\zeta:$&lt;/p&gt;
+This type of function is homogeneous of degree $\zeta:$&lt;/p&gt;
 &lt;p&gt;$$f(\lambda x, \lambda y) = \left(\alpha \lambda^{\eta} x^{\eta} + (1-\alpha) \lambda^{\eta} y^{\eta}\right)^{\frac{\zeta}{\eta}} = \lambda^{\zeta} f(x,y).$$&lt;/p&gt;
 &lt;h3 id=&#34;properties-of-the-derivatives-of-homogeneous-functions&#34;&gt;Properties of the derivatives of homogeneous functions&lt;/h3&gt;
 &lt;p&gt;Assume that $f$ is continuously differentiable of as many degrees as required.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The derivative of a function homogeneous of degree $p$ is homogeneous of degree $p-1$.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;If a function $f$ is of degree $p$, then for any $n = 1, \ldots, N$ the partial derivative $\partial f(x_{1}, \ldots, x_{N})/\partial x_{n}$ is of degree $p-1.$&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; see proof in Mas-Colell et al.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Examples&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Examples:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;A Cobb-Douglas production function $f(x,y) = x^{\alpha} y^{1-\alpha}$ has derivates equal to $f_{x}(x,y) =  \alpha x^{\alpha-1} y^{1-\alpha}$ and $f_{y}(x,y) = (1-\alpha) x^{\alpha} y^{-\alpha}.$
-Then it easy to check that
+Then it is easy to check that
 $$f_{x}(\lambda x, \lambda y) = \lambda^{0} f_{x}(x,y)$$
 and
 $$f_{y}(\lambda x, \lambda y) = \lambda^{0} f_{y}(x,y),$$
@@ -59,9 +59,9 @@ We can proceed similarly for $y$.&lt;/p&gt;
 &lt;p&gt;This is an interesting property of homogeneous functions.
 In particular, it is useful in showing that, if the production function is homogeneous of degree one and factors are paid their marginal product, then profits are zero.&lt;/p&gt;
 &lt;p&gt;Suppose that $f(x_{1}, \ldots, x_{N})$ is homogeneous of degree $p$ and differentiable.
-Then, at any set of values $(\bar{x_{1}}, \ldots, \bar{x_{N}})$ we have:&lt;/p&gt;
+So, at any set of values $(\bar{x_{1}}, \ldots, \bar{x_{N}})$ we have:&lt;/p&gt;
 &lt;p&gt;$$\sum_{n=1}^{N} \frac{\partial f(\bar{x_{1}}, \ldots, \bar{x_{N}})}{\partial x_{n}} \bar{x_{n}} = p f(\bar{x_{1}}, \ldots, x_{N}).$$&lt;/p&gt;
-&lt;p&gt;In words, if we multiply the derivatives by the variable with respect which we derivate and add all them up, we retrieve the original function $p$ times.
+&lt;p&gt;In words, if we multiply the derivatives by the variable with respect which we derivate and add all of them up, we retrieve the original function $p$ times.
 Setting $p=1$ delivers the property we announced before.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
@@ -72,7 +72,7 @@ Marginal products are
 $$f_{x} = \alpha x^{\alpha -1}y^{1-\alpha}$$
 and
 $$f_{y} = (1-\alpha) x^{\alpha} y^{-\alpha}.$$
-Applying the Euler&amp;rsquo;s formula we get:
+Applying Euler&amp;rsquo;s formula we get:
 $$f_{x} x + f_{y} y = \alpha x^{\alpha - 1} y^{1-\alpha} x + (1-\alpha) x^{\alpha} y^{-\alpha} y = f(x,y).$$
 Hence, the total amount produced ($f(x,y)$) is distributed to factor owners, and the firm necessarily makes zero profits.&lt;/li&gt;
 &lt;/ol&gt;
@@ -95,7 +95,7 @@ $$F(K,L) = F_{K} K + F_{L} L$$
 hence, isolating
 $$F_{L} = \frac{F(K,L) - F^{\prime}_{K} K}{L}.$$
 We know that $F(K,L)$ is homogeneous of degree one, hence $F\left(\frac{K}{L},1\right) = \frac{F(K,L)}{L}.$
-Therefore
+Therefore,
 $$F_{L} = F\left(\frac{K}{L}\right) - F^{\prime}_{K}\frac{K}{L} = f(k) - f^{\prime}(k) k,$$
 where we use the fact that $F^{\prime}_{K}$ is homogeneous of degree zero ($F$ was homogeneous of degree one) and we can divide the arguments without changing the value of the function:
 $$F^{\prime}(K,L) =F^{\prime}\left(\frac{K}{L},\frac{L}{L}\right) = f^{\prime}(k).$$&lt;/p&gt;
@@ -112,7 +112,7 @@ $$F^{\prime}(K,L) =F^{\prime}\left(\frac{K}{L},\frac{L}{L}\right) = f^{\prime}(k
 These can either be in continuous or discrete time.
 In this note, we focus only on the discrete-time case, but the intuition carries over to the continuous case.
 When equations are in discrete time, we call time &lt;em&gt;difference equations&lt;/em&gt;.
-The continuous-time equivalent are called &lt;em&gt;differential equations.&lt;/em&gt;
+The continuous-time equivalents are called &lt;em&gt;differential equations.&lt;/em&gt;
 &lt;strong&gt;Note:&lt;/strong&gt; the conditions for stability change between the continuous and discrete-time cases.&lt;/p&gt;
 &lt;h2 id=&#34;a-dynamic-equation-one-dimensional-case&#34;&gt;A dynamic equation: one-dimensional case&lt;/h2&gt;
 &lt;p&gt;A dynamic equation is an equation that relates the state of a variable through time to the value the variable took in previous periods.
@@ -129,7 +129,7 @@ Equivalently, once reached, the value of the variable $x$ remains unchanged.
 Mathematically, $\bar{x}$ is a steady state of a first-order difference equation if&lt;/p&gt;
 &lt;p&gt;$$\bar{x} = f(\bar{x}).$$&lt;/p&gt;
 &lt;p&gt;Proving that a steady state $\bar{x}$ exists may involve using different techniques.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt; Assume that following first-order difference equation:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt; Assume the following first-order difference equation:&lt;/p&gt;
 &lt;p&gt;$$x_{t+1} = x_{t}^{\eta} +\kappa, \kappa&amp;gt;0, \eta \in (0,1).$$&lt;/p&gt;
 &lt;p&gt;The steady state solves: $\bar{x} = \bar{x}^{\eta}+\kappa$.&lt;/p&gt;
 &lt;p&gt;To show that it exists we can prove that the function $F(\bar{x}) = \bar{x} - \bar{x}^{\eta} - \kappa$ as at least one root.&lt;br/&gt;
@@ -165,7 +165,7 @@ Then&lt;/p&gt;
 &lt;p&gt;Intuitively, the condition for stability requires that we approach the steady state slowly.
 In other terms, the curvature of $f$ is smaller than 1.
 Therefore, although $x_{t}$ grows over time, every time the increase in its value becomes smaller, eventually tending towards zero.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt; let $x_{t} = f(x_{t-1}) = x_{t-1}^{0.5}$. This first-order difference equation has a two steady states: $\bar{x}_{1} = 0$ and $\bar{x}_{2} = 1.$
+&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt; let $x_{t} = f(x_{t-1}) = x_{t-1}^{0.5}$. This first-order difference equation has two steady states: $\bar{x}_{1} = 0$ and $\bar{x}_{2} = 1.$
 The first derivative is $f^{\prime} = 0.5 x_{t-1}^{-0.5}.$
 Evaluating it at the steady states results in the following:&lt;/p&gt;
 &lt;p&gt;$$ \lim_{\bar{x} \rightarrow {\bar{x}_{1}}^{+}} |f^{\prime}(\bar{x}_{1})| = + \infty, $$
@@ -212,12 +212,13 @@ Instead, we can analyse the stability of the system using a first-order Taylor a
 &lt;p&gt;$$f^{1}(x^{1}, \ldots, x^{N}) - f^{1}(\bar{x}^{1}, \ldots, \bar{x}^{N}) \simeq \sum_{i=1}^{N} {f^{1}_{i}}^{\prime}(\bar{x}^{1}, \ldots, \bar{x}^{N})(x^{i} - \bar{x}^{i}),$$&lt;/p&gt;
 &lt;p&gt;and similarly for $f^{2}(\cdot), \ldots, f^{N}(\cdot).$
 We can express these in matrix notation:&lt;/p&gt;
-&lt;h1 id=&#34;endpmatrix&#34;&gt;$$\begin{pmatrix}
+&lt;p&gt;$$
+\begin{pmatrix}
 x^{1}_{t+1} - x^{1}_{t} \\\&lt;br&gt;
 \vdots \\\&lt;br&gt;
 x^{N}_{t+1} - x^{N}_{t}
-\end{pmatrix}&lt;/h1&gt;
-&lt;p&gt;\bar{A}
+\end{pmatrix}
+= \bar{A}
 \begin{pmatrix}
 x^{1}_{t} - \bar{x}^{1} \\\&lt;br&gt;
 \vdots \\\&lt;br&gt;
@@ -234,14 +235,14 @@ where $\bar{A}$ is an $N \times N$ matrix of the derivatives of $f^{1}(\cdot), \
 $$&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; the matrix $\bar{A}$ is &lt;em&gt;evaluated at the steady state&lt;/em&gt; $(\bar{x}^{1}, \ldots, \bar{x}^{N})$.&lt;/p&gt;
 &lt;h3 id=&#34;hyperbolicity-of-the-hyperplane&#34;&gt;Hyperbolicity of the hyperplane&lt;/h3&gt;
-&lt;p&gt;Assume that functions $f^{1}(\cdot), \ldots, f^{N}(\cdot)$ are continuously differentiable in $\mathcal{J}$. Let $(\bar{x}^{1}, \ldots, \bar{x}^{N})$ be a steady-state in $\mathcal{J}.$ If the moduli of the eigenvalues of the Jacobian are different from 1 $(|\lambda_{1}| \neq 1, \ldots, |\lambda_{N} \neq 1),$ then the steady state &lt;em&gt;is hyperbolic&lt;/em&gt;.
+&lt;p&gt;Assume that functions $f^{1}(\cdot), \ldots, f^{N}(\cdot)$ are continuously differentiable in $\mathcal{J}$. Let $(\bar{x}^{1}, \ldots, \bar{x}^{N})$ be a steady state in $\mathcal{J}.$ If the moduli of the eigenvalues of the Jacobian are different from 1 $(|\lambda_{1}| \neq 1, \ldots, |\lambda_{N} \neq 1),$ then the steady state &lt;em&gt;is hyperbolic&lt;/em&gt;.
 If &lt;em&gt;any&lt;/em&gt; of the eigenvalues equals 1, then the steady state is &lt;em&gt;non-hyperbolic&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;However, even if the steady state is non-hyperbolic, adequately choosing the initial conditions for the control variables can put it in a &lt;em&gt;saddle-path trajectory&lt;/em&gt;, this is, one that leads to the steady state.
-In that case, we need that some eigenvalues are within the unit circle: $(-1,1).$&lt;/p&gt;
+In that case, we need some eigenvalues to be within the unit circle: $(-1,1).$&lt;/p&gt;
 &lt;p&gt;A steady state is stable if all the eigenvalues associated to the Jacobian matrix are inside the unit circle $(-1,1).$
 This is, if we denote the eigenvalues by $\lambda_1, \lambda_2,\ldots, \lambda_N,$ the steady state is stable if and only if $\lambda_i \in (-1,1), i=1,\ldots,N.$&lt;/p&gt;
 &lt;p&gt;In many economic applications we often find that one eigenvalue is outside the unit circle.
-Blanchard-Kahn characterise the types of steady states.&lt;/p&gt;
+Blanchard-Kahn characterises the types of steady states.&lt;/p&gt;
 &lt;details&gt;
 &lt;summary&gt;Blanchard-Kahn conditions&lt;/summary&gt;
 Denote by $l$ the number of eigenvalues in the unit circle, and denote by $m$ the number of pre-determined state variables:
@@ -299,7 +300,7 @@ Solving for $k_{t}$ gives us $k_{t} = D - \frac{c_{0}(1-\beta^{t})}{1-\beta}.$
 At this point, we can no longer proceed (we have the unknown $D$) unless we have the extra restriction given by the transversality condition.
 If we use it, which reads, $\lim_{t \rightarrow \infty} \beta^{t} u^{\prime} (c_{t})k_{t+1}=0$ we can substitute $c_{t} = \beta^{t} c_{0}$.
 Therefore: $\lim_{t \rightarrow \infty} \beta^{t} \frac{1}{c_{t} k_{t+1}} = \lim_{t \rightarrow \infty} \beta^{t} \frac{1}{\beta^{t} c_{0}} k_{t+1} = \lim_{t \rightarrow \infty} k_{t+1} = 0.$
-So, at the limit, the size of the cake becomes zero, and we eat it completely.&amp;lt;br&amp;gt;
+So, at the limit, the size of the cake becomes zero, and we eat it completely.&lt;br/&gt;
 &lt;strong&gt;Note:&lt;/strong&gt; This makes sense, because utility is increasing in consumption and leaving something behind would be a waste of resources.&lt;/p&gt;
 &lt;p&gt;Now, with this additional information ($\lim_{t \rightarrow \infty} k_{t+1} = 0$) we can close the problem using:
 $k_{t+1} = D - \frac{c_{0}(1-\beta^{t-1})}{1-\beta}$.
@@ -410,17 +411,17 @@ Mathematically, for inputs $x_{1}$ and $x_{2}$ and a production function $f(x_{1
 &lt;p&gt;Assuming perfect competition, factor prices equal their margial product: $p_{1} = \frac{\partial f(x_{1},x_{2})}{\partial x_{1}}.$
 Hence:&lt;/p&gt;
 &lt;p&gt;$$\sigma_{1,2} =
-\color{orange}{\boldsymbol{-}} \frac{ \partial \frac{x_{1}}{x_{2}}}
+\textcolor{orange}{\boldsymbol{-}} \frac{ \partial \frac{x_{1}}{x_{2}}}
 {\partial \frac{ \frac{\partial f(x_{1},x_{2})}{\partial x_{1}}}{\frac{ \partial f(x_{1},x_{2})}{\partial x_{2}}}}&lt;br&gt;
 \frac{ \frac{ \frac{ \partial f(x_{1},x_{2})}{\partial x_{1}}}{ \frac{ \partial f(x_{1},x_{2})}{\partial x_{2}}}}
 { \frac{x_{1}}{x_{2}}} =
-\color{orange}{\boldsymbol{-}} \frac{ \partial \ln \left( \frac{x_1}{x_2} \right)}
+\textcolor{orange}{\boldsymbol{-}} \frac{ \partial \ln \left( \frac{x_1}{x_2} \right)}
 {\partial \ln \left( \frac{ \frac{\partial f(x_1,x_2)}{\color{red}{\partial x_1}}}{\frac{ \partial f(x_1, x_2)}{\color{green}{\partial x_2}}} \right)} =
 \frac{ \partial \ln \left( \frac{x_1}{x_2} \right)}
 {\partial \ln \left( \frac{ \frac{\partial f(x_1,x_2)}{ \color{green}{\partial x_2}}}{\frac{ \partial f(x_1, x_2)}{\color{red}{\partial x_1}}} \right)}
 $$&lt;/p&gt;
 &lt;h2 id=&#34;cobb-douglas-example&#34;&gt;Cobb-Douglas example&lt;/h2&gt;
-&lt;p&gt;Cobb-Douglas production functions have an elasticity of substitution equal to one.&lt;/p&gt;
+&lt;p&gt;The Cobb-Douglas production function has an elasticity of substitution equal to one.&lt;/p&gt;
 &lt;p&gt;$$\begin{eqnarray}
 &amp;amp; F(K,L)= A K^\alpha L^{1-\alpha}, \\\&lt;br&gt;
 &amp;amp; w = A(1-\alpha) K^\alpha L^{-\alpha}, \\\&lt;br&gt;
@@ -473,7 +474,7 @@ First, we rewrite the first order condition using some substitutions:&lt;/p&gt;
 &lt;p&gt;$$-u_c (c, R(w-c)) + R u_d (c, R(w-c)) =0.$$&lt;/p&gt;
 &lt;p&gt;Using implicit derivation we have:&lt;/p&gt;
 &lt;p&gt;$$\frac{\partial c}{\partial w} = - \frac{ -R u_{cd} + R^2 u_{dd}}{-u_{cc} + u_{cd} R + u_{dc} R -u_{dd} R^2} = \frac{R(u_{cd} - R u_{dd})}{-\underbrace{u_{cc}}_{&amp;lt;0} + 2 R u_{cd} - R^2 \underbrace{u_{dd}}_{&amp;lt;0}} &amp;gt;0$$&lt;/p&gt;
-&lt;center&gt;**if and only if**&lt;/center&gt;
+&lt;center&gt; if and only if &lt;/center&gt;
 &lt;p&gt;$$u_{cd}- R u_{dd} &amp;gt;0.$$&lt;/p&gt;
 &lt;p&gt;Since, in equilibrium $R = \frac{u_c}{u_d}$, the condition becomes&lt;/p&gt;
 &lt;p&gt;$$\frac{u_{cd}}{u_c} - \frac{u_{dd}}{u_d} &amp;gt; 0.$$&lt;/p&gt;
@@ -482,7 +483,7 @@ First, we rewrite the first order condition using some substitutions:&lt;/p&gt;
 &lt;p&gt;$$ - u_c (w-\frac{d}{R}, d) + R u_d(w-\frac{d}{R}, d).$$&lt;/p&gt;
 &lt;p&gt;Hence, we can compute the derivative&lt;/p&gt;
 &lt;p&gt;$$\frac{\partial d}{\partial w} = - \frac{-u_{cc} + R u_{cd}}{u_{cc} \frac{1}{R} - u_{cd} - u_{cd} + u_{dd} R} = \frac{R (R u_{cd} - u_{cc})}{-\underbrace{u_{cc} +2Ru_{cd} - R^2 u_{dd}}_{&amp;gt;0}} &amp;gt; 0$$&lt;/p&gt;
-&lt;center&gt;**if and only if**&lt;/center&gt;
+&lt;center&gt;if and only if&lt;/center&gt;
 &lt;p&gt;$$R u_{cd} - u_{cc} &amp;gt; 0 \implies \frac{u_{cd}}{u_d}-\frac{u_{cc}}{u_c} &amp;gt; 0.$$&lt;/p&gt;
 &lt;h2 id=&#34;savings-wages-and-interest-rate&#34;&gt;Savings, wages and interest rate&lt;/h2&gt;
 &lt;p&gt;We now show that savings are increasing in wages, and that they may increase or decrease with the interest rate.&lt;/p&gt;

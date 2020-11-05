@@ -773,7 +773,7 @@ Homogeneity A function of N variables $f(x_{1}, \ldots, x_{N})$ defined for all 
 <p>A function of N variables $f(x_{1}, \ldots, x_{N})$ defined for all non-negative values $(x_{1}, \ldots, x_{N})$ is <strong>homogeneous of degree $p$</strong> if:</p>
 <p>$$f(\lambda x_{1}, \ldots, \lambda x_{N}) = \lambda^{p} f(x_{1}, \ldots, x_{N}) \forall \lambda &gt; 0.$$</p>
 <p>Hence, if we scale all the components $x_{1}, \ldots, x_{N}$ of the function by the same amount $\lambda$, the result that we obtain is equal to the one before scaling times $\lambda^{p}.$
-Productions functions are often homogeneous of degree one: if all inputs are doubled, the output doubles as well.</p>
+Production functions are often homogeneous of degree one: if all inputs are doubled, the output doubles as well.</p>
 <p><strong>Example: A Cobb-Douglass production function</strong>
 A Cobb-Douglass production function is of degree one.
 To see this, take its typical form:</p>
@@ -782,18 +782,18 @@ To see this, take its typical form:</p>
 Indeed, $f(\lambda x, \lambda y) = (\lambda x)^{\alpha} (\lambda y)^{1-\alpha} = \lambda x^{\alpha} y^{1-\alpha} = \lambda f(x,y).$</p>
 <p><strong>Example: A CES production function</strong></p>
 <p>A CES production function takes the form $f(x,y) = \left(\alpha x^{\eta} + (1-\alpha) y ^{\eta}\right)^{\frac{\zeta}{\eta}},, \eta \leq 1.$
-Such type of function is homogeneous of degree $\zeta:$</p>
+This type of function is homogeneous of degree $\zeta:$</p>
 <p>$$f(\lambda x, \lambda y) = \left(\alpha \lambda^{\eta} x^{\eta} + (1-\alpha) \lambda^{\eta} y^{\eta}\right)^{\frac{\zeta}{\eta}} = \lambda^{\zeta} f(x,y).$$</p>
 <h3 id="properties-of-the-derivatives-of-homogeneous-functions">Properties of the derivatives of homogeneous functions</h3>
 <p>Assume that $f$ is continuously differentiable of as many degrees as required.</p>
 <p><strong>The derivative of a function homogeneous of degree $p$ is homogeneous of degree $p-1$.</strong></p>
 <p>If a function $f$ is of degree $p$, then for any $n = 1, \ldots, N$ the partial derivative $\partial f(x_{1}, \ldots, x_{N})/\partial x_{n}$ is of degree $p-1.$</p>
 <p><strong>Note:</strong> see proof in Mas-Colell et al.</p>
-<p><strong>Examples</strong></p>
+<p><strong>Examples:</strong></p>
 <ol>
 <li>
 <p>A Cobb-Douglas production function $f(x,y) = x^{\alpha} y^{1-\alpha}$ has derivates equal to $f_{x}(x,y) =  \alpha x^{\alpha-1} y^{1-\alpha}$ and $f_{y}(x,y) = (1-\alpha) x^{\alpha} y^{-\alpha}.$
-Then it easy to check that
+Then it is easy to check that
 $$f_{x}(\lambda x, \lambda y) = \lambda^{0} f_{x}(x,y)$$
 and
 $$f_{y}(\lambda x, \lambda y) = \lambda^{0} f_{y}(x,y),$$
@@ -810,9 +810,9 @@ We can proceed similarly for $y$.</p>
 <p>This is an interesting property of homogeneous functions.
 In particular, it is useful in showing that, if the production function is homogeneous of degree one and factors are paid their marginal product, then profits are zero.</p>
 <p>Suppose that $f(x_{1}, \ldots, x_{N})$ is homogeneous of degree $p$ and differentiable.
-Then, at any set of values $(\bar{x_{1}}, \ldots, \bar{x_{N}})$ we have:</p>
+So, at any set of values $(\bar{x_{1}}, \ldots, \bar{x_{N}})$ we have:</p>
 <p>$$\sum_{n=1}^{N} \frac{\partial f(\bar{x_{1}}, \ldots, \bar{x_{N}})}{\partial x_{n}} \bar{x_{n}} = p f(\bar{x_{1}}, \ldots, x_{N}).$$</p>
-<p>In words, if we multiply the derivatives by the variable with respect which we derivate and add all them up, we retrieve the original function $p$ times.
+<p>In words, if we multiply the derivatives by the variable with respect which we derivate and add all of them up, we retrieve the original function $p$ times.
 Setting $p=1$ delivers the property we announced before.</p>
 <p><strong>Example</strong></p>
 <ol>
@@ -823,7 +823,7 @@ Marginal products are
 $$f_{x} = \alpha x^{\alpha -1}y^{1-\alpha}$$
 and
 $$f_{y} = (1-\alpha) x^{\alpha} y^{-\alpha}.$$
-Applying the Euler&rsquo;s formula we get:
+Applying Euler&rsquo;s formula we get:
 $$f_{x} x + f_{y} y = \alpha x^{\alpha - 1} y^{1-\alpha} x + (1-\alpha) x^{\alpha} y^{-\alpha} y = f(x,y).$$
 Hence, the total amount produced ($f(x,y)$) is distributed to factor owners, and the firm necessarily makes zero profits.</li>
 </ol>
@@ -846,7 +846,7 @@ $$F(K,L) = F_{K} K + F_{L} L$$
 hence, isolating
 $$F_{L} = \frac{F(K,L) - F^{\prime}_{K} K}{L}.$$
 We know that $F(K,L)$ is homogeneous of degree one, hence $F\left(\frac{K}{L},1\right) = \frac{F(K,L)}{L}.$
-Therefore
+Therefore,
 $$F_{L} = F\left(\frac{K}{L}\right) - F^{\prime}_{K}\frac{K}{L} = f(k) - f^{\prime}(k) k,$$
 where we use the fact that $F^{\prime}_{K}$ is homogeneous of degree zero ($F$ was homogeneous of degree one) and we can divide the arguments without changing the value of the function:
 $$F^{\prime}(K,L) =F^{\prime}\left(\frac{K}{L},\frac{L}{L}\right) = f^{\prime}(k).$$</p>

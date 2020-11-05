@@ -827,12 +827,12 @@ We can check that both functions satisfy the Inada conditions:</p>
 $$</p>
 <p>The production function, expressed in intensive terms, becomes:</p>
 <p>$$F(K_{t}, L_{t}) = L_{T} F\left(\frac{K_{t}}{L_{t}},1\right) = L_{t} f(k_{t}) = L_{t} k_{t}^{\alpha}, k_{t} \equiv \frac{K_{t}}{L_{t}}.$$
-with total production $Y_{t} = F(K_{t},L_{t})$ and production per capita equal to $y_{t} \equiv \frac{Y_{t}}{L_{t}} = f(k_{t}).$</p>
+with total production $Y_{t} = F(K_{t},L_{t})$ and production per capita is equal to $y_{t} \equiv \frac{Y_{t}}{L_{t}} = f(k_{t}).$</p>
 <h2 id="households-optimisation">Household&rsquo;s optimisation</h2>
 <p>Instead of using the results from previous sections, we develop again the utility maximisation.
 First, we write down the household&rsquo;s budget constraint:</p>
 <h3 id="households-budget-constraint">Household&rsquo;s budget constraint</h3>
-<p>At each period, total received income is composed of <em>wages</em> and <em>interests</em>.
+<p>At each period, the total received income is composed of <em>wages</em> and <em>interest</em>.
 It can be spent on <em>consumption</em> or <em>saving</em>.
 Remember that capital depreciates at a rate $\delta \in [0,1].$
 Hence, we receive back from firms $1-\delta$ times the capital we lend.
@@ -848,7 +848,7 @@ c_{t}, k_{t+1} &gt;0, k_{t=0} = k_{0} &gt; 0.
 $$</p>
 <p>The Lagrangian becomes:</p>
 <p>$$ \mathcal{L} = \sum_{t=0}^{\infty} \beta^{t} u(c_{t}) + \sum_{t=0}^{\infty} \lambda_{t}(w_{t} + (r_{t} + 1 - \delta)k_{t} - c_{t} - k_{t+1}).$$</p>
-<p>We use the first-order conditions with respect to $c_{t}$ and $k_{t+1}$ to find the optimal consumption path:the Euler equation, which we combine latter with the transversality condition.</p>
+<p>We use the first-order conditions with respect to $c_{t}$ and $k_{t+1}$ to find the optimal consumption path: the Euler equation, which we combine later with the transversality condition.</p>
 <p>$$\frac{\partial \mathcal{L}}{\partial c_{t}} = \beta^{t} u^{\prime}(c_{t}) - \lambda_{t} = \beta^{t}\frac{1}{c_{t}} - \lambda_{t} = 0$$
 $$\frac{\partial \mathcal{L}}{\partial k_{t+1}} = -\lambda_{t} + \lambda_{t+1} (r_{t+1} + 1 - \delta) = 0.$$</p>
 <p>Combining both, we obtain the Euler equation:</p>
@@ -942,13 +942,13 @@ The initial level of capital $k_{t=0} = 1.$</p>
 $$\lambda_{1} = 0.796618 \in (-1,1)$$ $$\lambda_{2} =1.39479 &gt; 1.$$</p>
 <p>One possible set of eigenvectors is given by:</p>
 <p>$$v_{1} = (0.314494 , 1), v_{2} = (-0.283675, 1)$$
-which are associated to $\lambda_{1}$ and $\lambda_{2}$, respectively.
+which are associated with $\lambda_{1}$ and $\lambda_{2}$, respectively.
 Hence, the matrix $X$ becomes:</p>
 <p>$$X = \begin{pmatrix} 0.314494 &amp; -0.283675 \\\ 1 &amp; 1 \end{pmatrix}.$$</p>
 <h3 id="solving-the-system">Solving the system</h3>
 <p>Applying the results from before the system is:</p>
 <p>$$\begin{pmatrix} c_{t} - \bar{c} \\\ k_{t} - \bar{k} \end{pmatrix} = z_{0}^{1}, 0.796618^{t} \begin{pmatrix} 0.314494 \\\ 1 \end{pmatrix} + z_{0}^{2}, 1.39479 \begin{pmatrix} -0.283675 \\\ 1 \end{pmatrix}.$$</p>
-<p>Since $\lambda_{2} &gt; 1$ we must set the value $z_{0}^{2} = 0$ to avoid an explosive behaviour.
+<p>Since $\lambda_{2} &gt; 1$ we must set the value $z_{0}^{2} = 0$ to avoid explosive behaviour.
 Consequently:</p>
 <p>$$\begin{pmatrix} c_{t} - \bar{c} \\\ k_{t} - \bar{k} \end{pmatrix} = z_{0}^{1}, 0.796618^{t} \begin{pmatrix} 0.314494 \\\ 1 \end{pmatrix}.$$</p>
 <p>To solve the system of equations, first set $t=0$ and focus on $k_t - \bar{k}.$</p>

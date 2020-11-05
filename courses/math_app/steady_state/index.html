@@ -755,13 +755,6 @@ Macroeconomic models often have dynamic equations relating different periods of 
     <li><a href="#first-order-systems-of-difference-equations">First-order systems of difference equations</a>
       <ul>
         <li><a href="#approximation">Stability of a first-order system of difference equations</a></li>
-      </ul>
-    </li>
-  </ul>
-
-  <ul>
-    <li>
-      <ul>
         <li><a href="#hyperbolicity-of-the-hyperplane">Hyperbolicity of the hyperplane</a></li>
       </ul>
     </li>
@@ -785,7 +778,7 @@ Macroeconomic models often have dynamic equations relating different periods of 
 These can either be in continuous or discrete time.
 In this note, we focus only on the discrete-time case, but the intuition carries over to the continuous case.
 When equations are in discrete time, we call time <em>difference equations</em>.
-The continuous-time equivalent are called <em>differential equations.</em>
+The continuous-time equivalents are called <em>differential equations.</em>
 <strong>Note:</strong> the conditions for stability change between the continuous and discrete-time cases.</p>
 <h2 id="a-dynamic-equation-one-dimensional-case">A dynamic equation: one-dimensional case</h2>
 <p>A dynamic equation is an equation that relates the state of a variable through time to the value the variable took in previous periods.
@@ -802,7 +795,7 @@ Equivalently, once reached, the value of the variable $x$ remains unchanged.
 Mathematically, $\bar{x}$ is a steady state of a first-order difference equation if</p>
 <p>$$\bar{x} = f(\bar{x}).$$</p>
 <p>Proving that a steady state $\bar{x}$ exists may involve using different techniques.</p>
-<p><strong>Example:</strong> Assume that following first-order difference equation:</p>
+<p><strong>Example:</strong> Assume the following first-order difference equation:</p>
 <p>$$x_{t+1} = x_{t}^{\eta} +\kappa, \kappa&gt;0, \eta \in (0,1).$$</p>
 <p>The steady state solves: $\bar{x} = \bar{x}^{\eta}+\kappa$.</p>
 <p>To show that it exists we can prove that the function $F(\bar{x}) = \bar{x} - \bar{x}^{\eta} - \kappa$ as at least one root.<br/>
@@ -838,7 +831,7 @@ Then</p>
 <p>Intuitively, the condition for stability requires that we approach the steady state slowly.
 In other terms, the curvature of $f$ is smaller than 1.
 Therefore, although $x_{t}$ grows over time, every time the increase in its value becomes smaller, eventually tending towards zero.</p>
-<p><strong>Example:</strong> let $x_{t} = f(x_{t-1}) = x_{t-1}^{0.5}$. This first-order difference equation has a two steady states: $\bar{x}_{1} = 0$ and $\bar{x}_{2} = 1.$
+<p><strong>Example:</strong> let $x_{t} = f(x_{t-1}) = x_{t-1}^{0.5}$. This first-order difference equation has two steady states: $\bar{x}_{1} = 0$ and $\bar{x}_{2} = 1.$
 The first derivative is $f^{\prime} = 0.5 x_{t-1}^{-0.5}.$
 Evaluating it at the steady states results in the following:</p>
 <p>$$ \lim_{\bar{x} \rightarrow {\bar{x}_{1}}^{+}} |f^{\prime}(\bar{x}_{1})| = + \infty, $$
@@ -885,12 +878,13 @@ Instead, we can analyse the stability of the system using a first-order Taylor a
 <p>$$f^{1}(x^{1}, \ldots, x^{N}) - f^{1}(\bar{x}^{1}, \ldots, \bar{x}^{N}) \simeq \sum_{i=1}^{N} {f^{1}_{i}}^{\prime}(\bar{x}^{1}, \ldots, \bar{x}^{N})(x^{i} - \bar{x}^{i}),$$</p>
 <p>and similarly for $f^{2}(\cdot), \ldots, f^{N}(\cdot).$
 We can express these in matrix notation:</p>
-<h1 id="endpmatrix">$$\begin{pmatrix}
+<p>$$
+\begin{pmatrix}
 x^{1}_{t+1} - x^{1}_{t} \\\<br>
 \vdots \\\<br>
 x^{N}_{t+1} - x^{N}_{t}
-\end{pmatrix}</h1>
-<p>\bar{A}
+\end{pmatrix}
+= \bar{A}
 \begin{pmatrix}
 x^{1}_{t} - \bar{x}^{1} \\\<br>
 \vdots \\\<br>
@@ -907,14 +901,14 @@ where $\bar{A}$ is an $N \times N$ matrix of the derivatives of $f^{1}(\cdot), \
 $$</p>
 <p><strong>Note:</strong> the matrix $\bar{A}$ is <em>evaluated at the steady state</em> $(\bar{x}^{1}, \ldots, \bar{x}^{N})$.</p>
 <h3 id="hyperbolicity-of-the-hyperplane">Hyperbolicity of the hyperplane</h3>
-<p>Assume that functions $f^{1}(\cdot), \ldots, f^{N}(\cdot)$ are continuously differentiable in $\mathcal{J}$. Let $(\bar{x}^{1}, \ldots, \bar{x}^{N})$ be a steady-state in $\mathcal{J}.$ If the moduli of the eigenvalues of the Jacobian are different from 1 $(|\lambda_{1}| \neq 1, \ldots, |\lambda_{N} \neq 1),$ then the steady state <em>is hyperbolic</em>.
+<p>Assume that functions $f^{1}(\cdot), \ldots, f^{N}(\cdot)$ are continuously differentiable in $\mathcal{J}$. Let $(\bar{x}^{1}, \ldots, \bar{x}^{N})$ be a steady state in $\mathcal{J}.$ If the moduli of the eigenvalues of the Jacobian are different from 1 $(|\lambda_{1}| \neq 1, \ldots, |\lambda_{N} \neq 1),$ then the steady state <em>is hyperbolic</em>.
 If <em>any</em> of the eigenvalues equals 1, then the steady state is <em>non-hyperbolic</em>.</p>
 <p>However, even if the steady state is non-hyperbolic, adequately choosing the initial conditions for the control variables can put it in a <em>saddle-path trajectory</em>, this is, one that leads to the steady state.
-In that case, we need that some eigenvalues are within the unit circle: $(-1,1).$</p>
+In that case, we need some eigenvalues to be within the unit circle: $(-1,1).$</p>
 <p>A steady state is stable if all the eigenvalues associated to the Jacobian matrix are inside the unit circle $(-1,1).$
 This is, if we denote the eigenvalues by $\lambda_1, \lambda_2,\ldots, \lambda_N,$ the steady state is stable if and only if $\lambda_i \in (-1,1), i=1,\ldots,N.$</p>
 <p>In many economic applications we often find that one eigenvalue is outside the unit circle.
-Blanchard-Kahn characterise the types of steady states.</p>
+Blanchard-Kahn characterises the types of steady states.</p>
 <details>
 <summary>Blanchard-Kahn conditions</summary>
 Denote by $l$ the number of eigenvalues in the unit circle, and denote by $m$ the number of pre-determined state variables:

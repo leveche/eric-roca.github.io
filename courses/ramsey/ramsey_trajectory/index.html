@@ -810,16 +810,16 @@ c_{t} - \bar{c} \\\ k_{t} - \bar{k}
 <h3 id="diagonalising-the-matrix-eigenvalues-and-eigenvectors">Diagonalising the matrix: eigenvalues and eigenvectors</h3>
 <p><strong>Note:</strong> based on the notes by 
 <a href="http://www.princeton.edu/~moll/ECO503Web/Lecture4_ECO503.pdf" target="_blank" rel="noopener">Benjamin Moll</a>.</p>
-<p>To simplify notation, let $y_{t} = \begin{pmatrix} c_{t} - \bar{c} \\\ k_{t} -\bar{k} \end{pmatrix}.$
+<p>To simplify the notation, let $y_{t} = \begin{pmatrix} c_{t} - \bar{c} \\\ k_{t} -\bar{k} \end{pmatrix}.$
 Hence, our problem becomes:
 $$y_{t+1} = \bar{A} y_{t}.$$</p>
 <p>It $\bar{A}$ were a diagonal matrix, the solution to the system would be straightforward.
-In fact, if that were the case would have been (I change variables to avoid confusion):</p>
+In fact, if that were the case it would have been (I change variables to avoid confusion):</p>
 <p>$$\begin{pmatrix} \phi_{t+1} \\ \omega_{t+1} \end{pmatrix} = \begin{pmatrix} a_{1,1} &amp; 0 \\\ 0 &amp; a_{2,2} \end{pmatrix} \begin{pmatrix} \phi_{t} \\\ \omega_{t} \end{pmatrix}.$$
-Then, it is clear that $\phi_{t+1} = a_{1,1} \phi_{t} \implies \phi_{t} = a_{1,1}^{t} \phi_{0}$ and we would find a similar expression for $\omega.$</p>
+So, it is clear that $\phi_{t+1} = a_{1,1} \phi_{t} \implies \phi_{t} = a_{1,1}^{t} \phi_{0}$ and we would find a similar expression for $\omega.$</p>
 <p>$\bar{A}$ is not diagonal, but we can apply a spectral decomposition and obtain an equivalent system governed by a diagonal matrix.
-In particular, we look for an $2 \times 2$ invertible matrix $X$ such that $ X^{-1} \bar{A} X = `Lambda$, where $\Lambda$ is diagonal.
-Then, we apply the following transformation to our system (pre-multiplying by $\color{red}{X^{-1}}$ on both sides and multiplying by $\color{green}{XX^{-1}}$ on the right-hand side).
+In particular, we are looking for an $2 \times 2$ invertible matrix $X$ such that $ X^{-1} \bar{A} X = `Lambda$, where $\Lambda$ is diagonal.
+We will then apply the following transformation to our system (pre-multiplying by $\color{red}{X^{-1}}$ on both sides and multiplying by $\color{green}{XX^{-1}}$ on the right-hand side).
 $$ \color{red}{X^{-1}} y_{t+1} = \color{red}{X^{-1}} \bar{A} \color{green}{(X X^{-1})} y_{t} = X^{-1} \bar{A} X (X^{-1} y_{t}) =$$
 $$ = \Lambda X^{-1} y_{t}.$$</p>
 <p>Denote $z \equiv X^{-1} y$.
@@ -829,7 +829,7 @@ Since $\Lambda$ is diagonal, the solutions are of the form:
 $$z_{t} = \Lambda^{t} z_{0}.$$
 <strong>Note:</strong> in general, the power of a matrix is complex.
 However, for a <em>diagonal matrix</em> it is simply the power of each component.</p>
-<p>Once we have the solution for the transformed system we must undo the transformation: in fact, we do not care abut the evolution of $z$.
+<p>Once we have the solution for the transformed system we must undo the transformation: in fact, we do not care about the evolution of $z$.
 This step involves using that $X^{-1} y = z \implies y = X z$.</p>
 <h4 id="the-matrix-lambda">The matrix $\Lambda$</h4>
 <p>In a spectral decomposition, the diagonal matrix $\Lambda$ consists of the matrix whose entries are its eigenvalues.
@@ -840,7 +840,7 @@ $$\Lambda = \begin{pmatrix}
 \end{pmatrix}.$$</p>
 <h4 id="the-matrix-x">The matrix $X$</h4>
 <p>The matrix $X$ has as columns the eigenvectors of $\bar{A}.$
-There is one eigenvector associated to each eigenvalue.
+There is one eigenvector associated with each eigenvalue.
 <strong>Note:</strong> it is important to correctly relate each eigenvector to its eigenvalue.</p>
 <p>To find an eigenvector associated with $\lambda_{1}$ (<em>there are infinitely many possible eigenvectors, we only want one</em>) we solve the following system:</p>
 <p>$$\bar{A} \begin{pmatrix} v_{1} \\\ v_{2} \end{pmatrix} = \lambda_{1} \begin{pmatrix} v_{1} \\\ v_{2} \end{pmatrix} \quad \mathrm{or} \quad (\bar{A} - \lambda_{1} \mathbb{I})
@@ -849,7 +849,7 @@ There is one eigenvector associated to each eigenvalue.
 <p>$$X = \begin{pmatrix} v_{1,1} &amp; v_{2,1} \\\ 1 &amp; 1 \end{pmatrix}.$$</p>
 <h3 id="solving-the-system">Solving the system</h3>
 <p>We begin with the solution for the transformed variable $z.$
-We already know its takes the form:</p>
+We already know it takes the form:</p>
 <p>$$z_{t} = \Lambda^{t} z_{0} \quad \mathrm{or} \quad \begin{pmatrix} z_{t}^{1} \\\ z_{t}^{2} \end{pmatrix} = \begin{pmatrix} \lambda_{1}^{t} &amp; 0 \\\ 0 &amp; \lambda_{2}^{t} \end{pmatrix} \begin{pmatrix} v_{0}^{1} \\\ v_{0}^{2} \end{pmatrix}.$$</p>
 <p>Next, we reverse the transformation, this is, we obtain the dynamics of $y: y_{t} = X z_{t}.$
 Therefore, we obtain:</p>
@@ -858,9 +858,9 @@ Therefore, we obtain:</p>
 <p>$$\begin{pmatrix} c_{t} - \bar{c} \\\ k_{t} - \bar{k} \end{pmatrix} = z_{0}^{1} \lambda_{1}^{t} \begin{pmatrix} v_{1,1} \\\ v_{1,2} \end{pmatrix} + z_{0}^{2} \lambda_{2}^{t} \begin{pmatrix} v_{2,1} \\\ v_{2,2} \end{pmatrix}.$$</p>
 <p>The eigenvalues appear clearly in the solution.
 <strong>Remember</strong> that we know that one eigenvalue is bigger than one, while the second lies within the unit circle.
-Without lose of generality, assume that $\lambda_{1} \in (-1,1)$ and $\lambda_{2} &gt; 1.$
+Without loss of generality, assume that $\lambda_{1} \in (-1,1)$ and $\lambda_{2} &gt; 1.$
 According to the solution before, this implies an explosive behaviour: $\lambda_{2} &gt; 1 \implies \lim_{t \rightarrow +\infty} \lambda_{2}^{t} = +\infty.$
-To have a well-behaved dynamics we must impose $z_{0}^{2} = 0$, which eliminates the explosive behaviour.</p>
+To have well-behaved dynamics we must impose $z_{0}^{2} = 0$, which eliminates explosive behaviour.</p>
 <p>After imposing $z_{0}^{2} = 0$ the system becomes:</p>
 <p>$$\begin{pmatrix} c_{t} - \bar{c} \\\ k_{t} - \bar{k} \end{pmatrix} = z_{0}^{1} \lambda_{1}^{t} \begin{pmatrix} v_{1,1} \\\ v_{1,2} \end{pmatrix}.$$</p>
 <h4 id="closing-the-model-with-initial-values">Closing the model with initial values</h4>
@@ -869,7 +869,7 @@ Substituting $t=0$ in the equation above, and focusing on capital, we obtain:</p
 <p>$$k_{0} - \bar{k} = z_{0}^{1} v_{1,2} \implies \color{red}{z_{0}^{1} = \frac{k_{0} - \bar{k}}{v_{1,2}}}.$$
 Therefore, we can substitute the value for $z_{0}^{1}$ to obtain the dynamics of capital:</p>
 <p>$$k_{t} - \bar{k} = \color{red}{z_{0}^{1}} \lambda_{1}^{t} v_{1,2} = \left(k_{0} - \bar{k} \right) \lambda^{t}.$$</p>
-<p>Similarly, we have that for consumption:</p>
+<p>Similarly,for consumption we have:</p>
 <p>$$c_{t} - \bar{c} = \color{red}{z_{0}^{1}} \lambda_{1}^{t} v_{1,1} = \frac{v_{1,1}}{v_{1,2}} \lambda_{1}^{t} (k_{0} - \bar{k}).$$
 Finally, the initial value of consumption $c_{0}$ that puts the economy in the saddle path is obtained by setting $t=0$ in the previous equation:</p>
 <p>$$c_{0} - \bar{c} = \frac{v_{1,1}}{v_{1,2}} (k_{0} - \bar{k}).$$</p>

@@ -806,13 +806,13 @@ $$\lim_{c \rightarrow 0}u^{\prime}( c ) = +\infty$$
 $$\lim_{c \rightarrow +\infty}u^{\prime}( c ) = 0$$</li>
 </ul>
 <h2 id="households-budget-constraint">Household&rsquo;s budget constraint</h2>
-<p>At each period,the household receives labour income $(w_t)$ which uses to save $(k_{t+1})$ and consume $(c_t)$.
+<p>At each period, the household receives labour income $(w_t)$ which is used to save $(k_{t+1})$ and consume $(c_t)$.
 For simplicity, savings take the form of capital (instead of assets).
 Households lend capital to firms, obtaining a real interest $r_t$.
 However, capital is subject to a constant depreciation rate $\delta$.</p>
-<p>Therefore, each period of time, households face the following budget constraint:</p>
+<p>Therefore, at each period of time, households face the following budget constraint:</p>
 <p>$$c_{t} + k_{t+1} = w_{t} + r_{t} k_{t} + (1-\delta) k_{t}. \tag{2, Budget C.}$$</p>
-<p>The left-hand side represents expenditures during period $t$:</p>
+<p>The left-hand side represents expenditures during the period $t$:</p>
 <ul>
 <li>Consumption</li>
 <li>Saving</li>
@@ -827,24 +827,24 @@ However, capital is subject to a constant depreciation rate $\delta$.</p>
 </ul>
 </li>
 </ul>
-<p><strong>Note:</strong> The budget constraint could have included <em>dividends</em> $d_{t}$ in the right-hand side.
+<p><strong>Note:</strong> The budget constraint could have included <em>dividends</em> $d_{t}$ on the right-hand side.
 However, as we shall see, firms operate in perfect competition, and make zero profits.</p>
 <h2 id="solving-the-households-problem">Solving the household&rsquo;s problem</h2>
 <p>First, we assume that households have <strong>perfect foresight.</strong>
 This means that a household is able to perfectly forecast all the future values of the relevant variables when deciding.
 For instance, at time $t$ the household is able to correctly compute $r_{t+1}$ and $w_{t+1}.$</p>
 <p><strong>Assumption R2:</strong> Households have perfect foresight.</p>
-<p>We are interested in finding the optimal path consumption and savings path, this is, the one that yields maximum utility.
+<p>We are interested in finding the optimal consumption and savings path, this is, the one that yields maximum utility.
 Note that the problem is infinite, in the sense that we need to determine $c_{t}$ and $k_{t+1}$ for each and every period of time.
 From the perspective of a household, the intertemporal maximisation problem reads:</p>
 <p>$$\begin{eqnarray}
 &amp;\max_{c_{t}, k_{t+1}} \sum_{t=0}^{\infty} \beta^{t} u(c_{t}) \\\<br>
-&amp; c_{t} + k_{t+1}  = w_{t} + r_{t} k_{t} + (1- \delta) k_{t}.
+&amp; c_{t} + k_{t+1}  = w_{t} + r_{t} k_{t} + (1- \delta) k_{t} \forall t\geq0.
 \end{eqnarray}$$</p>
 <hr>
 <p>First, we write the Langrangian equation corresponding to the problem:</p>
 <p>$$\mathcal{L} = \sum_{t=0}^{\infty} \beta^t u(c_{t}) + \sum_{t=0}^{\infty} \lambda_{t}(w_{t} + r_{t}k_{t} + (1-\delta)k_{t} - c_{t} - k_{t+1}).$$</p>
-<p><strong>Note:</strong> this Lagrangian has infinite multipliers $\lambda,$ one for each period.</p>
+<p><strong>Note:</strong> this Lagrangian has infinite multipliers $\lambda_{t},$ one for each period.</p>
 <p>At time $t$, households have <em>two</em> decisions to make:</p>
 <ul>
 <li>How much to consume at $t$: $c_{t}$</li>
@@ -859,9 +859,9 @@ $$\frac{\partial \mathcal{L}}{\partial k_{t+1}} = - \lambda_{t} + \lambda_{t+1}(
 It tells us the optimal behaviour of the household.
 Rearranging the expression a little bit, we are left with a clearer expression linking present and future consumption:</p>
 <p>$$\frac{u^{\prime}(c_{t})}{u^{\prime}(c_{t+1})} = \beta (r_{t+1} + 1 - \delta). \tag{3.1, Euler eq.}$$</p>
-<p>Slightly more complex relationships can arise if population grows or there is technological progress, see Romer, Chapter 2.</p>
+<p>Slightly more complex relationships can arise if the population grows or there is technological progress, see Romer, Chapter 2.</p>
 <h3 id="the-euler-equation">The Euler equation</h3>
-<p>The Euler equation appears often in optimisation problems: either using discrete or continuous time.
+<p>The Euler equation often appears in optimisation problems: either using discrete or continuous time.
 The discrete-time version is relatively easier to interpret and obtain.
 In our case, the Euler equation relates the present and future marginal utilities of consumption.
 Imagine that the household decreased the amount consumed today, $c_{t}$ by an infinitesimally small amount $\Delta_{c_{t}}$.
@@ -873,10 +873,10 @@ Hence, putting everything together:
 $\Delta_{c_{t}} u^{\prime}(c_{t}) = \beta \Delta_{c_{t}} (r_{t+1} + 1 - \delta) u^{\prime}(c_{t+1}).$
 Cancel $\Delta_{c_{t}} &gt; 0$ on both sides to obtain the Euler equation.
 Alternatively, we can interpret the Euler equation as stating that it is not optimal to slightly deviate from the optimal path, consuming slightly less for instance, and later returning to the optimal path.
-<strong>Remark:</strong> the scheme we are putting in place here does not modify the intertemporal budget constraint because all the additional proceedings from saving are consumed.</p>
+<strong>Remark:</strong> the scheme we are putting in place here does not modify the intertemporal budget constraint because all the additional proceedings from savings are consumed.</p>
 <h3 id="the-transversality-condition">The Transversality Condition</h3>
 <p>The Euler equation is <em>not</em> enough to fully determine the optimal sequence of consumption and savings.
-For the moment, trajectories where the capital or consumption grow boundedless are feasible, but these should not be optimal.</p>
+For the moment, trajectories where capital or consumption grows boundedless are feasible, but these should not be optimal.</p>
 <ul>
 <li>First, consider the economy continuously accumulates capital. In that case, consumption must decrease towards zero.
 Since we have assumed that $\lim_{c \rightarrow 0}u^{\prime}( c )=+\infty$ (Inada condition) a small increase in consumption raises utility by a large amount, this is, the marginal utility of consumption is very large.
