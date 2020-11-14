@@ -5,7 +5,7 @@
     <link>https://eric-roca.github.io/</link>
       <atom:link href="https://eric-roca.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Courses</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Èric Roca Fernández</copyright><lastBuildDate>Sat, 07 Nov 2020 18:00:00 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Èric Roca Fernández</copyright><lastBuildDate>Sat, 14 Nov 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://eric-roca.github.io/img/eric.jpg</url>
       <title>Courses</title>
@@ -2549,6 +2549,14 @@ This implies that present and future consumption are valued the same, which comp
     </item>
     
     <item>
+      <title>Celestial Enlightenment: Eclipses, curiosity and economic development among pre-modern ethnic groups</title>
+      <link>https://eric-roca.github.io/working_papers/eclipses/</link>
+      <pubDate>Sat, 14 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://eric-roca.github.io/working_papers/eclipses/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>The Terror of History: Solar Eclipses and the Origins of Critical Thinking and Complexity</title>
       <link>https://eric-roca.github.io/talk/2020-11_odense/</link>
       <pubDate>Sat, 07 Nov 2020 18:00:00 +0100</pubDate>
@@ -2577,14 +2585,6 @@ This implies that present and future consumption are valued the same, which comp
       <link>https://eric-roca.github.io/talk/2019-09_lund/</link>
       <pubDate>Sat, 28 Sep 2019 09:30:00 +0200</pubDate>
       <guid>https://eric-roca.github.io/talk/2019-09_lund/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The Terror of History: Solar Eclipses and the Origins of Critical Thinking and Complexity</title>
-      <link>https://eric-roca.github.io/working_papers/eclipses/</link>
-      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/working_papers/eclipses/</guid>
       <description></description>
     </item>
     
