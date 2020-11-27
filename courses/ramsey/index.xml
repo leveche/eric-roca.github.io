@@ -623,17 +623,17 @@ Finally, the initial value of consumption $c_{0}$ that puts the economy in the s
 &lt;p&gt;We assume that utility is logarithmic and we take a Cobb-Douglas production function.&lt;/p&gt;
 &lt;p&gt;$$\begin{eqnarray}
 u(c_{t}) = \log (c_{t}), \\\&lt;br&gt;
-F(K_{t},L_{t}) = AK_{t}^{\alpha}L_{t}^{1-\alpha}, \\\&lt;br&gt;
-A &amp;gt;0, \alpha \in (0,1).
+F(K_{t},L_{t}) = K_{t}^{\alpha}L_{t}^{1-\alpha}, \\\&lt;br&gt;
+\alpha \in (0,1).
 \end{eqnarray}
 $$
 We can check that both functions satisfy the Inada conditions:&lt;/p&gt;
 &lt;p&gt;$$\begin{eqnarray}\lim_{c_{t} \rightarrow 0}u^{\prime}(c_{t}) = \lim_{c_{t} \rightarrow 0} \frac{1}{c_{t}} = +\infty, \\\&lt;br&gt;
 \lim_{c_{t} \rightarrow +\infty}u^{\prime}(c_{t}) = \lim_{c_{t} \rightarrow +\infty} \frac{1}{c_{t}} = 0, \\\&lt;br&gt;
-\lim_{K_{t} \rightarrow 0} F^{\prime}_{K_{t}}(K_{t}, L_{t}) = \lim_{K_{t} \rightarrow 0} A\alpha K_{t}^{\alpha - 1}L_{t}^{1-\alpha} = +\infty, \\\&lt;br&gt;
-\lim_{K_{t} \rightarrow +\infty} F^{\prime}_{K_{t}}(K_{t}, L_{t}) = \lim_{K_{t} \rightarrow +\infty} A\alpha K_{t}^{\alpha - 1}L_{t}^{1-\alpha} = 0, \\\&lt;br&gt;
-\lim_{L_{t} \rightarrow 0} F^{\prime}_{L_{t}}(K_{t}, L_{t}) = \lim_{L_{t} \rightarrow 0} A (1-\alpha) K_{t}^{\alpha}L_{t}^{\alpha} = +\infty, \\\&lt;br&gt;
-\lim_{L_{t} \rightarrow +\infty} F^{\prime}_{L_{t}}(K_{t}, L_{t}) = \lim_{L_{t} \rightarrow +\infty} A (1- \alpha) K_{t}^{\alpha}L_{t}^{\alpha} = 0.
+\lim_{K_{t} \rightarrow 0} F^{\prime}_{K_{t}}(K_{t}, L_{t}) = \lim_{K_{t} \rightarrow 0} \alpha K_{t}^{\alpha - 1}L_{t}^{1-\alpha} = +\infty, \\\&lt;br&gt;
+\lim_{K_{t} \rightarrow +\infty} F^{\prime}_{K_{t}}(K_{t}, L_{t}) = \lim_{K_{t} \rightarrow +\infty} \alpha K_{t}^{\alpha - 1}L_{t}^{1-\alpha} = 0, \\\&lt;br&gt;
+\lim_{L_{t} \rightarrow 0} F^{\prime}_{L_{t}}(K_{t}, L_{t}) = \lim_{L_{t} \rightarrow 0}  (1-\alpha) K_{t}^{\alpha}L_{t}^{\alpha} = +\infty, \\\&lt;br&gt;
+\lim_{L_{t} \rightarrow +\infty} F^{\prime}_{L_{t}}(K_{t}, L_{t}) = \lim_{L_{t} \rightarrow +\infty}  (1- \alpha) K_{t}^{\alpha}L_{t}^{\alpha} = 0.
 \end{eqnarray}
 $$&lt;/p&gt;
 &lt;p&gt;The production function, expressed in intensive terms, becomes:&lt;/p&gt;
