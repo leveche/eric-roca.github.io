@@ -1,368 +1,241 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://eric-roca.github.io/courses/ramsey/firms/</loc>
     <lastmod>2019-07-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://eric-roca.github.io/courses/math_app/homogenous_functions/</loc>
     <lastmod>2019-07-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://eric-roca.github.io/courses/ramsey/households/</loc>
     <lastmod>2019-07-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://eric-roca.github.io/courses/ramsey_gov/households/</loc>
     <lastmod>2019-07-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://eric-roca.github.io/courses/olg/preliminaries/</loc>
     <lastmod>2019-07-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://eric-roca.github.io/courses/ramsey/</loc>
     <lastmod>2019-07-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://eric-roca.github.io/courses/math_app/steady_state/</loc>
     <lastmod>2019-07-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://eric-roca.github.io/courses/ramsey_gov/</loc>
     <lastmod>2019-07-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://eric-roca.github.io/courses/olg/households/</loc>
     <lastmod>2019-07-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://eric-roca.github.io/courses/ramsey_gov/equilibrium/</loc>
     <lastmod>2019-07-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://eric-roca.github.io/courses/ramsey/intertemporal_equilibrium/</loc>
     <lastmod>2019-07-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://eric-roca.github.io/courses/math_app/</loc>
     <lastmod>2019-07-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://eric-roca.github.io/courses/olg/savings_function/</loc>
     <lastmod>2019-07-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://eric-roca.github.io/courses/ramsey/the_ramsey_model/</loc>
     <lastmod>2019-07-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://eric-roca.github.io/courses/math_app/transversality_condition/</loc>
     <lastmod>2019-07-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://eric-roca.github.io/courses/ramsey_gov/changing_g/</loc>
     <lastmod>2019-07-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://eric-roca.github.io/courses/math_app/elasticity_of_substitution/</loc>
     <lastmod>2019-07-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://eric-roca.github.io/courses/olg/equilibrium/</loc>
     <lastmod>2019-07-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://eric-roca.github.io/courses/olg/</loc>
     <lastmod>2019-07-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://eric-roca.github.io/courses/ramsey/steady_state_ramsey/</loc>
     <lastmod>2019-07-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://eric-roca.github.io/courses/math_app/non-separable/</loc>
     <lastmod>2019-07-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://eric-roca.github.io/courses/olg/steady_state/</loc>
     <lastmod>2019-07-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://eric-roca.github.io/courses/ramsey/phase_diagram/</loc>
     <lastmod>2019-07-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://eric-roca.github.io/courses/olg/monotonicity_of_the_dynamics/</loc>
     <lastmod>2019-07-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://eric-roca.github.io/courses/ramsey/ramsey_trajectory/</loc>
     <lastmod>2019-07-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://eric-roca.github.io/courses/ramsey/ramsey_example/</loc>
     <lastmod>2019-07-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://eric-roca.github.io/courses/olg/optimality/</loc>
     <lastmod>2019-07-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://eric-roca.github.io/courses/ramsey/golden_rule/</loc>
     <lastmod>2019-07-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://eric-roca.github.io/courses/olg/planner/</loc>
     <lastmod>2019-07-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://eric-roca.github.io/courses/olg/government/</loc>
     <lastmod>2019-07-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://eric-roca.github.io/courses/ramsey/ramsey_remarks/</loc>
     <lastmod>2019-07-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://eric-roca.github.io/event/</loc>
+    <lastmod>2021-03-09T16:30:00+01:00</lastmod>
+  </url><url>
+    <loc>https://eric-roca.github.io/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-attitudes-toward-women/</loc>
+    <lastmod>2021-03-09T16:30:00+01:00</lastmod>
+  </url><url>
+    <loc>https://eric-roca.github.io/</loc>
+    <lastmod>2021-03-09T16:30:00+01:00</lastmod>
+  </url><url>
+    <loc>https://eric-roca.github.io/tag/academic/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://eric-roca.github.io/categories/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://eric-roca.github.io/category/demo/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://eric-roca.github.io/post/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://eric-roca.github.io/tags/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://eric-roca.github.io/post/getting-started/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://eric-roca.github.io/tag/%E5%BC%80%E6%BA%90/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://eric-roca.github.io/category/%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://eric-roca.github.io/publication-type/3/</loc>
     <lastmod>2020-11-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://eric-roca.github.io/author/anastasia-litina/</loc>
-    <lastmod>2020-11-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://eric-roca.github.io/authors/</loc>
-    <lastmod>2020-11-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://eric-roca.github.io/working_papers/eclipses/</loc>
     <lastmod>2020-11-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://eric-roca.github.io/tag/comparative-development/</loc>
     <lastmod>2020-11-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://eric-roca.github.io/</loc>
-    <lastmod>2020-11-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://eric-roca.github.io/tag/economic-history/</loc>
     <lastmod>2020-11-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://eric-roca.github.io/tag/empirical-work/</loc>
     <lastmod>2020-11-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://eric-roca.github.io/publication_types/</loc>
     <lastmod>2020-11-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://eric-roca.github.io/tags/</loc>
-    <lastmod>2020-11-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://eric-roca.github.io/author/eric-roca-fernandez/</loc>
-    <lastmod>2020-11-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://eric-roca.github.io/talk/</loc>
+  </url><url>
+    <loc>https://eric-roca.github.io/talk/the-terror-of-history-solar-eclipses-and-the-origins-of-critical-thinking-and-complexity/</loc>
     <lastmod>2020-11-07T18:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://eric-roca.github.io/talk/2020-11_odense/</loc>
-    <lastmod>2020-11-07T18:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://eric-roca.github.io/talk/2020-09_berlin/</loc>
+  </url><url>
+    <loc>https://eric-roca.github.io/talk/the-terror-of-history-solar-eclipses-and-the-origins-of-critical-thinking-and-complexity/</loc>
     <lastmod>2020-09-29T13:45:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://eric-roca.github.io/author/annalisa-frigo/</loc>
+  </url><url>
+    <loc>https://eric-roca.github.io/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-attitudes-toward-women/</loc>
     <lastmod>2019-12-09T17:30:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://eric-roca.github.io/talk/2019-12_luxembourg/</loc>
-    <lastmod>2019-12-09T17:30:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://eric-roca.github.io/talk/2019-09_lund/</loc>
+  </url><url>
+    <loc>https://eric-roca.github.io/talk/the-terror-of-history-solar-eclipses-and-the-origins-of-critical-thinking-and-complexity/</loc>
     <lastmod>2019-09-28T09:30:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://eric-roca.github.io/courses/</loc>
     <lastmod>2019-07-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://eric-roca.github.io/publication-type/2/</loc>
     <lastmod>2019-06-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://eric-roca.github.io/tag/gender-equality/</loc>
     <lastmod>2019-06-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://eric-roca.github.io/publication/inheritance-systems/</loc>
     <lastmod>2019-06-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://eric-roca.github.io/publication/</loc>
     <lastmod>2019-06-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://eric-roca.github.io/tag/theoretical-model/</loc>
     <lastmod>2019-06-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://eric-roca.github.io/talk/2019-01_marseille/</loc>
+  </url><url>
+    <loc>https://eric-roca.github.io/slides/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://eric-roca.github.io/slides/example/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://eric-roca.github.io/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-attitudes-toward-women/</loc>
     <lastmod>2019-01-30T14:30:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://eric-roca.github.io/talk/2018-12_luxembourg/</loc>
+  </url><url>
+    <loc>https://eric-roca.github.io/talk/in-the-name-of-the-father-inheritance-systems-and-the-dynamics-of-state-capacity/</loc>
     <lastmod>2018-12-12T14:40:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://eric-roca.github.io/talk/2018-09_lyon/</loc>
+  </url><url>
+    <loc>https://eric-roca.github.io/talk/if-children-suffer-when-mothers-work-do-they-work-less/</loc>
     <lastmod>2018-09-14T11:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://eric-roca.github.io/talk/2018-08_cologne/</loc>
+  </url><url>
+    <loc>https://eric-roca.github.io/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-attitudes-toward-women/</loc>
     <lastmod>2018-08-28T14:15:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://eric-roca.github.io/talk/2018-06_milan/</loc>
+  </url><url>
+    <loc>https://eric-roca.github.io/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-attitudes-toward-women/</loc>
     <lastmod>2018-06-19T11:30:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://eric-roca.github.io/talk/2018-06_odense/</loc>
+  </url><url>
+    <loc>https://eric-roca.github.io/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-attitudes-toward-women/</loc>
     <lastmod>2018-06-05T10:45:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://eric-roca.github.io/talk/2018-02_palaiseau/</loc>
+  </url><url>
+    <loc>https://eric-roca.github.io/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-atitudes-toward-women/</loc>
     <lastmod>2018-02-08T13:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://eric-roca.github.io/talk/2017-12_bonn/</loc>
+  </url><url>
+    <loc>https://eric-roca.github.io/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-atitudes-toward-women/</loc>
     <lastmod>2017-12-13T10:40:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://eric-roca.github.io/talk/2017-09_marseille/</loc>
+  </url><url>
+    <loc>https://eric-roca.github.io/talk/now-shes-martha-then-shes-mary-the-influence-of-beguinages-on-attitudes-toward-women/</loc>
     <lastmod>2017-10-17T17:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://eric-roca.github.io/talk/2017-08_bologna/</loc>
+  </url><url>
+    <loc>https://eric-roca.github.io/talk/now-shes-martha-then-shes-mary-the-influence-of-beguinages-on-attitudes-toward-women/</loc>
     <lastmod>2017-08-09T14:30:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://eric-roca.github.io/working_papers/beguines/</loc>
     <lastmod>2017-03-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://eric-roca.github.io/talk/2017-02_providence_2/</loc>
+  </url><url>
+    <loc>https://eric-roca.github.io/talk/inheritance-systems-and-the-dynamics-of-state-capacity-in-medieval-europe/</loc>
     <lastmod>2017-03-02T09:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://eric-roca.github.io/talk/2017-02_providence_1/</loc>
+  </url><url>
+    <loc>https://eric-roca.github.io/talk/now-shes-martha-then-shes-mary-the-influence-of-beguinages-on-attitudes-toward-women/</loc>
     <lastmod>2017-02-03T09:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://eric-roca.github.io/other_research/</loc>
-    <lastmod>2017-01-01T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://eric-roca.github.io/working_papers/</loc>
     <lastmod>2017-01-01T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://eric-roca.github.io/talk/2016-12_new-delhi/</loc>
+  </url><url>
+    <loc>https://eric-roca.github.io/talk/now-shes-martha-then-shes-mary-the-influence-of-beguinages-on-attitudes-toward-women/</loc>
     <lastmod>2016-11-21T11:15:00+05:30</lastmod>
+  </url><url>
+    <loc>https://eric-roca.github.io/tag/deep-learning/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://eric-roca.github.io/project/example/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://eric-roca.github.io/project/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://eric-roca.github.io/admin/</loc>
   </url>
-  
-  <url>
-    <loc>https://eric-roca.github.io/author/eric-roca-fernandez/</loc>
-    <lastmod>2016-11-21T11:15:00+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://eric-roca.github.io/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://eric-roca.github.io/post/</loc>
-  </url>
-  
 </urlset>

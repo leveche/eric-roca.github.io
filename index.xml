@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Courses | Èric Roca Fernández</title>
+    <title>Èric Roca Fernández</title>
     <link>https://eric-roca.github.io/</link>
       <atom:link href="https://eric-roca.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <description>Courses</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021 Èric Roca Fernández</copyright><lastBuildDate>Sat, 14 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <description>Èric Roca Fernández</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Èric Roca Fernández</copyright><lastBuildDate>Tue, 09 Mar 2021 16:30:00 +0100</lastBuildDate>
     <image>
-      <url>https://eric-roca.github.io/img/eric.jpg</url>
-      <title>Courses</title>
+      <url>https://eric-roca.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Èric Roca Fernández</title>
       <link>https://eric-roca.github.io/</link>
     </image>
     
@@ -46,8 +46,7 @@ Since the production function $F$ is homogeneous of degree, we can write it in &
 &lt;p&gt;The marginal product of labour is given by $\partial F(K,L)/\partial L.$
 In intensive terms, it is equal to:&lt;/p&gt;
 &lt;p&gt;$$w_{t} = f(k) - f^{\prime}(k) k. \tag{7, Wage}$$&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: The 
-&lt;a href=&#34;https://eric-roca.github.io/courses/math_app/homogenous_functions/&#34;&gt;appendix&lt;/a&gt; details how to obtain the previous expressions.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: The &lt;a href=&#34;https://eric-roca.github.io/courses/math_app/homogenous_functions/&#34;&gt;appendix&lt;/a&gt; details how to obtain the previous expressions.&lt;/p&gt;
 </description>
     </item>
     
@@ -254,14 +253,12 @@ In this case, the fact that $\beta \in (0,1)$ ensures the validity of the transv
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
       <guid>https://eric-roca.github.io/courses/ramsey_gov/households/</guid>
       <description>&lt;p&gt;We modify the household&amp;rsquo;s budget constraint to take into account the taxes they pay.
-It remains exactly the same as 
-&lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/households/&#34;&gt;before&lt;/a&gt;, except for the fact that less income is available for consumption:&lt;/p&gt;
+It remains exactly the same as &lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/households/&#34;&gt;before&lt;/a&gt;, except for the fact that less income is available for consumption:&lt;/p&gt;
 &lt;p&gt;$$k_{t+1} + c_{t} = w_{t} + r_{t}k_{t} + (1-\delta) k_{t} - \color{red}{T_{t}}. \tag{1, Budget Const.} \label{eq:budget}$$&lt;/p&gt;
 &lt;p&gt;Except for this modification, households still present the same utility formulation and maximise:&lt;/p&gt;
 &lt;p&gt;$$\max \sum_{t=0}^{\infty} \beta^{t} u(c_{t})$$
 $$\mathrm{s.t.} \quad k_{t+1} + c_{t} = w_{t} + r_{t} + (1-\delta) k_{t} - \color{red}{T_{t}}.$$&lt;/p&gt;
-&lt;p&gt;Building up the Lagrangian 
-&lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/households/#solving-the-household-s-problem&#34;&gt;(as in the basic case)&lt;/a&gt; leads to the following equation:&lt;/p&gt;
+&lt;p&gt;Building up the Lagrangian &lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/households/#solving-the-household-s-problem&#34;&gt;(as in the basic case)&lt;/a&gt; leads to the following equation:&lt;/p&gt;
 &lt;p&gt;$$\mathcal{L} = \sum_{t=0}^{\infty} \beta^t u(c_{t}) + \sum_{t=0}^{\infty} \lambda_{t}(w_{t} + r_{t}k_{t} + (1-\delta)k_{t} - c_{t} - k_{t+1} - \color{red}{T_{t}}).$$&lt;/p&gt;
 &lt;p&gt;Despite the introduction of taxes $T_{t}$, the optimality conditions are exactly the same as before.
 Indeed, we introduced lump-sum taxes, and these do not affect optimality conditions, only allocations.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
@@ -540,8 +537,7 @@ Any other initial set of values delivers a non-converging trajectory.
 In economics, we often encounter a $2 \times 2$ system.
 Often, the initial value of one variable is fixed (state variable, in general capital).
 Hence, we have to select the value of the other variable (control variable, in general consumption) in such a way that it is on the saddle path.&lt;/p&gt;
-&lt;p&gt;We develop a full example in 
-&lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/ramsey_example/&#34;&gt;Example&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We develop a full example in &lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/ramsey_example/&#34;&gt;Example&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -602,8 +598,7 @@ We assume that $u( c )$ has the properties&lt;/p&gt;
 &lt;p&gt;The last assumption $\lim_{c \rightarrow 0} u^{\prime}( c ) = +\infty$ implies that an individual will always have a positive consumption &amp;mdash;as long as he has enough income to finance it.&lt;/p&gt;
 &lt;p&gt;Another important implication of the choice of the utility formulation is that $c$ and $d$ are normal goods: the demand is &lt;em&gt;not decreasing&lt;/em&gt; in wealth.
 It follows from additive separability and concavity.
-In the 
-&lt;a href=&#34;https://eric-roca.github.io/courses/math_app/non-separable/&#34;&gt;Appendix&lt;/a&gt; we discuss it in more detail for a non-separable utility function.&lt;/p&gt;
+In the &lt;a href=&#34;https://eric-roca.github.io/courses/math_app/non-separable/&#34;&gt;Appendix&lt;/a&gt; we discuss it in more detail for a non-separable utility function.&lt;/p&gt;
 &lt;h2 id=&#34;the-behaviour-of-individuals&#34;&gt;The behaviour of individuals&lt;/h2&gt;
 &lt;p&gt;At time $t$, young individuals receive their wages, consume and save while maximising the utility function.&lt;/p&gt;
 &lt;p&gt;$$\begin{eqnarray}
@@ -718,8 +713,7 @@ To analyse it, we first compute its steady state and then check the dynamics.&lt
       <guid>https://eric-roca.github.io/courses/olg/savings_function/</guid>
       <description>&lt;p&gt;We now study how savings are affected by the remaining variables of the model.
 Before turning to it, we compute the intertemporal elasticity of substitution on this model, because it turns out to be a crucial element influencing savings.
-The &lt;em&gt;intertemporal elasticity of substitution&lt;/em&gt; is a special case of the 
-&lt;a href=&#34;https://eric-roca.github.io/courses/math_app/elasticity_of_substitution/&#34;&gt;elasticity of substitution&lt;/a&gt;, that measures how the ratio of future to present consumption changes with the relative price (the interest rate).&lt;/p&gt;
+The &lt;em&gt;intertemporal elasticity of substitution&lt;/em&gt; is a special case of the &lt;a href=&#34;https://eric-roca.github.io/courses/math_app/elasticity_of_substitution/&#34;&gt;elasticity of substitution&lt;/a&gt;, that measures how the ratio of future to present consumption changes with the relative price (the interest rate).&lt;/p&gt;
 &lt;h2 id=&#34;intertemporal-elasticity-of-substitution&#34;&gt;Intertemporal elasticity of substitution&lt;/h2&gt;
 &lt;p&gt;The intertemporal elasticity of substitution is defined as:&lt;/p&gt;
 &lt;p&gt;$$\epsilon_{d_{t+1}, c_{t}} = \frac{ \partial \left( \frac{d_{t+1}}{c_{t}} \right)}{\partial R_{t+1}} \frac{ R_{t+1}}{\left( \frac{d_{t+1}}{c_{t}} \right)}.$$&lt;/p&gt;
@@ -909,8 +903,7 @@ The second case never arises: the marginal utility is zero only when consumption
 &lt;p&gt;Letting time go to infinity, the equation above becomes the transversality condition:
 $$\lim_{t \rightarrow \infty} \beta^{t}u^{\prime}(c_{t})k_{t+1} = 0.$$&lt;/p&gt;
 &lt;h2 id=&#34;the-transversality-condition-is-a-necessary-condition-proof&#34;&gt;The transversality condition is a necessary condition: proof&lt;/h2&gt;
-&lt;p&gt;Proof by Kamihigashi (2002): 
-&lt;a href=&#34;https://www.jstor.org/stable/25055538?seq=1#page_scan_tab_contents&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A Simple Proof of the Necessity of the Transversality Condition&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Proof by Kamihigashi (2002): &lt;a href=&#34;https://www.jstor.org/stable/25055538?seq=1#page_scan_tab_contents&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A Simple Proof of the Necessity of the Transversality Condition&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Kamihigashi (2002) shows that the transversality condition is a necessary condition in an optimal control problem.
 This proof neglects consumption and focuses on current and future values of $x_{t}.$
 Consider the following maximisation problem:&lt;/p&gt;
@@ -1027,8 +1020,7 @@ Capital, instead, first accumulates and decreases from $t_{1}$ onwards.&lt;/p&gt
 &lt;p&gt;Finally, suppose that the increase in $G$ is temporary.
 At time $t=t_{0}$ the government announces that at time $t=t_{1}$ taxes will increase from $G_{0}$ to $G_{1}.$
 The new tax regime will apply for some time, until $t=t_{2}$ when taxes will return to their original level $G_{0}.$&lt;/p&gt;
-&lt;p&gt;In that case households can decide to follow the same strategy as in an 
-&lt;a href=&#34;#un_temp&#34;&gt;unanticipated, temporary increase&lt;/a&gt;.
+&lt;p&gt;In that case households can decide to follow the same strategy as in an &lt;a href=&#34;#un_temp&#34;&gt;unanticipated, temporary increase&lt;/a&gt;.
 However, it entails a relatively large adjustment in terms of consumption at time $t=t_{1}$, when the new policy becomes effective.
 Instead, households can take advantage of the anticipation in the announcement:
 decrease the consumption at the announcement time $t=t_{0}$ by a relatively small amount.
@@ -1086,8 +1078,7 @@ Therefore, we can compute $\sigma_{K,L}$ as&lt;/p&gt;
 &amp;amp; r = A \frac{\nu}{\rho}\left( \alpha K^{\rho} + (1-\alpha) L^{\rho} \right)^{\frac{\nu}{\rho}-1}\alpha \rho K^{\rho-1}.\end{eqnarray}$$
 Hence:
 $$\frac{w}{r} = \frac{1-\alpha}{\alpha} \left(\frac{K}{L} \right)^{1-\rho}.$$&lt;/p&gt;
-&lt;p&gt;The parameter $\nu$ indicates the degree of 
-&lt;a href=&#34;https://eric-roca.github.io/courses/math_app/homogenous_functions/&#34;&gt;homogeneity of the function.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The parameter $\nu$ indicates the degree of &lt;a href=&#34;https://eric-roca.github.io/courses/math_app/homogenous_functions/&#34;&gt;homogeneity of the function.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;The elasticity of substitution equals:&lt;/p&gt;
 &lt;p&gt;$$\frac{ \partial \ln \left(\frac{K}{L}\right)}{\partial \ln \left( \frac{w}{r} \right)} =
 \frac{ \partial \frac{K}{L}}{\frac{K}{L}}\frac{\frac{w}{r}}{\partial \frac{w}{r}} =
@@ -1242,8 +1233,7 @@ Otherwise, for some level $k$ there would be multiple values for $k_{t+1}$ (mean
 Individuals lack a coordinating mechanism to select any of these equilibria.&lt;/p&gt;
 &lt;p&gt;We show that the intertemporal elasticity of substitution $\sigma$ is important in determining uniqueness.
 In particular, if $\sigma &amp;gt; 1$, then the equilibrium is unique.
-We will revisit this issue 
-&lt;a href=&#34;https://eric-roca.github.io/courses/olg/monotonicity_of_the_dynamics/&#34;&gt;later.&lt;/a&gt;&lt;/p&gt;
+We will revisit this issue &lt;a href=&#34;https://eric-roca.github.io/courses/olg/monotonicity_of_the_dynamics/&#34;&gt;later.&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;We have used the intermediate value theorem to show that solutions exist.
 Moreover, it shows that $\lim_{k\rightarrow 0} \frac{H(w,k)}{k} &amp;lt; 0$ and $\lim_{k \rightarrow +\infty} \frac{H(w,k)}{k} &amp;gt; 0.$
@@ -1268,8 +1258,7 @@ Assumption &lt;strong&gt;OLG.4&lt;/strong&gt; states:&lt;/p&gt;
 &lt;p&gt;Therefore, it is sufficient to have&lt;/p&gt;
 &lt;p&gt;$$s^{\prime}_R \geq 0$$&lt;/p&gt;
 &lt;p&gt;meaning that savings increase with the interest rate.
-This behaviour is readily verified when the 
-&lt;a href=&#34;https://eric-roca.github.io/courses/olg/savings_function/#intertemporal-elasticity-of-substitution&#34;&gt;intertemporal elasticity of substitution of at least one.&lt;/a&gt;
+This behaviour is readily verified when the &lt;a href=&#34;https://eric-roca.github.io/courses/olg/savings_function/#intertemporal-elasticity-of-substitution&#34;&gt;intertemporal elasticity of substitution of at least one.&lt;/a&gt;
 Then, to have monotonic dynamics and unique temporal equilibrium it is sufficient to have $\sigma \geq 1.$&lt;/p&gt;
 </description>
     </item>
@@ -1330,15 +1319,12 @@ Since the function $f^\prime$ is continuous, by the intermediate value theorem t
 Therefore, there exists one and only one value $\bar{k} \in (0,+\infty)$ that solves the first equation in \ref{eq:ss2}.
 Also, the second equation in \ref{eq:ss2} uniquely determines the level of consumption given capital.
 Hence, the steady-state consumption level $\bar{c}$ is unique.&lt;/p&gt;
-&lt;p&gt;We can obtain an overview of the dynamics of the model using the 
-&lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/phase_diagram/&#34;&gt;phase diagram&lt;/a&gt; and derive the exact solution using the method outlined in 
-&lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/ramsey_trajectory/&#34;&gt;trajectory&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We can obtain an overview of the dynamics of the model using the &lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/phase_diagram/&#34;&gt;phase diagram&lt;/a&gt; and derive the exact solution using the method outlined in &lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/ramsey_trajectory/&#34;&gt;trajectory&lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;stability&#34;&gt;Stability of the steady state&lt;/h3&gt;
 &lt;p&gt;We are now interested in determining the behaviour of the economy when it starts with some level of capital $k_0$ and consumption $c_0.$
 The economy is represented by a $2 \times 2$ system of first-order difference equations.
 The stability of a steady state depends on the Jacobian matrix&amp;rsquo;s eigenvalues evaluated at the steady state.
-&lt;strong&gt;Note:&lt;/strong&gt; the 
-&lt;a href=&#34;https://eric-roca.github.io/courses/math_app/steady_state/&#34;&gt;Appendix&lt;/a&gt; discusses this in more detail.
+&lt;strong&gt;Note:&lt;/strong&gt; the &lt;a href=&#34;https://eric-roca.github.io/courses/math_app/steady_state/&#34;&gt;Appendix&lt;/a&gt; discusses this in more detail.
 In particular, we wonder whether the dynamics are such that they converge towards the steady state or diverge away from it.&lt;/p&gt;
 &lt;p&gt;The equations that govern the economy are the Euler equation and the law for capital accumulation:&lt;/p&gt;
 &lt;p&gt;$$\left.
@@ -1490,7 +1476,7 @@ $$G(1) =  \beta f^{\prime \prime}(\bar{k})\frac{\bar{c}}{\epsilon_{\bar{c}}} &am
 &lt;p&gt;Hence, $\exists \lambda_{2} \in (-1,0)$ such that $G(\lambda_{2}) = 0$.
 The second root lies beyond $1.$
 Therefore, $\lambda_{1} &amp;gt; 1, \lambda_{2}\in(0,1)$ and the &lt;strong&gt;steady state is a saddle.&lt;/strong&gt;&lt;/p&gt;
-&lt;h4 id=&#34;use-eigenvalues-properties&#34;&gt;Use eigenvalues&amp;rsquo; properties&lt;/h4&gt;
+&lt;h4 id=&#34;use-eigenvalues-properties&#34;&gt;Use eigenvalues&#39; properties&lt;/h4&gt;
 &lt;p&gt;For any matrix, we have the following:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;The product of eigenvalues equals the &lt;strong&gt;determinant&lt;/strong&gt; of the matrix: $\mathrm{det}(M) = \lambda_{1} \lambda_{2} \ldots \lambda_{N},$&lt;/li&gt;
@@ -1573,8 +1559,7 @@ $$1 + \underbrace{\frac{u_{dd}}{u_{d}}d}_{-\frac{1}{\sigma}} - \frac{u_{cd}}{u_{
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
       <guid>https://eric-roca.github.io/courses/olg/steady_state/</guid>
       <description>&lt;p&gt;We assume that the intertemporal equilibrium exists and is unique.
-As noted when characterising the 
-&lt;a href=&#34;https://eric-roca.github.io/courses/olg/equilibrium/#temporary-equilibrium&#34;&gt;uniqueness of the temporary equilibrium&lt;/a&gt;, assuming that $\sigma&amp;gt;1$ is a sufficient condition.
+As noted when characterising the &lt;a href=&#34;https://eric-roca.github.io/courses/olg/equilibrium/#temporary-equilibrium&#34;&gt;uniqueness of the temporary equilibrium&lt;/a&gt;, assuming that $\sigma&amp;gt;1$ is a sufficient condition.
 Therefore, the dynamics of capital are given by:&lt;/p&gt;
 &lt;p&gt;$$k_{t+1} = \frac{1}{1+n}s(\omega(k_{t}), f^{\prime}(k_{t+1})).$$&lt;/p&gt;
 &lt;p&gt;Hence, $k_{t+1}$ is an implicit function of $k_{t}$:&lt;/p&gt;
@@ -1613,8 +1598,7 @@ Moreover, the configuration varies depending on the production and utility funct
 &lt;p&gt;This model can feature one or several steady states.
 This depends on the characteristics of the production and utility functions.&lt;/p&gt;
 &lt;p&gt;First, the dynamics of $k$ are monotonic: either continuously increase or decrease.
-This follows from assuming a unique intertemporal equilibrium, 
-&lt;a href=&#34;https://eric-roca.github.io/courses/olg/equilibrium/#uniqueness-of-the-intertemporal-equilibrium&#34;&gt;see also&lt;/a&gt;.
+This follows from assuming a unique intertemporal equilibrium, &lt;a href=&#34;https://eric-roca.github.io/courses/olg/equilibrium/#uniqueness-of-the-intertemporal-equilibrium&#34;&gt;see also&lt;/a&gt;.
 This extra assumption also implies that the intermporal elasticity of substitution is &lt;em&gt;not too small&lt;/em&gt;.
 In particular, we operationalise (p. 25 in &lt;em&gt;de la Croix and Michel&lt;/em&gt;.) it as:&lt;/p&gt;
 &lt;p&gt;$$\forall c&amp;gt;0, \quad u^\prime( c ) + c u^{\prime \prime}( c ) \geq 0 \Leftrightarrow \sigma( c ) \geq 1.$$&lt;/p&gt;
@@ -1670,8 +1654,7 @@ We can solve for them:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Local dynamics: stability&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;We check the stability of the two steady states using the first derivative evaluated at the steady state.
 &lt;strong&gt;Note:&lt;/strong&gt; in general we would use the Jacobian matrix, but the OLG model has only one equation in one variable.&lt;/p&gt;
-&lt;p&gt;Remember that, for a discrete-time system, a 
-&lt;a href=&#34;https://eric-roca.github.io/courses/math_app/steady_state/#hyperbolic-steady-states&#34;&gt;&lt;em&gt;non-hyperbolic&lt;/em&gt;&lt;/a&gt; steady state is stable if it the determinant of the Jacobian (here the absolute value of the derivative) evaluated at the steady state is in the unit circle $(-1, 1).$&lt;/p&gt;
+&lt;p&gt;Remember that, for a discrete-time system, a &lt;a href=&#34;https://eric-roca.github.io/courses/math_app/steady_state/#hyperbolic-steady-states&#34;&gt;&lt;em&gt;non-hyperbolic&lt;/em&gt;&lt;/a&gt; steady state is stable if it the determinant of the Jacobian (here the absolute value of the derivative) evaluated at the steady state is in the unit circle $(-1, 1).$&lt;/p&gt;
 &lt;p&gt;In our case:&lt;/p&gt;
 &lt;p&gt;$$g(k) = k_{t+1} = \frac{1}{1+n}\frac{\beta}{1+\beta}(1-\alpha)Ak_{t}^\alpha$$
 $$g^\prime(k) = \frac{1}{1+n}\frac{\beta}{1+\beta}(1-\alpha)\alpha Ak_{t}^{\alpha-1}&amp;gt; 0.$$&lt;/p&gt;
@@ -1736,7 +1719,6 @@ The steady state with $\bar{k}=0$ is a &lt;strong&gt;poverty trap&lt;/strong&gt;
 &lt;ol&gt;
 &lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
 &lt;p&gt;The mean value theorem states that, for a continuous function on $[a,b],$ there is a point $c \in (a,b)$ such that the derivative a $c, f^\prime( c)$ coincides with the slope of the secant between $a$ and $b, \frac{f(b) - f(a)}{b-a}.$
-
 &lt;a href=&#34;https://en.wikipedia.org/wiki/Mean_value_theorem&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;More information&lt;/a&gt;. &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
@@ -1796,8 +1778,7 @@ We can rearrange the previous equation to obtain the following:&lt;/p&gt;
 Setting $k_{t+1} = k_{t} \implies k_{t+1} - k_{t} = 0$ so capital is constant yields:&lt;/p&gt;
 &lt;p&gt;$$ 0 = f(k_{t}) - \delta k_{t} - c_{t} \implies c_{t} = f(k_{t}) - \delta k_{t}.$$&lt;/p&gt;
 &lt;p&gt;In the $(k,c)$ space, the equation takes a form similar to a parabola: it combines production &amp;mdash;with decreasing marginal returns&amp;mdash; with a linear depreciation rate.
-In fact, f(k_t)-\delta k_t$ admits one maximum $(f^\prime (k_t) = \delta)$ the 
-&lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/golden_rule/&#34;&gt;Golden rule&lt;/a&gt; we discuss later.
+In fact, f(k_t)-\delta k_t$ admits one maximum $(f^\prime (k_t) = \delta)$ the &lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/golden_rule/&#34;&gt;Golden rule&lt;/a&gt; we discuss later.
 Since $f^{\prime \prime}(k_t)&amp;lt;0,$ the stationary point is a maximum.&lt;/p&gt;
 &lt;p&gt;Let&amp;rsquo;s now analyse how capital evolves when consumption is above and below the level that makes it constant.
 From $k_{t+1} - k_{t} = f(k_{t}) - \delta k_{t} - c_{t}$, if consumption is above the level we have that $k_{t+1} - k_{t} &amp;lt; 0,$ meaning that capital decreases over time.
@@ -1827,8 +1808,7 @@ which guarantees the existence of at least one solution.&lt;/p&gt;
 &lt;p&gt;Hence, if the function $H$ is monotonously increasing, the solution is unique.
 This condition depends on the sign of:&lt;/p&gt;
 &lt;p&gt;$$\frac{\partial H(k_{t+1})}{\partial k_{t+1}} = 1 + \frac{1}{1+n}s^{\prime}_{R}f^{\prime \prime}(k_{t+1}).$$&lt;/p&gt;
-&lt;p&gt;We have different cases (check 
-&lt;a href=&#34;https://eric-roca.github.io/courses/olg/savings_function/&#34;&gt;the notes&lt;/a&gt; on the savings function):&lt;/p&gt;
+&lt;p&gt;We have different cases (check &lt;a href=&#34;https://eric-roca.github.io/courses/olg/savings_function/&#34;&gt;the notes&lt;/a&gt; on the savings function):&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;$s^\prime_{R} = 0$, which happens under log-utility.
@@ -1845,11 +1825,9 @@ Then, clearly $s^\prime_{R} &amp;gt; 0 &amp;gt; \frac{1+n}{R^\prime(k_{t+1})}.$&
 &lt;/ol&gt;
 &lt;p&gt;Under case 3, the condition is not satisfied, multiple levels of $k_{t+1}$ solve the intertemporal equilibrium.&lt;/p&gt;
 &lt;h3 id=&#34;non-monotonous-dynamics&#34;&gt;Non-monotonous dynamics&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Based on the 
-&lt;a href=&#34;http://web.econ.ku.dk/okocg/MAT-OEK/Mak%C3%98k2/Mak%C3%98k2-2016/Forel%C3%A6sninger/Ch%203-2016-1.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;lecture notes of Groth, pp. 92&amp;ndash;93&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Based on the &lt;a href=&#34;http://web.econ.ku.dk/okocg/MAT-OEK/Mak%C3%98k2/Mak%C3%98k2-2016/Forel%C3%A6sninger/Ch%203-2016-1.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;lecture notes of Groth, pp. 92&amp;ndash;93&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Under case 3, the function $g(k)$ is backwards bending for some values of $k.$
-This feature implies that there is more than one &lt;em&gt;intemporal equilibrium&lt;/em&gt;, check 
-&lt;a href=&#34;https://eric-roca.github.io/courses/olg/equilibrium/#temporary-equilibrium&#34;&gt;also&lt;/a&gt;.
+This feature implies that there is more than one &lt;em&gt;intemporal equilibrium&lt;/em&gt;, check &lt;a href=&#34;https://eric-roca.github.io/courses/olg/equilibrium/#temporary-equilibrium&#34;&gt;also&lt;/a&gt;.
 We ruled out such a possibility assuming that $\sigma( c ) \geq 1$, this is, we imposed a large enough intertemporal elasticity of substitution.&lt;/p&gt;
 &lt;p&gt;If this is not the case and $s^\prime_{R}(\omega(k_t), R(k_{t+1})) &amp;lt; \frac{1+n}{R^\prime(k_{t+1})}$ then there are multiple temporary equilibriums.&lt;/p&gt;
 &lt;p&gt;For instance, take an isoelastic utility function $u( c ) = \frac{c^{1-\frac{1}{\sigma}}-1}{1-\frac{1}{\sigma}}$ and a CES production with $A=20, , \alpha = \frac{1}{2}, , \beta = 0.3, , n = 1.097, , \sigma = 0.1, , \rho = -2.$
@@ -1874,8 +1852,7 @@ Consequently, in all these cases we also have that $\frac{\mathrm{d}k_{t+1}}{\ma
 Any other initial value consumption at $t=0$ (capital is pre-determined and thus we &lt;em&gt;cannot&lt;/em&gt; change it) has a diverging trajectory.&lt;/p&gt;
 &lt;p&gt;We now compute the exact behaviour of $(k_{t}, c_{t})$ around the steady state.&lt;/p&gt;
 &lt;p&gt;The model is highly non-linear, so we study a simpler linearised version around the steady state.
-First, let&amp;rsquo;s approximate the dynamics of capital and consumption 
-&lt;a href=&#34;https://eric-roca.github.io/courses/math_app/steady_state/#Approximation&#34;&gt;around the steady state.&lt;/a&gt;&lt;/p&gt;
+First, let&amp;rsquo;s approximate the dynamics of capital and consumption &lt;a href=&#34;https://eric-roca.github.io/courses/math_app/steady_state/#Approximation&#34;&gt;around the steady state.&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;the-approximation-around-the-steady-state&#34;&gt;The approximation around the steady state&lt;/h3&gt;
 &lt;p&gt;The behaviour of the dynamical system around the steady state can be approximated using a first-order Taylor expansion around it.
 In that sense:&lt;/p&gt;
@@ -1889,8 +1866,7 @@ c_{t} - \bar{c} \\\ k_{t} - \bar{k}
 \end{pmatrix}.$$&lt;/p&gt;
 &lt;p&gt;Next, we solve this equation of difference equations, this is, we obtain $c_t = \mathcal{C}(c_0, k_0, t), k_t = \mathcal{K}(c_0, k_0, t).$&lt;/p&gt;
 &lt;h3 id=&#34;diagonalising-the-matrix-eigenvalues-and-eigenvectors&#34;&gt;Diagonalising the matrix: eigenvalues and eigenvectors&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; based on the notes by 
-&lt;a href=&#34;http://www.princeton.edu/~moll/ECO503Web/Lecture4_ECO503.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Benjamin Moll&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; based on the notes by &lt;a href=&#34;http://www.princeton.edu/~moll/ECO503Web/Lecture4_ECO503.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Benjamin Moll&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;To simplify the notation, let $y_{t} = \begin{pmatrix} c_{t} - \bar{c} \\\ k_{t} -\bar{k} \end{pmatrix}.$
 Hence, our problem becomes:
 $$y_{t+1} = \bar{A} y_{t}.$$&lt;/p&gt;
@@ -2015,8 +1991,7 @@ $$\frac{\partial \mathcal{L}}{\partial k_{t+1}} = -\lambda_{t} + \lambda_{t+1} (
 Moreover, factors are paid their marginal productivity.&lt;/p&gt;
 &lt;p&gt;$$r_{t} = F^{\prime}_{K_{t}}(K_{t}, L_{t}) = \alpha K_{t}^{\alpha - 1}L_{t}^{1-\alpha} = \alpha \left(\frac{K_{t}}{L_{t}}\right)^{\alpha - 1} = \alpha k_{t}^{\alpha -1},$$
 $$w_{t} = F^{\prime}_{L_{t}}(K_{t}, L_{t}) = (1-\alpha) K_{t}^{\alpha} L_{t}^{-\alpha} = (1-\alpha)\left(\frac{K_{t}}{L_{t}}\right)^{\alpha} = (1-\alpha) k_{t}^{\alpha}.$$&lt;/p&gt;
-&lt;p&gt;Alternatively, using the information in the 
-&lt;a href=&#34;https://eric-roca.github.io/courses/math_app/homogenous_functions/#intensive-form&#34;&gt;Appendix&lt;/a&gt; and working directly with the intensive-form production function:&lt;/p&gt;
+&lt;p&gt;Alternatively, using the information in the &lt;a href=&#34;https://eric-roca.github.io/courses/math_app/homogenous_functions/#intensive-form&#34;&gt;Appendix&lt;/a&gt; and working directly with the intensive-form production function:&lt;/p&gt;
 &lt;p&gt;$$r_{t} = f^{\prime}(k_{t}) = \frac{\partial f(k_{t})}{\partial k_{t}} = \alpha k_{t}^{\alpha -1},$$
 $$w_{t} = f(k_{t}) - f^{\prime}(k_{t})k_{t} = k_{t}^{\alpha} - \alpha k_{t}^{\alpha - 1} k_{t} = (1-\alpha)k_{t}^{\alpha}.$$&lt;/p&gt;
 &lt;h2 id=&#34;the-dynamic-system&#34;&gt;The dynamic system&lt;/h2&gt;
@@ -2042,8 +2017,7 @@ $$\bar{k}^{\alpha} + (1-\delta)\bar{k} = \bar{c} + \bar{k}.$$&lt;/p&gt;
 &lt;p&gt;Applying $\bar{k}$ in the second equation yields the steady-state level of consumption:&lt;/p&gt;
 &lt;p&gt;$$ \bar{c} = \left(\frac{\alpha \beta}{1-\beta (1-\delta)}\right)^{\frac{\alpha}{1-\alpha}} - \delta \left(\frac{\alpha \beta}{1-\beta (1- \delta)}\right)^{\frac{1}{1-\alpha}}.$$&lt;/p&gt;
 &lt;h2 id=&#34;stability&#34;&gt;Stability&lt;/h2&gt;
-&lt;p&gt;First, we analyse the stability of the steady state, as we did in the 
-&lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/steady_state_ramsey/#stability&#34;&gt;general case&lt;/a&gt;
+&lt;p&gt;First, we analyse the stability of the steady state, as we did in the &lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/steady_state_ramsey/#stability&#34;&gt;general case&lt;/a&gt;
 Since we are using log-utility, the coefficient of relative risk aversion $\epsilon_{c} = 1.$&lt;/p&gt;
 &lt;p&gt;Instead of plugging the correct values in the Jacobian matrix $\bar{A}$, for the sake of clarity, we derive everything again:&lt;/p&gt;
 &lt;p&gt;$$\bar{A} = \begin{pmatrix}
@@ -2086,8 +2060,7 @@ $$ \lambda_{1} &amp;gt; 1 \implies \lambda_{2} \in (1,+\infty)$$
 and &lt;strong&gt;the steady state is saddle.&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;trajectory&#34;&gt;Trajectory&lt;/h2&gt;
 &lt;p&gt;Describing the trajectory around the steady state analytically would be cumbersome.
-One possibility is to introduce an alternative production function of the $Ak$ family which alleviates this problem, see the notes by 
-&lt;a href=&#34;https://eml.berkeley.edu/~webfac/obstfeld/e202a_f13/lecture2.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Maurice Obsfeld&lt;/a&gt;&lt;/p&gt;
+One possibility is to introduce an alternative production function of the $Ak$ family which alleviates this problem, see the notes by &lt;a href=&#34;https://eml.berkeley.edu/~webfac/obstfeld/e202a_f13/lecture2.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Maurice Obsfeld&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Instead, we solve this section numerically.
 In particular, assume that $\alpha = 0.3, \, \beta = 0.9, \, \delta = 0.1.$
 The initial level of capital $k_{t=0} = 1.$&lt;/p&gt;
@@ -2123,14 +2096,12 @@ For $t=0$ we have:&lt;/p&gt;
       <link>https://eric-roca.github.io/courses/olg/optimality/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
       <guid>https://eric-roca.github.io/courses/olg/optimality/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Based on &lt;em&gt;de la Croix and Michel, Chapter 2&lt;/em&gt; and 
-&lt;a href=&#34;http://web.econ.ku.dk/okocg/MAT-OEK/Mak%C3%98k2/Mak%C3%98k2-2016/Forel%C3%A6sninger/Ch%203-2016-1.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Gorth&amp;rsquo;s&lt;/em&gt;&lt;/a&gt; lecture notes.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Based on &lt;em&gt;de la Croix and Michel, Chapter 2&lt;/em&gt; and &lt;a href=&#34;http://web.econ.ku.dk/okocg/MAT-OEK/Mak%C3%98k2/Mak%C3%98k2-2016/Forel%C3%A6sninger/Ch%203-2016-1.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Gorth&amp;rsquo;s&lt;/em&gt;&lt;/a&gt; lecture notes.&lt;/p&gt;
 &lt;p&gt;The first welfare theorem states that a competitive equilibrium is Pareto optimal.
 However, the first welfare theorem has two requisites the Diamond model does not meet: a finite number of goods and a finite number of agents.
 Therefore, the allocation resulting from the competitive equilibrium may &lt;em&gt;not&lt;/em&gt; be Pareto optimal.&lt;/p&gt;
 &lt;h2 id=&#34;the-golden-rule-level-of-capital&#34;&gt;The golden-rule level of capital&lt;/h2&gt;
-&lt;p&gt;We begin the discussion by bringing back the idea of 
-&lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/ramsey_remarks/#the-golden-rule&#34;&gt;over- and under-accumulation of capital&lt;/a&gt; we have seen before.
+&lt;p&gt;We begin the discussion by bringing back the idea of &lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/ramsey_remarks/#the-golden-rule&#34;&gt;over- and under-accumulation of capital&lt;/a&gt; we have seen before.
 In the Diamond model &amp;mdash;and different from the Ramsey model&amp;mdash;, the capital stock on the balanced growth path may exceed the golden-rule level.
 This implies that a permanent increase in consumption is possible.&lt;/p&gt;
 &lt;p&gt;When discussing the golden-rule level of capital, we are &lt;em&gt;not&lt;/em&gt; interested in how consumption is divided between the old and the young.
@@ -2291,8 +2262,7 @@ we can easily characterise the steady state knowing that $d_t = d_{t+1} = \bar{d
 &lt;p&gt;$$f^\prime (\bar{k}) = \frac{1+n}{\gamma}+1-\delta.$$&lt;/p&gt;
 &lt;p&gt;This equation provides us with the modified golden rule: the level of capital that maximises the planner&amp;rsquo;s utility.
 Clearly, if $\gamma=1$, the planner attributes the same weight to all generations and we recover the golden rule: $f^\prime(k) = n + \delta.$
-As we discussed 
-&lt;a href=&#34;https://eric-roca.github.io/courses/olg/optimality/&#34;&gt;before&lt;/a&gt;, it is quite &lt;em&gt;unlikely&lt;/em&gt; the decentralised equilibrium converges towards the golden rule (modified or not).&lt;/p&gt;
+As we discussed &lt;a href=&#34;https://eric-roca.github.io/courses/olg/optimality/&#34;&gt;before&lt;/a&gt;, it is quite &lt;em&gt;unlikely&lt;/em&gt; the decentralised equilibrium converges towards the golden rule (modified or not).&lt;/p&gt;
 </description>
     </item>
     
@@ -2413,8 +2383,7 @@ Hence, we assume that:&lt;/p&gt;
 $$&lt;/p&gt;
 &lt;p&gt;Using the fact that $R(k) = 1 + r(k) - \delta$ we can rewrite the numerator as:&lt;/p&gt;
 &lt;p&gt;$$s^\prime_{\omega}\left(\frac{r(\bar{k}) -n - \delta}{1+n}\right)+1=s^\prime_\omega \left(\frac{R(\bar{k})-1-n}{1+n}\right)+1 = 1 - \underbrace{s^{\prime}_\omega}_{\in (0,1)} + \underbrace{s^\prime_\omega}_{&amp;gt;0} \frac{R(\bar{k})}{1+n} &amp;gt; 0.$$&lt;/p&gt;
-&lt;p&gt;We showed that $s^\prime_{\omega} \in (0,1)$ when we discussed 
-&lt;a href=&#34;https://eric-roca.github.io/courses/olg/savings_function/#the-effect-of-wages&#34;&gt;the savings function.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We showed that $s^\prime_{\omega} \in (0,1)$ when we discussed &lt;a href=&#34;https://eric-roca.github.io/courses/olg/savings_function/#the-effect-of-wages&#34;&gt;the savings function.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Then, we have that&lt;/p&gt;
 &lt;p&gt;$$\frac{\partial \bar{k}}{\partial b} = - \frac{s^\prime_{\omega}\left(\overbrace{1-s^\prime_\omega+s^\prime_\omega\frac{R(\bar{k})}{1+n}}^{&amp;gt;0}\right)}{\underbrace{1+n-s^\prime_\omega \left(\omega^\prime(\bar{k})-b\frac{r^\prime(\bar{k})}{1+n}\right)-s^\prime_R R^\prime(\bar{k})}_{&amp;gt;0, \mathrm{because, of, stability}}}&amp;lt; 0 .$$&lt;/p&gt;
 &lt;p&gt;We proceed similarly with $g$:&lt;/p&gt;
@@ -2500,8 +2469,7 @@ In that (unlikely) case, a unique steady state arises, but it is non-hyperbolic 
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
       <guid>https://eric-roca.github.io/courses/ramsey/ramsey_remarks/</guid>
       <description>&lt;h2 id=&#34;optimality&#34;&gt;Optimality&lt;/h2&gt;
-&lt;p&gt;Before 
-&lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/steady_state_ramsey/#Golden-rule&#34;&gt;we claimed&lt;/a&gt; that the solution is &lt;em&gt;optimal&lt;/em&gt; despite the fact that it does not maximise consumption at the steady state.
+&lt;p&gt;Before &lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/steady_state_ramsey/#Golden-rule&#34;&gt;we claimed&lt;/a&gt; that the solution is &lt;em&gt;optimal&lt;/em&gt; despite the fact that it does not maximise consumption at the steady state.
 However, what we claimed was that the &lt;em&gt;entire path&lt;/em&gt; was optimal.
 We can prove it by solving the Ramsey allocation problem from the perspective of the social planner.&lt;/p&gt;
 &lt;h3 id=&#34;social-planner&#34;&gt;Social planner&lt;/h3&gt;
@@ -2541,10 +2509,94 @@ Therefore, the current utility cost of a reduction in consumption is larger the 
 Because of the discount rate, the utility gains from an eventual permanent increase in consumption are bounded.&lt;/p&gt;
 &lt;p&gt;All in all, the economy converges to a value $\bar{k}$ below the steady state.
 Because $\bar{k}$ is the optimal level of $k$ for the economy to converge to, it is known as the &lt;em&gt;modified Golden-rule&lt;/em&gt; capital stock.&lt;/p&gt;
-&lt;p&gt;We 
-&lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/steady_state_ramsey/#Golden-rule&#34;&gt;had already noticed&lt;/a&gt; that the discount factor $\beta$ prevents the economy from reaching the Golden-rule level of capital.
+&lt;p&gt;We &lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/steady_state_ramsey/#Golden-rule&#34;&gt;had already noticed&lt;/a&gt; that the discount factor $\beta$ prevents the economy from reaching the Golden-rule level of capital.
 According to our computation, the Golden-rule level of capital is only attained if $\beta = 1.$
 This implies that present and future consumption are valued the same, which complements the discussion above.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Roots of Gender Equality: the Persistent Effect of Beguinages on Attitudes toward Women</title>
+      <link>https://eric-roca.github.io/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-attitudes-toward-women/</link>
+      <pubDate>Tue, 09 Mar 2021 16:30:00 +0100</pubDate>
+      <guid>https://eric-roca.github.io/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-attitudes-toward-women/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Welcome to Wowchemy, the website builder for Hugo</title>
+      <link>https://eric-roca.github.io/post/getting-started/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://eric-roca.github.io/post/getting-started/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site&lt;/li&gt;
+&lt;li&gt;The template can be modified and customised to suit your needs. It&amp;rsquo;s a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a &lt;strong&gt;no-code solution (write in Markdown and customize with YAML parameters)&lt;/strong&gt; and having &lt;strong&gt;flexibility to later add even deeper personalization with HTML and CSS&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-the-template-is-mobile-first-with-a-responsive-design-to-ensure-that-your-site-looks-stunning-on-every-device&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/master/academic.png&#34; alt=&#34;The template is mobile first with a responsive design to ensure that your site looks stunning on every device.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      The template is mobile first with a responsive design to ensure that your site looks stunning on every device.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;get-started&#34;&gt;Get Started&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;👉 &lt;a href=&#34;https://wowchemy.com/templates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Create a new site&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;📚 &lt;a href=&#34;https://wowchemy.com/docs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Personalize your site&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💬 &lt;a href=&#34;https://discord.gg/z8wNYzb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chat with the &lt;strong&gt;Wowchemy community&lt;/strong&gt;&lt;/a&gt; or &lt;a href=&#34;https://discourse.gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Hugo community&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🐦 Twitter: &lt;a href=&#34;https://twitter.com/wowchemy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@wowchemy&lt;/a&gt; &lt;a href=&#34;https://twitter.com/GeorgeCushen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@GeorgeCushen&lt;/a&gt; &lt;a href=&#34;https://twitter.com/search?q=%28%23MadeWithWowchemy%20OR%20%23MadeWithAcademic%29&amp;amp;src=typed_query&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#MadeWithWowchemy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💡 &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Request a &lt;strong&gt;feature&lt;/strong&gt; or report a &lt;strong&gt;bug&lt;/strong&gt; for &lt;em&gt;Wowchemy&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;⬆️ &lt;strong&gt;Updating Wowchemy?&lt;/strong&gt; View the &lt;a href=&#34;https://wowchemy.com/docs/guide/update/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Update Guide&lt;/a&gt; and &lt;a href=&#34;https://wowchemy.com/updates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Release Notes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;crowd-funded-open-source-software&#34;&gt;Crowd-funded open-source software&lt;/h2&gt;
+&lt;p&gt;To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.&lt;/p&gt;
+&lt;h3 id=&#34;-click-here-to-become-a-sponsor-and-help-support-wowchemys-future-httpswowchemycomplans&#34;&gt;&lt;a href=&#34;https://wowchemy.com/plans/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;❤️ Click here to become a sponsor and help support Wowchemy&amp;rsquo;s future ❤️&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;As a token of appreciation for sponsoring, you can &lt;strong&gt;unlock &lt;a href=&#34;https://wowchemy.com/plans/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;these&lt;/a&gt; awesome rewards and extra features 🦄✨&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ecosystem&#34;&gt;Ecosystem&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/wowchemy/hugo-academic-cli&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Academic CLI&lt;/a&gt;:&lt;/strong&gt; Automatically import publications from BibTeX&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;inspiration&#34;&gt;Inspiration&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes, or &lt;a href=&#34;https://wowchemy.com/user-stories/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;view the &lt;strong&gt;showcase&lt;/strong&gt;&lt;/a&gt; of personal, project, and business sites.&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Page builder&lt;/strong&gt; - Create &lt;em&gt;anything&lt;/em&gt; with &lt;a href=&#34;https://wowchemy.com/docs/page-builder/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;widgets&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;elements&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Edit any type of content&lt;/strong&gt; - Blog posts, publications, talks, slides, projects, and more!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create content&lt;/strong&gt; in &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Markdown&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&#34;https://wowchemy.com/docs/import/jupyter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Jupyter&lt;/strong&gt;&lt;/a&gt;, or &lt;a href=&#34;https://wowchemy.com/docs/install-locally/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Plugin System&lt;/strong&gt; - Fully customizable &lt;a href=&#34;https://wowchemy.com/docs/customization/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;color&lt;/strong&gt; and &lt;strong&gt;font themes&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Display Code and Math&lt;/strong&gt; - Code highlighting and &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LaTeX math&lt;/a&gt; supported&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Integrations&lt;/strong&gt; - &lt;a href=&#34;https://analytics.google.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Analytics&lt;/a&gt;, &lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Disqus commenting&lt;/a&gt;, Maps, Contact Forms, and more!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beautiful Site&lt;/strong&gt; - Simple and refreshing one page design&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Industry-Leading SEO&lt;/strong&gt; - Help get your website found on search engines and social media&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Media Galleries&lt;/strong&gt; - Display your images and videos with captions in a customizable gallery&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mobile Friendly&lt;/strong&gt; - Look amazing on every screen with a mobile friendly version of your site&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-language&lt;/strong&gt; - 34+ language packs including English, 中文, and Português&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-user&lt;/strong&gt; - Each author gets their own profile page&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Privacy Pack&lt;/strong&gt; - Assists with GDPR&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Stand Out&lt;/strong&gt; - Bring your site to life with animation, parallax backgrounds, and scroll effects&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;One-Click Deployment&lt;/strong&gt; - No servers. No databases. Only files.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+&lt;p&gt;Wowchemy and its templates come with &lt;strong&gt;automatic day (light) and night (dark) mode&lt;/strong&gt; built-in. Alternatively, visitors can choose their preferred mode - click the moon icon in the top right of the &lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Demo&lt;/a&gt; to see it in action! Day/night mode can also be disabled by the site admin in &lt;code&gt;params.toml&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/customization&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Choose a stunning &lt;strong&gt;theme&lt;/strong&gt; and &lt;strong&gt;font&lt;/strong&gt;&lt;/a&gt; for your site. Themes are fully customizable.&lt;/p&gt;
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+&lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
 </description>
     </item>
     
@@ -2558,33 +2610,33 @@ This implies that present and future consumption are valued the same, which comp
     
     <item>
       <title>The Terror of History: Solar Eclipses and the Origins of Critical Thinking and Complexity</title>
-      <link>https://eric-roca.github.io/talk/2020-11_odense/</link>
+      <link>https://eric-roca.github.io/talk/the-terror-of-history-solar-eclipses-and-the-origins-of-critical-thinking-and-complexity/</link>
       <pubDate>Sat, 07 Nov 2020 18:00:00 +0100</pubDate>
-      <guid>https://eric-roca.github.io/talk/2020-11_odense/</guid>
+      <guid>https://eric-roca.github.io/talk/the-terror-of-history-solar-eclipses-and-the-origins-of-critical-thinking-and-complexity/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Terror of History: Solar Eclipses and the Origins of Critical Thinking and Complexity</title>
-      <link>https://eric-roca.github.io/talk/2020-09_berlin/</link>
+      <link>https://eric-roca.github.io/talk/the-terror-of-history-solar-eclipses-and-the-origins-of-critical-thinking-and-complexity/</link>
       <pubDate>Tue, 29 Sep 2020 13:45:00 +0200</pubDate>
-      <guid>https://eric-roca.github.io/talk/2020-09_berlin/</guid>
+      <guid>https://eric-roca.github.io/talk/the-terror-of-history-solar-eclipses-and-the-origins-of-critical-thinking-and-complexity/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Roots of Gender Equality: the Persistent Effect of Beguinages on Attitudes toward Women</title>
-      <link>https://eric-roca.github.io/talk/2019-12_luxembourg/</link>
+      <link>https://eric-roca.github.io/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-attitudes-toward-women/</link>
       <pubDate>Mon, 09 Dec 2019 17:30:00 +0100</pubDate>
-      <guid>https://eric-roca.github.io/talk/2019-12_luxembourg/</guid>
+      <guid>https://eric-roca.github.io/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-attitudes-toward-women/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Terror of History: Solar Eclipses and the Origins of Critical Thinking and Complexity</title>
-      <link>https://eric-roca.github.io/talk/2019-09_lund/</link>
+      <link>https://eric-roca.github.io/talk/the-terror-of-history-solar-eclipses-and-the-origins-of-critical-thinking-and-complexity/</link>
       <pubDate>Sat, 28 Sep 2019 09:30:00 +0200</pubDate>
-      <guid>https://eric-roca.github.io/talk/2019-09_lund/</guid>
+      <guid>https://eric-roca.github.io/talk/the-terror-of-history-solar-eclipses-and-the-origins-of-critical-thinking-and-complexity/</guid>
       <description></description>
     </item>
     
@@ -2597,82 +2649,211 @@ This implies that present and future consumption are valued the same, which comp
     </item>
     
     <item>
+      <title>Slides</title>
+      <link>https://eric-roca.github.io/slides/example/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://eric-roca.github.io/slides/example/</guid>
+      <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://owchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
+&lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
+&lt;li&gt;Supports speaker notes&lt;/li&gt;
+&lt;li&gt;Mobile friendly slides&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Start: &lt;code&gt;Home&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Finish: &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Overview: &lt;code&gt;Esc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/hakimel/reveal.js#pdf-export&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF Export&lt;/a&gt;: &lt;code&gt;E&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
+&lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Code block:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;porridge = &amp;quot;blueberry&amp;quot;
+if porridge == &amp;quot;blueberry&amp;quot;:
+    print(&amp;quot;Eating...&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
+&lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
+&lt;p&gt;Block math:&lt;/p&gt;
+&lt;p&gt;$$
+f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
+&lt;p&gt;Make content appear incrementally&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{% fragment %}} One {{% /fragment %}}
+{{% fragment %}} **Two** {{% /fragment %}}
+{{% fragment %}} Three {{% /fragment %}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+One
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+&lt;strong&gt;Two&lt;/strong&gt;
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+Three
+&lt;/span&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
+&lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% speaker_note %}}
+- Only the speaker can read these notes
+- Press `S` key to view
+{{% /speaker_note %}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
+&lt;aside class=&#34;notes&#34;&gt;
+  &lt;ul&gt;
+&lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
+&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/aside&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
+&lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;league: Gray background, white text, blue links&lt;/li&gt;
+&lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
+&lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
+&lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
+&lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/media/boards.jpg&#34;
+  &gt;
+
+&lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
+&lt;p&gt;Customize the slide style and background&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; slide background-image=&amp;quot;/media/boards.jpg&amp;quot; &amp;gt;}}
+{{&amp;lt; slide background-color=&amp;quot;#0000FF&amp;quot; &amp;gt;}}
+{{&amp;lt; slide class=&amp;quot;my-style&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
+&lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;.reveal section h1,
+.reveal section h2,
+.reveal section h3 {
+  color: navy;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/discussions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Roots of Gender Equality: the Persistent Effect of Beguinages on Attitudes toward Women</title>
-      <link>https://eric-roca.github.io/talk/2019-01_marseille/</link>
+      <link>https://eric-roca.github.io/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-attitudes-toward-women/</link>
       <pubDate>Wed, 30 Jan 2019 14:30:00 +0200</pubDate>
-      <guid>https://eric-roca.github.io/talk/2019-01_marseille/</guid>
+      <guid>https://eric-roca.github.io/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-attitudes-toward-women/</guid>
       <description></description>
     </item>
     
     <item>
       <title>In the Name of the Father: Inheritance Systems and the Dynamics of State Capacity</title>
-      <link>https://eric-roca.github.io/talk/2018-12_luxembourg/</link>
+      <link>https://eric-roca.github.io/talk/in-the-name-of-the-father-inheritance-systems-and-the-dynamics-of-state-capacity/</link>
       <pubDate>Wed, 12 Dec 2018 14:40:00 +0100</pubDate>
-      <guid>https://eric-roca.github.io/talk/2018-12_luxembourg/</guid>
+      <guid>https://eric-roca.github.io/talk/in-the-name-of-the-father-inheritance-systems-and-the-dynamics-of-state-capacity/</guid>
       <description></description>
     </item>
     
     <item>
       <title>If Children Suffer when Mothers Work, Do They Work Less?</title>
-      <link>https://eric-roca.github.io/talk/2018-09_lyon/</link>
+      <link>https://eric-roca.github.io/talk/if-children-suffer-when-mothers-work-do-they-work-less/</link>
       <pubDate>Fri, 14 Sep 2018 11:00:00 +0200</pubDate>
-      <guid>https://eric-roca.github.io/talk/2018-09_lyon/</guid>
+      <guid>https://eric-roca.github.io/talk/if-children-suffer-when-mothers-work-do-they-work-less/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Roots of Gender Equality: the Persistent Effect of Beguinages on Attitudes toward Women</title>
-      <link>https://eric-roca.github.io/talk/2018-08_cologne/</link>
+      <link>https://eric-roca.github.io/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-attitudes-toward-women/</link>
       <pubDate>Tue, 28 Aug 2018 14:15:00 +0200</pubDate>
-      <guid>https://eric-roca.github.io/talk/2018-08_cologne/</guid>
+      <guid>https://eric-roca.github.io/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-attitudes-toward-women/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Roots of Gender Equality: the Persistent Effect of Beguinages on Attitudes toward Women</title>
-      <link>https://eric-roca.github.io/talk/2018-06_milan/</link>
+      <link>https://eric-roca.github.io/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-attitudes-toward-women/</link>
       <pubDate>Tue, 19 Jun 2018 11:30:00 +0200</pubDate>
-      <guid>https://eric-roca.github.io/talk/2018-06_milan/</guid>
+      <guid>https://eric-roca.github.io/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-attitudes-toward-women/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Roots of Gender Equality: the Persistent Effect of Beguinages on Attitudes toward Women</title>
-      <link>https://eric-roca.github.io/talk/2018-06_odense/</link>
+      <link>https://eric-roca.github.io/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-attitudes-toward-women/</link>
       <pubDate>Tue, 05 Jun 2018 10:45:00 +0200</pubDate>
-      <guid>https://eric-roca.github.io/talk/2018-06_odense/</guid>
+      <guid>https://eric-roca.github.io/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-attitudes-toward-women/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Roots of Gender Equality: the Persistent Effect of Beguinages on Atitudes Toward Women</title>
-      <link>https://eric-roca.github.io/talk/2018-02_palaiseau/</link>
+      <link>https://eric-roca.github.io/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-atitudes-toward-women/</link>
       <pubDate>Thu, 08 Feb 2018 13:00:00 +0200</pubDate>
-      <guid>https://eric-roca.github.io/talk/2018-02_palaiseau/</guid>
+      <guid>https://eric-roca.github.io/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-atitudes-toward-women/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Roots of Gender Equality: the Persistent Effect of Beguinages on Atitudes Toward Women</title>
-      <link>https://eric-roca.github.io/talk/2017-12_bonn/</link>
+      <link>https://eric-roca.github.io/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-atitudes-toward-women/</link>
       <pubDate>Wed, 13 Dec 2017 10:40:00 +0200</pubDate>
-      <guid>https://eric-roca.github.io/talk/2017-12_bonn/</guid>
+      <guid>https://eric-roca.github.io/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-atitudes-toward-women/</guid>
       <description></description>
     </item>
     
     <item>
       <title>&#39;Now She&#39;s Martha, then She&#39;s Mary&#39;: The Influence of Beguinages on Attitudes Toward Women</title>
-      <link>https://eric-roca.github.io/talk/2017-09_marseille/</link>
+      <link>https://eric-roca.github.io/talk/now-shes-martha-then-shes-mary-the-influence-of-beguinages-on-attitudes-toward-women/</link>
       <pubDate>Tue, 17 Oct 2017 17:00:00 +0200</pubDate>
-      <guid>https://eric-roca.github.io/talk/2017-09_marseille/</guid>
+      <guid>https://eric-roca.github.io/talk/now-shes-martha-then-shes-mary-the-influence-of-beguinages-on-attitudes-toward-women/</guid>
       <description></description>
     </item>
     
     <item>
       <title>&#39;Now She&#39;s Martha, then She&#39;s Mary&#39;: The Influence of Beguinages on Attitudes Toward Women</title>
-      <link>https://eric-roca.github.io/talk/2017-08_bologna/</link>
+      <link>https://eric-roca.github.io/talk/now-shes-martha-then-shes-mary-the-influence-of-beguinages-on-attitudes-toward-women/</link>
       <pubDate>Wed, 09 Aug 2017 14:30:00 +0200</pubDate>
-      <guid>https://eric-roca.github.io/talk/2017-08_bologna/</guid>
+      <guid>https://eric-roca.github.io/talk/now-shes-martha-then-shes-mary-the-influence-of-beguinages-on-attitudes-toward-women/</guid>
       <description></description>
     </item>
     
@@ -2686,25 +2867,46 @@ This implies that present and future consumption are valued the same, which comp
     
     <item>
       <title>Inheritance systems and the dynamics of state capacity in medieval Europe</title>
-      <link>https://eric-roca.github.io/talk/2017-02_providence_2/</link>
+      <link>https://eric-roca.github.io/talk/inheritance-systems-and-the-dynamics-of-state-capacity-in-medieval-europe/</link>
       <pubDate>Thu, 02 Mar 2017 09:00:00 -0500</pubDate>
-      <guid>https://eric-roca.github.io/talk/2017-02_providence_2/</guid>
+      <guid>https://eric-roca.github.io/talk/inheritance-systems-and-the-dynamics-of-state-capacity-in-medieval-europe/</guid>
       <description></description>
     </item>
     
     <item>
       <title>&#39;Now She&#39;s Martha, then She&#39;s Mary&#39;: The Influence of Beguinages on Attitudes Toward Women</title>
-      <link>https://eric-roca.github.io/talk/2017-02_providence_1/</link>
+      <link>https://eric-roca.github.io/talk/now-shes-martha-then-shes-mary-the-influence-of-beguinages-on-attitudes-toward-women/</link>
       <pubDate>Fri, 03 Feb 2017 09:00:00 -0500</pubDate>
-      <guid>https://eric-roca.github.io/talk/2017-02_providence_1/</guid>
+      <guid>https://eric-roca.github.io/talk/now-shes-martha-then-shes-mary-the-influence-of-beguinages-on-attitudes-toward-women/</guid>
       <description></description>
     </item>
     
     <item>
       <title>&#39;Now She&#39;s Martha, then She&#39;s Mary&#39;: The Influence of Beguinages on Attitudes Toward Women</title>
-      <link>https://eric-roca.github.io/talk/2016-12_new-delhi/</link>
+      <link>https://eric-roca.github.io/talk/now-shes-martha-then-shes-mary-the-influence-of-beguinages-on-attitudes-toward-women/</link>
       <pubDate>Mon, 21 Nov 2016 11:15:00 +0530</pubDate>
-      <guid>https://eric-roca.github.io/talk/2016-12_new-delhi/</guid>
+      <guid>https://eric-roca.github.io/talk/now-shes-martha-then-shes-mary-the-influence-of-beguinages-on-attitudes-toward-women/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Example Project</title>
+      <link>https://eric-roca.github.io/project/example/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://eric-roca.github.io/project/example/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://eric-roca.github.io/admin/config.yml</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://eric-roca.github.io/admin/config.yml</guid>
       <description></description>
     </item>
     

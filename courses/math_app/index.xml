@@ -5,9 +5,9 @@
     <link>https://eric-roca.github.io/courses/math_app/</link>
       <atom:link href="https://eric-roca.github.io/courses/math_app/index.xml" rel="self" type="application/rss+xml" />
     <description>Mathematical appendix</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021 Èric Roca Fernández</copyright><lastBuildDate>Thu, 11 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Èric Roca Fernández</copyright><lastBuildDate>Thu, 11 Jul 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://eric-roca.github.io/img/eric.jpg</url>
+      <url>https://eric-roca.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Mathematical appendix</title>
       <link>https://eric-roca.github.io/courses/math_app/</link>
     </image>
@@ -258,8 +258,7 @@ Any other initial set of values delivers a non-converging trajectory.
 In economics, we often encounter a $2 \times 2$ system.
 Often, the initial value of one variable is fixed (state variable, in general capital).
 Hence, we have to select the value of the other variable (control variable, in general consumption) in such a way that it is on the saddle path.&lt;/p&gt;
-&lt;p&gt;We develop a full example in 
-&lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/ramsey_example/&#34;&gt;Example&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We develop a full example in &lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/ramsey_example/&#34;&gt;Example&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -349,8 +348,7 @@ The second case never arises: the marginal utility is zero only when consumption
 &lt;p&gt;Letting time go to infinity, the equation above becomes the transversality condition:
 $$\lim_{t \rightarrow \infty} \beta^{t}u^{\prime}(c_{t})k_{t+1} = 0.$$&lt;/p&gt;
 &lt;h2 id=&#34;the-transversality-condition-is-a-necessary-condition-proof&#34;&gt;The transversality condition is a necessary condition: proof&lt;/h2&gt;
-&lt;p&gt;Proof by Kamihigashi (2002): 
-&lt;a href=&#34;https://www.jstor.org/stable/25055538?seq=1#page_scan_tab_contents&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A Simple Proof of the Necessity of the Transversality Condition&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Proof by Kamihigashi (2002): &lt;a href=&#34;https://www.jstor.org/stable/25055538?seq=1#page_scan_tab_contents&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A Simple Proof of the Necessity of the Transversality Condition&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Kamihigashi (2002) shows that the transversality condition is a necessary condition in an optimal control problem.
 This proof neglects consumption and focuses on current and future values of $x_{t}.$
 Consider the following maximisation problem:&lt;/p&gt;
@@ -440,8 +438,7 @@ Therefore, we can compute $\sigma_{K,L}$ as&lt;/p&gt;
 &amp;amp; r = A \frac{\nu}{\rho}\left( \alpha K^{\rho} + (1-\alpha) L^{\rho} \right)^{\frac{\nu}{\rho}-1}\alpha \rho K^{\rho-1}.\end{eqnarray}$$
 Hence:
 $$\frac{w}{r} = \frac{1-\alpha}{\alpha} \left(\frac{K}{L} \right)^{1-\rho}.$$&lt;/p&gt;
-&lt;p&gt;The parameter $\nu$ indicates the degree of 
-&lt;a href=&#34;https://eric-roca.github.io/courses/math_app/homogenous_functions/&#34;&gt;homogeneity of the function.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The parameter $\nu$ indicates the degree of &lt;a href=&#34;https://eric-roca.github.io/courses/math_app/homogenous_functions/&#34;&gt;homogeneity of the function.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;The elasticity of substitution equals:&lt;/p&gt;
 &lt;p&gt;$$\frac{ \partial \ln \left(\frac{K}{L}\right)}{\partial \ln \left( \frac{w}{r} \right)} =
 \frac{ \partial \frac{K}{L}}{\frac{K}{L}}\frac{\frac{w}{r}}{\partial \frac{w}{r}} =

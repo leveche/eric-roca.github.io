@@ -5,9 +5,9 @@
     <link>https://eric-roca.github.io/courses/ramsey/</link>
       <atom:link href="https://eric-roca.github.io/courses/ramsey/index.xml" rel="self" type="application/rss+xml" />
     <description>Overview</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021 Èric Roca Fernández</copyright><lastBuildDate>Thu, 11 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Èric Roca Fernández</copyright><lastBuildDate>Thu, 11 Jul 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://eric-roca.github.io/img/eric.jpg</url>
+      <url>https://eric-roca.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Overview</title>
       <link>https://eric-roca.github.io/courses/ramsey/</link>
     </image>
@@ -46,8 +46,7 @@ Since the production function $F$ is homogeneous of degree, we can write it in &
 &lt;p&gt;The marginal product of labour is given by $\partial F(K,L)/\partial L.$
 In intensive terms, it is equal to:&lt;/p&gt;
 &lt;p&gt;$$w_{t} = f(k) - f^{\prime}(k) k. \tag{7, Wage}$$&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: The 
-&lt;a href=&#34;https://eric-roca.github.io/courses/math_app/homogenous_functions/&#34;&gt;appendix&lt;/a&gt; details how to obtain the previous expressions.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: The &lt;a href=&#34;https://eric-roca.github.io/courses/math_app/homogenous_functions/&#34;&gt;appendix&lt;/a&gt; details how to obtain the previous expressions.&lt;/p&gt;
 </description>
     </item>
     
@@ -259,15 +258,12 @@ Since the function $f^\prime$ is continuous, by the intermediate value theorem t
 Therefore, there exists one and only one value $\bar{k} \in (0,+\infty)$ that solves the first equation in \ref{eq:ss2}.
 Also, the second equation in \ref{eq:ss2} uniquely determines the level of consumption given capital.
 Hence, the steady-state consumption level $\bar{c}$ is unique.&lt;/p&gt;
-&lt;p&gt;We can obtain an overview of the dynamics of the model using the 
-&lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/phase_diagram/&#34;&gt;phase diagram&lt;/a&gt; and derive the exact solution using the method outlined in 
-&lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/ramsey_trajectory/&#34;&gt;trajectory&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We can obtain an overview of the dynamics of the model using the &lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/phase_diagram/&#34;&gt;phase diagram&lt;/a&gt; and derive the exact solution using the method outlined in &lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/ramsey_trajectory/&#34;&gt;trajectory&lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;stability&#34;&gt;Stability of the steady state&lt;/h3&gt;
 &lt;p&gt;We are now interested in determining the behaviour of the economy when it starts with some level of capital $k_0$ and consumption $c_0.$
 The economy is represented by a $2 \times 2$ system of first-order difference equations.
 The stability of a steady state depends on the Jacobian matrix&amp;rsquo;s eigenvalues evaluated at the steady state.
-&lt;strong&gt;Note:&lt;/strong&gt; the 
-&lt;a href=&#34;https://eric-roca.github.io/courses/math_app/steady_state/&#34;&gt;Appendix&lt;/a&gt; discusses this in more detail.
+&lt;strong&gt;Note:&lt;/strong&gt; the &lt;a href=&#34;https://eric-roca.github.io/courses/math_app/steady_state/&#34;&gt;Appendix&lt;/a&gt; discusses this in more detail.
 In particular, we wonder whether the dynamics are such that they converge towards the steady state or diverge away from it.&lt;/p&gt;
 &lt;p&gt;The equations that govern the economy are the Euler equation and the law for capital accumulation:&lt;/p&gt;
 &lt;p&gt;$$\left.
@@ -419,7 +415,7 @@ $$G(1) =  \beta f^{\prime \prime}(\bar{k})\frac{\bar{c}}{\epsilon_{\bar{c}}} &am
 &lt;p&gt;Hence, $\exists \lambda_{2} \in (-1,0)$ such that $G(\lambda_{2}) = 0$.
 The second root lies beyond $1.$
 Therefore, $\lambda_{1} &amp;gt; 1, \lambda_{2}\in(0,1)$ and the &lt;strong&gt;steady state is a saddle.&lt;/strong&gt;&lt;/p&gt;
-&lt;h4 id=&#34;use-eigenvalues-properties&#34;&gt;Use eigenvalues&amp;rsquo; properties&lt;/h4&gt;
+&lt;h4 id=&#34;use-eigenvalues-properties&#34;&gt;Use eigenvalues&#39; properties&lt;/h4&gt;
 &lt;p&gt;For any matrix, we have the following:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;The product of eigenvalues equals the &lt;strong&gt;determinant&lt;/strong&gt; of the matrix: $\mathrm{det}(M) = \lambda_{1} \lambda_{2} \ldots \lambda_{N},$&lt;/li&gt;
@@ -501,8 +497,7 @@ We can rearrange the previous equation to obtain the following:&lt;/p&gt;
 Setting $k_{t+1} = k_{t} \implies k_{t+1} - k_{t} = 0$ so capital is constant yields:&lt;/p&gt;
 &lt;p&gt;$$ 0 = f(k_{t}) - \delta k_{t} - c_{t} \implies c_{t} = f(k_{t}) - \delta k_{t}.$$&lt;/p&gt;
 &lt;p&gt;In the $(k,c)$ space, the equation takes a form similar to a parabola: it combines production &amp;mdash;with decreasing marginal returns&amp;mdash; with a linear depreciation rate.
-In fact, f(k_t)-\delta k_t$ admits one maximum $(f^\prime (k_t) = \delta)$ the 
-&lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/golden_rule/&#34;&gt;Golden rule&lt;/a&gt; we discuss later.
+In fact, f(k_t)-\delta k_t$ admits one maximum $(f^\prime (k_t) = \delta)$ the &lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/golden_rule/&#34;&gt;Golden rule&lt;/a&gt; we discuss later.
 Since $f^{\prime \prime}(k_t)&amp;lt;0,$ the stationary point is a maximum.&lt;/p&gt;
 &lt;p&gt;Let&amp;rsquo;s now analyse how capital evolves when consumption is above and below the level that makes it constant.
 From $k_{t+1} - k_{t} = f(k_{t}) - \delta k_{t} - c_{t}$, if consumption is above the level we have that $k_{t+1} - k_{t} &amp;lt; 0,$ meaning that capital decreases over time.
@@ -530,8 +525,7 @@ Finally, the point indicating the intersection of both curves is the steady stat
 Any other initial value consumption at $t=0$ (capital is pre-determined and thus we &lt;em&gt;cannot&lt;/em&gt; change it) has a diverging trajectory.&lt;/p&gt;
 &lt;p&gt;We now compute the exact behaviour of $(k_{t}, c_{t})$ around the steady state.&lt;/p&gt;
 &lt;p&gt;The model is highly non-linear, so we study a simpler linearised version around the steady state.
-First, let&amp;rsquo;s approximate the dynamics of capital and consumption 
-&lt;a href=&#34;https://eric-roca.github.io/courses/math_app/steady_state/#Approximation&#34;&gt;around the steady state.&lt;/a&gt;&lt;/p&gt;
+First, let&amp;rsquo;s approximate the dynamics of capital and consumption &lt;a href=&#34;https://eric-roca.github.io/courses/math_app/steady_state/#Approximation&#34;&gt;around the steady state.&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;the-approximation-around-the-steady-state&#34;&gt;The approximation around the steady state&lt;/h3&gt;
 &lt;p&gt;The behaviour of the dynamical system around the steady state can be approximated using a first-order Taylor expansion around it.
 In that sense:&lt;/p&gt;
@@ -545,8 +539,7 @@ c_{t} - \bar{c} \\\ k_{t} - \bar{k}
 \end{pmatrix}.$$&lt;/p&gt;
 &lt;p&gt;Next, we solve this equation of difference equations, this is, we obtain $c_t = \mathcal{C}(c_0, k_0, t), k_t = \mathcal{K}(c_0, k_0, t).$&lt;/p&gt;
 &lt;h3 id=&#34;diagonalising-the-matrix-eigenvalues-and-eigenvectors&#34;&gt;Diagonalising the matrix: eigenvalues and eigenvectors&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; based on the notes by 
-&lt;a href=&#34;http://www.princeton.edu/~moll/ECO503Web/Lecture4_ECO503.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Benjamin Moll&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; based on the notes by &lt;a href=&#34;http://www.princeton.edu/~moll/ECO503Web/Lecture4_ECO503.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Benjamin Moll&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;To simplify the notation, let $y_{t} = \begin{pmatrix} c_{t} - \bar{c} \\\ k_{t} -\bar{k} \end{pmatrix}.$
 Hence, our problem becomes:
 $$y_{t+1} = \bar{A} y_{t}.$$&lt;/p&gt;
@@ -671,8 +664,7 @@ $$\frac{\partial \mathcal{L}}{\partial k_{t+1}} = -\lambda_{t} + \lambda_{t+1} (
 Moreover, factors are paid their marginal productivity.&lt;/p&gt;
 &lt;p&gt;$$r_{t} = F^{\prime}_{K_{t}}(K_{t}, L_{t}) = \alpha K_{t}^{\alpha - 1}L_{t}^{1-\alpha} = \alpha \left(\frac{K_{t}}{L_{t}}\right)^{\alpha - 1} = \alpha k_{t}^{\alpha -1},$$
 $$w_{t} = F^{\prime}_{L_{t}}(K_{t}, L_{t}) = (1-\alpha) K_{t}^{\alpha} L_{t}^{-\alpha} = (1-\alpha)\left(\frac{K_{t}}{L_{t}}\right)^{\alpha} = (1-\alpha) k_{t}^{\alpha}.$$&lt;/p&gt;
-&lt;p&gt;Alternatively, using the information in the 
-&lt;a href=&#34;https://eric-roca.github.io/courses/math_app/homogenous_functions/#intensive-form&#34;&gt;Appendix&lt;/a&gt; and working directly with the intensive-form production function:&lt;/p&gt;
+&lt;p&gt;Alternatively, using the information in the &lt;a href=&#34;https://eric-roca.github.io/courses/math_app/homogenous_functions/#intensive-form&#34;&gt;Appendix&lt;/a&gt; and working directly with the intensive-form production function:&lt;/p&gt;
 &lt;p&gt;$$r_{t} = f^{\prime}(k_{t}) = \frac{\partial f(k_{t})}{\partial k_{t}} = \alpha k_{t}^{\alpha -1},$$
 $$w_{t} = f(k_{t}) - f^{\prime}(k_{t})k_{t} = k_{t}^{\alpha} - \alpha k_{t}^{\alpha - 1} k_{t} = (1-\alpha)k_{t}^{\alpha}.$$&lt;/p&gt;
 &lt;h2 id=&#34;the-dynamic-system&#34;&gt;The dynamic system&lt;/h2&gt;
@@ -698,8 +690,7 @@ $$\bar{k}^{\alpha} + (1-\delta)\bar{k} = \bar{c} + \bar{k}.$$&lt;/p&gt;
 &lt;p&gt;Applying $\bar{k}$ in the second equation yields the steady-state level of consumption:&lt;/p&gt;
 &lt;p&gt;$$ \bar{c} = \left(\frac{\alpha \beta}{1-\beta (1-\delta)}\right)^{\frac{\alpha}{1-\alpha}} - \delta \left(\frac{\alpha \beta}{1-\beta (1- \delta)}\right)^{\frac{1}{1-\alpha}}.$$&lt;/p&gt;
 &lt;h2 id=&#34;stability&#34;&gt;Stability&lt;/h2&gt;
-&lt;p&gt;First, we analyse the stability of the steady state, as we did in the 
-&lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/steady_state_ramsey/#stability&#34;&gt;general case&lt;/a&gt;
+&lt;p&gt;First, we analyse the stability of the steady state, as we did in the &lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/steady_state_ramsey/#stability&#34;&gt;general case&lt;/a&gt;
 Since we are using log-utility, the coefficient of relative risk aversion $\epsilon_{c} = 1.$&lt;/p&gt;
 &lt;p&gt;Instead of plugging the correct values in the Jacobian matrix $\bar{A}$, for the sake of clarity, we derive everything again:&lt;/p&gt;
 &lt;p&gt;$$\bar{A} = \begin{pmatrix}
@@ -742,8 +733,7 @@ $$ \lambda_{1} &amp;gt; 1 \implies \lambda_{2} \in (1,+\infty)$$
 and &lt;strong&gt;the steady state is saddle.&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;trajectory&#34;&gt;Trajectory&lt;/h2&gt;
 &lt;p&gt;Describing the trajectory around the steady state analytically would be cumbersome.
-One possibility is to introduce an alternative production function of the $Ak$ family which alleviates this problem, see the notes by 
-&lt;a href=&#34;https://eml.berkeley.edu/~webfac/obstfeld/e202a_f13/lecture2.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Maurice Obsfeld&lt;/a&gt;&lt;/p&gt;
+One possibility is to introduce an alternative production function of the $Ak$ family which alleviates this problem, see the notes by &lt;a href=&#34;https://eml.berkeley.edu/~webfac/obstfeld/e202a_f13/lecture2.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Maurice Obsfeld&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Instead, we solve this section numerically.
 In particular, assume that $\alpha = 0.3, \, \beta = 0.9, \, \delta = 0.1.$
 The initial level of capital $k_{t=0} = 1.$&lt;/p&gt;
@@ -810,8 +800,7 @@ In that sense, achieving the Golden Rule level of capital $k^{\mathcal{GR}}$ is 
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
       <guid>https://eric-roca.github.io/courses/ramsey/ramsey_remarks/</guid>
       <description>&lt;h2 id=&#34;optimality&#34;&gt;Optimality&lt;/h2&gt;
-&lt;p&gt;Before 
-&lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/steady_state_ramsey/#Golden-rule&#34;&gt;we claimed&lt;/a&gt; that the solution is &lt;em&gt;optimal&lt;/em&gt; despite the fact that it does not maximise consumption at the steady state.
+&lt;p&gt;Before &lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/steady_state_ramsey/#Golden-rule&#34;&gt;we claimed&lt;/a&gt; that the solution is &lt;em&gt;optimal&lt;/em&gt; despite the fact that it does not maximise consumption at the steady state.
 However, what we claimed was that the &lt;em&gt;entire path&lt;/em&gt; was optimal.
 We can prove it by solving the Ramsey allocation problem from the perspective of the social planner.&lt;/p&gt;
 &lt;h3 id=&#34;social-planner&#34;&gt;Social planner&lt;/h3&gt;
@@ -851,8 +840,7 @@ Therefore, the current utility cost of a reduction in consumption is larger the 
 Because of the discount rate, the utility gains from an eventual permanent increase in consumption are bounded.&lt;/p&gt;
 &lt;p&gt;All in all, the economy converges to a value $\bar{k}$ below the steady state.
 Because $\bar{k}$ is the optimal level of $k$ for the economy to converge to, it is known as the &lt;em&gt;modified Golden-rule&lt;/em&gt; capital stock.&lt;/p&gt;
-&lt;p&gt;We 
-&lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/steady_state_ramsey/#Golden-rule&#34;&gt;had already noticed&lt;/a&gt; that the discount factor $\beta$ prevents the economy from reaching the Golden-rule level of capital.
+&lt;p&gt;We &lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/steady_state_ramsey/#Golden-rule&#34;&gt;had already noticed&lt;/a&gt; that the discount factor $\beta$ prevents the economy from reaching the Golden-rule level of capital.
 According to our computation, the Golden-rule level of capital is only attained if $\beta = 1.$
 This implies that present and future consumption are valued the same, which complements the discussion above.&lt;/p&gt;
 </description>
