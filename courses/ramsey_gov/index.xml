@@ -7,23 +7,23 @@
     <description>Overview</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Èric Roca Fernández</copyright><lastBuildDate>Thu, 11 Jul 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://eric-roca.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://eric-roca.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Overview</title>
       <link>https://eric-roca.github.io/courses/ramsey_gov/</link>
     </image>
     
     <item>
       <title>Households</title>
-      <link>https://eric-roca.github.io/courses/ramsey_gov/households/</link>
+      <link>https://eric-roca.github.io/courses/ramsey_gov/ramsey_government_households/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/ramsey_gov/households/</guid>
+      <guid>https://eric-roca.github.io/courses/ramsey_gov/ramsey_government_households/</guid>
       <description>&lt;p&gt;We modify the household&amp;rsquo;s budget constraint to take into account the taxes they pay.
-It remains exactly the same as &lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/households/&#34;&gt;before&lt;/a&gt;, except for the fact that less income is available for consumption:&lt;/p&gt;
+It remains exactly the same as &lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/ramsey_households/&#34;&gt;before&lt;/a&gt;, except for the fact that less income is available for consumption:&lt;/p&gt;
 &lt;p&gt;$$k_{t+1} + c_{t} = w_{t} + r_{t}k_{t} + (1-\delta) k_{t} - \color{red}{T_{t}}. \tag{1, Budget Const.} \label{eq:budget}$$&lt;/p&gt;
 &lt;p&gt;Except for this modification, households still present the same utility formulation and maximise:&lt;/p&gt;
 &lt;p&gt;$$\max \sum_{t=0}^{\infty} \beta^{t} u(c_{t})$$
 $$\mathrm{s.t.} \quad k_{t+1} + c_{t} = w_{t} + r_{t} + (1-\delta) k_{t} - \color{red}{T_{t}}.$$&lt;/p&gt;
-&lt;p&gt;Building up the Lagrangian &lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/households/#solving-the-household-s-problem&#34;&gt;(as in the basic case)&lt;/a&gt; leads to the following equation:&lt;/p&gt;
+&lt;p&gt;Building up the Lagrangian &lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/ramsey_households/#solving-the-household-s-problem&#34;&gt;(as in the basic case)&lt;/a&gt; leads to the following equation:&lt;/p&gt;
 &lt;p&gt;$$\mathcal{L} = \sum_{t=0}^{\infty} \beta^t u(c_{t}) + \sum_{t=0}^{\infty} \lambda_{t}(w_{t} + r_{t}k_{t} + (1-\delta)k_{t} - c_{t} - k_{t+1} - \color{red}{T_{t}}).$$&lt;/p&gt;
 &lt;p&gt;Despite the introduction of taxes $T_{t}$, the optimality conditions are exactly the same as before.
 Indeed, we introduced lump-sum taxes, and these do not affect optimality conditions, only allocations.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
@@ -42,7 +42,7 @@ households will consume less.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
 &lt;p&gt;From a mathematical perspective, we introduce a constant which has a nil derivative.
-Of course, the optimal allocation will be affected because less resources are available, but it &lt;em&gt;will not&lt;/em&gt; impact the optimal ratios. &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+Of course, the optimal allocation will be affected because less resources are available, but it &lt;em&gt;will not&lt;/em&gt; impact the optimal ratios.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
@@ -51,9 +51,9 @@ Of course, the optimal allocation will be affected because less resources are av
     
     <item>
       <title>Steady state</title>
-      <link>https://eric-roca.github.io/courses/ramsey_gov/equilibrium/</link>
+      <link>https://eric-roca.github.io/courses/ramsey_gov/ramsey_government_equilibrium/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/ramsey_gov/equilibrium/</guid>
+      <guid>https://eric-roca.github.io/courses/ramsey_gov/ramsey_government_equilibrium/</guid>
       <description>&lt;p&gt;We close the model imposing market clearing.
 This affects the budget constraint:&lt;/p&gt;
 &lt;p&gt;$$\begin{eqnarray}
@@ -84,9 +84,9 @@ This implies that the steady-state level of consumption is reduced.&lt;/li&gt;
     
     <item>
       <title>Changes in $G$</title>
-      <link>https://eric-roca.github.io/courses/ramsey_gov/changing_g/</link>
+      <link>https://eric-roca.github.io/courses/ramsey_gov/ramsey_government_changing_g/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/ramsey_gov/changing_g/</guid>
+      <guid>https://eric-roca.github.io/courses/ramsey_gov/ramsey_government_changing_g/</guid>
       <description>&lt;p&gt;We focus now on how a change in $G_{t}$ affects the behaviour of the economy.
 We rely on the phase diagram for this analysis: it conveys the message quite efficiently.
 In what follows, we assume that the economy is at its steady-state level $(\bar{k}^{\mathcal{Gov}}, \bar{c}^{\mathcal{Gov}})$ when the government decides to change $G_t.$

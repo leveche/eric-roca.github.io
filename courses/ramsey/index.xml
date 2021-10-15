@@ -7,16 +7,16 @@
     <description>Overview</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Èric Roca Fernández</copyright><lastBuildDate>Thu, 11 Jul 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://eric-roca.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://eric-roca.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Overview</title>
       <link>https://eric-roca.github.io/courses/ramsey/</link>
     </image>
     
     <item>
       <title>Firms</title>
-      <link>https://eric-roca.github.io/courses/ramsey/firms/</link>
+      <link>https://eric-roca.github.io/courses/ramsey/ramsey_firms/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/ramsey/firms/</guid>
+      <guid>https://eric-roca.github.io/courses/ramsey/ramsey_firms/</guid>
       <description>&lt;p&gt;We assume that a large number of identical firms populate the economy.
 Firms produce a single, homogeneous good using labour and capital.
 The production function $F(K,L)$ has the following properties:&lt;/p&gt;
@@ -52,9 +52,9 @@ In intensive terms, it is equal to:&lt;/p&gt;
     
     <item>
       <title>Households</title>
-      <link>https://eric-roca.github.io/courses/ramsey/households/</link>
+      <link>https://eric-roca.github.io/courses/ramsey/ramsey_households/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/ramsey/households/</guid>
+      <guid>https://eric-roca.github.io/courses/ramsey/ramsey_households/</guid>
       <description>&lt;p&gt;The economy is populated by a large number of identical households.
 Each household is composed of one individual who lives indefinitely.&lt;/p&gt;
 &lt;h2 id=&#34;utility-representation&#34;&gt;Utility representation&lt;/h2&gt;
@@ -159,9 +159,9 @@ In this case, the fact that $\beta \in (0,1)$ ensures the validity of the transv
     
     <item>
       <title>Intertemporal equilibrium</title>
-      <link>https://eric-roca.github.io/courses/ramsey/intertemporal_equilibrium/</link>
+      <link>https://eric-roca.github.io/courses/ramsey/ramsey_intertemporal_equilibrium/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/ramsey/intertemporal_equilibrium/</guid>
+      <guid>https://eric-roca.github.io/courses/ramsey/ramsey_intertemporal_equilibrium/</guid>
       <description>&lt;p&gt;At the equilibrium, factors are paid their marginal productivity, thus:&lt;/p&gt;
 &lt;p&gt;$$r_{t} = f^{\prime}(k_{t})$$&lt;/p&gt;
 &lt;center&gt;and&lt;/center&gt;
@@ -196,17 +196,17 @@ To analyse it, we first compute its steady state and then check the dynamics.&lt
     
     <item>
       <title>The Ramsey model</title>
-      <link>https://eric-roca.github.io/courses/ramsey/the_ramsey_model/</link>
+      <link>https://eric-roca.github.io/courses/ramsey/ramsey_model/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/ramsey/the_ramsey_model/</guid>
+      <guid>https://eric-roca.github.io/courses/ramsey/ramsey_model/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Steady state</title>
-      <link>https://eric-roca.github.io/courses/ramsey/steady_state_ramsey/</link>
+      <link>https://eric-roca.github.io/courses/ramsey/ramsey_steady_state/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/ramsey/steady_state_ramsey/</guid>
+      <guid>https://eric-roca.github.io/courses/ramsey/ramsey_steady_state/</guid>
       <description>&lt;h2 id=&#34;steady-states&#34;&gt;Steady states&lt;/h2&gt;
 &lt;p&gt;A steady state of an N-dimensional dynamic system is a configuration of the system variables such that the system remains unchanged over time.
 This is, upon reaching a steady state, the system remains there forever.
@@ -258,7 +258,7 @@ Since the function $f^\prime$ is continuous, by the intermediate value theorem t
 Therefore, there exists one and only one value $\bar{k} \in (0,+\infty)$ that solves the first equation in \ref{eq:ss2}.
 Also, the second equation in \ref{eq:ss2} uniquely determines the level of consumption given capital.
 Hence, the steady-state consumption level $\bar{c}$ is unique.&lt;/p&gt;
-&lt;p&gt;We can obtain an overview of the dynamics of the model using the &lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/phase_diagram/&#34;&gt;phase diagram&lt;/a&gt; and derive the exact solution using the method outlined in &lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/ramsey_trajectory/&#34;&gt;trajectory&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We can obtain an overview of the dynamics of the model using the &lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/ramsey_phase_diagram/&#34;&gt;phase diagram&lt;/a&gt; and derive the exact solution using the method outlined in &lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/ramsey_trajectory/&#34;&gt;trajectory&lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;stability&#34;&gt;Stability of the steady state&lt;/h3&gt;
 &lt;p&gt;We are now interested in determining the behaviour of the economy when it starts with some level of capital $k_0$ and consumption $c_0.$
 The economy is represented by a $2 \times 2$ system of first-order difference equations.
@@ -447,9 +447,9 @@ and &lt;strong&gt;the steady state is a saddle.&lt;/strong&gt;&lt;/p&gt;
     
     <item>
       <title>The phase diagram</title>
-      <link>https://eric-roca.github.io/courses/ramsey/phase_diagram/</link>
+      <link>https://eric-roca.github.io/courses/ramsey/ramsey_phase_diagram/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/ramsey/phase_diagram/</guid>
+      <guid>https://eric-roca.github.io/courses/ramsey/ramsey_phase_diagram/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; based on Section 2.3 of &lt;em&gt;Romer, Advanced Macroeconomics&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;The Ramsey model is fully described by two dynamic equations:&lt;/p&gt;
 &lt;p&gt;$$\left.
@@ -497,7 +497,7 @@ We can rearrange the previous equation to obtain the following:&lt;/p&gt;
 Setting $k_{t+1} = k_{t} \implies k_{t+1} - k_{t} = 0$ so capital is constant yields:&lt;/p&gt;
 &lt;p&gt;$$ 0 = f(k_{t}) - \delta k_{t} - c_{t} \implies c_{t} = f(k_{t}) - \delta k_{t}.$$&lt;/p&gt;
 &lt;p&gt;In the $(k,c)$ space, the equation takes a form similar to a parabola: it combines production &amp;mdash;with decreasing marginal returns&amp;mdash; with a linear depreciation rate.
-In fact, f(k_t)-\delta k_t$ admits one maximum $(f^\prime (k_t) = \delta)$ the &lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/golden_rule/&#34;&gt;Golden rule&lt;/a&gt; we discuss later.
+In fact, f(k_t)-\delta k_t$ admits one maximum $(f^\prime (k_t) = \delta)$ the &lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/ramsey_golden_rule/&#34;&gt;Golden rule&lt;/a&gt; we discuss later.
 Since $f^{\prime \prime}(k_t)&amp;lt;0,$ the stationary point is a maximum.&lt;/p&gt;
 &lt;p&gt;Let&amp;rsquo;s now analyse how capital evolves when consumption is above and below the level that makes it constant.
 From $k_{t+1} - k_{t} = f(k_{t}) - \delta k_{t} - c_{t}$, if consumption is above the level we have that $k_{t+1} - k_{t} &amp;lt; 0,$ meaning that capital decreases over time.
@@ -548,7 +548,7 @@ In fact, if that were the case it would have been (I change variables to avoid c
 &lt;p&gt;$$\begin{pmatrix} \phi_{t+1} \\ \omega_{t+1} \end{pmatrix} = \begin{pmatrix} a_{1,1} &amp;amp; 0 \\\ 0 &amp;amp; a_{2,2} \end{pmatrix} \begin{pmatrix} \phi_{t} \\\ \omega_{t} \end{pmatrix}.$$
 So, it is clear that $\phi_{t+1} = a_{1,1} \phi_{t} \implies \phi_{t} = a_{1,1}^{t} \phi_{0}$ and we would find a similar expression for $\omega.$&lt;/p&gt;
 &lt;p&gt;$\bar{A}$ is not diagonal, but we can apply a spectral decomposition and obtain an equivalent system governed by a diagonal matrix.
-In particular, we are looking for an $2 \times 2$ invertible matrix $X$ such that $ X^{-1} \bar{A} X = `Lambda$, where $\Lambda$ is diagonal.
+In particular, we are looking for an $2 \times 2$ invertible matrix $X$ such that $ X^{-1} \bar{A} X = \Lambda$, where $\Lambda$ is diagonal.
 We will then apply the following transformation to our system (pre-multiplying by $\color{red}{X^{-1}}$ on both sides and multiplying by $\color{green}{XX^{-1}}$ on the right-hand side).
 $$ \color{red}{X^{-1}} y_{t+1} = \color{red}{X^{-1}} \bar{A} \color{green}{(X X^{-1})} y_{t} = X^{-1} \bar{A} X (X^{-1} y_{t}) =$$
 $$ = \Lambda X^{-1} y_{t}.$$&lt;/p&gt;
@@ -690,7 +690,7 @@ $$\bar{k}^{\alpha} + (1-\delta)\bar{k} = \bar{c} + \bar{k}.$$&lt;/p&gt;
 &lt;p&gt;Applying $\bar{k}$ in the second equation yields the steady-state level of consumption:&lt;/p&gt;
 &lt;p&gt;$$ \bar{c} = \left(\frac{\alpha \beta}{1-\beta (1-\delta)}\right)^{\frac{\alpha}{1-\alpha}} - \delta \left(\frac{\alpha \beta}{1-\beta (1- \delta)}\right)^{\frac{1}{1-\alpha}}.$$&lt;/p&gt;
 &lt;h2 id=&#34;stability&#34;&gt;Stability&lt;/h2&gt;
-&lt;p&gt;First, we analyse the stability of the steady state, as we did in the &lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/steady_state_ramsey/#stability&#34;&gt;general case&lt;/a&gt;
+&lt;p&gt;First, we analyse the stability of the steady state, as we did in the &lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/ramsey_steady_state/#stability&#34;&gt;general case&lt;/a&gt;
 Since we are using log-utility, the coefficient of relative risk aversion $\epsilon_{c} = 1.$&lt;/p&gt;
 &lt;p&gt;Instead of plugging the correct values in the Jacobian matrix $\bar{A}$, for the sake of clarity, we derive everything again:&lt;/p&gt;
 &lt;p&gt;$$\bar{A} = \begin{pmatrix}
@@ -766,9 +766,9 @@ For $t=0$ we have:&lt;/p&gt;
     
     <item>
       <title>Golden rule</title>
-      <link>https://eric-roca.github.io/courses/ramsey/golden_rule/</link>
+      <link>https://eric-roca.github.io/courses/ramsey/ramsey_golden_rule/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/ramsey/golden_rule/</guid>
+      <guid>https://eric-roca.github.io/courses/ramsey/ramsey_golden_rule/</guid>
       <description>&lt;h2 id=&#34;Golden-rule&#34;&gt;The Golden rule&lt;/h2&gt;
 &lt;p&gt;This capital level $\bar{k}$ is called the &lt;em&gt;modified&lt;/em&gt; Golden-rule level of capital.
 The adjective &lt;em&gt;modified&lt;/em&gt; comes from the fact that the Golden rule level of capital is the level of capital, $k^{\mathcal{GR}}$ that maximises consumption, $c$ at the steady state, thus achieving maximum consumption: $c^{\mathcal{GR}}.$&lt;/p&gt;
@@ -800,7 +800,7 @@ In that sense, achieving the Golden Rule level of capital $k^{\mathcal{GR}}$ is 
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
       <guid>https://eric-roca.github.io/courses/ramsey/ramsey_remarks/</guid>
       <description>&lt;h2 id=&#34;optimality&#34;&gt;Optimality&lt;/h2&gt;
-&lt;p&gt;Before &lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/steady_state_ramsey/#Golden-rule&#34;&gt;we claimed&lt;/a&gt; that the solution is &lt;em&gt;optimal&lt;/em&gt; despite the fact that it does not maximise consumption at the steady state.
+&lt;p&gt;Before &lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/ramsey_steady_state/#Golden-rule&#34;&gt;we claimed&lt;/a&gt; that the solution is &lt;em&gt;optimal&lt;/em&gt; despite the fact that it does not maximise consumption at the steady state.
 However, what we claimed was that the &lt;em&gt;entire path&lt;/em&gt; was optimal.
 We can prove it by solving the Ramsey allocation problem from the perspective of the social planner.&lt;/p&gt;
 &lt;h3 id=&#34;social-planner&#34;&gt;Social planner&lt;/h3&gt;
@@ -840,7 +840,7 @@ Therefore, the current utility cost of a reduction in consumption is larger the 
 Because of the discount rate, the utility gains from an eventual permanent increase in consumption are bounded.&lt;/p&gt;
 &lt;p&gt;All in all, the economy converges to a value $\bar{k}$ below the steady state.
 Because $\bar{k}$ is the optimal level of $k$ for the economy to converge to, it is known as the &lt;em&gt;modified Golden-rule&lt;/em&gt; capital stock.&lt;/p&gt;
-&lt;p&gt;We &lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/steady_state_ramsey/#Golden-rule&#34;&gt;had already noticed&lt;/a&gt; that the discount factor $\beta$ prevents the economy from reaching the Golden-rule level of capital.
+&lt;p&gt;We &lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/ramsey_steady_state/#Golden-rule&#34;&gt;had already noticed&lt;/a&gt; that the discount factor $\beta$ prevents the economy from reaching the Golden-rule level of capital.
 According to our computation, the Golden-rule level of capital is only attained if $\beta = 1.$
 This implies that present and future consumption are valued the same, which complements the discussion above.&lt;/p&gt;
 </description>
