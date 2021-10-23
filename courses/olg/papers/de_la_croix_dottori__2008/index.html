@@ -938,7 +938,7 @@ By 100BCE, due to decreasing returns from natural resources, pig breeding began,
 Total population stabilized at around 1200 people and was kept at that level by purposeful mechanisms: celibacy, abortion, infanticide, sea exploration by young males, etc.</p>
 <h2 id="the-model">The model</h2>
 <p>De la Croix and Dottori work using the OLG framework.
-In the paper, agents living for two periods.
+In the paper, agents live for two periods.
 However, important decisions are taken at the clan level, which acts as a representative agent.
 Clans (and individuals) are rational, have perfect foresight and take the actions of the other clans as given.
 The timing is as follows:</p>
@@ -960,12 +960,12 @@ where $c_{i,t}, d_{i,t+1}$ represents consumption when adult and old, respective
 Each adult has to support his parents by giving them some resources.
 However, support for parents is not linear, but rather it depends on the number of siblings.
 In particular, each sibling contributes the following share of his income:
-$$\frac{\tau}{1+n_{i,t-1},$$
+$$\frac{\tau}{1+n_{i,t-1}},$$
 where $\tau \in (0,1)$.
 Clearly, the contribution decreases with the number of siblings.</p>
 <p>Consequently, an agent in his old age who had $n_{i,t}$ children receives, as <strong>total</strong> old age support,
 $$d_{i,t+1} = n_{i,t}\frac{\tau}{1+n_{i,t}}y_{i,t+1}.$$</p>
-<p>Lastly, since total income is distributed between consumption and supporting parents ($y_{i,t} = c_{i,t} + \frac{\tau}{1+n_{i,t-1}} y_{i,t}$), consumption when young is just:
+<p>Lastly, since total income is distributed between consumption and supporting parents $\left(y_{i,t} = c_{i,t} + \frac{\tau}{1+n_{i,t-1}} y_{i,t}\right)$, consumption when young is just:
 $$c_{i,t} = \left( 1 - \frac{\tau}{1+n_{i,t-1}}\right)y_{i,t}.$$</p>
 <h3 id="population">Population</h3>
 <p>The population of each clan evolves according to the chosen fertility level:
@@ -999,9 +999,9 @@ $$U_{1,t} = \left(1-\frac{\tau}{1+n_{1,t-1}}\right)\frac{\theta_t Y_t}{N_{1,t}}+
 $$U_{2,t} = \left(1-\frac{\tau}{1+n_{2,t-1}}\right)\frac{(1-\theta_t) Y_t}{N_{2,t}}+\beta\frac{n_{2,t}\tau}{1+n_{2,t}}\frac{(1-\theta_{t+1}) Y_{t+1}}{N_{2,t+1}}.$$</p>
 <p>If, instead, there is no agreement, clans fight, and the winner takes the entire production.
 Since $\pi_t$ denotes the probability that Group 1 wins the fight, the fall-back utilities are given by:
-$$\pi_t\bar{U}_{1,t} = \left(1-\frac{\tau}{1+n_{1,t-1}}\right)\frac{ Y_t}{N_{1,t}}+\beta\frac{n_{1,t}\tau}{1+n_{1,t}}\frac{\theta_{t+1} Y_{t+1}}{N_{1,t+1}},$$
-$$(1-\pi_t)\bar{U}_{2,t} = \left(1-\frac{\tau}{1+n_{2,t-1}}\right)\frac{ Y_t}{N_{2,t}}+\beta\frac{n_{2,t}\tau}{1+n_{2,t}}\frac{(1-\theta_{t+1}) Y_{t+1}}{N_{2,t+1}}.$$</p>
-<p>Rhe difference between $U_{i,t}$ and $\bar{U}_{i,t}$ is:
+$$\bar{U}_{1,t} = \pi_t\left(1-\frac{\tau}{1+n_{1,t-1}}\right)\frac{ Y_t}{N_{1,t}}+\beta\frac{n_{1,t}\tau}{1+n_{1,t}}\frac{\theta_{t+1} Y_{t+1}}{N_{1,t+1}},$$
+$$\bar{U}_{2,t} = (1-\pi_t)\left(1-\frac{\tau}{1+n_{2,t-1}}\right)\frac{ Y_t}{N_{2,t}}+\beta\frac{n_{2,t}\tau}{1+n_{2,t}}\frac{(1-\theta_{t+1}) Y_{t+1}}{N_{2,t+1}}.$$</p>
+<p>The difference between $U_{i,t}$ and $\bar{U}_{i,t}$ is:
 $$U_{1,t} - \bar{U}_{1,t} = \left(1 - \frac{\tau}{1+n_{1,t-1}}\right)(\theta_t - \pi_t)\frac{Y_t}{N_{1,t}},$$
 $$U_{2,t} - \bar{U}_{2,t} = \left(1 - \frac{\tau}{1+n_{2,t-1}}\right)(1 - \theta_t - (1-\pi_t))\frac{Y_t}{N_{2,t}}.$$</p>
 <p>Since, at the time of bargaining, $\left(1-\frac{\tau}{1+n_{i,t}}\right)\frac{Y_t}{N_{i,t}}$ has already been determined, we can abstract from it in the maximisation.</p>
