@@ -57,8 +57,8 @@ Of course, the optimal allocation will be affected because less resources are av
       <description>&lt;p&gt;We close the model imposing market clearing.
 This affects the budget constraint:&lt;/p&gt;
 &lt;p&gt;$$\begin{eqnarray}
-k_{t+1}  = w_{t} + r_{t+1}k_{t} + (1-\delta)k_{t} - c_{t} - \color{red}{T_{t}}, &amp;amp; \\\&lt;br&gt;
-w_{t}  = f(k_{t}) - f^{\prime}(k_{t})k_{t},&amp;amp; \\\&lt;br&gt;
+k_{t+1}  = w_{t} + r_{t+1}k_{t} + (1-\delta)k_{t} - c_{t} - \color{red}{T_{t}}, &amp;amp; \\\
+w_{t}  = f(k_{t}) - f^{\prime}(k_{t})k_{t},&amp;amp; \\\
 r_{t}  = f^{\prime}(k_{t}). &amp;amp;
 \end{eqnarray}$$&lt;/p&gt;
 &lt;p&gt;Hence the dynamics for capital are now affected by public expenditures:&lt;/p&gt;

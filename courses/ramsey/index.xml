@@ -103,7 +103,7 @@ For instance, at time $t$ the household is able to correctly compute $r_{t+1}$ a
 Note that the problem is infinite, in the sense that we need to determine $c_{t}$ and $k_{t+1}$ for each and every period of time.
 From the perspective of a household, the intertemporal maximisation problem reads:&lt;/p&gt;
 &lt;p&gt;$$\begin{eqnarray}
-&amp;amp;\max_{c_{t}, k_{t+1}} \sum_{t=0}^{\infty} \beta^{t} u(c_{t}) \\\&lt;br&gt;
+&amp;amp;\max_{c_{t}, k_{t+1}} \sum_{t=0}^{\infty} \beta^{t} u(c_{t}) \\\
 &amp;amp; c_{t} + k_{t+1}  = w_{t} + r_{t} k_{t} + (1- \delta) k_{t} \forall t\geq0.
 \end{eqnarray}$$&lt;/p&gt;
 &lt;hr&gt;
@@ -171,10 +171,10 @@ In this case, the fact that $\beta \in (0,1)$ ensures the validity of the transv
 Thus, all the following equations must be satisfied:&lt;/p&gt;
 &lt;p&gt;$$\left.
 \begin{eqnarray}
-u^{\prime}(c_{t}) = \beta (r_{t+1} + 1 - \delta) u^{\prime}(c_{t+1}) \\\&lt;br&gt;
-k_{t+1} = f(k_{t}) + (1-\delta)k_{t} - c_{t} \\\&lt;br&gt;
-w_{t} = f(k_{t}) - f^{\prime}(k_{t})k_{t} \\\&lt;br&gt;
-r_{t} = f^{\prime}(k_{t}) \\\&lt;br&gt;
+u^{\prime}(c_{t}) = \beta (r_{t+1} + 1 - \delta) u^{\prime}(c_{t+1}) \\\
+k_{t+1} = f(k_{t}) + (1-\delta)k_{t} - c_{t} \\\
+w_{t} = f(k_{t}) - f^{\prime}(k_{t})k_{t} \\\
+r_{t} = f^{\prime}(k_{t}) \\\
 \lim_{t \rightarrow \infty} \beta^{t}u^{\prime}(c_{t})k_{t+1} = 0
 \end{eqnarray}
 \right\} \tag{8, Equilibrium} \label{eq:equilibrium}$$&lt;/p&gt;
@@ -185,7 +185,7 @@ Finally, the transversality condition allows us to pick a non-explosive path.&lt
 &lt;p&gt;After some substitutions, we can express the intertemporal equilibrium &amp;mdash;forgetting for a moment about the transversality condition&amp;mdash; as:&lt;/p&gt;
 &lt;p&gt;$$\left.
 \begin{eqnarray}
-&amp;amp; u^{\prime}(c_{t}) = \beta (f^{\prime}(k_{t+1}) + 1 - \delta) u^{\prime}(c_{t+1}) \\\&lt;br&gt;
+&amp;amp; u^{\prime}(c_{t}) = \beta (f^{\prime}(k_{t+1}) + 1 - \delta) u^{\prime}(c_{t+1}) \\\
 &amp;amp; k_{t+1} = f(k) + (1-\delta)k_{t} - c_{t}.
 \end{eqnarray}
 \right\} \tag{8.1, Equilibrium} \label{eq:equilibrium2}$$&lt;/p&gt;
@@ -213,16 +213,16 @@ This is, upon reaching a steady state, the system remains there forever.
 Hence, if the system is given by:&lt;/p&gt;
 &lt;p&gt;$$\left.
 \begin{eqnarray}
-x^{1}_{t+1} &amp;amp; = f_{1}(x^{1}_{t}, \ldots, x^{N}_{t}) \\\&lt;br&gt;
-\vdots &amp;amp; \\\&lt;br&gt;
+x^{1}_{t+1} &amp;amp; = f_{1}(x^{1}_{t}, \ldots, x^{N}_{t}) \\\
+\vdots &amp;amp; \\\
 x^{N}_{t+1} &amp;amp; = f_{N}(x^{1}_{t}, \ldots, x^{N}_{t})
 \end{eqnarray}
 \right\}$$&lt;/p&gt;
 &lt;p&gt;in a steady state we have that&lt;/p&gt;
 &lt;p&gt;$$\left.
 \begin{eqnarray}
-x^{1}_{t+1} &amp;amp; = x^{1}_{t} \\\&lt;br&gt;
-\vdots &amp;amp; \\\&lt;br&gt;
+x^{1}_{t+1} &amp;amp; = x^{1}_{t} \\\
+\vdots &amp;amp; \\\
 x^{N}_{t+1} &amp;amp; = x^{N}_{t}.
 \end{eqnarray}
 \right\}$$&lt;/p&gt;
@@ -237,14 +237,14 @@ In the second, the system &lt;em&gt;diverges&lt;/em&gt; from the steady state.&l
 Then, a steady-state solution satisfies the following system of equations:&lt;/p&gt;
 &lt;p&gt;$$\left.
 \begin{eqnarray}
-u^{\prime}(\bar{c}) &amp;amp; = \beta (f^{\prime}(\bar{k}) + 1 -\delta) u^{\prime}(\bar{c}), \\\&lt;br&gt;
+u^{\prime}(\bar{c}) &amp;amp; = \beta (f^{\prime}(\bar{k}) + 1 -\delta) u^{\prime}(\bar{c}), \\\
 \bar{k} &amp;amp; = f(\bar{k}) + (1-\delta) \bar{k} - \bar{c}.
 \end{eqnarray}
 \right\} \tag{9, Steady St.} \label{eq:ss}$$&lt;/p&gt;
 &lt;p&gt;Simplifying we can obtain the following, equivalent expression:&lt;/p&gt;
 &lt;p&gt;$$\left.
 \begin{eqnarray}
-f^{\prime}(\bar{k})  = \frac{\theta}{\beta}, \\\&lt;br&gt;
+f^{\prime}(\bar{k})  = \frac{\theta}{\beta}, \\\
 \bar{c}  = f(\bar{k}) - \delta \bar{k},
 \end{eqnarray}
 \right\} \tag{9.1, Steady St.} \label{eq:ss2}$$&lt;/p&gt;
@@ -268,7 +268,7 @@ In particular, we wonder whether the dynamics are such that they converge toward
 &lt;p&gt;The equations that govern the economy are the Euler equation and the law for capital accumulation:&lt;/p&gt;
 &lt;p&gt;$$\left.
 \begin{eqnarray}
-u^{\prime}(c_{t}) = \beta (f^{\prime}(k_{t+1}) + 1 - \delta) u^{\prime}(c_{t+1}), \\\&lt;br&gt;
+u^{\prime}(c_{t}) = \beta (f^{\prime}(k_{t+1}) + 1 - \delta) u^{\prime}(c_{t+1}), \\\
 k_{t+1} = f(k_{t}) + (1-\delta) k_{t} - c_{t}
 \end{eqnarray}
 \right\}. \tag{8.1 Equilibrium}
@@ -276,13 +276,13 @@ $$&lt;/p&gt;
 &lt;p&gt;The stability of the steady state first requires computing the Jacobian matrix.
 The Jacobian matrix associated to the system is:&lt;/p&gt;
 &lt;p&gt;$$\bar{A} = \begin{pmatrix}
-\frac{\partial c_{t+1}}{\partial c_{t}} &amp;amp; \frac{\partial c_{t+1}}{\partial k_{t}} \\\&lt;br&gt;
+\frac{\partial c_{t+1}}{\partial c_{t}} &amp;amp; \frac{\partial c_{t+1}}{\partial k_{t}} \\\
 \frac{\partial k_{t+1}}{\partial c_{t}} &amp;amp; \frac{\partial k_{t+1}}{\partial k_{t}}
 \end{pmatrix}.$$&lt;/p&gt;
 &lt;p&gt;Notice that $\bar{A}$ represents the approximate linear behaviour of the economy at any given point: $\begin{pmatrix}c_{t+1} \\\ k_{t+1}\end{pmatrix} \approx \begin{pmatrix} c_0 \\\ k_0 \end{pmatrix} + \bar{A} \begin{pmatrix} c_t - c_0 \\\ k_t - k_0 \end{pmatrix}.$&lt;/p&gt;
 &lt;p&gt;In our case, the Jacobian matrix reads:&lt;/p&gt;
 &lt;p&gt;$$\bar{A} = \begin{pmatrix}
-\frac{u^{\prime \prime}(c_{t})+\beta f^{\prime \prime}(k_{t+1})u^{\prime}(c_{t+1})}{\beta \left[ f^{\prime}(k_{t+1}) + 1 - \delta \right] u^{\prime \prime}(c_{t+1})} &amp;amp; -\frac{\beta f^{\prime \prime}(k_{t+1}) \left[ f^{\prime}(k_{t}) + 1 - \delta \right] u^{\prime}(c_{t+1})}{\beta \left[ f^{\prime}(k_{t+1}) + 1 - \delta \right] u^{\prime \prime}(c_{t+1})} \\\&lt;br&gt;
+\frac{u^{\prime \prime}(c_{t})+\beta f^{\prime \prime}(k_{t+1})u^{\prime}(c_{t+1})}{\beta \left[ f^{\prime}(k_{t+1}) + 1 - \delta \right] u^{\prime \prime}(c_{t+1})} &amp;amp; -\frac{\beta f^{\prime \prime}(k_{t+1}) \left[ f^{\prime}(k_{t}) + 1 - \delta \right] u^{\prime}(c_{t+1})}{\beta \left[ f^{\prime}(k_{t+1}) + 1 - \delta \right] u^{\prime \prime}(c_{t+1})} \\\
 -1 &amp;amp; f^{\prime}(k_{t}) + 1 - \delta
 \end{pmatrix}. \tag{10, Jacobian} \label{eq:jacobian}$$&lt;/p&gt;
 &lt;p&gt;Then, we evaluate \ref{eq:jacobian} at the steady state.
@@ -292,7 +292,7 @@ $$\color{green}{c_{t+1} = c_{t} = \bar{c},} $$
 $$\color{blue}{1 = \beta \left( f^{\prime}(\bar{k}) + 1 - \delta \right).}  $$&lt;/p&gt;
 &lt;p&gt;Substituting all $t$ and $t+1$ variables for their steady-state values $\bar{k}$ and $\bar{c}$ yields:&lt;/p&gt;
 &lt;p&gt;$$\bar{A}\bigr\rvert_{\substack{
-k_{t} = k_{t+1} = \bar{k} \\\&lt;br&gt;
+k_{t} = k_{t+1} = \bar{k} \\\
 c_{t} = c_{t+1} = \bar{c}
 }
 }
@@ -309,7 +309,7 @@ u^{\prime \prime}(\textcolor{green}{\bar{c}})+\beta f^{\prime \prime}(\textcolor
 }
 {
 \beta \left[ f^{\prime}(\bar{k}) + 1 - \delta \right] u^{\prime \prime}(\bar{\textcolor{green}{c}})}
-\\\&lt;br&gt;
+\\\
 -1
 &amp;amp;
 f^{\prime}(\textcolor{red}{\bar{k}}) + 1 - \delta
@@ -327,7 +327,7 @@ u^{\prime \prime}(\bar{c})+\beta f^{\prime \prime}(\bar{k})u^{\prime}(\bar{c)}
 }
 {
 \textcolor{blue}{\beta \left[ f^{\prime}(\bar{k}) + 1 - \delta \right]} u^{\prime \prime}(\bar{c})}
-\\\&lt;br&gt;
+\\\
 -1
 &amp;amp;
 \color{blue}{f^{\prime}(\bar{k}) + 1 - \delta}
@@ -345,7 +345,7 @@ f^{\prime \prime}(\bar{k}) u^{\prime}(\bar{c})
 }
 {
 u^{\prime \prime}(\bar{c})}
-\\\&lt;br&gt;
+\\\
 -1
 &amp;amp;
 \frac{1}{\beta}
@@ -354,7 +354,7 @@ u^{\prime \prime}(\bar{c})}
 1 - \beta f^{\prime \prime}(\bar{k}) \frac{\bar{c}}{\epsilon_{\bar{c}}}
 &amp;amp;
 f^{\prime \prime}(\bar{k}) \frac{\bar{c}}{\epsilon_{\bar{c}}}
-\\\&lt;br&gt;
+\\\
 -1
 &amp;amp;
 \frac{1}{\beta}
@@ -381,7 +381,7 @@ Denote by $l$ the number of eigenvalues in the unit circle, and denote by $m$ th
 &lt;p&gt;The first method we present uses the definition of eigenvalue: the roots of the characteristic equation.
 It requires solving:&lt;/p&gt;
 &lt;p&gt;$$\begin{vmatrix}
-1-\beta f^{\prime \prime}(\bar{k})\frac{\bar{c}}{\epsilon_{\bar{c}}} - \lambda &amp;amp; f^{\prime \prime}(\bar{k}) \frac{\bar{c}}{\epsilon_{\bar{c}}} \\\&lt;br&gt;
+1-\beta f^{\prime \prime}(\bar{k})\frac{\bar{c}}{\epsilon_{\bar{c}}} - \lambda &amp;amp; f^{\prime \prime}(\bar{k}) \frac{\bar{c}}{\epsilon_{\bar{c}}} \\\
 -1 &amp;amp; \frac{1}{\beta} - \lambda
 \end{vmatrix} =
 \lambda^{2} + \lambda \left( \beta f^{\prime \prime} (\bar{k}) \frac{\bar{c}}{\epsilon_{\bar{c}}} - 1 - \frac{1}{\beta} \right) + \frac{1}{\beta} = 0.$$&lt;/p&gt;
@@ -454,7 +454,7 @@ and &lt;strong&gt;the steady state is a saddle.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;The Ramsey model is fully described by two dynamic equations:&lt;/p&gt;
 &lt;p&gt;$$\left.
 \begin{eqnarray}
-u^{\prime}(c_{t}) = \beta(f^{\prime}(k_{t+1}) + 1 - \delta)u^{\prime}(c_{t+1}), \\\&lt;br&gt;
+u^{\prime}(c_{t}) = \beta(f^{\prime}(k_{t+1}) + 1 - \delta)u^{\prime}(c_{t+1}), \\\
 k_{t+1} = f(k_{t} + (1-\delta)k_{t} - c_{t}.
 \end{eqnarray}
 \right\} \tag{8.1, Equilibrium} \label{eq:eq}
@@ -565,7 +565,7 @@ This step involves using that $X^{-1} y = z \implies y = X z$.&lt;/p&gt;
 &lt;p&gt;In a spectral decomposition, the diagonal matrix $\Lambda$ consists of the matrix whose entries are its eigenvalues.
 Thus (we have a $2 \times 2$ system),
 $$\Lambda = \begin{pmatrix}
-\lambda_{1} &amp;amp; 0  \\\&lt;br&gt;
+\lambda_{1} &amp;amp; 0  \\\
 0 &amp;amp; \lambda_{2}
 \end{pmatrix}.$$&lt;/p&gt;
 &lt;h4 id=&#34;the-matrix-x&#34;&gt;The matrix $X$&lt;/h4&gt;
@@ -615,17 +615,17 @@ Finally, the initial value of consumption $c_{0}$ that puts the economy in the s
 &lt;h2 id=&#34;utility-and-production-functions&#34;&gt;Utility and production functions&lt;/h2&gt;
 &lt;p&gt;We assume that utility is logarithmic and we take a Cobb-Douglas production function.&lt;/p&gt;
 &lt;p&gt;$$\begin{eqnarray}
-u(c_{t}) = \log (c_{t}), \\\&lt;br&gt;
-F(K_{t},L_{t}) = K_{t}^{\alpha}L_{t}^{1-\alpha}, \\\&lt;br&gt;
+u(c_{t}) = \log (c_{t}), \\\
+F(K_{t},L_{t}) = K_{t}^{\alpha}L_{t}^{1-\alpha}, \\\
 \alpha \in (0,1).
 \end{eqnarray}
 $$
 We can check that both functions satisfy the Inada conditions:&lt;/p&gt;
-&lt;p&gt;$$\begin{eqnarray}\lim_{c_{t} \rightarrow 0}u^{\prime}(c_{t}) = \lim_{c_{t} \rightarrow 0} \frac{1}{c_{t}} = +\infty, \\\&lt;br&gt;
-\lim_{c_{t} \rightarrow +\infty}u^{\prime}(c_{t}) = \lim_{c_{t} \rightarrow +\infty} \frac{1}{c_{t}} = 0, \\\&lt;br&gt;
-\lim_{K_{t} \rightarrow 0} F^{\prime}_{K_{t}}(K_{t}, L_{t}) = \lim_{K_{t} \rightarrow 0} \alpha K_{t}^{\alpha - 1}L_{t}^{1-\alpha} = +\infty, \\\&lt;br&gt;
-\lim_{K_{t} \rightarrow +\infty} F^{\prime}_{K_{t}}(K_{t}, L_{t}) = \lim_{K_{t} \rightarrow +\infty} \alpha K_{t}^{\alpha - 1}L_{t}^{1-\alpha} = 0, \\\&lt;br&gt;
-\lim_{L_{t} \rightarrow 0} F^{\prime}_{L_{t}}(K_{t}, L_{t}) = \lim_{L_{t} \rightarrow 0}  (1-\alpha) K_{t}^{\alpha}L_{t}^{\alpha} = +\infty, \\\&lt;br&gt;
+&lt;p&gt;$$\begin{eqnarray}\lim_{c_{t} \rightarrow 0}u^{\prime}(c_{t}) = \lim_{c_{t} \rightarrow 0} \frac{1}{c_{t}} = +\infty, \\\
+\lim_{c_{t} \rightarrow +\infty}u^{\prime}(c_{t}) = \lim_{c_{t} \rightarrow +\infty} \frac{1}{c_{t}} = 0, \\\
+\lim_{K_{t} \rightarrow 0} F^{\prime}_{K_{t}}(K_{t}, L_{t}) = \lim_{K_{t} \rightarrow 0} \alpha K_{t}^{\alpha - 1}L_{t}^{1-\alpha} = +\infty, \\\
+\lim_{K_{t} \rightarrow +\infty} F^{\prime}_{K_{t}}(K_{t}, L_{t}) = \lim_{K_{t} \rightarrow +\infty} \alpha K_{t}^{\alpha - 1}L_{t}^{1-\alpha} = 0, \\\
+\lim_{L_{t} \rightarrow 0} F^{\prime}_{L_{t}}(K_{t}, L_{t}) = \lim_{L_{t} \rightarrow 0}  (1-\alpha) K_{t}^{\alpha}L_{t}^{\alpha} = +\infty, \\\
 \lim_{L_{t} \rightarrow +\infty} F^{\prime}_{L_{t}}(K_{t}, L_{t}) = \lim_{L_{t} \rightarrow +\infty}  (1- \alpha) K_{t}^{\alpha}L_{t}^{\alpha} = 0.
 \end{eqnarray}
 $$&lt;/p&gt;
@@ -645,8 +645,8 @@ Therefore:&lt;/p&gt;
 &lt;h3 id=&#34;intertemporal-utility-maximisation-lagrangian&#34;&gt;Intertemporal utility maximisation: Lagrangian&lt;/h3&gt;
 &lt;p&gt;The intertemporal utility maximisation problem is:&lt;/p&gt;
 &lt;p&gt;$$\begin{eqnarray}
-\max_{c_{t}, k_{t+1}}  \sum_{t=0}^{\infty} \beta^{t} u(c_{t}) &amp;amp; \\\&lt;br&gt;
-\mathrm{s.t.} \quad 	 w_{t} + r_{t} k_{t} + (1-\delta)k_{t} = c_{t} + k_{t+1}, \\\&lt;br&gt;
+\max_{c_{t}, k_{t+1}}  \sum_{t=0}^{\infty} \beta^{t} u(c_{t}) &amp;amp; \\\
+\mathrm{s.t.} \quad 	 w_{t} + r_{t} k_{t} + (1-\delta)k_{t} = c_{t} + k_{t+1}, \\\
 c_{t}, k_{t+1} &amp;gt;0, k_{t=0} = k_{0} &amp;gt; 0.
 \end{eqnarray}
 $$&lt;/p&gt;
@@ -670,10 +670,10 @@ $$w_{t} = f(k_{t}) - f^{\prime}(k_{t})k_{t} = k_{t}^{\alpha} - \alpha k_{t}^{\al
 &lt;h2 id=&#34;the-dynamic-system&#34;&gt;The dynamic system&lt;/h2&gt;
 &lt;p&gt;We are now in a position to solve the model.
 We have the following equations:&lt;/p&gt;
-&lt;p&gt;$$ c_{t+1} = \beta (r_{t+1} + 1 - \delta) c_{t}, \\\&lt;br&gt;
-w_{t} + r_{t}k_{t} + (1-\delta) k_{t} = c_{t} + k_{t+1}, \\\&lt;br&gt;
-w_{t} = (1-\alpha) k^{\alpha}_{t}, \\\&lt;br&gt;
-r_{t} = \alpha k^{\alpha-1}, \\\&lt;br&gt;
+&lt;p&gt;$$ c_{t+1} = \beta (r_{t+1} + 1 - \delta) c_{t}, \\\
+w_{t} + r_{t}k_{t} + (1-\delta) k_{t} = c_{t} + k_{t+1}, \\\
+w_{t} = (1-\alpha) k^{\alpha}_{t}, \\\
+r_{t} = \alpha k^{\alpha-1}, \\\
 \lim_{t \rightarrow +\infty} \beta^{t}\frac{1}{c_{t}} k_{t+1} = 0.$$&lt;/p&gt;
 &lt;p&gt;Since markets clear, we substitute the wage and interest rate into the budget constraint.&lt;/p&gt;
 &lt;p&gt;$$c_{t+1} = \beta (\alpha k^{\alpha-1} + 1 - \delta) c_{t},$$
@@ -694,22 +694,22 @@ $$\bar{k}^{\alpha} + (1-\delta)\bar{k} = \bar{c} + \bar{k}.$$&lt;/p&gt;
 Since we are using log-utility, the coefficient of relative risk aversion $\epsilon_{c} = 1.$&lt;/p&gt;
 &lt;p&gt;Instead of plugging the correct values in the Jacobian matrix $\bar{A}$, for the sake of clarity, we derive everything again:&lt;/p&gt;
 &lt;p&gt;$$\bar{A} = \begin{pmatrix}
-\frac{\partial c_{t+1}}{\partial c_{t}} &amp;amp; \frac{\partial c_{t+1}}{\partial k_{t}} \\\&lt;br&gt;
+\frac{\partial c_{t+1}}{\partial c_{t}} &amp;amp; \frac{\partial c_{t+1}}{\partial k_{t}} \\\
 \frac{\partial k_{t+1}}{\partial c_{t}} &amp;amp; \frac{\partial k_{t+1}}{\partial k_{t}}
 \end{pmatrix}
 $$
 $$ = $$
 $$\begin{pmatrix}
-\beta \left( \alpha k_{t+1}^{\alpha -1} + 1 - \delta \right) - \frac{\beta c_{t} \alpha (\alpha-1) }{k_{t+1}^{2-\alpha}} &amp;amp; \frac{\beta c_{t} \alpha (\alpha -1)}{k_{t+1}^{2-\alpha}} \left( \alpha k_{t}^{\alpha-1} + 1 - \delta \right) \\\&lt;br&gt;
+\beta \left( \alpha k_{t+1}^{\alpha -1} + 1 - \delta \right) - \frac{\beta c_{t} \alpha (\alpha-1) }{k_{t+1}^{2-\alpha}} &amp;amp; \frac{\beta c_{t} \alpha (\alpha -1)}{k_{t+1}^{2-\alpha}} \left( \alpha k_{t}^{\alpha-1} + 1 - \delta \right) \\\
 -1 &amp;amp; \alpha k_{t}^{\alpha -1} + 1 - \delta \end{pmatrix}$$&lt;/p&gt;
 &lt;p&gt;Evaluating it at the steady state:
 $$\bar{A}\bigr\rvert_{\substack{
-k_{t} = k_{t+1} = \bar{k} \\\&lt;br&gt;
+k_{t} = k_{t+1} = \bar{k} \\\
 c_{t} = c_{t+1} = \bar{c}
 }
 }
 = \begin{pmatrix}
-1 - \beta \bar{c}  \alpha (\alpha -1) \bar{k}^{\alpha -2}  &amp;amp; \alpha (\alpha -1 ) \bar{c}  \bar{k}^{\alpha -2} \\\&lt;br&gt;
+1 - \beta \bar{c}  \alpha (\alpha -1) \bar{k}^{\alpha -2}  &amp;amp; \alpha (\alpha -1 ) \bar{c}  \bar{k}^{\alpha -2} \\\
 -1  &amp;amp; \frac{1}{\beta}
 \end{pmatrix},$$&lt;/p&gt;
 &lt;p&gt;where we have used $1 = \beta \left( \alpha \bar{k}^{\alpha -1} + 1 - \delta \right)$ at the steady state.&lt;/p&gt;

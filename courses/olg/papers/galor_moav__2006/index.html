@@ -966,7 +966,7 @@ $$c_{t+1}^i + b_{t+1}^i = I_{t+1}^i.$$</p>
 Replacing $c_{t+1}$ in the objective function and taking the derivative with respect to $b_{t+1}$ yields:</p>
 <p>$$\frac{\partial}{\partial b^i_{t+1}} = 0 \implies \frac{1-\beta}{b^i_{t+1}-I^i_{t+1}}+\frac{\beta}{b^i_{t+1}+\bar{\theta}} = 0 \implies $$
 $$ b^i_{t+1} = \begin{cases}
-\beta (I^i_{t+1} - \theta) &amp; \mathrm{if\quad} I^i_{t+1} &gt; \theta \\\<br>
+\beta (I^i_{t+1} - \theta) &amp; \mathrm{if\quad} I^i_{t+1} &gt; \theta \\\
 0                           &amp; \mathrm{if\quad} I^i_{t+1} \leq \theta
 \end{cases}
 $$
@@ -989,9 +989,9 @@ One important feature of the model is that utility is increasing in income $I^i_
 We can easily check this by rewriting the indirect utility:
 $$
 \begin{align}
-&amp; u^i_{t} = (1-\beta) \log (c^i_{t+1}) + \beta \log (\bar{\theta} +b^i_{t+1}) = \\\<br>
+&amp; u^i_{t} = (1-\beta) \log (c^i_{t+1}) + \beta \log (\bar{\theta} +b^i_{t+1}) = \\\
 &amp; = \begin{cases}
-(1-\beta) \log (I^i_{t+1} - \beta I^i_{t+1} + \beta \theta) + \beta \log (\beta I^i_{t+1} - \beta \theta) &amp; \mathrm{if \quad} I^i_{t+1} &gt; \theta \\\<br>
+(1-\beta) \log (I^i_{t+1} - \beta I^i_{t+1} + \beta \theta) + \beta \log (\beta I^i_{t+1} - \beta \theta) &amp; \mathrm{if \quad} I^i_{t+1} &gt; \theta \\\
 (1-\beta) \log (I^i_{t+1}) + \beta \log (\bar{\theta}) &amp; \mathrm{if \quad} I^i_{t+1} \leq \theta
 \end{cases}
 \end{align}$$
@@ -1002,37 +1002,37 @@ At the same time, $k_{t+1} = \frac{(1-\tau_t)B_t}{h(\tau_t B_t)} = \frac{(1-\tau
 Putting everything together,
 $$
 \begin{align}
-\tau^i_t &amp; = \arg \max w_{t+1}h(\tau^i_t B_t) + (1-\tau^i_t)b^i_tR_{t+1} \\\<br>
+\tau^i_t &amp; = \arg \max w_{t+1}h(\tau^i_t B_t) + (1-\tau^i_t)b^i_tR_{t+1} \\\
 &amp; = \arg \max (1-\tau^i_t)^\alpha h(\tau^i_t B_t)^{1-\alpha}B_t^\alpha\left(1-\alpha + \alpha \frac{b_t^i}{B_t}\right)
 \end{align}.$$</p>
 <p>Maximising with respect to $\tau^i_t$ yields:
 $$
 \begin{align}
-\frac{\partial}{\partial \tau^i_t} = 0 \implies &amp; \\\<br>
-&amp; B_t^\alpha \left(1-\alpha + \alpha \frac{b_t^i}{B_t}\right)\left[ \alpha (1-\tau^i_t)^{\alpha-1}h(\tau^i_t B_t)^{1-\alpha}(-1)+ \right. \\\<br>
-&amp; \left. + (1-\alpha)h^\prime(\tau^i_t B_t)h(\tau^i_t B_t)^{-\alpha}B_t(1-\tau^i_t)^\alpha\right] = 0 \\\<br>
-&amp; \\\<br>
-&amp; \alpha (1-\tau)^{\alpha-1}h(\tau^i_t B_t)^{1-\alpha} = \\\<br>
-&amp; =(1-\alpha)h^\prime(\tau^i_t B_t) B_t (1-\tau)^\alpha h(\tau^i_t B_t)^\alpha \\\<br>
-&amp; \\\<br>
-&amp; \alpha (1-\tau)^{\alpha-1}h(\tau^i_t B_t)^{1-\alpha}B_t^{\alpha-1} = \\\<br>
-&amp; =(1-\alpha)h^\prime(\tau^i_t B_t) B^\alpha_t (1-\tau)^\alpha h(\tau^i_t B_t)^\alpha \\\<br>
-&amp; \\\<br>
-&amp; \underbrace{\alpha (1-\tau)^{\alpha-1}h(\tau^i_t B_t)^{1-\alpha}B_t^{\alpha-1}}_{R(k_{1+1})} = \\\<br>
-&amp; =\underbrace{(1-\alpha)B^\alpha_t (1-\tau)^\alpha h(\tau^i_t B_t)^\alpha}_{w(k_{t+1})} h^\prime(\tau^i_t B_t) \\\<br>
-&amp; \\\<br>
+\frac{\partial}{\partial \tau^i_t} = 0 \implies &amp; \\\
+&amp; B_t^\alpha \left(1-\alpha + \alpha \frac{b_t^i}{B_t}\right)\left[ \alpha (1-\tau^i_t)^{\alpha-1}h(\tau^i_t B_t)^{1-\alpha}(-1)+ \right. \\\
+&amp; \left. + (1-\alpha)h^\prime(\tau^i_t B_t)h(\tau^i_t B_t)^{-\alpha}B_t(1-\tau^i_t)^\alpha\right] = 0 \\\
+&amp; \\\
+&amp; \alpha (1-\tau)^{\alpha-1}h(\tau^i_t B_t)^{1-\alpha} = \\\
+&amp; =(1-\alpha)h^\prime(\tau^i_t B_t) B_t (1-\tau)^\alpha h(\tau^i_t B_t)^\alpha \\\
+&amp; \\\
+&amp; \alpha (1-\tau)^{\alpha-1}h(\tau^i_t B_t)^{1-\alpha}B_t^{\alpha-1} = \\\
+&amp; =(1-\alpha)h^\prime(\tau^i_t B_t) B^\alpha_t (1-\tau)^\alpha h(\tau^i_t B_t)^\alpha \\\
+&amp; \\\
+&amp; \underbrace{\alpha (1-\tau)^{\alpha-1}h(\tau^i_t B_t)^{1-\alpha}B_t^{\alpha-1}}_{R(k_{1+1})} = \\\
+&amp; =\underbrace{(1-\alpha)B^\alpha_t (1-\tau)^\alpha h(\tau^i_t B_t)^\alpha}_{w(k_{t+1})} h^\prime(\tau^i_t B_t) \\\
+&amp; \\\
 &amp; R(k_{t+1}) = w(k_{t+1}) h^\prime(\tau^i_t B_t)
 \end{align}$$
 The optimal condition for $\tau^i_t$ does not involve the bequest received $b^i_t$.
 Consequently, everybody will agree on the optimality of the tax rate and it will be implemented.
 In our case, substituting and solving for $\tau_t$:
 $$\tau_t = \begin{cases}
-\frac{-B_t(1+2\alpha) + \sqrt{B_t^2(1+4(1+2B_t)(1-\alpha)\alpha)}}{4B^2_t \alpha} &amp; \mathrm{if}\quad B_t &gt; \frac{\alpha}{1-\alpha} \\\<br>
+\frac{-B_t(1+2\alpha) + \sqrt{B_t^2(1+4(1+2B_t)(1-\alpha)\alpha)}}{4B^2_t \alpha} &amp; \mathrm{if}\quad B_t &gt; \frac{\alpha}{1-\alpha} \\\
 0 &amp; \mathrm{if\quad} B_t \leq \frac{\alpha}{1-\alpha}
 \end{cases} = \tau(B_t)$$</p>
 <p>Alternatively, it is possible to re-express the condition for positive taxation in terms of $k_{t+1}:$
 $$\tau_t = \begin{cases}
-\frac{-B_t(1+2\alpha) + \sqrt{B_t^2(1+4(1+2B_t)(1-\alpha)\alpha)}}{4B^2_t \alpha} &amp; \mathrm{if}\quad k_{t+1} &gt; \frac{\alpha}{1-\alpha} \\\<br>
+\frac{-B_t(1+2\alpha) + \sqrt{B_t^2(1+4(1+2B_t)(1-\alpha)\alpha)}}{4B^2_t \alpha} &amp; \mathrm{if}\quad k_{t+1} &gt; \frac{\alpha}{1-\alpha} \\\
 0 &amp; \mathrm{if\quad} k_{t+1} \leq \frac{\alpha}{1-\alpha}
 \end{cases} = \tau(B_t)$$</p>
 <h2 id="one-economy-two-groups">One economy, two groups</h2>

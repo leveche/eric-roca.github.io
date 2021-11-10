@@ -32,7 +32,7 @@
   
   <meta name="description" content="We can now completely solve an example.
 Utility and production functions We assume that utility is logarithmic and we take a Cobb-Douglas production function.
-$$\begin{eqnarray} u(c_{t}) = \log (c_{t}), \\\" />
+$$\begin{eqnarray} u(c_{t}) = \log (c_{t}), \\\ F(K_{t},L_{t}) = K_{t}^{\alpha}L_{t}^{1-\alpha}, \\\ \alpha \in (0,1)." />
 
   
   <link rel="alternate" hreflang="en-us" href="https://eric-roca.github.io/courses/ramsey/ramsey_example/" />
@@ -299,7 +299,7 @@ $$\begin{eqnarray} u(c_{t}) = \log (c_{t}), \\\" />
   <meta property="og:title" content="Example | Èric Roca Fernández" />
   <meta property="og:description" content="We can now completely solve an example.
 Utility and production functions We assume that utility is logarithmic and we take a Cobb-Douglas production function.
-$$\begin{eqnarray} u(c_{t}) = \log (c_{t}), \\\" /><meta property="og:image" content="https://eric-roca.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
+$$\begin{eqnarray} u(c_{t}) = \log (c_{t}), \\\ F(K_{t},L_{t}) = K_{t}^{\alpha}L_{t}^{1-\alpha}, \\\ \alpha \in (0,1)." /><meta property="og:image" content="https://eric-roca.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
     <meta property="twitter:image" content="https://eric-roca.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -912,17 +912,17 @@ $$\begin{eqnarray} u(c_{t}) = \log (c_{t}), \\\" /><meta property="og:image" con
 <h2 id="utility-and-production-functions">Utility and production functions</h2>
 <p>We assume that utility is logarithmic and we take a Cobb-Douglas production function.</p>
 <p>$$\begin{eqnarray}
-u(c_{t}) = \log (c_{t}), \\\<br>
-F(K_{t},L_{t}) = K_{t}^{\alpha}L_{t}^{1-\alpha}, \\\<br>
+u(c_{t}) = \log (c_{t}), \\\
+F(K_{t},L_{t}) = K_{t}^{\alpha}L_{t}^{1-\alpha}, \\\
 \alpha \in (0,1).
 \end{eqnarray}
 $$
 We can check that both functions satisfy the Inada conditions:</p>
-<p>$$\begin{eqnarray}\lim_{c_{t} \rightarrow 0}u^{\prime}(c_{t}) = \lim_{c_{t} \rightarrow 0} \frac{1}{c_{t}} = +\infty, \\\<br>
-\lim_{c_{t} \rightarrow +\infty}u^{\prime}(c_{t}) = \lim_{c_{t} \rightarrow +\infty} \frac{1}{c_{t}} = 0, \\\<br>
-\lim_{K_{t} \rightarrow 0} F^{\prime}_{K_{t}}(K_{t}, L_{t}) = \lim_{K_{t} \rightarrow 0} \alpha K_{t}^{\alpha - 1}L_{t}^{1-\alpha} = +\infty, \\\<br>
-\lim_{K_{t} \rightarrow +\infty} F^{\prime}_{K_{t}}(K_{t}, L_{t}) = \lim_{K_{t} \rightarrow +\infty} \alpha K_{t}^{\alpha - 1}L_{t}^{1-\alpha} = 0, \\\<br>
-\lim_{L_{t} \rightarrow 0} F^{\prime}_{L_{t}}(K_{t}, L_{t}) = \lim_{L_{t} \rightarrow 0}  (1-\alpha) K_{t}^{\alpha}L_{t}^{\alpha} = +\infty, \\\<br>
+<p>$$\begin{eqnarray}\lim_{c_{t} \rightarrow 0}u^{\prime}(c_{t}) = \lim_{c_{t} \rightarrow 0} \frac{1}{c_{t}} = +\infty, \\\
+\lim_{c_{t} \rightarrow +\infty}u^{\prime}(c_{t}) = \lim_{c_{t} \rightarrow +\infty} \frac{1}{c_{t}} = 0, \\\
+\lim_{K_{t} \rightarrow 0} F^{\prime}_{K_{t}}(K_{t}, L_{t}) = \lim_{K_{t} \rightarrow 0} \alpha K_{t}^{\alpha - 1}L_{t}^{1-\alpha} = +\infty, \\\
+\lim_{K_{t} \rightarrow +\infty} F^{\prime}_{K_{t}}(K_{t}, L_{t}) = \lim_{K_{t} \rightarrow +\infty} \alpha K_{t}^{\alpha - 1}L_{t}^{1-\alpha} = 0, \\\
+\lim_{L_{t} \rightarrow 0} F^{\prime}_{L_{t}}(K_{t}, L_{t}) = \lim_{L_{t} \rightarrow 0}  (1-\alpha) K_{t}^{\alpha}L_{t}^{\alpha} = +\infty, \\\
 \lim_{L_{t} \rightarrow +\infty} F^{\prime}_{L_{t}}(K_{t}, L_{t}) = \lim_{L_{t} \rightarrow +\infty}  (1- \alpha) K_{t}^{\alpha}L_{t}^{\alpha} = 0.
 \end{eqnarray}
 $$</p>
@@ -942,8 +942,8 @@ Therefore:</p>
 <h3 id="intertemporal-utility-maximisation-lagrangian">Intertemporal utility maximisation: Lagrangian</h3>
 <p>The intertemporal utility maximisation problem is:</p>
 <p>$$\begin{eqnarray}
-\max_{c_{t}, k_{t+1}}  \sum_{t=0}^{\infty} \beta^{t} u(c_{t}) &amp; \\\<br>
-\mathrm{s.t.} \quad 	 w_{t} + r_{t} k_{t} + (1-\delta)k_{t} = c_{t} + k_{t+1}, \\\<br>
+\max_{c_{t}, k_{t+1}}  \sum_{t=0}^{\infty} \beta^{t} u(c_{t}) &amp; \\\
+\mathrm{s.t.} \quad 	 w_{t} + r_{t} k_{t} + (1-\delta)k_{t} = c_{t} + k_{t+1}, \\\
 c_{t}, k_{t+1} &gt;0, k_{t=0} = k_{0} &gt; 0.
 \end{eqnarray}
 $$</p>
@@ -967,10 +967,10 @@ $$w_{t} = f(k_{t}) - f^{\prime}(k_{t})k_{t} = k_{t}^{\alpha} - \alpha k_{t}^{\al
 <h2 id="the-dynamic-system">The dynamic system</h2>
 <p>We are now in a position to solve the model.
 We have the following equations:</p>
-<p>$$ c_{t+1} = \beta (r_{t+1} + 1 - \delta) c_{t}, \\\<br>
-w_{t} + r_{t}k_{t} + (1-\delta) k_{t} = c_{t} + k_{t+1}, \\\<br>
-w_{t} = (1-\alpha) k^{\alpha}_{t}, \\\<br>
-r_{t} = \alpha k^{\alpha-1}, \\\<br>
+<p>$$ c_{t+1} = \beta (r_{t+1} + 1 - \delta) c_{t}, \\\
+w_{t} + r_{t}k_{t} + (1-\delta) k_{t} = c_{t} + k_{t+1}, \\\
+w_{t} = (1-\alpha) k^{\alpha}_{t}, \\\
+r_{t} = \alpha k^{\alpha-1}, \\\
 \lim_{t \rightarrow +\infty} \beta^{t}\frac{1}{c_{t}} k_{t+1} = 0.$$</p>
 <p>Since markets clear, we substitute the wage and interest rate into the budget constraint.</p>
 <p>$$c_{t+1} = \beta (\alpha k^{\alpha-1} + 1 - \delta) c_{t},$$
@@ -991,22 +991,22 @@ $$\bar{k}^{\alpha} + (1-\delta)\bar{k} = \bar{c} + \bar{k}.$$</p>
 Since we are using log-utility, the coefficient of relative risk aversion $\epsilon_{c} = 1.$</p>
 <p>Instead of plugging the correct values in the Jacobian matrix $\bar{A}$, for the sake of clarity, we derive everything again:</p>
 <p>$$\bar{A} = \begin{pmatrix}
-\frac{\partial c_{t+1}}{\partial c_{t}} &amp; \frac{\partial c_{t+1}}{\partial k_{t}} \\\<br>
+\frac{\partial c_{t+1}}{\partial c_{t}} &amp; \frac{\partial c_{t+1}}{\partial k_{t}} \\\
 \frac{\partial k_{t+1}}{\partial c_{t}} &amp; \frac{\partial k_{t+1}}{\partial k_{t}}
 \end{pmatrix}
 $$
 $$ = $$
 $$\begin{pmatrix}
-\beta \left( \alpha k_{t+1}^{\alpha -1} + 1 - \delta \right) - \frac{\beta c_{t} \alpha (\alpha-1) }{k_{t+1}^{2-\alpha}} &amp; \frac{\beta c_{t} \alpha (\alpha -1)}{k_{t+1}^{2-\alpha}} \left( \alpha k_{t}^{\alpha-1} + 1 - \delta \right) \\\<br>
+\beta \left( \alpha k_{t+1}^{\alpha -1} + 1 - \delta \right) - \frac{\beta c_{t} \alpha (\alpha-1) }{k_{t+1}^{2-\alpha}} &amp; \frac{\beta c_{t} \alpha (\alpha -1)}{k_{t+1}^{2-\alpha}} \left( \alpha k_{t}^{\alpha-1} + 1 - \delta \right) \\\
 -1 &amp; \alpha k_{t}^{\alpha -1} + 1 - \delta \end{pmatrix}$$</p>
 <p>Evaluating it at the steady state:
 $$\bar{A}\bigr\rvert_{\substack{
-k_{t} = k_{t+1} = \bar{k} \\\<br>
+k_{t} = k_{t+1} = \bar{k} \\\
 c_{t} = c_{t+1} = \bar{c}
 }
 }
 = \begin{pmatrix}
-1 - \beta \bar{c}  \alpha (\alpha -1) \bar{k}^{\alpha -2}  &amp; \alpha (\alpha -1 ) \bar{c}  \bar{k}^{\alpha -2} \\\<br>
+1 - \beta \bar{c}  \alpha (\alpha -1) \bar{k}^{\alpha -2}  &amp; \alpha (\alpha -1 ) \bar{c}  \bar{k}^{\alpha -2} \\\
 -1  &amp; \frac{1}{\beta}
 \end{pmatrix},$$</p>
 <p>where we have used $1 = \beta \left( \alpha \bar{k}^{\alpha -1} + 1 - \delta \right)$ at the steady state.</p>

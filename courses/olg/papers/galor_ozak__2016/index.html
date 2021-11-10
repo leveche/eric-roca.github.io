@@ -944,7 +944,7 @@ In particular, we assume that it leaves individuals with $1$ unit of consumption
 However, the output it yields during the third period $R^1$ is higher than under <em>endowment</em>: $\ln(R^1) &gt; 2 \ln (R^0).$</p>
 <p>Finally, depending on the chosen production mode, the income of individual $i$ is given by:
 $$(y_{i,t}, y_{i,t+1}) = \begin{cases}
-(R^0, R^0) &amp; \mathrm{if\, endowment} \\\<br>
+(R^0, R^0) &amp; \mathrm{if\, endowment} \\\
 (1, R^1)   &amp; \mathrm{if\, investment}
 \end{cases}.$$</p>
 <h2 id="preferences">Preferences</h2>
@@ -980,7 +980,7 @@ $$v_{i,t} = \ln y_{i,t} + \beta^i_t [\ln y_{i,t+1} + \xi],\quad \xi \equiv \gamm
 This is, each individual will decide the mode of production (endowment or investment) that maximises lifetime utility.
 Hence,:
 $$v_{i,t} = \begin{cases}
-\ln R^0 + \beta^i_t (R^0 + \xi) &amp; \mathrm{if\, endowment} \\\<br>
+\ln R^0 + \beta^i_t (R^0 + \xi) &amp; \mathrm{if\, endowment} \\\
 \ln 1 + \beta^i_t ( R^1 + \xi)   &amp; \mathrm{if\, investment}
 \end{cases}.$$</p>
 <p>An individual is indifferent between modes of production if he obtains the same utility from both.
@@ -994,13 +994,13 @@ $$\frac{\partial \hat{\beta}}{\partial R^1} = \frac{-\ln R^0}{R^1(\ln R^1 - \ln 
 this is, as agriculture becomes more and more profitable, more individuals will find it optimal to become hunters.</p>
 <p>Hence, we can rewrite the income of an individual as a function of his $\beta^i_t$:
 $$(y_{i,t}, y_{i,t+1}) = \begin{cases}
-(R^0, R^0) &amp; \mathrm{if\, \beta^i_t \leq \hat{\beta}} \\\<br>
+(R^0, R^0) &amp; \mathrm{if\, \beta^i_t \leq \hat{\beta}} \\\
 (1, R^1)   &amp; \mathrm{if\, \beta^i_t &gt; \hat{\beta}}
 \end{cases}.$$</p>
 <p>Of course, since income in the last period of life is different, hunters and farmers will have different number of children.
 In particular, using the optimal number of children derived above:
 $$n_{i,t+1} = \frac{\gamma}{\tau} y_{i,t+1} = \begin{cases}
-\frac{\gamma}{\tau}R^0\equiv n^E &amp; \mathrm{if\, \beta^i_t \leq \hat{\beta}} \\\<br>
+\frac{\gamma}{\tau}R^0\equiv n^E &amp; \mathrm{if\, \beta^i_t \leq \hat{\beta}} \\\
 \frac{\gamma}{\tau}R^1\equiv n^I   &amp; \mathrm{if\, \beta^i_t &gt; \hat{\beta}}
 \end{cases}.$$
 Because $R^1 &gt; R^0$, farmers have more children than hunters.</p>
@@ -1014,7 +1014,7 @@ In particular:</p>
 <li>Farmers transmit a larger value of $\beta^i_t$ to their children, reflecting an acquired tolerance to waiting and delaying reward.
 This is:
 $$\beta^i_{i,t+1} = \begin{cases}
-\beta^i_t   &amp; \mathrm{if\, \beta^i_t \leq \hat{\beta}} \\\<br>
+\beta^i_t   &amp; \mathrm{if\, \beta^i_t \leq \hat{\beta}} \\\
 \phi(\beta^i_t, R^1)  &amp; \mathrm{if\, \beta^i_t &gt; \hat{\beta}}
 \end{cases},$$
 with</li>

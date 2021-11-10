@@ -5,7 +5,7 @@
     <link>https://eric-roca.github.io/</link>
       <atom:link href="https://eric-roca.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Èric Roca Fernández</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Èric Roca Fernández</copyright><lastBuildDate>Tue, 09 Mar 2021 16:30:00 +0100</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Èric Roca Fernández</copyright><lastBuildDate>Fri, 29 Oct 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://eric-roca.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Èric Roca Fernández</title>
@@ -193,7 +193,7 @@ For instance, at time $t$ the household is able to correctly compute $r_{t+1}$ a
 Note that the problem is infinite, in the sense that we need to determine $c_{t}$ and $k_{t+1}$ for each and every period of time.
 From the perspective of a household, the intertemporal maximisation problem reads:&lt;/p&gt;
 &lt;p&gt;$$\begin{eqnarray}
-&amp;amp;\max_{c_{t}, k_{t+1}} \sum_{t=0}^{\infty} \beta^{t} u(c_{t}) \\\&lt;br&gt;
+&amp;amp;\max_{c_{t}, k_{t+1}} \sum_{t=0}^{\infty} \beta^{t} u(c_{t}) \\\
 &amp;amp; c_{t} + k_{t+1}  = w_{t} + r_{t} k_{t} + (1- \delta) k_{t} \forall t\geq0.
 \end{eqnarray}$$&lt;/p&gt;
 &lt;hr&gt;
@@ -458,25 +458,25 @@ We can reason similarly for the case $x_{0} &amp;gt; \bar{x}_{2}.$&lt;/p&gt;
 &lt;h2 id=&#34;first-order-systems-of-difference-equations&#34;&gt;First-order systems of difference equations&lt;/h2&gt;
 &lt;p&gt;A system of first-order difference equations takes the form:&lt;/p&gt;
 &lt;p&gt;$$\begin{eqnarray}
-x^{1}_{t+1} &amp;amp; = f^{1}(x^{1}_{t}, \ldots, x^{N}_{t}), \\\&lt;br&gt;
-\vdots &amp;amp; \\\&lt;br&gt;
+x^{1}_{t+1} &amp;amp; = f^{1}(x^{1}_{t}, \ldots, x^{N}_{t}), \\\
+\vdots &amp;amp; \\\
 x^{N}_{t+1} &amp;amp; = f^{N}(x^{1}_{t}, \ldots, x^{N}_{t}).
 \end{eqnarray}$$&lt;/p&gt;
 &lt;p&gt;As before, we often interested by the steady states of first-order systems of difference equations.
 Finding a steady state implies solving the system for a fixed point $(\bar{x}^{1}, \ldots, \bar{x}^{N})$ such that&lt;/p&gt;
 &lt;p&gt;$$\begin{eqnarray}
-\bar{x}^{1} &amp;amp; = f^{1}( \bar{x}^{1}, \ldots, \bar{x}^{N}), \\\&lt;br&gt;
-\vdots &amp;amp; \\\&lt;br&gt;
+\bar{x}^{1} &amp;amp; = f^{1}( \bar{x}^{1}, \ldots, \bar{x}^{N}), \\\
+\vdots &amp;amp; \\\
 \bar{x}^{N} &amp;amp; = f^{N}( \bar{x}^{1}, \ldots, \bar{x}^{N}).
 \end{eqnarray}$$&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt; suppose the following system of first-order difference equations:&lt;/p&gt;
 &lt;p&gt;$$\begin{eqnarray}
-x_{t} &amp;amp; = 0.3x_{t-1} + y_{t-1}^{0.5}, \\&lt;br&gt;
+x_{t} &amp;amp; = 0.3x_{t-1} + y_{t-1}^{0.5}, \\\
 y_{t} &amp;amp; = x_{t-1} - 0.5y_{t-1}.
 \end{eqnarray}$$&lt;/p&gt;
 &lt;p&gt;Finding the steady states requires solving the system of equations:&lt;/p&gt;
 &lt;p&gt;$$\begin{eqnarray}
-\bar{x} &amp;amp; = 0.3 \bar{x} + \bar{y}^{0.5}, \\\&lt;br&gt;
+\bar{x} &amp;amp; = 0.3 \bar{x} + \bar{y}^{0.5}, \\\
 \bar{y} &amp;amp; = \bar{x} - 0.5 \bar{y}.
 \end{eqnarray}$$&lt;/p&gt;
 &lt;p&gt;The system has two solutions: $(\bar{x}_{1}, \bar{y}_{1}) = (0,0)$ and $(\bar{x}_{2}, \bar{y}_{2}) = (1.36, 0.90).$&lt;/p&gt;
@@ -493,22 +493,22 @@ Instead, we can analyse the stability of the system using a first-order Taylor a
 We can express these in matrix notation:&lt;/p&gt;
 &lt;p&gt;$$
 \begin{pmatrix}
-x^{1}_{t+1} - x^{1}_{t} \\\&lt;br&gt;
-\vdots \\\&lt;br&gt;
+x^{1}_{t+1} - x^{1}_{t} \\\
+\vdots \\\
 x^{N}_{t+1} - x^{N}_{t}
 \end{pmatrix}
 = \bar{A}
 \begin{pmatrix}
-x^{1}_{t} - \bar{x}^{1} \\\&lt;br&gt;
-\vdots \\\&lt;br&gt;
+x^{1}_{t} - \bar{x}^{1} \\\
+\vdots \\\
 x^{N}_{t} - \bar{x}^{N}
 \end{pmatrix},
 $$
 where $\bar{A}$ is an $N \times N$ matrix of the derivatives of $f^{1}(\cdot), \ldots, f^{N}(\cdot)$ taken at the point $(\bar{x}^{1}, \ldots, \bar{x}^{N})^{\prime},$ called &lt;em&gt;Jacobian matrix&lt;/em&gt;:&lt;/p&gt;
 &lt;p&gt;$$\bar{A} =
 \begin{pmatrix}
-{f^{1}_{x_{1}}}^{\prime}(\bar{x}^{1}, \ldots, \bar{x}^{N}) &amp;amp; \ldots &amp;amp; {f^{1}_{x_{N}}}^{\prime}(\bar{x}^{1}, \ldots, \bar{x}^{N}) \\\&lt;br&gt;
-\vdots &amp;amp;  \vdots &amp;amp; \vdots \\\&lt;br&gt;
+{f^{1}_{x_{1}}}^{\prime}(\bar{x}^{1}, \ldots, \bar{x}^{N}) &amp;amp; \ldots &amp;amp; {f^{1}_{x_{N}}}^{\prime}(\bar{x}^{1}, \ldots, \bar{x}^{N}) \\\
+\vdots &amp;amp;  \vdots &amp;amp; \vdots \\\
 {f^{N}_{x_{1}}}^{\prime}(\bar{x}^{1}, \ldots, \bar{x}^{N}) &amp;amp; \ldots &amp;amp; {f^{N}_{x_{N}}}^{\prime}(\bar{x}^{1}, \ldots, \bar{x}^{N})
 \end{pmatrix}
 $$&lt;/p&gt;
@@ -575,7 +575,7 @@ However, we can collapse both into a unique &lt;em&gt;intertemporal budget const
 It is more convenient for us to combine the two budget constraints corresponding to young and old ages into one single constraint.
 Starting from&lt;/p&gt;
 &lt;p&gt;$$\left. \begin{eqnarray}
-w_{t} = c_{t} + s_{t} \\\&lt;br&gt;
+w_{t} = c_{t} + s_{t} \\\
 d_{t+1} = s_{t}(1 - \delta + r_{t+1}) = s_{t} R_{t+1} \end{eqnarray}
 \right\}.$$&lt;/p&gt;
 &lt;p&gt;where $R_{t} \equiv 1 - \delta + r_{t+1}$ represents the return on savings, isolate $s_{t}$ in the second equation and plug it in the first one:&lt;/p&gt;
@@ -602,9 +602,9 @@ In the &lt;a href=&#34;https://eric-roca.github.io/courses/math_app/olg_non-sepa
 &lt;h2 id=&#34;the-behaviour-of-individuals&#34;&gt;The behaviour of individuals&lt;/h2&gt;
 &lt;p&gt;At time $t$, young individuals receive their wages, consume and save while maximising the utility function.&lt;/p&gt;
 &lt;p&gt;$$\begin{eqnarray}
-&amp;amp; \max u(c_{t}) + \beta u(d_{t+1}) \\\&lt;br&gt;
-&amp;amp; \mathrm{s.t.} \quad w_{t} = c_{t} + s_{t} \\\&lt;br&gt;
-&amp;amp; \phantom{s.t.} \quad d_{t+1} = R_{t+1}s_{t} \\\&lt;br&gt;
+&amp;amp; \max u(c_{t}) + \beta u(d_{t+1}) \\\
+&amp;amp; \mathrm{s.t.} \quad w_{t} = c_{t} + s_{t} \\\
+&amp;amp; \phantom{s.t.} \quad d_{t+1} = R_{t+1}s_{t} \\\
 &amp;amp; \phantom{s.t.} \quad c_{t} \geq 0, d_{t+1} \geq 0.
 \end{eqnarray}$$&lt;/p&gt;
 &lt;p&gt;We have two possibilities to solve this problem:&lt;/p&gt;
@@ -644,8 +644,8 @@ Similarly, the subindeces $t, t+1, \ldots$ denote the period of consumption, but
       <description>&lt;p&gt;We close the model imposing market clearing.
 This affects the budget constraint:&lt;/p&gt;
 &lt;p&gt;$$\begin{eqnarray}
-k_{t+1}  = w_{t} + r_{t+1}k_{t} + (1-\delta)k_{t} - c_{t} - \color{red}{T_{t}}, &amp;amp; \\\&lt;br&gt;
-w_{t}  = f(k_{t}) - f^{\prime}(k_{t})k_{t},&amp;amp; \\\&lt;br&gt;
+k_{t+1}  = w_{t} + r_{t+1}k_{t} + (1-\delta)k_{t} - c_{t} - \color{red}{T_{t}}, &amp;amp; \\\
+w_{t}  = f(k_{t}) - f^{\prime}(k_{t})k_{t},&amp;amp; \\\
 r_{t}  = f^{\prime}(k_{t}). &amp;amp;
 \end{eqnarray}$$&lt;/p&gt;
 &lt;p&gt;Hence the dynamics for capital are now affected by public expenditures:&lt;/p&gt;
@@ -683,10 +683,10 @@ This implies that the steady-state level of consumption is reduced.&lt;/li&gt;
 Thus, all the following equations must be satisfied:&lt;/p&gt;
 &lt;p&gt;$$\left.
 \begin{eqnarray}
-u^{\prime}(c_{t}) = \beta (r_{t+1} + 1 - \delta) u^{\prime}(c_{t+1}) \\\&lt;br&gt;
-k_{t+1} = f(k_{t}) + (1-\delta)k_{t} - c_{t} \\\&lt;br&gt;
-w_{t} = f(k_{t}) - f^{\prime}(k_{t})k_{t} \\\&lt;br&gt;
-r_{t} = f^{\prime}(k_{t}) \\\&lt;br&gt;
+u^{\prime}(c_{t}) = \beta (r_{t+1} + 1 - \delta) u^{\prime}(c_{t+1}) \\\
+k_{t+1} = f(k_{t}) + (1-\delta)k_{t} - c_{t} \\\
+w_{t} = f(k_{t}) - f^{\prime}(k_{t})k_{t} \\\
+r_{t} = f^{\prime}(k_{t}) \\\
 \lim_{t \rightarrow \infty} \beta^{t}u^{\prime}(c_{t})k_{t+1} = 0
 \end{eqnarray}
 \right\} \tag{8, Equilibrium} \label{eq:equilibrium}$$&lt;/p&gt;
@@ -697,7 +697,7 @@ Finally, the transversality condition allows us to pick a non-explosive path.&lt
 &lt;p&gt;After some substitutions, we can express the intertemporal equilibrium &amp;mdash;forgetting for a moment about the transversality condition&amp;mdash; as:&lt;/p&gt;
 &lt;p&gt;$$\left.
 \begin{eqnarray}
-&amp;amp; u^{\prime}(c_{t}) = \beta (f^{\prime}(k_{t+1}) + 1 - \delta) u^{\prime}(c_{t+1}) \\\&lt;br&gt;
+&amp;amp; u^{\prime}(c_{t}) = \beta (f^{\prime}(k_{t+1}) + 1 - \delta) u^{\prime}(c_{t+1}) \\\
 &amp;amp; k_{t+1} = f(k) + (1-\delta)k_{t} - c_{t}.
 \end{eqnarray}
 \right\} \tag{8.1, Equilibrium} \label{eq:equilibrium2}$$&lt;/p&gt;
@@ -791,7 +791,7 @@ In this case, the wealth and substitution effects cancel each other:&lt;/p&gt;
 &lt;p&gt;$$U(c,d) = \left[ \alpha c^{\frac{\epsilon-1}{\epsilon}} + (1-\alpha)d^{\frac{\epsilon-1}{\epsilon}} \right]^{\frac{\epsilon}{\epsilon-1}}.$$&lt;/p&gt;
 &lt;p&gt;From here, substituting $c=w-s$ and $d=Rs$, and solving for the optimal savings we obtain:&lt;/p&gt;
 &lt;p&gt;$$\begin{eqnarray}
-&amp;amp; \alpha (w-s)^{-\frac{1}{\epsilon}} = (1-\alpha) R (Rs)^{-\frac{1}{\epsilon}} \\\&lt;br&gt;
+&amp;amp; \alpha (w-s)^{-\frac{1}{\epsilon}} = (1-\alpha) R (Rs)^{-\frac{1}{\epsilon}} \\\
 &amp;amp; s = \frac{\left[ \frac{\alpha}{1-\alpha} \right]^{-\epsilon} w}{R^{1-\epsilon} + \left[\frac{\alpha}{1-\alpha} \right]^{-\epsilon}} = \frac{w}{1+\left[ \frac{\alpha}{1-\alpha} \right]^{\epsilon} R^{1-\epsilon}}.
 \end{eqnarray}
 $$&lt;/p&gt;
@@ -839,8 +839,8 @@ In the following example, we try to solve the simple cake-eating problem without
 The size of the cake ($k$) is given: $k_{t=0} = k_0 \ &amp;gt; 0.$
 The problem reads:&lt;/p&gt;
 &lt;p&gt;$$\begin{eqnarray}
-\max &amp;amp; \sum_{t=0}^{\infty} \beta^{t} \ln ( c_{t} ) \\\&lt;br&gt;
-&amp;amp; k_{t+1}  = k_{t} - c_{t} \\\&lt;br&gt;
+\max &amp;amp; \sum_{t=0}^{\infty} \beta^{t} \ln ( c_{t} ) \\\
+&amp;amp; k_{t+1}  = k_{t} - c_{t} \\\
 &amp;amp; k_{t=0} = k_{0}
 \end{eqnarray}$$&lt;/p&gt;
 &lt;p&gt;We solve it noting that we can decide on $c_{t}$ and $k_{t}.$
@@ -883,8 +883,8 @@ Write the Lagrangian that corresponds to the Kuhn-Tucker problem:&lt;/p&gt;
 &lt;p&gt;$$\mathcal{L} = \sum_{t=0}^{T} \beta^{t} u(c_{t}) + \sum_{t=0}^{T} \lambda_{t}(w_{t} + r_{t} k_{t} + (1-\delta)k_{t} - c_{t} - k_{t+1}) + \sum_{t=0}^{T} \mu_{t}k_{t+1}.$$&lt;/p&gt;
 &lt;p&gt;Taking the appropriate derivatives with respect to $k_{t+1}, c_{t}$ and remembering the complementary slackness condition leaves us with the following system of equations, which we evaluate at $t=T.$
 $$\begin{eqnarray}
-\beta^{T} u^{\prime}(c_{T}) &amp;amp; = \lambda_{T} \\\&lt;br&gt;
-\lambda_{T} &amp;amp; = \mu_{T} \\\&lt;br&gt;
+\beta^{T} u^{\prime}(c_{T}) &amp;amp; = \lambda_{T} \\\
+\lambda_{T} &amp;amp; = \mu_{T} \\\
 \mu_{T} k_{T+1} &amp;amp; = 0.
 \end{eqnarray}$$&lt;/p&gt;
 &lt;p&gt;Rearranging we can get:
@@ -908,7 +908,7 @@ $$\lim_{t \rightarrow \infty} \beta^{t}u^{\prime}(c_{t})k_{t+1} = 0.$$&lt;/p&gt;
 This proof neglects consumption and focuses on current and future values of $x_{t}.$
 Consider the following maximisation problem:&lt;/p&gt;
 &lt;p&gt;$$
-\max_{ \{x_{t} \}_{t=0}^{\infty} }  \sum_{t=0}^{\infty} v_{t}(x_{t}, x_{t+1}) \\\&lt;br&gt;
+\max_{ \{x_{t} \}_{t=0}^{\infty} }  \sum_{t=0}^{\infty} v_{t}(x_{t}, x_{t+1}) \\\
 x_{0} = \bar{x_{0}}, \forall t \in \mathbb{Z}_{+}, (x_{t}, x_{t+1}) \in X_{t}.
 $$&lt;/p&gt;
 &lt;p&gt;We assume the following:&lt;/p&gt;
@@ -1061,8 +1061,8 @@ $$&lt;/p&gt;
 &lt;h2 id=&#34;cobb-douglas-example&#34;&gt;Cobb-Douglas example&lt;/h2&gt;
 &lt;p&gt;The Cobb-Douglas production function has an elasticity of substitution equal to one.&lt;/p&gt;
 &lt;p&gt;$$\begin{eqnarray}
-&amp;amp; F(K,L)= A K^\alpha L^{1-\alpha}, \\\&lt;br&gt;
-&amp;amp; w = A(1-\alpha) K^\alpha L^{-\alpha}, \\\&lt;br&gt;
+&amp;amp; F(K,L)= A K^\alpha L^{1-\alpha}, \\\
+&amp;amp; w = A(1-\alpha) K^\alpha L^{-\alpha}, \\\
 &amp;amp; r = A \alpha K^{\alpha-1} L^{1-\alpha}.\end{eqnarray}$$
 Hence:
 $$\frac{w}{r} = \frac{1-\alpha}{\alpha} \frac{K}{L}.$$
@@ -1073,7 +1073,7 @@ Therefore, we can compute $\sigma_{K,L}$ as&lt;/p&gt;
 &lt;h2 id=&#34;ces-function&#34;&gt;CES function&lt;/h2&gt;
 &lt;p&gt;In the case of a CES function, the elasticity of substitution equals $\frac{1}{1-\rho}.$&lt;/p&gt;
 &lt;p&gt;$$\begin{eqnarray}
-&amp;amp; F(K,L)= A \left( \alpha K^{\rho} + (1-\alpha) L^{\rho} \right)^\frac{\nu}{\rho}, \rho \leq 1 \\\&lt;br&gt;
+&amp;amp; F(K,L)= A \left( \alpha K^{\rho} + (1-\alpha) L^{\rho} \right)^\frac{\nu}{\rho}, \rho \leq 1 \\\
 &amp;amp; w = A \frac{\nu}{\rho}\left( \alpha K^{\rho} + (1-\alpha) L^{\rho}\right)^{\frac{\nu}{\rho}-1} ( 1- \alpha) \rho L^{\rho-1}, \\\
 &amp;amp; r = A \frac{\nu}{\rho}\left( \alpha K^{\rho} + (1-\alpha) L^{\rho} \right)^{\frac{\nu}{\rho}-1}\alpha \rho K^{\rho-1}.\end{eqnarray}$$
 Hence:
@@ -1134,14 +1134,14 @@ $$N_{t-1}d_{t} = N_{t-1}R_{t}s_{t-1} = R_{t}K_{t} = K_{t}f^{\prime}(k_{t}).$$&lt
 &lt;/ol&gt;
 &lt;p&gt;A temporary equilibrium is a set $\{w_{t}, R_{t}, K_{t}, L_{t}, Y_{t}, k_{t}, I_{t}, c_{t}, s_{t}, d_{t}\}$ that satisfies:&lt;/p&gt;
 &lt;p&gt;$$\begin{eqnarray}
-w_{t} = \omega(k_{t}), \\\&lt;br&gt;
-R_{t} = f^{\prime}(k_{t}), \\\&lt;br&gt;
-L_{t} = N_{t}, \\\&lt;br&gt;
-Y_{t} = N_{t}f(k_{t}), \\\&lt;br&gt;
-Y_{t} = N_{t-1}d_t + N_{t}(c_{t}+s_{t}) \\\&lt;br&gt;
-I_{t} = N_{t}s_{t}, \\\&lt;br&gt;
-c_{t} = w_{t} - s_{t}, \\\&lt;br&gt;
-s_{t} = s(\omega(k_{t}),R_{t+1}), \\\&lt;br&gt;
+w_{t} = \omega(k_{t}), \\\
+R_{t} = f^{\prime}(k_{t}), \\\
+L_{t} = N_{t}, \\\
+Y_{t} = N_{t}f(k_{t}), \\\
+Y_{t} = N_{t-1}d_t + N_{t}(c_{t}+s_{t}) \\\
+I_{t} = N_{t}s_{t}, \\\
+c_{t} = w_{t} - s_{t}, \\\
+s_{t} = s(\omega(k_{t}),R_{t+1}), \\\
 d_{t} = R_{t}s_{t-1}.
 \end{eqnarray}$$&lt;/p&gt;
 &lt;p&gt;The existence of a temporary equilibrium is guaranteed because the functions are single-valued.&lt;/p&gt;
@@ -1268,7 +1268,7 @@ Then, to have monotonic dynamics and unique temporal equilibrium it is sufficien
       <link>https://eric-roca.github.io/courses/comparative_development/papers/diamond__1997/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
       <guid>https://eric-roca.github.io/courses/comparative_development/papers/diamond__1997/</guid>
-      <description>&lt;h2 id=&#34;lhypothèse-de-jared-diamond-1997-guns-germs-and-steel&#34;&gt;L&amp;rsquo;hypothèse de Jared Diamond (1997): Guns, Germs and Steel&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;lhypothèse-de-jared-diamond-1997-guns-germs-and-steelhttpscatalogue-buucafrpermalink33clermont_bciu1eua77oalma991003631849704411&#34;&gt;L&amp;rsquo;hypothèse de Jared Diamond (1997): &lt;a href=&#34;https://catalogue-bu.uca.fr/permalink/33CLERMONT_BCIU/1eua77o/alma991003631849704411&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Guns, Germs and Steel&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Selon Jared Diamond (1997), derrière les inégalités entre pays on trouve certains facteurs qui se sont déclenchés pendant la révolution Néolithique, c&amp;rsquo;est-à-dire, à partir de l&amp;rsquo;adoption de l&amp;rsquo;agriculture.
 Or, pour comprendre pourquoi y a-t-il des régions développées et en développement, il faut connaître pourquoi l&amp;rsquo;agriculture est apparue et adoptée dans certaines régions du monde tandis qu&amp;rsquo;autres ont continué à obtenir leurs calories parmi la chasse et la récollection des fruits.&lt;/p&gt;
 &lt;h3 id=&#34;chasseurs-cueilleurs-vs-agriculture&#34;&gt;Chasseurs cueilleurs vs agriculture&lt;/h3&gt;
@@ -1281,7 +1281,7 @@ Ainsi, les sociétés agricoles produissent les calories nécessaires pour la su
 La plus grande productivité leur permet de générer un surplus qu&amp;rsquo;est utilisé pour nourrir aux non fermiers: les bureaucrates, prêtres, savants, penseurs, etc.
 À noter que les activités des non-fermiers sont de nature mentale.
 L&amp;rsquo;exercice de ces activités facilite l&amp;rsquo;invention de l&amp;rsquo;écriture, la pensée scientifique (mathématique, géométrie, astronomie, etc.) et le développement technologique.
-Enfin, comme le passage ã l&amp;rsquo;agriculture a lieu en époque Malthusienne, il est possible d&amp;rsquo;argumenter que les premières sociétés à l&amp;rsquo;adopter ont un avantage car ces sociétés accumuleront technologie davantage, produiront plus et augmenteront la population, fait que renforce le développement technologique en un cercle vertueux.&lt;/p&gt;
+Enfin, comme le passage vers l&amp;rsquo;agriculture a lieu en époque Malthusienne, il est possible d&amp;rsquo;argumenter que les premières sociétés à l&amp;rsquo;adopter ont un avantage car ces sociétés accumuleront technologie davantage, produiront plus et augmenteront la population, fait que renforce le développement technologique en un cercle vertueux.&lt;/p&gt;
 &lt;h3 id=&#34;lapparition-de-lagriculture&#34;&gt;L&amp;rsquo;apparition de l&amp;rsquo;agriculture&lt;/h3&gt;
 &lt;p&gt;Selon les données archéologiques, l&amp;rsquo;agriculture a apparu en multiples occasions à travers le monde avec une variation temporelle.
 Après chaque invention originale, elle s&amp;rsquo;est rependue aux alentours.
@@ -1310,7 +1310,7 @@ Mais, le centre les États-Unis est une région sèche, avec des déserts et gra
 &lt;/ul&gt;
 &lt;h3 id=&#34;les-effets-dune-agriculture-précoce&#34;&gt;Les effets d&amp;rsquo;une agriculture précoce&lt;/h3&gt;
 &lt;h4 id=&#34;densité-de-population-technologie-et-revenu&#34;&gt;Densité de population, technologie et revenu&lt;/h4&gt;
-&lt;p&gt;Selon le modèle de croissance unifié (et selon Diamond), les régions qui ont adopté en premier l&amp;rsquo;agriculture ont eu un avantage sur les autres.
+&lt;p&gt;Selon le modèle unifié de croissance économique (et selon Diamond), les régions qui ont adopté en premier l&amp;rsquo;agriculture ont eu un avantage sur les autres.
 Ainsi, la productivité additionnelle due à l&amp;rsquo;agriculture aurait permis deux choses:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Augmenter la population: on devrait observer une plus grande densité de population en zones agricoles.&lt;/li&gt;
@@ -1319,7 +1319,7 @@ Ainsi, la productivité additionnelle due à l&amp;rsquo;agriculture aurait perm
 &lt;p&gt;Ashraf et Galor (2011) vérifient ces points, montrant qu&amp;rsquo;en effet, les régions qui développèrent avant l&amp;rsquo;agriculture présentent une plus grande densité de population pendant la période Malthusienne et, aussi, un plus grand avancement technologique.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/ashraf_galor__2011_Table_1.png&#34; alt=&#34;Table_1&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Par contre, et en accord avec la théorie, les régions précoces en agriculture n&amp;rsquo;auraient pas éteint plus de revenu per capita en époque Malthusienne.
-Rappelons que, selon le modèle de croissance unifié, en époque Malthusienne plus de revenu se traduit par une plus grande densité de population et non par plus de revenu per capita.
+Rappelons que, selon le modèle unifié de croissance économique, en époque Malthusienne plus de revenu se traduit par une plus grande densité de population et non par plus de revenu per capita.
 &lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/ashraf_galor__2011_Table_5.png&#34; alt=&#34;Table_5&#34;&gt;&lt;/p&gt;
 &lt;h4 id=&#34;densité-de-population-et-maladies&#34;&gt;Densité de population et maladies&lt;/h4&gt;
 &lt;p&gt;Les effets de la révolution Néolithique touchent aussi directement la santé des hommes.&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;
@@ -1413,7 +1413,7 @@ Par contre, en époque moderne la relation est telle que prévue: plus de rayonn
 &lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/Andersen_Dalgaard_Selaya__2016_Table_6.png&#34; alt=&#34;Andersen_Dalgaard_Selaya__2016_Table_6&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Enfin, les auteurs valident leur hypothèse à propos du lien entre le rayonnement UV et l&amp;rsquo;éducation.
 Ainsi, vu que dans les régions qui plus rayonnées la valeur du capital humain et l&amp;rsquo;éducation sont inférieurs, le niveau éducatif devrait être aussi inférieur.
-&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/Andersen_Dalgaard_Selaya__2016_Table_A17.png&#34; alt=&#34;Andersen_Dalgaard_Selaya__2016_Table_A17&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/Andersen_Dalgaard_selaya__2016_Table_A17.png&#34; alt=&#34;Andersen_Dalgaard_Selaya__2016_Table_A17&#34;&gt;&lt;/p&gt;
 &lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
@@ -1440,16 +1440,16 @@ This is, upon reaching a steady state, the system remains there forever.
 Hence, if the system is given by:&lt;/p&gt;
 &lt;p&gt;$$\left.
 \begin{eqnarray}
-x^{1}_{t+1} &amp;amp; = f_{1}(x^{1}_{t}, \ldots, x^{N}_{t}) \\\&lt;br&gt;
-\vdots &amp;amp; \\\&lt;br&gt;
+x^{1}_{t+1} &amp;amp; = f_{1}(x^{1}_{t}, \ldots, x^{N}_{t}) \\\
+\vdots &amp;amp; \\\
 x^{N}_{t+1} &amp;amp; = f_{N}(x^{1}_{t}, \ldots, x^{N}_{t})
 \end{eqnarray}
 \right\}$$&lt;/p&gt;
 &lt;p&gt;in a steady state we have that&lt;/p&gt;
 &lt;p&gt;$$\left.
 \begin{eqnarray}
-x^{1}_{t+1} &amp;amp; = x^{1}_{t} \\\&lt;br&gt;
-\vdots &amp;amp; \\\&lt;br&gt;
+x^{1}_{t+1} &amp;amp; = x^{1}_{t} \\\
+\vdots &amp;amp; \\\
 x^{N}_{t+1} &amp;amp; = x^{N}_{t}.
 \end{eqnarray}
 \right\}$$&lt;/p&gt;
@@ -1464,14 +1464,14 @@ In the second, the system &lt;em&gt;diverges&lt;/em&gt; from the steady state.&l
 Then, a steady-state solution satisfies the following system of equations:&lt;/p&gt;
 &lt;p&gt;$$\left.
 \begin{eqnarray}
-u^{\prime}(\bar{c}) &amp;amp; = \beta (f^{\prime}(\bar{k}) + 1 -\delta) u^{\prime}(\bar{c}), \\\&lt;br&gt;
+u^{\prime}(\bar{c}) &amp;amp; = \beta (f^{\prime}(\bar{k}) + 1 -\delta) u^{\prime}(\bar{c}), \\\
 \bar{k} &amp;amp; = f(\bar{k}) + (1-\delta) \bar{k} - \bar{c}.
 \end{eqnarray}
 \right\} \tag{9, Steady St.} \label{eq:ss}$$&lt;/p&gt;
 &lt;p&gt;Simplifying we can obtain the following, equivalent expression:&lt;/p&gt;
 &lt;p&gt;$$\left.
 \begin{eqnarray}
-f^{\prime}(\bar{k})  = \frac{\theta}{\beta}, \\\&lt;br&gt;
+f^{\prime}(\bar{k})  = \frac{\theta}{\beta}, \\\
 \bar{c}  = f(\bar{k}) - \delta \bar{k},
 \end{eqnarray}
 \right\} \tag{9.1, Steady St.} \label{eq:ss2}$$&lt;/p&gt;
@@ -1495,7 +1495,7 @@ In particular, we wonder whether the dynamics are such that they converge toward
 &lt;p&gt;The equations that govern the economy are the Euler equation and the law for capital accumulation:&lt;/p&gt;
 &lt;p&gt;$$\left.
 \begin{eqnarray}
-u^{\prime}(c_{t}) = \beta (f^{\prime}(k_{t+1}) + 1 - \delta) u^{\prime}(c_{t+1}), \\\&lt;br&gt;
+u^{\prime}(c_{t}) = \beta (f^{\prime}(k_{t+1}) + 1 - \delta) u^{\prime}(c_{t+1}), \\\
 k_{t+1} = f(k_{t}) + (1-\delta) k_{t} - c_{t}
 \end{eqnarray}
 \right\}. \tag{8.1 Equilibrium}
@@ -1503,13 +1503,13 @@ $$&lt;/p&gt;
 &lt;p&gt;The stability of the steady state first requires computing the Jacobian matrix.
 The Jacobian matrix associated to the system is:&lt;/p&gt;
 &lt;p&gt;$$\bar{A} = \begin{pmatrix}
-\frac{\partial c_{t+1}}{\partial c_{t}} &amp;amp; \frac{\partial c_{t+1}}{\partial k_{t}} \\\&lt;br&gt;
+\frac{\partial c_{t+1}}{\partial c_{t}} &amp;amp; \frac{\partial c_{t+1}}{\partial k_{t}} \\\
 \frac{\partial k_{t+1}}{\partial c_{t}} &amp;amp; \frac{\partial k_{t+1}}{\partial k_{t}}
 \end{pmatrix}.$$&lt;/p&gt;
 &lt;p&gt;Notice that $\bar{A}$ represents the approximate linear behaviour of the economy at any given point: $\begin{pmatrix}c_{t+1} \\\ k_{t+1}\end{pmatrix} \approx \begin{pmatrix} c_0 \\\ k_0 \end{pmatrix} + \bar{A} \begin{pmatrix} c_t - c_0 \\\ k_t - k_0 \end{pmatrix}.$&lt;/p&gt;
 &lt;p&gt;In our case, the Jacobian matrix reads:&lt;/p&gt;
 &lt;p&gt;$$\bar{A} = \begin{pmatrix}
-\frac{u^{\prime \prime}(c_{t})+\beta f^{\prime \prime}(k_{t+1})u^{\prime}(c_{t+1})}{\beta \left[ f^{\prime}(k_{t+1}) + 1 - \delta \right] u^{\prime \prime}(c_{t+1})} &amp;amp; -\frac{\beta f^{\prime \prime}(k_{t+1}) \left[ f^{\prime}(k_{t}) + 1 - \delta \right] u^{\prime}(c_{t+1})}{\beta \left[ f^{\prime}(k_{t+1}) + 1 - \delta \right] u^{\prime \prime}(c_{t+1})} \\\&lt;br&gt;
+\frac{u^{\prime \prime}(c_{t})+\beta f^{\prime \prime}(k_{t+1})u^{\prime}(c_{t+1})}{\beta \left[ f^{\prime}(k_{t+1}) + 1 - \delta \right] u^{\prime \prime}(c_{t+1})} &amp;amp; -\frac{\beta f^{\prime \prime}(k_{t+1}) \left[ f^{\prime}(k_{t}) + 1 - \delta \right] u^{\prime}(c_{t+1})}{\beta \left[ f^{\prime}(k_{t+1}) + 1 - \delta \right] u^{\prime \prime}(c_{t+1})} \\\
 -1 &amp;amp; f^{\prime}(k_{t}) + 1 - \delta
 \end{pmatrix}. \tag{10, Jacobian} \label{eq:jacobian}$$&lt;/p&gt;
 &lt;p&gt;Then, we evaluate \ref{eq:jacobian} at the steady state.
@@ -1519,7 +1519,7 @@ $$\color{green}{c_{t+1} = c_{t} = \bar{c},} $$
 $$\color{blue}{1 = \beta \left( f^{\prime}(\bar{k}) + 1 - \delta \right).}  $$&lt;/p&gt;
 &lt;p&gt;Substituting all $t$ and $t+1$ variables for their steady-state values $\bar{k}$ and $\bar{c}$ yields:&lt;/p&gt;
 &lt;p&gt;$$\bar{A}\bigr\rvert_{\substack{
-k_{t} = k_{t+1} = \bar{k} \\\&lt;br&gt;
+k_{t} = k_{t+1} = \bar{k} \\\
 c_{t} = c_{t+1} = \bar{c}
 }
 }
@@ -1536,7 +1536,7 @@ u^{\prime \prime}(\textcolor{green}{\bar{c}})+\beta f^{\prime \prime}(\textcolor
 }
 {
 \beta \left[ f^{\prime}(\bar{k}) + 1 - \delta \right] u^{\prime \prime}(\bar{\textcolor{green}{c}})}
-\\\&lt;br&gt;
+\\\
 -1
 &amp;amp;
 f^{\prime}(\textcolor{red}{\bar{k}}) + 1 - \delta
@@ -1554,7 +1554,7 @@ u^{\prime \prime}(\bar{c})+\beta f^{\prime \prime}(\bar{k})u^{\prime}(\bar{c)}
 }
 {
 \textcolor{blue}{\beta \left[ f^{\prime}(\bar{k}) + 1 - \delta \right]} u^{\prime \prime}(\bar{c})}
-\\\&lt;br&gt;
+\\\
 -1
 &amp;amp;
 \color{blue}{f^{\prime}(\bar{k}) + 1 - \delta}
@@ -1572,7 +1572,7 @@ f^{\prime \prime}(\bar{k}) u^{\prime}(\bar{c})
 }
 {
 u^{\prime \prime}(\bar{c})}
-\\\&lt;br&gt;
+\\\
 -1
 &amp;amp;
 \frac{1}{\beta}
@@ -1581,7 +1581,7 @@ u^{\prime \prime}(\bar{c})}
 1 - \beta f^{\prime \prime}(\bar{k}) \frac{\bar{c}}{\epsilon_{\bar{c}}}
 &amp;amp;
 f^{\prime \prime}(\bar{k}) \frac{\bar{c}}{\epsilon_{\bar{c}}}
-\\\&lt;br&gt;
+\\\
 -1
 &amp;amp;
 \frac{1}{\beta}
@@ -1608,7 +1608,7 @@ Denote by $l$ the number of eigenvalues in the unit circle, and denote by $m$ th
 &lt;p&gt;The first method we present uses the definition of eigenvalue: the roots of the characteristic equation.
 It requires solving:&lt;/p&gt;
 &lt;p&gt;$$\begin{vmatrix}
-1-\beta f^{\prime \prime}(\bar{k})\frac{\bar{c}}{\epsilon_{\bar{c}}} - \lambda &amp;amp; f^{\prime \prime}(\bar{k}) \frac{\bar{c}}{\epsilon_{\bar{c}}} \\\&lt;br&gt;
+1-\beta f^{\prime \prime}(\bar{k})\frac{\bar{c}}{\epsilon_{\bar{c}}} - \lambda &amp;amp; f^{\prime \prime}(\bar{k}) \frac{\bar{c}}{\epsilon_{\bar{c}}} \\\
 -1 &amp;amp; \frac{1}{\beta} - \lambda
 \end{vmatrix} =
 \lambda^{2} + \lambda \left( \beta f^{\prime \prime} (\bar{k}) \frac{\bar{c}}{\epsilon_{\bar{c}}} - 1 - \frac{1}{\beta} \right) + \frac{1}{\beta} = 0.$$&lt;/p&gt;
@@ -1765,7 +1765,7 @@ Par exemple, les États-Unis sont aujourd&amp;rsquo;hui la frontière technologi
     </item>
     
     <item>
-      <title>Époques dans le modèle de croissance unifié</title>
+      <title>Époques dans le modèle unifié de croissance économique</title>
       <link>https://eric-roca.github.io/courses/comparative_development/comparative_development_epochs/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
       <guid>https://eric-roca.github.io/courses/comparative_development/comparative_development_epochs/</guid>
@@ -1780,42 +1780,48 @@ Chacune des époque se caractérise une combinaison particulier des variables (o
 Ainsi, l&amp;rsquo;époque Malthusienne est la plus longue, prenant dès l&amp;rsquo;apparition des êtres humains modernes jusqu&amp;rsquo;à le 18è siècle pour les pays développés.
 Ensuite, l&amp;rsquo;époque post-Malthusienne prend les siècles 18è et 19è, et à partir de ce point là, on entre dans l&amp;rsquo;époque moderne.
 Enfin, avant d&amp;rsquo;entrer dans le détail, il est nécessaire de décrire le rôle de l&amp;rsquo;éducation dans le modèle.&lt;/p&gt;
-&lt;h3 id=&#34;éducation-et-capital-humain-dans-le-modèle-de-croissance-unifié&#34;&gt;Éducation et capital humain dans le modèle de croissance unifié&lt;/h3&gt;
-&lt;p&gt;Dans le modèle de croissance unifié, les parents investissent dans l&amp;rsquo;éducation de leurs enfants parce qu&amp;rsquo;ils attirent utilité depuis leur niveau de capital humain, et celui-là est fortement influencé par l&amp;rsquo;investissement en éducation.
-Cela est commun dans beaucoup de modèles économiques et est une manière simple de représenter des préférences plus complexes:&lt;/p&gt;
+&lt;h3 id=&#34;éducation-et-capital-humain-dans-le-modèle-unifié-de-croissance-économique&#34;&gt;Éducation et capital humain dans le modèle unifié de croissance économique&lt;/h3&gt;
+&lt;p&gt;Dans le modèle unifié de croissance économique, les parents investissent dans l&amp;rsquo;éducation des enfants parce qu&amp;rsquo;ils attirent de l&amp;rsquo;utilité de leur niveau de capital humain, et celui-là est fortement influencé par le niveau d&amp;rsquo;éducation.
+L&amp;rsquo;hypothèse que les parents préférent avoir des enfants éduqués est una maniẽre simple et typique de représenter des préférences plus complexes:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Soit les parents aiment avoir des enfants qui sont éduqués, c&amp;rsquo;est-à-dire, ils ont une simple préférence pour l&amp;rsquo;éducation,&lt;/li&gt;
-&lt;li&gt;soit ils s&amp;rsquo;intéressent au niveau de salaire que leurs enfants peuvent atteindre, et le salaire est une fonction du niveau éducatif (ou du capital humain).&lt;/li&gt;
+&lt;li&gt;Les parents s&amp;rsquo;intéressent au futur salaire des enfants, et le salaire augmente avec le niveau éducatif.&lt;/li&gt;
+&lt;li&gt;Les parents ont une simple préférence pour l&amp;rsquo;éducation,&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;En tout cas, la manière de modeler l&amp;rsquo;acquisition de l&amp;rsquo;éducation, et donc du capital humain, prend en compte sa possible dépréciation.
-En premier lieu, on suppose que toutes les enfants ont un certain niveau de capital humain même s&amp;rsquo;ils ne sont pas éduqués: il y a certaines connaissances qui nous apprises à la maison, des métiers qu&amp;rsquo;on peut maîtriser par imitation, etc.
-La théorie unifiée de la croissance économique nous propose que la vitesse à laquelle le capital humain se déprécie dépende de la vitesse du progrès technologique.
-De cette manière, quand la technologie progresse à peine, le capital humain reste valable pendant long temps et donc il se déprécie très lentement.
-Pour tant, les parents peuvent ne pas éduquer leurs enfants et rester sûrs que les connaissances basiques qu&amp;rsquo;ils apprendront leur seront utiles toute leur vie.
-Par contre, quand la technologie change rapidement, les connaissances qu&amp;rsquo;on apprend sont vite dépassés par le propre progrès.
+&lt;p&gt;Une nouveauté de la théorie unifiée de la croisance économique est qu&amp;rsquo;elle introduit la possibilité que le capital humain se déprecie, et la vitesse de la dépréciation est une fonction du niveau technologique (voir en dessous).
+En plus, on suppose que tous les enfants sont équipés d&amp;rsquo;un certain niveau de capital humain, même si leurs parents n&amp;rsquo;investissent pas dans l&amp;rsquo;éducation.
+Ces deux hypothèses, innocentes en principe, ont des profondes consequénces sur l&amp;rsquo;évolution de l&amp;rsquo;éducation.&lt;/p&gt;
+&lt;h4 id=&#34;dépreciation-du-capital-humain&#34;&gt;Dépreciation du capital humain&lt;/h4&gt;
+&lt;p&gt;La prèmiere hypothèse peut s&amp;rsquo;expliquer de la manière suivante.
+Imaginons une société dans laquelle le niveau technologique est faible et ne change pas.
+Alors, tout ce qu&amp;rsquo;on apprend pendant la jeunesse (un métier, par exemple) va rester utile tout la vie.
+Par exemple, si on apprend à utiliser une scie ou un marteu, ces connaissances restent valides autant que les outils ne changent pas.
+Pour tant, éduquer les enfants n&amp;rsquo;apporte des avantages, car la technologie va rester la même.
+Par contre, si maintenant on suppose que la technologie change rapidement, il est possible que les outils de demain ne soient pas une scie et un marteu, mais une scie controlée par ordinateur et un marteau pnéumatique.
+Dans ce cas-là, les connaisances acquises pendant la jeunesse sont vite dépassées, et pour tant, si on fournie aux enfants de l&amp;rsquo;éducation ils seront mieux équipés pour s&amp;rsquo;adapter à la nouvelle situation.
 Ainsi, les parents doivent procurer à leurs enfants de l&amp;rsquo;éducation pour amortir la dépréciation du capital humain dû au progrès technique.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Exemple&lt;/strong&gt;: Imaginons un parent qui doit décider si investir dans l&amp;rsquo;éducation de son enfant ou pas.
-Ainsi, si la technologie avance lentement, le parent est sûr que tout ce que l&amp;rsquo;enfant apprend par imitation lui restera outil toute sa vie.
-Ceci serait le cas si, par exemple, les outils pour travailler comme un marteau, scie, etc. ne changent pas.
-Pour tant, ce parent a peu d&amp;rsquo;incitants pour offrir de l&amp;rsquo;éducation.
-Par contre, si la technologie évolue rapidement, les connaissances basiques ne vont pas suffire: les machines vont être contrôlées par ordinateur, des nouveaux outils seront créés, etc.
-Dans ce nouveau cas, les parents ont intérêt à investir dans l&amp;rsquo;éducation pour éviter que le capital humain de ses enfants soit dévalué.&lt;/p&gt;
-&lt;p&gt;Enfin, il est nécessaire aussi de mentionner que le niveau de revenu joue un rôle important dans la détermination du niveau d&amp;rsquo;éducation offert.
-Comme tous les enfants sont toujours équipés d&amp;rsquo;un niveau minimum de capital humain, quand les ressources sont peu abondantes les parents peuvent les affecter à la nourriture et nombre d&amp;rsquo;enfants.
-Seulement à partir d&amp;rsquo;un certain niveau de richesse les parents vont investir dans l&amp;rsquo;éducation (en effet, l&amp;rsquo;éducation est un bien de luxe dans ce modèle).&lt;/p&gt;
+&lt;h4 id=&#34;niveau-minimal-de-capital-humain&#34;&gt;Niveau minimal de capital humain&lt;/h4&gt;
+&lt;p&gt;Comment on a dit auparavent, il est raisonable que même sans un investissement exprès en capital humain, un certain niveau est toujours atteint.
+Par exemple, on apprend certaines choses, y compris des métiers, par la simple observation.&lt;/p&gt;
+&lt;h4 id=&#34;implications&#34;&gt;Implications&lt;/h4&gt;
+&lt;p&gt;Les implications de ces hypothèses sont claires:
+vu que les enfants sont équipés d&amp;rsquo;un niveau minimum de capital humain, et vu qu&amp;rsquo;avec un faible progrès technologique l&amp;rsquo;éducation n&amp;rsquo;est pas nécéssaire, les investissements en éducation ne deviendran positifs qu&amp;rsquo;avec le temps.
+Autrement dit, quand les ressources sont peu abondantes, les parents préférent les affecter à la nourriture et au nombre d&amp;rsquo;enfants plutôt qu&amp;rsquo;à l&amp;rsquo;éducation.
+Seulement à partir d&amp;rsquo;un certain niveau de richesse (l&amp;rsquo;éducation est un bien de luxe dans ce modèle) ou de progrès technologique il y aura des investissements dans l&amp;rsquo;éducation.&lt;/p&gt;
+&lt;h3 id=&#34;changement-technologique&#34;&gt;Changement technologique&lt;/h3&gt;
 &lt;p&gt;Pour finir, le modèle postule que la technologie avance grâce à deux effets:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;D&amp;rsquo;un côté, on suppose que les gens ont, de manière aléatoire, des nouvelles idées qui augmentent le niveau technologique.
 Ainsi, une population plus large aura une nouvelle idée avec une plus grande probabilité, et pour tant, l&amp;rsquo;avancement technologique sera plus important.&lt;/li&gt;
 &lt;li&gt;De l&amp;rsquo;autre côté, l&amp;rsquo;investissement dans l&amp;rsquo;éducation pousse le niveau technologique, car les gens avec plus de connaissances ont plus de probabilité d&amp;rsquo;inventer et innover.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;époque-malthusienne&#34;&gt;Époque Malthusienne&lt;/h3&gt;
-&lt;p&gt;Cette période représente la plus longue durée du modèle et comprend le temps entre l&amp;rsquo;apparition des êtres humains modernes (&lt;em&gt;homo sapiens&lt;/em&gt;) il y a environ 100 000 ans jusqu&amp;rsquo;à debout du XIXe siècle.
-La caractéristique principale de cette période est, contrairement à l&amp;rsquo;intuition, le nul effet des développements technologiques sur le revenu per capita.
-Or, les améliorations de productivité créées par une meilleure technologie finissait par une augmentation de la population: soit les familles avait plus d&amp;rsquo;enfants, soit les enfants avait une plus grande probabilité de survie.
-Ainsi, les sociétés les plus développées ne montrent pas plus de revenu per capita sinon une plus élevée densité de population.&lt;/p&gt;
-&lt;p&gt;Dans le modèle, on représente cette situation à l&amp;rsquo;aide d&amp;rsquo;un niveau minimum de consommation qui doit toujours être atteint.
-Pendant la période Malthusienne, le revenu per capita est à peine supérieur à cette consommation minimale et, pour tant, les parents n&amp;rsquo;investissent pas dans l&amp;rsquo;éducation.
+&lt;h2 id=&#34;époque-malthusienne&#34;&gt;Époque Malthusienne&lt;/h2&gt;
+&lt;p&gt;Cette période représente la plus longue durée du modèle et comprend le temps entre l&amp;rsquo;apparition des êtres humains modernes (&lt;em&gt;homo sapiens&lt;/em&gt;) il y a environ 100 000 ans jusqu&amp;rsquo;à debout du 18è siècle.
+L&amp;rsquo;époque Malthusienne se caractérise par le nul effet des développements technologiques sur le revenu per capita.
+C&amp;rsquo;est-à-dire, les améliorations technologiques permettant de produir davantage n&amp;rsquo;ont aucun effet sur le niveau de revenu per capita.
+Or, pendant cette période, la production addionelle était dédiée à augmenter la fertilité: les familles avaient plus d&amp;rsquo;enfants.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;
+Ainsi, pendant l&amp;rsquo;époque Malthusienne, les sociétés les plus technologiquement développées ne montraient pas un revenu per capita plus élevé mais une plus grande densité de population.&lt;/p&gt;
+&lt;p&gt;Ce type de dynamique qui génére une augmentation de la population avec chaque progrès technique peuvent se répresenter à l&amp;rsquo;aide des préférances inclouant un niveau de consommation minimale.&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;
+Ce niveau doit toujours être atteint.
 Or, chaque fois que la technologie s&amp;rsquo;améliore (de manière aléatoire), les revenus disponibles additionnels seront utilisés pour augmenter le nombre d&amp;rsquo;enfants.
 Le graphique suivant illustre la situation:
 &lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/expansion_path.png&#34; alt=&#34;expansion_path&#34;&gt;
@@ -1826,7 +1832,7 @@ Ainsi, quand cela arrive, le revenu per capita augmente (la restriction budgéta
 Or, tandis que la consommation minimale soit une contrainte contraignante, la décision optimale continue d&amp;rsquo;être: consommer le minimum et utiliser ce qui reste pour avoir des enfants.
 Le graphique montre ça avec les points rouges qui sont toujours sur la ligne de consommation minimale (verte) mais chaque fois plus en hauteur.
 Ainsi, chaque fois la population augmente plus rapidement, et cela contribue à faire avancer la technologie plus rapidement.&lt;/p&gt;
-&lt;h4 id=&#34;conclusions-de-lépoque-malthusienne&#34;&gt;Conclusions de l&amp;rsquo;époque Malthusienne&lt;/h4&gt;
+&lt;h3 id=&#34;conclusions-de-lépoque-malthusienne&#34;&gt;Conclusions de l&amp;rsquo;époque Malthusienne&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Corrélation positive entre:
 &lt;ul&gt;
@@ -1847,7 +1853,7 @@ Ainsi, chaque fois la population augmente plus rapidement, et cela contribue à 
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;validation&#34;&gt;Validation&lt;/h4&gt;
+&lt;h3 id=&#34;validation&#34;&gt;Validation&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://eric-roca.github.io/papers/Ashraf_and_Galor__2011.pdf&#34;&gt;Ashraf et Galor (2011)&lt;/a&gt; vérifient la validité des conclusions pour l&amp;rsquo;époque Malthusienne.&lt;/p&gt;
 &lt;p&gt;D&amp;rsquo;abord, ils montrent comment les pays qui ont du terrain plus adapté pour l&amp;rsquo;agriculture ont atteint une plus grande densité de population vers l&amp;rsquo;année 1500 mais que les gens ne jouissaient pas de plus de revenu per capita.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/land_density.png&#34; alt=&#34;land_density&#34;&gt;
@@ -1863,7 +1869,7 @@ En premier lieu, ils montrent que les pays et régions qui se sont passées à l
 &lt;p&gt;&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/neolithic_density.png&#34; alt=&#34;neolithic_density&#34;&gt;
 &lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/neolithic_income.png&#34; alt=&#34;neolithic_income&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/ashraf_galor__2011_Table_5.png&#34; alt=&#34;Table_5&#34;&gt;&lt;/p&gt;
-&lt;h3 id=&#34;époque-post-malthusienne&#34;&gt;Époque post-Malthusienne&lt;/h3&gt;
+&lt;h2 id=&#34;époque-post-malthusienne&#34;&gt;Époque post-Malthusienne&lt;/h2&gt;
 &lt;p&gt;Enfin, on arrive à une situation dans laquelle la contrainte de consommation minimale n&amp;rsquo;est plus contraignante: à partir de ce point-là, les familles décident d&amp;rsquo;avoir un nombre constant d&amp;rsquo;enfants et utiliser tout le revenu qui reste pour financer leur consommation.
 Cette deuxième période est caractérisée par le fait que la technologie avance plus rapidement grâce a l&amp;rsquo;augmentation de la population qui a eu lieu pendant l&amp;rsquo;époque Malthusienne.
 Par contre, le niveau de revenu per capita est encore insuffisant pour permettre les investissements en éducation.
@@ -1877,7 +1883,7 @@ Par exemple, les pays qui, pour une raison ou une autre ont fini plus tôt leur 
 Or, ce lien devrait exister, car il y a des avantages liés à une transition démographique précoce: le revenu per capita augmente depuis plus long temps.
 &lt;a href=&#34;https://eric-roca.github.io/papers/Galor__2012.pdf&#34;&gt;Galor, 2012&lt;/a&gt; montre que c&amp;rsquo;est le cas:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/demographic_income.png&#34; alt=&#34;demographic_income&#34;&gt;&lt;/p&gt;
-&lt;h3 id=&#34;époque-moderne&#34;&gt;Époque moderne&lt;/h3&gt;
+&lt;h2 id=&#34;époque-moderne&#34;&gt;Époque moderne&lt;/h2&gt;
 &lt;p&gt;Rappelons que le niveau technologique n&amp;rsquo;a pas cessé d&amp;rsquo;augmenter pendant la période post-Malthusienne.
 La technologie ait tellement avancé que les parents décident qu&amp;rsquo;il est nécessaire d&amp;rsquo;investir dans l&amp;rsquo;éducation pour éviter que le capital humain de leurs enfants se déprécie.
 Ainsi, éventuellement, le niveau technologique atteint la valeur critique à partir de laquelle les parents sont prêts à investir en éducation.
@@ -1898,7 +1904,7 @@ Enfin, la combinaison d&amp;rsquo;une population qui augmente plus lentement et 
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;conclusions-de-lépoque-moderne&#34;&gt;Conclusions de l&amp;rsquo;époque moderne&lt;/h4&gt;
+&lt;h3 id=&#34;conclusions-de-lépoque-moderne&#34;&gt;Conclusions de l&amp;rsquo;époque moderne&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Corrélation positive entre:
 &lt;ul&gt;
@@ -1937,6 +1943,19 @@ Voici quelques exemples que nous allons voir en cours:&lt;/p&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Soit les familles avaient plus d&amp;rsquo;enfants, soit les enfants avaient une plus grande probabilité de survie.
+En tout cas, la taille de la population augmentait.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Dans le modèle, les préférences des parents incluent le niveau de capital humain des enfants.
+Comme en époque Malthusienne les parents n&amp;rsquo;investissent pas dans l&amp;rsquo;éducation nous ignorons cette composante de l&amp;rsquo;utilité des parents.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
 </description>
     </item>
     
@@ -2133,7 +2152,7 @@ Then, there is one unique steady state: $\bar{k}=0.$
 The economy converges towards this unique steady state.
 We can derive the condition above from:
 $\begin{align}
-k_{t+1} &amp;lt; k_{t} &amp;amp; \implies \frac{1}{1+n}s\left(\omega(k_{t}),R_{t+1}\right) &amp;lt; k_{t}  \implies \\\&lt;br&gt;
+k_{t+1} &amp;lt; k_{t} &amp;amp; \implies \frac{1}{1+n}s\left(\omega(k_{t}),R_{t+1}\right) &amp;lt; k_{t}  \implies \\\
 \frac{1}{1+n}\frac{\beta}{1+\beta}w_t &amp;lt; k_{t} &amp;amp; \implies \frac{w_{t}}{k_{t}} &amp;lt; (1+n)\frac{1+\beta}{\beta}.
 \end{align}$&lt;/p&gt;
 &lt;/li&gt;
@@ -2169,7 +2188,7 @@ The steady state with $\bar{k}=0$ is a &lt;strong&gt;poverty trap&lt;/strong&gt;
 &lt;p&gt;The Ramsey model is fully described by two dynamic equations:&lt;/p&gt;
 &lt;p&gt;$$\left.
 \begin{eqnarray}
-u^{\prime}(c_{t}) = \beta(f^{\prime}(k_{t+1}) + 1 - \delta)u^{\prime}(c_{t+1}), \\\&lt;br&gt;
+u^{\prime}(c_{t}) = \beta(f^{\prime}(k_{t+1}) + 1 - \delta)u^{\prime}(c_{t+1}), \\\
 k_{t+1} = f(k_{t} + (1-\delta)k_{t} - c_{t}.
 \end{eqnarray}
 \right\} \tag{8.1, Equilibrium} \label{eq:eq}
@@ -2226,6 +2245,81 @@ It indicates the motion of variables at different points of the $(k,c)$ space.&l
 &lt;p&gt;The arrows show the motion of each variable at different combinations of $(k,c).$
 For instance, to the left of the $c$-locus and above the $k0$-locus consumption increases and capital decreases.
 Finally, the point indicating the intersection of both curves is the steady state: all variables remain constant at their values.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Diversité génétique et développement</title>
+      <link>https://eric-roca.github.io/courses/comparative_development/papers/ashraf_galor__2013/</link>
+      <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://eric-roca.github.io/courses/comparative_development/papers/ashraf_galor__2013/</guid>
+      <description>&lt;h2 id=&#34;diversité-génétique-et-développement-ashraf-et-galor-2013&#34;&gt;Diversité génétique et développement (Ashraf et Galor, 2013)&lt;/h2&gt;
+&lt;p&gt;Le papier d&#39;&lt;a href=&#34;https://eric-roca.github.io/papers/Ashraf_Galor__2013.pdf&#34;&gt;Ashraf et Galor (2013)&lt;/a&gt; propose l&amp;rsquo;idée qu&amp;rsquo;au sein des sociétés, les différences entre individus peuvent être une source de richesse ou entraîner des coûts économiques.
+Ainsi, les auteurs proposent que dans une société, le fait qu&amp;rsquo;il y a plus de différences entre personnes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Augmente la probabilité que les interactions entre personnes soient complémentaires, donnant lieu à une amélioration technologique,&lt;/li&gt;
+&lt;li&gt;Augmente la probabilité que quelqu&amp;rsquo;un soit spécialement doué pour une activité, augmentant la productivité.&lt;/li&gt;
+&lt;li&gt;En général, permet plus d&amp;rsquo;innovation et pusse la frontière productive.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Par contre, une société dans laquelle les membres sont très différents pose aussi certains coûts:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;La coordination est plus difficile, car on peut avoir préférences différentes,&lt;/li&gt;
+&lt;li&gt;Le conflit est plus probable,&lt;/li&gt;
+&lt;li&gt;Le confiance vers les autres est inférieure.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ainsi, vu les coûts et les bénéfices, il est fort probable que la relation entre diversité et croissance économique aie forme de U inversé.
+C&amp;rsquo;est-à-dire, si tous les gens sont égaux, on ne profite pas des avantages liés à la diversité.
+Et au contraire, si les différences entre gens sont maximales, les coûts surpassent énormément les bénéfices.
+Alors, il semble qu&amp;rsquo;un niveau optimal de diversité peut exister.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h3 id=&#34;une-mesure-de-diversité-entre-personnes--diversité-génétique&#34;&gt;Une mesure de diversité entre personnes : diversité génétique&lt;/h3&gt;
+&lt;p&gt;L&amp;rsquo;hypothèse de base de ce article est que la migration humain depuis l&amp;rsquo;Afrique il y a 70000-90000 ans a affecté la diversité génétique et, donc, si ce que les autors proposent est correct, aura affecté de manière indirecte le développement économique.
+Alors, Ashraf et Galor s&amp;rsquo;appuient sur des recherches en athropologie et en génétique pour avoir une mesure de la diversité génétique entre personnes au sein d&amp;rsquo;un pays.
+On part de l&#39;&lt;a href=&#34;https://fr.wikipedia.org/wiki/Effet_fondateur&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;effet fondateur&lt;/a&gt;, c&amp;rsquo;est-à-dire, le fait que, quand on scinde un petite population, la diversité génétique du noveau groupe ainsi crée est inférieure à celle du groupe d&amp;rsquo;origine.
+On peut appliquer ce concept à la migration humaine depuis l&amp;rsquo;Afrique.
+De cette manière, à mesure que les hommes conquirent des nouvelles endroits (Europe, Asie, îlles du sud-est de l&amp;rsquo;Asie, Amérique du Nord et du Sud, etc), la diversité génétique diminuira.
+Bien compris, ce qui est important est la distance migratoire par terre.
+&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/Ashraf_Galor__2013_Figure_2.png&#34; alt=&#34;Ashraf_Galor__2013_Figure_2&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Un indice qui mésure la diversité génétique est le taux d&amp;rsquo;hétérozigosité : la probabilité que deux personnes tirées au hasard partagent certaines gens.
+Ces donnés existent pour 53 groupes humains qui ont vécu plus oi moins isolés et au même endroit pour très longue temps.
+En effet, on voit qu&amp;rsquo;il existe une corrélation négative entre la distance à Addis Ababa et quelques indicateurs de diversité, y compris l&amp;rsquo;hétérozigosité.
+&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/Ashraf_Galor__2013_Figure_1.png&#34; alt=&#34;Ashraf_Galor__2013_Figure_1&#34;&gt;
+&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/Betti_et_al__2012_Figure_2.png&#34; alt=&#34;Betti_et_al__2012_Figure_2&#34;&gt;
+&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/Hanihara__2008_Figure_2.png&#34; alt=&#34;Hanihara__2008_Figure_2&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;résultats&#34;&gt;Résultats&lt;/h3&gt;
+&lt;p&gt;D&amp;rsquo;abord, Ashraf et Galor utilisent un enchantillon de 21 pays pour lesquels une mesure directe du niveau d&amp;rsquo;hétérozigosité existe.
+Même avec une taille si reduite, on voit une relation en forme de U inversé entre le niveau de diversité génétique et le développement économique pendant l&amp;rsquo;année 1500.
+Il est important de rappeler que, vu que les régressions se concentrent en l&amp;rsquo;èpoque Malthusienne, la variable qui mesure correctement le niveau de développement est la densité de population et non le revenu per capita.
+&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/Ashraf_Galor__2013_Table_1.png&#34; alt=&#34;Ashraf_Galor__2013_Table_1&#34;&gt;
+Or, on peut constater que l&amp;rsquo;hypothèse de Jared Diamond est aussi vérifiée : les pays qui ont adopté l&amp;rsquo;agriculture plus tôt se sont plus développés.&lt;/p&gt;
+&lt;p&gt;Ensuite, les auteurs enlargisent leur enchantillon utilisant le fait que la distance migratoire à Addis Ababa est éxogene et permet de predire, avec précision, le niveau de diversité génétique.
+&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/Expected_Heterozygosity.png&#34; alt=&#34;Prediction&#34;&gt;
+&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/Ashraf_Galor__2013_Table_3.png&#34; alt=&#34;Ashraf_Galor__2013_Table_3&#34;&gt;
+En plus, les auteurs montrent que cette relation existe aussi pour le présent, cette fois ci, utilisant le niveau de revenu per capita en l&amp;rsquo;année 2000.
+&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/Ashraf_Galor__2013_Table_6.png&#34; alt=&#34;Ashraf_Galor__2013_Table_6&#34;&gt;
+On voit que le niveau optimal de diversité génétique change avec le temps : en 1500 il était de 0.68 et en 2000 il est de 0.71.
+Ainsi, avec le progrès technologique, une plus grand diversité entre les gens est nécéssaire pour la croissance économique : par example, le dégré d&amp;rsquo;spécialisation productive est supérieur aujourd&amp;rsquo;hui.
+Ces niveau corréspondent au Japon en 1500 et aux États-Unis en 2000.&lt;/p&gt;
+&lt;h3 id=&#34;méchanismes&#34;&gt;Méchanismes&lt;/h3&gt;
+&lt;p&gt;Enfin, plusieurs auteurs ont pris le relais et se sont concéntrés sur les méchanismes qui pourraient être derriére la relation entre diversité génétique et développement.
+En premier lieu, Ashraf et Galor montrent de l&amp;rsquo;evidence qui mets en relation la diversité génétique avec le niveau de confiance (un des coûts de la diversité) et la production scientifique.
+Ainsi, si les hypothèses étaient correctes, on s&amp;rsquo;attend à ce que les pays avec une plus grande diversité génétique montrent de niveaux moins inférieures de confiance vers les tiers personnes et qu&amp;rsquo;ils produissent davantage de recherches scientifiques.
+&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/Ashraf_Galor__2013_Table_9.png&#34; alt=&#34;Ashraf_Galor__2013_Table_9&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Une autre possibilité qu&amp;rsquo;on peut explorer c&amp;rsquo;est la relation entre la diversité génétique et le nombre de groups ethniques &lt;a href=&#34;https://doi.org/10.1257/aer.103.3.528&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ashraf et Galor (2013b).&lt;/a&gt;
+Ainsi, vu que la diversité génétique est lié à une moindre confiance envers les tiers, il est possible que les sociétés les plus affectées par cette manque de confiance il y ai des séparation dans un groupe, en créant par la suite plusieurs.
+&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/Ashraf_Galor__2013b_Figure_1.png&#34; alt=&#34;Ashraf_Galor__2013b_Figure_1&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Pour finir, une plus grand variété génétique, qui donne lieu à des personnes qui pensent différenment, devrait être lié à une plus large gamme de préférences politiques.
+En autre, les différences interpersonneles et la manque de confiance sont suceptibles d&amp;rsquo;engendrer des conflits civiles.
+Ces deux alternatives sont explorées par &lt;a href=&#34;https://doi.org/10.3982/ECTA13734&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arbatli et al. (2020)&lt;/a&gt;
+&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/Arbatli_et_al__2020_Figure_2.png&#34; alt=&#34;Arbatli_et_al__2020_Figure_2&#34;&gt;
+&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/Arbatli_et_al__2020_Figure_A1.png&#34; alt=&#34;Arbatli_et_al__2020_Figure_A1&#34;&gt;&lt;/p&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Ce niveau optimal de diversité change avec le développement économique, c&amp;rsquo;est-à-dire, le niveau optimal pendant l&amp;rsquo;année 0 est différent du niveau optimal pendant l&amp;rsquo;année 1500.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
 </description>
     </item>
     
@@ -2326,7 +2420,7 @@ This step involves using that $X^{-1} y = z \implies y = X z$.&lt;/p&gt;
 &lt;p&gt;In a spectral decomposition, the diagonal matrix $\Lambda$ consists of the matrix whose entries are its eigenvalues.
 Thus (we have a $2 \times 2$ system),
 $$\Lambda = \begin{pmatrix}
-\lambda_{1} &amp;amp; 0  \\\&lt;br&gt;
+\lambda_{1} &amp;amp; 0  \\\
 0 &amp;amp; \lambda_{2}
 \end{pmatrix}.$$&lt;/p&gt;
 &lt;h4 id=&#34;the-matrix-x&#34;&gt;The matrix $X$&lt;/h4&gt;
@@ -2376,17 +2470,17 @@ Finally, the initial value of consumption $c_{0}$ that puts the economy in the s
 &lt;h2 id=&#34;utility-and-production-functions&#34;&gt;Utility and production functions&lt;/h2&gt;
 &lt;p&gt;We assume that utility is logarithmic and we take a Cobb-Douglas production function.&lt;/p&gt;
 &lt;p&gt;$$\begin{eqnarray}
-u(c_{t}) = \log (c_{t}), \\\&lt;br&gt;
-F(K_{t},L_{t}) = K_{t}^{\alpha}L_{t}^{1-\alpha}, \\\&lt;br&gt;
+u(c_{t}) = \log (c_{t}), \\\
+F(K_{t},L_{t}) = K_{t}^{\alpha}L_{t}^{1-\alpha}, \\\
 \alpha \in (0,1).
 \end{eqnarray}
 $$
 We can check that both functions satisfy the Inada conditions:&lt;/p&gt;
-&lt;p&gt;$$\begin{eqnarray}\lim_{c_{t} \rightarrow 0}u^{\prime}(c_{t}) = \lim_{c_{t} \rightarrow 0} \frac{1}{c_{t}} = +\infty, \\\&lt;br&gt;
-\lim_{c_{t} \rightarrow +\infty}u^{\prime}(c_{t}) = \lim_{c_{t} \rightarrow +\infty} \frac{1}{c_{t}} = 0, \\\&lt;br&gt;
-\lim_{K_{t} \rightarrow 0} F^{\prime}_{K_{t}}(K_{t}, L_{t}) = \lim_{K_{t} \rightarrow 0} \alpha K_{t}^{\alpha - 1}L_{t}^{1-\alpha} = +\infty, \\\&lt;br&gt;
-\lim_{K_{t} \rightarrow +\infty} F^{\prime}_{K_{t}}(K_{t}, L_{t}) = \lim_{K_{t} \rightarrow +\infty} \alpha K_{t}^{\alpha - 1}L_{t}^{1-\alpha} = 0, \\\&lt;br&gt;
-\lim_{L_{t} \rightarrow 0} F^{\prime}_{L_{t}}(K_{t}, L_{t}) = \lim_{L_{t} \rightarrow 0}  (1-\alpha) K_{t}^{\alpha}L_{t}^{\alpha} = +\infty, \\\&lt;br&gt;
+&lt;p&gt;$$\begin{eqnarray}\lim_{c_{t} \rightarrow 0}u^{\prime}(c_{t}) = \lim_{c_{t} \rightarrow 0} \frac{1}{c_{t}} = +\infty, \\\
+\lim_{c_{t} \rightarrow +\infty}u^{\prime}(c_{t}) = \lim_{c_{t} \rightarrow +\infty} \frac{1}{c_{t}} = 0, \\\
+\lim_{K_{t} \rightarrow 0} F^{\prime}_{K_{t}}(K_{t}, L_{t}) = \lim_{K_{t} \rightarrow 0} \alpha K_{t}^{\alpha - 1}L_{t}^{1-\alpha} = +\infty, \\\
+\lim_{K_{t} \rightarrow +\infty} F^{\prime}_{K_{t}}(K_{t}, L_{t}) = \lim_{K_{t} \rightarrow +\infty} \alpha K_{t}^{\alpha - 1}L_{t}^{1-\alpha} = 0, \\\
+\lim_{L_{t} \rightarrow 0} F^{\prime}_{L_{t}}(K_{t}, L_{t}) = \lim_{L_{t} \rightarrow 0}  (1-\alpha) K_{t}^{\alpha}L_{t}^{\alpha} = +\infty, \\\
 \lim_{L_{t} \rightarrow +\infty} F^{\prime}_{L_{t}}(K_{t}, L_{t}) = \lim_{L_{t} \rightarrow +\infty}  (1- \alpha) K_{t}^{\alpha}L_{t}^{\alpha} = 0.
 \end{eqnarray}
 $$&lt;/p&gt;
@@ -2406,8 +2500,8 @@ Therefore:&lt;/p&gt;
 &lt;h3 id=&#34;intertemporal-utility-maximisation-lagrangian&#34;&gt;Intertemporal utility maximisation: Lagrangian&lt;/h3&gt;
 &lt;p&gt;The intertemporal utility maximisation problem is:&lt;/p&gt;
 &lt;p&gt;$$\begin{eqnarray}
-\max_{c_{t}, k_{t+1}}  \sum_{t=0}^{\infty} \beta^{t} u(c_{t}) &amp;amp; \\\&lt;br&gt;
-\mathrm{s.t.} \quad 	 w_{t} + r_{t} k_{t} + (1-\delta)k_{t} = c_{t} + k_{t+1}, \\\&lt;br&gt;
+\max_{c_{t}, k_{t+1}}  \sum_{t=0}^{\infty} \beta^{t} u(c_{t}) &amp;amp; \\\
+\mathrm{s.t.} \quad 	 w_{t} + r_{t} k_{t} + (1-\delta)k_{t} = c_{t} + k_{t+1}, \\\
 c_{t}, k_{t+1} &amp;gt;0, k_{t=0} = k_{0} &amp;gt; 0.
 \end{eqnarray}
 $$&lt;/p&gt;
@@ -2431,10 +2525,10 @@ $$w_{t} = f(k_{t}) - f^{\prime}(k_{t})k_{t} = k_{t}^{\alpha} - \alpha k_{t}^{\al
 &lt;h2 id=&#34;the-dynamic-system&#34;&gt;The dynamic system&lt;/h2&gt;
 &lt;p&gt;We are now in a position to solve the model.
 We have the following equations:&lt;/p&gt;
-&lt;p&gt;$$ c_{t+1} = \beta (r_{t+1} + 1 - \delta) c_{t}, \\\&lt;br&gt;
-w_{t} + r_{t}k_{t} + (1-\delta) k_{t} = c_{t} + k_{t+1}, \\\&lt;br&gt;
-w_{t} = (1-\alpha) k^{\alpha}_{t}, \\\&lt;br&gt;
-r_{t} = \alpha k^{\alpha-1}, \\\&lt;br&gt;
+&lt;p&gt;$$ c_{t+1} = \beta (r_{t+1} + 1 - \delta) c_{t}, \\\
+w_{t} + r_{t}k_{t} + (1-\delta) k_{t} = c_{t} + k_{t+1}, \\\
+w_{t} = (1-\alpha) k^{\alpha}_{t}, \\\
+r_{t} = \alpha k^{\alpha-1}, \\\
 \lim_{t \rightarrow +\infty} \beta^{t}\frac{1}{c_{t}} k_{t+1} = 0.$$&lt;/p&gt;
 &lt;p&gt;Since markets clear, we substitute the wage and interest rate into the budget constraint.&lt;/p&gt;
 &lt;p&gt;$$c_{t+1} = \beta (\alpha k^{\alpha-1} + 1 - \delta) c_{t},$$
@@ -2455,22 +2549,22 @@ $$\bar{k}^{\alpha} + (1-\delta)\bar{k} = \bar{c} + \bar{k}.$$&lt;/p&gt;
 Since we are using log-utility, the coefficient of relative risk aversion $\epsilon_{c} = 1.$&lt;/p&gt;
 &lt;p&gt;Instead of plugging the correct values in the Jacobian matrix $\bar{A}$, for the sake of clarity, we derive everything again:&lt;/p&gt;
 &lt;p&gt;$$\bar{A} = \begin{pmatrix}
-\frac{\partial c_{t+1}}{\partial c_{t}} &amp;amp; \frac{\partial c_{t+1}}{\partial k_{t}} \\\&lt;br&gt;
+\frac{\partial c_{t+1}}{\partial c_{t}} &amp;amp; \frac{\partial c_{t+1}}{\partial k_{t}} \\\
 \frac{\partial k_{t+1}}{\partial c_{t}} &amp;amp; \frac{\partial k_{t+1}}{\partial k_{t}}
 \end{pmatrix}
 $$
 $$ = $$
 $$\begin{pmatrix}
-\beta \left( \alpha k_{t+1}^{\alpha -1} + 1 - \delta \right) - \frac{\beta c_{t} \alpha (\alpha-1) }{k_{t+1}^{2-\alpha}} &amp;amp; \frac{\beta c_{t} \alpha (\alpha -1)}{k_{t+1}^{2-\alpha}} \left( \alpha k_{t}^{\alpha-1} + 1 - \delta \right) \\\&lt;br&gt;
+\beta \left( \alpha k_{t+1}^{\alpha -1} + 1 - \delta \right) - \frac{\beta c_{t} \alpha (\alpha-1) }{k_{t+1}^{2-\alpha}} &amp;amp; \frac{\beta c_{t} \alpha (\alpha -1)}{k_{t+1}^{2-\alpha}} \left( \alpha k_{t}^{\alpha-1} + 1 - \delta \right) \\\
 -1 &amp;amp; \alpha k_{t}^{\alpha -1} + 1 - \delta \end{pmatrix}$$&lt;/p&gt;
 &lt;p&gt;Evaluating it at the steady state:
 $$\bar{A}\bigr\rvert_{\substack{
-k_{t} = k_{t+1} = \bar{k} \\\&lt;br&gt;
+k_{t} = k_{t+1} = \bar{k} \\\
 c_{t} = c_{t+1} = \bar{c}
 }
 }
 = \begin{pmatrix}
-1 - \beta \bar{c}  \alpha (\alpha -1) \bar{k}^{\alpha -2}  &amp;amp; \alpha (\alpha -1 ) \bar{c}  \bar{k}^{\alpha -2} \\\&lt;br&gt;
+1 - \beta \bar{c}  \alpha (\alpha -1) \bar{k}^{\alpha -2}  &amp;amp; \alpha (\alpha -1 ) \bar{c}  \bar{k}^{\alpha -2} \\\
 -1  &amp;amp; \frac{1}{\beta}
 \end{pmatrix},$$&lt;/p&gt;
 &lt;p&gt;where we have used $1 = \beta \left( \alpha \bar{k}^{\alpha -1} + 1 - \delta \right)$ at the steady state.&lt;/p&gt;
@@ -2675,7 +2769,7 @@ The term $\gamma^{-1}u(c_{-1})$ represents the consumption of the generation bor
 &lt;h2 id=&#34;maximisation&#34;&gt;Maximisation&lt;/h2&gt;
 &lt;p&gt;We use a substitution to obtain the planner&amp;rsquo;s optimal allocation, namely, the Euler equation;&lt;/p&gt;
 &lt;p&gt;$$\begin{eqnarray}
-&amp;amp;\max_{k_{t+1}, c_t, d_t} \sum_{t=0}^\infty \gamma^t \left(u(c_t) + \frac{\beta}{\gamma} u(d_t)\right) \\\&lt;br&gt;
+&amp;amp;\max_{k_{t+1}, c_t, d_t} \sum_{t=0}^\infty \gamma^t \left(u(c_t) + \frac{\beta}{\gamma} u(d_t)\right) \\\
 &amp;amp;\mathrm{s.t.}, f(k_t) + (1-\delta)k_{t} = c_t + \frac{1}{1+n}d_t + (1+n)k_{t+1}. \end{eqnarray}$$&lt;/p&gt;
 &lt;p&gt;$$\max_{c_t, k_{t+1}} \sum_{t=0}^\infty \gamma^t \left( u(c_t) + \frac{\beta}{\gamma}u\Bigg(\underbrace{\left[1+n\right]\left[f(k_t)+(1-\delta)k_t -(1+n)k_{t+1} - c_t\right]\Bigg)}_{d_t}\right).$$&lt;/p&gt;
 &lt;p&gt;Taking derivatives and equating them to zero yields:&lt;/p&gt;
@@ -3079,11 +3173,11 @@ $$\theta_t = \frac{N_{1,t}}{N_{1,t} + N_{2,t}}.$$&lt;/p&gt;
 &lt;p&gt;Finally, we can compute the optimal fertility levels for each group by maximising utility.
 So, Group 1 and Group 2 maximise:&lt;/p&gt;
 &lt;p&gt;$\begin{eqnarray}
-\max_{n_{1,t}} \overbrace{\left(1-\frac{\tau}{1+n_{1,t-1}}\right)\frac{\theta_t Y_t}{N_{1,t}}}^{constant\, at\, t} + \\\&lt;br&gt;
+\max_{n_{1,t}} \overbrace{\left(1-\frac{\tau}{1+n_{1,t-1}}\right)\frac{\theta_t Y_t}{N_{1,t}}}^{constant\, at\, t} + \\\
 +\frac{\beta \tau n_{1,t}}{1+n_{1,t}}\left[\frac{\overbrace{N_{1,t}n_{1,t}}^{N_{1,t+1}}}{\underbrace{N_{1,t}n_{1,t}}_{N_{1,t+1}} + \underbrace{N_{2,t}n_{2,t}}_{N_{2,t+1}}}\right]\frac{A(R_{t+1})}{\underbrace{N_{t,1}n_{t,1}}_{N_{1,t+1}}}.
 \end{eqnarray}$&lt;/p&gt;
 &lt;p&gt;$\begin{eqnarray}
-\max_{n_{2,t}} \overbrace{\left(1-\frac{\tau}{1+n_{2,t-1}}\right)\frac{\theta_t Y_t}{N_{2,t}}}^{constant\, at\, t} + \\\&lt;br&gt;
+\max_{n_{2,t}} \overbrace{\left(1-\frac{\tau}{1+n_{2,t-1}}\right)\frac{\theta_t Y_t}{N_{2,t}}}^{constant\, at\, t} + \\\
 +\frac{\beta \tau n_{2,t}}{1+n_{2,t}}\left[1 - \frac{\overbrace{N_{2,t}n_{2,t}}^{N_{2,t+1}}}{\underbrace{N_{2,t}n_{2,t}}_{N_{2,t+1}} + \underbrace{N_{2,t}n_{2,t}}_{N_{2,t+1}}}\right]\frac{A(R_{t+1})}{\underbrace{N_{t,2}n_{t,2}}_{N_{2,t+1}}}.
 \end{eqnarray}$&lt;/p&gt;
 &lt;p&gt;The optimum levels of fertility satisfy:&lt;/p&gt;
@@ -3185,7 +3279,7 @@ $$c_{t+1}^i + b_{t+1}^i = I_{t+1}^i.$$&lt;/p&gt;
 Replacing $c_{t+1}$ in the objective function and taking the derivative with respect to $b_{t+1}$ yields:&lt;/p&gt;
 &lt;p&gt;$$\frac{\partial}{\partial b^i_{t+1}} = 0 \implies \frac{1-\beta}{b^i_{t+1}-I^i_{t+1}}+\frac{\beta}{b^i_{t+1}+\bar{\theta}} = 0 \implies $$
 $$ b^i_{t+1} = \begin{cases}
-\beta (I^i_{t+1} - \theta) &amp;amp; \mathrm{if\quad} I^i_{t+1} &amp;gt; \theta \\\&lt;br&gt;
+\beta (I^i_{t+1} - \theta) &amp;amp; \mathrm{if\quad} I^i_{t+1} &amp;gt; \theta \\\
 0                           &amp;amp; \mathrm{if\quad} I^i_{t+1} \leq \theta
 \end{cases}
 $$
@@ -3208,9 +3302,9 @@ One important feature of the model is that utility is increasing in income $I^i_
 We can easily check this by rewriting the indirect utility:
 $$
 \begin{align}
-&amp;amp; u^i_{t} = (1-\beta) \log (c^i_{t+1}) + \beta \log (\bar{\theta} +b^i_{t+1}) = \\\&lt;br&gt;
+&amp;amp; u^i_{t} = (1-\beta) \log (c^i_{t+1}) + \beta \log (\bar{\theta} +b^i_{t+1}) = \\\
 &amp;amp; = \begin{cases}
-(1-\beta) \log (I^i_{t+1} - \beta I^i_{t+1} + \beta \theta) + \beta \log (\beta I^i_{t+1} - \beta \theta) &amp;amp; \mathrm{if \quad} I^i_{t+1} &amp;gt; \theta \\\&lt;br&gt;
+(1-\beta) \log (I^i_{t+1} - \beta I^i_{t+1} + \beta \theta) + \beta \log (\beta I^i_{t+1} - \beta \theta) &amp;amp; \mathrm{if \quad} I^i_{t+1} &amp;gt; \theta \\\
 (1-\beta) \log (I^i_{t+1}) + \beta \log (\bar{\theta}) &amp;amp; \mathrm{if \quad} I^i_{t+1} \leq \theta
 \end{cases}
 \end{align}$$
@@ -3221,37 +3315,37 @@ At the same time, $k_{t+1} = \frac{(1-\tau_t)B_t}{h(\tau_t B_t)} = \frac{(1-\tau
 Putting everything together,
 $$
 \begin{align}
-\tau^i_t &amp;amp; = \arg \max w_{t+1}h(\tau^i_t B_t) + (1-\tau^i_t)b^i_tR_{t+1} \\\&lt;br&gt;
+\tau^i_t &amp;amp; = \arg \max w_{t+1}h(\tau^i_t B_t) + (1-\tau^i_t)b^i_tR_{t+1} \\\
 &amp;amp; = \arg \max (1-\tau^i_t)^\alpha h(\tau^i_t B_t)^{1-\alpha}B_t^\alpha\left(1-\alpha + \alpha \frac{b_t^i}{B_t}\right)
 \end{align}.$$&lt;/p&gt;
 &lt;p&gt;Maximising with respect to $\tau^i_t$ yields:
 $$
 \begin{align}
-\frac{\partial}{\partial \tau^i_t} = 0 \implies &amp;amp; \\\&lt;br&gt;
-&amp;amp; B_t^\alpha \left(1-\alpha + \alpha \frac{b_t^i}{B_t}\right)\left[ \alpha (1-\tau^i_t)^{\alpha-1}h(\tau^i_t B_t)^{1-\alpha}(-1)+ \right. \\\&lt;br&gt;
-&amp;amp; \left. + (1-\alpha)h^\prime(\tau^i_t B_t)h(\tau^i_t B_t)^{-\alpha}B_t(1-\tau^i_t)^\alpha\right] = 0 \\\&lt;br&gt;
-&amp;amp; \\\&lt;br&gt;
-&amp;amp; \alpha (1-\tau)^{\alpha-1}h(\tau^i_t B_t)^{1-\alpha} = \\\&lt;br&gt;
-&amp;amp; =(1-\alpha)h^\prime(\tau^i_t B_t) B_t (1-\tau)^\alpha h(\tau^i_t B_t)^\alpha \\\&lt;br&gt;
-&amp;amp; \\\&lt;br&gt;
-&amp;amp; \alpha (1-\tau)^{\alpha-1}h(\tau^i_t B_t)^{1-\alpha}B_t^{\alpha-1} = \\\&lt;br&gt;
-&amp;amp; =(1-\alpha)h^\prime(\tau^i_t B_t) B^\alpha_t (1-\tau)^\alpha h(\tau^i_t B_t)^\alpha \\\&lt;br&gt;
-&amp;amp; \\\&lt;br&gt;
-&amp;amp; \underbrace{\alpha (1-\tau)^{\alpha-1}h(\tau^i_t B_t)^{1-\alpha}B_t^{\alpha-1}}_{R(k_{1+1})} = \\\&lt;br&gt;
-&amp;amp; =\underbrace{(1-\alpha)B^\alpha_t (1-\tau)^\alpha h(\tau^i_t B_t)^\alpha}_{w(k_{t+1})} h^\prime(\tau^i_t B_t) \\\&lt;br&gt;
-&amp;amp; \\\&lt;br&gt;
+\frac{\partial}{\partial \tau^i_t} = 0 \implies &amp;amp; \\\
+&amp;amp; B_t^\alpha \left(1-\alpha + \alpha \frac{b_t^i}{B_t}\right)\left[ \alpha (1-\tau^i_t)^{\alpha-1}h(\tau^i_t B_t)^{1-\alpha}(-1)+ \right. \\\
+&amp;amp; \left. + (1-\alpha)h^\prime(\tau^i_t B_t)h(\tau^i_t B_t)^{-\alpha}B_t(1-\tau^i_t)^\alpha\right] = 0 \\\
+&amp;amp; \\\
+&amp;amp; \alpha (1-\tau)^{\alpha-1}h(\tau^i_t B_t)^{1-\alpha} = \\\
+&amp;amp; =(1-\alpha)h^\prime(\tau^i_t B_t) B_t (1-\tau)^\alpha h(\tau^i_t B_t)^\alpha \\\
+&amp;amp; \\\
+&amp;amp; \alpha (1-\tau)^{\alpha-1}h(\tau^i_t B_t)^{1-\alpha}B_t^{\alpha-1} = \\\
+&amp;amp; =(1-\alpha)h^\prime(\tau^i_t B_t) B^\alpha_t (1-\tau)^\alpha h(\tau^i_t B_t)^\alpha \\\
+&amp;amp; \\\
+&amp;amp; \underbrace{\alpha (1-\tau)^{\alpha-1}h(\tau^i_t B_t)^{1-\alpha}B_t^{\alpha-1}}_{R(k_{1+1})} = \\\
+&amp;amp; =\underbrace{(1-\alpha)B^\alpha_t (1-\tau)^\alpha h(\tau^i_t B_t)^\alpha}_{w(k_{t+1})} h^\prime(\tau^i_t B_t) \\\
+&amp;amp; \\\
 &amp;amp; R(k_{t+1}) = w(k_{t+1}) h^\prime(\tau^i_t B_t)
 \end{align}$$
 The optimal condition for $\tau^i_t$ does not involve the bequest received $b^i_t$.
 Consequently, everybody will agree on the optimality of the tax rate and it will be implemented.
 In our case, substituting and solving for $\tau_t$:
 $$\tau_t = \begin{cases}
-\frac{-B_t(1+2\alpha) + \sqrt{B_t^2(1+4(1+2B_t)(1-\alpha)\alpha)}}{4B^2_t \alpha} &amp;amp; \mathrm{if}\quad B_t &amp;gt; \frac{\alpha}{1-\alpha} \\\&lt;br&gt;
+\frac{-B_t(1+2\alpha) + \sqrt{B_t^2(1+4(1+2B_t)(1-\alpha)\alpha)}}{4B^2_t \alpha} &amp;amp; \mathrm{if}\quad B_t &amp;gt; \frac{\alpha}{1-\alpha} \\\
 0 &amp;amp; \mathrm{if\quad} B_t \leq \frac{\alpha}{1-\alpha}
 \end{cases} = \tau(B_t)$$&lt;/p&gt;
 &lt;p&gt;Alternatively, it is possible to re-express the condition for positive taxation in terms of $k_{t+1}:$
 $$\tau_t = \begin{cases}
-\frac{-B_t(1+2\alpha) + \sqrt{B_t^2(1+4(1+2B_t)(1-\alpha)\alpha)}}{4B^2_t \alpha} &amp;amp; \mathrm{if}\quad k_{t+1} &amp;gt; \frac{\alpha}{1-\alpha} \\\&lt;br&gt;
+\frac{-B_t(1+2\alpha) + \sqrt{B_t^2(1+4(1+2B_t)(1-\alpha)\alpha)}}{4B^2_t \alpha} &amp;amp; \mathrm{if}\quad k_{t+1} &amp;gt; \frac{\alpha}{1-\alpha} \\\
 0 &amp;amp; \mathrm{if\quad} k_{t+1} \leq \frac{\alpha}{1-\alpha}
 \end{cases} = \tau(B_t)$$&lt;/p&gt;
 &lt;h2 id=&#34;one-economy-two-groups&#34;&gt;One economy, two groups&lt;/h2&gt;
@@ -3327,7 +3421,7 @@ In particular, we assume that it leaves individuals with $1$ unit of consumption
 However, the output it yields during the third period $R^1$ is higher than under &lt;em&gt;endowment&lt;/em&gt;: $\ln(R^1) &amp;gt; 2 \ln (R^0).$&lt;/p&gt;
 &lt;p&gt;Finally, depending on the chosen production mode, the income of individual $i$ is given by:
 $$(y_{i,t}, y_{i,t+1}) = \begin{cases}
-(R^0, R^0) &amp;amp; \mathrm{if\, endowment} \\\&lt;br&gt;
+(R^0, R^0) &amp;amp; \mathrm{if\, endowment} \\\
 (1, R^1)   &amp;amp; \mathrm{if\, investment}
 \end{cases}.$$&lt;/p&gt;
 &lt;h2 id=&#34;preferences&#34;&gt;Preferences&lt;/h2&gt;
@@ -3363,7 +3457,7 @@ $$v_{i,t} = \ln y_{i,t} + \beta^i_t [\ln y_{i,t+1} + \xi],\quad \xi \equiv \gamm
 This is, each individual will decide the mode of production (endowment or investment) that maximises lifetime utility.
 Hence,:
 $$v_{i,t} = \begin{cases}
-\ln R^0 + \beta^i_t (R^0 + \xi) &amp;amp; \mathrm{if\, endowment} \\\&lt;br&gt;
+\ln R^0 + \beta^i_t (R^0 + \xi) &amp;amp; \mathrm{if\, endowment} \\\
 \ln 1 + \beta^i_t ( R^1 + \xi)   &amp;amp; \mathrm{if\, investment}
 \end{cases}.$$&lt;/p&gt;
 &lt;p&gt;An individual is indifferent between modes of production if he obtains the same utility from both.
@@ -3377,13 +3471,13 @@ $$\frac{\partial \hat{\beta}}{\partial R^1} = \frac{-\ln R^0}{R^1(\ln R^1 - \ln 
 this is, as agriculture becomes more and more profitable, more individuals will find it optimal to become hunters.&lt;/p&gt;
 &lt;p&gt;Hence, we can rewrite the income of an individual as a function of his $\beta^i_t$:
 $$(y_{i,t}, y_{i,t+1}) = \begin{cases}
-(R^0, R^0) &amp;amp; \mathrm{if\, \beta^i_t \leq \hat{\beta}} \\\&lt;br&gt;
+(R^0, R^0) &amp;amp; \mathrm{if\, \beta^i_t \leq \hat{\beta}} \\\
 (1, R^1)   &amp;amp; \mathrm{if\, \beta^i_t &amp;gt; \hat{\beta}}
 \end{cases}.$$&lt;/p&gt;
 &lt;p&gt;Of course, since income in the last period of life is different, hunters and farmers will have different number of children.
 In particular, using the optimal number of children derived above:
 $$n_{i,t+1} = \frac{\gamma}{\tau} y_{i,t+1} = \begin{cases}
-\frac{\gamma}{\tau}R^0\equiv n^E &amp;amp; \mathrm{if\, \beta^i_t \leq \hat{\beta}} \\\&lt;br&gt;
+\frac{\gamma}{\tau}R^0\equiv n^E &amp;amp; \mathrm{if\, \beta^i_t \leq \hat{\beta}} \\\
 \frac{\gamma}{\tau}R^1\equiv n^I   &amp;amp; \mathrm{if\, \beta^i_t &amp;gt; \hat{\beta}}
 \end{cases}.$$
 Because $R^1 &amp;gt; R^0$, farmers have more children than hunters.&lt;/p&gt;
@@ -3397,7 +3491,7 @@ In particular:&lt;/p&gt;
 &lt;li&gt;Farmers transmit a larger value of $\beta^i_t$ to their children, reflecting an acquired tolerance to waiting and delaying reward.
 This is:
 $$\beta^i_{i,t+1} = \begin{cases}
-\beta^i_t   &amp;amp; \mathrm{if\, \beta^i_t \leq \hat{\beta}} \\\&lt;br&gt;
+\beta^i_t   &amp;amp; \mathrm{if\, \beta^i_t \leq \hat{\beta}} \\\
 \phi(\beta^i_t, R^1)  &amp;amp; \mathrm{if\, \beta^i_t &amp;gt; \hat{\beta}}
 \end{cases},$$
 with&lt;/li&gt;
@@ -3461,6 +3555,14 @@ This process reflects their lower reproductive success.&lt;/p&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Roots of Gender Equality: the Persistent Effect of Beguinages on Attitudes Toward Women</title>
+      <link>https://eric-roca.github.io/publication/beguines/</link>
+      <pubDate>Fri, 29 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://eric-roca.github.io/publication/beguines/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -3647,15 +3749,15 @@ $$&lt;/p&gt;
 {{% fragment %}} Three {{% /fragment %}}
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-One
+&lt;span class=&#34;fragment &#34; &gt;
+   One 
 &lt;/span&gt;
 &lt;span class=&#34;fragment &#34; &gt;
-&lt;strong&gt;Two&lt;/strong&gt;
+   **Two** 
 &lt;/span&gt;
 &lt;span class=&#34;fragment &#34; &gt;
-Three
-&lt;/span&gt;&lt;/p&gt;
+   Three 
+&lt;/span&gt;
 &lt;hr&gt;
 &lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
 &lt;ul&gt;
@@ -3802,14 +3904,6 @@ Three
       <link>https://eric-roca.github.io/event/2017-08_bologna/</link>
       <pubDate>Wed, 09 Aug 2017 14:30:00 +0200</pubDate>
       <guid>https://eric-roca.github.io/event/2017-08_bologna/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Roots of Gender Equality: the Persistent Effect of Beguinages on Attitudes Toward Women</title>
-      <link>https://eric-roca.github.io/working_papers/beguines/</link>
-      <pubDate>Wed, 15 Mar 2017 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/working_papers/beguines/</guid>
       <description></description>
     </item>
     

@@ -894,16 +894,16 @@ This is, upon reaching a steady state, the system remains there forever.
 Hence, if the system is given by:</p>
 <p>$$\left.
 \begin{eqnarray}
-x^{1}_{t+1} &amp; = f_{1}(x^{1}_{t}, \ldots, x^{N}_{t}) \\\<br>
-\vdots &amp; \\\<br>
+x^{1}_{t+1} &amp; = f_{1}(x^{1}_{t}, \ldots, x^{N}_{t}) \\\
+\vdots &amp; \\\
 x^{N}_{t+1} &amp; = f_{N}(x^{1}_{t}, \ldots, x^{N}_{t})
 \end{eqnarray}
 \right\}$$</p>
 <p>in a steady state we have that</p>
 <p>$$\left.
 \begin{eqnarray}
-x^{1}_{t+1} &amp; = x^{1}_{t} \\\<br>
-\vdots &amp; \\\<br>
+x^{1}_{t+1} &amp; = x^{1}_{t} \\\
+\vdots &amp; \\\
 x^{N}_{t+1} &amp; = x^{N}_{t}.
 \end{eqnarray}
 \right\}$$</p>
@@ -918,14 +918,14 @@ In the second, the system <em>diverges</em> from the steady state.</p>
 Then, a steady-state solution satisfies the following system of equations:</p>
 <p>$$\left.
 \begin{eqnarray}
-u^{\prime}(\bar{c}) &amp; = \beta (f^{\prime}(\bar{k}) + 1 -\delta) u^{\prime}(\bar{c}), \\\<br>
+u^{\prime}(\bar{c}) &amp; = \beta (f^{\prime}(\bar{k}) + 1 -\delta) u^{\prime}(\bar{c}), \\\
 \bar{k} &amp; = f(\bar{k}) + (1-\delta) \bar{k} - \bar{c}.
 \end{eqnarray}
 \right\} \tag{9, Steady St.} \label{eq:ss}$$</p>
 <p>Simplifying we can obtain the following, equivalent expression:</p>
 <p>$$\left.
 \begin{eqnarray}
-f^{\prime}(\bar{k})  = \frac{\theta}{\beta}, \\\<br>
+f^{\prime}(\bar{k})  = \frac{\theta}{\beta}, \\\
 \bar{c}  = f(\bar{k}) - \delta \bar{k},
 \end{eqnarray}
 \right\} \tag{9.1, Steady St.} \label{eq:ss2}$$</p>
@@ -949,7 +949,7 @@ In particular, we wonder whether the dynamics are such that they converge toward
 <p>The equations that govern the economy are the Euler equation and the law for capital accumulation:</p>
 <p>$$\left.
 \begin{eqnarray}
-u^{\prime}(c_{t}) = \beta (f^{\prime}(k_{t+1}) + 1 - \delta) u^{\prime}(c_{t+1}), \\\<br>
+u^{\prime}(c_{t}) = \beta (f^{\prime}(k_{t+1}) + 1 - \delta) u^{\prime}(c_{t+1}), \\\
 k_{t+1} = f(k_{t}) + (1-\delta) k_{t} - c_{t}
 \end{eqnarray}
 \right\}. \tag{8.1 Equilibrium}
@@ -957,13 +957,13 @@ $$</p>
 <p>The stability of the steady state first requires computing the Jacobian matrix.
 The Jacobian matrix associated to the system is:</p>
 <p>$$\bar{A} = \begin{pmatrix}
-\frac{\partial c_{t+1}}{\partial c_{t}} &amp; \frac{\partial c_{t+1}}{\partial k_{t}} \\\<br>
+\frac{\partial c_{t+1}}{\partial c_{t}} &amp; \frac{\partial c_{t+1}}{\partial k_{t}} \\\
 \frac{\partial k_{t+1}}{\partial c_{t}} &amp; \frac{\partial k_{t+1}}{\partial k_{t}}
 \end{pmatrix}.$$</p>
 <p>Notice that $\bar{A}$ represents the approximate linear behaviour of the economy at any given point: $\begin{pmatrix}c_{t+1} \\\ k_{t+1}\end{pmatrix} \approx \begin{pmatrix} c_0 \\\ k_0 \end{pmatrix} + \bar{A} \begin{pmatrix} c_t - c_0 \\\ k_t - k_0 \end{pmatrix}.$</p>
 <p>In our case, the Jacobian matrix reads:</p>
 <p>$$\bar{A} = \begin{pmatrix}
-\frac{u^{\prime \prime}(c_{t})+\beta f^{\prime \prime}(k_{t+1})u^{\prime}(c_{t+1})}{\beta \left[ f^{\prime}(k_{t+1}) + 1 - \delta \right] u^{\prime \prime}(c_{t+1})} &amp; -\frac{\beta f^{\prime \prime}(k_{t+1}) \left[ f^{\prime}(k_{t}) + 1 - \delta \right] u^{\prime}(c_{t+1})}{\beta \left[ f^{\prime}(k_{t+1}) + 1 - \delta \right] u^{\prime \prime}(c_{t+1})} \\\<br>
+\frac{u^{\prime \prime}(c_{t})+\beta f^{\prime \prime}(k_{t+1})u^{\prime}(c_{t+1})}{\beta \left[ f^{\prime}(k_{t+1}) + 1 - \delta \right] u^{\prime \prime}(c_{t+1})} &amp; -\frac{\beta f^{\prime \prime}(k_{t+1}) \left[ f^{\prime}(k_{t}) + 1 - \delta \right] u^{\prime}(c_{t+1})}{\beta \left[ f^{\prime}(k_{t+1}) + 1 - \delta \right] u^{\prime \prime}(c_{t+1})} \\\
 -1 &amp; f^{\prime}(k_{t}) + 1 - \delta
 \end{pmatrix}. \tag{10, Jacobian} \label{eq:jacobian}$$</p>
 <p>Then, we evaluate \ref{eq:jacobian} at the steady state.
@@ -973,7 +973,7 @@ $$\color{green}{c_{t+1} = c_{t} = \bar{c},} $$
 $$\color{blue}{1 = \beta \left( f^{\prime}(\bar{k}) + 1 - \delta \right).}  $$</p>
 <p>Substituting all $t$ and $t+1$ variables for their steady-state values $\bar{k}$ and $\bar{c}$ yields:</p>
 <p>$$\bar{A}\bigr\rvert_{\substack{
-k_{t} = k_{t+1} = \bar{k} \\\<br>
+k_{t} = k_{t+1} = \bar{k} \\\
 c_{t} = c_{t+1} = \bar{c}
 }
 }
@@ -990,7 +990,7 @@ u^{\prime \prime}(\textcolor{green}{\bar{c}})+\beta f^{\prime \prime}(\textcolor
 }
 {
 \beta \left[ f^{\prime}(\bar{k}) + 1 - \delta \right] u^{\prime \prime}(\bar{\textcolor{green}{c}})}
-\\\<br>
+\\\
 -1
 &amp;
 f^{\prime}(\textcolor{red}{\bar{k}}) + 1 - \delta
@@ -1008,7 +1008,7 @@ u^{\prime \prime}(\bar{c})+\beta f^{\prime \prime}(\bar{k})u^{\prime}(\bar{c)}
 }
 {
 \textcolor{blue}{\beta \left[ f^{\prime}(\bar{k}) + 1 - \delta \right]} u^{\prime \prime}(\bar{c})}
-\\\<br>
+\\\
 -1
 &amp;
 \color{blue}{f^{\prime}(\bar{k}) + 1 - \delta}
@@ -1026,7 +1026,7 @@ f^{\prime \prime}(\bar{k}) u^{\prime}(\bar{c})
 }
 {
 u^{\prime \prime}(\bar{c})}
-\\\<br>
+\\\
 -1
 &amp;
 \frac{1}{\beta}
@@ -1035,7 +1035,7 @@ u^{\prime \prime}(\bar{c})}
 1 - \beta f^{\prime \prime}(\bar{k}) \frac{\bar{c}}{\epsilon_{\bar{c}}}
 &amp;
 f^{\prime \prime}(\bar{k}) \frac{\bar{c}}{\epsilon_{\bar{c}}}
-\\\<br>
+\\\
 -1
 &amp;
 \frac{1}{\beta}
@@ -1062,7 +1062,7 @@ Denote by $l$ the number of eigenvalues in the unit circle, and denote by $m$ th
 <p>The first method we present uses the definition of eigenvalue: the roots of the characteristic equation.
 It requires solving:</p>
 <p>$$\begin{vmatrix}
-1-\beta f^{\prime \prime}(\bar{k})\frac{\bar{c}}{\epsilon_{\bar{c}}} - \lambda &amp; f^{\prime \prime}(\bar{k}) \frac{\bar{c}}{\epsilon_{\bar{c}}} \\\<br>
+1-\beta f^{\prime \prime}(\bar{k})\frac{\bar{c}}{\epsilon_{\bar{c}}} - \lambda &amp; f^{\prime \prime}(\bar{k}) \frac{\bar{c}}{\epsilon_{\bar{c}}} \\\
 -1 &amp; \frac{1}{\beta} - \lambda
 \end{vmatrix} =
 \lambda^{2} + \lambda \left( \beta f^{\prime \prime} (\bar{k}) \frac{\bar{c}}{\epsilon_{\bar{c}}} - 1 - \frac{1}{\beta} \right) + \frac{1}{\beta} = 0.$$</p>

@@ -876,8 +876,8 @@ In the following example, we try to solve the simple cake-eating problem without
 The size of the cake ($k$) is given: $k_{t=0} = k_0 \ &gt; 0.$
 The problem reads:</p>
 <p>$$\begin{eqnarray}
-\max &amp; \sum_{t=0}^{\infty} \beta^{t} \ln ( c_{t} ) \\\<br>
-&amp; k_{t+1}  = k_{t} - c_{t} \\\<br>
+\max &amp; \sum_{t=0}^{\infty} \beta^{t} \ln ( c_{t} ) \\\
+&amp; k_{t+1}  = k_{t} - c_{t} \\\
 &amp; k_{t=0} = k_{0}
 \end{eqnarray}$$</p>
 <p>We solve it noting that we can decide on $c_{t}$ and $k_{t}.$
@@ -920,8 +920,8 @@ Write the Lagrangian that corresponds to the Kuhn-Tucker problem:</p>
 <p>$$\mathcal{L} = \sum_{t=0}^{T} \beta^{t} u(c_{t}) + \sum_{t=0}^{T} \lambda_{t}(w_{t} + r_{t} k_{t} + (1-\delta)k_{t} - c_{t} - k_{t+1}) + \sum_{t=0}^{T} \mu_{t}k_{t+1}.$$</p>
 <p>Taking the appropriate derivatives with respect to $k_{t+1}, c_{t}$ and remembering the complementary slackness condition leaves us with the following system of equations, which we evaluate at $t=T.$
 $$\begin{eqnarray}
-\beta^{T} u^{\prime}(c_{T}) &amp; = \lambda_{T} \\\<br>
-\lambda_{T} &amp; = \mu_{T} \\\<br>
+\beta^{T} u^{\prime}(c_{T}) &amp; = \lambda_{T} \\\
+\lambda_{T} &amp; = \mu_{T} \\\
 \mu_{T} k_{T+1} &amp; = 0.
 \end{eqnarray}$$</p>
 <p>Rearranging we can get:
@@ -945,7 +945,7 @@ $$\lim_{t \rightarrow \infty} \beta^{t}u^{\prime}(c_{t})k_{t+1} = 0.$$</p>
 This proof neglects consumption and focuses on current and future values of $x_{t}.$
 Consider the following maximisation problem:</p>
 <p>$$
-\max_{ \{x_{t} \}_{t=0}^{\infty} }  \sum_{t=0}^{\infty} v_{t}(x_{t}, x_{t+1}) \\\<br>
+\max_{ \{x_{t} \}_{t=0}^{\infty} }  \sum_{t=0}^{\infty} v_{t}(x_{t}, x_{t+1}) \\\
 x_{0} = \bar{x_{0}}, \forall t \in \mathbb{Z}_{+}, (x_{t}, x_{t+1}) \in X_{t}.
 $$</p>
 <p>We assume the following:</p>
