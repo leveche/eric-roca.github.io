@@ -1,0 +1,1177 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.1.0 for Hugo" />
+  
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Èric Roca Fernández" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Notes based on Appendix A.1.1 of de la Croix and Michel: A Theory of Economic Growth. and Appendix M.B of Mas-Colell, Whinston and Green: Microeconomic Theory.
+Homogeneity A function of N variables $f(x_{1}, \ldots, x_{N})$ defined for all non-negative values $(x_{1}, \ldots, x_{N})$ is homogeneous of degree $p$ if:" />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://eric-roca.github.io/courses/macroeconomics/math_app/homogenous_functions/" />
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.2ee374d4cf5562c045dfeda3907f775c.css" />
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/index.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://eric-roca.github.io/courses/macroeconomics/math_app/homogenous_functions/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary" />
+  
+  <meta property="og:site_name" content="Èric Roca Fernández" />
+  <meta property="og:url" content="https://eric-roca.github.io/courses/macroeconomics/math_app/homogenous_functions/" />
+  <meta property="og:title" content="Homogenous functions | Èric Roca Fernández" />
+  <meta property="og:description" content="Notes based on Appendix A.1.1 of de la Croix and Michel: A Theory of Economic Growth. and Appendix M.B of Mas-Colell, Whinston and Green: Microeconomic Theory.
+Homogeneity A function of N variables $f(x_{1}, \ldots, x_{N})$ defined for all non-negative values $(x_{1}, \ldots, x_{N})$ is homogeneous of degree $p$ if:" /><meta property="og:image" content="https://eric-roca.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
+    <meta property="twitter:image" content="https://eric-roca.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2019-07-11T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2019-07-11T00:00:00&#43;00:00">
+  
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Homogenous functions | Èric Roca Fernández</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="a0c3b1717f953a53842b1af4b77b766f" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.a8a181ea67095ef9fbb0e99ffbf585a0.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container-xl">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Èric Roca Fernández</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Èric Roca Fernández</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#working_papers"><span>Working Papers</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#event"><span>Talks</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#references"><span>References</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/courses/"><span>Teaching</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/files/CV.pdf"><span>CV</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+        
+      
+
+      
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      
+
+
+
+
+
+  
+    
+  
+
+
+
+
+<form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <span><i class="fas fa-bars"></i></span>
+  </button>
+
+  
+  <input name="q" type="search" class="form-control" placeholder="Search..." autocomplete="off">
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+
+  
+  
+  
+    
+  
+
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/courses/macroeconomics/math_app/">Appendix</a>
+    <ul class="nav docs-sidenav">
+      
+      <li class="active">
+        <a href="/courses/macroeconomics/math_app/homogenous_functions/">Homogenous functions</a>
+      </li>
+
+      
+      <li >
+        <a href="/courses/macroeconomics/math_app/steady_state/">Difference equations</a>
+      </li>
+
+      
+      <li >
+        <a href="/courses/macroeconomics/math_app/transversality_condition/">The transversality condition</a>
+      </li>
+
+      
+      <li >
+        <a href="/courses/macroeconomics/math_app/elasticity_of_substitution/">Elasticity of substitution</a>
+      </li>
+
+      
+      <li >
+        <a href="/courses/macroeconomics/math_app/olg_non-separable_utility/">Non-separable utility in OLG</a>
+      </li>
+
+      
+    </ul>
+    
+
+  </div>
+  
+  
+</nav>
+
+    </div>
+
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">Contents</a></li>
+      </ul>
+
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#homogeneity">Homogeneity</a>
+      <ul>
+        <li><a href="#properties-of-the-derivatives-of-homogeneous-functions">Properties of the derivatives of homogeneous functions</a></li>
+        <li><a href="#eulers-formula">Euler&rsquo;s formula</a></li>
+        <li><a href="#intensive-form">Applications to work with intensive-form functions</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+    </div>
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article">
+
+        <div class="docs-article-container">
+          <h1>Homogenous functions</h1>
+
+          <div class="article-style">
+            <p>Notes based on Appendix A.1.1 of <em>de la Croix and Michel: A Theory of Economic Growth.</em> and Appendix M.B of <em>Mas-Colell, Whinston and Green: Microeconomic Theory.</em></p>
+<h2 id="homogeneity">Homogeneity</h2>
+<p>A function of N variables $f(x_{1}, \ldots, x_{N})$ defined for all non-negative values $(x_{1}, \ldots, x_{N})$ is <strong>homogeneous of degree $p$</strong> if:</p>
+<p>$$f(\lambda x_{1}, \ldots, \lambda x_{N}) = \lambda^{p} f(x_{1}, \ldots, x_{N}) \forall \lambda &gt; 0.$$</p>
+<p>Hence, if we scale all the components $x_{1}, \ldots, x_{N}$ of the function by the same amount $\lambda$, the result that we obtain is equal to the one before scaling times $\lambda^{p}.$
+Production functions are often homogeneous of degree one: if all inputs are doubled, the output doubles as well.</p>
+<p><strong>Example: A Cobb-Douglass production function</strong>
+A Cobb-Douglass production function is of degree one.
+To see this, take its typical form:</p>
+<p>$$f(x,y) = x^\alpha y^{1-\alpha}$$</p>
+<p>and verify that $f(\lambda x, \lambda y) = \lambda f(x,y).$
+Indeed, $f(\lambda x, \lambda y) = (\lambda x)^{\alpha} (\lambda y)^{1-\alpha} = \lambda x^{\alpha} y^{1-\alpha} = \lambda f(x,y).$</p>
+<p><strong>Example: A CES production function</strong></p>
+<p>A CES production function takes the form $f(x,y) = \left(\alpha x^{\eta} + (1-\alpha) y ^{\eta}\right)^{\frac{\zeta}{\eta}},, \eta \leq 1.$
+This type of function is homogeneous of degree $\zeta:$</p>
+<p>$$f(\lambda x, \lambda y) = \left(\alpha \lambda^{\eta} x^{\eta} + (1-\alpha) \lambda^{\eta} y^{\eta}\right)^{\frac{\zeta}{\eta}} = \lambda^{\zeta} f(x,y).$$</p>
+<h3 id="properties-of-the-derivatives-of-homogeneous-functions">Properties of the derivatives of homogeneous functions</h3>
+<p>Assume that $f$ is continuously differentiable of as many degrees as required.</p>
+<p><strong>The derivative of a function homogeneous of degree $p$ is homogeneous of degree $p-1$.</strong></p>
+<p>If a function $f$ is of degree $p$, then for any $n = 1, \ldots, N$ the partial derivative $\partial f(x_{1}, \ldots, x_{N})/\partial x_{n}$ is of degree $p-1.$</p>
+<p><strong>Note:</strong> see proof in Mas-Colell et al.</p>
+<p><strong>Examples:</strong></p>
+<ol>
+<li>
+<p>A Cobb-Douglas production function $f(x,y) = x^{\alpha} y^{1-\alpha}$ has derivates equal to $f_{x}(x,y) =  \alpha x^{\alpha-1} y^{1-\alpha}$ and $f_{y}(x,y) = (1-\alpha) x^{\alpha} y^{-\alpha}.$
+Then it is easy to check that
+$$f_{x}(\lambda x, \lambda y) = \lambda^{0} f_{x}(x,y)$$
+and
+$$f_{y}(\lambda x, \lambda y) = \lambda^{0} f_{y}(x,y),$$
+which implies that derivatives are homogeneous of degree zero.</p>
+</li>
+<li>
+<p>The CES function $f$: $f(x,y) = (\alpha x^{\eta} + (1-\alpha) y^{\eta})^{\frac{\zeta}{\eta}}$ is homogeneous of degree $\zeta$.
+The derivative function $f_{x}(x,y) = \alpha \zeta x^{\eta - 1} (\alpha x^{\eta} + (1-\alpha)y^{\eta})^{\frac{\zeta-\eta}{\eta}}$ is homogeneous of degree $\zeta-1$:
+$$f_{x}(\lambda x, \lambda y) = \alpha \zeta x^{\eta - 1}\lambda^{\eta-1}(\alpha \lambda^{\eta} x^{\eta} + (1-\alpha) \lambda^{\eta} y^{\eta})^{\frac{\zeta-\eta}{\eta}} = \lambda^{\zeta-1} \alpha \zeta x^{\eta - 1}(\alpha x^{\eta} + (1-\alpha) y^{\eta})^{\frac{\zeta-\eta}{\eta}} = \lambda^{\zeta-1} f_{x}(x,y).$$
+We can proceed similarly for $y$.</p>
+</li>
+</ol>
+<h3 id="eulers-formula">Euler&rsquo;s formula</h3>
+<p>This is an interesting property of homogeneous functions.
+In particular, it is useful in showing that, if the production function is homogeneous of degree one and factors are paid their marginal product, then profits are zero.</p>
+<p>Suppose that $f(x_{1}, \ldots, x_{N})$ is homogeneous of degree $p$ and differentiable.
+So, at any set of values $(\bar{x_{1}}, \ldots, \bar{x_{N}})$ we have:</p>
+<p>$$\sum_{n=1}^{N} \frac{\partial f(\bar{x_{1}}, \ldots, \bar{x_{N}})}{\partial x_{n}} \bar{x_{n}} = p f(\bar{x_{1}}, \ldots, x_{N}).$$</p>
+<p>In words, if we multiply the derivatives by the variable with respect which we derivate and add all of them up, we retrieve the original function $p$ times.
+Setting $p=1$ delivers the property we announced before.</p>
+<p><strong>Example</strong></p>
+<ol>
+<li>If the production function is homogeneous of degree one, under perfect competition (factors are paid their marginal product) firms make zero profits:
+For simplicity, take a Cobb-Douglas function
+$$f(x,y)=x^{\alpha} y^{1-\alpha}.$$
+Marginal products are
+$$f_{x} = \alpha x^{\alpha -1}y^{1-\alpha}$$
+and
+$$f_{y} = (1-\alpha) x^{\alpha} y^{-\alpha}.$$
+Applying Euler&rsquo;s formula we get:
+$$f_{x} x + f_{y} y = \alpha x^{\alpha - 1} y^{1-\alpha} x + (1-\alpha) x^{\alpha} y^{-\alpha} y = f(x,y).$$
+Hence, the total amount produced ($f(x,y)$) is distributed to factor owners, and the firm necessarily makes zero profits.</li>
+</ol>
+<h3 id="intensive-form">Applications to work with intensive-form functions</h3>
+<p>Often, we express the production function $F(K,L)$ in intensive terms.
+This is, instead of focusing on the level of capital and labour, we are interested in the level of capital <em>per</em> worker.
+In other terms, we focus on $k \equiv \frac{K}{L}.$
+Since we assume a production function of degree one, the transformation is simple.
+Remember that if we multiply both factors by the same number, the result is also multiplied by that same number.
+Hence, if we pick $\lambda = \frac{1}{L}$ we obtain:</p>
+<p>$$f(k) \equiv F\left(\frac{K}{L}, \frac{L}{L} \right) = \frac{1}{L} F\left( K,L \right).$$
+Therefore, rearranging:
+$$F(K,L) = Lf(k).$$</p>
+<p>We use this last relationship to compute the marginal products in intensive form:
+$$F_{K}(K,L) = \frac{\partial F(K,L)}{\partial K} = \frac{\partial L f\left(\frac{K}{L} \right)}{\partial K} = L \frac{1}{L}f_{k}(k) = f^{\prime}(k).$$</p>
+<p>Similarly:
+$$F_{L}(K,L) = \frac{\partial F(K,L)}{\partial L} = \frac{\partial L f\left(\frac{K}{L}\right)}{\partial L} = f\left(\frac{K}{L}\right)-Lf^{\prime}\left(\frac{K}{L}\right)\frac{K}{L^{2}} = f(k) - f^{\prime}(k)k.$$
+Alternatively, we can use the Euler&rsquo;s formula to compute $F_{L}(K,L)$.
+$$F(K,L) = F_{K} K + F_{L} L$$
+hence, isolating
+$$F_{L} = \frac{F(K,L) - F^{\prime}_{K} K}{L}.$$
+We know that $F(K,L)$ is homogeneous of degree one, hence $F\left(\frac{K}{L},1\right) = \frac{F(K,L)}{L}.$
+Therefore,
+$$F_{L} = F\left(\frac{K}{L}\right) - F^{\prime}_{K}\frac{K}{L} = f(k) - f^{\prime}(k) k,$$
+where we use the fact that $F^{\prime}_{K}$ is homogeneous of degree zero ($F$ was homogeneous of degree one) and we can divide the arguments without changing the value of the function:
+$$F^{\prime}(K,L) =F^{\prime}\left(\frac{K}{L},\frac{L}{L}\right) = f^{\prime}(k).$$</p>
+
+          </div>
+
+          
+
+
+
+          
+          <div class="article-widget">
+            
+<div class="post-nav">
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Next</div>
+    <a href="/courses/macroeconomics/math_app/steady_state/" rel="prev">Difference equations</a>
+  </div>
+  
+</div>
+
+          </div>
+          
+        </div>
+
+        <div class="body-footer">
+          <p>Last updated on 11 Jul, 2019</p>
+
+          
+
+
+
+
+
+          
+
+
+
+
+          
+
+
+
+
+        </div>
+
+      </article>
+
+      <footer class="site-footer">
+
+  
+
+  
+
+  
+  <p class="powered-by">
+    © 2022 Èric Roca Fernández
+  </p>
+  
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+
+    </main>
+  </div>
+</div>
+
+  </div>
+
+  <div class="page-footer">
+    
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.2/anchor.min.js" integrity="sha512-I7w3ZdSFzw5j3jU3ZkNikBNeIrl3i+hEuEdwNmqUJvwNcaBUNcijnP2gd9DtGlgVYDplfjGoD8vTNsID+lCjqg==" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+    </script>
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    <script src="/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js"></script>
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.cf8ca859a9b74f8b1cd804621b13e5f1.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>

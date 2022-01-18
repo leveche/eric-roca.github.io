@@ -5,7 +5,7 @@
     <link>https://eric-roca.github.io/</link>
       <atom:link href="https://eric-roca.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Èric Roca Fernández</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Èric Roca Fernández</copyright><lastBuildDate>Fri, 29 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Èric Roca Fernández</copyright><lastBuildDate>Fri, 29 Oct 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://eric-roca.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Èric Roca Fernández</title>
@@ -14,9 +14,9 @@
     
     <item>
       <title>Firms</title>
-      <link>https://eric-roca.github.io/courses/ramsey/ramsey_firms/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_firms/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/ramsey/ramsey_firms/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_firms/</guid>
       <description>&lt;p&gt;We assume that a large number of identical firms populate the economy.
 Firms produce a single, homogeneous good using labour and capital.
 The production function $F(K,L)$ has the following properties:&lt;/p&gt;
@@ -46,15 +46,15 @@ Since the production function $F$ is homogeneous of degree, we can write it in &
 &lt;p&gt;The marginal product of labour is given by $\partial F(K,L)/\partial L.$
 In intensive terms, it is equal to:&lt;/p&gt;
 &lt;p&gt;$$w_{t} = f(k) - f^{\prime}(k) k. \tag{7, Wage}$$&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: The &lt;a href=&#34;https://eric-roca.github.io/courses/math_app/homogenous_functions/&#34;&gt;appendix&lt;/a&gt; details how to obtain the previous expressions.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: The &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/math_app/homogenous_functions/&#34;&gt;appendix&lt;/a&gt; details how to obtain the previous expressions.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Homogenous functions</title>
-      <link>https://eric-roca.github.io/courses/math_app/homogenous_functions/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/math_app/homogenous_functions/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/math_app/homogenous_functions/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/math_app/homogenous_functions/</guid>
       <description>&lt;p&gt;Notes based on Appendix A.1.1 of &lt;em&gt;de la Croix and Michel: A Theory of Economic Growth.&lt;/em&gt; and Appendix M.B of &lt;em&gt;Mas-Colell, Whinston and Green: Microeconomic Theory.&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id=&#34;homogeneity&#34;&gt;Homogeneity&lt;/h2&gt;
 &lt;p&gt;A function of N variables $f(x_{1}, \ldots, x_{N})$ defined for all non-negative values $(x_{1}, \ldots, x_{N})$ is &lt;strong&gt;homogeneous of degree $p$&lt;/strong&gt; if:&lt;/p&gt;
@@ -142,9 +142,9 @@ $$F^{\prime}(K,L) =F^{\prime}\left(\frac{K}{L},\frac{L}{L}\right) = f^{\prime}(k
     
     <item>
       <title>Households</title>
-      <link>https://eric-roca.github.io/courses/ramsey/ramsey_households/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_households/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/ramsey/ramsey_households/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_households/</guid>
       <description>&lt;p&gt;The economy is populated by a large number of identical households.
 Each household is composed of one individual who lives indefinitely.&lt;/p&gt;
 &lt;h2 id=&#34;utility-representation&#34;&gt;Utility representation&lt;/h2&gt;
@@ -249,16 +249,16 @@ In this case, the fact that $\beta \in (0,1)$ ensures the validity of the transv
     
     <item>
       <title>Households</title>
-      <link>https://eric-roca.github.io/courses/ramsey_gov/ramsey_government_households/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/ramsey_gov/ramsey_government_households/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/ramsey_gov/ramsey_government_households/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/ramsey_gov/ramsey_government_households/</guid>
       <description>&lt;p&gt;We modify the household&amp;rsquo;s budget constraint to take into account the taxes they pay.
-It remains exactly the same as &lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/ramsey_households/&#34;&gt;before&lt;/a&gt;, except for the fact that less income is available for consumption:&lt;/p&gt;
+It remains exactly the same as &lt;a href=&#34;%22../ramsey/Ramsey_Households.md%22&#34;&gt;before&lt;/a&gt;, except for the fact that less income is available for consumption:&lt;/p&gt;
 &lt;p&gt;$$k_{t+1} + c_{t} = w_{t} + r_{t}k_{t} + (1-\delta) k_{t} - \color{red}{T_{t}}. \tag{1, Budget Const.} \label{eq:budget}$$&lt;/p&gt;
 &lt;p&gt;Except for this modification, households still present the same utility formulation and maximise:&lt;/p&gt;
 &lt;p&gt;$$\max \sum_{t=0}^{\infty} \beta^{t} u(c_{t})$$
 $$\mathrm{s.t.} \quad k_{t+1} + c_{t} = w_{t} + r_{t} + (1-\delta) k_{t} - \color{red}{T_{t}}.$$&lt;/p&gt;
-&lt;p&gt;Building up the Lagrangian &lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/ramsey_households/#solving-the-household-s-problem&#34;&gt;(as in the basic case)&lt;/a&gt; leads to the following equation:&lt;/p&gt;
+&lt;p&gt;Building up the Lagrangian &lt;a href=&#34;%22../ramsey/Ramsey_Households.md#solving-the-household-s-problem%22&#34;&gt;(as in the basic case)&lt;/a&gt; leads to the following equation:&lt;/p&gt;
 &lt;p&gt;$$\mathcal{L} = \sum_{t=0}^{\infty} \beta^t u(c_{t}) + \sum_{t=0}^{\infty} \lambda_{t}(w_{t} + r_{t}k_{t} + (1-\delta)k_{t} - c_{t} - k_{t+1} - \color{red}{T_{t}}).$$&lt;/p&gt;
 &lt;p&gt;Despite the introduction of taxes $T_{t}$, the optimality conditions are exactly the same as before.
 Indeed, we introduced lump-sum taxes, and these do not affect optimality conditions, only allocations.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
@@ -286,9 +286,9 @@ Of course, the optimal allocation will be affected because less resources are av
     
     <item>
       <title>Preliminaries</title>
-      <link>https://eric-roca.github.io/courses/olg/olg_preliminaries/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/olg/olg_preliminaries/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/olg/olg_preliminaries/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/olg/olg_preliminaries/</guid>
       <description>&lt;p&gt;In this model, time is discrete and extends from $t=0, 1, \ldots, \infty.$
 Individuals make decisions at points in time.
 We shall have initial conditions detailing the state of the economy at $t=0.$&lt;/p&gt;
@@ -382,10 +382,275 @@ Therefore, the total population $N$ at time $t$ is composed of adults and young 
     </item>
     
     <item>
-      <title>Difference equations</title>
-      <link>https://eric-roca.github.io/courses/math_app/steady_state/</link>
+      <title>The Standard Trade Model</title>
+      <link>https://eric-roca.github.io/courses/international_trade/standard_trade_model/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/math_app/steady_state/</guid>
+      <guid>https://eric-roca.github.io/courses/international_trade/standard_trade_model/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;The previous models seen in the first half of the course focus on particular aspects that may give rise to international trade.
+In particular, the Ricardian model emphasizes differences in comparative advantages that can be ultimately related to different production functions.
+The Heckscher-Ohlin model places the emphasis on the relative abundance of production factors.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;
+However, when dealing with real-world applications, these models may be too restrictive.
+In fact, it is quite likely that the reasons behind trade include, up to some point, all the elements that these different models highlight.&lt;/p&gt;
+&lt;p&gt;In any case, the two (three) models have some common elements, which make the building blocks of the Standard Trade Model.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The productive capacity of an economy is determined by its production possibility frontier.
+Differences in this frontier give rise to trade.&lt;/li&gt;
+&lt;li&gt;Production possibilities (and demand) determine a country&amp;rsquo;s relative supply schedule.&lt;/li&gt;
+&lt;li&gt;World equilibrium is determined by world relative demand and world relative supply.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The Standard Model of Trade is built of four key relationships:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The relationship between the production possibility frontier and the relative supply curve,&lt;/li&gt;
+&lt;li&gt;The relationship between relative prices and relative demand,&lt;/li&gt;
+&lt;li&gt;The determination of world equilibrium by world relative supply and world relative demand, and&lt;/li&gt;
+&lt;li&gt;The effects of the terms of trade (price of a country&amp;rsquo;s exports divided by the price of its imports) on a nation&amp;rsquo;s welfare.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;production-possibility-frontier-and-the-relative-supply-curve&#34;&gt;Production possibility frontier and the relative supply curve&lt;/h2&gt;
+&lt;p&gt;We present a situation very similar to that of the Heckscher-Ohlin model.
+Suppose there are only two countries in the world, Home (H) and Foreign (F), and that two products are produced in each country, Food (F) and Clothing (C).
+Of course, each sector is equipped with a unique technology, and in principle, technologies can be different in different countries.
+Underlying these production functions, we have production factors.
+For instance, in the Heckschre-Ohlin model we had two production factors: Capital (K) and Labour (L).&lt;/p&gt;
+&lt;h3 id=&#34;drawing-the-production-possibility-frontier-ppf&#34;&gt;Drawing the production possibility frontier (PPF)&lt;/h3&gt;
+&lt;p&gt;The possibility frontier is a function that relates the quantities produced in each sector when the production processes use the same finite resources.
+This is, in our case, the PPF indicates how many units of Food the economy can produce considering that it is currently producing $C$ units of clothing.
+Of course, we assume that production is efficient, this is, the production factors $K$ and $L$ are allocated efficiently between sectors.
+&lt;em&gt;Note&lt;/em&gt;: an implicit assumption is that the economy makes use of all resources.&lt;/p&gt;
+&lt;p&gt;Consider the following production functions:
+$$Q_F = H(K_F, L_F), \mathrm{and}, Q_C = G(K_C,L_C).$$
+Since the economy uses all the available resources, we also have that
+$$K = K_F + K_C, \mathrm{and}, L = L_F + L_C.$$&lt;/p&gt;
+&lt;p&gt;This process is a bit convulated if we use generic functions.
+However, we first describe the general process and then go through the details using an example.
+The general objective is to find the maximum amount of good $F$ that the economy can produce considering that it is already producing $C$ units of clothing.
+Moreover, we shall assume that production of $C$ is efficient.
+If we then vary the amount of $C$, we can retrieve the PPF.
+Hence, we are really solving the following constrained maximisation problem for a given level $C = \bar{C}.$&lt;/p&gt;
+&lt;p&gt;$$\begin{align}
+\max_{K_F,L_F} &amp;amp; \, H(K_F, L_F) \\\
+\mathrm{s.t.}     &amp;amp; \, G(K_C, L_C) = \bar{C},\\\
+&amp;amp;K=K_F + K_C, \\\
+&amp;amp;L = L_F + L_C.
+\end{align}$$&lt;/p&gt;
+&lt;p&gt;If we solve for the associated Lagrangean, we obtain the condition:&lt;/p&gt;
+&lt;p&gt;$$\frac{H_{K_F}}{H_{L_F}} = \frac{G_{K_C}}{G_{L_C}}.$$
+And since $K=K_F + K_C$ and $L = L_F + L_C$
+$$\frac{H_{K-K_C}}{H_{L-L_C}} = \frac{G_{K_C}}{G_{L_C}}.$$&lt;/p&gt;
+&lt;p&gt;The previous expression defines a relationship between capital used in the production of clothes $K_C$ and labour used in the production of clothes $L_C.$
+For suitable cases, it is possible to isolate one of the two and obtain a closed-form solution $L_C = Z(K_C),$ where $Z(\cdot)$ is a function.
+Lastly, we can write a parametric function for clothing and food production:
+$$(Q_C\,,Q_F) = (G(K_C, Z(K_C)),\, H(K-K_C, L-Z(K_C))).$$
+Finally, in some particular cases we can transform the parametric equation into an explicit relationship between $C$ and $F$.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Example:&lt;/em&gt;
+Suppose that $H(K_F, L_F) = K_F^{\frac{1}{3}}L_F^{\frac{2}{3}}$ and $G(K_C,L_C) = K_C^{\frac{1}{2}} L_C^{\frac{1}{2}}.$
+Since both sectors optimize, we have that $MRS$ across sectors coincide, this is, $\frac{H_{K_F}}{H_{L_F}} = \frac{G_{K_C}}{G_{L_C}}.$
+In our case, we have:&lt;/p&gt;
+&lt;p&gt;$$\frac{\frac{1}{3}K_F^{-\frac{2}{3}}L_F^{\frac{2}{3}}}{\frac{2}{3}K_F^{\frac{1}{3}}L_F^{-\frac{1}{3}}} = \frac{\frac{1}{2}K_C^{-\frac{1}{2}}L_C^{\frac{1}{2}}}{\frac{1}{2}K_C^{\frac{1}{2}}L_C^{-\frac{1}{2}}}.$$
+Or, after some simplifications,
+$$\frac{1}{2}\frac{L_F}{K_F} = \frac{L_C}{K_C} \implies 2 L_C K_F = L_F K_C.$$
+Since $K=K_F + K_C$ and $L = L_F + L_C$, we have,
+$$2 L_C (K - K_C) = (L - L_C) K_C \implies L_C = \frac{L K_C}{2K - K_C}.$$
+Finally, we can subsitute everything in the production functions to obtain the parametric functions:&lt;/p&gt;
+&lt;p&gt;$$\begin{align}
+(Q_C,\, Q_F) &amp;amp;= \left(G(K_C, L_C),\, H(K_F, L_F)\right) = \\\
+&amp;amp;=\left(G\left(K_C, \frac{L K_C}{2K - K_C}\right),\, H\left(K-K_F, L-\frac{L K_C}{2K - K_C}\right)\right) = \\\
+&amp;amp;=\left(K_C^\frac{1}{2} \left(\frac{L K_C}{2K - K_C}\right)^\frac{1}{2},\, (K-K_C)^\frac{1}{3} \left(L-\frac{L K_C}{2K - K_C}\right)^\frac{2}{3}\right).
+\end{align}.$$&lt;/p&gt;
+&lt;p&gt;Last, we can isolate $K_C$ from the equation for $C$ and obtain
+$$K_C = \frac{Q_C \sqrt{Q_C^2+8LK}-Q_C^2}{2L}.$$
+Finally, we can plug this expression for $K_C$ into the parametric equation of $F$ and obtain the quantity of food that the economy can produce as a function of the number of clothing:
+$$\begin{align}
+&amp;amp; Q_F = \\\
+&amp;amp; = \left(K-\frac{Q_C \sqrt{Q_C^2+8LK}-Q_C^2}{2L}\right)^\frac{1}{3} \left(L-\frac{L\frac{Q_C \sqrt{Q_C^2+8LK}-Q_C^2}{2L}}{2K -\frac{Q_C \sqrt{Q_C^2+8LK}-Q_C^2}{2L}}\right)^\frac{2}{3}
+\end{align}$$
+If we assume, for a second, that the economy counts with $10$ units of labour $(L=10)$ and $5$ units of capital $(K=5)$, then the production possibility frontier has the following shape:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/PPF.png&#34; alt=&#34;PPF&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;deciding-how-much-to-produce&#34;&gt;Deciding how much to produce&lt;/h3&gt;
+&lt;p&gt;The PPF only indicates all the possible combinations of clothing and food that the economy can produce.
+For instance, points such as $A$ and $B$ are feasible, so is any other point on the PPF.
+The point at which the econony produces depends on the relative price of cloth relative to food: $\frac{P_C}{P_F}.$
+In particular, for prices $P_C$ and $P_F$, the economy will maximise the value of its total production, this is, the economy maximises
+$$V = Q_C P_C + Q_F P_F.$$
+Levels $V$ are called isovalue lines: combinations of $Q_C$ and $Q_F$ that produce the same value $V.$&lt;/p&gt;
+&lt;p&gt;Considering, for instance, that $P_C = 7$ and $P_F = 6$, we can draw several isolines corresponding to different values $V$.
+The next figure draws isovalue lines for values $V = {20,40,60}.$&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Isovalues.png&#34; alt=&#34;Isovalue_lines&#34;&gt;&lt;/p&gt;
+&lt;p&gt;To draw one isovalue line for a given $V$, we isolate the variable in the vertical axis, this is, $Q_F$ in our case:
+$$V = Q_C P_C + Q_F P_F \implies Q_F = \frac{V}{P_F} - \frac{P_C}{P_F}Q_C.$$
+As is clear, as we increase the $V$, the isovalue lines move away from the origin.
+Also, the slope of &lt;em&gt;all&lt;/em&gt; the isovalue lines is the same (unless we change prices) and it corresponds to the relative price of $Q_C,$ $-\frac{P_C}{P_F}.$
+So, for a given set of prices $P_C$ and $P_F$, the economy chooses the combination $(Q_C^\star, Q_F^\star)$ that maximises the value $V.$
+This is, the economy solves the following problem:&lt;/p&gt;
+&lt;p&gt;$$\begin{align}
+\max_{Q_C, Q_F} &amp;amp; P_C Q_C + P_F Q_F \\\
+\mathrm{s.t.} &amp;amp; \, Q_F = F(Q_C)
+\end{align},$$
+where $Q_F = F(Q_C)$ represents the PPF, because the amount of food the economy is produces depends on the number of cloth it produces, as we have just seen.
+If we solve this maximisation we obtain the following optimality condition:
+$$F^\prime(Q_C) = -\frac{P_C}{P_F}.$$
+This condition indicates that the economy will produce at the point in which the PPF is tangent to the isovalue line.
+This is normal: suppose that we selected a point such as $A$ below.
+At this point, the economy is not producing at its full capacity because it is inside the PPF.
+We already know that we can increase the value of total production if we move the isovalue line away from the origin.
+Points like $B$ or $C$ are not feasible, because they are above the PPF and, thus, the economy cannot produce these combinations $Q_C$ and $Q_F$ with its available resources $K$ and $L$.
+Thus, it is optimal to lie on the point that is the farthest away which still touches the PPF: the tangency point $D$.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/PPF_optimal.png&#34; alt=&#34;PPF_Optimal&#34;&gt;&lt;/p&gt;
+&lt;p&gt;When the relative price changes, the slope of the isovalue lines change.
+For instance, if $P_C$ increases, making clothing more valuable, the slope (in absolute value) increases.
+This has the consequence of changing the optimal point.
+In particular, if $P_C$ increases, the economy can become richer by shifting production to clothing, because its price increases.
+Graphically, the new point of tangency is characterised by an increase in $Q_C$ and, consequently, a decrease in $Q_F.$
+Mathematically, we can see this because we know that $Q_F$ is a function of $Q_C$, for instance, $Q_F = F(Q_C).$
+Therefore, the optimal production point is characterised by, as we just saw,
+$$F^\prime(Q_C) = -\frac{P_C}{P_F}.$$
+If we compute the how $Q_C$ changes with a change in $P_C$ we obtain:&lt;/p&gt;
+&lt;p&gt;$$\frac{\partial Q_C}{\partial P_C} = - \frac{1}{P_F F^{\prime \prime}(Q_C)}.$$
+Looking at the form of $F(Q_C)$, we know that $F^{\prime \prime}(Q_C)$ is negative ($F^{\prime \prime}(Q_C)$), and therefore,
+$$\frac{\partial Q_C}{\partial P_C} = - \frac{1}{P_F F^{\prime \prime}(Q_C)} &amp;gt; 0.$$
+So, as the intuition suggested, when the price of clothing increases, the economy produces more ot if.
+We could also show that the quantity of food decreases.
+Hence, the relative supply of cloth $\left(\frac{Q_C}{Q_F}\right)$ increases.
+Finally, we can draw the relative supply curve of the economy, this is, how $\left(\frac{Q_C}{Q_F}\right)$ changes when the relative price $\left(\frac{P_C}{P_F}\right)$ changes.
+As $Q_C$ increases and $Q_F$ decreases following the rise if $P_C$, it is easy to see that the ration $\frac{Q_C}{Q_F}$ will increase as well.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Change_in_relative_price.png&#34; alt=&#34;Change_in_relative_price&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;individuals-preferences-and-the-relative-demand-curve&#34;&gt;Individuals&#39; preferences and the relative demand curve&lt;/h2&gt;
+&lt;p&gt;The tastes of an individual are represented by a series of indifference curves: the set of points on the $(Q_C, Q_F)$ plane that generate a utility level $\bar{U}.$
+These indifferences curves have three main properties:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Are downward sloping: if an individual receives less units of food, she has to be compensated with more clothing to achieve the same utility level.&lt;/li&gt;
+&lt;li&gt;Curves farther away from the origin represent higher levels of welfare, this is, higher values $\bar{U}.$&lt;/li&gt;
+&lt;li&gt;For a given curve, it becomes flatter as one moves to the right.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Mathematically, we can write the indifference curves by plotting $\bar{U} = U(Q_C, Q_F)$ for different values of $\bar{U}$, where $U(\cdot, \cdot)$ represents the utility function.
+The next Figure plots several indifference curves, with values $\bar{U} = {1, 1.2, 1.4}$ and using $U(Q_C, Q_F) = \log(Q_C)+\log(Q_F).$&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Indifference_curves.png&#34; alt=&#34;Indifference&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Considering that the economy can trade at the prices $P_C,\, P_F$, individuals will optimize accoring to them.
+Hence, they will choose a consumption bundle such that utility is maximal and tangent to the relative price line.&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;
+&lt;em&gt;Note:&lt;/em&gt; without trade, the efficient point will be one such that the PPF and the indiference curves are tangent, which would determine the prices within the country.
+Hence, given prices $P_C$ and $P_F$, consumers maximize:&lt;/p&gt;
+&lt;p&gt;$$\begin{align}
+&amp;amp;\max_{Q_C,\, Q_F} U(Q_C,\, Q_F) \\\
+&amp;amp; \mathrm{s.t.}\, P_C Q_C + Q_F P_F = V
+\end{align}$$&lt;/p&gt;
+&lt;p&gt;where $V$ represents the total value of production.
+Such equilibrium is represented in the Figure below:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Equilibrium.png&#34; alt=&#34;Equilibrium&#34;&gt;&lt;/p&gt;
+&lt;p&gt;As we did before, we can consider the effect of an increase in $\frac{P_C}{P_F}$.
+First, as we already knew, the economy produces more clothing $C$ and less food $F$.
+This is because the relative price of clothing with respect to food increased, and it is more profitable to produce and sell clothing.
+Hence, the value of total production has increased (the economy produces more of the good that has become more expensive).
+On the other side of the market, consumers&#39; income has also increased: the total income of an economy is the total value of production.
+Effectively, this means that the new equilibrium indifference curve must lie on the isovalue line.
+However, consumers face two effects:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A &lt;strong&gt;wealth&lt;/strong&gt; effect: now that income is larger, they want to consume more of all goods,&lt;/li&gt;
+&lt;li&gt;A &lt;strong&gt;substitution&lt;/strong&gt; effect: the rise in $P_C$ relative to $P_F$ makes consuming clothing less attractive because it costs more.
+Therefore, consumers tend to consume less of $C$ and more of $F$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Depending on the utility representation, one effect dominates the other (and for the utility choice we made, one exactly cancels out the other).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Change_Equilibrium.png&#34; alt=&#34;Change_Equilibrium&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Similar to the relative supply curve, we can draw a relative demand curve which represents the relative demand $\frac{Q_C}{Q_F}$ with respect to the relative price $\frac{P_Q}{P_F}.$&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Relative_supply_and_demand.png&#34; alt=&#34;Relative_supply_and_demand&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;the-terms-of-trade&#34;&gt;The terms of trade&lt;/h2&gt;
+&lt;p&gt;When the relative price of clothing increases, this is, when $\frac{P_C}{P_F}$ increases, a country that exports clothing is better off.
+And, by the same token, when the relative price of clothing falls, that country is in a worse position.
+Of course, these effects depend on whether the country exports clothing or food.&lt;/p&gt;
+&lt;p&gt;To have a better way of tracking the effects of price changes, we define &lt;strong&gt;the terms of trade&lt;/strong&gt; as the price of the good a country initially &lt;strong&gt;exports&lt;/strong&gt; divided by the price of the good that it &lt;strong&gt;imports&lt;/strong&gt;.
+In general, a &lt;em&gt;rise&lt;/em&gt; in the terms of trade increases a country&amp;rsquo;s welfare, and a decline in the terms of trade reduces its welfare.
+However, it is important to remark that welfare can never be below its level under autarky: if that were the case, the economy would just stop trading.&lt;/p&gt;
+&lt;h2 id=&#34;two-countries&#34;&gt;Two countries&lt;/h2&gt;
+&lt;p&gt;We now introduce two countries in our analysis.
+We assume that both countries produce the two goods, but &lt;strong&gt;Home exports cloth&lt;/strong&gt; while &lt;strong&gt;Foreign exports food&lt;/strong&gt;.
+The terms of trade of Home are measured as $\frac{P_C}{P_F}$ while Foreign&amp;rsquo;s are $\frac{P_F}{P_C}$.
+Lastly, we suppose that trade arises because of fundamental differences in the production technology, which will be reflected in their PPF and their relative supply curves.
+For instance, Home is more productive in producing cloth.
+To simplify, we assume that demand in both countries is exactly the same.
+As usual, equilibrium points are found by equalizing the slope of the PPF in each country to the world relative prices, as depicted below:
+&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Production_in_each_country.png&#34; alt=&#34;Production_in_each_country&#34;&gt;
+The world-level relative supply of clothing and food can be computed by aggregating from the country level:
+$$\frac{Q_C^{world}}{Q_F^{world}} = \frac{Q_C + Q_C^\star}{Q_F + Q_F^\star}.$$
+Note that, in reality, the world relative supply is a weighted average of each country&amp;rsquo;s relative supply curve.
+Hence, the world relative supply always lies in between the two countries&#39; relative supply curves.
+We can proceed similarly for world relative demand.
+However, since we assumed that demand is exactly the same in both countries, the world relative demand will coincide be equal to the relative demand curve of either country.
+The Figure below illustrates the case:
+&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/World_relative_supply_and_demand.png&#34; alt=&#34;World_relative_supply_and_demand&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;growth-the-terms-of-trade-and-welfare&#34;&gt;Growth, the terms of trade and welfare&lt;/h2&gt;
+&lt;p&gt;A classical question in international economics concerns the effects of biased economic growth on trade and, hence, welfare.
+If all other countries in the world grow, is it good or bad for our economy?
+It is possible to argue in the positive and in the negative sense:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If other countries grow, it means that the market size for our exports increases, so we can export and sell, hence we are better off.&lt;/li&gt;
+&lt;li&gt;But our firms also face higher competition from the foreign countries, which hurts welfare in our country.
+Similarly, if it is our country the one that grows, we also have opposite effects:&lt;/li&gt;
+&lt;li&gt;If we are growing, we produce more and we can sell of this additional production abroad.&lt;/li&gt;
+&lt;li&gt;But also, by increasing production the price of the goods falls, so we earn less from exporting, which has a negative effect on welfare.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In reality, whether growth is positive or negative heavily depends on the direction of growth.
+First, economic growth means that we can produce more of all goods, so that PPF moves outwards.
+However, growth typically benefits more one sector than the others: we call this &lt;strong&gt;biased growth&lt;/strong&gt;.
+Graphically, it means that the PPF moves outwards much more for one sector than the other.
+The figure below depicts and exagerated case.
+What is really important is that, for unchanged relative prices, the economy produces more of the good in which there is a bias and less of the other.
+For instance, if there is biased growth in terms of clothing, the economy will produce more clothing and less food.
+We can intuitively see this by studying the optimisation problem.
+Before, we have established that we can write the amount of labour in each sector as a funcion of capital: $L_C = L(K_C).$
+We also know that capital and labour not employed in the clothing industry will be used in the food industry, hence $K_F = K - K_C$ and $L_F = L - L_C = L - L(K_C).$
+Thus, in fact, given the relative price, the economy only has to determine how much capital to allocate to the clothing sector, and optimality conditions will tell us how much labour we shall allocate to it.
+Lastly, market clearing will indicate the amounts of capital and labour in the food sector.
+So, the economy solves:
+$$\max_{K_C} p F\left(K_C, L(K_C)\right) + G\left(K - K_C, L - L(K_C)\right),$$
+where $p$ represents the relative price $\frac{P_C}{P_F}.$
+Taking the derivative with respect to $K_C$
+$$\begin{align}
+&amp;amp;\frac{\partial p F\left(K_C, L(K_C)\right) + G\left(K - K_C, L - L(K_C)\right)}{\partial K_C} = 0 \implies \\\
+&amp;amp;\implies p\left[F^\prime_K + F^\prime_L L^\prime\right] = G^\prime_K + G^\prime_L L^\prime.
+\end{align}$$&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Biased&lt;/strong&gt; technological growth implies unequal producitivity growth, this is, the productivity increases much more in the clothing sector than in the food sector.
+Mathematically, this means that the deriviates $F^\prime$ increase much more than the $G^\prime.$
+If the relative price $p$ remains constant, there is an imbalance in the equation: the left-hand side is larger than the right-hand side.
+To rebalance it, we shall make $F^\prime$ decrease and $G^\prime$ increase, and this happens when $K_C$ increases.
+So, with more capital in the clothing sector, the economy clearly produces more clothing and less food.
+&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Biased_growth.png&#34; alt=&#34;Biased_growth&#34;&gt;
+Of course, biased growth towards clothing implies an increase in the relative supply (of clothing), while an biased growth towards food implies a decrease in the relative supply (of clothin).
+So we can now answer our question:
+Suppose Home grows, and the growth is biased towards clothing.
+Hence, Home&amp;rsquo;s relative supply of clothing increases at any given set of relative prices.
+This also implies that the world relative supply of clothing will increase, moving towards the right.
+As a result of that shift, in equilibrium, the new relative price of clothing decreases.
+If Home exported clothing, a lower relative price of clothing worsens its terms of trade, and it improve Foreign&amp;rsquo;s terms of trade (it exports food).
+&lt;strong&gt;Remark:&lt;/strong&gt; it does not really matter which country grows, but the direction of growth.
+Growth biased towards the good that Home exports always worsens Home&amp;rsquo;s terms of trade; while any growth biased in the good that Home imports improves Home&amp;rsquo;s terms of trade.
+So, any country growing in the sector that Home exports (including Home&amp;rsquo;s growth) negatively affects Home&amp;rsquo;s terms of trade, and negatively impacts welfare in Home.
+By the same token, any growth in the sector that Home imports (including Home&amp;rsquo;s growth) positively affects Home&amp;rsquo;s terms of trade, and positively impacts welfare in Home.&lt;/p&gt;
+&lt;h3 id=&#34;effects-of-economic-growth&#34;&gt;Effects of economic growth&lt;/h3&gt;
+&lt;p&gt;During the 1950s, there were concerns about the implications of poor nations&#39; economic growth.
+Poor countries exported mostly raw materials, and growth in these countries was expected to be specially intense in the extractive sectors.
+This would, of course, hurt their terms of trade because these countries would experience export-biased growth.
+At the same time, it was likely that developed countries could create synthetic substitutes for imported raw materials, hence these countries will be import-biased growing, improving their terms of trade and worsening those of poor economies.
+To some, the growth of the poor economies will be make them actually worse, this is, poor economies would be better off not growing at all, insofar as export-biased growth was harmful for them.
+Although the possibility can arise from a theoretical model, Bhagwati (1958) shows that it only materialises when strong export-biased growth is combined with vey steep RS and RD curves.&lt;/p&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;This family of models can be enlarged by including the &lt;em&gt;specific factors model&lt;/em&gt;, which features different productive factors, like the Heckscher-Ohlin, but some of these factors are inmobile between sectors.
+For instance, land can only be used in agriculture.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Check the your microeconomics lectures on consumer optimisation.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Difference equations</title>
+      <link>https://eric-roca.github.io/courses/macroeconomics/math_app/steady_state/</link>
+      <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/math_app/steady_state/</guid>
       <description>&lt;p&gt;This note is based on Appendix A.3.2 of &lt;em&gt;de la Croix and Michel: A Theory of Economic Growth.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Macroeconomic models often have dynamic equations relating different periods of time.
 These can either be in continuous or discrete time.
@@ -537,15 +802,15 @@ Any other initial set of values delivers a non-converging trajectory.
 In economics, we often encounter a $2 \times 2$ system.
 Often, the initial value of one variable is fixed (state variable, in general capital).
 Hence, we have to select the value of the other variable (control variable, in general consumption) in such a way that it is on the saddle path.&lt;/p&gt;
-&lt;p&gt;We develop a full example in &lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/ramsey_example/&#34;&gt;Example&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We develop a full example in &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_example/&#34;&gt;Example&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Households</title>
-      <link>https://eric-roca.github.io/courses/olg/olg_households/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/olg/olg_households/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/olg/olg_households/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/olg/olg_households/</guid>
       <description>&lt;h2 id=&#34;building-the-budget-constraint&#34;&gt;Building the budget constraint&lt;/h2&gt;
 &lt;p&gt;Individuals live for two periods.
 As before, we assume perfect foresight for individuals.
@@ -598,7 +863,7 @@ We assume that $u( c )$ has the properties&lt;/p&gt;
 &lt;p&gt;The last assumption $\lim_{c \rightarrow 0} u^{\prime}( c ) = +\infty$ implies that an individual will always have a positive consumption &amp;mdash;as long as he has enough income to finance it.&lt;/p&gt;
 &lt;p&gt;Another important implication of the choice of the utility formulation is that $c$ and $d$ are normal goods: the demand is &lt;em&gt;not decreasing&lt;/em&gt; in wealth.
 It follows from additive separability and concavity.
-In the &lt;a href=&#34;https://eric-roca.github.io/courses/math_app/olg_non-separable_utility/&#34;&gt;Appendix&lt;/a&gt; we discuss it in more detail for a non-separable utility function.&lt;/p&gt;
+In the &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/math_app/olg_non-separable_utility/&#34;&gt;Appendix&lt;/a&gt; we discuss it in more detail for a non-separable utility function.&lt;/p&gt;
 &lt;h2 id=&#34;the-behaviour-of-individuals&#34;&gt;The behaviour of individuals&lt;/h2&gt;
 &lt;p&gt;At time $t$, young individuals receive their wages, consume and save while maximising the utility function.&lt;/p&gt;
 &lt;p&gt;$$\begin{eqnarray}
@@ -638,9 +903,9 @@ Similarly, the subindeces $t, t+1, \ldots$ denote the period of consumption, but
     
     <item>
       <title>Steady state</title>
-      <link>https://eric-roca.github.io/courses/ramsey_gov/ramsey_government_equilibrium/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/ramsey_gov/ramsey_government_equilibrium/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/ramsey_gov/ramsey_government_equilibrium/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/ramsey_gov/ramsey_government_equilibrium/</guid>
       <description>&lt;p&gt;We close the model imposing market clearing.
 This affects the budget constraint:&lt;/p&gt;
 &lt;p&gt;$$\begin{eqnarray}
@@ -670,10 +935,126 @@ This implies that the steady-state level of consumption is reduced.&lt;/li&gt;
     </item>
     
     <item>
-      <title>Intertemporal equilibrium</title>
-      <link>https://eric-roca.github.io/courses/ramsey/ramsey_intertemporal_equilibrium/</link>
+      <title>Trade Policy</title>
+      <link>https://eric-roca.github.io/courses/international_trade/trade_policy/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/ramsey/ramsey_intertemporal_equilibrium/</guid>
+      <guid>https://eric-roca.github.io/courses/international_trade/trade_policy/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;The previous lectures indicate that, at the country level, an economy is in general better off when trading.
+However, the gains o trade are not euqally shared among all citizens.
+For instance, trade liberalization may benefit consumers by reducing the cost of the goods they want to consume, but at the same time hurt the local producers of these very same products, who now face international competition.
+Moreover, although it may be posible for the winners to compensate the losers and still be better off (after all, trade is usually Pareto efficient), such implementation is nearely impossible.
+For instance, it would require that all consumers of imported goods pay a &amp;ldquo;tax&amp;rdquo; to the loosing industries, which is expensive to implement.
+Since the losers are typically less and can coordinate more easily, in general they successfully block trade liberalization.
+After all, the general public who would benefit gains very little, and thus is not that much concerned.&lt;/p&gt;
+&lt;p&gt;We can classify trade policy tools in two broad categories, depending on whether they act upon prices or quantities&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Trariff barriers&lt;/li&gt;
+&lt;li&gt;Non-tariff barriers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In general, protection against foreign trade appears in the form of &lt;strong&gt;tariffs&lt;/strong&gt;, a tax that an importer thas to pay to ship the goods into the country.
+Throughout this section, we will use partial equilibrium analyse the changes induced by the different trade policies.
+We are going to analyse:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tariffs&lt;/li&gt;
+&lt;li&gt;Export subsidies&lt;/li&gt;
+&lt;li&gt;Liaison mechanism&lt;/li&gt;
+&lt;li&gt;Export tariffs&lt;/li&gt;
+&lt;li&gt;Import quotas&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Changes in $G$</title>
+      <link>https://eric-roca.github.io/courses/macroeconomics/ramsey_gov/ramsey_government_changing_g/</link>
+      <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/ramsey_gov/ramsey_government_changing_g/</guid>
+      <description>&lt;p&gt;We focus now on how a change in $G_{t}$ affects the behaviour of the economy.
+We rely on the phase diagram for this analysis: it conveys the message quite efficiently.
+In what follows, we assume that the economy is at its steady-state level $(\bar{k}^{\mathcal{Gov}}, \bar{c}^{\mathcal{Gov}})$ when the government decides to change $G_t.$
+Furthermore, we assume taxes are constant at some level $G_{t} = G_{1} &amp;gt; 0.$&lt;/p&gt;
+&lt;h2 id=&#34;un_perm&#34;&gt;Unexpected, permanent rise in $G$&lt;/h2&gt;
+&lt;p&gt;Suppose that the government announces a &lt;em&gt;sudden and unexpected&lt;/em&gt; increase in $G: G_{2} &amp;gt; G_{1}.$
+The Ramsey model illustrates the consequences of such a change.&lt;/p&gt;
+&lt;p&gt;First, we assumed that the economy was at its steady state.
+The change in $G$, as we discussed before, moves the $k$-locus closer to the horizontal axis.&lt;/p&gt;
+&lt;p&gt;With the change in $G$, a new steady state emerges.
+The steady-state capital level $\bar{k}^\mathcal{Gov}(G_2) = \bar{k}^\mathcal{Gov}(G_{1})$ remains the same.
+However, households need to adjust their consumption level.
+Otherwise, they would &lt;em&gt;not&lt;/em&gt; be on the saddle path, and they would follow a diverging trajectory leading to zero consumption.
+The unique possibility that puts the economy in the new steady state is for consumption to jump directly into it.
+This is, consumption must be reduced by the amount $\Delta_{G} = G_{2} - G_{1}.$
+Thus the size of the immediate fall in consumption is equal to the full amount of the increase in government purchases, and the &lt;strong&gt;capital stock and the real interest rate are unaffected&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;A similar policy under the Solow model would have implied a smaller reduction in consumption.
+In Solow, consumption is the fraction $1-s$ of current income.
+The tax decreases current income by $G$, but consumption would only change by $(1-s)G &amp;lt; G.$
+Hence, the remaining part of the increase in $G$ is absorbed by a reduction in investments of the size $sG$: &lt;em&gt;government purchases crowd out investment in the Solow model.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eric-roca.github.io/img/ramsey_gov/permanent_increase.png&#34; alt=&#34;permanent_increase&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;un_temp&#34;&gt;Unexpected, temporary rise in $G$&lt;/h2&gt;
+&lt;p&gt;Different from before, suppose that the increase in $G$ is only temporary, starting at $t=t_{0}$ and lasting until $t=t_{1}.$
+We still suppose that the increase in taxes is unexpected.
+One possibility is to first jump to the new steady state, remain there while taxes are high, and at time $t=t_{1}$ jump back to the original steady state.
+However, this implies two discontinuities in consumption: the first and second jumps.
+This would imply that marginal utility falls discontinuously and this is not optimal.&lt;/p&gt;
+&lt;p&gt;There is a second possibility.
+First, decrease consumption by a smaller amount than before: $\Delta_{c} &amp;lt; \Delta_{G}.$
+This implies that the economy is &lt;em&gt;not&lt;/em&gt; in the new steady state $(\bar{k}^\mathcal{Gov}(G_2) , \bar{c}^{\mathcal{Gov}}(G_{2}))$, but above it.
+Thus, it is subject to the dynamics implied by the phase diagram: capital decreases and consumption increases.
+The initial jump in consumption must be carefully computed such that, at time $t=t_{1}$, the dynamics implied by $G_{2}$ put the economy on the saddle path of $G_{1}.$
+This is, the economy undergoes a transition such that, at $t=t_{1}$ when taxes and dynamics &amp;mdash;and the phase diagram&amp;mdash; return to the original  configuration, the economy is on its saddle path.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eric-roca.github.io/img/ramsey_gov/temp_increase.png&#34; alt=&#34;temporary_increase&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The figure above depicts in black the original $k$-locus &amp;mdash;for $G=G_{1}$&amp;mdash; and in red the temporary one while with $G=G_{2}.$
+The economy first jumps from the initial steady state $(\bar{k}^{\mathcal{Gov}}(G_{1}), \bar{c}^{\mathcal{Gov}}(G_{1}))$ following the black arrow.
+From then onwards, the dynamics of the red $k$-locus determine the trajectory of the economy.
+In particular, it moves north-west following the orange curve.
+The initial jump is calculated in such a way that at $t=t_{1}$ the economy is on the saddle path corresponding to $G=G_{1}.$
+From there, it simply follows the saddle path towards the steady state $(\bar{k}^{\mathcal{Gov}}(G_{1}), \bar{c}^{\mathcal{Gov}}(G_{1})).$&lt;/p&gt;
+&lt;p&gt;During the transition, households reduce capital to sustain a higher and increasing level of consumption that would not be possible with $G_{2} &amp;gt; G_{1}.$
+From $t=t_{1}$, consumption continues to grow, but capital starts accumulating again.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eric-roca.github.io/img/ramsey_gov/temp_increase_2.png&#34; alt=&#34;temporary_increase_2&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The change in consumption during $t=t_{0}$ is directly proportional to the length of the increase in taxes.
+The longer it is, the closer the economy jumps to the steady state $(\bar{k}^{\mathcal{Gov}}(G_{2}), \bar{c}^{\mathcal{Gov}}(G_{2})).$
+However, it never reaches it: households always decrease their savings, which allows them to later be on the saddle path when taxes go back to $G_{1}.$&lt;/p&gt;
+&lt;h2 id=&#34;anticipated-permanent-rise-in-g&#34;&gt;Anticipated, permanent rise in $G$&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; when analysing an &lt;em&gt;anticipated&lt;/em&gt; measure, start from the end move backwards.&lt;/p&gt;
+&lt;p&gt;Suppose that at time $t=t_{0}$ the government announces that at time $t=t_{1}$ taxes will permanently increase.&lt;/p&gt;
+&lt;p&gt;One possibility is to mimic the [unanticipated, permanent change](&amp;lt;{{ ref &amp;ldquo;#un_perm&amp;rdquo; &amp;gt;}}): remain at the original steady state $(\bar{k}^\mathcal{Gov}(G_{0}), \bar{c}^\mathcal{Gov}(G_{0}))$ until $t_{1}$, and then jump onto the new steady state.
+However, this represents a large cost in terms of utility: non-smooth changes penalise utility.&lt;/p&gt;
+&lt;p&gt;Instead, households will slightly decrease consumption at $t_{0}$.
+The dynamics of the $(\bar{k}^\mathcal{Gov}(G_{0}), \bar{c}^\mathcal{Gov}(G_{0}))$ steady state will move the economy south-east: consumption decreases while capital increases.
+The first initial jump at $t_{0}$ must be such that, at $t_{1}$ the economy is on the saddle path corresponding to the new steady state $(\bar{k}^\mathcal{Gov}(G_{1}), \bar{c}^\mathcal{Gov}(G_{1})).$&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eric-roca.github.io/img/ramsey_gov/perm_an_increase.png&#34; alt=&#34;perm_an&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Hence, during the transition, consumption continuously falls, but smoothly.
+Capital, instead, first accumulates and decreases from $t_{1}$ onwards.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eric-roca.github.io/img/ramsey_gov/perm_an_increase_2.png&#34; alt=&#34;perm_an2&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;anticipated-temporary-rise-in-g&#34;&gt;Anticipated, temporary rise in $G$&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; when analysing an &lt;em&gt;anticipated&lt;/em&gt; measure, start from the end move backwards.&lt;/p&gt;
+&lt;p&gt;Finally, suppose that the increase in $G$ is temporary.
+At time $t=t_{0}$ the government announces that at time $t=t_{1}$ taxes will increase from $G_{0}$ to $G_{1}.$
+The new tax regime will apply for some time, until $t=t_{2}$ when taxes will return to their original level $G_{0}.$&lt;/p&gt;
+&lt;p&gt;In that case households can decide to follow the same strategy as in an &lt;a href=&#34;#un_temp&#34;&gt;unanticipated, temporary increase&lt;/a&gt;.
+However, it entails a relatively large adjustment in terms of consumption at time $t=t_{1}$, when the new policy becomes effective.
+Instead, households can take advantage of the anticipation in the announcement:
+decrease the consumption at the announcement time $t=t_{0}$ by a relatively small amount.
+This places households on the black arrow trajectory, since the economy is still governed by the $(\bar{k}^\mathcal{Gov}(G_{0}), \bar{c}^\mathcal{Gov}(G_{0}))$-locus.
+In that case, though, the change in consumption is such that, when the new tax policy becomes effective, consumption follows the orange arrow.
+Finally, timing is again crucial because at time $t=t_{2}$ the economy must be on the saddle path that corresponds to the initial steady state: $(\bar{k}^\mathcal{Gov}(G_{0}), \bar{c}^\mathcal{Gov}(G_{0})).$&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eric-roca.github.io/img/ramsey_gov/temp_an_increase.png&#34; alt=&#34;an_temp_inc&#34;&gt;&lt;/p&gt;
+&lt;p&gt;In that case, between $t_{0}$ and $t_{1}$, households decrease consumption and save.
+Between $t_{1}$ and $t_{2}$ first consumption continues to decrease and so does capital, but eventually consumption rises while capital continues to decrease.
+Finally, from $t_{2}$ onward, both capital and consumption rise along the saddle path.
+Note that, although consumption decreases, it does so continuously except for the initial jump.
+This consumption-smoothing decreases utility less than a discontinuous jumps.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eric-roca.github.io/img/ramsey_gov/temp_an_increase_2.png&#34; alt=&#34;an_temp_inc&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Intertemporal equilibrium</title>
+      <link>https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_intertemporal_equilibrium/</link>
+      <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_intertemporal_equilibrium/</guid>
       <description>&lt;p&gt;At the equilibrium, factors are paid their marginal productivity, thus:&lt;/p&gt;
 &lt;p&gt;$$r_{t} = f^{\prime}(k_{t})$$&lt;/p&gt;
 &lt;center&gt;and&lt;/center&gt;
@@ -708,12 +1089,12 @@ To analyse it, we first compute its steady state and then check the dynamics.&lt
     
     <item>
       <title>Savings function</title>
-      <link>https://eric-roca.github.io/courses/olg/olg_savings_function/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/olg/olg_savings_function/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/olg/olg_savings_function/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/olg/olg_savings_function/</guid>
       <description>&lt;p&gt;We now study how savings are affected by the remaining variables of the model.
 Before turning to it, we compute the intertemporal elasticity of substitution on this model, because it turns out to be a crucial element influencing savings.
-The &lt;em&gt;intertemporal elasticity of substitution&lt;/em&gt; is a special case of the &lt;a href=&#34;https://eric-roca.github.io/courses/math_app/elasticity_of_substitution/&#34;&gt;elasticity of substitution&lt;/a&gt;, that measures how the ratio of future to present consumption changes with the relative price (the interest rate).&lt;/p&gt;
+The &lt;em&gt;intertemporal elasticity of substitution&lt;/em&gt; is a special case of the &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/math_app/elasticity_of_substitution/&#34;&gt;elasticity of substitution&lt;/a&gt;, that measures how the ratio of future to present consumption changes with the relative price (the interest rate).&lt;/p&gt;
 &lt;h2 id=&#34;intertemporal-elasticity-of-substitution&#34;&gt;Intertemporal elasticity of substitution&lt;/h2&gt;
 &lt;p&gt;The intertemporal elasticity of substitution is defined as:&lt;/p&gt;
 &lt;p&gt;$$\epsilon_{d_{t+1}, c_{t}} = \frac{ \partial \left( \frac{d_{t+1}}{c_{t}} \right)}{\partial R_{t+1}} \frac{ R_{t+1}}{\left( \frac{d_{t+1}}{c_{t}} \right)}.$$&lt;/p&gt;
@@ -810,18 +1191,185 @@ $\epsilon &amp;lt; 1$ also means that $c$ and $d$ are intertemporally complement
     </item>
     
     <item>
-      <title>The Ramsey model</title>
-      <link>https://eric-roca.github.io/courses/ramsey/ramsey_model/</link>
+      <title>Tariffs</title>
+      <link>https://eric-roca.github.io/courses/international_trade/tariffs/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/ramsey/ramsey_model/</guid>
-      <description></description>
+      <guid>https://eric-roca.github.io/courses/international_trade/tariffs/</guid>
+      <description>&lt;h2 id=&#34;tariffs&#34;&gt;Tariffs&lt;/h2&gt;
+&lt;p&gt;A tariff is a tax imposed on imported goods.
+Therefore, if a country imported goods at the world price $p^w$, after the introduction of a tariff imported goods are more expensive because they now bear an extra tax.
+This tax may take two forms:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A percentage increase $p^w(1+\tau)$, called &lt;strong&gt;ad-valorem&lt;/strong&gt;,&lt;/li&gt;
+&lt;li&gt;A unitary increase $p^w + \tau$, called &lt;strong&gt;specific tariff&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Both are equivalent, and one can always find the corresponding percentage increase for a given unitary rise or vice-versa.&lt;/p&gt;
+&lt;p&gt;As we shall see, the effects of a tariff are different depending on the size of the country.
+First, we will analyze the &lt;strong&gt;small-country&lt;/strong&gt; case, this is, a country whose relative size in the international markers is small and cannot influence equilibrium prices.
+Related to the &lt;a href=&#34;https://eric-roca.github.io/courses/international_trade/standard_trade_model/&#34;&gt;Standard Trade model&lt;/a&gt;, a country is small if the changes in its supply or demand schedule do not move the world supply or demand.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;
+Then, we will analyze the same tariff but when it is applied in a large country, one that has the ability to influence world prices.&lt;/p&gt;
+&lt;h2 id=&#34;tariffs-in-a-small-open-economy&#34;&gt;Tariffs in a small, open economy&lt;/h2&gt;
+&lt;p&gt;The initial situation is that of a country that is importing the good $X$.
+This happens because the autarkic equilibrium price, this is, the one that would prevail without trade ($p$), is higher than the world price ($p^w$) of good $X$.
+Then, if trade is possible and there are no tariffs, consumers will prefer to import the good and pay the lower internationa price rather than buying from the more expensive local producers.
+The next Figure represents this initial situation: at price $p^w$, the country experiences excess demand, hence it imports the good.
+Since the country is small, it can import any quantity it desires at the ongoing world price.
+So, the world supply curve is perfectly elastic.
+At price $p^w$, demand is $D^1$ and supply is $S^1$.
+The difference between the two is the amount of imports.
+As we can see, at price $p^w$ there is some local production: only the most efficient producers can supply at a price equal or lower than $p^w$.
+From the perspective of a local firm, the situation is simple: if it asks a price above $p^w$, sales are zero because it is always possible to import at $p^w$.
+If the price it asks is lower, the firm could gain more by adjusting it to $p^w$.&lt;/p&gt;
+&lt;p&gt;Next, we suppose that the government introduces a tariff $\tau &amp;gt; 0$ on imports.
+Imports are still possible, however, the price of these goods is now $p^w + \tau$.
+Notice that now more local firms produce: in fact, some that before were not sufficiently efficient to produce below $p^w$ can now produce because the relevant price is $p^w + \tau$.
+So, local supply increases.
+At the same time, with a higher price, demand shrinks.
+The combined effect is a decrease in the imports: less demand combined with a higher local supply.&lt;/p&gt;
+&lt;p&gt;Lastly, the government raises some revenue through the tariff.
+For each imported good, it receives the tariff $\tau$.
+Therefore, the total government revenue is $(D^2 - S^2)\tau$.&lt;/p&gt;
+&lt;p&gt;Hence, after the tariff is introduced:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Local producers are better off: they sell more and at a higher price.&lt;/li&gt;
+&lt;li&gt;Consumers are worse off: the price has increased.&lt;/li&gt;
+&lt;li&gt;The government raises some revenue.
+It is normal to ask: in general, is the economy better off with the tariff?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In the case of &lt;em&gt;a small country&lt;/em&gt; the answer is &lt;strong&gt;no&lt;/strong&gt;.
+We can proof this.
+Total consumer&amp;rsquo;s surplus before the tax was equal to the area below the demand curve, reaching until $D^1$, net of the purchase cost.
+After the tariff, their surplus only extends until $D^2$, and because $D^2 &amp;lt; D^1$, it is clearly smaller.
+However, if we aggregate all surplus changes, the entire result is a &lt;strong&gt;net loss of welfare&lt;/strong&gt;, a dead-weight loss.
+Figures below illustrate it for linear supply and demand functions.
+The consumer lost surplus equal to the area represented by the orange trapezoid.
+The loss comprises two different aspects: consumers buy less quantity, and they do so at a higher price.
+&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Tariff_Consumer.png&#34; alt=&#34;Consumer&#34;&gt;
+The opposite is true for producers, represented by the blue area.
+Notice how part of the surplus lost by consumers goes directly to the producers: they now satisfy a part of the demand that previously consisted of imports.
+&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Tariff_Producer.png&#34; alt=&#34;Producer&#34;&gt;
+Lastly, the government gains the surplus depicted by the green rectangle.
+&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Tariff_Government.png&#34; alt=&#34;Government&#34;&gt;
+If add them together, the result is that the two red triangles are lost, hence the economy as whole is worse off.
+&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Tariff_Dead-weight.png&#34; alt=&#34;Dead-weight&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;tariffs-in-a-large-economy&#34;&gt;Tariffs in a large economy&lt;/h2&gt;
+&lt;p&gt;The main difference between a small and a large economy is their capacity to influence the world price.
+Suppose for instance that the world consists of only two countries: if Home imports the good X, then Home has monopsony power.
+In general, we say that a large country capable of influencing world prices faces an upwards supply curve.
+We can derive this curve, as well as the world demand curve, from each country&amp;rsquo;s supply and demand schedules.
+Suppose, for a given good, that the autarky price at Home is higher than a Foreign.
+Consumers at Home will be willing to import the less expensive Foreign good, and hence, there will be internation demand for imports steeming from Home.
+Similarly, producers in Foreign will be willing to sell goods in Home, hence, there is going to be an international supply.
+Next, we shall determine how much Home is willing to import.
+Let demand in Home $D^H(p)$, and similarly, supply will be $S^H(p)$.
+At the autarky price $p^H$, $D^H(p^H) = S^H(p^H).$
+However, if the price was lower than that, then demand exceeds supply.
+The demand for imports is exactly the quantity demanded not covered with local production, this is,
+$$D^{W}(p) = D^H(p) - S^H(p), \forall p\leq p^H.$$
+We can think similarly about international supply:
+$$S^{W}(p) = S^F(p) - D^F(p) \forall p\geq p^F.$$
+Graphically:
+&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/International_Demand.png&#34; alt=&#34;Demand&#34;&gt;
+&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/International_Supply.png&#34; alt=&#34;Supply&#34;&gt;
+&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Compute_Equilibrium.png&#34; alt=&#34;Eq&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s suppose now that Home introduces a tariff $\tau$ for each unit imported.
+The world supply curve adjusts, moving up by $\tau$: if before an exporter was willing to sell at price $p$, now he will request a price $p+\tau$ to compensate for the tariff he has to pay upon entering the country.&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;
+So, for each and every quantity, the world supply curve moves up by the amount $\tau.$
+A new equilibrium is formed, which solves:
+$$D^W(p) = S^W(p-\tau).$$
+&lt;strong&gt;Note&lt;/strong&gt;: the function $S^W$ indicates the &lt;em&gt;quantity&lt;/em&gt; supplied at the price $p-\tau.$
+However, in general we think of supply and demand functions as functions relating a quantity $Q$ to a price $p$, this is, $p=F(Q).$
+Suppose a producer facing the tariff $\tau.$
+To maintain his earnings unchanged, a producer selling $Q$ units will as a price $F(Q) + \tau$.
+Consequently, $p = F(Q) + \tau \implies Q=F^{-1}(p-\tau),$ and this is the reason we wrote $S^W(p-\tau)$ before.&lt;/p&gt;
+&lt;p&gt;Graphically:
+&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Tariff_in_Large_Country.png&#34; alt=&#34;Tariff_Large_Country&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Some things must be commented:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Althugh the tariff is $\tau$, the price payed by consumers $p^\mathrm{consumer}$ only increases by a fraction of it.&lt;/li&gt;
+&lt;li&gt;The remaining part is absorbed by exporters, who now earn $p^\mathrm{exporter}$, which is less than before.&lt;/li&gt;
+&lt;li&gt;As a result of the increased priced in Home:
+&lt;ul&gt;
+&lt;li&gt;Home production increases,&lt;/li&gt;
+&lt;li&gt;Home consumption decreases.&lt;/li&gt;
+&lt;li&gt;The government collects tariff duties for value $\tau (D^H(p^\mathrm{consumer}) - S^H(p^\mathrm{consumer})).$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These changes have an additional implication:
+A large country is able to pass a part of the dead-weight cost to the Foreign market, who now receives a smaller price for its exports.
+For a small country, this was a net loss for consumers.
+So, if a country is able to pass onto the foreign market a relatively large part of the burden imposed by a tariff, it may be better off with an import tariff than without.
+Graphically:
+&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Tariff_in_Large_Country_2.png&#34; alt=&#34;Tariff_Large_Country&#34;&gt;
+As before, the consumer&amp;rsquo;s loss (blue) is partly compensated by the producers&#39; increase in welfare (orange) and government revenue (green).
+However, a large country clearly passes away part of the losses (red), which are collected as tariffs.
+Then, it is possible for the red area to compensate the two blue triangles that are still lost by the consumers.&lt;/p&gt;
+&lt;p&gt;In fact, we can show that the optimal tariff is always positive
+As we have seen, when a country introduces a tariff of value $\tau$, a fraction of it is passed to foreign exporters and the remaining is repercuted onto the consumers.
+To simplify, suppose that, after the tariff $\tau$ is introduced, consumers at Home end up paying $p^w + \alpha \tau, \alpha \in (0,1)$.
+The total welfare in the economy is the sum of consumers&#39; surplus, producers&#39; surplus and government income raised by the tariff.
+Let&amp;rsquo;s denote Home supply and demand, as functions of price, by $S(p)$ and $D(p)$, respectively.
+Then, consumers&#39; surplus is given by:
+&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Change_in_Surplus.png&#34; alt=&#34;Consumer_surplus&#34;&gt;
+$$\int_{p^w+\alpha \tau}^\infty D(p)\mathrm{d}p$$
+Similarly, producers&#39; surplus is:
+$$\int_0^{p^w+\alpha \tau}S(p)\mathrm{d}p$$
+And governemnt raises tariffs by value:
+$$\tau \underbrace{(D(p^w+\alpha \tau) - S(p^w + \alpha \tau))}_{\mathrm{Imports}}$$&lt;/p&gt;
+&lt;p&gt;Hence, total welfare is
+$$\begin{align}
+&amp;amp; W(p^w, \tau) = \int_{p^w+\alpha \tau}^\infty D(p)\mathrm{d}p + \\\
+&amp;amp; \int_0^{p^w+\alpha \tau}S(p)\mathrm{d}p + \\\
+&amp;amp; \tau \underbrace{(D(p^w+\alpha \tau) - S(p^w + \alpha \tau))}_{\mathrm{Imports}}
+\end{align}$$
+We study how it changes when $\tau = 0$, this is, whether, starting with &lt;strong&gt;no tariffs&lt;/strong&gt;, increasing the tariff rate by a tiny amount increases or decreases welfare.
+To do so, we compute the derivative of total welfare with respect to $\tau$ and evaluate it at $\tau = 0$.
+$$\begin{align}
+&amp;amp; \left.\frac{\partial W(p^w, \tau)}{\partial \tau}\right|_{\tau = 0} = \\\
+&amp;amp;-D(p^w+\alpha \tau) \alpha + S(p^w+\alpha \tau) \alpha + \left(D(p^w + \alpha \tau) - S(p^w+\alpha \tau)\right) = \\\
+&amp;amp;(1-\alpha)\underbrace{\left[D(p^w+\alpha \tau) - S(p^w +\alpha \tau)\right]}_{\text{=Imports &amp;gt; 0}} &amp;gt; 0
+\end{align}$$
+Since the previous derivative is positive, this means that, when the tariff is zero, if we increase $\tau$ then welfare increases (as long as $\alpha \in (0,1).$
+Notice also that, in the case of a small open economy, we have $\alpha = 1$, this is, the entire tariff is passed onto Home consumers.
+In that case, $\left.\frac{\partial W(p^w, \tau)}{\partial \tau}\right|_{\tau = 0} = 0$, meaning that a tariff $\tau = 0$ is indeed optimal.
+This makes sense: for a small open economy, we have seen than any positive tariff hurts the economy.&lt;/p&gt;
+&lt;p&gt;Lastly, we discuss how the value $\alpha$, this is, the part of the tariff that is passed to Home consumers, is determined.
+In the international market, the equilibrium price $p^w$ is determined by the intersection between the world supply and world demand.
+If we add a tariff, then the equilibrium price solves:
+$$S_w(p^w - \tau) = D_w(p^w).$$
+In that case, the exporters will receive $p^w-\tau$, the consumer pays $p^w$ and $\tau$ is collected by the government.
+We can compute how a change in $\tau$ affects the equilibrium price:
+$$\begin{align}
+&amp;amp; S^\prime_w \mathrm{d}p^w - S^\prime_w \mathrm{d}\tau - D^\prime_w \mathrm{d}p = 0 \implies \\\
+&amp;amp; \frac{\mathrm{d}p^w}{\mathrm{d}\tau} = \frac{S^\prime_w}{S^\prime_w - D^\prime_w} = \frac{\epsilon_S}{\epsilon_S-\epsilon_D} \in (0,1)
+\end{align}$$
+where $\epsilon$ denotes the elasticity, and $\epsilon_D &amp;lt; 0$.
+Since the consumer pays $p^w$, then, the &lt;strong&gt;entire burden of a tariff is passed on to Home consumers when&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;World supply is infinitely elastic ($\epsilon_S \rightarrow \infty$): this is the case of a small economy.&lt;/li&gt;
+&lt;li&gt;Home demand is completely inelastic ($\epsilon_D = 0$).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;In reality, world supply or world demand will react to any change in a given country.
+What matters is the size of the impact, and for a small country, it is negligeable.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;It works equally well if we assume that Home consumers have to pay the tariff.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</description>
     </item>
     
     <item>
       <title>The transversality condition</title>
-      <link>https://eric-roca.github.io/courses/math_app/transversality_condition/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/math_app/transversality_condition/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/math_app/transversality_condition/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/math_app/transversality_condition/</guid>
       <description>&lt;p&gt;The transversality condition appears as a necessary condition to determine the optimal path in dynamic models.
 It complements the Euler equation and allows to pinpoint the exact optimal path (see example below).&lt;/p&gt;
 &lt;p&gt;We use the transversality condition to avoid explosive consumption or saving paths that would end up in:&lt;/p&gt;
@@ -953,95 +1501,10 @@ We have obtained the transversality condition.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Changes in $G$</title>
-      <link>https://eric-roca.github.io/courses/ramsey_gov/ramsey_government_changing_g/</link>
-      <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/ramsey_gov/ramsey_government_changing_g/</guid>
-      <description>&lt;p&gt;We focus now on how a change in $G_{t}$ affects the behaviour of the economy.
-We rely on the phase diagram for this analysis: it conveys the message quite efficiently.
-In what follows, we assume that the economy is at its steady-state level $(\bar{k}^{\mathcal{Gov}}, \bar{c}^{\mathcal{Gov}})$ when the government decides to change $G_t.$
-Furthermore, we assume taxes are constant at some level $G_{t} = G_{1} &amp;gt; 0.$&lt;/p&gt;
-&lt;h2 id=&#34;un_perm&#34;&gt;Unexpected, permanent rise in $G$&lt;/h2&gt;
-&lt;p&gt;Suppose that the government announces a &lt;em&gt;sudden and unexpected&lt;/em&gt; increase in $G: G_{2} &amp;gt; G_{1}.$
-The Ramsey model illustrates the consequences of such a change.&lt;/p&gt;
-&lt;p&gt;First, we assumed that the economy was at its steady state.
-The change in $G$, as we discussed before, moves the $k$-locus closer to the horizontal axis.&lt;/p&gt;
-&lt;p&gt;With the change in $G$, a new steady state emerges.
-The steady-state capital level $\bar{k}^\mathcal{Gov}(G_2) = \bar{k}^\mathcal{Gov}(G_{1})$ remains the same.
-However, households need to adjust their consumption level.
-Otherwise, they would &lt;em&gt;not&lt;/em&gt; be on the saddle path, and they would follow a diverging trajectory leading to zero consumption.
-The unique possibility that puts the economy in the new steady state is for consumption to jump directly into it.
-This is, consumption must be reduced by the amount $\Delta_{G} = G_{2} - G_{1}.$
-Thus the size of the immediate fall in consumption is equal to the full amount of the increase in government purchases, and the &lt;strong&gt;capital stock and the real interest rate are unaffected&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;A similar policy under the Solow model would have implied a smaller reduction in consumption.
-In Solow, consumption is the fraction $1-s$ of current income.
-The tax decreases current income by $G$, but consumption would only change by $(1-s)G &amp;lt; G.$
-Hence, the remaining part of the increase in $G$ is absorbed by a reduction in investments of the size $sG$: &lt;em&gt;government purchases crowd out investment in the Solow model.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://eric-roca.github.io/img/ramsey_gov/permanent_increase.png&#34; alt=&#34;permanent_increase&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;un_temp&#34;&gt;Unexpected, temporary rise in $G$&lt;/h2&gt;
-&lt;p&gt;Different from before, suppose that the increase in $G$ is only temporary, starting at $t=t_{0}$ and lasting until $t=t_{1}.$
-We still suppose that the increase in taxes is unexpected.
-One possibility is to first jump to the new steady state, remain there while taxes are high, and at time $t=t_{1}$ jump back to the original steady state.
-However, this implies two discontinuities in consumption: the first and second jumps.
-This would imply that marginal utility falls discontinuously and this is not optimal.&lt;/p&gt;
-&lt;p&gt;There is a second possibility.
-First, decrease consumption by a smaller amount than before: $\Delta_{c} &amp;lt; \Delta_{G}.$
-This implies that the economy is &lt;em&gt;not&lt;/em&gt; in the new steady state $(\bar{k}^\mathcal{Gov}(G_2) , \bar{c}^{\mathcal{Gov}}(G_{2}))$, but above it.
-Thus, it is subject to the dynamics implied by the phase diagram: capital decreases and consumption increases.
-The initial jump in consumption must be carefully computed such that, at time $t=t_{1}$, the dynamics implied by $G_{2}$ put the economy on the saddle path of $G_{1}.$
-This is, the economy undergoes a transition such that, at $t=t_{1}$ when taxes and dynamics &amp;mdash;and the phase diagram&amp;mdash; return to the original  configuration, the economy is on its saddle path.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://eric-roca.github.io/img/ramsey_gov/temp_increase.png&#34; alt=&#34;temporary_increase&#34;&gt;&lt;/p&gt;
-&lt;p&gt;The figure above depicts in black the original $k$-locus &amp;mdash;for $G=G_{1}$&amp;mdash; and in red the temporary one while with $G=G_{2}.$
-The economy first jumps from the initial steady state $(\bar{k}^{\mathcal{Gov}}(G_{1}), \bar{c}^{\mathcal{Gov}}(G_{1}))$ following the black arrow.
-From then onwards, the dynamics of the red $k$-locus determine the trajectory of the economy.
-In particular, it moves north-west following the orange curve.
-The initial jump is calculated in such a way that at $t=t_{1}$ the economy is on the saddle path corresponding to $G=G_{1}.$
-From there, it simply follows the saddle path towards the steady state $(\bar{k}^{\mathcal{Gov}}(G_{1}), \bar{c}^{\mathcal{Gov}}(G_{1})).$&lt;/p&gt;
-&lt;p&gt;During the transition, households reduce capital to sustain a higher and increasing level of consumption that would not be possible with $G_{2} &amp;gt; G_{1}.$
-From $t=t_{1}$, consumption continues to grow, but capital starts accumulating again.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://eric-roca.github.io/img/ramsey_gov/temp_increase_2.png&#34; alt=&#34;temporary_increase_2&#34;&gt;&lt;/p&gt;
-&lt;p&gt;The change in consumption during $t=t_{0}$ is directly proportional to the length of the increase in taxes.
-The longer it is, the closer the economy jumps to the steady state $(\bar{k}^{\mathcal{Gov}}(G_{2}), \bar{c}^{\mathcal{Gov}}(G_{2})).$
-However, it never reaches it: households always decrease their savings, which allows them to later be on the saddle path when taxes go back to $G_{1}.$&lt;/p&gt;
-&lt;h2 id=&#34;anticipated-permanent-rise-in-g&#34;&gt;Anticipated, permanent rise in $G$&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; when analysing an &lt;em&gt;anticipated&lt;/em&gt; measure, start from the end move backwards.&lt;/p&gt;
-&lt;p&gt;Suppose that at time $t=t_{0}$ the government announces that at time $t=t_{1}$ taxes will permanently increase.&lt;/p&gt;
-&lt;p&gt;One possibility is to mimic the [unanticipated, permanent change](&amp;lt;{{ ref &amp;ldquo;#un_perm&amp;rdquo; &amp;gt;}}): remain at the original steady state $(\bar{k}^\mathcal{Gov}(G_{0}), \bar{c}^\mathcal{Gov}(G_{0}))$ until $t_{1}$, and then jump onto the new steady state.
-However, this represents a large cost in terms of utility: non-smooth changes penalise utility.&lt;/p&gt;
-&lt;p&gt;Instead, households will slightly decrease consumption at $t_{0}$.
-The dynamics of the $(\bar{k}^\mathcal{Gov}(G_{0}), \bar{c}^\mathcal{Gov}(G_{0}))$ steady state will move the economy south-east: consumption decreases while capital increases.
-The first initial jump at $t_{0}$ must be such that, at $t_{1}$ the economy is on the saddle path corresponding to the new steady state $(\bar{k}^\mathcal{Gov}(G_{1}), \bar{c}^\mathcal{Gov}(G_{1})).$&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://eric-roca.github.io/img/ramsey_gov/perm_an_increase.png&#34; alt=&#34;perm_an&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Hence, during the transition, consumption continuously falls, but smoothly.
-Capital, instead, first accumulates and decreases from $t_{1}$ onwards.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://eric-roca.github.io/img/ramsey_gov/perm_an_increase_2.png&#34; alt=&#34;perm_an2&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;anticipated-temporary-rise-in-g&#34;&gt;Anticipated, temporary rise in $G$&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; when analysing an &lt;em&gt;anticipated&lt;/em&gt; measure, start from the end move backwards.&lt;/p&gt;
-&lt;p&gt;Finally, suppose that the increase in $G$ is temporary.
-At time $t=t_{0}$ the government announces that at time $t=t_{1}$ taxes will increase from $G_{0}$ to $G_{1}.$
-The new tax regime will apply for some time, until $t=t_{2}$ when taxes will return to their original level $G_{0}.$&lt;/p&gt;
-&lt;p&gt;In that case households can decide to follow the same strategy as in an &lt;a href=&#34;#un_temp&#34;&gt;unanticipated, temporary increase&lt;/a&gt;.
-However, it entails a relatively large adjustment in terms of consumption at time $t=t_{1}$, when the new policy becomes effective.
-Instead, households can take advantage of the anticipation in the announcement:
-decrease the consumption at the announcement time $t=t_{0}$ by a relatively small amount.
-This places households on the black arrow trajectory, since the economy is still governed by the $(\bar{k}^\mathcal{Gov}(G_{0}), \bar{c}^\mathcal{Gov}(G_{0}))$-locus.
-In that case, though, the change in consumption is such that, when the new tax policy becomes effective, consumption follows the orange arrow.
-Finally, timing is again crucial because at time $t=t_{2}$ the economy must be on the saddle path that corresponds to the initial steady state: $(\bar{k}^\mathcal{Gov}(G_{0}), \bar{c}^\mathcal{Gov}(G_{0})).$&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://eric-roca.github.io/img/ramsey_gov/temp_an_increase.png&#34; alt=&#34;an_temp_inc&#34;&gt;&lt;/p&gt;
-&lt;p&gt;In that case, between $t_{0}$ and $t_{1}$, households decrease consumption and save.
-Between $t_{1}$ and $t_{2}$ first consumption continues to decrease and so does capital, but eventually consumption rises while capital continues to decrease.
-Finally, from $t_{2}$ onward, both capital and consumption rise along the saddle path.
-Note that, although consumption decreases, it does so continuously except for the initial jump.
-This consumption-smoothing decreases utility less than a discontinuous jumps.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://eric-roca.github.io/img/ramsey_gov/temp_an_increase_2.png&#34; alt=&#34;an_temp_inc&#34;&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Elasticity of substitution</title>
-      <link>https://eric-roca.github.io/courses/math_app/elasticity_of_substitution/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/math_app/elasticity_of_substitution/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/math_app/elasticity_of_substitution/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/math_app/elasticity_of_substitution/</guid>
       <description>&lt;p&gt;The elasticity of substitution between two inputs of a production function (or two goods in a utility function) measures &lt;em&gt;the percentage change in the ratio of the two inputs relative to the percentage change in their prices&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;The elasticity of substitution represents the curvature of the isoquant, this is, the degree of substitutability between inputs.
 Mathematically, for inputs $x_{1}$ and $x_{2}$ and a production function $f(x_{1}, x_{2}),$ it is defined as:&lt;/p&gt;
@@ -1078,7 +1541,7 @@ Therefore, we can compute $\sigma_{K,L}$ as&lt;/p&gt;
 &amp;amp; r = A \frac{\nu}{\rho}\left( \alpha K^{\rho} + (1-\alpha) L^{\rho} \right)^{\frac{\nu}{\rho}-1}\alpha \rho K^{\rho-1}.\end{eqnarray}$$
 Hence:
 $$\frac{w}{r} = \frac{1-\alpha}{\alpha} \left(\frac{K}{L} \right)^{1-\rho}.$$&lt;/p&gt;
-&lt;p&gt;The parameter $\nu$ indicates the degree of &lt;a href=&#34;https://eric-roca.github.io/courses/math_app/homogenous_functions/&#34;&gt;homogeneity of the function.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The parameter $\nu$ indicates the degree of &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/math_app/homogenous_functions/&#34;&gt;homogeneity of the function.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;The elasticity of substitution equals:&lt;/p&gt;
 &lt;p&gt;$$\frac{ \partial \ln \left(\frac{K}{L}\right)}{\partial \ln \left( \frac{w}{r} \right)} =
 \frac{ \partial \frac{K}{L}}{\frac{K}{L}}\frac{\frac{w}{r}}{\partial \frac{w}{r}} =
@@ -1090,9 +1553,9 @@ $$\frac{w}{r} = \frac{1-\alpha}{\alpha} \left(\frac{K}{L} \right)^{1-\rho}.$$&lt
     
     <item>
       <title>Intertemporal equilibrium</title>
-      <link>https://eric-roca.github.io/courses/olg/olg_equilibrium/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/olg/olg_equilibrium/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/olg/olg_equilibrium/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/olg/olg_equilibrium/</guid>
       <description>&lt;h2 id=&#34;temporary-equilibrium&#34;&gt;Temporary equilibrium&lt;/h2&gt;
 &lt;p&gt;Before turning to the intertemporal equilibrium and the analysis of the steady state, we study the temporary equilibrium that takes place every period.&lt;/p&gt;
 &lt;p&gt;We have not discussed the firms, but they follow the same setup as in Ramsey: use capital and labour in a perfectly competitive environment.&lt;/p&gt;
@@ -1233,7 +1696,7 @@ Otherwise, for some level $k$ there would be multiple values for $k_{t+1}$ (mean
 Individuals lack a coordinating mechanism to select any of these equilibria.&lt;/p&gt;
 &lt;p&gt;We show that the intertemporal elasticity of substitution $\sigma$ is important in determining uniqueness.
 In particular, if $\sigma &amp;gt; 1$, then the equilibrium is unique.
-We will revisit this issue &lt;a href=&#34;https://eric-roca.github.io/courses/olg/olg_monotonicity_of_the_dynamics/&#34;&gt;later.&lt;/a&gt;&lt;/p&gt;
+We will revisit this issue &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/olg/olg_monotonicity_of_the_dynamics/&#34;&gt;later.&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;We have used the intermediate value theorem to show that solutions exist.
 Moreover, it shows that $\lim_{k\rightarrow 0} \frac{H(w,k)}{k} &amp;lt; 0$ and $\lim_{k \rightarrow +\infty} \frac{H(w,k)}{k} &amp;gt; 0.$
@@ -1258,16 +1721,16 @@ Assumption &lt;strong&gt;OLG.4&lt;/strong&gt; states:&lt;/p&gt;
 &lt;p&gt;Therefore, it is sufficient to have&lt;/p&gt;
 &lt;p&gt;$$s^{\prime}_R \geq 0$$&lt;/p&gt;
 &lt;p&gt;meaning that savings increase with the interest rate.
-This behaviour is readily verified when the &lt;a href=&#34;https://eric-roca.github.io/courses/olg/olg_savings_function/#intertemporal-elasticity-of-substitution&#34;&gt;intertemporal elasticity of substitution of at least one.&lt;/a&gt;
+This behaviour is readily verified when the &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/olg/olg_savings_function/#intertemporal-elasticity-of-substitution&#34;&gt;intertemporal elasticity of substitution of at least one.&lt;/a&gt;
 Then, to have monotonic dynamics and unique temporal equilibrium it is sufficient to have $\sigma \geq 1.$&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>L&#39;hypothèse de Diamond</title>
-      <link>https://eric-roca.github.io/courses/comparative_development/papers/diamond__1997/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/comparative_development/papers/diamond__1997/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/comparative_development/papers/diamond__1997/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/comparative_development/papers/diamond__1997/</guid>
       <description>&lt;h2 id=&#34;lhypothèse-de-jared-diamond-1997-guns-germs-and-steelhttpscatalogue-buucafrpermalink33clermont_bciu1eua77oalma991003631849704411&#34;&gt;L&amp;rsquo;hypothèse de Jared Diamond (1997): &lt;a href=&#34;https://catalogue-bu.uca.fr/permalink/33CLERMONT_BCIU/1eua77o/alma991003631849704411&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Guns, Germs and Steel&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Selon Jared Diamond (1997), derrière les inégalités entre pays on trouve certains facteurs qui se sont déclenchés pendant la révolution Néolithique, c&amp;rsquo;est-à-dire, à partir de l&amp;rsquo;adoption de l&amp;rsquo;agriculture.
 Or, pour comprendre pourquoi y a-t-il des régions développées et en développement, il faut connaître pourquoi l&amp;rsquo;agriculture est apparue et adoptée dans certaines régions du monde tandis qu&amp;rsquo;autres ont continué à obtenir leurs calories parmi la chasse et la récollection des fruits.&lt;/p&gt;
@@ -1357,7 +1820,7 @@ Ainsi, si l&amp;rsquo;hypothèse est certe, on espère qu&amp;rsquo;il existe:&l
 &lt;/li&gt;
 &lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
 &lt;p&gt;Certains aspects liées à la sante jouent un rôl important dans la détérmination de l&amp;rsquo;investissement dans l&amp;rsquo;éducation à travers de leurs effets sur l&amp;rsquo;espérance de vie.
-Voir &lt;a href=&#34;https://eric-roca.github.io/courses/comparative_development/papers/andersen_dalgaard_selaya__2016/&#34;&gt;ici&lt;/a&gt;.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+Voir &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/comparative_development/papers/andersen_dalgaard_selaya__2016/&#34;&gt;ici&lt;/a&gt;.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
@@ -1366,9 +1829,9 @@ Voir &lt;a href=&#34;https://eric-roca.github.io/courses/comparative_development
     
     <item>
       <title>Maladies et developpement</title>
-      <link>https://eric-roca.github.io/courses/comparative_development/papers/andersen_dalgaard_selaya__2016/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/comparative_development/papers/andersen_dalgaard_selaya__2016/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/comparative_development/papers/andersen_dalgaard_selaya__2016/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/comparative_development/papers/andersen_dalgaard_selaya__2016/</guid>
       <description>&lt;h2 id=&#34;maladies-et-développement-andersen-dalgaard-et-selaya-2016&#34;&gt;Maladies et développement: Andersen, Dalgaard et Selaya (2016)&lt;/h2&gt;
 &lt;p&gt;Un des traits fondamentaux qui détermine le passage de l&amp;rsquo;époque post-Malthusienne à l&amp;rsquo;époque moderne est l&amp;rsquo;apparition du &amp;ldquo;quality-quantity trade-off&amp;rdquo;, c&amp;rsquo;est-à-dire, le fait que les familles décident d&amp;rsquo;avoir moins d&amp;rsquo;enfants mais d&amp;rsquo;investir dans leur éducation, avec des conséquences pour l&amp;rsquo;amélioration de la technologie.
 Pour tant, les pays qui, pour une raison ou une autre, sont entrés plus tôt dans l&amp;rsquo;époque moderne, jouissent d&amp;rsquo;un avantage comparatif grâce ã une plus intense accumulation de capital humain.
@@ -1431,9 +1894,9 @@ Néanmoins, les auteurs considèrent que les adaptations génétiques (pigmentat
     
     <item>
       <title>Steady state</title>
-      <link>https://eric-roca.github.io/courses/ramsey/ramsey_steady_state/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_steady_state/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/ramsey/ramsey_steady_state/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_steady_state/</guid>
       <description>&lt;h2 id=&#34;steady-states&#34;&gt;Steady states&lt;/h2&gt;
 &lt;p&gt;A steady state of an N-dimensional dynamic system is a configuration of the system variables such that the system remains unchanged over time.
 This is, upon reaching a steady state, the system remains there forever.
@@ -1485,12 +1948,12 @@ Since the function $f^\prime$ is continuous, by the intermediate value theorem t
 Therefore, there exists one and only one value $\bar{k} \in (0,+\infty)$ that solves the first equation in \ref{eq:ss2}.
 Also, the second equation in \ref{eq:ss2} uniquely determines the level of consumption given capital.
 Hence, the steady-state consumption level $\bar{c}$ is unique.&lt;/p&gt;
-&lt;p&gt;We can obtain an overview of the dynamics of the model using the &lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/ramsey_phase_diagram/&#34;&gt;phase diagram&lt;/a&gt; and derive the exact solution using the method outlined in &lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/ramsey_trajectory/&#34;&gt;trajectory&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We can obtain an overview of the dynamics of the model using the &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_phase_diagram/&#34;&gt;phase diagram&lt;/a&gt; and derive the exact solution using the method outlined in &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_trajectory/&#34;&gt;trajectory&lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;stability&#34;&gt;Stability of the steady state&lt;/h3&gt;
 &lt;p&gt;We are now interested in determining the behaviour of the economy when it starts with some level of capital $k_0$ and consumption $c_0.$
 The economy is represented by a $2 \times 2$ system of first-order difference equations.
 The stability of a steady state depends on the Jacobian matrix&amp;rsquo;s eigenvalues evaluated at the steady state.
-&lt;strong&gt;Note:&lt;/strong&gt; the &lt;a href=&#34;https://eric-roca.github.io/courses/math_app/steady_state/&#34;&gt;Appendix&lt;/a&gt; discusses this in more detail.
+&lt;strong&gt;Note:&lt;/strong&gt; the &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/math_app/steady_state/&#34;&gt;Appendix&lt;/a&gt; discusses this in more detail.
 In particular, we wonder whether the dynamics are such that they converge towards the steady state or diverge away from it.&lt;/p&gt;
 &lt;p&gt;The equations that govern the economy are the Euler equation and the law for capital accumulation:&lt;/p&gt;
 &lt;p&gt;$$\left.
@@ -1674,9 +2137,9 @@ and &lt;strong&gt;the steady state is a saddle.&lt;/strong&gt;&lt;/p&gt;
     
     <item>
       <title>Transmission de la technologie et innovation</title>
-      <link>https://eric-roca.github.io/courses/comparative_development/papers/ozak__2018/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/comparative_development/papers/ozak__2018/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/comparative_development/papers/ozak__2018/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/comparative_development/papers/ozak__2018/</guid>
       <description>&lt;h2 id=&#34;transmission-de-la-technologie-et-innovation-özak-2018&#34;&gt;Transmission de la technologie et innovation (Özak, 2018)&lt;/h2&gt;
 &lt;p&gt;Dans le modèle de croissance unifiée, le rôle de la technologie est primordial.
 En particulier, la croissance technologique, active depuis toujours, permet le changement d&amp;rsquo;époque.
@@ -1766,9 +2229,9 @@ Par exemple, les États-Unis sont aujourd&amp;rsquo;hui la frontière technologi
     
     <item>
       <title>Époques dans le modèle unifié de croissance économique</title>
-      <link>https://eric-roca.github.io/courses/comparative_development/comparative_development_epochs/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/comparative_development/comparative_development_epochs/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/comparative_development/comparative_development_epochs/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/comparative_development/comparative_development_epochs/</guid>
       <description>&lt;h2 id=&#34;la-théorie-unifiée-de-la-croissance-économique&#34;&gt;La théorie unifiée de la croissance économique&lt;/h2&gt;
 &lt;p&gt;L&amp;rsquo;évolution des variables qu&amp;rsquo;intégrent le modèle générent trois grandes époques selon sa valeur: époque Malthusienne, époque post-Malthusienne et époque moderne.
 Chacune des époque se caractérise une combinaison particulier des variables (ou des dynamiques des variables) sous-jacentes suivantes:&lt;/p&gt;
@@ -1960,10 +2423,42 @@ Comme en époque Malthusienne les parents n&amp;rsquo;investissent pas dans l&am
     </item>
     
     <item>
-      <title>Non-separable utility in OLG</title>
-      <link>https://eric-roca.github.io/courses/math_app/olg_non-separable_utility/</link>
+      <title>Export subsidies</title>
+      <link>https://eric-roca.github.io/courses/international_trade/export_subsidies/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/math_app/olg_non-separable_utility/</guid>
+      <guid>https://eric-roca.github.io/courses/international_trade/export_subsidies/</guid>
+      <description>&lt;h2 id=&#34;export-subsidy&#34;&gt;Export subsidy&lt;/h2&gt;
+&lt;p&gt;An export subsidy a payment to a firm that exports a good abroad.
+As with tariffs, export subsidies can be &lt;em&gt;ad-valorem&lt;/em&gt; or specific, although this distinction is not important in the analysis.
+First, we shall note that, differently from before, in this case we shall assume that Home exports a good, this is, the autarky price at Home is &lt;strong&gt;lower&lt;/strong&gt; than the international price.&lt;/p&gt;
+&lt;h3 id=&#34;effects-of-an-export-subsidy&#34;&gt;Effects of an export subsidy&lt;/h3&gt;
+&lt;p&gt;When a countri subsidizes its exports, the domestic price of the product increases.
+This is because now, a local producer can sell it a Home at the world price $p^w$, or ship it abroad and gain the world price plus the subsidy: $p^w + s$.
+At the same time, the subsidy encourages more local produces to start producing, world supply for the good increases and the world price goes down (here we just focus on the case where the country is large enough to meaningfuly affect world supply).
+Thus, as with the tariff, the change in prices implied by the subsidy is shared between consumers at Home, who pay a higher price, and consumers abroad who enjoy a lower price; firms earn the subsidy and the government has to pay for it.
+&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Export_Subsidy.png&#34; alt=&#34;Export_Subsidy&#34;&gt;
+However, different from before, we can show that the net effect of an export subsidy is &lt;strong&gt;negative&lt;/strong&gt;:
+&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Export_Subsidy_Welfare.png&#34; alt=&#34;Export_Subsidy_Welfare&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Thus, the effects of an export subsidy are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Reduce the price in foreign markets, hurting the terms of trade,&lt;/li&gt;
+&lt;li&gt;Increases the domestic price,&lt;/li&gt;
+&lt;li&gt;Represents a fiscal cost.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A question arises: if export subsidies hurt the exporting country that implements them, why do they exist?
+The answer is &amp;ldquo;political economy&amp;rdquo;.
+Typically, export subsidies benefit a relatively small but very well organised group of people, for instance, European farmers.&lt;/p&gt;
+&lt;p&gt;Last, usually, to avoid re-imports of the goods just exported, an equivalent import tariff is levied.
+Otherwise, an exporter could export the good and touch the subsidy, immediately import it and re-export it again to gain again the subsidy, etc.
+Tariffs prevent this from happening.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Non-separable utility in OLG</title>
+      <link>https://eric-roca.github.io/courses/macroeconomics/math_app/olg_non-separable_utility/</link>
+      <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/math_app/olg_non-separable_utility/</guid>
       <description>&lt;p&gt;Here we analyse the behaviour of the savings function when utility is non-separable.
 In particular, let utility be represented by&lt;/p&gt;
 &lt;p&gt;$$U = u(c,d).$$&lt;/p&gt;
@@ -2008,11 +2503,11 @@ $$1 + \underbrace{\frac{u_{dd}}{u_{d}}d}_{-\frac{1}{\sigma}} - \frac{u_{cd}}{u_{
     
     <item>
       <title>Steady state</title>
-      <link>https://eric-roca.github.io/courses/olg/olg_steady_state/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/olg/olg_steady_state/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/olg/olg_steady_state/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/olg/olg_steady_state/</guid>
       <description>&lt;p&gt;We assume that the intertemporal equilibrium exists and is unique.
-As noted when characterising the &lt;a href=&#34;https://eric-roca.github.io/courses/olg/olg_equilibrium/#temporary-equilibrium&#34;&gt;uniqueness of the temporary equilibrium&lt;/a&gt;, assuming that $\sigma&amp;gt;1$ is a sufficient condition.
+As noted when characterising the &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/olg/olg_equilibrium/#temporary-equilibrium&#34;&gt;uniqueness of the temporary equilibrium&lt;/a&gt;, assuming that $\sigma&amp;gt;1$ is a sufficient condition.
 Therefore, the dynamics of capital are given by:&lt;/p&gt;
 &lt;p&gt;$$k_{t+1} = \frac{1}{1+n}s(\omega(k_{t}), f^{\prime}(k_{t+1})).$$&lt;/p&gt;
 &lt;p&gt;Hence, $k_{t+1}$ is an implicit function of $k_{t}$:&lt;/p&gt;
@@ -2051,7 +2546,7 @@ Moreover, the configuration varies depending on the production and utility funct
 &lt;p&gt;This model can feature one or several steady states.
 This depends on the characteristics of the production and utility functions.&lt;/p&gt;
 &lt;p&gt;First, the dynamics of $k$ are monotonic: either continuously increase or decrease.
-This follows from assuming a unique intertemporal equilibrium, &lt;a href=&#34;https://eric-roca.github.io/courses/olg/olg_equilibrium/#uniqueness-of-the-intertemporal-equilibrium&#34;&gt;see also&lt;/a&gt;.
+This follows from assuming a unique intertemporal equilibrium, &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/olg/olg_equilibrium/#uniqueness-of-the-intertemporal-equilibrium&#34;&gt;see also&lt;/a&gt;.
 This extra assumption also implies that the intermporal elasticity of substitution is &lt;em&gt;not too small&lt;/em&gt;.
 In particular, we operationalise (p. 25 in &lt;em&gt;de la Croix and Michel&lt;/em&gt;.) it as:&lt;/p&gt;
 &lt;p&gt;$$\forall c&amp;gt;0, \quad u^\prime( c ) + c u^{\prime \prime}( c ) \geq 0 \Leftrightarrow \sigma( c ) \geq 1.$$&lt;/p&gt;
@@ -2107,7 +2602,7 @@ We can solve for them:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Local dynamics: stability&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;We check the stability of the two steady states using the first derivative evaluated at the steady state.
 &lt;strong&gt;Note:&lt;/strong&gt; in general we would use the Jacobian matrix, but the OLG model has only one equation in one variable.&lt;/p&gt;
-&lt;p&gt;Remember that, for a discrete-time system, a &lt;a href=&#34;https://eric-roca.github.io/courses/math_app/steady_state/#hyperbolic-steady-states&#34;&gt;&lt;em&gt;non-hyperbolic&lt;/em&gt;&lt;/a&gt; steady state is stable if it the determinant of the Jacobian (here the absolute value of the derivative) evaluated at the steady state is in the unit circle $(-1, 1).$&lt;/p&gt;
+&lt;p&gt;Remember that, for a discrete-time system, a &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/math_app/steady_state/#hyperbolic-steady-states&#34;&gt;&lt;em&gt;non-hyperbolic&lt;/em&gt;&lt;/a&gt; steady state is stable if it the determinant of the Jacobian (here the absolute value of the derivative) evaluated at the steady state is in the unit circle $(-1, 1).$&lt;/p&gt;
 &lt;p&gt;In our case:&lt;/p&gt;
 &lt;p&gt;$$g(k) = k_{t+1} = \frac{1}{1+n}\frac{\beta}{1+\beta}(1-\alpha)Ak_{t}^\alpha$$
 $$g^\prime(k) = \frac{1}{1+n}\frac{\beta}{1+\beta}(1-\alpha)\alpha Ak_{t}^{\alpha-1}&amp;gt; 0.$$&lt;/p&gt;
@@ -2181,9 +2676,9 @@ The steady state with $\bar{k}=0$ is a &lt;strong&gt;poverty trap&lt;/strong&gt;
     
     <item>
       <title>The phase diagram</title>
-      <link>https://eric-roca.github.io/courses/ramsey/ramsey_phase_diagram/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_phase_diagram/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/ramsey/ramsey_phase_diagram/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_phase_diagram/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; based on Section 2.3 of &lt;em&gt;Romer, Advanced Macroeconomics&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;The Ramsey model is fully described by two dynamic equations:&lt;/p&gt;
 &lt;p&gt;$$\left.
@@ -2231,7 +2726,7 @@ We can rearrange the previous equation to obtain the following:&lt;/p&gt;
 Setting $k_{t+1} = k_{t} \implies k_{t+1} - k_{t} = 0$ so capital is constant yields:&lt;/p&gt;
 &lt;p&gt;$$ 0 = f(k_{t}) - \delta k_{t} - c_{t} \implies c_{t} = f(k_{t}) - \delta k_{t}.$$&lt;/p&gt;
 &lt;p&gt;In the $(k,c)$ space, the equation takes a form similar to a parabola: it combines production &amp;mdash;with decreasing marginal returns&amp;mdash; with a linear depreciation rate.
-In fact, f(k_t)-\delta k_t$ admits one maximum $(f^\prime (k_t) = \delta)$ the &lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/ramsey_golden_rule/&#34;&gt;Golden rule&lt;/a&gt; we discuss later.
+In fact, f(k_t)-\delta k_t$ admits one maximum $(f^\prime (k_t) = \delta)$ the &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_golden_rule/&#34;&gt;Golden rule&lt;/a&gt; we discuss later.
 Since $f^{\prime \prime}(k_t)&amp;lt;0,$ the stationary point is a maximum.&lt;/p&gt;
 &lt;p&gt;Let&amp;rsquo;s now analyse how capital evolves when consumption is above and below the level that makes it constant.
 From $k_{t+1} - k_{t} = f(k_{t}) - \delta k_{t} - c_{t}$, if consumption is above the level we have that $k_{t+1} - k_{t} &amp;lt; 0,$ meaning that capital decreases over time.
@@ -2250,9 +2745,9 @@ Finally, the point indicating the intersection of both curves is the steady stat
     
     <item>
       <title>Diversité génétique et développement</title>
-      <link>https://eric-roca.github.io/courses/comparative_development/papers/ashraf_galor__2013/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/comparative_development/papers/ashraf_galor__2013/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/comparative_development/papers/ashraf_galor__2013/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/comparative_development/papers/ashraf_galor__2013/</guid>
       <description>&lt;h2 id=&#34;diversité-génétique-et-développement-ashraf-et-galor-2013&#34;&gt;Diversité génétique et développement (Ashraf et Galor, 2013)&lt;/h2&gt;
 &lt;p&gt;Le papier d&#39;&lt;a href=&#34;https://eric-roca.github.io/papers/Ashraf_Galor__2013.pdf&#34;&gt;Ashraf et Galor (2013)&lt;/a&gt; propose l&amp;rsquo;idée qu&amp;rsquo;au sein des sociétés, les différences entre individus peuvent être une source de richesse ou entraîner des coûts économiques.
 Ainsi, les auteurs proposent que dans une société, le fait qu&amp;rsquo;il y a plus de différences entre personnes:&lt;/p&gt;
@@ -2324,10 +2819,56 @@ Ces deux alternatives sont explorées par &lt;a href=&#34;https://doi.org/10.398
     </item>
     
     <item>
-      <title>Multiple intertemporal equilibria</title>
-      <link>https://eric-roca.github.io/courses/olg/olg_monotonicity_of_the_dynamics/</link>
+      <title>Liaison mechanism</title>
+      <link>https://eric-roca.github.io/courses/international_trade/liaison_mechanism/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/olg/olg_monotonicity_of_the_dynamics/</guid>
+      <guid>https://eric-roca.github.io/courses/international_trade/liaison_mechanism/</guid>
+      <description>&lt;h2 id=&#34;liaison-mechanism&#34;&gt;Liaison Mechanism&lt;/h2&gt;
+&lt;p&gt;This instrument combines a tariff on imports with a production subsidy.
+&lt;strong&gt;Note&lt;/strong&gt;: different from an export subsidy, here the Home country is &lt;em&gt;not&lt;/em&gt; an exporter.
+The main idea behind it is to boost local production, and this instrument contributes to this end by two means:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;With the tariff, the price at home increase, increasing local production,&lt;/li&gt;
+&lt;li&gt;With the production subsidy, local production is encouraged even more.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In general, liaison mechanisms are established such that the entire revenue coming from the tariff is used to pay production subsidies.&lt;/p&gt;
+&lt;h3 id=&#34;effects-of-a-liaison-mechanism&#34;&gt;Effects of a liaison mechanism&lt;/h3&gt;
+&lt;p&gt;To simplify things, we focus on a small, open economy that imports a good.
+The first step consists on adding a tariff on imports, we assume it is an &lt;em&gt;ad-valorem&lt;/em&gt; tariff, though.
+For a small country, we already know that this represents a deadweight loss, and that the price payed by the consumers equals $p^w(1+\tau)$.
+&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Liaison_part_1.png&#34; alt=&#34;Part_1&#34;&gt;&lt;/p&gt;
+&lt;p&gt;At this stage, the tariff levied by the government is equal to $p^w \tau (D_\text{tariff} - S_\text{tariff}).$
+Next, these proceedings are used to finance a production subsidy at the rate $s$, which further increases the priced &lt;em&gt;received&lt;/em&gt; by the producers to $(p^w(1+\tau)(1+s).$
+At the same time, local production increases, which implies that less imports are required, thus reducing the amount of income the government levies.
+Is is possible to mathematically balance the two such that the entire amount coming from the tariff is used to finance the production subsidy.
+&lt;strong&gt;Note&lt;/strong&gt;, however, that the introduction of the production subsidy does not change the quantity nor the price faced by the consumers.
+Thus, the situation is as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Since local production increases, imports decrease to $D_\text{tariff} - S_\text{subs}.$&lt;/li&gt;
+&lt;li&gt;Consequently, tariff revenue also decreases to $p^w \tau (D_\text{tariff} - S_\text{subs}).$&lt;/li&gt;
+&lt;li&gt;The total amount payed as subsidy is $p^w(1+\tau)s S_\text{subs}.$&lt;/li&gt;
+&lt;li&gt;$p^w \tau D_\text{tariff} - S_\text{subs} = p^w(1+\tau)s S_\text{subs}.$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Overall, we observe that production moved from $S_\text{free}$ to $S_\text{subs}$ and producers earn $p^w(1+\tau)(1+s).$
+Demand shrinks, as with all tariffs: $D_\text{free}$ to $D_\text{tariff}.$
+&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Liaison_part_2.png&#34; alt=&#34;Part_2&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The consumers loss the blue-shaded area, while producers gain the orange surface.
+The effect for the government is neutral: as we said, tariff income (dotted area) is equal to the subsidy (star area).
+So, we shall compare the following areas:
+&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Liaison_part_3.png&#34; alt=&#34;Part_3&#34;&gt;
+Lastly, knowing that the dotted area equals the starred area, the total loss of welfare is:
+&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Liaison_part_4.png&#34; alt=&#34;Part_4&#34;&gt;
+If we compare the situation with just a tariff, we can see that the total welfare loss is greater.
+This is because the production subsidy incentivizes some local producers to produce, while before their production was covered by more efficient foreign imports.
+So, the problem is that the subsidy miss-allocated ressources towards relatively inefficient producers.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Multiple intertemporal equilibria</title>
+      <link>https://eric-roca.github.io/courses/macroeconomics/olg/olg_monotonicity_of_the_dynamics/</link>
+      <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/olg/olg_monotonicity_of_the_dynamics/</guid>
       <description>&lt;p&gt;In the OLG model, a unique intertemporal equilibrium arises if, for a given $k_t$, the equation&lt;/p&gt;
 &lt;p&gt;$$H(k_{t+1}) = k_{t+1} - \frac{1}{1+n}s\left(\omega(k_t), f^\prime(k_{t+1})\right) = 0$$&lt;/p&gt;
 &lt;p&gt;has a unique solution.
@@ -2336,7 +2877,7 @@ which guarantees the existence of at least one solution.&lt;/p&gt;
 &lt;p&gt;Hence, if the function $H$ is monotonously increasing, the solution is unique.
 This condition depends on the sign of:&lt;/p&gt;
 &lt;p&gt;$$\frac{\partial H(k_{t+1})}{\partial k_{t+1}} = 1 + \frac{1}{1+n}s^{\prime}_{R}f^{\prime \prime}(k_{t+1}).$$&lt;/p&gt;
-&lt;p&gt;We have different cases (check &lt;a href=&#34;https://eric-roca.github.io/courses/olg/olg_savings_function/&#34;&gt;the notes&lt;/a&gt; on the savings function):&lt;/p&gt;
+&lt;p&gt;We have different cases (check &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/olg/olg_savings_function/&#34;&gt;the notes&lt;/a&gt; on the savings function):&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;$s^\prime_{R} = 0$, which happens under log-utility.
@@ -2355,7 +2896,7 @@ Then, clearly $s^\prime_{R} &amp;gt; 0 &amp;gt; \frac{1+n}{R^\prime(k_{t+1})}.$&
 &lt;h3 id=&#34;non-monotonous-dynamics&#34;&gt;Non-monotonous dynamics&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Based on the &lt;a href=&#34;http://web.econ.ku.dk/okocg/MAT-OEK/Mak%C3%98k2/Mak%C3%98k2-2016/Forel%C3%A6sninger/Ch%203-2016-1.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;lecture notes of Groth, pp. 92&amp;ndash;93&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Under case 3, the function $g(k)$ is backwards bending for some values of $k.$
-This feature implies that there is more than one &lt;em&gt;intemporal equilibrium&lt;/em&gt;, check &lt;a href=&#34;https://eric-roca.github.io/courses/olg/olg_equilibrium/#temporary-equilibrium&#34;&gt;also&lt;/a&gt;.
+This feature implies that there is more than one &lt;em&gt;intemporal equilibrium&lt;/em&gt;, check &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/olg/olg_equilibrium/#temporary-equilibrium&#34;&gt;also&lt;/a&gt;.
 We ruled out such a possibility assuming that $\sigma( c ) \geq 1$, this is, we imposed a large enough intertemporal elasticity of substitution.&lt;/p&gt;
 &lt;p&gt;If this is not the case and $s^\prime_{R}(\omega(k_t), R(k_{t+1})) &amp;lt; \frac{1+n}{R^\prime(k_{t+1})}$ then there are multiple temporary equilibriums.&lt;/p&gt;
 &lt;p&gt;For instance, take an isoelastic utility function $u( c ) = \frac{c^{1-\frac{1}{\sigma}}-1}{1-\frac{1}{\sigma}}$ and a CES production with $A=20, , \alpha = \frac{1}{2}, , \beta = 0.3, , n = 1.097, , \sigma = 0.1, , \rho = -2.$
@@ -2371,16 +2912,16 @@ Consequently, in all these cases we also have that $\frac{\mathrm{d}k_{t+1}}{\ma
     
     <item>
       <title>Additional material -  trajectory</title>
-      <link>https://eric-roca.github.io/courses/ramsey/ramsey_trajectory/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_trajectory/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/ramsey/ramsey_trajectory/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_trajectory/</guid>
       <description>&lt;h2 id=&#34;the-trajectory-around-the-steady-state&#34;&gt;The trajectory around the steady state&lt;/h2&gt;
 &lt;p&gt;For the moment, we have established that the model converges towards a unique steady state following a saddle path.
 &lt;strong&gt;Note:&lt;/strong&gt; This means that there is only one combination of initial capital and consumption, $(k_{0}, c_{0})$, such that the economy converges towards it.
 Any other initial value consumption at $t=0$ (capital is pre-determined and thus we &lt;em&gt;cannot&lt;/em&gt; change it) has a diverging trajectory.&lt;/p&gt;
 &lt;p&gt;We now compute the exact behaviour of $(k_{t}, c_{t})$ around the steady state.&lt;/p&gt;
 &lt;p&gt;The model is highly non-linear, so we study a simpler linearised version around the steady state.
-First, let&amp;rsquo;s approximate the dynamics of capital and consumption &lt;a href=&#34;https://eric-roca.github.io/courses/math_app/steady_state/#Approximation&#34;&gt;around the steady state.&lt;/a&gt;&lt;/p&gt;
+First, let&amp;rsquo;s approximate the dynamics of capital and consumption &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/math_app/steady_state/#Approximation&#34;&gt;around the steady state.&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;the-approximation-around-the-steady-state&#34;&gt;The approximation around the steady state&lt;/h3&gt;
 &lt;p&gt;The behaviour of the dynamical system around the steady state can be approximated using a first-order Taylor expansion around it.
 In that sense:&lt;/p&gt;
@@ -2463,9 +3004,9 @@ Finally, the initial value of consumption $c_{0}$ that puts the economy in the s
     
     <item>
       <title>Example</title>
-      <link>https://eric-roca.github.io/courses/ramsey/ramsey_example/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_example/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/ramsey/ramsey_example/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_example/</guid>
       <description>&lt;p&gt;We can now completely solve an example.&lt;/p&gt;
 &lt;h2 id=&#34;utility-and-production-functions&#34;&gt;Utility and production functions&lt;/h2&gt;
 &lt;p&gt;We assume that utility is logarithmic and we take a Cobb-Douglas production function.&lt;/p&gt;
@@ -2519,7 +3060,7 @@ $$\frac{\partial \mathcal{L}}{\partial k_{t+1}} = -\lambda_{t} + \lambda_{t+1} (
 Moreover, factors are paid their marginal productivity.&lt;/p&gt;
 &lt;p&gt;$$r_{t} = F^{\prime}_{K_{t}}(K_{t}, L_{t}) = \alpha K_{t}^{\alpha - 1}L_{t}^{1-\alpha} = \alpha \left(\frac{K_{t}}{L_{t}}\right)^{\alpha - 1} = \alpha k_{t}^{\alpha -1},$$
 $$w_{t} = F^{\prime}_{L_{t}}(K_{t}, L_{t}) = (1-\alpha) K_{t}^{\alpha} L_{t}^{-\alpha} = (1-\alpha)\left(\frac{K_{t}}{L_{t}}\right)^{\alpha} = (1-\alpha) k_{t}^{\alpha}.$$&lt;/p&gt;
-&lt;p&gt;Alternatively, using the information in the &lt;a href=&#34;https://eric-roca.github.io/courses/math_app/homogenous_functions/#intensive-form&#34;&gt;Appendix&lt;/a&gt; and working directly with the intensive-form production function:&lt;/p&gt;
+&lt;p&gt;Alternatively, using the information in the &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/math_app/homogenous_functions/#intensive-form&#34;&gt;Appendix&lt;/a&gt; and working directly with the intensive-form production function:&lt;/p&gt;
 &lt;p&gt;$$r_{t} = f^{\prime}(k_{t}) = \frac{\partial f(k_{t})}{\partial k_{t}} = \alpha k_{t}^{\alpha -1},$$
 $$w_{t} = f(k_{t}) - f^{\prime}(k_{t})k_{t} = k_{t}^{\alpha} - \alpha k_{t}^{\alpha - 1} k_{t} = (1-\alpha)k_{t}^{\alpha}.$$&lt;/p&gt;
 &lt;h2 id=&#34;the-dynamic-system&#34;&gt;The dynamic system&lt;/h2&gt;
@@ -2545,7 +3086,7 @@ $$\bar{k}^{\alpha} + (1-\delta)\bar{k} = \bar{c} + \bar{k}.$$&lt;/p&gt;
 &lt;p&gt;Applying $\bar{k}$ in the second equation yields the steady-state level of consumption:&lt;/p&gt;
 &lt;p&gt;$$ \bar{c} = \left(\frac{\alpha \beta}{1-\beta (1-\delta)}\right)^{\frac{\alpha}{1-\alpha}} - \delta \left(\frac{\alpha \beta}{1-\beta (1- \delta)}\right)^{\frac{1}{1-\alpha}}.$$&lt;/p&gt;
 &lt;h2 id=&#34;stability&#34;&gt;Stability&lt;/h2&gt;
-&lt;p&gt;First, we analyse the stability of the steady state, as we did in the &lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/ramsey_steady_state/#stability&#34;&gt;general case&lt;/a&gt;
+&lt;p&gt;First, we analyse the stability of the steady state, as we did in the &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_steady_state/#stability&#34;&gt;general case&lt;/a&gt;
 Since we are using log-utility, the coefficient of relative risk aversion $\epsilon_{c} = 1.$&lt;/p&gt;
 &lt;p&gt;Instead of plugging the correct values in the Jacobian matrix $\bar{A}$, for the sake of clarity, we derive everything again:&lt;/p&gt;
 &lt;p&gt;$$\bar{A} = \begin{pmatrix}
@@ -2620,16 +3161,55 @@ For $t=0$ we have:&lt;/p&gt;
     </item>
     
     <item>
-      <title>Optimality</title>
-      <link>https://eric-roca.github.io/courses/olg/olg_optimality/</link>
+      <title>Export taxes</title>
+      <link>https://eric-roca.github.io/courses/international_trade/export_tax/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/olg/olg_optimality/</guid>
+      <guid>https://eric-roca.github.io/courses/international_trade/export_tax/</guid>
+      <description>&lt;h2 id=&#34;export-tariff&#34;&gt;Export tariff&lt;/h2&gt;
+&lt;p&gt;An export tax is the reverse tool of an export subsidy.
+When a country implements an export tax, producers shipping a product abroad have to pay a certain amount to the government.
+As usual, the tax can be &lt;em&gt;ad-valorem&lt;/em&gt; or specific.
+If the country that imposes an export tax is large, it will influence the world price of the good.
+In particular, the world price would increase, which improves the country&amp;rsquo;s terms of trade.
+Therefore, an export tariff can improve Home welfare (provided the country is large enough).&lt;/p&gt;
+&lt;h3 id=&#34;effects-of-an-export-tax&#34;&gt;Effects of an export tax&lt;/h3&gt;
+&lt;p&gt;When an export tax is implemented, exporting goods abroad is less profitable: now exporters must pay the tax.
+Consequently, less products are shipped abroad, creating an excess supply.
+This non-shipped production is channelled towards local consumption, which increases the local supply and pushes the local price down.
+The decrease in the local price benefits the consumers, but hurts producers (less exports and lower internal prices).
+This can be illustrated grphically as follows:
+&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Export_Tax_1.png&#34; alt=&#34;Export_Tax_1&#34;&gt;
+As can be seen, after the introduction of the expor tax, world supply is reduced and a new equilibrium emerges.
+Now, foreign consumers pay the full new equilibrium price $P^\star_S$.
+Local exporters gain, however, $P^\star_S - \tau = P_S$.
+Finally, since in equilibrium an exporter is indifferent between selling goods abroad (and gaining $P_S$) or selling domestically, we obtain that local consumers pay also $P_S.$
+Hence, at the new equilibrium:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The price received by exporters decreases&lt;/li&gt;
+&lt;li&gt;The price payed by local consumers decreases&lt;/li&gt;
+&lt;li&gt;Consequently, exports decrease&lt;/li&gt;
+&lt;li&gt;The price payed by foreign consumers increases&lt;/li&gt;
+&lt;li&gt;The government collects taxes.
+Graphically:
+&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Export_Tax_2.png&#34; alt=&#34;Export_Tax_2&#34;&gt;
+The total welfare change is given by comparing the net gains (brought about by government revenue, orange area) to welfare losses experienced by producers (blue area).
+&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Export_Tax_3.png&#34; alt=&#34;Export_Tax_3&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As with the case of an import tariff, we can show that, as long as a country can influence world prices, it is &lt;strong&gt;always&lt;/strong&gt; optimal the implement an export tax.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Optimality</title>
+      <link>https://eric-roca.github.io/courses/macroeconomics/olg/olg_optimality/</link>
+      <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/olg/olg_optimality/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Based on &lt;em&gt;de la Croix and Michel, Chapter 2&lt;/em&gt; and &lt;a href=&#34;http://web.econ.ku.dk/okocg/MAT-OEK/Mak%C3%98k2/Mak%C3%98k2-2016/Forel%C3%A6sninger/Ch%203-2016-1.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Gorth&amp;rsquo;s&lt;/em&gt;&lt;/a&gt; lecture notes.&lt;/p&gt;
 &lt;p&gt;The first welfare theorem states that a competitive equilibrium is Pareto optimal.
 However, the first welfare theorem has two requisites the Diamond model does not meet: a finite number of goods and a finite number of agents.
 Therefore, the allocation resulting from the competitive equilibrium may &lt;em&gt;not&lt;/em&gt; be Pareto optimal.&lt;/p&gt;
 &lt;h2 id=&#34;the-golden-rule-level-of-capital&#34;&gt;The golden-rule level of capital&lt;/h2&gt;
-&lt;p&gt;We begin the discussion by bringing back the idea of &lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/ramsey_remarks/#the-golden-rule&#34;&gt;over- and under-accumulation of capital&lt;/a&gt; we have seen before.
+&lt;p&gt;We begin the discussion by bringing back the idea of &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_remarks/#the-golden-rule&#34;&gt;over- and under-accumulation of capital&lt;/a&gt; we have seen before.
 In the Diamond model &amp;mdash;and different from the Ramsey model&amp;mdash;, the capital stock on the balanced growth path may exceed the golden-rule level.
 This implies that a permanent increase in consumption is possible.&lt;/p&gt;
 &lt;p&gt;When discussing the golden-rule level of capital, we are &lt;em&gt;not&lt;/em&gt; interested in how consumption is divided between the old and the young.
@@ -2717,9 +3297,9 @@ Using the resource constraint:&lt;/p&gt;
     
     <item>
       <title>Golden rule</title>
-      <link>https://eric-roca.github.io/courses/ramsey/ramsey_golden_rule/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_golden_rule/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/ramsey/ramsey_golden_rule/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_golden_rule/</guid>
       <description>&lt;h2 id=&#34;Golden-rule&#34;&gt;The Golden rule&lt;/h2&gt;
 &lt;p&gt;This capital level $\bar{k}$ is called the &lt;em&gt;modified&lt;/em&gt; Golden-rule level of capital.
 The adjective &lt;em&gt;modified&lt;/em&gt; comes from the fact that the Golden rule level of capital is the level of capital, $k^{\mathcal{GR}}$ that maximises consumption, $c$ at the steady state, thus achieving maximum consumption: $c^{\mathcal{GR}}.$&lt;/p&gt;
@@ -2746,10 +3326,87 @@ In that sense, achieving the Golden Rule level of capital $k^{\mathcal{GR}}$ is 
     </item>
     
     <item>
-      <title>Planner</title>
-      <link>https://eric-roca.github.io/courses/olg/olg_planner/</link>
+      <title>Non-tariff barriers</title>
+      <link>https://eric-roca.github.io/courses/international_trade/non-tariff_barriers/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/olg/olg_planner/</guid>
+      <guid>https://eric-roca.github.io/courses/international_trade/non-tariff_barriers/</guid>
+      <description>&lt;h2 id=&#34;non-tariff-barriers-to-trade&#34;&gt;Non-tariff barriers to trade&lt;/h2&gt;
+&lt;p&gt;Until now, all the trade measures we have analyzed implied changes in the prices faced by consumers or producers.
+However, governments can also influence trade by means of non-tariff barriers which do not operate on prices.
+The most common non-tariff barrier are quotas: a physical limit on the amont of goods that a can imported into a country.
+We shall analyze their effects, show that for the simplest case quotas and import tariffs are equivalent, and then show how more complex market structures affect the equivalency.
+Since non-tariff barriers tend to be more harmful than tariff barriers, the Uruguay round of the World Trade Organisation recommends the usage of tariff barriers instead of non-tariff barriers.
+Last, we shall mention some alternative non-tariff barriers that are reguarly employed.&lt;/p&gt;
+&lt;h2 id=&#34;import-quotas&#34;&gt;Import quotas&lt;/h2&gt;
+&lt;p&gt;An import quota limits the physical amount of goods that a country can import.
+In general, the government allows some local firms to import limited quantities of the good in question, which then they will resell in the local market.
+We focus on the simple case of small economy incapable of influencing world prices.
+Assuming that, when faced to international prices, Home imports a good $X$, a quota simply limits the quantity that can be imported.
+Therefore, the &lt;strong&gt;residual demand&lt;/strong&gt;, this is, the part of Home&amp;rsquo;s demand not covered by imports will be served by local producers.
+Thus, if local demand is $D(p)$ and a quota $Q$ is in place, at world prices $p^w$ demand is $D(p^w)$.
+However, only $Q$ can be imported, and the remaining $D(p^w)-Q$ demand is served by local firms.
+The relevant equilibrium price $p^\star$ equalises the residual demand with the local supply: firms that obtained the import rights have no interest in selling at a lower price.
+Thus, local demand is $D(p^\star)$.
+Graphically:
+&lt;img src=&#34;https://eric-roca.github.io/img/internatioal_trade/Quota.png&#34; alt=&#34;Quota&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The Figure above does directly represent the total welfare loss (dashed area), where we have already subtracted the benefits that accrue to quota-holders (dotted).
+The main difference between a quota and tariff is that, with a tariff, the proceedings revert to the government.
+However, with a quota, firms that import goods cash the difference between the world price ($p^w$) and the local price ($p^\star$).&lt;/p&gt;
+&lt;p&gt;Considering that, besides a redistribution from the government to quota-holders, the effects of a quota are identical to those of an import tariff, it is no surprise that both instruments are equivalent.
+This is, given a tariff level, we can compute a quota that will have exactly the same effects, and the reverse.
+Nevertheless, the analysis changes once we consider dynamics effects and imperfect competition.&lt;/p&gt;
+&lt;h3 id=&#34;dynamic-effects-of-a-quota&#34;&gt;Dynamic effects of a quota&lt;/h3&gt;
+&lt;p&gt;Suppose that, for whatever reason, local demand increases.
+In the presence of tariff, very little happens: the world price remains unchanged (small country hypothesis), imports increase because of the rising demand, and the government revenue increases because of higher imports.
+If the increase in demand is a parallel shift, welfare losses remain unchanged.
+&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Demand_Shift.png&#34; alt=&#34;Demand_Shift&#34;&gt;&lt;/p&gt;
+&lt;p&gt;In contrast, a quota limits the quantity that can imported into the country.
+Therefore, when demand increases, the residual demand that is left to be served by local producers increases as well: the quota remained the same.
+Thus, the local price increases more than before, which further reduces consumers surplus.
+As we can see, the additional increase in producers&#39; surplus does not completely compensate the harm done to consumers, and total welfare declines more than it would with a tariff.
+&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Demand_Shift_Quota.png&#34; alt=&#34;Demand_Shift_Quota&#34;&gt;
+As mentioned, with the quota, the local price increases more when the demand shifts.&lt;/p&gt;
+&lt;p&gt;Summarizing, when a small country with an import tariff experinces an expanding demand, the welfare losses do not change.
+The only thing that changes is that improts increase, together with tariff income.
+However, with a quota, the local price increases more.
+Hence, in a &lt;strong&gt;dynamic setup&lt;/strong&gt;, tariffs and quota are no longer equivalent.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;With an increasing demand:
+&lt;ul&gt;
+&lt;li&gt;An import tariff implies more imports and a constant price, with an increase in government revenue.&lt;/li&gt;
+&lt;li&gt;An import quota implies constant imports and an increase in prices, with a increase in quota-holders&#39; rents.
+&lt;strong&gt;Note:&lt;/strong&gt; quantitive restrictions, like a quota, tend to remain constant over time in developing countries.
+Consequently, the import limitations becomes more stringent with time, and its pervasive effects more important.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;imperfect-competition-and-import-quotas&#34;&gt;Imperfect competition and import quotas&lt;/h3&gt;
+&lt;p&gt;Suppose that the local market is served by a monopoly, Home is a small open economy that imports a good.
+Supose also that the government has introduced an import tariff at level $\tau.$
+What is the optimal behaviour of the monopolist?
+Since there are no restrictions in the number of goods that can be imported, the monopolist is forced by competition to charge a price equal to $p^w(1+\tau).$
+Otherwise, if he charged less, he would sell zero as all consumers would turn to imports.
+Also, the monopolist has no interest in selling at a price lower than $p^w(1+\tau).$
+So, by opening the country to international trade, the monopoly lost it power, and it is forced to operate as if under perfect competition.
+&lt;strong&gt;Note:&lt;/strong&gt; in fact, we have Bertrant competition.
+Graphically, the situation is the same as for trade with a tariff:
+&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Monopoly_Tariff.png&#34; alt=&#34;Monopoly_Tariff&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Now, suppose that we introduce a quota that is equivalent to the above tariff.
+With the quota in place, things are different.
+Since only few goods can enter the country, as determined by the quota, the residual demand will be served by the local producers: the monopoly.
+So, the monopoly will maximise its profits equating the marginal revenue to the marginal cost (see your notes from microeconomics).
+This implies a price that is higher than under perfect competition, and the quantity supplied is lower.
+Lastly, the firms that hold quota rights will sell the imports at the same price as the monopoly: selling above will lead to zero demand, while selling below does not maximize profits.
+In graphical terms:
+&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Monopoly_Quota.png&#34; alt=&#34;Monopoly_Quota&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Planner</title>
+      <link>https://eric-roca.github.io/courses/macroeconomics/olg/olg_planner/</link>
+      <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/olg/olg_planner/</guid>
       <description>&lt;p&gt;Suppose now, instead, that a central planner is in charge of organising consumption and investment for all individuals.
 The planner operates by aggregating individual utility, discounting future generations at the rate $\gamma.$&lt;br/&gt;
 &lt;strong&gt;Note:&lt;/strong&gt; $\gamma$ is the discount rate of future &lt;em&gt;generations&lt;/em&gt;, not how young people discount old-age utility.&lt;/p&gt;
@@ -2790,15 +3447,15 @@ we can easily characterise the steady state knowing that $d_t = d_{t+1} = \bar{d
 &lt;p&gt;$$f^\prime (\bar{k}) = \frac{1+n}{\gamma}+1-\delta.$$&lt;/p&gt;
 &lt;p&gt;This equation provides us with the modified golden rule: the level of capital that maximises the planner&amp;rsquo;s utility.
 Clearly, if $\gamma=1$, the planner attributes the same weight to all generations and we recover the golden rule: $f^\prime(k) = n + \delta.$
-As we discussed &lt;a href=&#34;https://eric-roca.github.io/courses/olg/olg_optimality/&#34;&gt;before&lt;/a&gt;, it is quite &lt;em&gt;unlikely&lt;/em&gt; the decentralised equilibrium converges towards the golden rule (modified or not).&lt;/p&gt;
+As we discussed &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/olg/olg_optimality/&#34;&gt;before&lt;/a&gt;, it is quite &lt;em&gt;unlikely&lt;/em&gt; the decentralised equilibrium converges towards the golden rule (modified or not).&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Debt and public expenditures</title>
-      <link>https://eric-roca.github.io/courses/olg/olg_government/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/olg/olg_government/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/olg/olg_government/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/olg/olg_government/</guid>
       <description>&lt;p&gt;Based on &lt;em&gt;de la Croix and Michel, Chapter 4.4&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id=&#34;the-ricardian-equivalence&#34;&gt;The Ricardian equivalence&lt;/h2&gt;
 &lt;p&gt;The Ricardian equivalence states that forward-looking agents internalise the government&amp;rsquo;s budget constraint when deciding.
@@ -2911,7 +3568,7 @@ Hence, we assume that:&lt;/p&gt;
 $$&lt;/p&gt;
 &lt;p&gt;Using the fact that $R(k) = 1 + r(k) - \delta$ we can rewrite the numerator as:&lt;/p&gt;
 &lt;p&gt;$$s^\prime_{\omega}\left(\frac{r(\bar{k}) -n - \delta}{1+n}\right)+1=s^\prime_\omega \left(\frac{R(\bar{k})-1-n}{1+n}\right)+1 = 1 - \underbrace{s^{\prime}_\omega}_{\in (0,1)} + \underbrace{s^\prime_\omega}_{&amp;gt;0} \frac{R(\bar{k})}{1+n} &amp;gt; 0.$$&lt;/p&gt;
-&lt;p&gt;We showed that $s^\prime_{\omega} \in (0,1)$ when we discussed &lt;a href=&#34;https://eric-roca.github.io/courses/olg/olg_savings_function/#the-effect-of-wages&#34;&gt;the savings function.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We showed that $s^\prime_{\omega} \in (0,1)$ when we discussed &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/olg/olg_savings_function/#the-effect-of-wages&#34;&gt;the savings function.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Then, we have that&lt;/p&gt;
 &lt;p&gt;$$\frac{\partial \bar{k}}{\partial b} = - \frac{s^\prime_{\omega}\left(\overbrace{1-s^\prime_\omega+s^\prime_\omega\frac{R(\bar{k})}{1+n}}^{&amp;gt;0}\right)}{\underbrace{1+n-s^\prime_\omega \left(\omega^\prime(\bar{k})-b\frac{r^\prime(\bar{k})}{1+n}\right)-s^\prime_R R^\prime(\bar{k})}_{&amp;gt;0, \mathrm{because, of, stability}}}&amp;lt; 0 .$$&lt;/p&gt;
 &lt;p&gt;We proceed similarly with $g$:&lt;/p&gt;
@@ -2993,11 +3650,11 @@ In that (unlikely) case, a unique steady state arises, but it is non-hyperbolic 
     
     <item>
       <title>Last remarks</title>
-      <link>https://eric-roca.github.io/courses/ramsey/ramsey_remarks/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_remarks/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/ramsey/ramsey_remarks/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_remarks/</guid>
       <description>&lt;h2 id=&#34;optimality&#34;&gt;Optimality&lt;/h2&gt;
-&lt;p&gt;Before &lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/ramsey_steady_state/#Golden-rule&#34;&gt;we claimed&lt;/a&gt; that the solution is &lt;em&gt;optimal&lt;/em&gt; despite the fact that it does not maximise consumption at the steady state.
+&lt;p&gt;Before &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_steady_state/#Golden-rule&#34;&gt;we claimed&lt;/a&gt; that the solution is &lt;em&gt;optimal&lt;/em&gt; despite the fact that it does not maximise consumption at the steady state.
 However, what we claimed was that the &lt;em&gt;entire path&lt;/em&gt; was optimal.
 We can prove it by solving the Ramsey allocation problem from the perspective of the social planner.&lt;/p&gt;
 &lt;h3 id=&#34;social-planner&#34;&gt;Social planner&lt;/h3&gt;
@@ -3037,7 +3694,7 @@ Therefore, the current utility cost of a reduction in consumption is larger the 
 Because of the discount rate, the utility gains from an eventual permanent increase in consumption are bounded.&lt;/p&gt;
 &lt;p&gt;All in all, the economy converges to a value $\bar{k}$ below the steady state.
 Because $\bar{k}$ is the optimal level of $k$ for the economy to converge to, it is known as the &lt;em&gt;modified Golden-rule&lt;/em&gt; capital stock.&lt;/p&gt;
-&lt;p&gt;We &lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/ramsey_steady_state/#Golden-rule&#34;&gt;had already noticed&lt;/a&gt; that the discount factor $\beta$ prevents the economy from reaching the Golden-rule level of capital.
+&lt;p&gt;We &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_steady_state/#Golden-rule&#34;&gt;had already noticed&lt;/a&gt; that the discount factor $\beta$ prevents the economy from reaching the Golden-rule level of capital.
 According to our computation, the Golden-rule level of capital is only attained if $\beta = 1.$
 This implies that present and future consumption are valued the same, which complements the discussion above.&lt;/p&gt;
 </description>
@@ -3045,25 +3702,25 @@ This implies that present and future consumption are valued the same, which comp
     
     <item>
       <title>Papers using the OLG model</title>
-      <link>https://eric-roca.github.io/courses/olg/olg_papers/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/olg/olg_papers/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/olg/olg_papers/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/olg/olg_papers/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;This section revisits some papers that use the OLG framework to assess different types of outcomes:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Fertility and population dynamics
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://eric-roca.github.io/courses/olg/papers/de_la_croix_dottori__2008/&#34;&gt;de la Croix, D., Dottori, D. Easter Island’s collapse: a tale of a population race. J Econ Growth 13, 27–55 (2008).&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/olg/papers/de_la_croix_dottori__2008/&#34;&gt;de la Croix, D., Dottori, D. Easter Island’s collapse: a tale of a population race. J Econ Growth 13, 27–55 (2008).&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Education
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://eric-roca.github.io/courses/olg/papers/galor_moav__2006/&#34;&gt;Oded Galor, Omer Moav, Das Human-Kapital: A Theory of the Demise of the Class Structure, The Review of Economic Studies, Volume 73, Issue 1, January 2006, Pages 85–117.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/olg/papers/galor_moav__2006/&#34;&gt;Oded Galor, Omer Moav, Das Human-Kapital: A Theory of the Demise of the Class Structure, The Review of Economic Studies, Volume 73, Issue 1, January 2006, Pages 85–117.&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Population characteristics
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://eric-roca.github.io/courses/olg/papers/galor_ozak__2016/&#34;&gt;Galor, Oded, and Ömer Özak. 2016. &amp;ldquo;The Agricultural Origins of Time Preference.&amp;rdquo; American Economic Review, 106 (10): 3064-3103.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/olg/papers/galor_ozak__2016/&#34;&gt;Galor, Oded, and Ömer Özak. 2016. &amp;ldquo;The Agricultural Origins of Time Preference.&amp;rdquo; American Economic Review, 106 (10): 3064-3103.&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -3072,9 +3729,9 @@ This implies that present and future consumption are valued the same, which comp
     
     <item>
       <title>de la Croix and Dottori, 2008</title>
-      <link>https://eric-roca.github.io/courses/olg/papers/de_la_croix_dottori__2008/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/olg/papers/de_la_croix_dottori__2008/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/olg/papers/de_la_croix_dottori__2008/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/olg/papers/de_la_croix_dottori__2008/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;This paper analyses the very distinct population patterns of two remote islands in the Pacific Ocean: Eastern Island and Tikopia.
 While Tikopians managed to control population growth and natural resources usage, the inhabitants of Eastern Island engaged in clan competition for the control of resources, leading to overpopulation and overexplotation of resources.&lt;/p&gt;
@@ -3193,7 +3850,7 @@ $$n^\star_{2,t} = \left(\frac{N_{1,t}}{N_{2,t}}\right)^\frac{1}{3} \implies N_{2
 &lt;p&gt;It is simpler to solve the corresponding linearised system, which we can obtain by taking logarithms:
 $$\tilde{N}_{i,t+1} = \frac{2}{3}\tilde{N}_{i,t} + \frac{1}{3} \tilde{N}_{j,t},$$
 where $\tilde{N} = \log N.$&lt;/p&gt;
-&lt;p&gt;Using the technique proposed in the &lt;a href=&#34;https://eric-roca.github.io/courses/ramsey/ramsey_trajectory/&#34;&gt;Ramsey model&lt;/a&gt; we can obtain the dynamics of the logarithmic system:&lt;/p&gt;
+&lt;p&gt;Using the technique proposed in the &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_trajectory/&#34;&gt;Ramsey model&lt;/a&gt; we can obtain the dynamics of the logarithmic system:&lt;/p&gt;
 &lt;p&gt;$$\tilde{N}_{i,t} = \frac{\tilde{N}_{i,0} + \tilde{N}_{j,0}}{2} + \frac{1}{2} 3^{-t}\left( \tilde{N}_{i,0} - \tilde{N}_{j,0} \right).$$
 The steady state level of population, for each group is
 $$\bar{N}_i = \bar{N}_j = \sqrt{N_{1,0}}\sqrt{N_{2,0}},$$&lt;/p&gt;
@@ -3216,9 +3873,9 @@ For instance, if we take the following parametrisation $N_{1,0} = 9, N_{2,0} = 2
     
     <item>
       <title>Galor and Moav, 2006</title>
-      <link>https://eric-roca.github.io/courses/olg/papers/galor_moav__2006/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/olg/papers/galor_moav__2006/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/olg/papers/galor_moav__2006/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/olg/papers/galor_moav__2006/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;This paper presents an OLG model to explain the rise of publicly financed education and the transition from a class structure characterised by capitalists and workers to another one where all individuals are capitalists.
 The papers undefined that the demise of the class structure was a deliberate action from the part of the capitalists to sustain their profits as human capital became more and more important in the production process.
@@ -3384,9 +4041,9 @@ Instead of detailing the exact process (check the reference), we will simulate t
     
     <item>
       <title>Galor and Özak, 2016</title>
-      <link>https://eric-roca.github.io/courses/olg/papers/galor_ozak__2016/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/olg/papers/galor_ozak__2016/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/olg/papers/galor_ozak__2016/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/olg/papers/galor_ozak__2016/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;In this paper, Galor and Özak show empirically how differences in time preference (how much people discount the future) has an agricultural origin.
 This is important for development, because those who save more are the individuals who are more patient, this is, who are more future-oriented.
