@@ -411,7 +411,7 @@ Differences in this frontier give rise to trade.&lt;/li&gt;
 Suppose there are only two countries in the world, Home (H) and Foreign (F), and that two products are produced in each country, Food (F) and Clothing (C).
 Of course, each sector is equipped with a unique technology, and in principle, technologies can be different in different countries.
 Underlying these production functions, we have production factors.
-For instance, in the Heckschre-Ohlin model we had two production factors: Capital (K) and Labour (L).&lt;/p&gt;
+For instance, in the Heckscher-Ohlin model we had two production factors: Capital (K) and Labour (L).&lt;/p&gt;
 &lt;h3 id=&#34;drawing-the-production-possibility-frontier-ppf&#34;&gt;Drawing the production possibility frontier (PPF)&lt;/h3&gt;
 &lt;p&gt;The possibility frontier is a function that relates the quantities produced in each sector when the production processes use the same finite resources.
 This is, in our case, the PPF indicates how many units of Food the economy can produce considering that it is currently producing $C$ units of clothing.
@@ -421,7 +421,7 @@ Of course, we assume that production is efficient, this is, the production facto
 $$Q_F = H(K_F, L_F), \mathrm{and}, Q_C = G(K_C,L_C).$$
 Since the economy uses all the available resources, we also have that
 $$K = K_F + K_C, \mathrm{and}, L = L_F + L_C.$$&lt;/p&gt;
-&lt;p&gt;This process is a bit convulated if we use generic functions.
+&lt;p&gt;This process is a bit convoluted if we use generic functions.
 However, we first describe the general process and then go through the details using an example.
 The general objective is to find the maximum amount of good $F$ that the economy can produce considering that it is already producing $C$ units of clothing.
 Moreover, we shall assume that production of $C$ is efficient.
@@ -433,7 +433,7 @@ Hence, we are really solving the following constrained maximisation problem for 
 &amp;amp;K=K_F + K_C, \\\
 &amp;amp;L = L_F + L_C.
 \end{align}$$&lt;/p&gt;
-&lt;p&gt;If we solve for the associated Lagrangean, we obtain the condition:&lt;/p&gt;
+&lt;p&gt;If we solve for the associated Lagrangian, we obtain the condition:&lt;/p&gt;
 &lt;p&gt;$$\frac{H_{K_F}}{H_{L_F}} = \frac{G_{K_C}}{G_{L_C}}.$$
 And since $K=K_F + K_C$ and $L = L_F + L_C$
 $$\frac{H_{K-K_C}}{H_{L-L_C}} = \frac{G_{K_C}}{G_{L_C}}.$$&lt;/p&gt;
@@ -451,7 +451,7 @@ Or, after some simplifications,
 $$\frac{1}{2}\frac{L_F}{K_F} = \frac{L_C}{K_C} \implies 2 L_C K_F = L_F K_C.$$
 Since $K=K_F + K_C$ and $L = L_F + L_C$, we have,
 $$2 L_C (K - K_C) = (L - L_C) K_C \implies L_C = \frac{L K_C}{2K - K_C}.$$
-Finally, we can subsitute everything in the production functions to obtain the parametric functions:&lt;/p&gt;
+Finally, we can substitute everything in the production functions to obtain the parametric functions:&lt;/p&gt;
 &lt;p&gt;$$\begin{align}
 (Q_C,\, Q_F) &amp;amp;= \left(G(K_C, L_C),\, H(K_F, L_F)\right) = \\\
 &amp;amp;=\left(G\left(K_C, \frac{L K_C}{2K - K_C}\right),\, H\left(K-K_F, L-\frac{L K_C}{2K - K_C}\right)\right) = \\\
@@ -469,7 +469,7 @@ If we assume, for a second, that the economy counts with $10$ units of labour $(
 &lt;h3 id=&#34;deciding-how-much-to-produce&#34;&gt;Deciding how much to produce&lt;/h3&gt;
 &lt;p&gt;The PPF only indicates all the possible combinations of clothing and food that the economy can produce.
 For instance, points such as $A$ and $B$ are feasible, so is any other point on the PPF.
-The point at which the econony produces depends on the relative price of cloth relative to food: $\frac{P_C}{P_F}.$
+The point at which the economy produces depends on the relative price of cloth relative to food: $\frac{P_C}{P_F}.$
 In particular, for prices $P_C$ and $P_F$, the economy will maximise the value of its total production, this is, the economy maximises
 $$V = Q_C P_C + Q_F P_F.$$
 Levels $V$ are called isovalue lines: combinations of $Q_C$ and $Q_F$ that produce the same value $V.$&lt;/p&gt;
@@ -508,7 +508,7 @@ If we compute the how $Q_C$ changes with a change in $P_C$ we obtain:&lt;/p&gt;
 &lt;p&gt;$$\frac{\partial Q_C}{\partial P_C} = - \frac{1}{P_F F^{\prime \prime}(Q_C)}.$$
 Looking at the form of $F(Q_C)$, we know that $F^{\prime \prime}(Q_C)$ is negative ($F^{\prime \prime}(Q_C)$), and therefore,
 $$\frac{\partial Q_C}{\partial P_C} = - \frac{1}{P_F F^{\prime \prime}(Q_C)} &amp;gt; 0.$$
-So, as the intuition suggested, when the price of clothing increases, the economy produces more ot if.
+So, as the intuition suggested, when the price of clothing increases, the economy produces more of it.
 We could also show that the quantity of food decreases.
 Hence, the relative supply of cloth $\left(\frac{Q_C}{Q_F}\right)$ increases.
 Finally, we can draw the relative supply curve of the economy, this is, how $\left(\frac{Q_C}{Q_F}\right)$ changes when the relative price $\left(\frac{P_C}{P_F}\right)$ changes.
@@ -525,9 +525,9 @@ These indifferences curves have three main properties:&lt;/p&gt;
 &lt;p&gt;Mathematically, we can write the indifference curves by plotting $\bar{U} = U(Q_C, Q_F)$ for different values of $\bar{U}$, where $U(\cdot, \cdot)$ represents the utility function.
 The next Figure plots several indifference curves, with values $\bar{U} = {1, 1.2, 1.4}$ and using $U(Q_C, Q_F) = \log(Q_C)+\log(Q_F).$&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Indifference_curves.png&#34; alt=&#34;Indifference&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Considering that the economy can trade at the prices $P_C,\, P_F$, individuals will optimize accoring to them.
+&lt;p&gt;Considering that the economy can trade at the prices $P_C,\, P_F$, individuals will optimize according to them.
 Hence, they will choose a consumption bundle such that utility is maximal and tangent to the relative price line.&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;
-&lt;em&gt;Note:&lt;/em&gt; without trade, the efficient point will be one such that the PPF and the indiference curves are tangent, which would determine the prices within the country.
+&lt;em&gt;Note:&lt;/em&gt; without trade, the efficient point will be one such that the PPF and the indifference curves are tangent, which would determine the prices within the country.
 Hence, given prices $P_C$ and $P_F$, consumers maximize:&lt;/p&gt;
 &lt;p&gt;$$\begin{align}
 &amp;amp;\max_{Q_C,\, Q_F} U(Q_C,\, Q_F) \\\
@@ -591,11 +591,11 @@ Similarly, if it is our country the one that grows, we also have opposite effect
 First, economic growth means that we can produce more of all goods, so that PPF moves outwards.
 However, growth typically benefits more one sector than the others: we call this &lt;strong&gt;biased growth&lt;/strong&gt;.
 Graphically, it means that the PPF moves outwards much more for one sector than the other.
-The figure below depicts and exagerated case.
+The figure below depicts and exaggerated case.
 What is really important is that, for unchanged relative prices, the economy produces more of the good in which there is a bias and less of the other.
 For instance, if there is biased growth in terms of clothing, the economy will produce more clothing and less food.
 We can intuitively see this by studying the optimisation problem.
-Before, we have established that we can write the amount of labour in each sector as a funcion of capital: $L_C = L(K_C).$
+Before, we have established that we can write the amount of labour in each sector as a function of capital: $L_C = L(K_C).$
 We also know that capital and labour not employed in the clothing industry will be used in the food industry, hence $K_F = K - K_C$ and $L_F = L - L_C = L - L(K_C).$
 Thus, in fact, given the relative price, the economy only has to determine how much capital to allocate to the clothing sector, and optimality conditions will tell us how much labour we shall allocate to it.
 Lastly, market clearing will indicate the amounts of capital and labour in the food sector.
@@ -607,13 +607,13 @@ $$\begin{align}
 &amp;amp;\frac{\partial p F\left(K_C, L(K_C)\right) + G\left(K - K_C, L - L(K_C)\right)}{\partial K_C} = 0 \implies \\\
 &amp;amp;\implies p\left[F^\prime_K + F^\prime_L L^\prime\right] = G^\prime_K + G^\prime_L L^\prime.
 \end{align}$$&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Biased&lt;/strong&gt; technological growth implies unequal producitivity growth, this is, the productivity increases much more in the clothing sector than in the food sector.
-Mathematically, this means that the deriviates $F^\prime$ increase much more than the $G^\prime.$
+&lt;p&gt;&lt;strong&gt;Biased&lt;/strong&gt; technological growth implies unequal productivity growth, this is, the productivity increases much more in the clothing sector than in the food sector.
+Mathematically, this means that the derivatives $F^\prime$ increase much more than the $G^\prime.$
 If the relative price $p$ remains constant, there is an imbalance in the equation: the left-hand side is larger than the right-hand side.
 To rebalance it, we shall make $F^\prime$ decrease and $G^\prime$ increase, and this happens when $K_C$ increases.
 So, with more capital in the clothing sector, the economy clearly produces more clothing and less food.
 &lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Biased_growth.png&#34; alt=&#34;Biased_growth&#34;&gt;
-Of course, biased growth towards clothing implies an increase in the relative supply (of clothing), while an biased growth towards food implies a decrease in the relative supply (of clothin).
+Of course, biased growth towards clothing implies an increase in the relative supply (of clothing), while an biased growth towards food implies a decrease in the relative supply (of clothing).
 So we can now answer our question:
 Suppose Home grows, and the growth is biased towards clothing.
 Hence, Home&amp;rsquo;s relative supply of clothing increases at any given set of relative prices.
@@ -621,21 +621,37 @@ This also implies that the world relative supply of clothing will increase, movi
 As a result of that shift, in equilibrium, the new relative price of clothing decreases.
 If Home exported clothing, a lower relative price of clothing worsens its terms of trade, and it improve Foreign&amp;rsquo;s terms of trade (it exports food).
 &lt;strong&gt;Remark:&lt;/strong&gt; it does not really matter which country grows, but the direction of growth.
-Growth biased towards the good that Home exports always worsens Home&amp;rsquo;s terms of trade; while any growth biased in the good that Home imports improves Home&amp;rsquo;s terms of trade.
-So, any country growing in the sector that Home exports (including Home&amp;rsquo;s growth) negatively affects Home&amp;rsquo;s terms of trade, and negatively impacts welfare in Home.
-By the same token, any growth in the sector that Home imports (including Home&amp;rsquo;s growth) positively affects Home&amp;rsquo;s terms of trade, and positively impacts welfare in Home.&lt;/p&gt;
+Growth biased towards the good that Home exports always worsens Home&amp;rsquo;s terms of trade; while any growth biased in the good that Home imports improves Home&amp;rsquo;s terms of trade.&lt;/p&gt;
 &lt;h3 id=&#34;effects-of-economic-growth&#34;&gt;Effects of economic growth&lt;/h3&gt;
-&lt;p&gt;During the 1950s, there were concerns about the implications of poor nations&#39; economic growth.
+&lt;p&gt;We can now analyse the effects of economic growth on welfare.&lt;/p&gt;
+&lt;h4 id=&#34;the-rest-of-the-world-grows&#34;&gt;The rest of the world grows&lt;/h4&gt;
+&lt;p&gt;Suppose first that the rest of the world is growing.
+If the growth is export-biased, this is, growth occurs in their exporting sector, this is good for us.
+The reason is that it improves our terms of trade: the good we import is cheaper, and welfare at home increases.&lt;/p&gt;
+&lt;p&gt;If, instead, their growth is import-biased (in the sense that they grow in the sector Foreign imports), it worsens our terms of trade: the rest of the world is growing in the sector we export.
+Thus, welfare at home decreases.&lt;/p&gt;
+&lt;h4 id=&#34;home-grows&#34;&gt;Home grows&lt;/h4&gt;
+&lt;p&gt;Let&amp;rsquo;s focus now on what happens we Home grows.
+If the growth is import-biased, then these are goods news as we are growing in the sector we imported, reducing its price and improving our terms of trade.
+The interesting case is what happens when growth at Home is export-biased.
+On the one hand, this reduces our terms of trade and decreases welfare at home.
+However, on the other hand, Home produces more and can export more goods, which is good.
+In general, the increase in exports compensates the decrease in the relative price.
+&lt;strong&gt;Only&lt;/strong&gt; when growth is extremely biased such that the price of the good really falls, then we can have immiserising growth.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Immiserising growth
+In any case, during the 1950s, there were concerns about the implications of poor nations&#39; economic growth.
 Poor countries exported mostly raw materials, and growth in these countries was expected to be specially intense in the extractive sectors.
 This would, of course, hurt their terms of trade because these countries would experience export-biased growth.
 At the same time, it was likely that developed countries could create synthetic substitutes for imported raw materials, hence these countries will be import-biased growing, improving their terms of trade and worsening those of poor economies.
 To some, the growth of the poor economies will be make them actually worse, this is, poor economies would be better off not growing at all, insofar as export-biased growth was harmful for them.
-Although the possibility can arise from a theoretical model, Bhagwati (1958) shows that it only materialises when strong export-biased growth is combined with vey steep RS and RD curves.&lt;/p&gt;
+Although the possibility can arise from a theoretical model, Bhagwati (1958) shows that it only materialises when strong export-biased growth is combined with vey steep RS and RD curves.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
 &lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;This family of models can be enlarged by including the &lt;em&gt;specific factors model&lt;/em&gt;, which features different productive factors, like the Heckscher-Ohlin, but some of these factors are inmobile between sectors.
+&lt;p&gt;This family of models can be enlarged by including the &lt;em&gt;specific factors model&lt;/em&gt;, which features different productive factors, like the Heckscher-Ohlin, but some of these factors are immobile between sectors.
 For instance, land can only be used in agriculture.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
