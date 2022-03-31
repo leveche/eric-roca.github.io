@@ -1083,7 +1083,7 @@ Most papers assume that parents derive some utility from having children.
 However, in de la Croix and Dottori, fertility is the result of a Nash bargaining process for the control of resources.
 In particular, a larger population, facilitated by having more children, raises the value of the fallback option during the negotiation process.
 Consequently, individuals optimally decide to have more children, because this implies a better bargaining position.
-In this sense, equilibrium-level fertility rates result from the complementarities between different groups&#39; fertility decisions.
+In this sense, equilibrium-level fertility rates result from the complementarities between different groups&amp;rsquo; fertility decisions.
 However, the externalities of a higher fertiltiy rate are not internalised and, in the long run, population explodes, leading to a natural catastrophe.&lt;/p&gt;
 &lt;h3 id=&#34;historical-data&#34;&gt;Historical data&lt;/h3&gt;
 &lt;p&gt;Based on data from archaeological studies, it has been estimated that the population of Eastern Island increased very little between 400CE (100 people by that time) and 110CE, and from then on, it exploded, reaching 10000 people during 1400-1600CE.
@@ -1297,7 +1297,7 @@ and human capital evolves as:&lt;/p&gt;
 &lt;p&gt;Last, the level of $k_t = \frac{K_t}{H_t}$ is:&lt;/p&gt;
 &lt;p&gt;$$k_{t+1} = \frac{K_{t+1}}{H_{t+1}} = \frac{(1-\tau_t)B_t}{h(\tau_t B_t)} = \frac{(1-\tau_t)B_t}{ 1 + \frac{\tau_t B_t}{1 + \tau_t B_t}}= k(\tau_t, B_t).$$&lt;/p&gt;
 &lt;h2 id=&#34;optimal-level-of-taxation&#34;&gt;Optimal level of taxation&lt;/h2&gt;
-&lt;p&gt;The paper assumes that the government selects the tax rate that maximises individuals&#39; utility.
+&lt;p&gt;The paper assumes that the government selects the tax rate that maximises individuals&amp;rsquo; utility.
 One important feature of the model is that utility is increasing in income $I^i_{t+1}$.
 We can easily check this by rewriting the indirect utility:
 $$

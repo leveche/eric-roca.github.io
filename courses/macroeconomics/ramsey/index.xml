@@ -407,7 +407,7 @@ $$G(1) =  \beta f^{\prime \prime}(\bar{k})\frac{\bar{c}}{\epsilon_{\bar{c}}} &am
 &lt;p&gt;Hence, $\exists \lambda_{2} \in (-1,0)$ such that $G(\lambda_{2}) = 0$.
 The second root lies beyond $1.$
 Therefore, $\lambda_{1} &amp;gt; 1, \lambda_{2}\in(0,1)$ and the &lt;strong&gt;steady state is a saddle.&lt;/strong&gt;&lt;/p&gt;
-&lt;h4 id=&#34;use-eigenvalues-properties&#34;&gt;Use eigenvalues&#39; properties&lt;/h4&gt;
+&lt;h4 id=&#34;use-eigenvalues-properties&#34;&gt;Use eigenvalues&amp;rsquo; properties&lt;/h4&gt;
 &lt;p&gt;For any matrix, we have the following:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;The product of eigenvalues equals the &lt;strong&gt;determinant&lt;/strong&gt; of the matrix: $\mathrm{det}(M) = \lambda_{1} \lambda_{2} \ldots \lambda_{N},$&lt;/li&gt;

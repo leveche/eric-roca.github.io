@@ -335,7 +335,7 @@
   
   
   
-  <script src="/js/wowchemy-init.min.a8a181ea67095ef9fbb0e99ffbf585a0.js"></script>
+  <script src="/js/wowchemy-init.min.a51496bb11faf70d3d51b9ed4b3f6f08.js"></script>
 
   
 
@@ -851,6 +851,22 @@
     <li><a href="#tariffs">Tariffs</a></li>
     <li><a href="#tariffs-in-a-small-open-economy">Tariffs in a small, open economy</a></li>
     <li><a href="#tariffs-in-a-large-economy">Tariffs in a large economy</a></li>
+    <li><a href="#example">Example</a>
+      <ul>
+        <li><a href="#assume-that-exporters-pay-the-tariff">Assume that exporters pay the tariff</a></li>
+        <li><a href="#assume-that-consumers-pay-the-tariff">Assume that consumers pay the tariff</a></li>
+        <li><a href="#find-the-gap">Find the gap</a></li>
+      </ul>
+    </li>
+    <li><a href="#the-optimal-tariff">The optimal tariff</a>
+      <ul>
+        <li><a href="#the-international-price">The international price</a></li>
+        <li><a href="#consumers-surplus">Consumers&rsquo; surplus</a></li>
+        <li><a href="#producers-surplus">Producers&rsquo; surplus</a></li>
+        <li><a href="#government">Government</a></li>
+        <li><a href="#maximize-total-surplus">Maximize total surplus</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
@@ -972,18 +988,18 @@ For a small country, this was a net loss for consumers.
 So, if a country is able to pass onto the foreign market a relatively large part of the burden imposed by a tariff, it may be better off with an import tariff than without.
 Graphically:
 <img src="/img/international_trade/Tariff_in_Large_Country_2.png" alt="Tariff_Large_Country">
-As before, the consumer&rsquo;s loss (blue) is partly compensated by the producers' increase in welfare (orange) and government revenue (green).
+As before, the consumer&rsquo;s loss (blue) is partly compensated by the producers&rsquo; increase in welfare (orange) and government revenue (green).
 However, a large country clearly passes away part of the losses (red), which are collected as tariffs.
 Then, it is possible for the red area to compensate the two blue triangles that are still lost by the consumers.</p>
 <p>In fact, we can show that the optimal tariff is always positive
 As we have seen, when a country introduces a tariff of value $\tau$, a fraction of it is passed to foreign exporters and the remaining is repercuted onto the consumers.
 To simplify, suppose that, after the tariff $\tau$ is introduced, consumers at Home end up paying $p^w + \alpha \tau, \alpha \in (0,1)$.
-The total welfare in the economy is the sum of consumers' surplus, producers' surplus and government income raised by the tariff.
+The total welfare in the economy is the sum of consumers&rsquo; surplus, producers&rsquo; surplus and government income raised by the tariff.
 Let&rsquo;s denote Home supply and demand, as functions of price, by $S(p)$ and $D(p)$, respectively.
-Then, consumers' surplus is given by:
+Then, consumers&rsquo; surplus is given by:
 <img src="/img/international_trade/Change_in_Surplus.png" alt="Consumer_surplus">
 $$\int_{p^w+\alpha \tau}^\infty D(p)\mathrm{d}p$$
-Similarly, producers' surplus is:
+Similarly, producers&rsquo; surplus is:
 $$\int_0^{p^w+\alpha \tau}S(p)\mathrm{d}p$$
 And governemnt raises tariffs by value:
 $$\tau \underbrace{(D(p^w+\alpha \tau) - S(p^w + \alpha \tau))}_{\mathrm{Imports}}$$</p>
@@ -1020,6 +1036,128 @@ Since the consumer pays $p^w$, then, the <strong>entire burden of a tariff is pa
 <li>World supply is infinitely elastic ($\epsilon_S \rightarrow \infty$): this is the case of a small economy.</li>
 <li>Home demand is completely inelastic ($\epsilon_D = 0$).</li>
 </ul>
+<h2 id="example">Example</h2>
+<p>Suppose that we can describe the Home economy by the following supply and demand equations:
+$$P^{H}_{D}(q) = 10 - q, \quad P^{H}_{S}(q) = -5 + 2q.$$
+We can compute the autarky equilibrium by solving $P^{H}_{S}(q) = P^{H}_{D}(q)$ which will yield the equilibrium quantity $q^{H}_{Aut.}.$
+In our case, $q^{H}_{Aut.} = 5$ and the autarky price is $p^{H}_{Aut.} = 5.$
+Lastly, if we assume that Home will import from the international market, we can compute the excess demand (or the demand for imports).
+<strong>Note</strong>: we first must find the inverse of the demand and supply, so that we can compare <em>quantities</em>.
+$$Q^{H}_{D}(p) = 10 - p, \quad Q^{H}_{S}(p) = \frac{5+p}{2}.$$
+Therefore, demand for imports will be:
+$$Q^{I}(p) = Q^{H}_{D}(p) - Q^{H}_{S}(p) = \frac{15-3p}{2}, \quad p &lt; 5$$</p>
+<p>Furthermore, suppose that Foreign has the following supply and demand schedules
+$$P^{F}_{D}(q) = 31 - 3q, \quad P^{F}_{S}(q) = -5 + q.$$
+We can compute the autarky equilibrium by solving $P^{F}_{S}(q) = P^{F}_{D}(q)$ which will yield the equilibrium quantity $q^{F}_{Aut.}.$
+In our case, $q^{F}_{Aut.} = 9$ and the autarky price is $p^{H}_{Aut.} = 4.$</p>
+<p>We can already verify that Home will import and Foreign export because the autarky price at Home is larger than in Foreign.
+The supply of exports from Foreign is given by (again, remember to compare quantities):
+$$Q^{F}_{S}(p) = \frac{31 - p}{3}, \quad Q^{H}_{S}(p) = 5+p.$$
+Therefore,
+$$Q^{E}(p) = Q^{F}_{S}(p) - Q^{F}_{D}(p) = \frac{-16 + 4p}{3}, \quad p &gt; 4$$</p>
+<p>Some additional notes:</p>
+<ul>
+<li>First, notice that demand for imports decreases in $p$ and supply of exports increases with $p$.</li>
+<li>Second, the international equilibrium price <strong>must</strong> be between the two autarky prices.</li>
+</ul>
+<p>We can compute the international equilibrium price and quantity (the quantity refers to the amount of goods internationally traded).
+$$Q^{E}(p) = Q^{I}(p) \implies p^{Int.} = \frac{77}{17} = 4.52 \quad Q^{I} = Q^{E} = \frac{12}{17} = 0.70.$$</p>
+<p>Suppose that Home, a large country, imposes a specific tariff on imports of value $\tau = 0.1$.
+We will solve the new equilibrium using three methods:</p>
+<h3 id="assume-that-exporters-pay-the-tariff">Assume that exporters pay the tariff</h3>
+<p>First, we suppose that exporters pay the tariff.
+This is, we assume that for every good that crosses the border, the customs charge $0.1$ and the exporter has to pay it immediately.</p>
+<p>To understand well how the introduction of a tariff affects the supply of exports, it is important to first realize what a supply (or demand) curve indicates.
+In our case, we have the following expression for the supply of exports:
+$$Q^{E}(p) = Q^{F}_{S}(p) - Q^{F}_{D}(p) = \frac{-16 + 4p}{3}, \quad p &gt; 4.$$
+If we compute its inverse, we get:
+$$P^{E}(q) = 4 + \frac{4}{3} q.$$
+This equation indicates the willingness to sell, this is, the monetary amount at which a seller is willing to sell $q$ units of goods.
+For instance, they are ready to sell $q = 3$ units at a price of $p = 8.$
+In other words, to sell these $3$ units, they must receive $8$.</p>
+<p>Consequently, once the tariff is levied, suppliers will increase the monetary amount they ask by the value of the tariff.
+Following with our previous example, to sell the previous $3$ units they will ask consumers $8.1$.
+Of these, $0.1$ will go to the customs agent, and sellers will be left with $8$, exactly the monetary amount at which they are willing to sell $3$ units.</p>
+<p>The same argument can be applied at each and every quantity.
+Therefore, in general, the price at which suppliers will be willing to sell increases by the amount of the tariff.
+This is,
+$$P^{E}(q) = 4 + \frac{4}{3} q + 0.1$$</p>
+<p>We can rewrite the equation for the demand for imports to express the price as a function of quantities
+$$Q^{I}(p) = Q^{H}_{D}(p) - Q^{H}_{S}(p) = \frac{15-3p}{2}, \implies P^{I}(q) = 5 - \frac{2}{3}q$$
+and equalize $Q^{E}(q) = Q^{I}(q) \implies q = 0.635\quad p = 4.57.$$</p>
+<p>Notice this is the equilibrium price that customers will pay.
+However, exporters will earn $4.57 - 0.1 = 4.47$ because they have to pay the tariff.
+We shall remark that the price the consumers pay increases, but by less than the tariff: it goes from 4.52 to 4.57.
+Similarly, producers end up earning 4.47 instead of 4.52.
+So, as is clear, a large economy can pass part of the burden introduced by a tariff to foreign producers by decreasing the international price.</p>
+<h3 id="assume-that-consumers-pay-the-tariff">Assume that consumers pay the tariff</h3>
+<p>In that case, we suppose instead that when a consumer buys an imported good, he has to pay the tariff.
+Therefore, demand for imports changes.
+As before, it makes more sense to work with the inverse demand for imports.
+From $Q^{I}(p) = Q^{H}_{D}(p) - Q^{H}_{S}(p) = \frac{15-3p}{2}$ we can derive $P^{I}(q) = 5  - \frac{2}{3} q$.
+This function indicates willingness to pay for a certain amount of goods.</p>
+<p>Suppose that an agent wanted to purchase $q = 3$ units.
+He was willing to pay a price of $3$.
+But, after the tariff is introduced, he will be charged $3.1 &gt; 3$, which is more than his willingness to pay for this quantity.
+Consequently, once the tariff is implemented, his willingness to pay becomes
+$$P^{I}(q) = 5 - \frac{2}{3} q - 0.1.$$</p>
+<p>If we solve for the new international equilibrium.
+Supply of exports can be rewritten as $P^{E}(q) = 4 + \frac{4}{3} q$ so that, equalizing
+$P^{E}(q) = P^{I}(q) \implies q = 0.635\quad p = 4.47.$</p>
+<p>In that case, the equilibrium price indicates the amount that exporters will receive (which coincides with the one above).
+However, consumers pay $4.47 + 0.1 = 4.57$.</p>
+<h3 id="find-the-gap">Find the gap</h3>
+<p>Lastly, we can also solve for the new equilibrium by using the fact that there is a gap between the price payed by consumers and the amount of money received by producers.
+Moreover, we know that this difference is equal to the tariff.
+Therefore, we can solve (these are the original functions, also make sure that you are comparing <em>prices</em>).
+$$P^{I}(q) - P^{E}(q) = 0.1, \implies 5 - \frac{2}{3} q - \left(4 + \frac{4}{3} q\right) = 0.1 \implies q = 0.635$$
+The price that consumers pay is given by $P^{I}(0.635) = 4.57$ and the amount received by producers is $P^{E}(0.635) = 4.47.$
+<strong>Note</strong>: a detailed analysis of the equations, once expressed in prices, reveals that we are just moving things around.</p>
+<p><strong>Note</strong>: how the burden of the tariff is shared between producers and consumers depends on the elasticity of the supply of exports and the demand for imports.
+These, in turn, are determined by the elasticity of supply and demand at foreign and at home, respectively.
+As is normal in economics, the agent with a more inelastic curve will support a larger share of the burden.</p>
+<h2 id="the-optimal-tariff">The optimal tariff</h2>
+<p>Lastly, we want to compute the optimal tariff for this economy.
+Since we are looking for the optimal $\tau$, we shall introduce it as a parameter in the equations.
+For simplicity, let&rsquo;s assume that producers pay the tariff.
+As we have seen, in the end this assumtpion is inocuous.</p>
+<p>The optimal tariff is the value $\tau$ that maximises total welfare in the Home country.
+This is made of three pieces: consumers&rsquo; surplus; producers&rsquo; surplus; and government tariff income.
+We shall express each as a function of $\tau$, but because they depend on the price, we first need to compute the price payed by consumers and perceived by <em>local</em> producers as a function of $\tau.$</p>
+<h3 id="the-international-price">The international price</h3>
+<p>Once a tariff $\tau$ is in place, the supply of exports is given by:
+$$P^{E}(q) = 4 + \frac{4}{3} q + \tau$$
+Combining it with the demand for imports $P^{I}(q) = 5 - \frac{2}{3} q$ yields the amount traded as a function of $\tau.$
+In particular, $q = \frac{12}{17}(1 - \tau).$
+Hence, the price that consumers pay is $P^{I}(q) = 5 - \frac{2}{3} \left(\frac{12}{17}(1-\tau)\right) = \frac{77}{17} + \frac{8}{17}\tau.$
+We can verify that, setting $\tau = 0$ yields the equilibrium price under free trade $4.52.$
+Similarly, when $\tau = 0.1$, we obtain the previous result: $P^{I} = 4.57.$</p>
+<h3 id="consumers-surplus">Consumers&rsquo; surplus</h3>
+<p>Because we are using linear equations, the surpluses are triangles.
+In the case of the surplus of the consumer, the height of the triangle is given by the difference between the price that correponds to a demand of $q = 0$ and the price they effectively pay.
+From the demand equation $P^{H}_{D}(q) = 10 - q$, the price corresponding to the $q = 0$ is $10.$
+Hence, the height of the triangle is $10 - \left(\frac{77}{17} + \frac{8}{17}\tau\right).$
+The base is just the quantity that corresponds to the equilibrium price (with the tariff).
+Therefore, $Q^{H}_{D} = 10 - p = 10 - \left(\frac{77}{17} + \frac{8}{17}\tau\right).$
+The surplus of the consumer is the area of the triangle, this is
+$$C = \frac{1}{2}\left(10 - \frac{1}{17}(77 - 8\tau)\right)^2$$</p>
+<h3 id="producers-surplus">Producers&rsquo; surplus</h3>
+<p>We proceed similarly for the producers.
+In that case, the height of the triangle corresponds to the difference between the price they perceive and the price at which they are willing to sell $q = 0.$
+This is, $\frac{77}{17} + \frac{8}{17}\tau + 5.$
+The base is the quantity they supply at the relevant price: $Q^{H}_{S} = \frac{5+p}{2} = \frac{1}{2}\left(5 + \frac{1}{17}(77 + 8\tau)\right).$
+The area of the triangle is
+$$S = \frac{1}{4}\left(5 + \frac{1}{17}(77 + 8\tau)\right)^2.$$</p>
+<h3 id="government">Government</h3>
+<p>Lastly, the government generates tariff duties of value equal to the amount of the imports times the value of the tariff.
+This is $\tau\left(Q^{H}_{D}(p) - Q^{H}_{S}(p)\right) = \tau\left(10-\left(\frac{77}{17} + \frac{8}{17}\tau\right) - \left(\frac{1}{2}\left(5 + \frac{1}{17}(77 + 8\tau)\right)\right)\right).$
+Simplifying:
+$$G = \frac{12}{17}(1-\tau)\tau$$</p>
+<h3 id="maximize-total-surplus">Maximize total surplus</h3>
+<p>If we put everything together, total surplus in the economy (as a function of $\tau$) is:
+$$W = \frac{3}{578}(7257+72\tau-104\tau^2).$$
+Taking the derivative with respect to $\tau$, setting it equal to zero and solving reveals the optimal tariff.
+In this case, we find $\tau^\star = \frac{9}{26} = 0.346$.</p>
 <section class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
@@ -1256,7 +1394,7 @@ What matters is the size of the impact, and for a small country, it is negligeab
       
     
     
-    <script src="/en/js/wowchemy.min.cf8ca859a9b74f8b1cd804621b13e5f1.js"></script>
+    <script src="/en/js/wowchemy.min.cfd563cb6d5be3088fa1fba119e287b4.js"></script>
 
     
 
