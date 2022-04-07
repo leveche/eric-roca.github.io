@@ -856,15 +856,7 @@
         <li><a href="#assume-that-exporters-pay-the-tariff">Assume that exporters pay the tariff</a></li>
         <li><a href="#assume-that-consumers-pay-the-tariff">Assume that consumers pay the tariff</a></li>
         <li><a href="#find-the-gap">Find the gap</a></li>
-      </ul>
-    </li>
-    <li><a href="#the-optimal-tariff">The optimal tariff</a>
-      <ul>
-        <li><a href="#the-international-price">The international price</a></li>
-        <li><a href="#consumers-surplus">Consumers&rsquo; surplus</a></li>
-        <li><a href="#producers-surplus">Producers&rsquo; surplus</a></li>
-        <li><a href="#government">Government</a></li>
-        <li><a href="#maximize-total-surplus">Maximize total surplus</a></li>
+        <li><a href="#the-optimal-tariff">The optimal tariff</a></li>
       </ul>
     </li>
   </ul>
@@ -1116,7 +1108,7 @@ The price that consumers pay is given by $P^{I}(0.635) = 4.57$ and the amount re
 <p><strong>Note</strong>: how the burden of the tariff is shared between producers and consumers depends on the elasticity of the supply of exports and the demand for imports.
 These, in turn, are determined by the elasticity of supply and demand at foreign and at home, respectively.
 As is normal in economics, the agent with a more inelastic curve will support a larger share of the burden.</p>
-<h2 id="the-optimal-tariff">The optimal tariff</h2>
+<h3 id="the-optimal-tariff">The optimal tariff</h3>
 <p>Lastly, we want to compute the optimal tariff for this economy.
 Since we are looking for the optimal $\tau$, we shall introduce it as a parameter in the equations.
 For simplicity, let&rsquo;s assume that producers pay the tariff.
@@ -1124,7 +1116,7 @@ As we have seen, in the end this assumtpion is inocuous.</p>
 <p>The optimal tariff is the value $\tau$ that maximises total welfare in the Home country.
 This is made of three pieces: consumers&rsquo; surplus; producers&rsquo; surplus; and government tariff income.
 We shall express each as a function of $\tau$, but because they depend on the price, we first need to compute the price payed by consumers and perceived by <em>local</em> producers as a function of $\tau.$</p>
-<h3 id="the-international-price">The international price</h3>
+<h4 id="the-international-price">The international price</h4>
 <p>Once a tariff $\tau$ is in place, the supply of exports is given by:
 $$P^{E}(q) = 4 + \frac{4}{3} q + \tau$$
 Combining it with the demand for imports $P^{I}(q) = 5 - \frac{2}{3} q$ yields the amount traded as a function of $\tau.$
@@ -1132,7 +1124,7 @@ In particular, $q = \frac{12}{17}(1 - \tau).$
 Hence, the price that consumers pay is $P^{I}(q) = 5 - \frac{2}{3} \left(\frac{12}{17}(1-\tau)\right) = \frac{77}{17} + \frac{8}{17}\tau.$
 We can verify that, setting $\tau = 0$ yields the equilibrium price under free trade $4.52.$
 Similarly, when $\tau = 0.1$, we obtain the previous result: $P^{I} = 4.57.$</p>
-<h3 id="consumers-surplus">Consumers&rsquo; surplus</h3>
+<h4 id="consumers-surplus">Consumers&rsquo; surplus</h4>
 <p>Because we are using linear equations, the surpluses are triangles.
 In the case of the surplus of the consumer, the height of the triangle is given by the difference between the price that correponds to a demand of $q = 0$ and the price they effectively pay.
 From the demand equation $P^{H}_{D}(q) = 10 - q$, the price corresponding to the $q = 0$ is $10.$
@@ -1141,19 +1133,19 @@ The base is just the quantity that corresponds to the equilibrium price (with th
 Therefore, $Q^{H}_{D} = 10 - p = 10 - \left(\frac{77}{17} + \frac{8}{17}\tau\right).$
 The surplus of the consumer is the area of the triangle, this is
 $$C = \frac{1}{2}\left(10 - \frac{1}{17}(77 - 8\tau)\right)^2$$</p>
-<h3 id="producers-surplus">Producers&rsquo; surplus</h3>
+<h4 id="producers-surplus">Producers&rsquo; surplus</h4>
 <p>We proceed similarly for the producers.
 In that case, the height of the triangle corresponds to the difference between the price they perceive and the price at which they are willing to sell $q = 0.$
 This is, $\frac{77}{17} + \frac{8}{17}\tau + 5.$
 The base is the quantity they supply at the relevant price: $Q^{H}_{S} = \frac{5+p}{2} = \frac{1}{2}\left(5 + \frac{1}{17}(77 + 8\tau)\right).$
 The area of the triangle is
 $$S = \frac{1}{4}\left(5 + \frac{1}{17}(77 + 8\tau)\right)^2.$$</p>
-<h3 id="government">Government</h3>
+<h4 id="government">Government</h4>
 <p>Lastly, the government generates tariff duties of value equal to the amount of the imports times the value of the tariff.
 This is $\tau\left(Q^{H}_{D}(p) - Q^{H}_{S}(p)\right) = \tau\left(10-\left(\frac{77}{17} + \frac{8}{17}\tau\right) - \left(\frac{1}{2}\left(5 + \frac{1}{17}(77 + 8\tau)\right)\right)\right).$
 Simplifying:
 $$G = \frac{12}{17}(1-\tau)\tau$$</p>
-<h3 id="maximize-total-surplus">Maximize total surplus</h3>
+<h4 id="maximize-total-surplus">Maximize total surplus</h4>
 <p>If we put everything together, total surplus in the economy (as a function of $\tau$) is:
 $$W = \frac{3}{578}(7257+72\tau-104\tau^2).$$
 Taking the derivative with respect to $\tau$, setting it equal to zero and solving reveals the optimal tariff.
