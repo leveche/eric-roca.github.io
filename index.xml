@@ -272,15 +272,15 @@ $$\frac{\partial \mathcal{L}}{\partial k_{t+1}} = - \lambda_{t} + \lambda_{t+1}(
 &lt;p&gt;It may seem that introducing government expenditures is innocuous: the Euler equation remains, market clearing will ensure that $r_{t} = f^{\prime}(k_{t})$ and $w_{t} = f(k_{t}) - f^{\prime}(k_{t}) k_{t}.$
 However, it changes the steady state equilibrium:
 households will consume less.&lt;/p&gt;
-&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
-&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
 &lt;p&gt;From a mathematical perspective, we introduce a constant which has a nil derivative.
 Of course, the optimal allocation will be affected because less resources are available, but it &lt;em&gt;will not&lt;/em&gt; impact the optimal ratios.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/section&gt;
+&lt;/div&gt;
 </description>
     </item>
     
@@ -649,18 +649,18 @@ Although the possibility can arise from a theoretical model, Bhagwati (1958) sho
 &lt;/ul&gt;
 &lt;h2 id=&#34;exercises&#34;&gt;Exercises&lt;/h2&gt;
 &lt;p&gt;Some &lt;a href=&#34;https://eric-roca.github.io/files/Exercises.pdf&#34;&gt;exercises&lt;/a&gt; to practice.&lt;/p&gt;
-&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
-&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
 &lt;p&gt;This family of models can be enlarged by including the &lt;em&gt;specific factors model&lt;/em&gt;, which features different productive factors, like the Heckscher-Ohlin, but some of these factors are immobile between sectors.
 For instance, land can only be used in agriculture.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
 &lt;p&gt;Check the your microeconomics lectures on consumer optimisation.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/section&gt;
+&lt;/div&gt;
 </description>
     </item>
     
@@ -906,16 +906,16 @@ The solution is &lt;em&gt;the savings function&lt;/em&gt;:&lt;/p&gt;
 &lt;p&gt;$$u^{\prime}(c_{t}) = \lambda_{t}, \quad \beta u^{\prime}(d_{t+1}) = \frac{\lambda_{t}}{R_{t+1}}$$&lt;/p&gt;
 &lt;p&gt;Combining both, we obtain the Euler equation:&lt;/p&gt;
 &lt;p&gt;$$u^{\prime}(c_{t}) = \beta R_{t+1} u^\prime (d_{t+1}).$$&lt;/p&gt;
-&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
-&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
 &lt;p&gt;There plenty of alternative notations for the OLG model.
 One may write $c^{y}_{t}$ and $c^{o}_{t}$ for young and adult consumption.
 Similarly, the subindeces $t, t+1, \ldots$ denote the period of consumption, but we could have denoted the period in which the individual was born.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/section&gt;
+&lt;/div&gt;
 </description>
     </item>
     
@@ -1490,18 +1490,18 @@ $$G = \frac{12}{17}(1-\tau)\tau$$&lt;/p&gt;
 $$W = \frac{3}{578}(7257+72\tau-104\tau^2).$$
 Taking the derivative with respect to $\tau$, setting it equal to zero and solving reveals the optimal tariff.
 In this case, we find $\tau^\star = \frac{9}{26} = 0.346$.&lt;/p&gt;
-&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
-&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
 &lt;p&gt;In reality, world supply or world demand will react to any change in a given country.
 What matters is the size of the impact, and for a small country, it is negligeable.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
 &lt;p&gt;It works equally well if we assume that Home consumers have to pay the tariff.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/section&gt;
+&lt;/div&gt;
 </description>
     </item>
     
@@ -1688,6 +1688,201 @@ $$\frac{w}{r} = \frac{1-\alpha}{\alpha} \left(\frac{K}{L} \right)^{1-\rho}.$$&lt
 \frac{\alpha}{1-\alpha}\frac{1}{1-\rho}\left(\frac{w}{r}\frac{\alpha}{1-\alpha}\right)^{\frac{1}{1-\rho}-1}
 \frac{1-\alpha}{\alpha}\left(\frac{K}{L}\right)^{1-\rho}\frac{L}{K} =
 \frac{1}{1-\rho}.$$&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Époques dans le modèle unifié de croissance économique</title>
+      <link>https://eric-roca.github.io/courses/macroeconomics/comparative_development/comparative_development_epochs/</link>
+      <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/comparative_development/comparative_development_epochs/</guid>
+      <description>&lt;h2 id=&#34;la-théorie-unifiée-de-la-croissance-économique&#34;&gt;La théorie unifiée de la croissance économique&lt;/h2&gt;
+&lt;p&gt;L&amp;rsquo;évolution des variables qu&amp;rsquo;intégrent le modèle générent trois grandes époques selon sa valeur: époque Malthusienne, époque post-Malthusienne et époque moderne.
+Chacune des époque se caractérise une combinaison particulier des variables (ou des dynamiques des variables) sous-jacentes suivantes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fertilité et sa relation avec le revenu per capita (positive ou negative).&lt;/li&gt;
+&lt;li&gt;Investissement dans l&amp;rsquo;éducation (positive ou zéro).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Enfin, il faut signaler que chaque époque a une durée temporelle différente.
+Ainsi, l&amp;rsquo;époque Malthusienne est la plus longue, prenant dès l&amp;rsquo;apparition des êtres humains modernes jusqu&amp;rsquo;à le 18è siècle pour les pays développés.
+Ensuite, l&amp;rsquo;époque post-Malthusienne prend les siècles 18è et 19è, et à partir de ce point là, on entre dans l&amp;rsquo;époque moderne.
+Enfin, avant d&amp;rsquo;entrer dans le détail, il est nécessaire de décrire le rôle de l&amp;rsquo;éducation dans le modèle.&lt;/p&gt;
+&lt;h3 id=&#34;éducation-et-capital-humain-dans-le-modèle-unifié-de-croissance-économique&#34;&gt;Éducation et capital humain dans le modèle unifié de croissance économique&lt;/h3&gt;
+&lt;p&gt;Dans le modèle unifié de croissance économique, les parents investissent dans l&amp;rsquo;éducation des enfants parce qu&amp;rsquo;ils attirent de l&amp;rsquo;utilité de leur niveau de capital humain, et celui-là est fortement influencé par le niveau d&amp;rsquo;éducation.
+L&amp;rsquo;hypothèse que les parents préférent avoir des enfants éduqués est una maniẽre simple et typique de représenter des préférences plus complexes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Les parents s&amp;rsquo;intéressent au futur salaire des enfants, et le salaire augmente avec le niveau éducatif.&lt;/li&gt;
+&lt;li&gt;Les parents ont une simple préférence pour l&amp;rsquo;éducation,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Une nouveauté de la théorie unifiée de la croisance économique est qu&amp;rsquo;elle introduit la possibilité que le capital humain se déprecie, et la vitesse de la dépréciation est une fonction du niveau technologique (voir en dessous).
+En plus, on suppose que tous les enfants sont équipés d&amp;rsquo;un certain niveau de capital humain, même si leurs parents n&amp;rsquo;investissent pas dans l&amp;rsquo;éducation.
+Ces deux hypothèses, innocentes en principe, ont des profondes consequénces sur l&amp;rsquo;évolution de l&amp;rsquo;éducation.&lt;/p&gt;
+&lt;h4 id=&#34;dépreciation-du-capital-humain&#34;&gt;Dépreciation du capital humain&lt;/h4&gt;
+&lt;p&gt;La prèmiere hypothèse peut s&amp;rsquo;expliquer de la manière suivante.
+Imaginons une société dans laquelle le niveau technologique est faible et ne change pas.
+Alors, tout ce qu&amp;rsquo;on apprend pendant la jeunesse (un métier, par exemple) va rester utile tout la vie.
+Par exemple, si on apprend à utiliser une scie ou un marteu, ces connaissances restent valides autant que les outils ne changent pas.
+Pour tant, éduquer les enfants n&amp;rsquo;apporte des avantages, car la technologie va rester la même.
+Par contre, si maintenant on suppose que la technologie change rapidement, il est possible que les outils de demain ne soient pas une scie et un marteu, mais une scie controlée par ordinateur et un marteau pnéumatique.
+Dans ce cas-là, les connaisances acquises pendant la jeunesse sont vite dépassées, et pour tant, si on fournie aux enfants de l&amp;rsquo;éducation ils seront mieux équipés pour s&amp;rsquo;adapter à la nouvelle situation.
+Ainsi, les parents doivent procurer à leurs enfants de l&amp;rsquo;éducation pour amortir la dépréciation du capital humain dû au progrès technique.&lt;/p&gt;
+&lt;h4 id=&#34;niveau-minimal-de-capital-humain&#34;&gt;Niveau minimal de capital humain&lt;/h4&gt;
+&lt;p&gt;Comment on a dit auparavent, il est raisonable que même sans un investissement exprès en capital humain, un certain niveau est toujours atteint.
+Par exemple, on apprend certaines choses, y compris des métiers, par la simple observation.&lt;/p&gt;
+&lt;h4 id=&#34;implications&#34;&gt;Implications&lt;/h4&gt;
+&lt;p&gt;Les implications de ces hypothèses sont claires:
+vu que les enfants sont équipés d&amp;rsquo;un niveau minimum de capital humain, et vu qu&amp;rsquo;avec un faible progrès technologique l&amp;rsquo;éducation n&amp;rsquo;est pas nécéssaire, les investissements en éducation ne deviendran positifs qu&amp;rsquo;avec le temps.
+Autrement dit, quand les ressources sont peu abondantes, les parents préférent les affecter à la nourriture et au nombre d&amp;rsquo;enfants plutôt qu&amp;rsquo;à l&amp;rsquo;éducation.
+Seulement à partir d&amp;rsquo;un certain niveau de richesse (l&amp;rsquo;éducation est un bien de luxe dans ce modèle) ou de progrès technologique il y aura des investissements dans l&amp;rsquo;éducation.&lt;/p&gt;
+&lt;h3 id=&#34;changement-technologique&#34;&gt;Changement technologique&lt;/h3&gt;
+&lt;p&gt;Pour finir, le modèle postule que la technologie avance grâce à deux effets:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;D&amp;rsquo;un côté, on suppose que les gens ont, de manière aléatoire, des nouvelles idées qui augmentent le niveau technologique.
+Ainsi, une population plus large aura une nouvelle idée avec une plus grande probabilité, et pour tant, l&amp;rsquo;avancement technologique sera plus important.&lt;/li&gt;
+&lt;li&gt;De l&amp;rsquo;autre côté, l&amp;rsquo;investissement dans l&amp;rsquo;éducation pousse le niveau technologique, car les gens avec plus de connaissances ont plus de probabilité d&amp;rsquo;inventer et innover.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;époque-malthusienne&#34;&gt;Époque Malthusienne&lt;/h2&gt;
+&lt;p&gt;Cette période représente la plus longue durée du modèle et comprend le temps entre l&amp;rsquo;apparition des êtres humains modernes (&lt;em&gt;homo sapiens&lt;/em&gt;) il y a environ 100 000 ans jusqu&amp;rsquo;à debout du 18è siècle.
+L&amp;rsquo;époque Malthusienne se caractérise par le nul effet des développements technologiques sur le revenu per capita.
+C&amp;rsquo;est-à-dire, les améliorations technologiques permettant de produir davantage n&amp;rsquo;ont aucun effet sur le niveau de revenu per capita.
+Or, pendant cette période, la production addionelle était dédiée à augmenter la fertilité: les familles avaient plus d&amp;rsquo;enfants.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;
+Ainsi, pendant l&amp;rsquo;époque Malthusienne, les sociétés les plus technologiquement développées ne montraient pas un revenu per capita plus élevé mais une plus grande densité de population.&lt;/p&gt;
+&lt;p&gt;Ce type de dynamique qui génére une augmentation de la population avec chaque progrès technique peuvent se répresenter à l&amp;rsquo;aide des préférances inclouant un niveau de consommation minimale.&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;
+Ce niveau doit toujours être atteint.
+Or, chaque fois que la technologie s&amp;rsquo;améliore (de manière aléatoire), les revenus disponibles additionnels seront utilisés pour augmenter le nombre d&amp;rsquo;enfants.
+Le graphique suivant illustre la situation:
+&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/expansion_path.png&#34; alt=&#34;expansion_path&#34;&gt;
+Quand le revenu per capita est faible, sans la restriction de consommation minimale (ligne verte), les familles souhaiteraient consommer peu.
+Mais elles sont obligées de consommer, au moins, la consommation minimale, donc l&amp;rsquo;optimum passe à être la combinaison de consommation minimale et le nombre d&amp;rsquo;enfants qui elles peuvent se permettre considérant le coût de chaque enfant: $y = c + \rho y n \implies n = \frac{y-c}{\rho y}.$
+En tout moment, la technologie peut améliorer, grâce au fait que la population augmente.
+Ainsi, quand cela arrive, le revenu per capita augmente (la restriction budgétaire &amp;ndash;orange&amp;ndash; se déplace vers la droite).
+Or, tandis que la consommation minimale soit une contrainte contraignante, la décision optimale continue d&amp;rsquo;être: consommer le minimum et utiliser ce qui reste pour avoir des enfants.
+Le graphique montre ça avec les points rouges qui sont toujours sur la ligne de consommation minimale (verte) mais chaque fois plus en hauteur.
+Ainsi, chaque fois la population augmente plus rapidement, et cela contribue à faire avancer la technologie plus rapidement.&lt;/p&gt;
+&lt;h3 id=&#34;conclusions-de-lépoque-malthusienne&#34;&gt;Conclusions de l&amp;rsquo;époque Malthusienne&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Corrélation positive entre:
+&lt;ul&gt;
+&lt;li&gt;Technologie et densité de population&lt;/li&gt;
+&lt;li&gt;Productivité agricole et densité de population&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Pas de corrélation entre:
+&lt;ul&gt;
+&lt;li&gt;Revenu per capita et technologie&lt;/li&gt;
+&lt;li&gt;Revenu per capita et productivité agricole&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Les pays les plus avancés du point vue technologique et les plus productives:
+&lt;ul&gt;
+&lt;li&gt;Densité de population supérieure&lt;/li&gt;
+&lt;li&gt;Pas de différence en revenu per capita.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;validation&#34;&gt;Validation&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://eric-roca.github.io/papers/Ashraf_and_Galor__2011.pdf&#34;&gt;Ashraf et Galor (2011)&lt;/a&gt; vérifient la validité des conclusions pour l&amp;rsquo;époque Malthusienne.&lt;/p&gt;
+&lt;p&gt;D&amp;rsquo;abord, ils montrent comment les pays qui ont du terrain plus adapté pour l&amp;rsquo;agriculture ont atteint une plus grande densité de population vers l&amp;rsquo;année 1500 mais que les gens ne jouissaient pas de plus de revenu per capita.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/land_density.png&#34; alt=&#34;land_density&#34;&gt;
+&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/land_income.png&#34; alt=&#34;land_income&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Ensuite, ils se centrent sur le lien entre technologie, densité de population et revenu per capita.
+L&amp;rsquo;enjeu dans ce cas est le fait que la taille de la population influence la technologie, et donc il faut être attentif du point vue économétrique.
+Pour résoudre le problème, Ashraf et Galor approximent le niveau technologique par le nombre d&amp;rsquo;années qui se sont passées depuis la révolution Néolithique: c&amp;rsquo;est-à-dire, les années qui se sont passées dès qu&amp;rsquo;une société adoptait l&amp;rsquo;agriculture.
+L&amp;rsquo;idée de base (prise de &lt;a href=&#34;https://www.nationalgeographic.com/science/article/news-guns-germs-steel-jared-diamond-interview&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jared Diamond (1997)&lt;/a&gt;) indique que les sociétés qui ont adopté l&amp;rsquo;agriculture pouvait produire d&amp;rsquo;avantage par rapport aux chasseurs cueilleurs, et donc, généraient un surplus de ressources.
+Ces ressources excédentaires permettaient qu&amp;rsquo;une partie de la population était dédiée à des taches non productrices de nourriture qui ont développé le langage écrit, la science, etc.
+En premier lieu, ils montrent que les pays et régions qui se sont passées à l&amp;rsquo;agriculture plus tôt, ont eu un avantage technologique qui se montre dans toute une série de variables qui mesurent le niveau technologique:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/ashraf_galor__2011_Table_1.png&#34; alt=&#34;Table_1&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Enfin, ils montrent qu&amp;rsquo;effectivement, les pays avec plus de technologie avait plus de densité de population pendant l&amp;rsquo;année 1500 mais pas plus de revenu per capita.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/neolithic_density.png&#34; alt=&#34;neolithic_density&#34;&gt;
+&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/neolithic_income.png&#34; alt=&#34;neolithic_income&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/ashraf_galor__2011_Table_5.png&#34; alt=&#34;Table_5&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;époque-post-malthusienne&#34;&gt;Époque post-Malthusienne&lt;/h2&gt;
+&lt;p&gt;Enfin, on arrive à une situation dans laquelle la contrainte de consommation minimale n&amp;rsquo;est plus contraignante: à partir de ce point-là, les familles décident d&amp;rsquo;avoir un nombre constant d&amp;rsquo;enfants et utiliser tout le revenu qui reste pour financer leur consommation.
+Cette deuxième période est caractérisée par le fait que la technologie avance plus rapidement grâce a l&amp;rsquo;augmentation de la population qui a eu lieu pendant l&amp;rsquo;époque Malthusienne.
+Par contre, le niveau de revenu per capita est encore insuffisant pour permettre les investissements en éducation.
+Enfin, le trait distinctif du la période post-Malthusienne est l&amp;rsquo;avancement du revenu per capita.
+En effet, le nombre d&amp;rsquo;enfants par parent reste constant, comme à la fin de la période Malthusienne, car les parents n&amp;rsquo;investissent encore en éducation.
+Par contre, comme la technologie ne cesse d&amp;rsquo;augmenter, la seule conclusion possible est que le revenu per capita doit augmenter aussi.&lt;/p&gt;
+&lt;p&gt;Pour tant, ce passage de l&amp;rsquo;époque Malthusienne à l&amp;rsquo;époque post-Malthusienne peut générer déjà différences de revenu per capita entre pays et régions.
+Par exemple, les pays qui, pour une raison ou une autre ont fini plus tôt leur époque Malthusienne verront leur revenu per capita augmenter, tandis que ces qui restent encore dans le système Malthusien montrent un niveau de revenu per capita qui est constant au long du temps.&lt;/p&gt;
+&lt;h3 id=&#34;validation-1&#34;&gt;Validation&lt;/h3&gt;
+&lt;p&gt;Selon la discussion au-dessous, les pays qui ont commencé leur transition démographique plus tôt, devront montrer un plus haut niveau de revenu per capita.
+Or, ce lien devrait exister, car il y a des avantages liés à une transition démographique précoce: le revenu per capita augmente depuis plus long temps.
+&lt;a href=&#34;https://eric-roca.github.io/papers/Galor__2012.pdf&#34;&gt;Galor, 2012&lt;/a&gt; montre que c&amp;rsquo;est le cas:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/demographic_income.png&#34; alt=&#34;demographic_income&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;époque-moderne&#34;&gt;Époque moderne&lt;/h2&gt;
+&lt;p&gt;Rappelons que le niveau technologique n&amp;rsquo;a pas cessé d&amp;rsquo;augmenter pendant la période post-Malthusienne.
+La technologie ait tellement avancé que les parents décident qu&amp;rsquo;il est nécessaire d&amp;rsquo;investir dans l&amp;rsquo;éducation pour éviter que le capital humain de leurs enfants se déprécie.
+Ainsi, éventuellement, le niveau technologique atteint la valeur critique à partir de laquelle les parents sont prêts à investir en éducation.
+Autrement, il serait possible que le revenu per capita soit suffisamment élevé pour que les parents décident investir en éducation (selon Galor, l&amp;rsquo;évidence empirique n&amp;rsquo;est pas d&amp;rsquo;accord avec cette idée).
+En tout cas, la conclusion est la même: en époque moderne, les parents décident d&amp;rsquo;investir en éducation.
+Cela entraine un effet direct:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Le coût de chaque enfant a augmenté, car maintenant on leur fournit de l&amp;rsquo;éducation.
+Pour tant, les familles décident d&amp;rsquo;avoir moins d&amp;rsquo;enfants mais de leur offrir plus d&amp;rsquo;éducation.
+On appelle à ce trade-off le &amp;ldquo;quality-quantity trade-off&amp;rdquo;: les familles échangent nombre d&amp;rsquo;enfants contre qualité des enfants.
+En plus, comme le coût des enfants est proportionnelle au revenu per capita, à mesure que celui augmente, les familles ont moins d&amp;rsquo;enfants.
+&lt;ul&gt;
+&lt;li&gt;On observe, pour tant, une corrélation &lt;strong&gt;négative&lt;/strong&gt; entre revenu et nombre d&amp;rsquo;enfants.&lt;/li&gt;
+&lt;li&gt;On appelle à ce procès la &amp;ldquo;transition démographique&amp;rdquo;.
+En plus, maintenant que les enfants reçoivent éducation, la technologie augmente encore plus rapidement.
+En effet, la taille de la population cesse d&amp;rsquo;être la variable principale qui détermine la vitesse à laquelle la technologie avance, et l&amp;rsquo;éducation prend le relai.
+Enfin, la combinaison d&amp;rsquo;une population qui augmente plus lentement et une technologie qui s&amp;rsquo;améliore plus rapidement implique que le revenu per capita augmente de manière soutenue.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;conclusions-de-lépoque-moderne&#34;&gt;Conclusions de l&amp;rsquo;époque moderne&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Corrélation positive entre:
+&lt;ul&gt;
+&lt;li&gt;Revenu per capita et dépense en éducation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Corrélation négative entre:
+&lt;ul&gt;
+&lt;li&gt;Revenu per capita et fertilité&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;la-théorie-unifiée-de-la-croissance-économique-unifié-et-les-inégalités-économiques&#34;&gt;La théorie unifiée de la croissance économique unifié et les inégalités économiques&lt;/h2&gt;
+&lt;p&gt;La théorie unifiée de la croissance économique propose un nouveau paradigme de croissance économique qui comprend l&amp;rsquo;entérite de l&amp;rsquo;histoire humaine.
+De manière résumée, les facteurs principaux derrière la croissance économique sont l&amp;rsquo;évolution de la technologie et la demande de capital humain.
+Ainsi, on peut penser que tout facteur qui donne un avantage en relation à ces deux éléments, est capable de générer des différences économiques entre régions.
+Voici quelques exemples que nous allons voir en cours:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Géographie:
+&lt;ul&gt;
+&lt;li&gt;Conditions bio-géographiques conduisant à la révolution Néolithique (Diamond, 1997)&lt;/li&gt;
+&lt;li&gt;Maladies, espérance de vie et investissement en capital humain (Andersen, Dalgaard et Selaya, 2012)&lt;/li&gt;
+&lt;li&gt;Culture conduisant à l&amp;rsquo;innovation (Özak, 2018)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Caractéristiques transmisses intergénérationalement:
+&lt;ul&gt;
+&lt;li&gt;Préférence vers le présent et le futur (Galor et Özak, 2016)&lt;/li&gt;
+&lt;li&gt;Diversité (Ashraf et Galor, 2013)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Colonialisme:
+&lt;ul&gt;
+&lt;li&gt;Frontières artificielles (Papaioannou et Michalopoulos, 2012)&lt;/li&gt;
+&lt;li&gt;Esclavage (Nunn, 2008)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;Soit les familles avaient plus d&amp;rsquo;enfants, soit les enfants avaient une plus grande probabilité de survie.
+En tout cas, la taille de la population augmentait.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;Dans le modèle, les préférences des parents incluent le niveau de capital humain des enfants.
+Comme en époque Malthusienne les parents n&amp;rsquo;investissent pas dans l&amp;rsquo;éducation nous ignorons cette composante de l&amp;rsquo;utilité des parents.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
 </description>
     </item>
     
@@ -1952,18 +2147,18 @@ Ainsi, si l&amp;rsquo;hypothèse est certe, on espère qu&amp;rsquo;il existe:&l
 &lt;p&gt;&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/Franck_Galor_Ozak__2016_Figure.png&#34; alt=&#34;Frank_Galor_Ozak__2016_Figure&#34;&gt;
 &lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/Franck_Galor_Ozak__2016_Table_1.png&#34; alt=&#34;Frank_Galor_Ozak__2016_Table_1&#34;&gt;
 &lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/Franck_Galor_Ozak__2016_Table_2.png&#34; alt=&#34;Frank_Galor_Ozak__2016_Table_2&#34;&gt;&lt;/p&gt;
-&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
-&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
 &lt;p&gt;Le fait que l&amp;rsquo;agriculture se soit développé en première dans ces régions est dû à l&amp;rsquo;existence d&amp;rsquo;espèces susceptibles d&amp;rsquo;être domestiqués, autant pour les plantes que pour les animaux.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
 &lt;p&gt;Certains aspects liées à la sante jouent un rôl important dans la détérmination de l&amp;rsquo;investissement dans l&amp;rsquo;éducation à travers de leurs effets sur l&amp;rsquo;espérance de vie.
 Voir &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/comparative_development/papers/andersen_dalgaard_selaya__2016/&#34;&gt;ici&lt;/a&gt;.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/section&gt;
+&lt;/div&gt;
 </description>
     </item>
     
@@ -2017,18 +2212,18 @@ Par contre, en époque moderne la relation est telle que prévue: plus de rayonn
 &lt;p&gt;Enfin, les auteurs valident leur hypothèse à propos du lien entre le rayonnement UV et l&amp;rsquo;éducation.
 Ainsi, vu que dans les régions qui plus rayonnées la valeur du capital humain et l&amp;rsquo;éducation sont inférieurs, le niveau éducatif devrait être aussi inférieur.
 &lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/Andersen_Dalgaard_selaya__2016_Table_A17.png&#34; alt=&#34;Andersen_Dalgaard_Selaya__2016_Table_A17&#34;&gt;&lt;/p&gt;
-&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
-&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
 &lt;p&gt;L&amp;rsquo;exposition au rayonnement UV augmente aussi la probabilité de souffrir certains types de cancer.
 Néanmoins, les auteurs considèrent que les adaptations génétiques (pigmentation de la peau, par exemple) neutralisent l&amp;rsquo;effet sur les investissements en éducation.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
 &lt;p&gt;Il faut se rappeler qu&amp;rsquo;en époque Malthusienne, la densité de population est la variable qui explique le niveau de développement; et non le revenu per capita.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/section&gt;
+&lt;/div&gt;
 </description>
     </item>
     
@@ -2352,213 +2547,18 @@ Comme la distance à la frontière a un effet en forme de U sur la technologie, 
 Il est possible de mesurer la créativité utilisant le nombre de brevets par personne.
 &lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/Ozak__2018_Table_11.png&#34; alt=&#34;Ozak__2018_Table_11&#34;&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
-&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
 &lt;p&gt;L&amp;rsquo;idée de frontière technologique essai d&amp;rsquo;exprimer le fait qu&amp;rsquo;il y a toujours un ou plusieurs pays qui dominent la scène technologique.
 Par exemple, les États-Unis sont aujourd&amp;rsquo;hui la frontière technologique; pour certains domaines la Chine est aussi la frontière, etc.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
 &lt;p&gt;En plus, il y a des technologies qui sont immobiles: système de rotation des champs, canaux, élevage d&amp;rsquo;animaux, etc.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/section&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Époques dans le modèle unifié de croissance économique</title>
-      <link>https://eric-roca.github.io/courses/macroeconomics/comparative_development/comparative_development_epochs/</link>
-      <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/macroeconomics/comparative_development/comparative_development_epochs/</guid>
-      <description>&lt;h2 id=&#34;la-théorie-unifiée-de-la-croissance-économique&#34;&gt;La théorie unifiée de la croissance économique&lt;/h2&gt;
-&lt;p&gt;L&amp;rsquo;évolution des variables qu&amp;rsquo;intégrent le modèle générent trois grandes époques selon sa valeur: époque Malthusienne, époque post-Malthusienne et époque moderne.
-Chacune des époque se caractérise une combinaison particulier des variables (ou des dynamiques des variables) sous-jacentes suivantes:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Fertilité et sa relation avec le revenu per capita (positive ou negative).&lt;/li&gt;
-&lt;li&gt;Investissement dans l&amp;rsquo;éducation (positive ou zéro).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Enfin, il faut signaler que chaque époque a une durée temporelle différente.
-Ainsi, l&amp;rsquo;époque Malthusienne est la plus longue, prenant dès l&amp;rsquo;apparition des êtres humains modernes jusqu&amp;rsquo;à le 18è siècle pour les pays développés.
-Ensuite, l&amp;rsquo;époque post-Malthusienne prend les siècles 18è et 19è, et à partir de ce point là, on entre dans l&amp;rsquo;époque moderne.
-Enfin, avant d&amp;rsquo;entrer dans le détail, il est nécessaire de décrire le rôle de l&amp;rsquo;éducation dans le modèle.&lt;/p&gt;
-&lt;h3 id=&#34;éducation-et-capital-humain-dans-le-modèle-unifié-de-croissance-économique&#34;&gt;Éducation et capital humain dans le modèle unifié de croissance économique&lt;/h3&gt;
-&lt;p&gt;Dans le modèle unifié de croissance économique, les parents investissent dans l&amp;rsquo;éducation des enfants parce qu&amp;rsquo;ils attirent de l&amp;rsquo;utilité de leur niveau de capital humain, et celui-là est fortement influencé par le niveau d&amp;rsquo;éducation.
-L&amp;rsquo;hypothèse que les parents préférent avoir des enfants éduqués est una maniẽre simple et typique de représenter des préférences plus complexes:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Les parents s&amp;rsquo;intéressent au futur salaire des enfants, et le salaire augmente avec le niveau éducatif.&lt;/li&gt;
-&lt;li&gt;Les parents ont une simple préférence pour l&amp;rsquo;éducation,&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Une nouveauté de la théorie unifiée de la croisance économique est qu&amp;rsquo;elle introduit la possibilité que le capital humain se déprecie, et la vitesse de la dépréciation est une fonction du niveau technologique (voir en dessous).
-En plus, on suppose que tous les enfants sont équipés d&amp;rsquo;un certain niveau de capital humain, même si leurs parents n&amp;rsquo;investissent pas dans l&amp;rsquo;éducation.
-Ces deux hypothèses, innocentes en principe, ont des profondes consequénces sur l&amp;rsquo;évolution de l&amp;rsquo;éducation.&lt;/p&gt;
-&lt;h4 id=&#34;dépreciation-du-capital-humain&#34;&gt;Dépreciation du capital humain&lt;/h4&gt;
-&lt;p&gt;La prèmiere hypothèse peut s&amp;rsquo;expliquer de la manière suivante.
-Imaginons une société dans laquelle le niveau technologique est faible et ne change pas.
-Alors, tout ce qu&amp;rsquo;on apprend pendant la jeunesse (un métier, par exemple) va rester utile tout la vie.
-Par exemple, si on apprend à utiliser une scie ou un marteu, ces connaissances restent valides autant que les outils ne changent pas.
-Pour tant, éduquer les enfants n&amp;rsquo;apporte des avantages, car la technologie va rester la même.
-Par contre, si maintenant on suppose que la technologie change rapidement, il est possible que les outils de demain ne soient pas une scie et un marteu, mais une scie controlée par ordinateur et un marteau pnéumatique.
-Dans ce cas-là, les connaisances acquises pendant la jeunesse sont vite dépassées, et pour tant, si on fournie aux enfants de l&amp;rsquo;éducation ils seront mieux équipés pour s&amp;rsquo;adapter à la nouvelle situation.
-Ainsi, les parents doivent procurer à leurs enfants de l&amp;rsquo;éducation pour amortir la dépréciation du capital humain dû au progrès technique.&lt;/p&gt;
-&lt;h4 id=&#34;niveau-minimal-de-capital-humain&#34;&gt;Niveau minimal de capital humain&lt;/h4&gt;
-&lt;p&gt;Comment on a dit auparavent, il est raisonable que même sans un investissement exprès en capital humain, un certain niveau est toujours atteint.
-Par exemple, on apprend certaines choses, y compris des métiers, par la simple observation.&lt;/p&gt;
-&lt;h4 id=&#34;implications&#34;&gt;Implications&lt;/h4&gt;
-&lt;p&gt;Les implications de ces hypothèses sont claires:
-vu que les enfants sont équipés d&amp;rsquo;un niveau minimum de capital humain, et vu qu&amp;rsquo;avec un faible progrès technologique l&amp;rsquo;éducation n&amp;rsquo;est pas nécéssaire, les investissements en éducation ne deviendran positifs qu&amp;rsquo;avec le temps.
-Autrement dit, quand les ressources sont peu abondantes, les parents préférent les affecter à la nourriture et au nombre d&amp;rsquo;enfants plutôt qu&amp;rsquo;à l&amp;rsquo;éducation.
-Seulement à partir d&amp;rsquo;un certain niveau de richesse (l&amp;rsquo;éducation est un bien de luxe dans ce modèle) ou de progrès technologique il y aura des investissements dans l&amp;rsquo;éducation.&lt;/p&gt;
-&lt;h3 id=&#34;changement-technologique&#34;&gt;Changement technologique&lt;/h3&gt;
-&lt;p&gt;Pour finir, le modèle postule que la technologie avance grâce à deux effets:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;D&amp;rsquo;un côté, on suppose que les gens ont, de manière aléatoire, des nouvelles idées qui augmentent le niveau technologique.
-Ainsi, une population plus large aura une nouvelle idée avec une plus grande probabilité, et pour tant, l&amp;rsquo;avancement technologique sera plus important.&lt;/li&gt;
-&lt;li&gt;De l&amp;rsquo;autre côté, l&amp;rsquo;investissement dans l&amp;rsquo;éducation pousse le niveau technologique, car les gens avec plus de connaissances ont plus de probabilité d&amp;rsquo;inventer et innover.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;époque-malthusienne&#34;&gt;Époque Malthusienne&lt;/h2&gt;
-&lt;p&gt;Cette période représente la plus longue durée du modèle et comprend le temps entre l&amp;rsquo;apparition des êtres humains modernes (&lt;em&gt;homo sapiens&lt;/em&gt;) il y a environ 100 000 ans jusqu&amp;rsquo;à debout du 18è siècle.
-L&amp;rsquo;époque Malthusienne se caractérise par le nul effet des développements technologiques sur le revenu per capita.
-C&amp;rsquo;est-à-dire, les améliorations technologiques permettant de produir davantage n&amp;rsquo;ont aucun effet sur le niveau de revenu per capita.
-Or, pendant cette période, la production addionelle était dédiée à augmenter la fertilité: les familles avaient plus d&amp;rsquo;enfants.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;
-Ainsi, pendant l&amp;rsquo;époque Malthusienne, les sociétés les plus technologiquement développées ne montraient pas un revenu per capita plus élevé mais une plus grande densité de population.&lt;/p&gt;
-&lt;p&gt;Ce type de dynamique qui génére une augmentation de la population avec chaque progrès technique peuvent se répresenter à l&amp;rsquo;aide des préférances inclouant un niveau de consommation minimale.&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;
-Ce niveau doit toujours être atteint.
-Or, chaque fois que la technologie s&amp;rsquo;améliore (de manière aléatoire), les revenus disponibles additionnels seront utilisés pour augmenter le nombre d&amp;rsquo;enfants.
-Le graphique suivant illustre la situation:
-&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/expansion_path.png&#34; alt=&#34;expansion_path&#34;&gt;
-Quand le revenu per capita est faible, sans la restriction de consommation minimale (ligne verte), les familles souhaiteraient consommer peu.
-Mais elles sont obligées de consommer, au moins, la consommation minimale, donc l&amp;rsquo;optimum passe à être la combinaison de consommation minimale et le nombre d&amp;rsquo;enfants qui elles peuvent se permettre considérant le coût de chaque enfant: $y = c + \rho y n \implies n = \frac{y-c}{\rho y}.$
-En tout moment, la technologie peut améliorer, grâce au fait que la population augmente.
-Ainsi, quand cela arrive, le revenu per capita augmente (la restriction budgétaire &amp;ndash;orange&amp;ndash; se déplace vers la droite).
-Or, tandis que la consommation minimale soit une contrainte contraignante, la décision optimale continue d&amp;rsquo;être: consommer le minimum et utiliser ce qui reste pour avoir des enfants.
-Le graphique montre ça avec les points rouges qui sont toujours sur la ligne de consommation minimale (verte) mais chaque fois plus en hauteur.
-Ainsi, chaque fois la population augmente plus rapidement, et cela contribue à faire avancer la technologie plus rapidement.&lt;/p&gt;
-&lt;h3 id=&#34;conclusions-de-lépoque-malthusienne&#34;&gt;Conclusions de l&amp;rsquo;époque Malthusienne&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Corrélation positive entre:
-&lt;ul&gt;
-&lt;li&gt;Technologie et densité de population&lt;/li&gt;
-&lt;li&gt;Productivité agricole et densité de population&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Pas de corrélation entre:
-&lt;ul&gt;
-&lt;li&gt;Revenu per capita et technologie&lt;/li&gt;
-&lt;li&gt;Revenu per capita et productivité agricole&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Les pays les plus avancés du point vue technologique et les plus productives:
-&lt;ul&gt;
-&lt;li&gt;Densité de population supérieure&lt;/li&gt;
-&lt;li&gt;Pas de différence en revenu per capita.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;validation&#34;&gt;Validation&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://eric-roca.github.io/papers/Ashraf_and_Galor__2011.pdf&#34;&gt;Ashraf et Galor (2011)&lt;/a&gt; vérifient la validité des conclusions pour l&amp;rsquo;époque Malthusienne.&lt;/p&gt;
-&lt;p&gt;D&amp;rsquo;abord, ils montrent comment les pays qui ont du terrain plus adapté pour l&amp;rsquo;agriculture ont atteint une plus grande densité de population vers l&amp;rsquo;année 1500 mais que les gens ne jouissaient pas de plus de revenu per capita.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/land_density.png&#34; alt=&#34;land_density&#34;&gt;
-&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/land_income.png&#34; alt=&#34;land_income&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Ensuite, ils se centrent sur le lien entre technologie, densité de population et revenu per capita.
-L&amp;rsquo;enjeu dans ce cas est le fait que la taille de la population influence la technologie, et donc il faut être attentif du point vue économétrique.
-Pour résoudre le problème, Ashraf et Galor approximent le niveau technologique par le nombre d&amp;rsquo;années qui se sont passées depuis la révolution Néolithique: c&amp;rsquo;est-à-dire, les années qui se sont passées dès qu&amp;rsquo;une société adoptait l&amp;rsquo;agriculture.
-L&amp;rsquo;idée de base (prise de &lt;a href=&#34;https://www.nationalgeographic.com/science/article/news-guns-germs-steel-jared-diamond-interview&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jared Diamond (1997)&lt;/a&gt;) indique que les sociétés qui ont adopté l&amp;rsquo;agriculture pouvait produire d&amp;rsquo;avantage par rapport aux chasseurs cueilleurs, et donc, généraient un surplus de ressources.
-Ces ressources excédentaires permettaient qu&amp;rsquo;une partie de la population était dédiée à des taches non productrices de nourriture qui ont développé le langage écrit, la science, etc.
-En premier lieu, ils montrent que les pays et régions qui se sont passées à l&amp;rsquo;agriculture plus tôt, ont eu un avantage technologique qui se montre dans toute une série de variables qui mesurent le niveau technologique:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/ashraf_galor__2011_Table_1.png&#34; alt=&#34;Table_1&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Enfin, ils montrent qu&amp;rsquo;effectivement, les pays avec plus de technologie avait plus de densité de population pendant l&amp;rsquo;année 1500 mais pas plus de revenu per capita.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/neolithic_density.png&#34; alt=&#34;neolithic_density&#34;&gt;
-&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/neolithic_income.png&#34; alt=&#34;neolithic_income&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/ashraf_galor__2011_Table_5.png&#34; alt=&#34;Table_5&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;époque-post-malthusienne&#34;&gt;Époque post-Malthusienne&lt;/h2&gt;
-&lt;p&gt;Enfin, on arrive à une situation dans laquelle la contrainte de consommation minimale n&amp;rsquo;est plus contraignante: à partir de ce point-là, les familles décident d&amp;rsquo;avoir un nombre constant d&amp;rsquo;enfants et utiliser tout le revenu qui reste pour financer leur consommation.
-Cette deuxième période est caractérisée par le fait que la technologie avance plus rapidement grâce a l&amp;rsquo;augmentation de la population qui a eu lieu pendant l&amp;rsquo;époque Malthusienne.
-Par contre, le niveau de revenu per capita est encore insuffisant pour permettre les investissements en éducation.
-Enfin, le trait distinctif du la période post-Malthusienne est l&amp;rsquo;avancement du revenu per capita.
-En effet, le nombre d&amp;rsquo;enfants par parent reste constant, comme à la fin de la période Malthusienne, car les parents n&amp;rsquo;investissent encore en éducation.
-Par contre, comme la technologie ne cesse d&amp;rsquo;augmenter, la seule conclusion possible est que le revenu per capita doit augmenter aussi.&lt;/p&gt;
-&lt;p&gt;Pour tant, ce passage de l&amp;rsquo;époque Malthusienne à l&amp;rsquo;époque post-Malthusienne peut générer déjà différences de revenu per capita entre pays et régions.
-Par exemple, les pays qui, pour une raison ou une autre ont fini plus tôt leur époque Malthusienne verront leur revenu per capita augmenter, tandis que ces qui restent encore dans le système Malthusien montrent un niveau de revenu per capita qui est constant au long du temps.&lt;/p&gt;
-&lt;h3 id=&#34;validation-1&#34;&gt;Validation&lt;/h3&gt;
-&lt;p&gt;Selon la discussion au-dessous, les pays qui ont commencé leur transition démographique plus tôt, devront montrer un plus haut niveau de revenu per capita.
-Or, ce lien devrait exister, car il y a des avantages liés à une transition démographique précoce: le revenu per capita augmente depuis plus long temps.
-&lt;a href=&#34;https://eric-roca.github.io/papers/Galor__2012.pdf&#34;&gt;Galor, 2012&lt;/a&gt; montre que c&amp;rsquo;est le cas:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/demographic_income.png&#34; alt=&#34;demographic_income&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;époque-moderne&#34;&gt;Époque moderne&lt;/h2&gt;
-&lt;p&gt;Rappelons que le niveau technologique n&amp;rsquo;a pas cessé d&amp;rsquo;augmenter pendant la période post-Malthusienne.
-La technologie ait tellement avancé que les parents décident qu&amp;rsquo;il est nécessaire d&amp;rsquo;investir dans l&amp;rsquo;éducation pour éviter que le capital humain de leurs enfants se déprécie.
-Ainsi, éventuellement, le niveau technologique atteint la valeur critique à partir de laquelle les parents sont prêts à investir en éducation.
-Autrement, il serait possible que le revenu per capita soit suffisamment élevé pour que les parents décident investir en éducation (selon Galor, l&amp;rsquo;évidence empirique n&amp;rsquo;est pas d&amp;rsquo;accord avec cette idée).
-En tout cas, la conclusion est la même: en époque moderne, les parents décident d&amp;rsquo;investir en éducation.
-Cela entraine un effet direct:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Le coût de chaque enfant a augmenté, car maintenant on leur fournit de l&amp;rsquo;éducation.
-Pour tant, les familles décident d&amp;rsquo;avoir moins d&amp;rsquo;enfants mais de leur offrir plus d&amp;rsquo;éducation.
-On appelle à ce trade-off le &amp;ldquo;quality-quantity trade-off&amp;rdquo;: les familles échangent nombre d&amp;rsquo;enfants contre qualité des enfants.
-En plus, comme le coût des enfants est proportionnelle au revenu per capita, à mesure que celui augmente, les familles ont moins d&amp;rsquo;enfants.
-&lt;ul&gt;
-&lt;li&gt;On observe, pour tant, une corrélation &lt;strong&gt;négative&lt;/strong&gt; entre revenu et nombre d&amp;rsquo;enfants.&lt;/li&gt;
-&lt;li&gt;On appelle à ce procès la &amp;ldquo;transition démographique&amp;rdquo;.
-En plus, maintenant que les enfants reçoivent éducation, la technologie augmente encore plus rapidement.
-En effet, la taille de la population cesse d&amp;rsquo;être la variable principale qui détermine la vitesse à laquelle la technologie avance, et l&amp;rsquo;éducation prend le relai.
-Enfin, la combinaison d&amp;rsquo;une population qui augmente plus lentement et une technologie qui s&amp;rsquo;améliore plus rapidement implique que le revenu per capita augmente de manière soutenue.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;conclusions-de-lépoque-moderne&#34;&gt;Conclusions de l&amp;rsquo;époque moderne&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Corrélation positive entre:
-&lt;ul&gt;
-&lt;li&gt;Revenu per capita et dépense en éducation&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Corrélation négative entre:
-&lt;ul&gt;
-&lt;li&gt;Revenu per capita et fertilité&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;la-théorie-unifiée-de-la-croissance-économique-unifié-et-les-inégalités-économiques&#34;&gt;La théorie unifiée de la croissance économique unifié et les inégalités économiques&lt;/h2&gt;
-&lt;p&gt;La théorie unifiée de la croissance économique propose un nouveau paradigme de croissance économique qui comprend l&amp;rsquo;entérite de l&amp;rsquo;histoire humaine.
-De manière résumée, les facteurs principaux derrière la croissance économique sont l&amp;rsquo;évolution de la technologie et la demande de capital humain.
-Ainsi, on peut penser que tout facteur qui donne un avantage en relation à ces deux éléments, est capable de générer des différences économiques entre régions.
-Voici quelques exemples que nous allons voir en cours:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Géographie:
-&lt;ul&gt;
-&lt;li&gt;Conditions bio-géographiques conduisant à la révolution Néolithique (Diamond, 1997)&lt;/li&gt;
-&lt;li&gt;Maladies, espérance de vie et investissement en capital humain (Andersen, Dalgaard et Selaya, 2012)&lt;/li&gt;
-&lt;li&gt;Culture conduisant à l&amp;rsquo;innovation (Özak, 2018)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Caractéristiques transmisses intergénérationalement:
-&lt;ul&gt;
-&lt;li&gt;Préférence vers le présent et le futur (Galor et Özak, 2016)&lt;/li&gt;
-&lt;li&gt;Diversité (Ashraf et Galor, 2013)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Colonialisme:
-&lt;ul&gt;
-&lt;li&gt;Frontières artificielles (Papaioannou et Michalopoulos, 2012)&lt;/li&gt;
-&lt;li&gt;Esclavage (Nunn, 2008)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;Soit les familles avaient plus d&amp;rsquo;enfants, soit les enfants avaient une plus grande probabilité de survie.
-En tout cas, la taille de la population augmentait.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;Dans le modèle, les préférences des parents incluent le niveau de capital humain des enfants.
-Comme en époque Malthusienne les parents n&amp;rsquo;investissent pas dans l&amp;rsquo;éducation nous ignorons cette composante de l&amp;rsquo;utilité des parents.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/section&gt;
+&lt;/div&gt;
 </description>
     </item>
     
@@ -2802,15 +2802,15 @@ The steady state with $\bar{k}=0$ is a &lt;strong&gt;poverty trap&lt;/strong&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;img src=&#34;https://eric-roca.github.io/img/olg/ces1.png&#34; alt=&#34;ces1&#34;&gt;&lt;/p&gt;
-&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
-&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
 &lt;p&gt;The mean value theorem states that, for a continuous function on $[a,b],$ there is a point $c \in (a,b)$ such that the derivative a $c, f^\prime( c)$ coincides with the slope of the secant between $a$ and $b, \frac{f(b) - f(a)}{b-a}.$
 &lt;a href=&#34;https://en.wikipedia.org/wiki/Mean_value_theorem&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;More information&lt;/a&gt;.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/section&gt;
+&lt;/div&gt;
 </description>
     </item>
     
@@ -2947,14 +2947,14 @@ En autre, les différences interpersonneles et la manque de confiance sont sucep
 Ces deux alternatives sont explorées par &lt;a href=&#34;https://doi.org/10.3982/ECTA13734&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arbatli et al. (2020)&lt;/a&gt;
 &lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/Arbatli_et_al__2020_Figure_2.png&#34; alt=&#34;Arbatli_et_al__2020_Figure_2&#34;&gt;
 &lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/Arbatli_et_al__2020_Figure_A1.png&#34; alt=&#34;Arbatli_et_al__2020_Figure_A1&#34;&gt;&lt;/p&gt;
-&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
-&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
 &lt;p&gt;Ce niveau optimal de diversité change avec le développement économique, c&amp;rsquo;est-à-dire, le niveau optimal pendant l&amp;rsquo;année 0 est différent du niveau optimal pendant l&amp;rsquo;année 1500.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/section&gt;
+&lt;/div&gt;
 </description>
     </item>
     
@@ -3779,14 +3779,14 @@ in the first one, the $k_{t+1}$ curve is tangent to the 45 degree line.
 In that (unlikely) case, a unique steady state arises, but it is non-hyperbolic and we cannot infer its stability from the linearised version.
 &lt;strong&gt;Note:&lt;/strong&gt; we know that the steady state is non-hyperbolic because $k_{t+1}$ evaluated at the steady state is tangent to a 45 degree line.&lt;/p&gt;
 &lt;p&gt;In the second case, if $b$ or $g$ are big enough, the economy has no steady state.&lt;/p&gt;
-&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
-&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
 &lt;p&gt;We have implicitly assumed it when we stated that bonds payed the same interest rate as capital.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/section&gt;
+&lt;/div&gt;
 </description>
     </item>
     
@@ -4002,14 +4002,14 @@ $$\bar{N}_i = \bar{N}_j = \sqrt{N_{1,0}}\sqrt{N_{2,0}},$$&lt;/p&gt;
 &lt;p&gt;Lastly, we can compute the trajectory of the system for a set of parameters to visualize the evolution of the main variables.
 For instance, if we take the following parametrisation $N_{1,0} = 9, N_{2,0} = 20, \delta = 0.08, K = 400, b = 0.0012, R_0 = 300$
 &lt;img src=&#34;https://eric-roca.github.io/img/olg/de_la_croix_dottori__2008_plot.png&#34; alt=&#34;evolution&#34;&gt;&lt;/p&gt;
-&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
-&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
 &lt;p&gt;In a sense, in this model individuals save by having children.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/section&gt;
+&lt;/div&gt;
 </description>
     </item>
     
@@ -4165,10 +4165,10 @@ The critical transition occurs because of, eventually, capitalists find it optim
 With it, and as wages keep increasing, workers are eventually able to give bequests, thus becoming capitalists.
 Instead of detailing the exact process (check the reference), we will simulate the economy for a set of parameters.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://eric-roca.github.io/img/olg/galor_moav__2006_plot.png&#34; alt=&#34;galor_moav__2006_plot&#34;&gt;&lt;/p&gt;
-&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
-&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
 &lt;p&gt;In the paper, it is assumed that:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;$h_{t+1}(0) = 1,$&lt;/li&gt;
@@ -4177,7 +4177,7 @@ Instead of detailing the exact process (check the reference), we will simulate t
 &lt;/ul&gt;
 &amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;/section&gt;
+&lt;/div&gt;
 </description>
     </item>
     
@@ -4342,17 +4342,17 @@ $$\theta^E_t = \frac{L_t^E}{L_t^E + L_t^I} = \frac{{R^0}^t}{{R^0}^t+{R^1}^t\frac
 &lt;p&gt;Hence, as time advances, the share of the population engaged in the endowment production process shrinks towards zero:
 $$\lim_{t\rightarrow\infty}\theta^E_t = 0.$$
 This process reflects their lower reproductive success.&lt;/p&gt;
-&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
-&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
 &lt;p&gt;Bisin and Verdier also model the case when parental indoctrination and how it affects the evolution of cultural traits.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
 &lt;p&gt;The assumption $\ln(R^1) &amp;gt; 2\ln(R^0)$ is important to establish that $\hat{\beta} \in (0,1).$&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/section&gt;
+&lt;/div&gt;
 </description>
     </item>
     
