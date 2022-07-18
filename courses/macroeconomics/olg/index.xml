@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Overlapping generations model | Academic</title>
-    <link>https://example.com/courses/macroeconomics/olg/</link>
-      <atom:link href="https://example.com/courses/macroeconomics/olg/index.xml" rel="self" type="application/rss+xml" />
+    <title>Overlapping generations model | Èric Roca Fernández</title>
+    <link>https://eric-roca.github.io/courses/macroeconomics/olg/</link>
+      <atom:link href="https://eric-roca.github.io/courses/macroeconomics/olg/index.xml" rel="self" type="application/rss+xml" />
     <description>Overlapping generations model</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 11 Jul 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://eric-roca.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Overlapping generations model</title>
-      <link>https://example.com/courses/macroeconomics/olg/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/olg/</link>
     </image>
     
     <item>
       <title>Preliminaries</title>
-      <link>https://example.com/courses/macroeconomics/olg/olg_preliminaries/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/olg/olg_preliminaries/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/macroeconomics/olg/olg_preliminaries/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/olg/olg_preliminaries/</guid>
       <description>&lt;p&gt;In this model, time is discrete and extends from $t=0, 1, \ldots, \infty.$
 Individuals make decisions at points in time.
 We shall have initial conditions detailing the state of the economy at $t=0.$&lt;/p&gt;
@@ -111,9 +111,9 @@ Therefore, the total population $N$ at time $t$ is composed of adults and young 
     
     <item>
       <title>Households</title>
-      <link>https://example.com/courses/macroeconomics/olg/olg_households/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/olg/olg_households/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/macroeconomics/olg/olg_households/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/olg/olg_households/</guid>
       <description>&lt;h2 id=&#34;building-the-budget-constraint&#34;&gt;Building the budget constraint&lt;/h2&gt;
 &lt;p&gt;Individuals live for two periods.
 As before, we assume perfect foresight for individuals.
@@ -166,7 +166,7 @@ We assume that $u( c )$ has the properties&lt;/p&gt;
 &lt;p&gt;The last assumption $\lim_{c \rightarrow 0} u^{\prime}( c ) = +\infty$ implies that an individual will always have a positive consumption &amp;mdash;as long as he has enough income to finance it.&lt;/p&gt;
 &lt;p&gt;Another important implication of the choice of the utility formulation is that $c$ and $d$ are normal goods: the demand is &lt;em&gt;not decreasing&lt;/em&gt; in wealth.
 It follows from additive separability and concavity.
-In the &lt;a href=&#34;https://example.com/courses/macroeconomics/math_app/olg_non-separable_utility/&#34;&gt;Appendix&lt;/a&gt; we discuss it in more detail for a non-separable utility function.&lt;/p&gt;
+In the &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/math_app/olg_non-separable_utility/&#34;&gt;Appendix&lt;/a&gt; we discuss it in more detail for a non-separable utility function.&lt;/p&gt;
 &lt;h2 id=&#34;the-behaviour-of-individuals&#34;&gt;The behaviour of individuals&lt;/h2&gt;
 &lt;p&gt;At time $t$, young individuals receive their wages, consume and save while maximising the utility function.&lt;/p&gt;
 &lt;p&gt;$$\begin{eqnarray}
@@ -206,12 +206,12 @@ Similarly, the subindeces $t, t+1, \ldots$ denote the period of consumption, but
     
     <item>
       <title>Savings function</title>
-      <link>https://example.com/courses/macroeconomics/olg/olg_savings_function/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/olg/olg_savings_function/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/macroeconomics/olg/olg_savings_function/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/olg/olg_savings_function/</guid>
       <description>&lt;p&gt;We now study how savings are affected by the remaining variables of the model.
 Before turning to it, we compute the intertemporal elasticity of substitution on this model, because it turns out to be a crucial element influencing savings.
-The &lt;em&gt;intertemporal elasticity of substitution&lt;/em&gt; is a special case of the &lt;a href=&#34;https://example.com/courses/macroeconomics/math_app/elasticity_of_substitution/&#34;&gt;elasticity of substitution&lt;/a&gt;, that measures how the ratio of future to present consumption changes with the relative price (the interest rate).&lt;/p&gt;
+The &lt;em&gt;intertemporal elasticity of substitution&lt;/em&gt; is a special case of the &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/math_app/elasticity_of_substitution/&#34;&gt;elasticity of substitution&lt;/a&gt;, that measures how the ratio of future to present consumption changes with the relative price (the interest rate).&lt;/p&gt;
 &lt;h2 id=&#34;intertemporal-elasticity-of-substitution&#34;&gt;Intertemporal elasticity of substitution&lt;/h2&gt;
 &lt;p&gt;The intertemporal elasticity of substitution is defined as:&lt;/p&gt;
 &lt;p&gt;$$\epsilon_{d_{t+1}, c_{t}} = \frac{ \partial \left( \frac{d_{t+1}}{c_{t}} \right)}{\partial R_{t+1}} \frac{ R_{t+1}}{\left( \frac{d_{t+1}}{c_{t}} \right)}.$$&lt;/p&gt;
@@ -309,9 +309,9 @@ $\epsilon &amp;lt; 1$ also means that $c$ and $d$ are intertemporally complement
     
     <item>
       <title>Intertemporal equilibrium</title>
-      <link>https://example.com/courses/macroeconomics/olg/olg_equilibrium/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/olg/olg_equilibrium/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/macroeconomics/olg/olg_equilibrium/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/olg/olg_equilibrium/</guid>
       <description>&lt;h2 id=&#34;temporary-equilibrium&#34;&gt;Temporary equilibrium&lt;/h2&gt;
 &lt;p&gt;Before turning to the intertemporal equilibrium and the analysis of the steady state, we study the temporary equilibrium that takes place every period.&lt;/p&gt;
 &lt;p&gt;We have not discussed the firms, but they follow the same setup as in Ramsey: use capital and labour in a perfectly competitive environment.&lt;/p&gt;
@@ -452,7 +452,7 @@ Otherwise, for some level $k$ there would be multiple values for $k_{t+1}$ (mean
 Individuals lack a coordinating mechanism to select any of these equilibria.&lt;/p&gt;
 &lt;p&gt;We show that the intertemporal elasticity of substitution $\sigma$ is important in determining uniqueness.
 In particular, if $\sigma &amp;gt; 1$, then the equilibrium is unique.
-We will revisit this issue &lt;a href=&#34;https://example.com/courses/macroeconomics/olg/olg_monotonicity_of_the_dynamics/&#34;&gt;later.&lt;/a&gt;&lt;/p&gt;
+We will revisit this issue &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/olg/olg_monotonicity_of_the_dynamics/&#34;&gt;later.&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;We have used the intermediate value theorem to show that solutions exist.
 Moreover, it shows that $\lim_{k\rightarrow 0} \frac{H(w,k)}{k} &amp;lt; 0$ and $\lim_{k \rightarrow +\infty} \frac{H(w,k)}{k} &amp;gt; 0.$
@@ -477,18 +477,18 @@ Assumption &lt;strong&gt;OLG.4&lt;/strong&gt; states:&lt;/p&gt;
 &lt;p&gt;Therefore, it is sufficient to have&lt;/p&gt;
 &lt;p&gt;$$s^{\prime}_R \geq 0$$&lt;/p&gt;
 &lt;p&gt;meaning that savings increase with the interest rate.
-This behaviour is readily verified when the &lt;a href=&#34;https://example.com/courses/macroeconomics/olg/olg_savings_function/#intertemporal-elasticity-of-substitution&#34;&gt;intertemporal elasticity of substitution of at least one.&lt;/a&gt;
+This behaviour is readily verified when the &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/olg/olg_savings_function/#intertemporal-elasticity-of-substitution&#34;&gt;intertemporal elasticity of substitution of at least one.&lt;/a&gt;
 Then, to have monotonic dynamics and unique temporal equilibrium it is sufficient to have $\sigma \geq 1.$&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Steady state</title>
-      <link>https://example.com/courses/macroeconomics/olg/olg_steady_state/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/olg/olg_steady_state/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/macroeconomics/olg/olg_steady_state/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/olg/olg_steady_state/</guid>
       <description>&lt;p&gt;We assume that the intertemporal equilibrium exists and is unique.
-As noted when characterising the &lt;a href=&#34;https://example.com/courses/macroeconomics/olg/olg_equilibrium/#temporary-equilibrium&#34;&gt;uniqueness of the temporary equilibrium&lt;/a&gt;, assuming that $\sigma&amp;gt;1$ is a sufficient condition.
+As noted when characterising the &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/olg/olg_equilibrium/#temporary-equilibrium&#34;&gt;uniqueness of the temporary equilibrium&lt;/a&gt;, assuming that $\sigma&amp;gt;1$ is a sufficient condition.
 Therefore, the dynamics of capital are given by:&lt;/p&gt;
 &lt;p&gt;$$k_{t+1} = \frac{1}{1+n}s(\omega(k_{t}), f^{\prime}(k_{t+1})).$$&lt;/p&gt;
 &lt;p&gt;Hence, $k_{t+1}$ is an implicit function of $k_{t}$:&lt;/p&gt;
@@ -533,7 +533,7 @@ There can be two additional, positive steady states depending on the curvature o
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/olg/example_1.png&#34; alt=&#34;steady states&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/olg/example_1.png&#34; alt=&#34;steady states&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;Similarly, the Cobb-Douglas case $\rho \rightarrow 0$ also has zero as a steady state.
@@ -560,14 +560,14 @@ Moreover, the configuration varies depending on the production and utility funct
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/olg/example_2.png&#34; alt=&#34;behaviour&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/olg/example_2.png&#34; alt=&#34;behaviour&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;h2 id=&#34;stability-of-the-steady-state&#34;&gt;Stability of the steady state&lt;/h2&gt;
 &lt;p&gt;This model can feature one or several steady states.
 This depends on the characteristics of the production and utility functions.&lt;/p&gt;
 &lt;p&gt;First, the dynamics of $k$ are monotonic: either continuously increase or decrease.
-This follows from assuming a unique intertemporal equilibrium, &lt;a href=&#34;https://example.com/courses/macroeconomics/olg/olg_equilibrium/#uniqueness-of-the-intertemporal-equilibrium&#34;&gt;see also&lt;/a&gt;.
+This follows from assuming a unique intertemporal equilibrium, &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/olg/olg_equilibrium/#uniqueness-of-the-intertemporal-equilibrium&#34;&gt;see also&lt;/a&gt;.
 This extra assumption also implies that the intermporal elasticity of substitution is &lt;em&gt;not too small&lt;/em&gt;.
 In particular, we operationalise (p. 25 in &lt;em&gt;de la Croix and Michel&lt;/em&gt;.) it as:&lt;/p&gt;
 &lt;p&gt;$$\forall c&amp;gt;0, \quad u^\prime( c ) + c u^{\prime \prime}( c ) \geq 0 \Leftrightarrow \sigma( c ) \geq 1.$$&lt;/p&gt;
@@ -623,7 +623,7 @@ We can solve for them:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Local dynamics: stability&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;We check the stability of the two steady states using the first derivative evaluated at the steady state.
 &lt;strong&gt;Note:&lt;/strong&gt; in general we would use the Jacobian matrix, but the OLG model has only one equation in one variable.&lt;/p&gt;
-&lt;p&gt;Remember that, for a discrete-time system, a &lt;a href=&#34;https://example.com/courses/macroeconomics/math_app/steady_state/#hyperbolic-steady-states&#34;&gt;&lt;em&gt;non-hyperbolic&lt;/em&gt;&lt;/a&gt; steady state is stable if it the determinant of the Jacobian (here the absolute value of the derivative) evaluated at the steady state is in the unit circle $(-1, 1).$&lt;/p&gt;
+&lt;p&gt;Remember that, for a discrete-time system, a &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/math_app/steady_state/#hyperbolic-steady-states&#34;&gt;&lt;em&gt;non-hyperbolic&lt;/em&gt;&lt;/a&gt; steady state is stable if it the determinant of the Jacobian (here the absolute value of the derivative) evaluated at the steady state is in the unit circle $(-1, 1).$&lt;/p&gt;
 &lt;p&gt;In our case:&lt;/p&gt;
 &lt;p&gt;$$g(k) = k_{t+1} = \frac{1}{1+n}\frac{\beta}{1+\beta}(1-\alpha)Ak_{t}^\alpha$$
 $$g^\prime(k) = \frac{1}{1+n}\frac{\beta}{1+\beta}(1-\alpha)\alpha Ak_{t}^{\alpha-1}&amp;gt; 0.$$&lt;/p&gt;
@@ -652,7 +652,7 @@ We show that the dynamics are bounded above by the steady state $\bar{k} = \phi^
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/olg/Log_CD.png&#34; alt=&#34;log_cd&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/olg/Log_CD.png&#34; alt=&#34;log_cd&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;h3 id=&#34;log-utility-and-ces-technology&#34;&gt;Log-utility and CES technology&lt;/h3&gt;
@@ -689,7 +689,7 @@ In that case, the economy displays a unique steady state, and it is globally sta
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/olg/ces0.png&#34; alt=&#34;ces0&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/olg/ces0.png&#34; alt=&#34;ces0&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;h4 id=&#34;unique-bark0-or-multiple-steady-states&#34;&gt;Unique $\bar{k}=0$ or multiple steady states&lt;/h4&gt;
@@ -740,7 +740,7 @@ The steady state with $\bar{k}=0$ is a &lt;strong&gt;poverty trap&lt;/strong&gt;
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/olg/ces1.png&#34; alt=&#34;ces1&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/olg/ces1.png&#34; alt=&#34;ces1&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
@@ -757,9 +757,9 @@ The steady state with $\bar{k}=0$ is a &lt;strong&gt;poverty trap&lt;/strong&gt;
     
     <item>
       <title>Multiple intertemporal equilibria</title>
-      <link>https://example.com/courses/macroeconomics/olg/olg_monotonicity_of_the_dynamics/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/olg/olg_monotonicity_of_the_dynamics/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/macroeconomics/olg/olg_monotonicity_of_the_dynamics/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/olg/olg_monotonicity_of_the_dynamics/</guid>
       <description>&lt;p&gt;In the OLG model, a unique intertemporal equilibrium arises if, for a given $k_t$, the equation&lt;/p&gt;
 &lt;p&gt;$$H(k_{t+1}) = k_{t+1} - \frac{1}{1+n}s\left(\omega(k_t), f^\prime(k_{t+1})\right) = 0$$&lt;/p&gt;
 &lt;p&gt;has a unique solution.
@@ -768,7 +768,7 @@ which guarantees the existence of at least one solution.&lt;/p&gt;
 &lt;p&gt;Hence, if the function $H$ is monotonously increasing, the solution is unique.
 This condition depends on the sign of:&lt;/p&gt;
 &lt;p&gt;$$\frac{\partial H(k_{t+1})}{\partial k_{t+1}} = 1 + \frac{1}{1+n}s^{\prime}_{R}f^{\prime \prime}(k_{t+1}).$$&lt;/p&gt;
-&lt;p&gt;We have different cases (check &lt;a href=&#34;https://example.com/courses/macroeconomics/olg/olg_savings_function/&#34;&gt;the notes&lt;/a&gt; on the savings function):&lt;/p&gt;
+&lt;p&gt;We have different cases (check &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/olg/olg_savings_function/&#34;&gt;the notes&lt;/a&gt; on the savings function):&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;$s^\prime_{R} = 0$, which happens under log-utility.
@@ -787,7 +787,7 @@ Then, clearly $s^\prime_{R} &amp;gt; 0 &amp;gt; \frac{1+n}{R^\prime(k_{t+1})}.$&
 &lt;h3 id=&#34;non-monotonous-dynamics&#34;&gt;Non-monotonous dynamics&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Based on the &lt;a href=&#34;http://web.econ.ku.dk/okocg/MAT-OEK/Mak%C3%98k2/Mak%C3%98k2-2016/Forel%C3%A6sninger/Ch%203-2016-1.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;lecture notes of Groth, pp. 92&amp;ndash;93&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Under case 3, the function $g(k)$ is backwards bending for some values of $k.$
-This feature implies that there is more than one &lt;em&gt;intemporal equilibrium&lt;/em&gt;, check &lt;a href=&#34;https://example.com/courses/macroeconomics/olg/olg_equilibrium/#temporary-equilibrium&#34;&gt;also&lt;/a&gt;.
+This feature implies that there is more than one &lt;em&gt;intemporal equilibrium&lt;/em&gt;, check &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/olg/olg_equilibrium/#temporary-equilibrium&#34;&gt;also&lt;/a&gt;.
 We ruled out such a possibility assuming that $\sigma( c ) \geq 1$, this is, we imposed a large enough intertemporal elasticity of substitution.&lt;/p&gt;
 &lt;p&gt;If this is not the case and $s^\prime_{R}(\omega(k_t), R(k_{t+1})) &amp;lt; \frac{1+n}{R^\prime(k_{t+1})}$ then there are multiple temporary equilibriums.&lt;/p&gt;
 &lt;p&gt;For instance, take an isoelastic utility function $u( c ) = \frac{c^{1-\frac{1}{\sigma}}-1}{1-\frac{1}{\sigma}}$ and a CES production with $A=20, , \alpha = \frac{1}{2}, , \beta = 0.3, , n = 1.097, , \sigma = 0.1, , \rho = -2.$
@@ -815,7 +815,7 @@ Consequently, in all these cases we also have that $\frac{\mathrm{d}k_{t+1}}{\ma
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/olg/backwards.png&#34; alt=&#34;multiple_eq&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/olg/backwards.png&#34; alt=&#34;multiple_eq&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 </description>
@@ -823,15 +823,15 @@ Consequently, in all these cases we also have that $\frac{\mathrm{d}k_{t+1}}{\ma
     
     <item>
       <title>Optimality</title>
-      <link>https://example.com/courses/macroeconomics/olg/olg_optimality/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/olg/olg_optimality/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/macroeconomics/olg/olg_optimality/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/olg/olg_optimality/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Based on &lt;em&gt;de la Croix and Michel, Chapter 2&lt;/em&gt; and &lt;a href=&#34;http://web.econ.ku.dk/okocg/MAT-OEK/Mak%C3%98k2/Mak%C3%98k2-2016/Forel%C3%A6sninger/Ch%203-2016-1.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Gorth&amp;rsquo;s&lt;/em&gt;&lt;/a&gt; lecture notes.&lt;/p&gt;
 &lt;p&gt;The first welfare theorem states that a competitive equilibrium is Pareto optimal.
 However, the first welfare theorem has two requisites the Diamond model does not meet: a finite number of goods and a finite number of agents.
 Therefore, the allocation resulting from the competitive equilibrium may &lt;em&gt;not&lt;/em&gt; be Pareto optimal.&lt;/p&gt;
 &lt;h2 id=&#34;the-golden-rule-level-of-capital&#34;&gt;The golden-rule level of capital&lt;/h2&gt;
-&lt;p&gt;We begin the discussion by bringing back the idea of &lt;a href=&#34;https://example.com/courses/macroeconomics/ramsey/ramsey_remarks/#the-golden-rule&#34;&gt;over- and under-accumulation of capital&lt;/a&gt; we have seen before.
+&lt;p&gt;We begin the discussion by bringing back the idea of &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_remarks/#the-golden-rule&#34;&gt;over- and under-accumulation of capital&lt;/a&gt; we have seen before.
 In the Diamond model &amp;mdash;and different from the Ramsey model&amp;mdash;, the capital stock on the balanced growth path may exceed the golden-rule level.
 This implies that a permanent increase in consumption is possible.&lt;/p&gt;
 &lt;p&gt;When discussing the golden-rule level of capital, we are &lt;em&gt;not&lt;/em&gt; interested in how consumption is divided between the old and the young.
@@ -873,7 +873,7 @@ Hence, the golden-rule level of capital is given by:&lt;/p&gt;
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/olg/golden_rule.png&#34; alt=&#34;golden_rule&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/olg/golden_rule.png&#34; alt=&#34;golden_rule&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;The highest sustainable consumption level per unit of labour is obtained when, at steady state, the net marginal productivity of capital equals the growth rate of the economy.&lt;/p&gt;
@@ -939,9 +939,9 @@ Using the resource constraint:&lt;/p&gt;
     
     <item>
       <title>Planner</title>
-      <link>https://example.com/courses/macroeconomics/olg/olg_planner/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/olg/olg_planner/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/macroeconomics/olg/olg_planner/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/olg/olg_planner/</guid>
       <description>&lt;p&gt;Suppose now, instead, that a central planner is in charge of organising consumption and investment for all individuals.
 The planner operates by aggregating individual utility, discounting future generations at the rate $\gamma.$&lt;br/&gt;
 &lt;strong&gt;Note:&lt;/strong&gt; $\gamma$ is the discount rate of future &lt;em&gt;generations&lt;/em&gt;, not how young people discount old-age utility.&lt;/p&gt;
@@ -982,15 +982,15 @@ we can easily characterise the steady state knowing that $d_t = d_{t+1} = \bar{d
 &lt;p&gt;$$f^\prime (\bar{k}) = \frac{1+n}{\gamma}+1-\delta.$$&lt;/p&gt;
 &lt;p&gt;This equation provides us with the modified golden rule: the level of capital that maximises the planner&amp;rsquo;s utility.
 Clearly, if $\gamma=1$, the planner attributes the same weight to all generations and we recover the golden rule: $f^\prime(k) = n + \delta.$
-As we discussed &lt;a href=&#34;https://example.com/courses/macroeconomics/olg/olg_optimality/&#34;&gt;before&lt;/a&gt;, it is quite &lt;em&gt;unlikely&lt;/em&gt; the decentralised equilibrium converges towards the golden rule (modified or not).&lt;/p&gt;
+As we discussed &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/olg/olg_optimality/&#34;&gt;before&lt;/a&gt;, it is quite &lt;em&gt;unlikely&lt;/em&gt; the decentralised equilibrium converges towards the golden rule (modified or not).&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Debt and public expenditures</title>
-      <link>https://example.com/courses/macroeconomics/olg/olg_government/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/olg/olg_government/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/macroeconomics/olg/olg_government/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/olg/olg_government/</guid>
       <description>&lt;p&gt;Based on &lt;em&gt;de la Croix and Michel, Chapter 4.4&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id=&#34;the-ricardian-equivalence&#34;&gt;The Ricardian equivalence&lt;/h2&gt;
 &lt;p&gt;The Ricardian equivalence states that forward-looking agents internalise the government&amp;rsquo;s budget constraint when deciding.
@@ -1103,7 +1103,7 @@ Hence, we assume that:&lt;/p&gt;
 $$&lt;/p&gt;
 &lt;p&gt;Using the fact that $R(k) = 1 + r(k) - \delta$ we can rewrite the numerator as:&lt;/p&gt;
 &lt;p&gt;$$s^\prime_{\omega}\left(\frac{r(\bar{k}) -n - \delta}{1+n}\right)+1=s^\prime_\omega \left(\frac{R(\bar{k})-1-n}{1+n}\right)+1 = 1 - \underbrace{s^{\prime}_\omega}_{\in (0,1)} + \underbrace{s^\prime_\omega}_{&amp;gt;0} \frac{R(\bar{k})}{1+n} &amp;gt; 0.$$&lt;/p&gt;
-&lt;p&gt;We showed that $s^\prime_{\omega} \in (0,1)$ when we discussed &lt;a href=&#34;https://example.com/courses/macroeconomics/olg/olg_savings_function/#the-effect-of-wages&#34;&gt;the savings function.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We showed that $s^\prime_{\omega} \in (0,1)$ when we discussed &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/olg/olg_savings_function/#the-effect-of-wages&#34;&gt;the savings function.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Then, we have that&lt;/p&gt;
 &lt;p&gt;$$\frac{\partial \bar{k}}{\partial b} = - \frac{s^\prime_{\omega}\left(\overbrace{1-s^\prime_\omega+s^\prime_\omega\frac{R(\bar{k})}{1+n}}^{&amp;gt;0}\right)}{\underbrace{1+n-s^\prime_\omega \left(\omega^\prime(\bar{k})-b\frac{r^\prime(\bar{k})}{1+n}\right)-s^\prime_R R^\prime(\bar{k})}_{&amp;gt;0, \mathrm{because, of, stability}}}&amp;lt; 0 .$$&lt;/p&gt;
 &lt;p&gt;We proceed similarly with $g$:&lt;/p&gt;
@@ -1173,7 +1173,7 @@ $$\lim_{k \rightarrow +\infty}\phi = +\infty.$$&lt;/p&gt;
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/olg/taxes.png&#34; alt=&#34;taxes&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/olg/taxes.png&#34; alt=&#34;taxes&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;When $b=g=0$ we are back to the initial case without government.
@@ -1205,25 +1205,25 @@ In that (unlikely) case, a unique steady state arises, but it is non-hyperbolic 
     
     <item>
       <title>Papers using the OLG model</title>
-      <link>https://example.com/courses/macroeconomics/olg/olg_papers/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/olg/olg_papers/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/macroeconomics/olg/olg_papers/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/olg/olg_papers/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;This section revisits some papers that use the OLG framework to assess different types of outcomes:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Fertility and population dynamics
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://example.com/courses/macroeconomics/olg/papers/de_la_croix_dottori__2008/&#34;&gt;de la Croix, D., Dottori, D. Easter Island’s collapse: a tale of a population race. J Econ Growth 13, 27–55 (2008).&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/olg/papers/de_la_croix_dottori__2008/&#34;&gt;de la Croix, D., Dottori, D. Easter Island’s collapse: a tale of a population race. J Econ Growth 13, 27–55 (2008).&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Education
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://example.com/courses/macroeconomics/olg/papers/galor_moav__2006/&#34;&gt;Oded Galor, Omer Moav, Das Human-Kapital: A Theory of the Demise of the Class Structure, The Review of Economic Studies, Volume 73, Issue 1, January 2006, Pages 85–117.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/olg/papers/galor_moav__2006/&#34;&gt;Oded Galor, Omer Moav, Das Human-Kapital: A Theory of the Demise of the Class Structure, The Review of Economic Studies, Volume 73, Issue 1, January 2006, Pages 85–117.&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Population characteristics
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://example.com/courses/macroeconomics/olg/papers/galor_ozak__2016/&#34;&gt;Galor, Oded, and Ömer Özak. 2016. &amp;ldquo;The Agricultural Origins of Time Preference.&amp;rdquo; American Economic Review, 106 (10): 3064-3103.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/olg/papers/galor_ozak__2016/&#34;&gt;Galor, Oded, and Ömer Özak. 2016. &amp;ldquo;The Agricultural Origins of Time Preference.&amp;rdquo; American Economic Review, 106 (10): 3064-3103.&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -1232,9 +1232,9 @@ In that (unlikely) case, a unique steady state arises, but it is non-hyperbolic 
     
     <item>
       <title>de la Croix and Dottori, 2008</title>
-      <link>https://example.com/courses/macroeconomics/olg/papers/de_la_croix_dottori__2008/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/olg/papers/de_la_croix_dottori__2008/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/macroeconomics/olg/papers/de_la_croix_dottori__2008/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/olg/papers/de_la_croix_dottori__2008/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;This paper analyses the very distinct population patterns of two remote islands in the Pacific Ocean: Eastern Island and Tikopia.
 While Tikopians managed to control population growth and natural resources usage, the inhabitants of Eastern Island engaged in clan competition for the control of resources, leading to overpopulation and overexplotation of resources.&lt;/p&gt;
@@ -1269,7 +1269,7 @@ By 1400CE, deforestation had reached its peak and when the Europeans arrived, th
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/olg/de_la_croix_and_dottori__2008_Figure_1.png&#34; alt=&#34;de_la_croix_and_dottori__2008_Figure_1&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/olg/de_la_croix_and_dottori__2008_Figure_1.png&#34; alt=&#34;de_la_croix_and_dottori__2008_Figure_1&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 
 
@@ -1290,7 +1290,7 @@ By 1400CE, deforestation had reached its peak and when the Europeans arrived, th
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/olg/de_la_croix_and_dottori__2008_Figure_2.png&#34; alt=&#34;de_la_croix_and_dottori__2008_Figure_2&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/olg/de_la_croix_and_dottori__2008_Figure_2.png&#34; alt=&#34;de_la_croix_and_dottori__2008_Figure_2&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;Meanwhile, Tikopia was settled around 900BCE and people lived by slash and burn agriculture.
@@ -1393,7 +1393,7 @@ $$n^\star_{2,t} = \left(\frac{N_{1,t}}{N_{2,t}}\right)^\frac{1}{3} \implies N_{2
 &lt;p&gt;It is simpler to solve the corresponding linearised system, which we can obtain by taking logarithms:
 $$\tilde{N}_{i,t+1} = \frac{2}{3}\tilde{N}_{i,t} + \frac{1}{3} \tilde{N}_{j,t},$$
 where $\tilde{N} = \log N.$&lt;/p&gt;
-&lt;p&gt;Using the technique proposed in the &lt;a href=&#34;https://example.com/courses/macroeconomics/ramsey/ramsey_trajectory/&#34;&gt;Ramsey model&lt;/a&gt; we can obtain the dynamics of the logarithmic system:&lt;/p&gt;
+&lt;p&gt;Using the technique proposed in the &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_trajectory/&#34;&gt;Ramsey model&lt;/a&gt; we can obtain the dynamics of the logarithmic system:&lt;/p&gt;
 &lt;p&gt;$$\tilde{N}_{i,t} = \frac{\tilde{N}_{i,0} + \tilde{N}_{j,0}}{2} + \frac{1}{2} 3^{-t}\left( \tilde{N}_{i,0} - \tilde{N}_{j,0} \right).$$
 The steady state level of population, for each group is
 $$\bar{N}_i = \bar{N}_j = \sqrt{N_{1,0}}\sqrt{N_{2,0}},$$&lt;/p&gt;
@@ -1420,7 +1420,7 @@ For instance, if we take the following parametrisation $N_{1,0} = 9, N_{2,0} = 2
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/olg/de_la_croix_dottori__2008_plot.png&#34; alt=&#34;evolution&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/olg/de_la_croix_dottori__2008_plot.png&#34; alt=&#34;evolution&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
@@ -1436,9 +1436,9 @@ For instance, if we take the following parametrisation $N_{1,0} = 9, N_{2,0} = 2
     
     <item>
       <title>Galor and Moav, 2006</title>
-      <link>https://example.com/courses/macroeconomics/olg/papers/galor_moav__2006/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/olg/papers/galor_moav__2006/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/macroeconomics/olg/papers/galor_moav__2006/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/olg/papers/galor_moav__2006/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;This paper presents an OLG model to explain the rise of publicly financed education and the transition from a class structure characterised by capitalists and workers to another one where all individuals are capitalists.
 The papers undefined that the demise of the class structure was a deliberate action from the part of the capitalists to sustain their profits as human capital became more and more important in the production process.
@@ -1466,7 +1466,7 @@ Furthermore, they supplement the model with econometrics that are compatible wit
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/olg/Galor_Moav__2006_Figure_1.png&#34; alt=&#34;Galor_Moav__2006_Figure_1&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/olg/Galor_Moav__2006_Figure_1.png&#34; alt=&#34;Galor_Moav__2006_Figure_1&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;h2 id=&#34;the-model&#34;&gt;The model&lt;/h2&gt;
@@ -1623,7 +1623,7 @@ Instead of detailing the exact process (check the reference), we will simulate t
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/olg/galor_moav__2006_plot.png&#34; alt=&#34;galor_moav__2006_plot&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/olg/galor_moav__2006_plot.png&#34; alt=&#34;galor_moav__2006_plot&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
@@ -1644,9 +1644,9 @@ Instead of detailing the exact process (check the reference), we will simulate t
     
     <item>
       <title>Galor and Özak, 2016</title>
-      <link>https://example.com/courses/macroeconomics/olg/papers/galor_ozak__2016/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/olg/papers/galor_ozak__2016/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/macroeconomics/olg/papers/galor_ozak__2016/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/olg/papers/galor_ozak__2016/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;In this paper, Galor and Özak show empirically how differences in time preference (how much people discount the future) has an agricultural origin.
 This is important for development, because those who save more are the individuals who are more patient, this is, who are more future-oriented.

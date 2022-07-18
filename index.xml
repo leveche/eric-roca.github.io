@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Academic</title>
-    <link>https://example.com/</link>
-      <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
-    <description>Academic</description>
+    <title>Èric Roca Fernández</title>
+    <link>https://eric-roca.github.io/</link>
+      <atom:link href="https://eric-roca.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <description>Èric Roca Fernández</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 05 Jul 2022 15:45:00 +0200</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
-      <title>Academic</title>
-      <link>https://example.com/</link>
+      <url>https://eric-roca.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Èric Roca Fernández</title>
+      <link>https://eric-roca.github.io/</link>
     </image>
     
     <item>
       <title>Firms</title>
-      <link>https://example.com/courses/macroeconomics/ramsey/ramsey_firms/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_firms/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/macroeconomics/ramsey/ramsey_firms/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_firms/</guid>
       <description>&lt;p&gt;We assume that a large number of identical firms populate the economy.
 Firms produce a single, homogeneous good using labour and capital.
 The production function $F(K,L)$ has the following properties:&lt;/p&gt;
@@ -46,15 +46,15 @@ Since the production function $F$ is homogeneous of degree, we can write it in &
 &lt;p&gt;The marginal product of labour is given by $\partial F(K,L)/\partial L.$
 In intensive terms, it is equal to:&lt;/p&gt;
 &lt;p&gt;$$w_{t} = f(k) - f^{\prime}(k) k. \tag{7, Wage}$$&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: The &lt;a href=&#34;https://example.com/courses/macroeconomics/math_app/homogenous_functions/&#34;&gt;appendix&lt;/a&gt; details how to obtain the previous expressions.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: The &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/math_app/homogenous_functions/&#34;&gt;appendix&lt;/a&gt; details how to obtain the previous expressions.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Homogenous functions</title>
-      <link>https://example.com/courses/macroeconomics/math_app/homogenous_functions/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/math_app/homogenous_functions/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/macroeconomics/math_app/homogenous_functions/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/math_app/homogenous_functions/</guid>
       <description>&lt;p&gt;Notes based on Appendix A.1.1 of &lt;em&gt;de la Croix and Michel: A Theory of Economic Growth.&lt;/em&gt; and Appendix M.B of &lt;em&gt;Mas-Colell, Whinston and Green: Microeconomic Theory.&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id=&#34;homogeneity&#34;&gt;Homogeneity&lt;/h2&gt;
 &lt;p&gt;A function of N variables $f(x_{1}, \ldots, x_{N})$ defined for all non-negative values $(x_{1}, \ldots, x_{N})$ is &lt;strong&gt;homogeneous of degree $p$&lt;/strong&gt; if:&lt;/p&gt;
@@ -142,9 +142,9 @@ $$F^{\prime}(K,L) =F^{\prime}\left(\frac{K}{L},\frac{L}{L}\right) = f^{\prime}(k
     
     <item>
       <title>Households</title>
-      <link>https://example.com/courses/macroeconomics/ramsey/ramsey_households/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_households/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/macroeconomics/ramsey/ramsey_households/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_households/</guid>
       <description>&lt;p&gt;The economy is populated by a large number of identical households.
 Each household is composed of one individual who lives indefinitely.&lt;/p&gt;
 &lt;h2 id=&#34;utility-representation&#34;&gt;Utility representation&lt;/h2&gt;
@@ -249,9 +249,9 @@ In this case, the fact that $\beta \in (0,1)$ ensures the validity of the transv
     
     <item>
       <title>Households</title>
-      <link>https://example.com/courses/macroeconomics/ramsey_gov/ramsey_government_households/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/ramsey_gov/ramsey_government_households/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/macroeconomics/ramsey_gov/ramsey_government_households/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/ramsey_gov/ramsey_government_households/</guid>
       <description>&lt;p&gt;We modify the household&amp;rsquo;s budget constraint to take into account the taxes they pay.
 It remains exactly the same as &lt;a href=&#34;%22../ramsey/Ramsey_Households.md%22&#34;&gt;before&lt;/a&gt;, except for the fact that less income is available for consumption:&lt;/p&gt;
 &lt;p&gt;$$k_{t+1} + c_{t} = w_{t} + r_{t}k_{t} + (1-\delta) k_{t} - \color{red}{T_{t}}. \tag{1, Budget Const.} \label{eq:budget}$$&lt;/p&gt;
@@ -286,9 +286,9 @@ Of course, the optimal allocation will be affected because less resources are av
     
     <item>
       <title>Preliminaries</title>
-      <link>https://example.com/courses/macroeconomics/olg/olg_preliminaries/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/olg/olg_preliminaries/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/macroeconomics/olg/olg_preliminaries/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/olg/olg_preliminaries/</guid>
       <description>&lt;p&gt;In this model, time is discrete and extends from $t=0, 1, \ldots, \infty.$
 Individuals make decisions at points in time.
 We shall have initial conditions detailing the state of the economy at $t=0.$&lt;/p&gt;
@@ -383,9 +383,9 @@ Therefore, the total population $N$ at time $t$ is composed of adults and young 
     
     <item>
       <title>The Standard Trade Model</title>
-      <link>https://example.com/courses/international_trade/standard_trade_model/</link>
+      <link>https://eric-roca.github.io/courses/international_trade/standard_trade_model/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/international_trade/standard_trade_model/</guid>
+      <guid>https://eric-roca.github.io/courses/international_trade/standard_trade_model/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;The previous models seen in the first half of the course focus on particular aspects that may give rise to international trade.
 In particular, the Ricardian model emphasizes differences in comparative advantages that can be ultimately related to different production functions.
@@ -483,7 +483,7 @@ If we assume, for a second, that the economy counts with $10$ units of labour $(
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/PPF.png&#34; alt=&#34;PPF&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/PPF.png&#34; alt=&#34;PPF&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;h3 id=&#34;deciding-how-much-to-produce&#34;&gt;Deciding how much to produce&lt;/h3&gt;
@@ -513,7 +513,7 @@ The next figure draws isovalue lines for values $V = {20,40,60}.$&lt;/p&gt;
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Isovalues.png&#34; alt=&#34;Isovalue_lines&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Isovalues.png&#34; alt=&#34;Isovalue_lines&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;To draw one isovalue line for a given $V$, we isolate the variable in the vertical axis, this is, $Q_F$ in our case:
@@ -553,7 +553,7 @@ Thus, it is optimal to lie on the point that is the farthest away which still to
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/PPF_optimal.png&#34; alt=&#34;PPF_Optimal&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/PPF_optimal.png&#34; alt=&#34;PPF_Optimal&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;When the relative price changes, the slope of the isovalue lines change.
@@ -591,7 +591,7 @@ As $Q_C$ increases and $Q_F$ decreases following the rise if $P_C$, it is easy t
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Change_in_relative_price.png&#34; alt=&#34;Change_in_relative_price&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Change_in_relative_price.png&#34; alt=&#34;Change_in_relative_price&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;h2 id=&#34;individuals-preferences-and-the-relative-demand-curve&#34;&gt;Individuals&amp;rsquo; preferences and the relative demand curve&lt;/h2&gt;
@@ -622,7 +622,7 @@ The next Figure plots several indifference curves, with values $\bar{U} = {1, 1.
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Indifference_curves.png&#34; alt=&#34;Indifference&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Indifference_curves.png&#34; alt=&#34;Indifference&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;Considering that the economy can trade at the prices $P_C,\, P_F$, individuals will optimize according to them.
@@ -653,7 +653,7 @@ Such equilibrium is represented in the Figure below:&lt;/p&gt;
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Equilibrium.png&#34; alt=&#34;Equilibrium&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Equilibrium.png&#34; alt=&#34;Equilibrium&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;As we did before, we can consider the effect of an increase in $\frac{P_C}{P_F}$.
@@ -687,7 +687,7 @@ Therefore, consumers tend to consume less of $C$ and more of $F$.&lt;/li&gt;
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Change_Equilibrium.png&#34; alt=&#34;Change_Equilibrium&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Change_Equilibrium.png&#34; alt=&#34;Change_Equilibrium&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;Similar to the relative supply curve, we can draw a relative demand curve which represents the relative demand $\frac{Q_C}{Q_F}$ with respect to the relative price $\frac{P_Q}{P_F}.$&lt;/p&gt;
@@ -709,7 +709,7 @@ Therefore, consumers tend to consume less of $C$ and more of $F$.&lt;/li&gt;
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Relative_supply_and_demand.png&#34; alt=&#34;Relative_supply_and_demand&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Relative_supply_and_demand.png&#34; alt=&#34;Relative_supply_and_demand&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;h2 id=&#34;the-terms-of-trade&#34;&gt;The terms of trade&lt;/h2&gt;
@@ -745,7 +745,7 @@ As usual, equilibrium points are found by equalizing the slope of the PPF in eac
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Production_in_each_country.png&#34; alt=&#34;Production_in_each_country&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Production_in_each_country.png&#34; alt=&#34;Production_in_each_country&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 
 The world-level relative supply of clothing and food can be computed by aggregating from the country level:
@@ -773,7 +773,7 @@ The Figure below illustrates the case:
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/World_relative_supply_and_demand.png&#34; alt=&#34;World_relative_supply_and_demand&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/World_relative_supply_and_demand.png&#34; alt=&#34;World_relative_supply_and_demand&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;h2 id=&#34;growth-the-terms-of-trade-and-welfare&#34;&gt;Growth, the terms of trade and welfare&lt;/h2&gt;
@@ -830,7 +830,7 @@ So, with more capital in the clothing sector, the economy clearly produces more 
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Biased_growth.png&#34; alt=&#34;Biased_growth&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Biased_growth.png&#34; alt=&#34;Biased_growth&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 
 Of course, biased growth towards clothing implies an increase in the relative supply (of clothing), while an biased growth towards food implies a decrease in the relative supply (of clothing).
@@ -868,7 +868,7 @@ To some, the growth of the poor economies will be make them actually worse, this
 Although the possibility can arise from a theoretical model, Bhagwati (1958) shows that it only materialises when strong export-biased growth is combined with vey steep RS and RD curves.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;exercises&#34;&gt;Exercises&lt;/h2&gt;
-&lt;p&gt;Some &lt;a href=&#34;https://example.com/files/Exercises.pdf&#34;&gt;exercises&lt;/a&gt; to practice.&lt;/p&gt;
+&lt;p&gt;Some &lt;a href=&#34;https://eric-roca.github.io/files/Exercises.pdf&#34;&gt;exercises&lt;/a&gt; to practice.&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
@@ -886,9 +886,9 @@ For instance, land can only be used in agriculture.&amp;#160;&lt;a href=&#34;#fn
     
     <item>
       <title>Difference equations</title>
-      <link>https://example.com/courses/macroeconomics/math_app/steady_state/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/math_app/steady_state/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/macroeconomics/math_app/steady_state/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/math_app/steady_state/</guid>
       <description>&lt;p&gt;This note is based on Appendix A.3.2 of &lt;em&gt;de la Croix and Michel: A Theory of Economic Growth.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Macroeconomic models often have dynamic equations relating different periods of time.
 These can either be in continuous or discrete time.
@@ -939,7 +939,7 @@ Monotonicity is the key here, not whether it increases or decreases, although in
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/math_app/roots.png&#34; alt=&#34;roots&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/math_app/roots.png&#34; alt=&#34;roots&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;h3 id=&#34;stability-of-a-first-order-difference-equation&#34;&gt;Stability of a first-order difference equation&lt;/h3&gt;
@@ -992,7 +992,7 @@ Below, we plot two trajectories of $x_{t}$ when $x_{t} = x_{t-1}^{0.5}:$ one sta
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/ramsey/Steady_States.png&#34; alt=&#34;steady states&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/ramsey/Steady_States.png&#34; alt=&#34;steady states&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;Starting from $x_{0} &amp;lt; \bar{x}_{2}$, the variable slowly increases until it reaches the steady state $\bar{x}_{2}.$
@@ -1080,15 +1080,15 @@ Any other initial set of values delivers a non-converging trajectory.
 In economics, we often encounter a $2 \times 2$ system.
 Often, the initial value of one variable is fixed (state variable, in general capital).
 Hence, we have to select the value of the other variable (control variable, in general consumption) in such a way that it is on the saddle path.&lt;/p&gt;
-&lt;p&gt;We develop a full example in &lt;a href=&#34;https://example.com/courses/macroeconomics/ramsey/ramsey_example/&#34;&gt;Example&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We develop a full example in &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_example/&#34;&gt;Example&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Households</title>
-      <link>https://example.com/courses/macroeconomics/olg/olg_households/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/olg/olg_households/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/macroeconomics/olg/olg_households/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/olg/olg_households/</guid>
       <description>&lt;h2 id=&#34;building-the-budget-constraint&#34;&gt;Building the budget constraint&lt;/h2&gt;
 &lt;p&gt;Individuals live for two periods.
 As before, we assume perfect foresight for individuals.
@@ -1141,7 +1141,7 @@ We assume that $u( c )$ has the properties&lt;/p&gt;
 &lt;p&gt;The last assumption $\lim_{c \rightarrow 0} u^{\prime}( c ) = +\infty$ implies that an individual will always have a positive consumption &amp;mdash;as long as he has enough income to finance it.&lt;/p&gt;
 &lt;p&gt;Another important implication of the choice of the utility formulation is that $c$ and $d$ are normal goods: the demand is &lt;em&gt;not decreasing&lt;/em&gt; in wealth.
 It follows from additive separability and concavity.
-In the &lt;a href=&#34;https://example.com/courses/macroeconomics/math_app/olg_non-separable_utility/&#34;&gt;Appendix&lt;/a&gt; we discuss it in more detail for a non-separable utility function.&lt;/p&gt;
+In the &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/math_app/olg_non-separable_utility/&#34;&gt;Appendix&lt;/a&gt; we discuss it in more detail for a non-separable utility function.&lt;/p&gt;
 &lt;h2 id=&#34;the-behaviour-of-individuals&#34;&gt;The behaviour of individuals&lt;/h2&gt;
 &lt;p&gt;At time $t$, young individuals receive their wages, consume and save while maximising the utility function.&lt;/p&gt;
 &lt;p&gt;$$\begin{eqnarray}
@@ -1181,9 +1181,9 @@ Similarly, the subindeces $t, t+1, \ldots$ denote the period of consumption, but
     
     <item>
       <title>Steady state</title>
-      <link>https://example.com/courses/macroeconomics/ramsey_gov/ramsey_government_equilibrium/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/ramsey_gov/ramsey_government_equilibrium/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/macroeconomics/ramsey_gov/ramsey_government_equilibrium/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/ramsey_gov/ramsey_government_equilibrium/</guid>
       <description>&lt;p&gt;We close the model imposing market clearing.
 This affects the budget constraint:&lt;/p&gt;
 &lt;p&gt;$$\begin{eqnarray}
@@ -1226,7 +1226,7 @@ This implies that the steady-state level of consumption is reduced.&lt;/li&gt;
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/ramsey_gov/phase_diagram.png&#34; alt=&#34;phase_diagram&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/ramsey_gov/phase_diagram.png&#34; alt=&#34;phase_diagram&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 </description>
@@ -1234,9 +1234,9 @@ This implies that the steady-state level of consumption is reduced.&lt;/li&gt;
     
     <item>
       <title>Trade Policy</title>
-      <link>https://example.com/courses/international_trade/trade_policy/</link>
+      <link>https://eric-roca.github.io/courses/international_trade/trade_policy/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/international_trade/trade_policy/</guid>
+      <guid>https://eric-roca.github.io/courses/international_trade/trade_policy/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;The previous lectures indicate that, at the country level, an economy is in general better off when trading.
 However, the gains o trade are not euqally shared among all citizens.
@@ -1265,9 +1265,9 @@ We are going to analyse:&lt;/p&gt;
     
     <item>
       <title>Changes in $G$</title>
-      <link>https://example.com/courses/macroeconomics/ramsey_gov/ramsey_government_changing_g/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/ramsey_gov/ramsey_government_changing_g/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/macroeconomics/ramsey_gov/ramsey_government_changing_g/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/ramsey_gov/ramsey_government_changing_g/</guid>
       <description>&lt;p&gt;We focus now on how a change in $G_{t}$ affects the behaviour of the economy.
 We rely on the phase diagram for this analysis: it conveys the message quite efficiently.
 In what follows, we assume that the economy is at its steady-state level $(\bar{k}^{\mathcal{Gov}}, \bar{c}^{\mathcal{Gov}})$ when the government decides to change $G_t.$
@@ -1306,7 +1306,7 @@ Hence, the remaining part of the increase in $G$ is absorbed by a reduction in i
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/ramsey_gov/permanent_increase.png&#34; alt=&#34;permanent_increase&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/ramsey_gov/permanent_increase.png&#34; alt=&#34;permanent_increase&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;h2 id=&#34;un_temp&#34;&gt;Unexpected, temporary rise in $G$&lt;/h2&gt;
@@ -1339,7 +1339,7 @@ This is, the economy undergoes a transition such that, at $t=t_{1}$ when taxes a
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/ramsey_gov/temp_increase.png&#34; alt=&#34;temporary_increase&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/ramsey_gov/temp_increase.png&#34; alt=&#34;temporary_increase&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;The figure above depicts in black the original $k$-locus &amp;mdash;for $G=G_{1}$&amp;mdash; and in red the temporary one while with $G=G_{2}.$
@@ -1368,7 +1368,7 @@ From $t=t_{1}$, consumption continues to grow, but capital starts accumulating a
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/ramsey_gov/temp_increase_2.png&#34; alt=&#34;temporary_increase_2&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/ramsey_gov/temp_increase_2.png&#34; alt=&#34;temporary_increase_2&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;The change in consumption during $t=t_{0}$ is directly proportional to the length of the increase in taxes.
@@ -1400,7 +1400,7 @@ The first initial jump at $t_{0}$ must be such that, at $t_{1}$ the economy is o
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/ramsey_gov/perm_an_increase.png&#34; alt=&#34;perm_an&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/ramsey_gov/perm_an_increase.png&#34; alt=&#34;perm_an&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;Hence, during the transition, consumption continuously falls, but smoothly.
@@ -1423,7 +1423,7 @@ Capital, instead, first accumulates and decreases from $t_{1}$ onwards.&lt;/p&gt
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/ramsey_gov/perm_an_increase_2.png&#34; alt=&#34;perm_an2&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/ramsey_gov/perm_an_increase_2.png&#34; alt=&#34;perm_an2&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;h2 id=&#34;anticipated-temporary-rise-in-g&#34;&gt;Anticipated, temporary rise in $G$&lt;/h2&gt;
@@ -1456,7 +1456,7 @@ Finally, timing is again crucial because at time $t=t_{2}$ the economy must be o
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/ramsey_gov/temp_an_increase.png&#34; alt=&#34;an_temp_inc&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/ramsey_gov/temp_an_increase.png&#34; alt=&#34;an_temp_inc&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;In that case, between $t_{0}$ and $t_{1}$, households decrease consumption and save.
@@ -1482,7 +1482,7 @@ This consumption-smoothing decreases utility less than a discontinuous jumps.&lt
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/ramsey_gov/temp_an_increase_2.png&#34; alt=&#34;an_temp_inc&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/ramsey_gov/temp_an_increase_2.png&#34; alt=&#34;an_temp_inc&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 </description>
@@ -1490,9 +1490,9 @@ This consumption-smoothing decreases utility less than a discontinuous jumps.&lt
     
     <item>
       <title>Intertemporal equilibrium</title>
-      <link>https://example.com/courses/macroeconomics/ramsey/ramsey_intertemporal_equilibrium/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_intertemporal_equilibrium/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/macroeconomics/ramsey/ramsey_intertemporal_equilibrium/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_intertemporal_equilibrium/</guid>
       <description>&lt;p&gt;At the equilibrium, factors are paid their marginal productivity, thus:&lt;/p&gt;
 &lt;p&gt;$$r_{t} = f^{\prime}(k_{t})$$&lt;/p&gt;
 &lt;center&gt;and&lt;/center&gt;
@@ -1527,12 +1527,12 @@ To analyse it, we first compute its steady state and then check the dynamics.&lt
     
     <item>
       <title>Savings function</title>
-      <link>https://example.com/courses/macroeconomics/olg/olg_savings_function/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/olg/olg_savings_function/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/macroeconomics/olg/olg_savings_function/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/olg/olg_savings_function/</guid>
       <description>&lt;p&gt;We now study how savings are affected by the remaining variables of the model.
 Before turning to it, we compute the intertemporal elasticity of substitution on this model, because it turns out to be a crucial element influencing savings.
-The &lt;em&gt;intertemporal elasticity of substitution&lt;/em&gt; is a special case of the &lt;a href=&#34;https://example.com/courses/macroeconomics/math_app/elasticity_of_substitution/&#34;&gt;elasticity of substitution&lt;/a&gt;, that measures how the ratio of future to present consumption changes with the relative price (the interest rate).&lt;/p&gt;
+The &lt;em&gt;intertemporal elasticity of substitution&lt;/em&gt; is a special case of the &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/math_app/elasticity_of_substitution/&#34;&gt;elasticity of substitution&lt;/a&gt;, that measures how the ratio of future to present consumption changes with the relative price (the interest rate).&lt;/p&gt;
 &lt;h2 id=&#34;intertemporal-elasticity-of-substitution&#34;&gt;Intertemporal elasticity of substitution&lt;/h2&gt;
 &lt;p&gt;The intertemporal elasticity of substitution is defined as:&lt;/p&gt;
 &lt;p&gt;$$\epsilon_{d_{t+1}, c_{t}} = \frac{ \partial \left( \frac{d_{t+1}}{c_{t}} \right)}{\partial R_{t+1}} \frac{ R_{t+1}}{\left( \frac{d_{t+1}}{c_{t}} \right)}.$$&lt;/p&gt;
@@ -1630,9 +1630,9 @@ $\epsilon &amp;lt; 1$ also means that $c$ and $d$ are intertemporally complement
     
     <item>
       <title>Tariffs</title>
-      <link>https://example.com/courses/international_trade/tariffs/</link>
+      <link>https://eric-roca.github.io/courses/international_trade/tariffs/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/international_trade/tariffs/</guid>
+      <guid>https://eric-roca.github.io/courses/international_trade/tariffs/</guid>
       <description>&lt;h2 id=&#34;tariffs&#34;&gt;Tariffs&lt;/h2&gt;
 &lt;p&gt;A tariff is a tax imposed on imported goods.
 Therefore, if a country imported goods at the world price $p^w$, after the introduction of a tariff imported goods are more expensive because they now bear an extra tax.
@@ -1644,7 +1644,7 @@ This tax may take two forms:&lt;/p&gt;
 &lt;p&gt;Both are equivalent, and one can always find the corresponding percentage increase for a given unitary rise or vice-versa.&lt;/p&gt;
 &lt;p&gt;As we shall see, the effects of a tariff are different depending on the size of the country.
 First, we will analyze the &lt;strong&gt;small-country&lt;/strong&gt; case, this is, a country whose relative size in the international markers is small and cannot influence equilibrium prices.
-Related to the &lt;a href=&#34;https://example.com/courses/international_trade/standard_trade_model/&#34;&gt;Standard Trade model&lt;/a&gt;, a country is small if the changes in its supply or demand schedule do not move the world supply or demand.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;
+Related to the &lt;a href=&#34;https://eric-roca.github.io/courses/international_trade/standard_trade_model/&#34;&gt;Standard Trade model&lt;/a&gt;, a country is small if the changes in its supply or demand schedule do not move the world supply or demand.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;
 Then, we will analyze the same tariff but when it is applied in a large country, one that has the ability to influence world prices.&lt;/p&gt;
 &lt;h2 id=&#34;tariffs-in-a-small-open-economy&#34;&gt;Tariffs in a small, open economy&lt;/h2&gt;
 &lt;p&gt;The initial situation is that of a country that is importing the good $X$.
@@ -1700,7 +1700,7 @@ The loss comprises two different aspects: consumers buy less quantity, and they 
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Tariff_Consumer.png&#34; alt=&#34;Consumer&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Tariff_Consumer.png&#34; alt=&#34;Consumer&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 
 The opposite is true for producers, represented by the blue area.
@@ -1723,7 +1723,7 @@ Notice how part of the surplus lost by consumers goes directly to the producers:
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Tariff_Producer.png&#34; alt=&#34;Producer&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Tariff_Producer.png&#34; alt=&#34;Producer&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 
 Lastly, the government gains the surplus depicted by the green rectangle.
@@ -1745,7 +1745,7 @@ Lastly, the government gains the surplus depicted by the green rectangle.
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Tariff_Government.png&#34; alt=&#34;Government&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Tariff_Government.png&#34; alt=&#34;Government&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 
 If add them together, the result is that the two red triangles are lost, hence the economy as whole is worse off.
@@ -1767,7 +1767,7 @@ If add them together, the result is that the two red triangles are lost, hence t
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Tariff_Dead-weight.png&#34; alt=&#34;Dead-weight&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Tariff_Dead-weight.png&#34; alt=&#34;Dead-weight&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;h2 id=&#34;tariffs-in-a-large-economy&#34;&gt;Tariffs in a large economy&lt;/h2&gt;
@@ -1805,7 +1805,7 @@ Graphically:
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/International_Demand.png&#34; alt=&#34;Demand&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/International_Demand.png&#34; alt=&#34;Demand&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 
 
@@ -1826,7 +1826,7 @@ Graphically:
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/International_Supply.png&#34; alt=&#34;Supply&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/International_Supply.png&#34; alt=&#34;Supply&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 
 
@@ -1847,7 +1847,7 @@ Graphically:
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Compute_Equilibrium.png&#34; alt=&#34;Eq&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Compute_Equilibrium.png&#34; alt=&#34;Eq&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;Let&amp;rsquo;s suppose now that Home introduces a tariff $\tau$ for each unit imported.
@@ -1879,7 +1879,7 @@ Consequently, $p = F(Q) + \tau \implies Q=F^{-1}(p-\tau),$ and this is the reaso
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Tariff_in_Large_Country.png&#34; alt=&#34;Tariff_Large_Country&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Tariff_in_Large_Country.png&#34; alt=&#34;Tariff_Large_Country&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;Some things must be commented:&lt;/p&gt;
@@ -1917,7 +1917,7 @@ Graphically:
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Tariff_in_Large_Country_2.png&#34; alt=&#34;Tariff_Large_Country&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Tariff_in_Large_Country_2.png&#34; alt=&#34;Tariff_Large_Country&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 
 As before, the consumer&amp;rsquo;s loss (blue) is partly compensated by the producers&amp;rsquo; increase in welfare (orange) and government revenue (green).
@@ -1947,7 +1947,7 @@ Then, consumers&amp;rsquo; surplus is given by:
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Change_in_Surplus.png&#34; alt=&#34;Consumer_surplus&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Change_in_Surplus.png&#34; alt=&#34;Consumer_surplus&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 
 $$\int_{p^w+\alpha \tau}^\infty D(p)\mathrm{d}p$$
@@ -2127,9 +2127,9 @@ What matters is the size of the impact, and for a small country, it is negligeab
     
     <item>
       <title>The transversality condition</title>
-      <link>https://example.com/courses/macroeconomics/math_app/transversality_condition/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/math_app/transversality_condition/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/macroeconomics/math_app/transversality_condition/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/math_app/transversality_condition/</guid>
       <description>&lt;p&gt;The transversality condition appears as a necessary condition to determine the optimal path in dynamic models.
 It complements the Euler equation and allows to pinpoint the exact optimal path (see example below).&lt;/p&gt;
 &lt;p&gt;We use the transversality condition to avoid explosive consumption or saving paths that would end up in:&lt;/p&gt;
@@ -2262,9 +2262,9 @@ We have obtained the transversality condition.&lt;/p&gt;
     
     <item>
       <title>Elasticity of substitution</title>
-      <link>https://example.com/courses/macroeconomics/math_app/elasticity_of_substitution/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/math_app/elasticity_of_substitution/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/macroeconomics/math_app/elasticity_of_substitution/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/math_app/elasticity_of_substitution/</guid>
       <description>&lt;p&gt;The elasticity of substitution between two inputs of a production function (or two goods in a utility function) measures &lt;em&gt;the percentage change in the ratio of the two inputs relative to the percentage change in their prices&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;The elasticity of substitution represents the curvature of the isoquant, this is, the degree of substitutability between inputs.
 Mathematically, for inputs $x_{1}$ and $x_{2}$ and a production function $f(x_{1}, x_{2}),$ it is defined as:&lt;/p&gt;
@@ -2301,7 +2301,7 @@ Therefore, we can compute $\sigma_{K,L}$ as&lt;/p&gt;
 &amp;amp; r = A \frac{\nu}{\rho}\left( \alpha K^{\rho} + (1-\alpha) L^{\rho} \right)^{\frac{\nu}{\rho}-1}\alpha \rho K^{\rho-1}.\end{eqnarray}$$
 Hence:
 $$\frac{w}{r} = \frac{1-\alpha}{\alpha} \left(\frac{K}{L} \right)^{1-\rho}.$$&lt;/p&gt;
-&lt;p&gt;The parameter $\nu$ indicates the degree of &lt;a href=&#34;https://example.com/courses/macroeconomics/math_app/homogenous_functions/&#34;&gt;homogeneity of the function.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The parameter $\nu$ indicates the degree of &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/math_app/homogenous_functions/&#34;&gt;homogeneity of the function.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;The elasticity of substitution equals:&lt;/p&gt;
 &lt;p&gt;$$\frac{ \partial \ln \left(\frac{K}{L}\right)}{\partial \ln \left( \frac{w}{r} \right)} =
 \frac{ \partial \frac{K}{L}}{\frac{K}{L}}\frac{\frac{w}{r}}{\partial \frac{w}{r}} =
@@ -2313,9 +2313,9 @@ $$\frac{w}{r} = \frac{1-\alpha}{\alpha} \left(\frac{K}{L} \right)^{1-\rho}.$$&lt
     
     <item>
       <title>Époques dans le modèle unifié de croissance économique</title>
-      <link>https://example.com/courses/macroeconomics/comparative_development/comparative_development_epochs/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/comparative_development/comparative_development_epochs/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/macroeconomics/comparative_development/comparative_development_epochs/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/comparative_development/comparative_development_epochs/</guid>
       <description>&lt;h2 id=&#34;la-théorie-unifiée-de-la-croissance-économique&#34;&gt;La théorie unifiée de la croissance économique&lt;/h2&gt;
 &lt;p&gt;L&amp;rsquo;évolution des variables qu&amp;rsquo;intégrent le modèle générent trois grandes époques selon sa valeur: époque Malthusienne, époque post-Malthusienne et époque moderne.
 Chacune des époque se caractérise une combinaison particulier des variables (ou des dynamiques des variables) sous-jacentes suivantes:&lt;/p&gt;
@@ -2389,7 +2389,7 @@ Le graphique suivant illustre la situation:
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/comparative_development/expansion_path.png&#34; alt=&#34;expansion_path&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/expansion_path.png&#34; alt=&#34;expansion_path&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 
 Quand le revenu per capita est faible, sans la restriction de consommation minimale (ligne verte), les familles souhaiteraient consommer peu.
@@ -2421,7 +2421,7 @@ Ainsi, chaque fois la population augmente plus rapidement, et cela contribue à 
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;validation&#34;&gt;Validation&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://example.com/papers/Ashraf_and_Galor__2011.pdf&#34;&gt;Ashraf et Galor (2011)&lt;/a&gt; vérifient la validité des conclusions pour l&amp;rsquo;époque Malthusienne.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://eric-roca.github.io/papers/Ashraf_and_Galor__2011.pdf&#34;&gt;Ashraf et Galor (2011)&lt;/a&gt; vérifient la validité des conclusions pour l&amp;rsquo;époque Malthusienne.&lt;/p&gt;
 &lt;p&gt;D&amp;rsquo;abord, ils montrent comment les pays qui ont du terrain plus adapté pour l&amp;rsquo;agriculture ont atteint une plus grande densité de population vers l&amp;rsquo;année 1500 mais que les gens ne jouissaient pas de plus de revenu per capita.&lt;/p&gt;
 &lt;p&gt;
 
@@ -2441,7 +2441,7 @@ Ainsi, chaque fois la population augmente plus rapidement, et cela contribue à 
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/comparative_development/land_density.png&#34; alt=&#34;land_density&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/land_density.png&#34; alt=&#34;land_density&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 
 
@@ -2462,7 +2462,7 @@ Ainsi, chaque fois la population augmente plus rapidement, et cela contribue à 
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/comparative_development/land_income.png&#34; alt=&#34;land_income&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/land_income.png&#34; alt=&#34;land_income&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;Ensuite, ils se centrent sur le lien entre technologie, densité de population et revenu per capita.
@@ -2489,7 +2489,7 @@ En premier lieu, ils montrent que les pays et régions qui se sont passées à l
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/comparative_development/ashraf_galor__2011_Table_1.png&#34; alt=&#34;Table_1&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/ashraf_galor__2011_Table_1.png&#34; alt=&#34;Table_1&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;Enfin, ils montrent qu&amp;rsquo;effectivement, les pays avec plus de technologie avait plus de densité de population pendant l&amp;rsquo;année 1500 mais pas plus de revenu per capita.&lt;/p&gt;
@@ -2511,7 +2511,7 @@ En premier lieu, ils montrent que les pays et régions qui se sont passées à l
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/comparative_development/neolithic_density.png&#34; alt=&#34;neolithic_density&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/neolithic_density.png&#34; alt=&#34;neolithic_density&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 
 
@@ -2532,7 +2532,7 @@ En premier lieu, ils montrent que les pays et régions qui se sont passées à l
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/comparative_development/neolithic_income.png&#34; alt=&#34;neolithic_income&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/neolithic_income.png&#34; alt=&#34;neolithic_income&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;
@@ -2553,7 +2553,7 @@ En premier lieu, ils montrent que les pays et régions qui se sont passées à l
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/comparative_development/ashraf_galor__2011_Table_5.png&#34; alt=&#34;Table_5&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/ashraf_galor__2011_Table_5.png&#34; alt=&#34;Table_5&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;h2 id=&#34;époque-post-malthusienne&#34;&gt;Époque post-Malthusienne&lt;/h2&gt;
@@ -2568,7 +2568,7 @@ Par exemple, les pays qui, pour une raison ou une autre ont fini plus tôt leur 
 &lt;h3 id=&#34;validation-1&#34;&gt;Validation&lt;/h3&gt;
 &lt;p&gt;Selon la discussion au-dessous, les pays qui ont commencé leur transition démographique plus tôt, devront montrer un plus haut niveau de revenu per capita.
 Or, ce lien devrait exister, car il y a des avantages liés à une transition démographique précoce: le revenu per capita augmente depuis plus long temps.
-&lt;a href=&#34;https://example.com/papers/Galor__2012.pdf&#34;&gt;Galor, 2012&lt;/a&gt; montre que c&amp;rsquo;est le cas:&lt;/p&gt;
+&lt;a href=&#34;https://eric-roca.github.io/papers/Galor__2012.pdf&#34;&gt;Galor, 2012&lt;/a&gt; montre que c&amp;rsquo;est le cas:&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -2587,7 +2587,7 @@ Or, ce lien devrait exister, car il y a des avantages liés à une transition d�
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/comparative_development/demographic_income.png&#34; alt=&#34;demographic_income&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/demographic_income.png&#34; alt=&#34;demographic_income&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;h2 id=&#34;époque-moderne&#34;&gt;Époque moderne&lt;/h2&gt;
@@ -2668,9 +2668,9 @@ Comme en époque Malthusienne les parents n&amp;rsquo;investissent pas dans l&am
     
     <item>
       <title>Intertemporal equilibrium</title>
-      <link>https://example.com/courses/macroeconomics/olg/olg_equilibrium/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/olg/olg_equilibrium/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/macroeconomics/olg/olg_equilibrium/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/olg/olg_equilibrium/</guid>
       <description>&lt;h2 id=&#34;temporary-equilibrium&#34;&gt;Temporary equilibrium&lt;/h2&gt;
 &lt;p&gt;Before turning to the intertemporal equilibrium and the analysis of the steady state, we study the temporary equilibrium that takes place every period.&lt;/p&gt;
 &lt;p&gt;We have not discussed the firms, but they follow the same setup as in Ramsey: use capital and labour in a perfectly competitive environment.&lt;/p&gt;
@@ -2811,7 +2811,7 @@ Otherwise, for some level $k$ there would be multiple values for $k_{t+1}$ (mean
 Individuals lack a coordinating mechanism to select any of these equilibria.&lt;/p&gt;
 &lt;p&gt;We show that the intertemporal elasticity of substitution $\sigma$ is important in determining uniqueness.
 In particular, if $\sigma &amp;gt; 1$, then the equilibrium is unique.
-We will revisit this issue &lt;a href=&#34;https://example.com/courses/macroeconomics/olg/olg_monotonicity_of_the_dynamics/&#34;&gt;later.&lt;/a&gt;&lt;/p&gt;
+We will revisit this issue &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/olg/olg_monotonicity_of_the_dynamics/&#34;&gt;later.&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;We have used the intermediate value theorem to show that solutions exist.
 Moreover, it shows that $\lim_{k\rightarrow 0} \frac{H(w,k)}{k} &amp;lt; 0$ and $\lim_{k \rightarrow +\infty} \frac{H(w,k)}{k} &amp;gt; 0.$
@@ -2836,16 +2836,16 @@ Assumption &lt;strong&gt;OLG.4&lt;/strong&gt; states:&lt;/p&gt;
 &lt;p&gt;Therefore, it is sufficient to have&lt;/p&gt;
 &lt;p&gt;$$s^{\prime}_R \geq 0$$&lt;/p&gt;
 &lt;p&gt;meaning that savings increase with the interest rate.
-This behaviour is readily verified when the &lt;a href=&#34;https://example.com/courses/macroeconomics/olg/olg_savings_function/#intertemporal-elasticity-of-substitution&#34;&gt;intertemporal elasticity of substitution of at least one.&lt;/a&gt;
+This behaviour is readily verified when the &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/olg/olg_savings_function/#intertemporal-elasticity-of-substitution&#34;&gt;intertemporal elasticity of substitution of at least one.&lt;/a&gt;
 Then, to have monotonic dynamics and unique temporal equilibrium it is sufficient to have $\sigma \geq 1.$&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>L&#39;hypothèse de Diamond</title>
-      <link>https://example.com/courses/macroeconomics/comparative_development/papers/diamond__1997/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/comparative_development/papers/diamond__1997/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/macroeconomics/comparative_development/papers/diamond__1997/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/comparative_development/papers/diamond__1997/</guid>
       <description>&lt;h2 id=&#34;lhypothèse-de-jared-diamond-1997-guns-germs-and-steelhttpscatalogue-buucafrpermalink33clermont_bciu1eua77oalma991003631849704411&#34;&gt;L&amp;rsquo;hypothèse de Jared Diamond (1997): &lt;a href=&#34;https://catalogue-bu.uca.fr/permalink/33CLERMONT_BCIU/1eua77o/alma991003631849704411&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Guns, Germs and Steel&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Selon Jared Diamond (1997), derrière les inégalités entre pays on trouve certains facteurs qui se sont déclenchés pendant la révolution Néolithique, c&amp;rsquo;est-à-dire, à partir de l&amp;rsquo;adoption de l&amp;rsquo;agriculture.
 Or, pour comprendre pourquoi y a-t-il des régions développées et en développement, il faut connaître pourquoi l&amp;rsquo;agriculture est apparue et adoptée dans certaines régions du monde tandis qu&amp;rsquo;autres ont continué à obtenir leurs calories parmi la chasse et la récollection des fruits.&lt;/p&gt;
@@ -2863,7 +2863,7 @@ Enfin, comme le passage vers l&amp;rsquo;agriculture a lieu en époque Malthusie
 &lt;h3 id=&#34;lapparition-de-lagriculture&#34;&gt;L&amp;rsquo;apparition de l&amp;rsquo;agriculture&lt;/h3&gt;
 &lt;p&gt;Selon les données archéologiques, l&amp;rsquo;agriculture a apparu en multiples occasions à travers le monde avec une variation temporelle.
 Après chaque invention originale, elle s&amp;rsquo;est rependue aux alentours.
-Les premières traces d&amp;rsquo;agriculture (&lt;a href=&#34;https://example.com/papers/Price_and_Bar-Yousef__2011.pdf&#34;&gt;Price et Bar-Yousef (2011)&lt;/a&gt;) apparaissent au croissant fertile (10 000 BP) et en Amérique centrale (10 000 - 8 000 BP), en Chine (8 000 BP), en Amérique du Sud (8 000 BP - 6 000 BP), Nouvelle Guinée (7 000 BP), Inde, Amérique du Nord et Afrique équatoriale (4 000 BP - 2 000 BP).&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;
+Les premières traces d&amp;rsquo;agriculture (&lt;a href=&#34;https://eric-roca.github.io/papers/Price_and_Bar-Yousef__2011.pdf&#34;&gt;Price et Bar-Yousef (2011)&lt;/a&gt;) apparaissent au croissant fertile (10 000 BP) et en Amérique centrale (10 000 - 8 000 BP), en Chine (8 000 BP), en Amérique du Sud (8 000 BP - 6 000 BP), Nouvelle Guinée (7 000 BP), Inde, Amérique du Nord et Afrique équatoriale (4 000 BP - 2 000 BP).&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;
 
 
 
@@ -2882,7 +2882,7 @@ Les premières traces d&amp;rsquo;agriculture (&lt;a href=&#34;https://example.c
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/comparative_development/origins_agriculture.png&#34; alt=&#34;origins_agriculture&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/origins_agriculture.png&#34; alt=&#34;origins_agriculture&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;Ensuite, l&amp;rsquo;agriculture s&amp;rsquo;est rependu aux régions limitrophes des zones originales.
@@ -2933,7 +2933,7 @@ Ainsi, la productivité additionnelle due à l&amp;rsquo;agriculture aurait perm
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/comparative_development/ashraf_galor__2011_Table_1.png&#34; alt=&#34;Table_1&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/ashraf_galor__2011_Table_1.png&#34; alt=&#34;Table_1&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;Par contre, et en accord avec la théorie, les régions précoces en agriculture n&amp;rsquo;auraient pas éteint plus de revenu per capita en époque Malthusienne.
@@ -2956,7 +2956,7 @@ Rappelons que, selon le modèle unifié de croissance économique, en époque Ma
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/comparative_development/ashraf_galor__2011_Table_5.png&#34; alt=&#34;Table_5&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/ashraf_galor__2011_Table_5.png&#34; alt=&#34;Table_5&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;h4 id=&#34;densité-de-population-et-maladies&#34;&gt;Densité de population et maladies&lt;/h4&gt;
@@ -2981,7 +2981,7 @@ Ainsi, si l&amp;rsquo;hypothèse est certe, on espère qu&amp;rsquo;il existe:&l
 &lt;li&gt;Une corréation positive entre le moment auquel l&amp;rsquo;agriculture fut adopté et les maladies auto-immunes.&lt;/li&gt;
 &lt;li&gt;Aucune corrélation entre le moment auquel l&amp;rsquo;agriculture fut adopté et autre type de maladies.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;a href=&#34;https://example.com/papers/Galor_and_Moav__2007.pdf&#34;&gt;Galor et Moav (2007)&lt;/a&gt; et Franck, Galor et Özak (2016) valident ces hypothèses.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://eric-roca.github.io/papers/Galor_and_Moav__2007.pdf&#34;&gt;Galor et Moav (2007)&lt;/a&gt; et Franck, Galor et Özak (2016) valident ces hypothèses.&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -3000,7 +3000,7 @@ Ainsi, si l&amp;rsquo;hypothèse est certe, on espère qu&amp;rsquo;il existe:&l
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/comparative_development/Galor_and_Moav__2007_Table_3.png&#34; alt=&#34;Galor_and_Moav__2007_Table_3&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/Galor_and_Moav__2007_Table_3.png&#34; alt=&#34;Galor_and_Moav__2007_Table_3&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: en référence aux maladies auto immunes, les auteurs se focalisent sur la France et ils interpolent le temps depuis le passage à l&amp;rsquo;agriculture.&lt;/p&gt;
@@ -3022,7 +3022,7 @@ Ainsi, si l&amp;rsquo;hypothèse est certe, on espère qu&amp;rsquo;il existe:&l
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/comparative_development/Franck_Galor_Ozak__2016_Figure.png&#34; alt=&#34;Frank_Galor_Ozak__2016_Figure&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/Franck_Galor_Ozak__2016_Figure.png&#34; alt=&#34;Frank_Galor_Ozak__2016_Figure&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 
 
@@ -3043,7 +3043,7 @@ Ainsi, si l&amp;rsquo;hypothèse est certe, on espère qu&amp;rsquo;il existe:&l
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/comparative_development/Franck_Galor_Ozak__2016_Table_1.png&#34; alt=&#34;Frank_Galor_Ozak__2016_Table_1&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/Franck_Galor_Ozak__2016_Table_1.png&#34; alt=&#34;Frank_Galor_Ozak__2016_Table_1&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 
 
@@ -3064,7 +3064,7 @@ Ainsi, si l&amp;rsquo;hypothèse est certe, on espère qu&amp;rsquo;il existe:&l
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/comparative_development/Franck_Galor_Ozak__2016_Table_2.png&#34; alt=&#34;Frank_Galor_Ozak__2016_Table_2&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/Franck_Galor_Ozak__2016_Table_2.png&#34; alt=&#34;Frank_Galor_Ozak__2016_Table_2&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
@@ -3075,7 +3075,7 @@ Ainsi, si l&amp;rsquo;hypothèse est certe, on espère qu&amp;rsquo;il existe:&l
 &lt;/li&gt;
 &lt;li id=&#34;fn:2&#34;&gt;
 &lt;p&gt;Certains aspects liées à la sante jouent un rôl important dans la détérmination de l&amp;rsquo;investissement dans l&amp;rsquo;éducation à travers de leurs effets sur l&amp;rsquo;espérance de vie.
-Voir &lt;a href=&#34;https://example.com/courses/macroeconomics/comparative_development/papers/andersen_dalgaard_selaya__2016/&#34;&gt;ici&lt;/a&gt;.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+Voir &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/comparative_development/papers/andersen_dalgaard_selaya__2016/&#34;&gt;ici&lt;/a&gt;.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
@@ -3084,15 +3084,15 @@ Voir &lt;a href=&#34;https://example.com/courses/macroeconomics/comparative_deve
     
     <item>
       <title>Maladies et developpement</title>
-      <link>https://example.com/courses/macroeconomics/comparative_development/papers/andersen_dalgaard_selaya__2016/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/comparative_development/papers/andersen_dalgaard_selaya__2016/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/macroeconomics/comparative_development/papers/andersen_dalgaard_selaya__2016/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/comparative_development/papers/andersen_dalgaard_selaya__2016/</guid>
       <description>&lt;h2 id=&#34;maladies-et-développement-andersen-dalgaard-et-selaya-2016&#34;&gt;Maladies et développement: Andersen, Dalgaard et Selaya (2016)&lt;/h2&gt;
 &lt;p&gt;Un des traits fondamentaux qui détermine le passage de l&amp;rsquo;époque post-Malthusienne à l&amp;rsquo;époque moderne est l&amp;rsquo;apparition du &amp;ldquo;quality-quantity trade-off&amp;rdquo;, c&amp;rsquo;est-à-dire, le fait que les familles décident d&amp;rsquo;avoir moins d&amp;rsquo;enfants mais d&amp;rsquo;investir dans leur éducation, avec des conséquences pour l&amp;rsquo;amélioration de la technologie.
 Pour tant, les pays qui, pour une raison ou une autre, sont entrés plus tôt dans l&amp;rsquo;époque moderne, jouissent d&amp;rsquo;un avantage comparatif grâce ã une plus intense accumulation de capital humain.
 Enfin, toute raison qu&amp;rsquo;incite à investir dans l&amp;rsquo;éducation générera une disparité économique.
 Et, au sens contraire, les raison retardant le trade-off génèrent un retard économique, car elles préviennent l&amp;rsquo;accéleration de la croissance technologique et, pour tant, économique.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://example.com/papers/Andersen_Dalgaard_Selaya__2016.pdf&#34;&gt;Andersen, Dalgaard et Selaya (2016)&lt;/a&gt; proposent d&amp;rsquo;étudier les maladies comme une raison retardante du quality-quality trade-off.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://eric-roca.github.io/papers/Andersen_Dalgaard_Selaya__2016.pdf&#34;&gt;Andersen, Dalgaard et Selaya (2016)&lt;/a&gt; proposent d&amp;rsquo;étudier les maladies comme une raison retardante du quality-quality trade-off.&lt;/p&gt;
 &lt;h3 id=&#34;rendement-de-léducation-cataractes-et-croissance-économique&#34;&gt;Rendement de l&amp;rsquo;éducation, cataractes et croissance économique&lt;/h3&gt;
 &lt;p&gt;L&amp;rsquo;investissement dans l&amp;rsquo;éducation est, après tout, comment n&amp;rsquo;importe quel autre investissement et ce que le détermine est le rendement espéré.
 Or, le rendement depend, entre autres choses, du temps pendant lequel l&amp;rsquo;inversion est productive.
@@ -3120,7 +3120,7 @@ Ce type de rayonnement est beaucoup plus intense proche de l&amp;rsquo;équateur
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/comparative_development/Andersen_Dalgaard_Selaya__2016_Figure_3.png&#34; alt=&#34;Andersen_Dalgaard_Selaya__2016_Figure_3&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/Andersen_Dalgaard_Selaya__2016_Figure_3.png&#34; alt=&#34;Andersen_Dalgaard_Selaya__2016_Figure_3&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 
 
@@ -3141,7 +3141,7 @@ Ce type de rayonnement est beaucoup plus intense proche de l&amp;rsquo;équateur
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/comparative_development/Andersen_Dalgaard_Selaya__2016_Table_5.png&#34; alt=&#34;Andersen_Dalgaard_Selaya__2016_Table_5&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/Andersen_Dalgaard_Selaya__2016_Table_5.png&#34; alt=&#34;Andersen_Dalgaard_Selaya__2016_Table_5&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;h3 id=&#34;prédictions-et-validation&#34;&gt;Prédictions et validation&lt;/h3&gt;
@@ -3182,7 +3182,7 @@ Ainsi, le rayonnement UV devrait être positivement corrélé avec l&amp;rsquo;a
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/comparative_development/Andersen_Dalgaard_Selaya__2016_Table_7.png&#34; alt=&#34;Andersen_Dalgaard_Selaya__2016_Table_7&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/Andersen_Dalgaard_Selaya__2016_Table_7.png&#34; alt=&#34;Andersen_Dalgaard_Selaya__2016_Table_7&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;Ensuite (Colonne 6) comment, en effet, une transition de fertilité plus tardive est associée avec moins de revenu per capita pendant l&amp;rsquo;année 2004.
@@ -3206,7 +3206,7 @@ Par contre, en époque moderne la relation est telle que prévue: plus de rayonn
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/comparative_development/Andersen_Dalgaard_Selaya__2016_Table_6.png&#34; alt=&#34;Andersen_Dalgaard_Selaya__2016_Table_6&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/Andersen_Dalgaard_Selaya__2016_Table_6.png&#34; alt=&#34;Andersen_Dalgaard_Selaya__2016_Table_6&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;Enfin, les auteurs valident leur hypothèse à propos du lien entre le rayonnement UV et l&amp;rsquo;éducation.
@@ -3229,7 +3229,7 @@ Ainsi, vu que dans les régions qui plus rayonnées la valeur du capital humain 
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/comparative_development/Andersen_Dalgaard_selaya__2016_Table_A17.png&#34; alt=&#34;Andersen_Dalgaard_Selaya__2016_Table_A17&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/Andersen_Dalgaard_selaya__2016_Table_A17.png&#34; alt=&#34;Andersen_Dalgaard_Selaya__2016_Table_A17&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
@@ -3249,9 +3249,9 @@ Néanmoins, les auteurs considèrent que les adaptations génétiques (pigmentat
     
     <item>
       <title>Steady state</title>
-      <link>https://example.com/courses/macroeconomics/ramsey/ramsey_steady_state/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_steady_state/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/macroeconomics/ramsey/ramsey_steady_state/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_steady_state/</guid>
       <description>&lt;h2 id=&#34;steady-states&#34;&gt;Steady states&lt;/h2&gt;
 &lt;p&gt;A steady state of an N-dimensional dynamic system is a configuration of the system variables such that the system remains unchanged over time.
 This is, upon reaching a steady state, the system remains there forever.
@@ -3303,12 +3303,12 @@ Since the function $f^\prime$ is continuous, by the intermediate value theorem t
 Therefore, there exists one and only one value $\bar{k} \in (0,+\infty)$ that solves the first equation in \ref{eq:ss2}.
 Also, the second equation in \ref{eq:ss2} uniquely determines the level of consumption given capital.
 Hence, the steady-state consumption level $\bar{c}$ is unique.&lt;/p&gt;
-&lt;p&gt;We can obtain an overview of the dynamics of the model using the &lt;a href=&#34;https://example.com/courses/macroeconomics/ramsey/ramsey_phase_diagram/&#34;&gt;phase diagram&lt;/a&gt; and derive the exact solution using the method outlined in &lt;a href=&#34;https://example.com/courses/macroeconomics/ramsey/ramsey_trajectory/&#34;&gt;trajectory&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We can obtain an overview of the dynamics of the model using the &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_phase_diagram/&#34;&gt;phase diagram&lt;/a&gt; and derive the exact solution using the method outlined in &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_trajectory/&#34;&gt;trajectory&lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;stability&#34;&gt;Stability of the steady state&lt;/h3&gt;
 &lt;p&gt;We are now interested in determining the behaviour of the economy when it starts with some level of capital $k_0$ and consumption $c_0.$
 The economy is represented by a $2 \times 2$ system of first-order difference equations.
 The stability of a steady state depends on the Jacobian matrix&amp;rsquo;s eigenvalues evaluated at the steady state.
-&lt;strong&gt;Note:&lt;/strong&gt; the &lt;a href=&#34;https://example.com/courses/macroeconomics/math_app/steady_state/&#34;&gt;Appendix&lt;/a&gt; discusses this in more detail.
+&lt;strong&gt;Note:&lt;/strong&gt; the &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/math_app/steady_state/&#34;&gt;Appendix&lt;/a&gt; discusses this in more detail.
 In particular, we wonder whether the dynamics are such that they converge towards the steady state or diverge away from it.&lt;/p&gt;
 &lt;p&gt;The equations that govern the economy are the Euler equation and the law for capital accumulation:&lt;/p&gt;
 &lt;p&gt;$$\left.
@@ -3492,9 +3492,9 @@ and &lt;strong&gt;the steady state is a saddle.&lt;/strong&gt;&lt;/p&gt;
     
     <item>
       <title>Transmission de la technologie et innovation</title>
-      <link>https://example.com/courses/macroeconomics/comparative_development/papers/ozak__2018/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/comparative_development/papers/ozak__2018/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/macroeconomics/comparative_development/papers/ozak__2018/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/comparative_development/papers/ozak__2018/</guid>
       <description>&lt;h2 id=&#34;transmission-de-la-technologie-et-innovation-özak-2018&#34;&gt;Transmission de la technologie et innovation (Özak, 2018)&lt;/h2&gt;
 &lt;p&gt;Dans le modèle de croissance unifiée, le rôle de la technologie est primordial.
 En particulier, la croissance technologique, active depuis toujours, permet le changement d&amp;rsquo;époque.
@@ -3550,7 +3550,7 @@ Ainsi, ces zones deviendront des clusters d&amp;rsquo;innovation et adaptation.&
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/comparative_development/Ozak__2018_Figure_3.png&#34; alt=&#34;Ozak__2018_Figure_3&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/Ozak__2018_Figure_3.png&#34; alt=&#34;Ozak__2018_Figure_3&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;h3 id=&#34;prédiction-et-validation&#34;&gt;Prédiction et validation&lt;/h3&gt;
@@ -3574,7 +3574,7 @@ Ainsi, les régions qui sont plates sont faciles à traverser, les montagnes ajo
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/comparative_development/Ozak__2018_Figure_4.png&#34; alt=&#34;Ozak__2018_Figure_4&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/Ozak__2018_Figure_4.png&#34; alt=&#34;Ozak__2018_Figure_4&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 
 Ensuite, il faut connaître où se trouve la frontière technologique et il est important de remarquer que la frontière technologique peut:&lt;/p&gt;
@@ -3602,7 +3602,7 @@ Enfin, on peut calculer le temps qu&amp;rsquo;il faut pour se rendre à la front
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/comparative_development/Ozak__2018_Figure_5.png&#34; alt=&#34;Ozak__2018_Figure_5&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/Ozak__2018_Figure_5.png&#34; alt=&#34;Ozak__2018_Figure_5&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;Parmi plusieurs prédictions qu&amp;rsquo;Özak fait, nous allons en voir quelques-unes.&lt;/p&gt;
@@ -3626,7 +3626,7 @@ Enfin, on peut calculer le temps qu&amp;rsquo;il faut pour se rendre à la front
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/comparative_development/Ozak__2018_Table_1.png&#34; alt=&#34;Ozak__2018_Table_1&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/Ozak__2018_Table_1.png&#34; alt=&#34;Ozak__2018_Table_1&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 
 Les résultats peuvent s&amp;rsquo;interpréter de la manière suivante: pendant 1500, la pire situation était se localiser à 6.4 semaines à pied des Pays-Bas.
@@ -3655,7 +3655,7 @@ En plus, aujourd&amp;rsquo;hui on espère qu&amp;rsquo;un plus grand développem
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/comparative_development/Ozak__2018_Table_9.png&#34; alt=&#34;Ozak__2018_Table_9&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/Ozak__2018_Table_9.png&#34; alt=&#34;Ozak__2018_Table_9&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -3680,7 +3680,7 @@ Comme la distance à la frontière a un effet en forme de U sur la technologie, 
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/comparative_development/Ozak__2018_Table_5.png&#34; alt=&#34;Ozak__2018_Table_5&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/Ozak__2018_Table_5.png&#34; alt=&#34;Ozak__2018_Table_5&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/li&gt;
 &lt;li&gt;Si vraiment les régions loin de la frontière devaient être innovantes pour adapter et créer des nouvelles technologies, les pays qui ont passé plus de temps loin de la frontière seront plus créatifs.
@@ -3703,7 +3703,7 @@ Il est possible de mesurer la créativité utilisant le nombre de brevets par pe
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/comparative_development/Ozak__2018_Table_11.png&#34; alt=&#34;Ozak__2018_Table_11&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/Ozak__2018_Table_11.png&#34; alt=&#34;Ozak__2018_Table_11&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -3724,9 +3724,9 @@ Par exemple, les États-Unis sont aujourd&amp;rsquo;hui la frontière technologi
     
     <item>
       <title>Export subsidies</title>
-      <link>https://example.com/courses/international_trade/export_subsidies/</link>
+      <link>https://eric-roca.github.io/courses/international_trade/export_subsidies/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/international_trade/export_subsidies/</guid>
+      <guid>https://eric-roca.github.io/courses/international_trade/export_subsidies/</guid>
       <description>&lt;h2 id=&#34;export-subsidy&#34;&gt;Export subsidy&lt;/h2&gt;
 &lt;p&gt;An export subsidy a payment to a firm that exports a good abroad.
 As with tariffs, export subsidies can be &lt;em&gt;ad-valorem&lt;/em&gt; or specific, although this distinction is not important in the analysis.
@@ -3754,7 +3754,7 @@ Thus, as with the tariff, the change in prices implied by the subsidy is shared 
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Export_Subsidy.png&#34; alt=&#34;Export_Subsidy&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Export_Subsidy.png&#34; alt=&#34;Export_Subsidy&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 
 However, different from before, we can show that the net effect of an export subsidy is &lt;strong&gt;negative&lt;/strong&gt;:
@@ -3776,7 +3776,7 @@ However, different from before, we can show that the net effect of an export sub
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Export_Subsidy_Welfare.png&#34; alt=&#34;Export_Subsidy_Welfare&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Export_Subsidy_Welfare.png&#34; alt=&#34;Export_Subsidy_Welfare&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;Thus, the effects of an export subsidy are:&lt;/p&gt;
@@ -3796,9 +3796,9 @@ Tariffs prevent this from happening.&lt;/p&gt;
     
     <item>
       <title>Non-separable utility in OLG</title>
-      <link>https://example.com/courses/macroeconomics/math_app/olg_non-separable_utility/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/math_app/olg_non-separable_utility/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/macroeconomics/math_app/olg_non-separable_utility/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/math_app/olg_non-separable_utility/</guid>
       <description>&lt;p&gt;Here we analyse the behaviour of the savings function when utility is non-separable.
 In particular, let utility be represented by&lt;/p&gt;
 &lt;p&gt;$$U = u(c,d).$$&lt;/p&gt;
@@ -3843,11 +3843,11 @@ $$1 + \underbrace{\frac{u_{dd}}{u_{d}}d}_{-\frac{1}{\sigma}} - \frac{u_{cd}}{u_{
     
     <item>
       <title>Steady state</title>
-      <link>https://example.com/courses/macroeconomics/olg/olg_steady_state/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/olg/olg_steady_state/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/macroeconomics/olg/olg_steady_state/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/olg/olg_steady_state/</guid>
       <description>&lt;p&gt;We assume that the intertemporal equilibrium exists and is unique.
-As noted when characterising the &lt;a href=&#34;https://example.com/courses/macroeconomics/olg/olg_equilibrium/#temporary-equilibrium&#34;&gt;uniqueness of the temporary equilibrium&lt;/a&gt;, assuming that $\sigma&amp;gt;1$ is a sufficient condition.
+As noted when characterising the &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/olg/olg_equilibrium/#temporary-equilibrium&#34;&gt;uniqueness of the temporary equilibrium&lt;/a&gt;, assuming that $\sigma&amp;gt;1$ is a sufficient condition.
 Therefore, the dynamics of capital are given by:&lt;/p&gt;
 &lt;p&gt;$$k_{t+1} = \frac{1}{1+n}s(\omega(k_{t}), f^{\prime}(k_{t+1})).$$&lt;/p&gt;
 &lt;p&gt;Hence, $k_{t+1}$ is an implicit function of $k_{t}$:&lt;/p&gt;
@@ -3892,7 +3892,7 @@ There can be two additional, positive steady states depending on the curvature o
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/olg/example_1.png&#34; alt=&#34;steady states&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/olg/example_1.png&#34; alt=&#34;steady states&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;Similarly, the Cobb-Douglas case $\rho \rightarrow 0$ also has zero as a steady state.
@@ -3919,14 +3919,14 @@ Moreover, the configuration varies depending on the production and utility funct
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/olg/example_2.png&#34; alt=&#34;behaviour&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/olg/example_2.png&#34; alt=&#34;behaviour&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;h2 id=&#34;stability-of-the-steady-state&#34;&gt;Stability of the steady state&lt;/h2&gt;
 &lt;p&gt;This model can feature one or several steady states.
 This depends on the characteristics of the production and utility functions.&lt;/p&gt;
 &lt;p&gt;First, the dynamics of $k$ are monotonic: either continuously increase or decrease.
-This follows from assuming a unique intertemporal equilibrium, &lt;a href=&#34;https://example.com/courses/macroeconomics/olg/olg_equilibrium/#uniqueness-of-the-intertemporal-equilibrium&#34;&gt;see also&lt;/a&gt;.
+This follows from assuming a unique intertemporal equilibrium, &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/olg/olg_equilibrium/#uniqueness-of-the-intertemporal-equilibrium&#34;&gt;see also&lt;/a&gt;.
 This extra assumption also implies that the intermporal elasticity of substitution is &lt;em&gt;not too small&lt;/em&gt;.
 In particular, we operationalise (p. 25 in &lt;em&gt;de la Croix and Michel&lt;/em&gt;.) it as:&lt;/p&gt;
 &lt;p&gt;$$\forall c&amp;gt;0, \quad u^\prime( c ) + c u^{\prime \prime}( c ) \geq 0 \Leftrightarrow \sigma( c ) \geq 1.$$&lt;/p&gt;
@@ -3982,7 +3982,7 @@ We can solve for them:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Local dynamics: stability&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;We check the stability of the two steady states using the first derivative evaluated at the steady state.
 &lt;strong&gt;Note:&lt;/strong&gt; in general we would use the Jacobian matrix, but the OLG model has only one equation in one variable.&lt;/p&gt;
-&lt;p&gt;Remember that, for a discrete-time system, a &lt;a href=&#34;https://example.com/courses/macroeconomics/math_app/steady_state/#hyperbolic-steady-states&#34;&gt;&lt;em&gt;non-hyperbolic&lt;/em&gt;&lt;/a&gt; steady state is stable if it the determinant of the Jacobian (here the absolute value of the derivative) evaluated at the steady state is in the unit circle $(-1, 1).$&lt;/p&gt;
+&lt;p&gt;Remember that, for a discrete-time system, a &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/math_app/steady_state/#hyperbolic-steady-states&#34;&gt;&lt;em&gt;non-hyperbolic&lt;/em&gt;&lt;/a&gt; steady state is stable if it the determinant of the Jacobian (here the absolute value of the derivative) evaluated at the steady state is in the unit circle $(-1, 1).$&lt;/p&gt;
 &lt;p&gt;In our case:&lt;/p&gt;
 &lt;p&gt;$$g(k) = k_{t+1} = \frac{1}{1+n}\frac{\beta}{1+\beta}(1-\alpha)Ak_{t}^\alpha$$
 $$g^\prime(k) = \frac{1}{1+n}\frac{\beta}{1+\beta}(1-\alpha)\alpha Ak_{t}^{\alpha-1}&amp;gt; 0.$$&lt;/p&gt;
@@ -4011,7 +4011,7 @@ We show that the dynamics are bounded above by the steady state $\bar{k} = \phi^
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/olg/Log_CD.png&#34; alt=&#34;log_cd&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/olg/Log_CD.png&#34; alt=&#34;log_cd&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;h3 id=&#34;log-utility-and-ces-technology&#34;&gt;Log-utility and CES technology&lt;/h3&gt;
@@ -4048,7 +4048,7 @@ In that case, the economy displays a unique steady state, and it is globally sta
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/olg/ces0.png&#34; alt=&#34;ces0&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/olg/ces0.png&#34; alt=&#34;ces0&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;h4 id=&#34;unique-bark0-or-multiple-steady-states&#34;&gt;Unique $\bar{k}=0$ or multiple steady states&lt;/h4&gt;
@@ -4099,7 +4099,7 @@ The steady state with $\bar{k}=0$ is a &lt;strong&gt;poverty trap&lt;/strong&gt;
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/olg/ces1.png&#34; alt=&#34;ces1&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/olg/ces1.png&#34; alt=&#34;ces1&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
@@ -4116,9 +4116,9 @@ The steady state with $\bar{k}=0$ is a &lt;strong&gt;poverty trap&lt;/strong&gt;
     
     <item>
       <title>The phase diagram</title>
-      <link>https://example.com/courses/macroeconomics/ramsey/ramsey_phase_diagram/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_phase_diagram/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/macroeconomics/ramsey/ramsey_phase_diagram/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_phase_diagram/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; based on Section 2.3 of &lt;em&gt;Romer, Advanced Macroeconomics&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;The Ramsey model is fully described by two dynamic equations:&lt;/p&gt;
 &lt;p&gt;$$\left.
@@ -4168,7 +4168,7 @@ This information is summarised in the following Figure.&lt;/p&gt;
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/ramsey/dynamics_c.png&#34; alt=&#34;dynamics of c&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/ramsey/dynamics_c.png&#34; alt=&#34;dynamics of c&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;The arrows show the direction in which consumption $c$ evolves.
@@ -4186,7 +4186,7 @@ We can rearrange the previous equation to obtain the following:&lt;/p&gt;
 Setting $k_{t+1} = k_{t} \implies k_{t+1} - k_{t} = 0$ so capital is constant yields:&lt;/p&gt;
 &lt;p&gt;$$ 0 = f(k_{t}) - \delta k_{t} - c_{t} \implies c_{t} = f(k_{t}) - \delta k_{t}.$$&lt;/p&gt;
 &lt;p&gt;In the $(k,c)$ space, the equation takes a form similar to a parabola: it combines production &amp;mdash;with decreasing marginal returns&amp;mdash; with a linear depreciation rate.
-In fact, f(k_t)-\delta k_t$ admits one maximum $(f^\prime (k_t) = \delta)$ the &lt;a href=&#34;https://example.com/courses/macroeconomics/ramsey/ramsey_golden_rule/&#34;&gt;Golden rule&lt;/a&gt; we discuss later.
+In fact, f(k_t)-\delta k_t$ admits one maximum $(f^\prime (k_t) = \delta)$ the &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_golden_rule/&#34;&gt;Golden rule&lt;/a&gt; we discuss later.
 Since $f^{\prime \prime}(k_t)&amp;lt;0,$ the stationary point is a maximum.&lt;/p&gt;
 &lt;p&gt;Let&amp;rsquo;s now analyse how capital evolves when consumption is above and below the level that makes it constant.
 From $k_{t+1} - k_{t} = f(k_{t}) - \delta k_{t} - c_{t}$, if consumption is above the level we have that $k_{t+1} - k_{t} &amp;lt; 0,$ meaning that capital decreases over time.
@@ -4210,7 +4210,7 @@ The Figure below summarises these findings:&lt;/p&gt;
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/ramsey/dynamics_g.png&#34; alt=&#34;dynamics of g&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/ramsey/dynamics_g.png&#34; alt=&#34;dynamics of g&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;h2 id=&#34;the-phase-diagram&#34;&gt;The phase diagram&lt;/h2&gt;
@@ -4234,7 +4234,7 @@ It indicates the motion of variables at different points of the $(k,c)$ space.&l
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/ramsey/phase_diagram.png&#34; alt=&#34;phase diagram&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/ramsey/phase_diagram.png&#34; alt=&#34;phase diagram&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;The arrows show the motion of each variable at different combinations of $(k,c).$
@@ -4245,11 +4245,11 @@ Finally, the point indicating the intersection of both curves is the steady stat
     
     <item>
       <title>Diversité génétique et développement</title>
-      <link>https://example.com/courses/macroeconomics/comparative_development/papers/ashraf_galor__2013/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/comparative_development/papers/ashraf_galor__2013/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/macroeconomics/comparative_development/papers/ashraf_galor__2013/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/comparative_development/papers/ashraf_galor__2013/</guid>
       <description>&lt;h2 id=&#34;diversité-génétique-et-développement-ashraf-et-galor-2013&#34;&gt;Diversité génétique et développement (Ashraf et Galor, 2013)&lt;/h2&gt;
-&lt;p&gt;Le papier d&amp;rsquo;&lt;a href=&#34;https://example.com/papers/Ashraf_Galor__2013.pdf&#34;&gt;Ashraf et Galor (2013)&lt;/a&gt; propose l&amp;rsquo;idée qu&amp;rsquo;au sein des sociétés, les différences entre individus peuvent être une source de richesse ou entraîner des coûts économiques.
+&lt;p&gt;Le papier d&amp;rsquo;&lt;a href=&#34;https://eric-roca.github.io/papers/Ashraf_Galor__2013.pdf&#34;&gt;Ashraf et Galor (2013)&lt;/a&gt; propose l&amp;rsquo;idée qu&amp;rsquo;au sein des sociétés, les différences entre individus peuvent être une source de richesse ou entraîner des coûts économiques.
 Ainsi, les auteurs proposent que dans une société, le fait qu&amp;rsquo;il y a plus de différences entre personnes:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Augmente la probabilité que les interactions entre personnes soient complémentaires, donnant lieu à une amélioration technologique,&lt;/li&gt;
@@ -4291,7 +4291,7 @@ Bien compris, ce qui est important est la distance migratoire par terre.
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/comparative_development/Ashraf_Galor__2013_Figure_2.png&#34; alt=&#34;Ashraf_Galor__2013_Figure_2&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/Ashraf_Galor__2013_Figure_2.png&#34; alt=&#34;Ashraf_Galor__2013_Figure_2&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;Un indice qui mésure la diversité génétique est le taux d&amp;rsquo;hétérozigosité : la probabilité que deux personnes tirées au hasard partagent certaines gens.
@@ -4315,7 +4315,7 @@ En effet, on voit qu&amp;rsquo;il existe une corrélation négative entre la dis
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/comparative_development/Ashraf_Galor__2013_Figure_1.png&#34; alt=&#34;Ashraf_Galor__2013_Figure_1&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/Ashraf_Galor__2013_Figure_1.png&#34; alt=&#34;Ashraf_Galor__2013_Figure_1&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 
 
@@ -4336,7 +4336,7 @@ En effet, on voit qu&amp;rsquo;il existe une corrélation négative entre la dis
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/comparative_development/Betti_et_al__2012_Figure_2.png&#34; alt=&#34;Betti_et_al__2012_Figure_2&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/Betti_et_al__2012_Figure_2.png&#34; alt=&#34;Betti_et_al__2012_Figure_2&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 
 
@@ -4357,7 +4357,7 @@ En effet, on voit qu&amp;rsquo;il existe une corrélation négative entre la dis
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/comparative_development/Hanihara__2008_Figure_2.png&#34; alt=&#34;Hanihara__2008_Figure_2&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/Hanihara__2008_Figure_2.png&#34; alt=&#34;Hanihara__2008_Figure_2&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;h3 id=&#34;résultats&#34;&gt;Résultats&lt;/h3&gt;
@@ -4382,7 +4382,7 @@ Il est important de rappeler que, vu que les régressions se concentrent en l&am
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/comparative_development/Ashraf_Galor__2013_Table_1.png&#34; alt=&#34;Ashraf_Galor__2013_Table_1&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/Ashraf_Galor__2013_Table_1.png&#34; alt=&#34;Ashraf_Galor__2013_Table_1&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 
 Or, on peut constater que l&amp;rsquo;hypothèse de Jared Diamond est aussi vérifiée : les pays qui ont adopté l&amp;rsquo;agriculture plus tôt se sont plus développés.&lt;/p&gt;
@@ -4405,7 +4405,7 @@ Or, on peut constater que l&amp;rsquo;hypothèse de Jared Diamond est aussi vér
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/comparative_development/Expected_Heterozygosity.png&#34; alt=&#34;Prediction&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/Expected_Heterozygosity.png&#34; alt=&#34;Prediction&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 
 
@@ -4426,7 +4426,7 @@ Or, on peut constater que l&amp;rsquo;hypothèse de Jared Diamond est aussi vér
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/comparative_development/Ashraf_Galor__2013_Table_3.png&#34; alt=&#34;Ashraf_Galor__2013_Table_3&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/Ashraf_Galor__2013_Table_3.png&#34; alt=&#34;Ashraf_Galor__2013_Table_3&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 
 En plus, les auteurs montrent que cette relation existe aussi pour le présent, cette fois ci, utilisant le niveau de revenu per capita en l&amp;rsquo;année 2000.
@@ -4448,7 +4448,7 @@ En plus, les auteurs montrent que cette relation existe aussi pour le présent, 
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/comparative_development/Ashraf_Galor__2013_Table_6.png&#34; alt=&#34;Ashraf_Galor__2013_Table_6&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/Ashraf_Galor__2013_Table_6.png&#34; alt=&#34;Ashraf_Galor__2013_Table_6&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 
 On voit que le niveau optimal de diversité génétique change avec le temps : en 1500 il était de 0.68 et en 2000 il est de 0.71.
@@ -4476,7 +4476,7 @@ Ainsi, si les hypothèses étaient correctes, on s&amp;rsquo;attend à ce que le
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/comparative_development/Ashraf_Galor__2013_Table_9.png&#34; alt=&#34;Ashraf_Galor__2013_Table_9&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/Ashraf_Galor__2013_Table_9.png&#34; alt=&#34;Ashraf_Galor__2013_Table_9&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;Une autre possibilité qu&amp;rsquo;on peut explorer c&amp;rsquo;est la relation entre la diversité génétique et le nombre de groups ethniques &lt;a href=&#34;https://doi.org/10.1257/aer.103.3.528&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ashraf et Galor (2013b).&lt;/a&gt;
@@ -4499,7 +4499,7 @@ Ainsi, vu que la diversité génétique est lié à une moindre confiance envers
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/comparative_development/Ashraf_Galor__2013b_Figure_1.png&#34; alt=&#34;Ashraf_Galor__2013b_Figure_1&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/Ashraf_Galor__2013b_Figure_1.png&#34; alt=&#34;Ashraf_Galor__2013b_Figure_1&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;Pour finir, une plus grand variété génétique, qui donne lieu à des personnes qui pensent différenment, devrait être lié à une plus large gamme de préférences politiques.
@@ -4523,7 +4523,7 @@ Ces deux alternatives sont explorées par &lt;a href=&#34;https://doi.org/10.398
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/comparative_development/Arbatli_et_al__2020_Figure_2.png&#34; alt=&#34;Arbatli_et_al__2020_Figure_2&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/Arbatli_et_al__2020_Figure_2.png&#34; alt=&#34;Arbatli_et_al__2020_Figure_2&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 
 
@@ -4544,7 +4544,7 @@ Ces deux alternatives sont explorées par &lt;a href=&#34;https://doi.org/10.398
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/comparative_development/Arbatli_et_al__2020_Figure_A1.png&#34; alt=&#34;Arbatli_et_al__2020_Figure_A1&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/comparative_development/Arbatli_et_al__2020_Figure_A1.png&#34; alt=&#34;Arbatli_et_al__2020_Figure_A1&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
@@ -4560,9 +4560,9 @@ Ces deux alternatives sont explorées par &lt;a href=&#34;https://doi.org/10.398
     
     <item>
       <title>Liaison mechanism</title>
-      <link>https://example.com/courses/international_trade/liaison_mechanism/</link>
+      <link>https://eric-roca.github.io/courses/international_trade/liaison_mechanism/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/international_trade/liaison_mechanism/</guid>
+      <guid>https://eric-roca.github.io/courses/international_trade/liaison_mechanism/</guid>
       <description>&lt;h2 id=&#34;liaison-mechanism&#34;&gt;Liaison Mechanism&lt;/h2&gt;
 &lt;p&gt;This instrument combines a tariff on imports with a production subsidy.
 &lt;strong&gt;Note&lt;/strong&gt;: different from an export subsidy, here the Home country is &lt;em&gt;not&lt;/em&gt; an exporter.
@@ -4594,7 +4594,7 @@ For a small country, we already know that this represents a deadweight loss, and
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Liaison_part_1.png&#34; alt=&#34;Part_1&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Liaison_part_1.png&#34; alt=&#34;Part_1&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;At this stage, the tariff levied by the government is equal to $p^w \tau (D_\text{tariff} - S_\text{tariff}).$
@@ -4629,7 +4629,7 @@ Demand shrinks, as with all tariffs: $D_\text{free}$ to $D_\text{tariff}.$
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Liaison_part_2.png&#34; alt=&#34;Part_2&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Liaison_part_2.png&#34; alt=&#34;Part_2&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;The consumers loss the blue-shaded area, while producers gain the orange surface.
@@ -4653,7 +4653,7 @@ So, we shall compare the following areas:
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Liaison_part_3.png&#34; alt=&#34;Part_3&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Liaison_part_3.png&#34; alt=&#34;Part_3&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 
 Lastly, knowing that the dotted area equals the starred area, the total loss of welfare is:
@@ -4675,7 +4675,7 @@ Lastly, knowing that the dotted area equals the starred area, the total loss of 
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Liaison_part_4.png&#34; alt=&#34;Part_4&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Liaison_part_4.png&#34; alt=&#34;Part_4&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 
 If we compare the situation with just a tariff, we can see that the total welfare loss is greater.
@@ -4686,9 +4686,9 @@ So, the problem is that the subsidy miss-allocated ressources towards relatively
     
     <item>
       <title>Multiple intertemporal equilibria</title>
-      <link>https://example.com/courses/macroeconomics/olg/olg_monotonicity_of_the_dynamics/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/olg/olg_monotonicity_of_the_dynamics/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/macroeconomics/olg/olg_monotonicity_of_the_dynamics/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/olg/olg_monotonicity_of_the_dynamics/</guid>
       <description>&lt;p&gt;In the OLG model, a unique intertemporal equilibrium arises if, for a given $k_t$, the equation&lt;/p&gt;
 &lt;p&gt;$$H(k_{t+1}) = k_{t+1} - \frac{1}{1+n}s\left(\omega(k_t), f^\prime(k_{t+1})\right) = 0$$&lt;/p&gt;
 &lt;p&gt;has a unique solution.
@@ -4697,7 +4697,7 @@ which guarantees the existence of at least one solution.&lt;/p&gt;
 &lt;p&gt;Hence, if the function $H$ is monotonously increasing, the solution is unique.
 This condition depends on the sign of:&lt;/p&gt;
 &lt;p&gt;$$\frac{\partial H(k_{t+1})}{\partial k_{t+1}} = 1 + \frac{1}{1+n}s^{\prime}_{R}f^{\prime \prime}(k_{t+1}).$$&lt;/p&gt;
-&lt;p&gt;We have different cases (check &lt;a href=&#34;https://example.com/courses/macroeconomics/olg/olg_savings_function/&#34;&gt;the notes&lt;/a&gt; on the savings function):&lt;/p&gt;
+&lt;p&gt;We have different cases (check &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/olg/olg_savings_function/&#34;&gt;the notes&lt;/a&gt; on the savings function):&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;$s^\prime_{R} = 0$, which happens under log-utility.
@@ -4716,7 +4716,7 @@ Then, clearly $s^\prime_{R} &amp;gt; 0 &amp;gt; \frac{1+n}{R^\prime(k_{t+1})}.$&
 &lt;h3 id=&#34;non-monotonous-dynamics&#34;&gt;Non-monotonous dynamics&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Based on the &lt;a href=&#34;http://web.econ.ku.dk/okocg/MAT-OEK/Mak%C3%98k2/Mak%C3%98k2-2016/Forel%C3%A6sninger/Ch%203-2016-1.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;lecture notes of Groth, pp. 92&amp;ndash;93&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Under case 3, the function $g(k)$ is backwards bending for some values of $k.$
-This feature implies that there is more than one &lt;em&gt;intemporal equilibrium&lt;/em&gt;, check &lt;a href=&#34;https://example.com/courses/macroeconomics/olg/olg_equilibrium/#temporary-equilibrium&#34;&gt;also&lt;/a&gt;.
+This feature implies that there is more than one &lt;em&gt;intemporal equilibrium&lt;/em&gt;, check &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/olg/olg_equilibrium/#temporary-equilibrium&#34;&gt;also&lt;/a&gt;.
 We ruled out such a possibility assuming that $\sigma( c ) \geq 1$, this is, we imposed a large enough intertemporal elasticity of substitution.&lt;/p&gt;
 &lt;p&gt;If this is not the case and $s^\prime_{R}(\omega(k_t), R(k_{t+1})) &amp;lt; \frac{1+n}{R^\prime(k_{t+1})}$ then there are multiple temporary equilibriums.&lt;/p&gt;
 &lt;p&gt;For instance, take an isoelastic utility function $u( c ) = \frac{c^{1-\frac{1}{\sigma}}-1}{1-\frac{1}{\sigma}}$ and a CES production with $A=20, , \alpha = \frac{1}{2}, , \beta = 0.3, , n = 1.097, , \sigma = 0.1, , \rho = -2.$
@@ -4744,7 +4744,7 @@ Consequently, in all these cases we also have that $\frac{\mathrm{d}k_{t+1}}{\ma
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/olg/backwards.png&#34; alt=&#34;multiple_eq&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/olg/backwards.png&#34; alt=&#34;multiple_eq&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 </description>
@@ -4752,16 +4752,16 @@ Consequently, in all these cases we also have that $\frac{\mathrm{d}k_{t+1}}{\ma
     
     <item>
       <title>Additional material -  trajectory</title>
-      <link>https://example.com/courses/macroeconomics/ramsey/ramsey_trajectory/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_trajectory/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/macroeconomics/ramsey/ramsey_trajectory/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_trajectory/</guid>
       <description>&lt;h2 id=&#34;the-trajectory-around-the-steady-state&#34;&gt;The trajectory around the steady state&lt;/h2&gt;
 &lt;p&gt;For the moment, we have established that the model converges towards a unique steady state following a saddle path.
 &lt;strong&gt;Note:&lt;/strong&gt; This means that there is only one combination of initial capital and consumption, $(k_{0}, c_{0})$, such that the economy converges towards it.
 Any other initial value consumption at $t=0$ (capital is pre-determined and thus we &lt;em&gt;cannot&lt;/em&gt; change it) has a diverging trajectory.&lt;/p&gt;
 &lt;p&gt;We now compute the exact behaviour of $(k_{t}, c_{t})$ around the steady state.&lt;/p&gt;
 &lt;p&gt;The model is highly non-linear, so we study a simpler linearised version around the steady state.
-First, let&amp;rsquo;s approximate the dynamics of capital and consumption &lt;a href=&#34;https://example.com/courses/macroeconomics/math_app/steady_state/#Approximation&#34;&gt;around the steady state.&lt;/a&gt;&lt;/p&gt;
+First, let&amp;rsquo;s approximate the dynamics of capital and consumption &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/math_app/steady_state/#Approximation&#34;&gt;around the steady state.&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;the-approximation-around-the-steady-state&#34;&gt;The approximation around the steady state&lt;/h3&gt;
 &lt;p&gt;The behaviour of the dynamical system around the steady state can be approximated using a first-order Taylor expansion around it.
 In that sense:&lt;/p&gt;
@@ -4844,9 +4844,9 @@ Finally, the initial value of consumption $c_{0}$ that puts the economy in the s
     
     <item>
       <title>Example</title>
-      <link>https://example.com/courses/macroeconomics/ramsey/ramsey_example/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_example/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/macroeconomics/ramsey/ramsey_example/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_example/</guid>
       <description>&lt;p&gt;We can now completely solve an example.&lt;/p&gt;
 &lt;h2 id=&#34;utility-and-production-functions&#34;&gt;Utility and production functions&lt;/h2&gt;
 &lt;p&gt;We assume that utility is logarithmic and we take a Cobb-Douglas production function.&lt;/p&gt;
@@ -4900,7 +4900,7 @@ $$\frac{\partial \mathcal{L}}{\partial k_{t+1}} = -\lambda_{t} + \lambda_{t+1} (
 Moreover, factors are paid their marginal productivity.&lt;/p&gt;
 &lt;p&gt;$$r_{t} = F^{\prime}_{K_{t}}(K_{t}, L_{t}) = \alpha K_{t}^{\alpha - 1}L_{t}^{1-\alpha} = \alpha \left(\frac{K_{t}}{L_{t}}\right)^{\alpha - 1} = \alpha k_{t}^{\alpha -1},$$
 $$w_{t} = F^{\prime}_{L_{t}}(K_{t}, L_{t}) = (1-\alpha) K_{t}^{\alpha} L_{t}^{-\alpha} = (1-\alpha)\left(\frac{K_{t}}{L_{t}}\right)^{\alpha} = (1-\alpha) k_{t}^{\alpha}.$$&lt;/p&gt;
-&lt;p&gt;Alternatively, using the information in the &lt;a href=&#34;https://example.com/courses/macroeconomics/math_app/homogenous_functions/#intensive-form&#34;&gt;Appendix&lt;/a&gt; and working directly with the intensive-form production function:&lt;/p&gt;
+&lt;p&gt;Alternatively, using the information in the &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/math_app/homogenous_functions/#intensive-form&#34;&gt;Appendix&lt;/a&gt; and working directly with the intensive-form production function:&lt;/p&gt;
 &lt;p&gt;$$r_{t} = f^{\prime}(k_{t}) = \frac{\partial f(k_{t})}{\partial k_{t}} = \alpha k_{t}^{\alpha -1},$$
 $$w_{t} = f(k_{t}) - f^{\prime}(k_{t})k_{t} = k_{t}^{\alpha} - \alpha k_{t}^{\alpha - 1} k_{t} = (1-\alpha)k_{t}^{\alpha}.$$&lt;/p&gt;
 &lt;h2 id=&#34;the-dynamic-system&#34;&gt;The dynamic system&lt;/h2&gt;
@@ -4926,7 +4926,7 @@ $$\bar{k}^{\alpha} + (1-\delta)\bar{k} = \bar{c} + \bar{k}.$$&lt;/p&gt;
 &lt;p&gt;Applying $\bar{k}$ in the second equation yields the steady-state level of consumption:&lt;/p&gt;
 &lt;p&gt;$$ \bar{c} = \left(\frac{\alpha \beta}{1-\beta (1-\delta)}\right)^{\frac{\alpha}{1-\alpha}} - \delta \left(\frac{\alpha \beta}{1-\beta (1- \delta)}\right)^{\frac{1}{1-\alpha}}.$$&lt;/p&gt;
 &lt;h2 id=&#34;stability&#34;&gt;Stability&lt;/h2&gt;
-&lt;p&gt;First, we analyse the stability of the steady state, as we did in the &lt;a href=&#34;https://example.com/courses/macroeconomics/ramsey/ramsey_steady_state/#stability&#34;&gt;general case&lt;/a&gt;
+&lt;p&gt;First, we analyse the stability of the steady state, as we did in the &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_steady_state/#stability&#34;&gt;general case&lt;/a&gt;
 Since we are using log-utility, the coefficient of relative risk aversion $\epsilon_{c} = 1.$&lt;/p&gt;
 &lt;p&gt;Instead of plugging the correct values in the Jacobian matrix $\bar{A}$, for the sake of clarity, we derive everything again:&lt;/p&gt;
 &lt;p&gt;$$\bar{A} = \begin{pmatrix}
@@ -5002,9 +5002,9 @@ For $t=0$ we have:&lt;/p&gt;
     
     <item>
       <title>Export taxes</title>
-      <link>https://example.com/courses/international_trade/export_tax/</link>
+      <link>https://eric-roca.github.io/courses/international_trade/export_tax/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/international_trade/export_tax/</guid>
+      <guid>https://eric-roca.github.io/courses/international_trade/export_tax/</guid>
       <description>&lt;h2 id=&#34;export-tariff&#34;&gt;Export tariff&lt;/h2&gt;
 &lt;p&gt;An export tax is the reverse tool of an export subsidy.
 When a country implements an export tax, producers shipping a product abroad have to pay a certain amount to the government.
@@ -5036,7 +5036,7 @@ This can be illustrated grphically as follows:
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Export_Tax_1.png&#34; alt=&#34;Export_Tax_1&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Export_Tax_1.png&#34; alt=&#34;Export_Tax_1&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 
 As can be seen, after the introduction of the expor tax, world supply is reduced and a new equilibrium emerges.
@@ -5069,7 +5069,7 @@ Graphically:
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Export_Tax_2.png&#34; alt=&#34;Export_Tax_2&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Export_Tax_2.png&#34; alt=&#34;Export_Tax_2&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 
 The total welfare change is given by comparing the net gains (brought about by government revenue, orange area) to welfare losses experienced by producers (blue area).
@@ -5091,7 +5091,7 @@ The total welfare change is given by comparing the net gains (brought about by g
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Export_Tax_3.png&#34; alt=&#34;Export_Tax_3&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Export_Tax_3.png&#34; alt=&#34;Export_Tax_3&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -5101,15 +5101,15 @@ The total welfare change is given by comparing the net gains (brought about by g
     
     <item>
       <title>Optimality</title>
-      <link>https://example.com/courses/macroeconomics/olg/olg_optimality/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/olg/olg_optimality/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/macroeconomics/olg/olg_optimality/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/olg/olg_optimality/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Based on &lt;em&gt;de la Croix and Michel, Chapter 2&lt;/em&gt; and &lt;a href=&#34;http://web.econ.ku.dk/okocg/MAT-OEK/Mak%C3%98k2/Mak%C3%98k2-2016/Forel%C3%A6sninger/Ch%203-2016-1.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Gorth&amp;rsquo;s&lt;/em&gt;&lt;/a&gt; lecture notes.&lt;/p&gt;
 &lt;p&gt;The first welfare theorem states that a competitive equilibrium is Pareto optimal.
 However, the first welfare theorem has two requisites the Diamond model does not meet: a finite number of goods and a finite number of agents.
 Therefore, the allocation resulting from the competitive equilibrium may &lt;em&gt;not&lt;/em&gt; be Pareto optimal.&lt;/p&gt;
 &lt;h2 id=&#34;the-golden-rule-level-of-capital&#34;&gt;The golden-rule level of capital&lt;/h2&gt;
-&lt;p&gt;We begin the discussion by bringing back the idea of &lt;a href=&#34;https://example.com/courses/macroeconomics/ramsey/ramsey_remarks/#the-golden-rule&#34;&gt;over- and under-accumulation of capital&lt;/a&gt; we have seen before.
+&lt;p&gt;We begin the discussion by bringing back the idea of &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_remarks/#the-golden-rule&#34;&gt;over- and under-accumulation of capital&lt;/a&gt; we have seen before.
 In the Diamond model &amp;mdash;and different from the Ramsey model&amp;mdash;, the capital stock on the balanced growth path may exceed the golden-rule level.
 This implies that a permanent increase in consumption is possible.&lt;/p&gt;
 &lt;p&gt;When discussing the golden-rule level of capital, we are &lt;em&gt;not&lt;/em&gt; interested in how consumption is divided between the old and the young.
@@ -5151,7 +5151,7 @@ Hence, the golden-rule level of capital is given by:&lt;/p&gt;
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/olg/golden_rule.png&#34; alt=&#34;golden_rule&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/olg/golden_rule.png&#34; alt=&#34;golden_rule&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;The highest sustainable consumption level per unit of labour is obtained when, at steady state, the net marginal productivity of capital equals the growth rate of the economy.&lt;/p&gt;
@@ -5217,9 +5217,9 @@ Using the resource constraint:&lt;/p&gt;
     
     <item>
       <title>Golden rule</title>
-      <link>https://example.com/courses/macroeconomics/ramsey/ramsey_golden_rule/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_golden_rule/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/macroeconomics/ramsey/ramsey_golden_rule/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_golden_rule/</guid>
       <description>&lt;h2 id=&#34;Golden-rule&#34;&gt;The Golden rule&lt;/h2&gt;
 &lt;p&gt;This capital level $\bar{k}$ is called the &lt;em&gt;modified&lt;/em&gt; Golden-rule level of capital.
 The adjective &lt;em&gt;modified&lt;/em&gt; comes from the fact that the Golden rule level of capital is the level of capital, $k^{\mathcal{GR}}$ that maximises consumption, $c$ at the steady state, thus achieving maximum consumption: $c^{\mathcal{GR}}.$&lt;/p&gt;
@@ -5247,9 +5247,9 @@ In that sense, achieving the Golden Rule level of capital $k^{\mathcal{GR}}$ is 
     
     <item>
       <title>Non-tariff barriers</title>
-      <link>https://example.com/courses/international_trade/non-tariff_barriers/</link>
+      <link>https://eric-roca.github.io/courses/international_trade/non-tariff_barriers/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/international_trade/non-tariff_barriers/</guid>
+      <guid>https://eric-roca.github.io/courses/international_trade/non-tariff_barriers/</guid>
       <description>&lt;h2 id=&#34;non-tariff-barriers-to-trade&#34;&gt;Non-tariff barriers to trade&lt;/h2&gt;
 &lt;p&gt;Until now, all the trade measures we have analyzed implied changes in the prices faced by consumers or producers.
 However, governments can also influence trade by means of non-tariff barriers which do not operate on prices.
@@ -5286,7 +5286,7 @@ Graphically:
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Quota.png&#34; alt=&#34;Quota&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Quota.png&#34; alt=&#34;Quota&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;The Figure above does directly represent the total welfare loss (dashed area), where we have already subtracted the benefits that accrue to quota-holders (dotted).
@@ -5317,7 +5317,7 @@ If the increase in demand is a parallel shift, welfare losses remain unchanged.
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Demand_Shift.png&#34; alt=&#34;Demand_Shift&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Demand_Shift.png&#34; alt=&#34;Demand_Shift&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;In contrast, a quota limits the quantity that can imported into the country.
@@ -5342,7 +5342,7 @@ As we can see, the additional increase in producers&amp;rsquo; surplus does not 
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Demand_Shift_Quota.png&#34; alt=&#34;Demand_Shift_Quota&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Demand_Shift_Quota.png&#34; alt=&#34;Demand_Shift_Quota&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 
 As mentioned, with the quota, the local price increases more when the demand shifts.&lt;/p&gt;
@@ -5388,7 +5388,7 @@ Graphically, the situation is the same as for trade with a tariff:
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Monopoly_Tariff.png&#34; alt=&#34;Monopoly_Tariff&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Monopoly_Tariff.png&#34; alt=&#34;Monopoly_Tariff&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;Now, suppose that we introduce a quota that is equivalent to the above tariff.
@@ -5416,19 +5416,19 @@ In graphical terms:
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Monopoly_Quota.png&#34; alt=&#34;Monopoly_Quota&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Monopoly_Quota.png&#34; alt=&#34;Monopoly_Quota&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;h2 id=&#34;exercises&#34;&gt;Exercises&lt;/h2&gt;
-&lt;p&gt;Some &lt;a href=&#34;https://example.com/files/Exercises_Trade_Policy.pdf&#34;&gt;exercises&lt;/a&gt; to practice.&lt;/p&gt;
+&lt;p&gt;Some &lt;a href=&#34;https://eric-roca.github.io/files/Exercises_Trade_Policy.pdf&#34;&gt;exercises&lt;/a&gt; to practice.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Planner</title>
-      <link>https://example.com/courses/macroeconomics/olg/olg_planner/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/olg/olg_planner/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/macroeconomics/olg/olg_planner/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/olg/olg_planner/</guid>
       <description>&lt;p&gt;Suppose now, instead, that a central planner is in charge of organising consumption and investment for all individuals.
 The planner operates by aggregating individual utility, discounting future generations at the rate $\gamma.$&lt;br/&gt;
 &lt;strong&gt;Note:&lt;/strong&gt; $\gamma$ is the discount rate of future &lt;em&gt;generations&lt;/em&gt;, not how young people discount old-age utility.&lt;/p&gt;
@@ -5469,15 +5469,15 @@ we can easily characterise the steady state knowing that $d_t = d_{t+1} = \bar{d
 &lt;p&gt;$$f^\prime (\bar{k}) = \frac{1+n}{\gamma}+1-\delta.$$&lt;/p&gt;
 &lt;p&gt;This equation provides us with the modified golden rule: the level of capital that maximises the planner&amp;rsquo;s utility.
 Clearly, if $\gamma=1$, the planner attributes the same weight to all generations and we recover the golden rule: $f^\prime(k) = n + \delta.$
-As we discussed &lt;a href=&#34;https://example.com/courses/macroeconomics/olg/olg_optimality/&#34;&gt;before&lt;/a&gt;, it is quite &lt;em&gt;unlikely&lt;/em&gt; the decentralised equilibrium converges towards the golden rule (modified or not).&lt;/p&gt;
+As we discussed &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/olg/olg_optimality/&#34;&gt;before&lt;/a&gt;, it is quite &lt;em&gt;unlikely&lt;/em&gt; the decentralised equilibrium converges towards the golden rule (modified or not).&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Debt and public expenditures</title>
-      <link>https://example.com/courses/macroeconomics/olg/olg_government/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/olg/olg_government/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/macroeconomics/olg/olg_government/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/olg/olg_government/</guid>
       <description>&lt;p&gt;Based on &lt;em&gt;de la Croix and Michel, Chapter 4.4&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id=&#34;the-ricardian-equivalence&#34;&gt;The Ricardian equivalence&lt;/h2&gt;
 &lt;p&gt;The Ricardian equivalence states that forward-looking agents internalise the government&amp;rsquo;s budget constraint when deciding.
@@ -5590,7 +5590,7 @@ Hence, we assume that:&lt;/p&gt;
 $$&lt;/p&gt;
 &lt;p&gt;Using the fact that $R(k) = 1 + r(k) - \delta$ we can rewrite the numerator as:&lt;/p&gt;
 &lt;p&gt;$$s^\prime_{\omega}\left(\frac{r(\bar{k}) -n - \delta}{1+n}\right)+1=s^\prime_\omega \left(\frac{R(\bar{k})-1-n}{1+n}\right)+1 = 1 - \underbrace{s^{\prime}_\omega}_{\in (0,1)} + \underbrace{s^\prime_\omega}_{&amp;gt;0} \frac{R(\bar{k})}{1+n} &amp;gt; 0.$$&lt;/p&gt;
-&lt;p&gt;We showed that $s^\prime_{\omega} \in (0,1)$ when we discussed &lt;a href=&#34;https://example.com/courses/macroeconomics/olg/olg_savings_function/#the-effect-of-wages&#34;&gt;the savings function.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We showed that $s^\prime_{\omega} \in (0,1)$ when we discussed &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/olg/olg_savings_function/#the-effect-of-wages&#34;&gt;the savings function.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Then, we have that&lt;/p&gt;
 &lt;p&gt;$$\frac{\partial \bar{k}}{\partial b} = - \frac{s^\prime_{\omega}\left(\overbrace{1-s^\prime_\omega+s^\prime_\omega\frac{R(\bar{k})}{1+n}}^{&amp;gt;0}\right)}{\underbrace{1+n-s^\prime_\omega \left(\omega^\prime(\bar{k})-b\frac{r^\prime(\bar{k})}{1+n}\right)-s^\prime_R R^\prime(\bar{k})}_{&amp;gt;0, \mathrm{because, of, stability}}}&amp;lt; 0 .$$&lt;/p&gt;
 &lt;p&gt;We proceed similarly with $g$:&lt;/p&gt;
@@ -5660,7 +5660,7 @@ $$\lim_{k \rightarrow +\infty}\phi = +\infty.$$&lt;/p&gt;
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/olg/taxes.png&#34; alt=&#34;taxes&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/olg/taxes.png&#34; alt=&#34;taxes&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;When $b=g=0$ we are back to the initial case without government.
@@ -5692,11 +5692,11 @@ In that (unlikely) case, a unique steady state arises, but it is non-hyperbolic 
     
     <item>
       <title>Last remarks</title>
-      <link>https://example.com/courses/macroeconomics/ramsey/ramsey_remarks/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_remarks/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/macroeconomics/ramsey/ramsey_remarks/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_remarks/</guid>
       <description>&lt;h2 id=&#34;optimality&#34;&gt;Optimality&lt;/h2&gt;
-&lt;p&gt;Before &lt;a href=&#34;https://example.com/courses/macroeconomics/ramsey/ramsey_steady_state/#Golden-rule&#34;&gt;we claimed&lt;/a&gt; that the solution is &lt;em&gt;optimal&lt;/em&gt; despite the fact that it does not maximise consumption at the steady state.
+&lt;p&gt;Before &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_steady_state/#Golden-rule&#34;&gt;we claimed&lt;/a&gt; that the solution is &lt;em&gt;optimal&lt;/em&gt; despite the fact that it does not maximise consumption at the steady state.
 However, what we claimed was that the &lt;em&gt;entire path&lt;/em&gt; was optimal.
 We can prove it by solving the Ramsey allocation problem from the perspective of the social planner.&lt;/p&gt;
 &lt;h3 id=&#34;social-planner&#34;&gt;Social planner&lt;/h3&gt;
@@ -5736,7 +5736,7 @@ Therefore, the current utility cost of a reduction in consumption is larger the 
 Because of the discount rate, the utility gains from an eventual permanent increase in consumption are bounded.&lt;/p&gt;
 &lt;p&gt;All in all, the economy converges to a value $\bar{k}$ below the steady state.
 Because $\bar{k}$ is the optimal level of $k$ for the economy to converge to, it is known as the &lt;em&gt;modified Golden-rule&lt;/em&gt; capital stock.&lt;/p&gt;
-&lt;p&gt;We &lt;a href=&#34;https://example.com/courses/macroeconomics/ramsey/ramsey_steady_state/#Golden-rule&#34;&gt;had already noticed&lt;/a&gt; that the discount factor $\beta$ prevents the economy from reaching the Golden-rule level of capital.
+&lt;p&gt;We &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_steady_state/#Golden-rule&#34;&gt;had already noticed&lt;/a&gt; that the discount factor $\beta$ prevents the economy from reaching the Golden-rule level of capital.
 According to our computation, the Golden-rule level of capital is only attained if $\beta = 1.$
 This implies that present and future consumption are valued the same, which complements the discussion above.&lt;/p&gt;
 </description>
@@ -5744,25 +5744,25 @@ This implies that present and future consumption are valued the same, which comp
     
     <item>
       <title>Papers using the OLG model</title>
-      <link>https://example.com/courses/macroeconomics/olg/olg_papers/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/olg/olg_papers/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/macroeconomics/olg/olg_papers/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/olg/olg_papers/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;This section revisits some papers that use the OLG framework to assess different types of outcomes:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Fertility and population dynamics
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://example.com/courses/macroeconomics/olg/papers/de_la_croix_dottori__2008/&#34;&gt;de la Croix, D., Dottori, D. Easter Island’s collapse: a tale of a population race. J Econ Growth 13, 27–55 (2008).&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/olg/papers/de_la_croix_dottori__2008/&#34;&gt;de la Croix, D., Dottori, D. Easter Island’s collapse: a tale of a population race. J Econ Growth 13, 27–55 (2008).&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Education
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://example.com/courses/macroeconomics/olg/papers/galor_moav__2006/&#34;&gt;Oded Galor, Omer Moav, Das Human-Kapital: A Theory of the Demise of the Class Structure, The Review of Economic Studies, Volume 73, Issue 1, January 2006, Pages 85–117.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/olg/papers/galor_moav__2006/&#34;&gt;Oded Galor, Omer Moav, Das Human-Kapital: A Theory of the Demise of the Class Structure, The Review of Economic Studies, Volume 73, Issue 1, January 2006, Pages 85–117.&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Population characteristics
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://example.com/courses/macroeconomics/olg/papers/galor_ozak__2016/&#34;&gt;Galor, Oded, and Ömer Özak. 2016. &amp;ldquo;The Agricultural Origins of Time Preference.&amp;rdquo; American Economic Review, 106 (10): 3064-3103.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/olg/papers/galor_ozak__2016/&#34;&gt;Galor, Oded, and Ömer Özak. 2016. &amp;ldquo;The Agricultural Origins of Time Preference.&amp;rdquo; American Economic Review, 106 (10): 3064-3103.&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -5771,9 +5771,9 @@ This implies that present and future consumption are valued the same, which comp
     
     <item>
       <title>de la Croix and Dottori, 2008</title>
-      <link>https://example.com/courses/macroeconomics/olg/papers/de_la_croix_dottori__2008/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/olg/papers/de_la_croix_dottori__2008/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/macroeconomics/olg/papers/de_la_croix_dottori__2008/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/olg/papers/de_la_croix_dottori__2008/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;This paper analyses the very distinct population patterns of two remote islands in the Pacific Ocean: Eastern Island and Tikopia.
 While Tikopians managed to control population growth and natural resources usage, the inhabitants of Eastern Island engaged in clan competition for the control of resources, leading to overpopulation and overexplotation of resources.&lt;/p&gt;
@@ -5808,7 +5808,7 @@ By 1400CE, deforestation had reached its peak and when the Europeans arrived, th
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/olg/de_la_croix_and_dottori__2008_Figure_1.png&#34; alt=&#34;de_la_croix_and_dottori__2008_Figure_1&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/olg/de_la_croix_and_dottori__2008_Figure_1.png&#34; alt=&#34;de_la_croix_and_dottori__2008_Figure_1&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 
 
@@ -5829,7 +5829,7 @@ By 1400CE, deforestation had reached its peak and when the Europeans arrived, th
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/olg/de_la_croix_and_dottori__2008_Figure_2.png&#34; alt=&#34;de_la_croix_and_dottori__2008_Figure_2&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/olg/de_la_croix_and_dottori__2008_Figure_2.png&#34; alt=&#34;de_la_croix_and_dottori__2008_Figure_2&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;Meanwhile, Tikopia was settled around 900BCE and people lived by slash and burn agriculture.
@@ -5932,7 +5932,7 @@ $$n^\star_{2,t} = \left(\frac{N_{1,t}}{N_{2,t}}\right)^\frac{1}{3} \implies N_{2
 &lt;p&gt;It is simpler to solve the corresponding linearised system, which we can obtain by taking logarithms:
 $$\tilde{N}_{i,t+1} = \frac{2}{3}\tilde{N}_{i,t} + \frac{1}{3} \tilde{N}_{j,t},$$
 where $\tilde{N} = \log N.$&lt;/p&gt;
-&lt;p&gt;Using the technique proposed in the &lt;a href=&#34;https://example.com/courses/macroeconomics/ramsey/ramsey_trajectory/&#34;&gt;Ramsey model&lt;/a&gt; we can obtain the dynamics of the logarithmic system:&lt;/p&gt;
+&lt;p&gt;Using the technique proposed in the &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_trajectory/&#34;&gt;Ramsey model&lt;/a&gt; we can obtain the dynamics of the logarithmic system:&lt;/p&gt;
 &lt;p&gt;$$\tilde{N}_{i,t} = \frac{\tilde{N}_{i,0} + \tilde{N}_{j,0}}{2} + \frac{1}{2} 3^{-t}\left( \tilde{N}_{i,0} - \tilde{N}_{j,0} \right).$$
 The steady state level of population, for each group is
 $$\bar{N}_i = \bar{N}_j = \sqrt{N_{1,0}}\sqrt{N_{2,0}},$$&lt;/p&gt;
@@ -5959,7 +5959,7 @@ For instance, if we take the following parametrisation $N_{1,0} = 9, N_{2,0} = 2
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/olg/de_la_croix_dottori__2008_plot.png&#34; alt=&#34;evolution&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/olg/de_la_croix_dottori__2008_plot.png&#34; alt=&#34;evolution&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
@@ -5975,9 +5975,9 @@ For instance, if we take the following parametrisation $N_{1,0} = 9, N_{2,0} = 2
     
     <item>
       <title>Galor and Moav, 2006</title>
-      <link>https://example.com/courses/macroeconomics/olg/papers/galor_moav__2006/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/olg/papers/galor_moav__2006/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/macroeconomics/olg/papers/galor_moav__2006/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/olg/papers/galor_moav__2006/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;This paper presents an OLG model to explain the rise of publicly financed education and the transition from a class structure characterised by capitalists and workers to another one where all individuals are capitalists.
 The papers undefined that the demise of the class structure was a deliberate action from the part of the capitalists to sustain their profits as human capital became more and more important in the production process.
@@ -6005,7 +6005,7 @@ Furthermore, they supplement the model with econometrics that are compatible wit
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/olg/Galor_Moav__2006_Figure_1.png&#34; alt=&#34;Galor_Moav__2006_Figure_1&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/olg/Galor_Moav__2006_Figure_1.png&#34; alt=&#34;Galor_Moav__2006_Figure_1&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;h2 id=&#34;the-model&#34;&gt;The model&lt;/h2&gt;
@@ -6162,7 +6162,7 @@ Instead of detailing the exact process (check the reference), we will simulate t
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/olg/galor_moav__2006_plot.png&#34; alt=&#34;galor_moav__2006_plot&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/olg/galor_moav__2006_plot.png&#34; alt=&#34;galor_moav__2006_plot&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
@@ -6183,9 +6183,9 @@ Instead of detailing the exact process (check the reference), we will simulate t
     
     <item>
       <title>Galor and Özak, 2016</title>
-      <link>https://example.com/courses/macroeconomics/olg/papers/galor_ozak__2016/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/olg/papers/galor_ozak__2016/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/macroeconomics/olg/papers/galor_ozak__2016/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/olg/papers/galor_ozak__2016/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;In this paper, Galor and Özak show empirically how differences in time preference (how much people discount the future) has an agricultural origin.
 This is important for development, because those who save more are the individuals who are more patient, this is, who are more future-oriented.
@@ -6358,33 +6358,33 @@ This process reflects their lower reproductive success.&lt;/p&gt;
     
     <item>
       <title>Celestial Enlightenment : Eclipses, curiosity and economic</title>
-      <link>https://example.com/talk/celestial-enlightenment-eclipses-curiosity-and-economic/</link>
+      <link>https://eric-roca.github.io/talk/celestial-enlightenment-eclipses-curiosity-and-economic/</link>
       <pubDate>Tue, 05 Jul 2022 15:45:00 +0200</pubDate>
-      <guid>https://example.com/talk/celestial-enlightenment-eclipses-curiosity-and-economic/</guid>
+      <guid>https://eric-roca.github.io/talk/celestial-enlightenment-eclipses-curiosity-and-economic/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Celestial Enlightenment : Eclipses, curiosity and economic</title>
-      <link>https://example.com/talk/celestial-enlightenment-eclipses-curiosity-and-economic/</link>
+      <link>https://eric-roca.github.io/talk/celestial-enlightenment-eclipses-curiosity-and-economic/</link>
       <pubDate>Thu, 16 Jun 2022 10:45:00 +0100</pubDate>
-      <guid>https://example.com/talk/celestial-enlightenment-eclipses-curiosity-and-economic/</guid>
+      <guid>https://eric-roca.github.io/talk/celestial-enlightenment-eclipses-curiosity-and-economic/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://example.com/publication/beguines/</link>
+      <link>https://eric-roca.github.io/publication/beguines/</link>
       <pubDate>Fri, 29 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/beguines/</guid>
+      <guid>https://eric-roca.github.io/publication/beguines/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Welcome to Wowchemy, the website builder for Hugo</title>
-      <link>https://example.com/post/getting-started/</link>
+      <link>https://eric-roca.github.io/post/getting-started/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/getting-started/</guid>
+      <guid>https://eric-roca.github.io/post/getting-started/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site&lt;/li&gt;
@@ -6461,41 +6461,41 @@ This process reflects their lower reproductive success.&lt;/p&gt;
     
     <item>
       <title>Celestial Enlightenment: Eclipses, curiosity and economic development among pre-modern ethnic groups</title>
-      <link>https://example.com/publication/eclipses/</link>
+      <link>https://eric-roca.github.io/publication/eclipses/</link>
       <pubDate>Sat, 14 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/eclipses/</guid>
+      <guid>https://eric-roca.github.io/publication/eclipses/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Roots of Gender Equality: the Persistent Effect of Beguinages on Attitudes toward Women</title>
-      <link>https://example.com/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-attitudes-toward-women/</link>
+      <link>https://eric-roca.github.io/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-attitudes-toward-women/</link>
       <pubDate>Mon, 09 Dec 2019 17:30:00 +0100</pubDate>
-      <guid>https://example.com/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-attitudes-toward-women/</guid>
+      <guid>https://eric-roca.github.io/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-attitudes-toward-women/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Terror of History: Solar Eclipses and the Origins of Critical Thinking and Complexity</title>
-      <link>https://example.com/talk/the-terror-of-history-solar-eclipses-and-the-origins-of-critical-thinking-and-complexity/</link>
+      <link>https://eric-roca.github.io/talk/the-terror-of-history-solar-eclipses-and-the-origins-of-critical-thinking-and-complexity/</link>
       <pubDate>Sat, 28 Sep 2019 09:30:00 +0200</pubDate>
-      <guid>https://example.com/talk/the-terror-of-history-solar-eclipses-and-the-origins-of-critical-thinking-and-complexity/</guid>
+      <guid>https://eric-roca.github.io/talk/the-terror-of-history-solar-eclipses-and-the-origins-of-critical-thinking-and-complexity/</guid>
       <description></description>
     </item>
     
     <item>
       <title>In the Name of the Father: Inheritance Systems and the Dynamics of State Capacity</title>
-      <link>https://example.com/publication/inheritance-systems/</link>
+      <link>https://eric-roca.github.io/publication/inheritance-systems/</link>
       <pubDate>Fri, 21 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/inheritance-systems/</guid>
+      <guid>https://eric-roca.github.io/publication/inheritance-systems/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Slides</title>
-      <link>https://example.com/slides/example/</link>
+      <link>https://eric-roca.github.io/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/slides/example/</guid>
+      <guid>https://eric-roca.github.io/slides/example/</guid>
       <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://owchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
@@ -6618,113 +6618,113 @@ $$&lt;/p&gt;
     
     <item>
       <title>Roots of Gender Equality: the Persistent Effect of Beguinages on Attitudes toward Women</title>
-      <link>https://example.com/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-attitudes-toward-women/</link>
+      <link>https://eric-roca.github.io/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-attitudes-toward-women/</link>
       <pubDate>Wed, 30 Jan 2019 14:30:00 +0200</pubDate>
-      <guid>https://example.com/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-attitudes-toward-women/</guid>
+      <guid>https://eric-roca.github.io/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-attitudes-toward-women/</guid>
       <description></description>
     </item>
     
     <item>
       <title>If Children Suffer when Mothers Work, Do They Work Less?</title>
-      <link>https://example.com/talk/if-children-suffer-when-mothers-work-do-they-work-less/</link>
+      <link>https://eric-roca.github.io/talk/if-children-suffer-when-mothers-work-do-they-work-less/</link>
       <pubDate>Fri, 14 Sep 2018 11:00:00 +0200</pubDate>
-      <guid>https://example.com/talk/if-children-suffer-when-mothers-work-do-they-work-less/</guid>
+      <guid>https://eric-roca.github.io/talk/if-children-suffer-when-mothers-work-do-they-work-less/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Roots of Gender Equality: the Persistent Effect of Beguinages on Attitudes toward Women</title>
-      <link>https://example.com/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-attitudes-toward-women/</link>
+      <link>https://eric-roca.github.io/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-attitudes-toward-women/</link>
       <pubDate>Tue, 28 Aug 2018 14:15:00 +0200</pubDate>
-      <guid>https://example.com/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-attitudes-toward-women/</guid>
+      <guid>https://eric-roca.github.io/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-attitudes-toward-women/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Roots of Gender Equality: the Persistent Effect of Beguinages on Atitudes Toward Women</title>
-      <link>https://example.com/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-atitudes-toward-women/</link>
+      <link>https://eric-roca.github.io/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-atitudes-toward-women/</link>
       <pubDate>Tue, 19 Jun 2018 11:30:00 +0200</pubDate>
-      <guid>https://example.com/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-atitudes-toward-women/</guid>
+      <guid>https://eric-roca.github.io/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-atitudes-toward-women/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Roots of Gender Equality: the Persistent Effect of Beguinages on Atitudes Toward Women</title>
-      <link>https://example.com/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-atitudes-toward-women/</link>
+      <link>https://eric-roca.github.io/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-atitudes-toward-women/</link>
       <pubDate>Tue, 05 Jun 2018 10:45:00 +0200</pubDate>
-      <guid>https://example.com/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-atitudes-toward-women/</guid>
+      <guid>https://eric-roca.github.io/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-atitudes-toward-women/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Roots of Gender Equality: the Persistent Effect of Beguinages on Atitudes Toward Women</title>
-      <link>https://example.com/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-atitudes-toward-women/</link>
+      <link>https://eric-roca.github.io/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-atitudes-toward-women/</link>
       <pubDate>Thu, 08 Feb 2018 13:00:00 +0200</pubDate>
-      <guid>https://example.com/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-atitudes-toward-women/</guid>
+      <guid>https://eric-roca.github.io/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-atitudes-toward-women/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Roots of Gender Equality: the Persistent Effect of Beguinages on Atitudes Toward Women</title>
-      <link>https://example.com/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-atitudes-toward-women/</link>
+      <link>https://eric-roca.github.io/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-atitudes-toward-women/</link>
       <pubDate>Wed, 13 Dec 2017 10:40:00 +0200</pubDate>
-      <guid>https://example.com/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-atitudes-toward-women/</guid>
+      <guid>https://eric-roca.github.io/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-atitudes-toward-women/</guid>
       <description></description>
     </item>
     
     <item>
       <title>&#39;Now She&#39;s Martha, then She&#39;s Mary&#39;: The Influence of Beguinages on Attitudes Toward Women</title>
-      <link>https://example.com/talk/now-shes-martha-then-shes-mary-the-influence-of-beguinages-on-attitudes-toward-women/</link>
+      <link>https://eric-roca.github.io/talk/now-shes-martha-then-shes-mary-the-influence-of-beguinages-on-attitudes-toward-women/</link>
       <pubDate>Tue, 17 Oct 2017 17:00:00 +0200</pubDate>
-      <guid>https://example.com/talk/now-shes-martha-then-shes-mary-the-influence-of-beguinages-on-attitudes-toward-women/</guid>
+      <guid>https://eric-roca.github.io/talk/now-shes-martha-then-shes-mary-the-influence-of-beguinages-on-attitudes-toward-women/</guid>
       <description></description>
     </item>
     
     <item>
       <title>&#39;Now She&#39;s Martha, then She&#39;s Mary&#39;: The Influence of Beguinages on Attitudes Toward Women</title>
-      <link>https://example.com/talk/now-shes-martha-then-shes-mary-the-influence-of-beguinages-on-attitudes-toward-women/</link>
+      <link>https://eric-roca.github.io/talk/now-shes-martha-then-shes-mary-the-influence-of-beguinages-on-attitudes-toward-women/</link>
       <pubDate>Wed, 09 Aug 2017 14:30:00 +0200</pubDate>
-      <guid>https://example.com/talk/now-shes-martha-then-shes-mary-the-influence-of-beguinages-on-attitudes-toward-women/</guid>
+      <guid>https://eric-roca.github.io/talk/now-shes-martha-then-shes-mary-the-influence-of-beguinages-on-attitudes-toward-women/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Inheritance systems and the dynamics of state capacity in medieval Europe</title>
-      <link>https://example.com/talk/inheritance-systems-and-the-dynamics-of-state-capacity-in-medieval-europe/</link>
+      <link>https://eric-roca.github.io/talk/inheritance-systems-and-the-dynamics-of-state-capacity-in-medieval-europe/</link>
       <pubDate>Thu, 02 Mar 2017 09:00:00 -0500</pubDate>
-      <guid>https://example.com/talk/inheritance-systems-and-the-dynamics-of-state-capacity-in-medieval-europe/</guid>
+      <guid>https://eric-roca.github.io/talk/inheritance-systems-and-the-dynamics-of-state-capacity-in-medieval-europe/</guid>
       <description></description>
     </item>
     
     <item>
       <title>&#39;Now She&#39;s Martha, then She&#39;s Mary&#39;: The Influence of Beguinages on Attitudes Toward Women</title>
-      <link>https://example.com/talk/now-shes-martha-then-shes-mary-the-influence-of-beguinages-on-attitudes-toward-women/</link>
+      <link>https://eric-roca.github.io/talk/now-shes-martha-then-shes-mary-the-influence-of-beguinages-on-attitudes-toward-women/</link>
       <pubDate>Fri, 03 Feb 2017 09:00:00 -0500</pubDate>
-      <guid>https://example.com/talk/now-shes-martha-then-shes-mary-the-influence-of-beguinages-on-attitudes-toward-women/</guid>
+      <guid>https://eric-roca.github.io/talk/now-shes-martha-then-shes-mary-the-influence-of-beguinages-on-attitudes-toward-women/</guid>
       <description></description>
     </item>
     
     <item>
       <title>In the Name of the Father: Inheritance Systems and the Dynamics of State Capacity</title>
-      <link>https://example.com/talk/in-the-name-of-the-father-inheritance-systems-and-the-dynamics-of-state-capacity/</link>
+      <link>https://eric-roca.github.io/talk/in-the-name-of-the-father-inheritance-systems-and-the-dynamics-of-state-capacity/</link>
       <pubDate>Mon, 12 Dec 2016 14:40:00 +0100</pubDate>
-      <guid>https://example.com/talk/in-the-name-of-the-father-inheritance-systems-and-the-dynamics-of-state-capacity/</guid>
+      <guid>https://eric-roca.github.io/talk/in-the-name-of-the-father-inheritance-systems-and-the-dynamics-of-state-capacity/</guid>
       <description></description>
     </item>
     
     <item>
       <title>&#39;Now She&#39;s Martha, then She&#39;s Mary&#39;: The Influence of Beguinages on Attitudes Toward Women</title>
-      <link>https://example.com/talk/now-shes-martha-then-shes-mary-the-influence-of-beguinages-on-attitudes-toward-women/</link>
+      <link>https://eric-roca.github.io/talk/now-shes-martha-then-shes-mary-the-influence-of-beguinages-on-attitudes-toward-women/</link>
       <pubDate>Mon, 21 Nov 2016 11:15:00 +0530</pubDate>
-      <guid>https://example.com/talk/now-shes-martha-then-shes-mary-the-influence-of-beguinages-on-attitudes-toward-women/</guid>
+      <guid>https://eric-roca.github.io/talk/now-shes-martha-then-shes-mary-the-influence-of-beguinages-on-attitudes-toward-women/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Example Project</title>
-      <link>https://example.com/project/example/</link>
+      <link>https://eric-roca.github.io/project/example/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/example/</guid>
+      <guid>https://eric-roca.github.io/project/example/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
 &lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
 &lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
@@ -6735,9 +6735,9 @@ $$&lt;/p&gt;
     
     <item>
       <title></title>
-      <link>https://example.com/admin/config.yml</link>
+      <link>https://eric-roca.github.io/admin/config.yml</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.com/admin/config.yml</guid>
+      <guid>https://eric-roca.github.io/admin/config.yml</guid>
       <description></description>
     </item>
     

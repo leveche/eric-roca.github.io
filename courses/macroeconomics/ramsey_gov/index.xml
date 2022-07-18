@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Overview | Academic</title>
-    <link>https://example.com/courses/macroeconomics/ramsey_gov/</link>
-      <atom:link href="https://example.com/courses/macroeconomics/ramsey_gov/index.xml" rel="self" type="application/rss+xml" />
+    <title>Overview | Èric Roca Fernández</title>
+    <link>https://eric-roca.github.io/courses/macroeconomics/ramsey_gov/</link>
+      <atom:link href="https://eric-roca.github.io/courses/macroeconomics/ramsey_gov/index.xml" rel="self" type="application/rss+xml" />
     <description>Overview</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 11 Jul 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://eric-roca.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Overview</title>
-      <link>https://example.com/courses/macroeconomics/ramsey_gov/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/ramsey_gov/</link>
     </image>
     
     <item>
       <title>Households</title>
-      <link>https://example.com/courses/macroeconomics/ramsey_gov/ramsey_government_households/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/ramsey_gov/ramsey_government_households/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/macroeconomics/ramsey_gov/ramsey_government_households/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/ramsey_gov/ramsey_government_households/</guid>
       <description>&lt;p&gt;We modify the household&amp;rsquo;s budget constraint to take into account the taxes they pay.
 It remains exactly the same as &lt;a href=&#34;%22../ramsey/Ramsey_Households.md%22&#34;&gt;before&lt;/a&gt;, except for the fact that less income is available for consumption:&lt;/p&gt;
 &lt;p&gt;$$k_{t+1} + c_{t} = w_{t} + r_{t}k_{t} + (1-\delta) k_{t} - \color{red}{T_{t}}. \tag{1, Budget Const.} \label{eq:budget}$$&lt;/p&gt;
@@ -51,9 +51,9 @@ Of course, the optimal allocation will be affected because less resources are av
     
     <item>
       <title>Steady state</title>
-      <link>https://example.com/courses/macroeconomics/ramsey_gov/ramsey_government_equilibrium/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/ramsey_gov/ramsey_government_equilibrium/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/macroeconomics/ramsey_gov/ramsey_government_equilibrium/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/ramsey_gov/ramsey_government_equilibrium/</guid>
       <description>&lt;p&gt;We close the model imposing market clearing.
 This affects the budget constraint:&lt;/p&gt;
 &lt;p&gt;$$\begin{eqnarray}
@@ -96,7 +96,7 @@ This implies that the steady-state level of consumption is reduced.&lt;/li&gt;
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/ramsey_gov/phase_diagram.png&#34; alt=&#34;phase_diagram&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/ramsey_gov/phase_diagram.png&#34; alt=&#34;phase_diagram&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 </description>
@@ -104,9 +104,9 @@ This implies that the steady-state level of consumption is reduced.&lt;/li&gt;
     
     <item>
       <title>Changes in $G$</title>
-      <link>https://example.com/courses/macroeconomics/ramsey_gov/ramsey_government_changing_g/</link>
+      <link>https://eric-roca.github.io/courses/macroeconomics/ramsey_gov/ramsey_government_changing_g/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/macroeconomics/ramsey_gov/ramsey_government_changing_g/</guid>
+      <guid>https://eric-roca.github.io/courses/macroeconomics/ramsey_gov/ramsey_government_changing_g/</guid>
       <description>&lt;p&gt;We focus now on how a change in $G_{t}$ affects the behaviour of the economy.
 We rely on the phase diagram for this analysis: it conveys the message quite efficiently.
 In what follows, we assume that the economy is at its steady-state level $(\bar{k}^{\mathcal{Gov}}, \bar{c}^{\mathcal{Gov}})$ when the government decides to change $G_t.$
@@ -145,7 +145,7 @@ Hence, the remaining part of the increase in $G$ is absorbed by a reduction in i
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/ramsey_gov/permanent_increase.png&#34; alt=&#34;permanent_increase&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/ramsey_gov/permanent_increase.png&#34; alt=&#34;permanent_increase&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;h2 id=&#34;un_temp&#34;&gt;Unexpected, temporary rise in $G$&lt;/h2&gt;
@@ -178,7 +178,7 @@ This is, the economy undergoes a transition such that, at $t=t_{1}$ when taxes a
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/ramsey_gov/temp_increase.png&#34; alt=&#34;temporary_increase&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/ramsey_gov/temp_increase.png&#34; alt=&#34;temporary_increase&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;The figure above depicts in black the original $k$-locus &amp;mdash;for $G=G_{1}$&amp;mdash; and in red the temporary one while with $G=G_{2}.$
@@ -207,7 +207,7 @@ From $t=t_{1}$, consumption continues to grow, but capital starts accumulating a
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/ramsey_gov/temp_increase_2.png&#34; alt=&#34;temporary_increase_2&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/ramsey_gov/temp_increase_2.png&#34; alt=&#34;temporary_increase_2&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;The change in consumption during $t=t_{0}$ is directly proportional to the length of the increase in taxes.
@@ -239,7 +239,7 @@ The first initial jump at $t_{0}$ must be such that, at $t_{1}$ the economy is o
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/ramsey_gov/perm_an_increase.png&#34; alt=&#34;perm_an&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/ramsey_gov/perm_an_increase.png&#34; alt=&#34;perm_an&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;Hence, during the transition, consumption continuously falls, but smoothly.
@@ -262,7 +262,7 @@ Capital, instead, first accumulates and decreases from $t_{1}$ onwards.&lt;/p&gt
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/ramsey_gov/perm_an_increase_2.png&#34; alt=&#34;perm_an2&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/ramsey_gov/perm_an_increase_2.png&#34; alt=&#34;perm_an2&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;h2 id=&#34;anticipated-temporary-rise-in-g&#34;&gt;Anticipated, temporary rise in $G$&lt;/h2&gt;
@@ -295,7 +295,7 @@ Finally, timing is again crucial because at time $t=t_{2}$ the economy must be o
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/ramsey_gov/temp_an_increase.png&#34; alt=&#34;an_temp_inc&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/ramsey_gov/temp_an_increase.png&#34; alt=&#34;an_temp_inc&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;In that case, between $t_{0}$ and $t_{1}$, households decrease consumption and save.
@@ -321,7 +321,7 @@ This consumption-smoothing decreases utility less than a discontinuous jumps.&lt
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/ramsey_gov/temp_an_increase_2.png&#34; alt=&#34;an_temp_inc&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://eric-roca.github.io/img/ramsey_gov/temp_an_increase_2.png&#34; alt=&#34;an_temp_inc&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 </description>
