@@ -1,150 +1,253 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Academic</title>
-    <link>https://eric-roca.github.io/authors/admin/</link>
-      <atom:link href="https://eric-roca.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
-    <description>Academic</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Èric Roca Fernández</copyright><lastBuildDate>Mon, 09 Dec 2019 17:30:00 +0100</lastBuildDate>
+    <title>Èric Roca Fernández | Academic</title>
+    <link>https://example.com/authors/admin/</link>
+      <atom:link href="https://example.com/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+    <description>Èric Roca Fernández</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 05 Jul 2022 15:45:00 +0200</lastBuildDate>
     <image>
-      <url>https://eric-roca.github.io/img/icon-192.png</url>
-      <title>Academic</title>
-      <link>https://eric-roca.github.io/authors/admin/</link>
+      <url>https://example.com/authors/admin/avatar_huccc3fdf4ada0c5c97aef412c0f48ca36_353531_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Èric Roca Fernández</title>
+      <link>https://example.com/authors/admin/</link>
     </image>
     
     <item>
+      <title>Celestial Enlightenment : Eclipses, curiosity and economic</title>
+      <link>https://example.com/talk/celestial-enlightenment-eclipses-curiosity-and-economic/</link>
+      <pubDate>Tue, 05 Jul 2022 15:45:00 +0200</pubDate>
+      <guid>https://example.com/talk/celestial-enlightenment-eclipses-curiosity-and-economic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Celestial Enlightenment : Eclipses, curiosity and economic</title>
+      <link>https://example.com/talk/celestial-enlightenment-eclipses-curiosity-and-economic/</link>
+      <pubDate>Thu, 16 Jun 2022 10:45:00 +0100</pubDate>
+      <guid>https://example.com/talk/celestial-enlightenment-eclipses-curiosity-and-economic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://example.com/publication/beguines/</link>
+      <pubDate>Fri, 29 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/beguines/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Welcome to Wowchemy, the website builder for Hugo</title>
+      <link>https://example.com/post/getting-started/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/getting-started/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site&lt;/li&gt;
+&lt;li&gt;The template can be modified and customised to suit your needs. It&amp;rsquo;s a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a &lt;strong&gt;no-code solution (write in Markdown and customize with YAML parameters)&lt;/strong&gt; and having &lt;strong&gt;flexibility to later add even deeper personalization with HTML and CSS&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-the-template-is-mobile-first-with-a-responsive-design-to-ensure-that-your-site-looks-stunning-on-every-device&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/master/academic.png&#34; alt=&#34;The template is mobile first with a responsive design to ensure that your site looks stunning on every device.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      The template is mobile first with a responsive design to ensure that your site looks stunning on every device.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;get-started&#34;&gt;Get Started&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;👉 &lt;a href=&#34;https://wowchemy.com/templates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Create a new site&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;📚 &lt;a href=&#34;https://wowchemy.com/docs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Personalize your site&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💬 &lt;a href=&#34;https://discord.gg/z8wNYzb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chat with the &lt;strong&gt;Wowchemy community&lt;/strong&gt;&lt;/a&gt; or &lt;a href=&#34;https://discourse.gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Hugo community&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🐦 Twitter: &lt;a href=&#34;https://twitter.com/wowchemy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@wowchemy&lt;/a&gt; &lt;a href=&#34;https://twitter.com/GeorgeCushen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@GeorgeCushen&lt;/a&gt; &lt;a href=&#34;https://twitter.com/search?q=%23MadeWithWowchemy&amp;amp;src=typed_query&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#MadeWithWowchemy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💡 &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Request a &lt;strong&gt;feature&lt;/strong&gt; or report a &lt;strong&gt;bug&lt;/strong&gt; for &lt;em&gt;Wowchemy&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;⬆️ &lt;strong&gt;Updating Wowchemy?&lt;/strong&gt; View the &lt;a href=&#34;https://wowchemy.com/docs/hugo-tutorials/update/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Update Tutorial&lt;/a&gt; and &lt;a href=&#34;https://wowchemy.com/updates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Release Notes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;crowd-funded-open-source-software&#34;&gt;Crowd-funded open-source software&lt;/h2&gt;
+&lt;p&gt;To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.&lt;/p&gt;
+&lt;h3 id=&#34;-click-here-to-become-a-sponsor-and-help-support-wowchemys-future-httpswowchemycomplans&#34;&gt;&lt;a href=&#34;https://wowchemy.com/plans/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;❤️ Click here to become a sponsor and help support Wowchemy&amp;rsquo;s future ❤️&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;As a token of appreciation for sponsoring, you can &lt;strong&gt;unlock &lt;a href=&#34;https://wowchemy.com/plans/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;these&lt;/a&gt; awesome rewards and extra features 🦄✨&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ecosystem&#34;&gt;Ecosystem&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/wowchemy/hugo-academic-cli&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Academic CLI&lt;/a&gt;:&lt;/strong&gt; Automatically import publications from BibTeX&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;inspiration&#34;&gt;Inspiration&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes, or &lt;a href=&#34;https://wowchemy.com/user-stories/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;view the &lt;strong&gt;showcase&lt;/strong&gt;&lt;/a&gt; of personal, project, and business sites.&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Page builder&lt;/strong&gt; - Create &lt;em&gt;anything&lt;/em&gt; with &lt;a href=&#34;https://wowchemy.com/docs/page-builder/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;widgets&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;elements&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Edit any type of content&lt;/strong&gt; - Blog posts, publications, talks, slides, projects, and more!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create content&lt;/strong&gt; in &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Markdown&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&#34;https://wowchemy.com/docs/import/jupyter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Jupyter&lt;/strong&gt;&lt;/a&gt;, or &lt;a href=&#34;https://wowchemy.com/docs/install-locally/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Plugin System&lt;/strong&gt; - Fully customizable &lt;a href=&#34;https://wowchemy.com/docs/customization/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;color&lt;/strong&gt; and &lt;strong&gt;font themes&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Display Code and Math&lt;/strong&gt; - Code highlighting and &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LaTeX math&lt;/a&gt; supported&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Integrations&lt;/strong&gt; - &lt;a href=&#34;https://analytics.google.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Analytics&lt;/a&gt;, &lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Disqus commenting&lt;/a&gt;, Maps, Contact Forms, and more!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beautiful Site&lt;/strong&gt; - Simple and refreshing one page design&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Industry-Leading SEO&lt;/strong&gt; - Help get your website found on search engines and social media&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Media Galleries&lt;/strong&gt; - Display your images and videos with captions in a customizable gallery&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mobile Friendly&lt;/strong&gt; - Look amazing on every screen with a mobile friendly version of your site&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-language&lt;/strong&gt; - 34+ language packs including English, 中文, and Português&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-user&lt;/strong&gt; - Each author gets their own profile page&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Privacy Pack&lt;/strong&gt; - Assists with GDPR&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Stand Out&lt;/strong&gt; - Bring your site to life with animation, parallax backgrounds, and scroll effects&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;One-Click Deployment&lt;/strong&gt; - No servers. No databases. Only files.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+&lt;p&gt;Wowchemy and its templates come with &lt;strong&gt;automatic day (light) and night (dark) mode&lt;/strong&gt; built-in. Alternatively, visitors can choose their preferred mode - click the moon icon in the top right of the &lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Demo&lt;/a&gt; to see it in action! Day/night mode can also be disabled by the site admin in &lt;code&gt;params.toml&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/customization&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Choose a stunning &lt;strong&gt;theme&lt;/strong&gt; and &lt;strong&gt;font&lt;/strong&gt;&lt;/a&gt; for your site. Themes are fully customizable.&lt;/p&gt;
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+&lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Celestial Enlightenment: Eclipses, curiosity and economic development among pre-modern ethnic groups</title>
+      <link>https://example.com/publication/eclipses/</link>
+      <pubDate>Sat, 14 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/eclipses/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Roots of Gender Equality: the Persistent Effect of Beguinages on Attitudes toward Women</title>
-      <link>https://eric-roca.github.io/talk/2019-12_luxembourg/</link>
+      <link>https://example.com/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-attitudes-toward-women/</link>
       <pubDate>Mon, 09 Dec 2019 17:30:00 +0100</pubDate>
-      <guid>https://eric-roca.github.io/talk/2019-12_luxembourg/</guid>
+      <guid>https://example.com/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-attitudes-toward-women/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Terror of History: Solar Eclipses and the Origins of Critical Thinking and Complexity</title>
-      <link>https://eric-roca.github.io/talk/2019-09_lund/</link>
+      <link>https://example.com/talk/the-terror-of-history-solar-eclipses-and-the-origins-of-critical-thinking-and-complexity/</link>
       <pubDate>Sat, 28 Sep 2019 09:30:00 +0200</pubDate>
-      <guid>https://eric-roca.github.io/talk/2019-09_lund/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The Terror of History: Solar Eclipses and the Origins of Critical Thinking and Complexity</title>
-      <link>https://eric-roca.github.io/working_papers/eclipses/</link>
-      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/working_papers/eclipses/</guid>
+      <guid>https://example.com/talk/the-terror-of-history-solar-eclipses-and-the-origins-of-critical-thinking-and-complexity/</guid>
       <description></description>
     </item>
     
     <item>
       <title>In the Name of the Father: Inheritance Systems and the Dynamics of State Capacity</title>
-      <link>https://eric-roca.github.io/publication/inheritance-systems/</link>
+      <link>https://example.com/publication/inheritance-systems/</link>
       <pubDate>Fri, 21 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/publication/inheritance-systems/</guid>
+      <guid>https://example.com/publication/inheritance-systems/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Roots of Gender Equality: the Persistent Effect of Beguinages on Attitudes toward Women</title>
-      <link>https://eric-roca.github.io/talk/2019-01_marseille/</link>
+      <link>https://example.com/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-attitudes-toward-women/</link>
       <pubDate>Wed, 30 Jan 2019 14:30:00 +0200</pubDate>
-      <guid>https://eric-roca.github.io/talk/2019-01_marseille/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>In the Name of the Father: Inheritance Systems and the Dynamics of State Capacity</title>
-      <link>https://eric-roca.github.io/talk/2018-12_luxembourg/</link>
-      <pubDate>Wed, 12 Dec 2018 14:40:00 +0100</pubDate>
-      <guid>https://eric-roca.github.io/talk/2018-12_luxembourg/</guid>
+      <guid>https://example.com/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-attitudes-toward-women/</guid>
       <description></description>
     </item>
     
     <item>
       <title>If Children Suffer when Mothers Work, Do They Work Less?</title>
-      <link>https://eric-roca.github.io/talk/2018-09_lyon/</link>
+      <link>https://example.com/talk/if-children-suffer-when-mothers-work-do-they-work-less/</link>
       <pubDate>Fri, 14 Sep 2018 11:00:00 +0200</pubDate>
-      <guid>https://eric-roca.github.io/talk/2018-09_lyon/</guid>
+      <guid>https://example.com/talk/if-children-suffer-when-mothers-work-do-they-work-less/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Roots of Gender Equality: the Persistent Effect of Beguinages on Attitudes toward Women</title>
-      <link>https://eric-roca.github.io/talk/2018-08_cologne/</link>
+      <link>https://example.com/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-attitudes-toward-women/</link>
       <pubDate>Tue, 28 Aug 2018 14:15:00 +0200</pubDate>
-      <guid>https://eric-roca.github.io/talk/2018-08_cologne/</guid>
+      <guid>https://example.com/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-attitudes-toward-women/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Roots of Gender Equality: the Persistent Effect of Beguinages on Attitudes toward Women</title>
-      <link>https://eric-roca.github.io/talk/2018-06_milan/</link>
+      <title>Roots of Gender Equality: the Persistent Effect of Beguinages on Atitudes Toward Women</title>
+      <link>https://example.com/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-atitudes-toward-women/</link>
       <pubDate>Tue, 19 Jun 2018 11:30:00 +0200</pubDate>
-      <guid>https://eric-roca.github.io/talk/2018-06_milan/</guid>
+      <guid>https://example.com/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-atitudes-toward-women/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Roots of Gender Equality: the Persistent Effect of Beguinages on Attitudes toward Women</title>
-      <link>https://eric-roca.github.io/talk/2018-06_odense/</link>
+      <title>Roots of Gender Equality: the Persistent Effect of Beguinages on Atitudes Toward Women</title>
+      <link>https://example.com/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-atitudes-toward-women/</link>
       <pubDate>Tue, 05 Jun 2018 10:45:00 +0200</pubDate>
-      <guid>https://eric-roca.github.io/talk/2018-06_odense/</guid>
+      <guid>https://example.com/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-atitudes-toward-women/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Roots of Gender Equality: the Persistent Effect of Beguinages on Atitudes Toward Women</title>
-      <link>https://eric-roca.github.io/talk/2018-02_palaiseau/</link>
+      <link>https://example.com/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-atitudes-toward-women/</link>
       <pubDate>Thu, 08 Feb 2018 13:00:00 +0200</pubDate>
-      <guid>https://eric-roca.github.io/talk/2018-02_palaiseau/</guid>
+      <guid>https://example.com/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-atitudes-toward-women/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Roots of Gender Equality: the Persistent Effect of Beguinages on Atitudes Toward Women</title>
-      <link>https://eric-roca.github.io/talk/2017-12_bonn/</link>
+      <link>https://example.com/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-atitudes-toward-women/</link>
       <pubDate>Wed, 13 Dec 2017 10:40:00 +0200</pubDate>
-      <guid>https://eric-roca.github.io/talk/2017-12_bonn/</guid>
+      <guid>https://example.com/talk/roots-of-gender-equality-the-persistent-effect-of-beguinages-on-atitudes-toward-women/</guid>
       <description></description>
     </item>
     
     <item>
       <title>&#39;Now She&#39;s Martha, then She&#39;s Mary&#39;: The Influence of Beguinages on Attitudes Toward Women</title>
-      <link>https://eric-roca.github.io/talk/2017-09_marseille/</link>
+      <link>https://example.com/talk/now-shes-martha-then-shes-mary-the-influence-of-beguinages-on-attitudes-toward-women/</link>
       <pubDate>Tue, 17 Oct 2017 17:00:00 +0200</pubDate>
-      <guid>https://eric-roca.github.io/talk/2017-09_marseille/</guid>
+      <guid>https://example.com/talk/now-shes-martha-then-shes-mary-the-influence-of-beguinages-on-attitudes-toward-women/</guid>
       <description></description>
     </item>
     
     <item>
       <title>&#39;Now She&#39;s Martha, then She&#39;s Mary&#39;: The Influence of Beguinages on Attitudes Toward Women</title>
-      <link>https://eric-roca.github.io/talk/2017-08_bologna/</link>
+      <link>https://example.com/talk/now-shes-martha-then-shes-mary-the-influence-of-beguinages-on-attitudes-toward-women/</link>
       <pubDate>Wed, 09 Aug 2017 14:30:00 +0200</pubDate>
-      <guid>https://eric-roca.github.io/talk/2017-08_bologna/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Roots of Gender Equality: the Persistent Effect of Beguinages on Attitudes Toward Women</title>
-      <link>https://eric-roca.github.io/working_papers/beguines/</link>
-      <pubDate>Wed, 15 Mar 2017 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/working_papers/beguines/</guid>
+      <guid>https://example.com/talk/now-shes-martha-then-shes-mary-the-influence-of-beguinages-on-attitudes-toward-women/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Inheritance systems and the dynamics of state capacity in medieval Europe</title>
-      <link>https://eric-roca.github.io/talk/2017-02_providence_2/</link>
+      <link>https://example.com/talk/inheritance-systems-and-the-dynamics-of-state-capacity-in-medieval-europe/</link>
       <pubDate>Thu, 02 Mar 2017 09:00:00 -0500</pubDate>
-      <guid>https://eric-roca.github.io/talk/2017-02_providence_2/</guid>
+      <guid>https://example.com/talk/inheritance-systems-and-the-dynamics-of-state-capacity-in-medieval-europe/</guid>
       <description></description>
     </item>
     
     <item>
       <title>&#39;Now She&#39;s Martha, then She&#39;s Mary&#39;: The Influence of Beguinages on Attitudes Toward Women</title>
-      <link>https://eric-roca.github.io/talk/2017-02_providence_1/</link>
+      <link>https://example.com/talk/now-shes-martha-then-shes-mary-the-influence-of-beguinages-on-attitudes-toward-women/</link>
       <pubDate>Fri, 03 Feb 2017 09:00:00 -0500</pubDate>
-      <guid>https://eric-roca.github.io/talk/2017-02_providence_1/</guid>
+      <guid>https://example.com/talk/now-shes-martha-then-shes-mary-the-influence-of-beguinages-on-attitudes-toward-women/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>In the Name of the Father: Inheritance Systems and the Dynamics of State Capacity</title>
+      <link>https://example.com/talk/in-the-name-of-the-father-inheritance-systems-and-the-dynamics-of-state-capacity/</link>
+      <pubDate>Mon, 12 Dec 2016 14:40:00 +0100</pubDate>
+      <guid>https://example.com/talk/in-the-name-of-the-father-inheritance-systems-and-the-dynamics-of-state-capacity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>&#39;Now She&#39;s Martha, then She&#39;s Mary&#39;: The Influence of Beguinages on Attitudes Toward Women</title>
+      <link>https://example.com/talk/now-shes-martha-then-shes-mary-the-influence-of-beguinages-on-attitudes-toward-women/</link>
+      <pubDate>Mon, 21 Nov 2016 11:15:00 +0530</pubDate>
+      <guid>https://example.com/talk/now-shes-martha-then-shes-mary-the-influence-of-beguinages-on-attitudes-toward-women/</guid>
       <description></description>
     </item>
     

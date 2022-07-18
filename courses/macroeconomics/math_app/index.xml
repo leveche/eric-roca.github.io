@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mathematical appendix | Èric Roca Fernández</title>
-    <link>https://eric-roca.github.io/courses/macroeconomics/math_app/</link>
-      <atom:link href="https://eric-roca.github.io/courses/macroeconomics/math_app/index.xml" rel="self" type="application/rss+xml" />
+    <title>Mathematical appendix | Academic</title>
+    <link>https://example.com/courses/macroeconomics/math_app/</link>
+      <atom:link href="https://example.com/courses/macroeconomics/math_app/index.xml" rel="self" type="application/rss+xml" />
     <description>Mathematical appendix</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Èric Roca Fernández</copyright><lastBuildDate>Thu, 11 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 11 Jul 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://eric-roca.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Mathematical appendix</title>
-      <link>https://eric-roca.github.io/courses/macroeconomics/math_app/</link>
+      <link>https://example.com/courses/macroeconomics/math_app/</link>
     </image>
     
     <item>
       <title>Homogenous functions</title>
-      <link>https://eric-roca.github.io/courses/macroeconomics/math_app/homogenous_functions/</link>
+      <link>https://example.com/courses/macroeconomics/math_app/homogenous_functions/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/macroeconomics/math_app/homogenous_functions/</guid>
+      <guid>https://example.com/courses/macroeconomics/math_app/homogenous_functions/</guid>
       <description>&lt;p&gt;Notes based on Appendix A.1.1 of &lt;em&gt;de la Croix and Michel: A Theory of Economic Growth.&lt;/em&gt; and Appendix M.B of &lt;em&gt;Mas-Colell, Whinston and Green: Microeconomic Theory.&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id=&#34;homogeneity&#34;&gt;Homogeneity&lt;/h2&gt;
 &lt;p&gt;A function of N variables $f(x_{1}, \ldots, x_{N})$ defined for all non-negative values $(x_{1}, \ldots, x_{N})$ is &lt;strong&gt;homogeneous of degree $p$&lt;/strong&gt; if:&lt;/p&gt;
@@ -104,9 +104,9 @@ $$F^{\prime}(K,L) =F^{\prime}\left(\frac{K}{L},\frac{L}{L}\right) = f^{\prime}(k
     
     <item>
       <title>Difference equations</title>
-      <link>https://eric-roca.github.io/courses/macroeconomics/math_app/steady_state/</link>
+      <link>https://example.com/courses/macroeconomics/math_app/steady_state/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/macroeconomics/math_app/steady_state/</guid>
+      <guid>https://example.com/courses/macroeconomics/math_app/steady_state/</guid>
       <description>&lt;p&gt;This note is based on Appendix A.3.2 of &lt;em&gt;de la Croix and Michel: A Theory of Economic Growth.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Macroeconomic models often have dynamic equations relating different periods of time.
 These can either be in continuous or discrete time.
@@ -139,7 +139,27 @@ We can further show that it admits one and only one solution by proving that $x_
 Monotonicity is the key here, not whether it increases or decreases, although in our case it is increasing.&lt;/p&gt;
 &lt;p&gt;$$\frac{\partial x_{t+1}}{\partial x_{t}} = \eta x_{t}^{\eta-1} &amp;gt; 0.$$&lt;/p&gt;
 &lt;p&gt;Hence, the function is monotonous (always increasing) and there is one and only one root.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://eric-roca.github.io/img/math_app/roots.png&#34; alt=&#34;roots&#34;&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/math_app/roots.png&#34; alt=&#34;roots&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 &lt;h3 id=&#34;stability-of-a-first-order-difference-equation&#34;&gt;Stability of a first-order difference equation&lt;/h3&gt;
 &lt;p&gt;A steady state solution $\bar{x}$ to $\bar{x} = f(\bar{x})$ which is interior to the domain of $f$ is &lt;em&gt;locally stable&lt;/em&gt; if for any initial value $x_{0}$ near enough to $\bar{x}$, the dynamics starting from $x_{0}$ converge to $\bar{x}$.
 In other terms,
@@ -172,7 +192,27 @@ Evaluating it at the steady states results in the following:&lt;/p&gt;
 $$ |f^{\prime}(\bar{x}_{2})| = 0.5 &amp;lt; 1.$$&lt;/p&gt;
 &lt;p&gt;Therefore, $\bar{x}_{1}= 0$ is an unstable steady state, while $\bar{x}_{2} = 1$ is stable.
 Below, we plot two trajectories of $x_{t}$ when $x_{t} = x_{t-1}^{0.5}:$ one starting below the steady state $x_{0} &amp;lt; 1$ and the other above.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://eric-roca.github.io/img/ramsey/Steady_States.png&#34; alt=&#34;steady states&#34;&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/ramsey/Steady_States.png&#34; alt=&#34;steady states&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 &lt;p&gt;Starting from $x_{0} &amp;lt; \bar{x}_{2}$, the variable slowly increases until it reaches the steady state $\bar{x}_{2}.$
 Notice how the curvature of the function decreases (and is smaller than one), generating the convergence.
 We can reason similarly for the case $x_{0} &amp;gt; \bar{x}_{2}.$&lt;/p&gt;
@@ -258,15 +298,15 @@ Any other initial set of values delivers a non-converging trajectory.
 In economics, we often encounter a $2 \times 2$ system.
 Often, the initial value of one variable is fixed (state variable, in general capital).
 Hence, we have to select the value of the other variable (control variable, in general consumption) in such a way that it is on the saddle path.&lt;/p&gt;
-&lt;p&gt;We develop a full example in &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/ramsey/ramsey_example/&#34;&gt;Example&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We develop a full example in &lt;a href=&#34;https://example.com/courses/macroeconomics/ramsey/ramsey_example/&#34;&gt;Example&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>The transversality condition</title>
-      <link>https://eric-roca.github.io/courses/macroeconomics/math_app/transversality_condition/</link>
+      <link>https://example.com/courses/macroeconomics/math_app/transversality_condition/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/macroeconomics/math_app/transversality_condition/</guid>
+      <guid>https://example.com/courses/macroeconomics/math_app/transversality_condition/</guid>
       <description>&lt;p&gt;The transversality condition appears as a necessary condition to determine the optimal path in dynamic models.
 It complements the Euler equation and allows to pinpoint the exact optimal path (see example below).&lt;/p&gt;
 &lt;p&gt;We use the transversality condition to avoid explosive consumption or saving paths that would end up in:&lt;/p&gt;
@@ -399,9 +439,9 @@ We have obtained the transversality condition.&lt;/p&gt;
     
     <item>
       <title>Elasticity of substitution</title>
-      <link>https://eric-roca.github.io/courses/macroeconomics/math_app/elasticity_of_substitution/</link>
+      <link>https://example.com/courses/macroeconomics/math_app/elasticity_of_substitution/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/macroeconomics/math_app/elasticity_of_substitution/</guid>
+      <guid>https://example.com/courses/macroeconomics/math_app/elasticity_of_substitution/</guid>
       <description>&lt;p&gt;The elasticity of substitution between two inputs of a production function (or two goods in a utility function) measures &lt;em&gt;the percentage change in the ratio of the two inputs relative to the percentage change in their prices&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;The elasticity of substitution represents the curvature of the isoquant, this is, the degree of substitutability between inputs.
 Mathematically, for inputs $x_{1}$ and $x_{2}$ and a production function $f(x_{1}, x_{2}),$ it is defined as:&lt;/p&gt;
@@ -438,7 +478,7 @@ Therefore, we can compute $\sigma_{K,L}$ as&lt;/p&gt;
 &amp;amp; r = A \frac{\nu}{\rho}\left( \alpha K^{\rho} + (1-\alpha) L^{\rho} \right)^{\frac{\nu}{\rho}-1}\alpha \rho K^{\rho-1}.\end{eqnarray}$$
 Hence:
 $$\frac{w}{r} = \frac{1-\alpha}{\alpha} \left(\frac{K}{L} \right)^{1-\rho}.$$&lt;/p&gt;
-&lt;p&gt;The parameter $\nu$ indicates the degree of &lt;a href=&#34;https://eric-roca.github.io/courses/macroeconomics/math_app/homogenous_functions/&#34;&gt;homogeneity of the function.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The parameter $\nu$ indicates the degree of &lt;a href=&#34;https://example.com/courses/macroeconomics/math_app/homogenous_functions/&#34;&gt;homogeneity of the function.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;The elasticity of substitution equals:&lt;/p&gt;
 &lt;p&gt;$$\frac{ \partial \ln \left(\frac{K}{L}\right)}{\partial \ln \left( \frac{w}{r} \right)} =
 \frac{ \partial \frac{K}{L}}{\frac{K}{L}}\frac{\frac{w}{r}}{\partial \frac{w}{r}} =
@@ -450,9 +490,9 @@ $$\frac{w}{r} = \frac{1-\alpha}{\alpha} \left(\frac{K}{L} \right)^{1-\rho}.$$&lt
     
     <item>
       <title>Non-separable utility in OLG</title>
-      <link>https://eric-roca.github.io/courses/macroeconomics/math_app/olg_non-separable_utility/</link>
+      <link>https://example.com/courses/macroeconomics/math_app/olg_non-separable_utility/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/macroeconomics/math_app/olg_non-separable_utility/</guid>
+      <guid>https://example.com/courses/macroeconomics/math_app/olg_non-separable_utility/</guid>
       <description>&lt;p&gt;Here we analyse the behaviour of the savings function when utility is non-separable.
 In particular, let utility be represented by&lt;/p&gt;
 &lt;p&gt;$$U = u(c,d).$$&lt;/p&gt;

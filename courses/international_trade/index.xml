@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>International economics | Èric Roca Fernández</title>
-    <link>https://eric-roca.github.io/courses/international_trade/</link>
-      <atom:link href="https://eric-roca.github.io/courses/international_trade/index.xml" rel="self" type="application/rss+xml" />
+    <title>International economics | Academic</title>
+    <link>https://example.com/courses/international_trade/</link>
+      <atom:link href="https://example.com/courses/international_trade/index.xml" rel="self" type="application/rss+xml" />
     <description>International economics</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Èric Roca Fernández</copyright><lastBuildDate>Thu, 11 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 11 Jul 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://eric-roca.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>International economics</title>
-      <link>https://eric-roca.github.io/courses/international_trade/</link>
+      <link>https://example.com/courses/international_trade/</link>
     </image>
     
     <item>
       <title>The Standard Trade Model</title>
-      <link>https://eric-roca.github.io/courses/international_trade/standard_trade_model/</link>
+      <link>https://example.com/courses/international_trade/standard_trade_model/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/international_trade/standard_trade_model/</guid>
+      <guid>https://example.com/courses/international_trade/standard_trade_model/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;The previous models seen in the first half of the course focus on particular aspects that may give rise to international trade.
 In particular, the Ricardian model emphasizes differences in comparative advantages that can be ultimately related to different production functions.
@@ -96,7 +96,27 @@ $$\begin{align}
 &amp;amp; = \left(K-\frac{Q_C \sqrt{Q_C^2+8LK}-Q_C^2}{2L}\right)^\frac{1}{3} \left(L-\frac{L\frac{Q_C \sqrt{Q_C^2+8LK}-Q_C^2}{2L}}{2K -\frac{Q_C \sqrt{Q_C^2+8LK}-Q_C^2}{2L}}\right)^\frac{2}{3}
 \end{align}$$
 If we assume, for a second, that the economy counts with $10$ units of labour $(L=10)$ and $5$ units of capital $(K=5)$, then the production possibility frontier has the following shape:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/PPF.png&#34; alt=&#34;PPF&#34;&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/PPF.png&#34; alt=&#34;PPF&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 &lt;h3 id=&#34;deciding-how-much-to-produce&#34;&gt;Deciding how much to produce&lt;/h3&gt;
 &lt;p&gt;The PPF only indicates all the possible combinations of clothing and food that the economy can produce.
 For instance, points such as $A$ and $B$ are feasible, so is any other point on the PPF.
@@ -106,7 +126,27 @@ $$V = Q_C P_C + Q_F P_F.$$
 Levels $V$ are called isovalue lines: combinations of $Q_C$ and $Q_F$ that produce the same value $V.$&lt;/p&gt;
 &lt;p&gt;Considering, for instance, that $P_C = 7$ and $P_F = 6$, we can draw several isolines corresponding to different values $V$.
 The next figure draws isovalue lines for values $V = {20,40,60}.$&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Isovalues.png&#34; alt=&#34;Isovalue_lines&#34;&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Isovalues.png&#34; alt=&#34;Isovalue_lines&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 &lt;p&gt;To draw one isovalue line for a given $V$, we isolate the variable in the vertical axis, this is, $Q_F$ in our case:
 $$V = Q_C P_C + Q_F P_F \implies Q_F = \frac{V}{P_F} - \frac{P_C}{P_F}Q_C.$$
 As is clear, as we increase the $V$, the isovalue lines move away from the origin.
@@ -126,7 +166,27 @@ At this point, the economy is not producing at its full capacity because it is i
 We already know that we can increase the value of total production if we move the isovalue line away from the origin.
 Points like $B$ or $C$ are not feasible, because they are above the PPF and, thus, the economy cannot produce these combinations $Q_C$ and $Q_F$ with its available resources $K$ and $L$.
 Thus, it is optimal to lie on the point that is the farthest away which still touches the PPF: the tangency point $D$.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/PPF_optimal.png&#34; alt=&#34;PPF_Optimal&#34;&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/PPF_optimal.png&#34; alt=&#34;PPF_Optimal&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 &lt;p&gt;When the relative price changes, the slope of the isovalue lines change.
 For instance, if $P_C$ increases, making clothing more valuable, the slope (in absolute value) increases.
 This has the consequence of changing the optimal point.
@@ -144,7 +204,27 @@ We could also show that the quantity of food decreases.
 Hence, the relative supply of cloth $\left(\frac{Q_C}{Q_F}\right)$ increases.
 Finally, we can draw the relative supply curve of the economy, this is, how $\left(\frac{Q_C}{Q_F}\right)$ changes when the relative price $\left(\frac{P_C}{P_F}\right)$ changes.
 As $Q_C$ increases and $Q_F$ decreases following the rise if $P_C$, it is easy to see that the ration $\frac{Q_C}{Q_F}$ will increase as well.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Change_in_relative_price.png&#34; alt=&#34;Change_in_relative_price&#34;&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Change_in_relative_price.png&#34; alt=&#34;Change_in_relative_price&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 &lt;h2 id=&#34;individuals-preferences-and-the-relative-demand-curve&#34;&gt;Individuals&amp;rsquo; preferences and the relative demand curve&lt;/h2&gt;
 &lt;p&gt;The tastes of an individual are represented by a series of indifference curves: the set of points on the $(Q_C, Q_F)$ plane that generate a utility level $\bar{U}.$
 These indifferences curves have three main properties:&lt;/p&gt;
@@ -155,7 +235,27 @@ These indifferences curves have three main properties:&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;Mathematically, we can write the indifference curves by plotting $\bar{U} = U(Q_C, Q_F)$ for different values of $\bar{U}$, where $U(\cdot, \cdot)$ represents the utility function.
 The next Figure plots several indifference curves, with values $\bar{U} = {1, 1.2, 1.4}$ and using $U(Q_C, Q_F) = \log(Q_C)+\log(Q_F).$&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Indifference_curves.png&#34; alt=&#34;Indifference&#34;&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Indifference_curves.png&#34; alt=&#34;Indifference&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 &lt;p&gt;Considering that the economy can trade at the prices $P_C,\, P_F$, individuals will optimize according to them.
 Hence, they will choose a consumption bundle such that utility is maximal and tangent to the relative price line.&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;
 &lt;em&gt;Note:&lt;/em&gt; without trade, the efficient point will be one such that the PPF and the indifference curves are tangent, which would determine the prices within the country.
@@ -166,7 +266,27 @@ Hence, given prices $P_C$ and $P_F$, consumers maximize:&lt;/p&gt;
 \end{align}$$&lt;/p&gt;
 &lt;p&gt;where $V$ represents the total value of production.
 Such equilibrium is represented in the Figure below:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Equilibrium.png&#34; alt=&#34;Equilibrium&#34;&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Equilibrium.png&#34; alt=&#34;Equilibrium&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 &lt;p&gt;As we did before, we can consider the effect of an increase in $\frac{P_C}{P_F}$.
 First, as we already knew, the economy produces more clothing $C$ and less food $F$.
 This is because the relative price of clothing with respect to food increased, and it is more profitable to produce and sell clothing.
@@ -180,9 +300,49 @@ However, consumers face two effects:&lt;/p&gt;
 Therefore, consumers tend to consume less of $C$ and more of $F$.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Depending on the utility representation, one effect dominates the other (and for the utility choice we made, one exactly cancels out the other).&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Change_Equilibrium.png&#34; alt=&#34;Change_Equilibrium&#34;&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Change_Equilibrium.png&#34; alt=&#34;Change_Equilibrium&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 &lt;p&gt;Similar to the relative supply curve, we can draw a relative demand curve which represents the relative demand $\frac{Q_C}{Q_F}$ with respect to the relative price $\frac{P_Q}{P_F}.$&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Relative_supply_and_demand.png&#34; alt=&#34;Relative_supply_and_demand&#34;&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Relative_supply_and_demand.png&#34; alt=&#34;Relative_supply_and_demand&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 &lt;h2 id=&#34;the-terms-of-trade&#34;&gt;The terms of trade&lt;/h2&gt;
 &lt;p&gt;When the relative price of clothing increases, this is, when $\frac{P_C}{P_F}$ increases, a country that exports clothing is better off.
 And, by the same token, when the relative price of clothing falls, that country is in a worse position.
@@ -198,7 +358,27 @@ Lastly, we suppose that trade arises because of fundamental differences in the p
 For instance, Home is more productive in producing cloth.
 To simplify, we assume that demand in both countries is exactly the same.
 As usual, equilibrium points are found by equalizing the slope of the PPF in each country to the world relative prices, as depicted below:
-&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Production_in_each_country.png&#34; alt=&#34;Production_in_each_country&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Production_in_each_country.png&#34; alt=&#34;Production_in_each_country&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
 The world-level relative supply of clothing and food can be computed by aggregating from the country level:
 $$\frac{Q_C^{world}}{Q_F^{world}} = \frac{Q_C + Q_C^\star}{Q_F + Q_F^\star}.$$
 Note that, in reality, the world relative supply is a weighted average of each country&amp;rsquo;s relative supply curve.
@@ -206,7 +386,27 @@ Hence, the world relative supply always lies in between the two countries&amp;rs
 We can proceed similarly for world relative demand.
 However, since we assumed that demand is exactly the same in both countries, the world relative demand will coincide be equal to the relative demand curve of either country.
 The Figure below illustrates the case:
-&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/World_relative_supply_and_demand.png&#34; alt=&#34;World_relative_supply_and_demand&#34;&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/World_relative_supply_and_demand.png&#34; alt=&#34;World_relative_supply_and_demand&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 &lt;h2 id=&#34;growth-the-terms-of-trade-and-welfare&#34;&gt;Growth, the terms of trade and welfare&lt;/h2&gt;
 &lt;p&gt;A classical question in international economics concerns the effects of biased economic growth on trade and, hence, welfare.
 If all other countries in the world grow, is it good or bad for our economy?
@@ -243,7 +443,27 @@ Mathematically, this means that the derivatives $F^\prime$ increase much more th
 If the relative price $p$ remains constant, there is an imbalance in the equation: the left-hand side is larger than the right-hand side.
 To rebalance it, we shall make $F^\prime$ decrease and $G^\prime$ increase, and this happens when $K_C$ increases.
 So, with more capital in the clothing sector, the economy clearly produces more clothing and less food.
-&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Biased_growth.png&#34; alt=&#34;Biased_growth&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Biased_growth.png&#34; alt=&#34;Biased_growth&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
 Of course, biased growth towards clothing implies an increase in the relative supply (of clothing), while an biased growth towards food implies a decrease in the relative supply (of clothing).
 So we can now answer our question:
 Suppose Home grows, and the growth is biased towards clothing.
@@ -279,7 +499,7 @@ To some, the growth of the poor economies will be make them actually worse, this
 Although the possibility can arise from a theoretical model, Bhagwati (1958) shows that it only materialises when strong export-biased growth is combined with vey steep RS and RD curves.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;exercises&#34;&gt;Exercises&lt;/h2&gt;
-&lt;p&gt;Some &lt;a href=&#34;https://eric-roca.github.io/files/Exercises.pdf&#34;&gt;exercises&lt;/a&gt; to practice.&lt;/p&gt;
+&lt;p&gt;Some &lt;a href=&#34;https://example.com/files/Exercises.pdf&#34;&gt;exercises&lt;/a&gt; to practice.&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
@@ -297,9 +517,9 @@ For instance, land can only be used in agriculture.&amp;#160;&lt;a href=&#34;#fn
     
     <item>
       <title>Trade Policy</title>
-      <link>https://eric-roca.github.io/courses/international_trade/trade_policy/</link>
+      <link>https://example.com/courses/international_trade/trade_policy/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/international_trade/trade_policy/</guid>
+      <guid>https://example.com/courses/international_trade/trade_policy/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;The previous lectures indicate that, at the country level, an economy is in general better off when trading.
 However, the gains o trade are not euqally shared among all citizens.
@@ -328,9 +548,9 @@ We are going to analyse:&lt;/p&gt;
     
     <item>
       <title>Tariffs</title>
-      <link>https://eric-roca.github.io/courses/international_trade/tariffs/</link>
+      <link>https://example.com/courses/international_trade/tariffs/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/international_trade/tariffs/</guid>
+      <guid>https://example.com/courses/international_trade/tariffs/</guid>
       <description>&lt;h2 id=&#34;tariffs&#34;&gt;Tariffs&lt;/h2&gt;
 &lt;p&gt;A tariff is a tax imposed on imported goods.
 Therefore, if a country imported goods at the world price $p^w$, after the introduction of a tariff imported goods are more expensive because they now bear an extra tax.
@@ -342,7 +562,7 @@ This tax may take two forms:&lt;/p&gt;
 &lt;p&gt;Both are equivalent, and one can always find the corresponding percentage increase for a given unitary rise or vice-versa.&lt;/p&gt;
 &lt;p&gt;As we shall see, the effects of a tariff are different depending on the size of the country.
 First, we will analyze the &lt;strong&gt;small-country&lt;/strong&gt; case, this is, a country whose relative size in the international markers is small and cannot influence equilibrium prices.
-Related to the &lt;a href=&#34;https://eric-roca.github.io/courses/international_trade/standard_trade_model/&#34;&gt;Standard Trade model&lt;/a&gt;, a country is small if the changes in its supply or demand schedule do not move the world supply or demand.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;
+Related to the &lt;a href=&#34;https://example.com/courses/international_trade/standard_trade_model/&#34;&gt;Standard Trade model&lt;/a&gt;, a country is small if the changes in its supply or demand schedule do not move the world supply or demand.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;
 Then, we will analyze the same tariff but when it is applied in a large country, one that has the ability to influence world prices.&lt;/p&gt;
 &lt;h2 id=&#34;tariffs-in-a-small-open-economy&#34;&gt;Tariffs in a small, open economy&lt;/h2&gt;
 &lt;p&gt;The initial situation is that of a country that is importing the good $X$.
@@ -380,14 +600,94 @@ However, if we aggregate all surplus changes, the entire result is a &lt;strong&
 Figures below illustrate it for linear supply and demand functions.
 The consumer lost surplus equal to the area represented by the orange trapezoid.
 The loss comprises two different aspects: consumers buy less quantity, and they do so at a higher price.
-&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Tariff_Consumer.png&#34; alt=&#34;Consumer&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Tariff_Consumer.png&#34; alt=&#34;Consumer&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
 The opposite is true for producers, represented by the blue area.
 Notice how part of the surplus lost by consumers goes directly to the producers: they now satisfy a part of the demand that previously consisted of imports.
-&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Tariff_Producer.png&#34; alt=&#34;Producer&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Tariff_Producer.png&#34; alt=&#34;Producer&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
 Lastly, the government gains the surplus depicted by the green rectangle.
-&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Tariff_Government.png&#34; alt=&#34;Government&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Tariff_Government.png&#34; alt=&#34;Government&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
 If add them together, the result is that the two red triangles are lost, hence the economy as whole is worse off.
-&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Tariff_Dead-weight.png&#34; alt=&#34;Dead-weight&#34;&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Tariff_Dead-weight.png&#34; alt=&#34;Dead-weight&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 &lt;h2 id=&#34;tariffs-in-a-large-economy&#34;&gt;Tariffs in a large economy&lt;/h2&gt;
 &lt;p&gt;The main difference between a small and a large economy is their capacity to influence the world price.
 Suppose for instance that the world consists of only two countries: if Home imports the good X, then Home has monopsony power.
@@ -405,9 +705,69 @@ $$D^{W}(p) = D^H(p) - S^H(p), \forall p\leq p^H.$$
 We can think similarly about international supply:
 $$S^{W}(p) = S^F(p) - D^F(p) \forall p\geq p^F.$$
 Graphically:
-&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/International_Demand.png&#34; alt=&#34;Demand&#34;&gt;
-&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/International_Supply.png&#34; alt=&#34;Supply&#34;&gt;
-&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Compute_Equilibrium.png&#34; alt=&#34;Eq&#34;&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/International_Demand.png&#34; alt=&#34;Demand&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/International_Supply.png&#34; alt=&#34;Supply&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Compute_Equilibrium.png&#34; alt=&#34;Eq&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 &lt;p&gt;Let&amp;rsquo;s suppose now that Home introduces a tariff $\tau$ for each unit imported.
 The world supply curve adjusts, moving up by $\tau$: if before an exporter was willing to sell at price $p$, now he will request a price $p+\tau$ to compensate for the tariff he has to pay upon entering the country.&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;
 So, for each and every quantity, the world supply curve moves up by the amount $\tau.$
@@ -419,7 +779,27 @@ Suppose a producer facing the tariff $\tau.$
 To maintain his earnings unchanged, a producer selling $Q$ units will as a price $F(Q) + \tau$.
 Consequently, $p = F(Q) + \tau \implies Q=F^{-1}(p-\tau),$ and this is the reason we wrote $S^W(p-\tau)$ before.&lt;/p&gt;
 &lt;p&gt;Graphically:
-&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Tariff_in_Large_Country.png&#34; alt=&#34;Tariff_Large_Country&#34;&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Tariff_in_Large_Country.png&#34; alt=&#34;Tariff_Large_Country&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 &lt;p&gt;Some things must be commented:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Althugh the tariff is $\tau$, the price payed by consumers $p^\mathrm{consumer}$ only increases by a fraction of it.&lt;/li&gt;
@@ -437,7 +817,27 @@ A large country is able to pass a part of the dead-weight cost to the Foreign ma
 For a small country, this was a net loss for consumers.
 So, if a country is able to pass onto the foreign market a relatively large part of the burden imposed by a tariff, it may be better off with an import tariff than without.
 Graphically:
-&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Tariff_in_Large_Country_2.png&#34; alt=&#34;Tariff_Large_Country&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Tariff_in_Large_Country_2.png&#34; alt=&#34;Tariff_Large_Country&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
 As before, the consumer&amp;rsquo;s loss (blue) is partly compensated by the producers&amp;rsquo; increase in welfare (orange) and government revenue (green).
 However, a large country clearly passes away part of the losses (red), which are collected as tariffs.
 Then, it is possible for the red area to compensate the two blue triangles that are still lost by the consumers.&lt;/p&gt;
@@ -447,7 +847,27 @@ To simplify, suppose that, after the tariff $\tau$ is introduced, consumers at H
 The total welfare in the economy is the sum of consumers&amp;rsquo; surplus, producers&amp;rsquo; surplus and government income raised by the tariff.
 Let&amp;rsquo;s denote Home supply and demand, as functions of price, by $S(p)$ and $D(p)$, respectively.
 Then, consumers&amp;rsquo; surplus is given by:
-&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Change_in_Surplus.png&#34; alt=&#34;Consumer_surplus&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Change_in_Surplus.png&#34; alt=&#34;Consumer_surplus&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
 $$\int_{p^w+\alpha \tau}^\infty D(p)\mathrm{d}p$$
 Similarly, producers&amp;rsquo; surplus is:
 $$\int_0^{p^w+\alpha \tau}S(p)\mathrm{d}p$$
@@ -625,9 +1045,9 @@ What matters is the size of the impact, and for a small country, it is negligeab
     
     <item>
       <title>Export subsidies</title>
-      <link>https://eric-roca.github.io/courses/international_trade/export_subsidies/</link>
+      <link>https://example.com/courses/international_trade/export_subsidies/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/international_trade/export_subsidies/</guid>
+      <guid>https://example.com/courses/international_trade/export_subsidies/</guid>
       <description>&lt;h2 id=&#34;export-subsidy&#34;&gt;Export subsidy&lt;/h2&gt;
 &lt;p&gt;An export subsidy a payment to a firm that exports a good abroad.
 As with tariffs, export subsidies can be &lt;em&gt;ad-valorem&lt;/em&gt; or specific, although this distinction is not important in the analysis.
@@ -637,9 +1057,49 @@ First, we shall note that, differently from before, in this case we shall assume
 This is because now, a local producer can sell it a Home at the world price $p^w$, or ship it abroad and gain the world price plus the subsidy: $p^w + s$.
 At the same time, the subsidy encourages more local produces to start producing, world supply for the good increases and the world price goes down (here we just focus on the case where the country is large enough to meaningfuly affect world supply).
 Thus, as with the tariff, the change in prices implied by the subsidy is shared between consumers at Home, who pay a higher price, and consumers abroad who enjoy a lower price; firms earn the subsidy and the government has to pay for it.
-&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Export_Subsidy.png&#34; alt=&#34;Export_Subsidy&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Export_Subsidy.png&#34; alt=&#34;Export_Subsidy&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
 However, different from before, we can show that the net effect of an export subsidy is &lt;strong&gt;negative&lt;/strong&gt;:
-&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Export_Subsidy_Welfare.png&#34; alt=&#34;Export_Subsidy_Welfare&#34;&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Export_Subsidy_Welfare.png&#34; alt=&#34;Export_Subsidy_Welfare&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 &lt;p&gt;Thus, the effects of an export subsidy are:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Reduce the price in foreign markets, hurting the terms of trade,&lt;/li&gt;
@@ -657,9 +1117,9 @@ Tariffs prevent this from happening.&lt;/p&gt;
     
     <item>
       <title>Liaison mechanism</title>
-      <link>https://eric-roca.github.io/courses/international_trade/liaison_mechanism/</link>
+      <link>https://example.com/courses/international_trade/liaison_mechanism/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/international_trade/liaison_mechanism/</guid>
+      <guid>https://example.com/courses/international_trade/liaison_mechanism/</guid>
       <description>&lt;h2 id=&#34;liaison-mechanism&#34;&gt;Liaison Mechanism&lt;/h2&gt;
 &lt;p&gt;This instrument combines a tariff on imports with a production subsidy.
 &lt;strong&gt;Note&lt;/strong&gt;: different from an export subsidy, here the Home country is &lt;em&gt;not&lt;/em&gt; an exporter.
@@ -673,7 +1133,27 @@ The main idea behind it is to boost local production, and this instrument contri
 &lt;p&gt;To simplify things, we focus on a small, open economy that imports a good.
 The first step consists on adding a tariff on imports, we assume it is an &lt;em&gt;ad-valorem&lt;/em&gt; tariff, though.
 For a small country, we already know that this represents a deadweight loss, and that the price payed by the consumers equals $p^w(1+\tau)$.
-&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Liaison_part_1.png&#34; alt=&#34;Part_1&#34;&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Liaison_part_1.png&#34; alt=&#34;Part_1&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 &lt;p&gt;At this stage, the tariff levied by the government is equal to $p^w \tau (D_\text{tariff} - S_\text{tariff}).$
 Next, these proceedings are used to finance a production subsidy at the rate $s$, which further increases the priced &lt;em&gt;received&lt;/em&gt; by the producers to $(p^w(1+\tau)(1+s).$
 At the same time, local production increases, which implies that less imports are required, thus reducing the amount of income the government levies.
@@ -688,13 +1168,73 @@ Thus, the situation is as follows:&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;Overall, we observe that production moved from $S_\text{free}$ to $S_\text{subs}$ and producers earn $p^w(1+\tau)(1+s).$
 Demand shrinks, as with all tariffs: $D_\text{free}$ to $D_\text{tariff}.$
-&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Liaison_part_2.png&#34; alt=&#34;Part_2&#34;&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Liaison_part_2.png&#34; alt=&#34;Part_2&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 &lt;p&gt;The consumers loss the blue-shaded area, while producers gain the orange surface.
 The effect for the government is neutral: as we said, tariff income (dotted area) is equal to the subsidy (star area).
 So, we shall compare the following areas:
-&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Liaison_part_3.png&#34; alt=&#34;Part_3&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Liaison_part_3.png&#34; alt=&#34;Part_3&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
 Lastly, knowing that the dotted area equals the starred area, the total loss of welfare is:
-&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Liaison_part_4.png&#34; alt=&#34;Part_4&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Liaison_part_4.png&#34; alt=&#34;Part_4&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
 If we compare the situation with just a tariff, we can see that the total welfare loss is greater.
 This is because the production subsidy incentivizes some local producers to produce, while before their production was covered by more efficient foreign imports.
 So, the problem is that the subsidy miss-allocated ressources towards relatively inefficient producers.&lt;/p&gt;
@@ -703,9 +1243,9 @@ So, the problem is that the subsidy miss-allocated ressources towards relatively
     
     <item>
       <title>Export taxes</title>
-      <link>https://eric-roca.github.io/courses/international_trade/export_tax/</link>
+      <link>https://example.com/courses/international_trade/export_tax/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/international_trade/export_tax/</guid>
+      <guid>https://example.com/courses/international_trade/export_tax/</guid>
       <description>&lt;h2 id=&#34;export-tariff&#34;&gt;Export tariff&lt;/h2&gt;
 &lt;p&gt;An export tax is the reverse tool of an export subsidy.
 When a country implements an export tax, producers shipping a product abroad have to pay a certain amount to the government.
@@ -719,7 +1259,27 @@ Consequently, less products are shipped abroad, creating an excess supply.
 This non-shipped production is channelled towards local consumption, which increases the local supply and pushes the local price down.
 The decrease in the local price benefits the consumers, but hurts producers (less exports and lower internal prices).
 This can be illustrated grphically as follows:
-&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Export_Tax_1.png&#34; alt=&#34;Export_Tax_1&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Export_Tax_1.png&#34; alt=&#34;Export_Tax_1&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
 As can be seen, after the introduction of the expor tax, world supply is reduced and a new equilibrium emerges.
 Now, foreign consumers pay the full new equilibrium price $P^\star_S$.
 Local exporters gain, however, $P^\star_S - \tau = P_S$.
@@ -732,9 +1292,49 @@ Hence, at the new equilibrium:&lt;/p&gt;
 &lt;li&gt;The price payed by foreign consumers increases&lt;/li&gt;
 &lt;li&gt;The government collects taxes.
 Graphically:
-&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Export_Tax_2.png&#34; alt=&#34;Export_Tax_2&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Export_Tax_2.png&#34; alt=&#34;Export_Tax_2&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
 The total welfare change is given by comparing the net gains (brought about by government revenue, orange area) to welfare losses experienced by producers (blue area).
-&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Export_Tax_3.png&#34; alt=&#34;Export_Tax_3&#34;&gt;&lt;/li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Export_Tax_3.png&#34; alt=&#34;Export_Tax_3&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;As with the case of an import tariff, we can show that, as long as a country can influence world prices, it is &lt;strong&gt;always&lt;/strong&gt; optimal the implement an export tax.&lt;/p&gt;
 </description>
@@ -742,9 +1342,9 @@ The total welfare change is given by comparing the net gains (brought about by g
     
     <item>
       <title>Non-tariff barriers</title>
-      <link>https://eric-roca.github.io/courses/international_trade/non-tariff_barriers/</link>
+      <link>https://example.com/courses/international_trade/non-tariff_barriers/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://eric-roca.github.io/courses/international_trade/non-tariff_barriers/</guid>
+      <guid>https://example.com/courses/international_trade/non-tariff_barriers/</guid>
       <description>&lt;h2 id=&#34;non-tariff-barriers-to-trade&#34;&gt;Non-tariff barriers to trade&lt;/h2&gt;
 &lt;p&gt;Until now, all the trade measures we have analyzed implied changes in the prices faced by consumers or producers.
 However, governments can also influence trade by means of non-tariff barriers which do not operate on prices.
@@ -763,7 +1363,27 @@ However, only $Q$ can be imported, and the remaining $D(p^w)-Q$ demand is served
 The relevant equilibrium price $p^\star$ equalises the residual demand with the local supply: firms that obtained the import rights have no interest in selling at a lower price.
 Thus, local demand is $D(p^\star)$.
 Graphically:
-&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Quota.png&#34; alt=&#34;Quota&#34;&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Quota.png&#34; alt=&#34;Quota&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 &lt;p&gt;The Figure above does directly represent the total welfare loss (dashed area), where we have already subtracted the benefits that accrue to quota-holders (dotted).
 The main difference between a quota and tariff is that, with a tariff, the proceedings revert to the government.
 However, with a quota, firms that import goods cash the difference between the world price ($p^w$) and the local price ($p^\star$).&lt;/p&gt;
@@ -774,12 +1394,52 @@ Nevertheless, the analysis changes once we consider dynamics effects and imperfe
 &lt;p&gt;Suppose that, for whatever reason, local demand increases.
 In the presence of tariff, very little happens: the world price remains unchanged (small country hypothesis), imports increase because of the rising demand, and the government revenue increases because of higher imports.
 If the increase in demand is a parallel shift, welfare losses remain unchanged.
-&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Demand_Shift.png&#34; alt=&#34;Demand_Shift&#34;&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Demand_Shift.png&#34; alt=&#34;Demand_Shift&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 &lt;p&gt;In contrast, a quota limits the quantity that can imported into the country.
 Therefore, when demand increases, the residual demand that is left to be served by local producers increases as well: the quota remained the same.
 Thus, the local price increases more than before, which further reduces consumers surplus.
 As we can see, the additional increase in producers&amp;rsquo; surplus does not completely compensate the harm done to consumers, and total welfare declines more than it would with a tariff.
-&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Demand_Shift_Quota.png&#34; alt=&#34;Demand_Shift_Quota&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Demand_Shift_Quota.png&#34; alt=&#34;Demand_Shift_Quota&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
 As mentioned, with the quota, the local price increases more when the demand shifts.&lt;/p&gt;
 &lt;p&gt;Summarizing, when a small country with an import tariff experinces an expanding demand, the welfare losses do not change.
 The only thing that changes is that improts increase, together with tariff income.
@@ -805,7 +1465,27 @@ Also, the monopolist has no interest in selling at a price lower than $p^w(1+\ta
 So, by opening the country to international trade, the monopoly lost it power, and it is forced to operate as if under perfect competition.
 &lt;strong&gt;Note:&lt;/strong&gt; in fact, we have Bertrant competition.
 Graphically, the situation is the same as for trade with a tariff:
-&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Monopoly_Tariff.png&#34; alt=&#34;Monopoly_Tariff&#34;&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Monopoly_Tariff.png&#34; alt=&#34;Monopoly_Tariff&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 &lt;p&gt;Now, suppose that we introduce a quota that is equivalent to the above tariff.
 With the quota in place, things are different.
 Since only few goods can enter the country, as determined by the quota, the residual demand will be served by the local producers: the monopoly.
@@ -813,9 +1493,29 @@ So, the monopoly will maximise its profits equating the marginal revenue to the 
 This implies a price that is higher than under perfect competition, and the quantity supplied is lower.
 Lastly, the firms that hold quota rights will sell the imports at the same price as the monopoly: selling above will lead to zero demand, while selling below does not maximize profits.
 In graphical terms:
-&lt;img src=&#34;https://eric-roca.github.io/img/international_trade/Monopoly_Quota.png&#34; alt=&#34;Monopoly_Quota&#34;&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://example.com/img/international_trade/Monopoly_Quota.png&#34; alt=&#34;Monopoly_Quota&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 &lt;h2 id=&#34;exercises&#34;&gt;Exercises&lt;/h2&gt;
-&lt;p&gt;Some &lt;a href=&#34;https://eric-roca.github.io/files/Exercises_Trade_Policy.pdf&#34;&gt;exercises&lt;/a&gt; to practice.&lt;/p&gt;
+&lt;p&gt;Some &lt;a href=&#34;https://example.com/files/Exercises_Trade_Policy.pdf&#34;&gt;exercises&lt;/a&gt; to practice.&lt;/p&gt;
 </description>
     </item>
     
